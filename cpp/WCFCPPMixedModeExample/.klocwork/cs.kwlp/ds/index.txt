@@ -1,0 +1,1 @@
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\HostMixedModeSvc\Program.cs;C:\Volatile\Source\cpp\WCFCPPMixedModeExample\.klocwork\cs.kwlp\ds\tqdik1le.fp5;1;0;0

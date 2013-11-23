@@ -1,0 +1,1 @@
+c:\Volatile\Source\cpp\HashMapTest\HashMapTest\HashMapTest.cpp;c:\volatile\source\cpp\HashMapTest\.klocwork\cpp.kwlp\ds\vgfkrdtc.xrh;1;0;0

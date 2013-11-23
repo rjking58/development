@@ -1,0 +1,43 @@
+﻿Build started 5/3/2012 2:58:15 PM.
+     1>Project "C:\Volatile\Source\cpp\TestTheTesting\TestProject1\TestProject1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TestProject1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DefaultTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DefaultTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AssemblyInfo.cpp UnitTest1.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(3): error C2653: 'System' : is not a class or namespace name
+     1>AssemblyInfo.cpp(3): error C2871: 'Reflection' : a namespace with this name does not exist
+     1>AssemblyInfo.cpp(4): error C2653: 'System' : is not a class or namespace name
+     1>AssemblyInfo.cpp(4): error C2871: 'CompilerServices' : a namespace with this name does not exist
+     1>AssemblyInfo.cpp(5): error C2653: 'System' : is not a class or namespace name
+     1>AssemblyInfo.cpp(5): error C2871: 'InteropServices' : a namespace with this name does not exist
+     1>AssemblyInfo.cpp(12): error C2337: 'AssemblyTitleAttribute' : attribute not found
+     1>AssemblyInfo.cpp(13): error C2337: 'AssemblyDescriptionAttribute' : attribute not found
+     1>AssemblyInfo.cpp(14): error C2337: 'AssemblyConfigurationAttribute' : attribute not found
+     1>AssemblyInfo.cpp(15): error C2337: 'AssemblyCompanyAttribute' : attribute not found
+     1>AssemblyInfo.cpp(16): error C2337: 'AssemblyProductAttribute' : attribute not found
+     1>AssemblyInfo.cpp(17): error C2337: 'AssemblyCopyrightAttribute' : attribute not found
+     1>AssemblyInfo.cpp(18): error C2337: 'AssemblyTrademarkAttribute' : attribute not found
+     1>AssemblyInfo.cpp(19): error C2337: 'AssemblyCultureAttribute' : attribute not found
+     1>AssemblyInfo.cpp(32): error C2337: 'AssemblyVersionAttribute' : attribute not found
+     1>AssemblyInfo.cpp(33): error C2337: 'ComVisible' : attribute not found
+         UnitTest1.cpp
+     1>UnitTest1.cpp(3): error C2871: 'System' : a namespace with this name does not exist
+     1>UnitTest1.cpp(4): error C2653: 'System' : is not a class or namespace name
+     1>UnitTest1.cpp(4): error C2871: 'Text' : a namespace with this name does not exist
+     1>UnitTest1.cpp(5): error C2653: 'System' : is not a class or namespace name
+     1>UnitTest1.cpp(5): error C2871: 'Generic' : a namespace with this name does not exist
+     1>UnitTest1.cpp(6): error C2653: 'Microsoft' : is not a class or namespace name
+     1>UnitTest1.cpp(6): error C2871: 'UnitTesting' : a namespace with this name does not exist
+     1>UnitTest1.cpp(10): error C2337: 'TestClass' : attribute not found
+     1>UnitTest1.cpp(11): error C2059: syntax error : 'public'
+     1>UnitTest1.cpp(12): error C2143: syntax error : missing ';' before '{'
+     1>UnitTest1.cpp(12): error C2447: '{' : missing function header (old-style formal list?)
+         Generating Code...
+     1>Done Building Project "C:\Volatile\Source\cpp\TestTheTesting\TestProject1\TestProject1.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.59

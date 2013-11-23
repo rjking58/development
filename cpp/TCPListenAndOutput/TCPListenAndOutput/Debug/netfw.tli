@@ -1,0 +1,1107 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (e71f9f6b).
+//
+// c:\gcs\source\cpp\tcplistenandoutput\tcplistenandoutput\debug\netfw.tli
+//
+// Wrapper implementations for Win32 type library /Dev/Mobile/Orbiter/Libraries/Microsoft/VistaSDK/Lib/netfw.tlb
+// compiler-generated file created 02/26/09 at 14:45:39 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface INetFwRemoteAdminSettings wrapper method implementations
+//
+
+inline enum NET_FW_IP_VERSION_ INetFwRemoteAdminSettings::GetIpVersion ( ) {
+    enum NET_FW_IP_VERSION_ _result;
+    HRESULT _hr = get_IpVersion(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRemoteAdminSettings::PutIpVersion ( enum NET_FW_IP_VERSION_ IpVersion ) {
+    HRESULT _hr = put_IpVersion(IpVersion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_SCOPE_ INetFwRemoteAdminSettings::GetScope ( ) {
+    enum NET_FW_SCOPE_ _result;
+    HRESULT _hr = get_Scope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRemoteAdminSettings::PutScope ( enum NET_FW_SCOPE_ Scope ) {
+    HRESULT _hr = put_Scope(Scope);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRemoteAdminSettings::GetRemoteAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemoteAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRemoteAdminSettings::PutRemoteAddresses ( _bstr_t remoteAddrs ) {
+    HRESULT _hr = put_RemoteAddresses(remoteAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwRemoteAdminSettings::GetEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Enabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRemoteAdminSettings::PutEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_Enabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetFwIcmpSettings wrapper method implementations
+//
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowOutboundDestinationUnreachable ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowOutboundDestinationUnreachable(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowOutboundDestinationUnreachable ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowOutboundDestinationUnreachable(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowRedirect ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowRedirect(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowRedirect ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowRedirect(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowInboundEchoRequest ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowInboundEchoRequest(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowInboundEchoRequest ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowInboundEchoRequest(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowOutboundTimeExceeded ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowOutboundTimeExceeded(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowOutboundTimeExceeded ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowOutboundTimeExceeded(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowOutboundParameterProblem ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowOutboundParameterProblem(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowOutboundParameterProblem ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowOutboundParameterProblem(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowOutboundSourceQuench ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowOutboundSourceQuench(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowOutboundSourceQuench ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowOutboundSourceQuench(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowInboundRouterRequest ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowInboundRouterRequest(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowInboundRouterRequest ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowInboundRouterRequest(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowInboundTimestampRequest ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowInboundTimestampRequest(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowInboundTimestampRequest ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowInboundTimestampRequest(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowInboundMaskRequest ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowInboundMaskRequest(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowInboundMaskRequest ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowInboundMaskRequest(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwIcmpSettings::GetAllowOutboundPacketTooBig ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_AllowOutboundPacketTooBig(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwIcmpSettings::PutAllowOutboundPacketTooBig ( VARIANT_BOOL allow ) {
+    HRESULT _hr = put_AllowOutboundPacketTooBig(allow);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetFwOpenPort wrapper method implementations
+//
+
+inline _bstr_t INetFwOpenPort::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwOpenPort::PutName ( _bstr_t Name ) {
+    HRESULT _hr = put_Name(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_IP_VERSION_ INetFwOpenPort::GetIpVersion ( ) {
+    enum NET_FW_IP_VERSION_ _result;
+    HRESULT _hr = get_IpVersion(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwOpenPort::PutIpVersion ( enum NET_FW_IP_VERSION_ IpVersion ) {
+    HRESULT _hr = put_IpVersion(IpVersion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_IP_PROTOCOL_ INetFwOpenPort::GetProtocol ( ) {
+    enum NET_FW_IP_PROTOCOL_ _result;
+    HRESULT _hr = get_Protocol(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwOpenPort::PutProtocol ( enum NET_FW_IP_PROTOCOL_ ipProtocol ) {
+    HRESULT _hr = put_Protocol(ipProtocol);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long INetFwOpenPort::GetPort ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Port(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwOpenPort::PutPort ( long portNumber ) {
+    HRESULT _hr = put_Port(portNumber);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_SCOPE_ INetFwOpenPort::GetScope ( ) {
+    enum NET_FW_SCOPE_ _result;
+    HRESULT _hr = get_Scope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwOpenPort::PutScope ( enum NET_FW_SCOPE_ Scope ) {
+    HRESULT _hr = put_Scope(Scope);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwOpenPort::GetRemoteAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemoteAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwOpenPort::PutRemoteAddresses ( _bstr_t remoteAddrs ) {
+    HRESULT _hr = put_RemoteAddresses(remoteAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwOpenPort::GetEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Enabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwOpenPort::PutEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_Enabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwOpenPort::GetBuiltIn ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_BuiltIn(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface INetFwOpenPorts wrapper method implementations
+//
+
+inline long INetFwOpenPorts::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetFwOpenPorts::Add ( struct INetFwOpenPort * Port ) {
+    HRESULT _hr = raw_Add(Port);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetFwOpenPorts::Remove ( long portNumber, enum NET_FW_IP_PROTOCOL_ ipProtocol ) {
+    HRESULT _hr = raw_Remove(portNumber, ipProtocol);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetFwOpenPortPtr INetFwOpenPorts::Item ( long portNumber, enum NET_FW_IP_PROTOCOL_ ipProtocol ) {
+    struct INetFwOpenPort * _result = 0;
+    HRESULT _hr = raw_Item(portNumber, ipProtocol, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwOpenPortPtr(_result, false);
+}
+
+inline IUnknownPtr INetFwOpenPorts::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface INetFwService wrapper method implementations
+//
+
+inline _bstr_t INetFwService::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline enum NET_FW_SERVICE_TYPE_ INetFwService::GetType ( ) {
+    enum NET_FW_SERVICE_TYPE_ _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL INetFwService::GetCustomized ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Customized(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum NET_FW_IP_VERSION_ INetFwService::GetIpVersion ( ) {
+    enum NET_FW_IP_VERSION_ _result;
+    HRESULT _hr = get_IpVersion(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwService::PutIpVersion ( enum NET_FW_IP_VERSION_ IpVersion ) {
+    HRESULT _hr = put_IpVersion(IpVersion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_SCOPE_ INetFwService::GetScope ( ) {
+    enum NET_FW_SCOPE_ _result;
+    HRESULT _hr = get_Scope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwService::PutScope ( enum NET_FW_SCOPE_ Scope ) {
+    HRESULT _hr = put_Scope(Scope);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwService::GetRemoteAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemoteAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwService::PutRemoteAddresses ( _bstr_t remoteAddrs ) {
+    HRESULT _hr = put_RemoteAddresses(remoteAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwService::GetEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Enabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwService::PutEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_Enabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetFwOpenPortsPtr INetFwService::GetGloballyOpenPorts ( ) {
+    struct INetFwOpenPorts * _result = 0;
+    HRESULT _hr = get_GloballyOpenPorts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwOpenPortsPtr(_result, false);
+}
+
+//
+// interface INetFwServices wrapper method implementations
+//
+
+inline long INetFwServices::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetFwServicePtr INetFwServices::Item ( enum NET_FW_SERVICE_TYPE_ svcType ) {
+    struct INetFwService * _result = 0;
+    HRESULT _hr = raw_Item(svcType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwServicePtr(_result, false);
+}
+
+inline IUnknownPtr INetFwServices::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface INetFwAuthorizedApplication wrapper method implementations
+//
+
+inline _bstr_t INetFwAuthorizedApplication::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwAuthorizedApplication::PutName ( _bstr_t Name ) {
+    HRESULT _hr = put_Name(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwAuthorizedApplication::GetProcessImageFileName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ProcessImageFileName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwAuthorizedApplication::PutProcessImageFileName ( _bstr_t imageFileName ) {
+    HRESULT _hr = put_ProcessImageFileName(imageFileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_IP_VERSION_ INetFwAuthorizedApplication::GetIpVersion ( ) {
+    enum NET_FW_IP_VERSION_ _result;
+    HRESULT _hr = get_IpVersion(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwAuthorizedApplication::PutIpVersion ( enum NET_FW_IP_VERSION_ IpVersion ) {
+    HRESULT _hr = put_IpVersion(IpVersion);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_SCOPE_ INetFwAuthorizedApplication::GetScope ( ) {
+    enum NET_FW_SCOPE_ _result;
+    HRESULT _hr = get_Scope(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwAuthorizedApplication::PutScope ( enum NET_FW_SCOPE_ Scope ) {
+    HRESULT _hr = put_Scope(Scope);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwAuthorizedApplication::GetRemoteAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemoteAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwAuthorizedApplication::PutRemoteAddresses ( _bstr_t remoteAddrs ) {
+    HRESULT _hr = put_RemoteAddresses(remoteAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwAuthorizedApplication::GetEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Enabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwAuthorizedApplication::PutEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_Enabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetFwAuthorizedApplications wrapper method implementations
+//
+
+inline long INetFwAuthorizedApplications::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetFwAuthorizedApplications::Add ( struct INetFwAuthorizedApplication * app ) {
+    HRESULT _hr = raw_Add(app);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetFwAuthorizedApplications::Remove ( _bstr_t imageFileName ) {
+    HRESULT _hr = raw_Remove(imageFileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetFwAuthorizedApplicationPtr INetFwAuthorizedApplications::Item ( _bstr_t imageFileName ) {
+    struct INetFwAuthorizedApplication * _result = 0;
+    HRESULT _hr = raw_Item(imageFileName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwAuthorizedApplicationPtr(_result, false);
+}
+
+inline IUnknownPtr INetFwAuthorizedApplications::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface INetFwRule wrapper method implementations
+//
+
+inline _bstr_t INetFwRule::GetName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Name(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutName ( _bstr_t Name ) {
+    HRESULT _hr = put_Name(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetDescription ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Description(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutDescription ( _bstr_t desc ) {
+    HRESULT _hr = put_Description(desc);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetApplicationName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_ApplicationName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutApplicationName ( _bstr_t imageFileName ) {
+    HRESULT _hr = put_ApplicationName(imageFileName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetserviceName ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_serviceName(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutserviceName ( _bstr_t serviceName ) {
+    HRESULT _hr = put_serviceName(serviceName);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long INetFwRule::GetProtocol ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Protocol(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutProtocol ( long Protocol ) {
+    HRESULT _hr = put_Protocol(Protocol);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetLocalPorts ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LocalPorts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutLocalPorts ( _bstr_t portNumbers ) {
+    HRESULT _hr = put_LocalPorts(portNumbers);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetRemotePorts ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemotePorts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutRemotePorts ( _bstr_t portNumbers ) {
+    HRESULT _hr = put_RemotePorts(portNumbers);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetLocalAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_LocalAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutLocalAddresses ( _bstr_t localAddrs ) {
+    HRESULT _hr = put_LocalAddresses(localAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetRemoteAddresses ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_RemoteAddresses(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutRemoteAddresses ( _bstr_t remoteAddrs ) {
+    HRESULT _hr = put_RemoteAddresses(remoteAddrs);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetIcmpTypesAndCodes ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_IcmpTypesAndCodes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutIcmpTypesAndCodes ( _bstr_t IcmpTypesAndCodes ) {
+    HRESULT _hr = put_IcmpTypesAndCodes(IcmpTypesAndCodes);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_RULE_DIRECTION_ INetFwRule::GetDirection ( ) {
+    enum NET_FW_RULE_DIRECTION_ _result;
+    HRESULT _hr = get_Direction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutDirection ( enum NET_FW_RULE_DIRECTION_ dir ) {
+    HRESULT _hr = put_Direction(dir);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t INetFwRule::GetInterfaces ( ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_Interfaces(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void INetFwRule::PutInterfaces ( const _variant_t & Interfaces ) {
+    HRESULT _hr = put_Interfaces(Interfaces);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetInterfaceTypes ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_InterfaceTypes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutInterfaceTypes ( _bstr_t InterfaceTypes ) {
+    HRESULT _hr = put_InterfaceTypes(InterfaceTypes);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwRule::GetEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_Enabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_Enabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _bstr_t INetFwRule::GetGrouping ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = get_Grouping(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}
+
+inline void INetFwRule::PutGrouping ( _bstr_t context ) {
+    HRESULT _hr = put_Grouping(context);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline long INetFwRule::GetProfiles ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Profiles(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutProfiles ( long profileTypesBitmask ) {
+    HRESULT _hr = put_Profiles(profileTypesBitmask);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwRule::GetEdgeTraversal ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_EdgeTraversal(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutEdgeTraversal ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_EdgeTraversal(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_ACTION_ INetFwRule::GetAction ( ) {
+    enum NET_FW_ACTION_ _result;
+    HRESULT _hr = get_Action(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwRule::PutAction ( enum NET_FW_ACTION_ Action ) {
+    HRESULT _hr = put_Action(Action);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+//
+// interface INetFwRules wrapper method implementations
+//
+
+inline long INetFwRules::GetCount ( ) {
+    long _result = 0;
+    HRESULT _hr = get_Count(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetFwRules::Add ( struct INetFwRule * rule ) {
+    HRESULT _hr = raw_Add(rule);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetFwRules::Remove ( _bstr_t Name ) {
+    HRESULT _hr = raw_Remove(Name);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline INetFwRulePtr INetFwRules::Item ( _bstr_t Name ) {
+    struct INetFwRule * _result = 0;
+    HRESULT _hr = raw_Item(Name, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwRulePtr(_result, false);
+}
+
+inline IUnknownPtr INetFwRules::Get_NewEnum ( ) {
+    IUnknown * _result = 0;
+    HRESULT _hr = get__NewEnum(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return IUnknownPtr(_result, false);
+}
+
+//
+// interface INetFwServiceRestriction wrapper method implementations
+//
+
+inline HRESULT INetFwServiceRestriction::RestrictService ( _bstr_t serviceName, _bstr_t appName, VARIANT_BOOL RestrictService, VARIANT_BOOL serviceSidRestricted ) {
+    HRESULT _hr = raw_RestrictService(serviceName, appName, RestrictService, serviceSidRestricted);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL INetFwServiceRestriction::ServiceRestricted ( _bstr_t serviceName, _bstr_t appName ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_ServiceRestricted(serviceName, appName, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline INetFwRulesPtr INetFwServiceRestriction::GetRules ( ) {
+    struct INetFwRules * _result = 0;
+    HRESULT _hr = get_Rules(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwRulesPtr(_result, false);
+}
+
+//
+// interface INetFwProfile wrapper method implementations
+//
+
+inline enum NET_FW_PROFILE_TYPE_ INetFwProfile::GetType ( ) {
+    enum NET_FW_PROFILE_TYPE_ _result;
+    HRESULT _hr = get_Type(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL INetFwProfile::GetFirewallEnabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_FirewallEnabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwProfile::PutFirewallEnabled ( VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_FirewallEnabled(Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwProfile::GetExceptionsNotAllowed ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_ExceptionsNotAllowed(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwProfile::PutExceptionsNotAllowed ( VARIANT_BOOL notAllowed ) {
+    HRESULT _hr = put_ExceptionsNotAllowed(notAllowed);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwProfile::GetNotificationsDisabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_NotificationsDisabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwProfile::PutNotificationsDisabled ( VARIANT_BOOL disabled ) {
+    HRESULT _hr = put_NotificationsDisabled(disabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwProfile::GetUnicastResponsesToMulticastBroadcastDisabled ( ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_UnicastResponsesToMulticastBroadcastDisabled(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwProfile::PutUnicastResponsesToMulticastBroadcastDisabled ( VARIANT_BOOL disabled ) {
+    HRESULT _hr = put_UnicastResponsesToMulticastBroadcastDisabled(disabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetFwRemoteAdminSettingsPtr INetFwProfile::GetRemoteAdminSettings ( ) {
+    struct INetFwRemoteAdminSettings * _result = 0;
+    HRESULT _hr = get_RemoteAdminSettings(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwRemoteAdminSettingsPtr(_result, false);
+}
+
+inline INetFwIcmpSettingsPtr INetFwProfile::GetIcmpSettings ( ) {
+    struct INetFwIcmpSettings * _result = 0;
+    HRESULT _hr = get_IcmpSettings(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwIcmpSettingsPtr(_result, false);
+}
+
+inline INetFwOpenPortsPtr INetFwProfile::GetGloballyOpenPorts ( ) {
+    struct INetFwOpenPorts * _result = 0;
+    HRESULT _hr = get_GloballyOpenPorts(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwOpenPortsPtr(_result, false);
+}
+
+inline INetFwServicesPtr INetFwProfile::GetServices ( ) {
+    struct INetFwServices * _result = 0;
+    HRESULT _hr = get_Services(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwServicesPtr(_result, false);
+}
+
+inline INetFwAuthorizedApplicationsPtr INetFwProfile::GetAuthorizedApplications ( ) {
+    struct INetFwAuthorizedApplications * _result = 0;
+    HRESULT _hr = get_AuthorizedApplications(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwAuthorizedApplicationsPtr(_result, false);
+}
+
+//
+// interface INetFwPolicy wrapper method implementations
+//
+
+inline INetFwProfilePtr INetFwPolicy::GetCurrentProfile ( ) {
+    struct INetFwProfile * _result = 0;
+    HRESULT _hr = get_CurrentProfile(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwProfilePtr(_result, false);
+}
+
+inline INetFwProfilePtr INetFwPolicy::GetProfileByType ( enum NET_FW_PROFILE_TYPE_ profileType ) {
+    struct INetFwProfile * _result = 0;
+    HRESULT _hr = raw_GetProfileByType(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwProfilePtr(_result, false);
+}
+
+//
+// interface INetFwPolicy2 wrapper method implementations
+//
+
+inline long INetFwPolicy2::GetCurrentProfileTypes ( ) {
+    long _result = 0;
+    HRESULT _hr = get_CurrentProfileTypes(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline VARIANT_BOOL INetFwPolicy2::GetFirewallEnabled ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_FirewallEnabled(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutFirewallEnabled ( enum NET_FW_PROFILE_TYPE2_ profileType, VARIANT_BOOL Enabled ) {
+    HRESULT _hr = put_FirewallEnabled(profileType, Enabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline _variant_t INetFwPolicy2::GetExcludedInterfaces ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    VARIANT _result;
+    VariantInit(&_result);
+    HRESULT _hr = get_ExcludedInterfaces(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _variant_t(_result, false);
+}
+
+inline void INetFwPolicy2::PutExcludedInterfaces ( enum NET_FW_PROFILE_TYPE2_ profileType, const _variant_t & Interfaces ) {
+    HRESULT _hr = put_ExcludedInterfaces(profileType, Interfaces);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwPolicy2::GetBlockAllInboundTraffic ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_BlockAllInboundTraffic(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutBlockAllInboundTraffic ( enum NET_FW_PROFILE_TYPE2_ profileType, VARIANT_BOOL Block ) {
+    HRESULT _hr = put_BlockAllInboundTraffic(profileType, Block);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwPolicy2::GetNotificationsDisabled ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_NotificationsDisabled(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutNotificationsDisabled ( enum NET_FW_PROFILE_TYPE2_ profileType, VARIANT_BOOL disabled ) {
+    HRESULT _hr = put_NotificationsDisabled(profileType, disabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwPolicy2::GetUnicastResponsesToMulticastBroadcastDisabled ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_UnicastResponsesToMulticastBroadcastDisabled(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutUnicastResponsesToMulticastBroadcastDisabled ( enum NET_FW_PROFILE_TYPE2_ profileType, VARIANT_BOOL disabled ) {
+    HRESULT _hr = put_UnicastResponsesToMulticastBroadcastDisabled(profileType, disabled);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline INetFwRulesPtr INetFwPolicy2::GetRules ( ) {
+    struct INetFwRules * _result = 0;
+    HRESULT _hr = get_Rules(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwRulesPtr(_result, false);
+}
+
+inline INetFwServiceRestrictionPtr INetFwPolicy2::GetServiceRestriction ( ) {
+    struct INetFwServiceRestriction * _result = 0;
+    HRESULT _hr = get_ServiceRestriction(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwServiceRestrictionPtr(_result, false);
+}
+
+inline HRESULT INetFwPolicy2::EnableRuleGroup ( long profileTypesBitmask, _bstr_t group, VARIANT_BOOL enable ) {
+    HRESULT _hr = raw_EnableRuleGroup(profileTypesBitmask, group, enable);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline VARIANT_BOOL INetFwPolicy2::IsRuleGroupEnabled ( long profileTypesBitmask, _bstr_t group ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = raw_IsRuleGroupEnabled(profileTypesBitmask, group, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetFwPolicy2::RestoreLocalFirewallDefaults ( ) {
+    HRESULT _hr = raw_RestoreLocalFirewallDefaults();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline enum NET_FW_ACTION_ INetFwPolicy2::GetDefaultInboundAction ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    enum NET_FW_ACTION_ _result;
+    HRESULT _hr = get_DefaultInboundAction(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutDefaultInboundAction ( enum NET_FW_PROFILE_TYPE2_ profileType, enum NET_FW_ACTION_ Action ) {
+    HRESULT _hr = put_DefaultInboundAction(profileType, Action);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline enum NET_FW_ACTION_ INetFwPolicy2::GetDefaultOutboundAction ( enum NET_FW_PROFILE_TYPE2_ profileType ) {
+    enum NET_FW_ACTION_ _result;
+    HRESULT _hr = get_DefaultOutboundAction(profileType, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline void INetFwPolicy2::PutDefaultOutboundAction ( enum NET_FW_PROFILE_TYPE2_ profileType, enum NET_FW_ACTION_ Action ) {
+    HRESULT _hr = put_DefaultOutboundAction(profileType, Action);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+}
+
+inline VARIANT_BOOL INetFwPolicy2::GetIsRuleGroupCurrentlyEnabled ( _bstr_t group ) {
+    VARIANT_BOOL _result = 0;
+    HRESULT _hr = get_IsRuleGroupCurrentlyEnabled(group, &_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline enum NET_FW_MODIFY_STATE_ INetFwPolicy2::GetLocalPolicyModifyState ( ) {
+    enum NET_FW_MODIFY_STATE_ _result;
+    HRESULT _hr = get_LocalPolicyModifyState(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+//
+// interface INetFwMgr wrapper method implementations
+//
+
+inline INetFwPolicyPtr INetFwMgr::GetLocalPolicy ( ) {
+    struct INetFwPolicy * _result = 0;
+    HRESULT _hr = get_LocalPolicy(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return INetFwPolicyPtr(_result, false);
+}
+
+inline enum NET_FW_PROFILE_TYPE_ INetFwMgr::GetCurrentProfileType ( ) {
+    enum NET_FW_PROFILE_TYPE_ _result;
+    HRESULT _hr = get_CurrentProfileType(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _result;
+}
+
+inline HRESULT INetFwMgr::RestoreDefaults ( ) {
+    HRESULT _hr = raw_RestoreDefaults();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetFwMgr::IsPortAllowed ( _bstr_t imageFileName, enum NET_FW_IP_VERSION_ IpVersion, long portNumber, _bstr_t localAddress, enum NET_FW_IP_PROTOCOL_ ipProtocol, VARIANT * allowed, VARIANT * restricted ) {
+    HRESULT _hr = raw_IsPortAllowed(imageFileName, IpVersion, portNumber, localAddress, ipProtocol, allowed, restricted);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT INetFwMgr::IsIcmpTypeAllowed ( enum NET_FW_IP_VERSION_ IpVersion, _bstr_t localAddress, unsigned char Type, VARIANT * allowed, VARIANT * restricted ) {
+    HRESULT _hr = raw_IsIcmpTypeAllowed(IpVersion, localAddress, Type, allowed, restricted);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

@@ -1,0 +1,5 @@
+C:\Development\SOURCE\cpp\ThreadingNative\CallObjectMethodFromThreadTest_CSharp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\ThreadingNative\CallObjectMethodFromThreadTest_CSharp\bin\Debug\CallObjectMethodFromThreadTest_CSharp.exe
+C:\Development\SOURCE\cpp\ThreadingNative\CallObjectMethodFromThreadTest_CSharp\bin\Debug\CallObjectMethodFromThreadTest_CSharp.pdb
+C:\Development\SOURCE\cpp\ThreadingNative\CallObjectMethodFromThreadTest_CSharp\obj\x86\Debug\CallObjectMethodFromThreadTest_CSharp.exe
+C:\Development\SOURCE\cpp\ThreadingNative\CallObjectMethodFromThreadTest_CSharp\obj\x86\Debug\CallObjectMethodFromThreadTest_CSharp.pdb

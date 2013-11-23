@@ -1,0 +1,27 @@
+[Global]
+CurrentProject=MultiThread1.vpj
+[ProjectDates]
+MultiThread1.dsp=19990516234026000
+[ActiveConfig]
+MultiThread1.vpj=,"CFG=MultiThread1 - Win32 Debug"
+[TreeExpansion]
+MultiThread1.dsp 1 1 0 0 0 0
+[State]
+SCREEN: 1024 768 110 110 768 537 0 0 M 0 0 0 0 732 478
+CWD: ..\MultiThread1
+BUFFER: BN="G:\DirectX8SDK\DXF\DXSDK\bin\dxsetenv.bat"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Batch	HM=0 MF=512 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 380 179 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="G:\DirectX8SDK\DXF\DXSDK\bin\dxsetenv.bat"
+VIEW: LN=.519 CL=14 LE=0 CX=13 CY=19 WI=126 BI=22 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\work\meetingnotes10112002.txt
+G:\UT2003\KarmaData\Bot.ka
+G:\UT2003\Benchmark\botmatch-all.bat
+..\sieve\Sieve.cpp
+MainFrm.cpp
+\WINDOWS\Prefetch\HL.EXE-33BF78EE.pf
+\WINDOWS\SIERRA.INI
+\halfLife\registry\hl.reg
+G:\DirectX8SDK\DXF\DXSDK\bin\dxsetenv.bat

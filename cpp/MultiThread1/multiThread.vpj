@@ -1,0 +1,66 @@
+[COMPILER]
+INCLUDEDIRS=%(INCLUDE)
+compile=concur|capture|:Compile:&Compile,nmake %n.obj
+make=concur|capture|:Build:&Build,nmake
+rebuild=concur|capture|:Rebuild:&Rebuild,nmake /A
+debug=:Debug:&Debug,msdev multiThread.exe
+execute=:Execute:E&xecute,multiThread.exe
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+usertool_resource_editor=hide|:Resource Editor:Resource Editor,msdev
+workingdir=
+includedirs=%(INCLUDE)
+tagfiles=
+reffile=
+MACRO=\n
+FILTEREXPANSION=0 0 0 0 0
+[ASSOCIATION]
+[FILES]
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MainFrm.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MainFrm.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiDialog.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiDialog.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\multiThread.vpj
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\multiThread.vtg
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.aps
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.clw
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.dsp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.dsw
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.ncb
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.opt
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.plg
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.rc
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.vpj
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.vtg
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1.zip
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1Doc.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1Doc.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1View.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\MultiThread1View.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\ReadMe.txt
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\resource.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\StdAfx.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\StdAfx.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\ThreadFunc.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\ThreadFunc.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\threadstarter.h
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\TreadDiag.cpp
+C:\volatile\source\cprogs\cpp\vcpp\multithread1\TreadDiag.h
+[STATE]
+SCREEN: 1024 768 256 203 768 537 0 0 M 0 0 0 0 777 470
+CWD: C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1
+FILEHIST: 9
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\MAINFRM.CPP
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\MAINFRM.H
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\RESOURCE.H
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\STDAFX.CPP
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\STDAFX.H
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\tracer2.cpp
+C:\volatile\source\cprogs\cpp\vcpp\gamesdkstuff\gdk1_2\tracer2.h
+C:\DXSDK\samples\Multimedia\DirectDraw\SpriteAnimate\spriteanimate.cpp
+c:\DXSDK\include\basetsd.h
+PRINTER: 2
+
+

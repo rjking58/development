@@ -1,0 +1,18 @@
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp25B.tmp  create -sd c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\cpp.kwps -pd c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\cpp.kwlp -b c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\temp\kw249.tmp
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp49D.tmp  set -pd c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp681.tmp  run --verbose -F quiet -j auto --always-on -pd c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\cpp.kwlp -b c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\temp\kw249.tmp @c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\temp\kw24A.tmp
+Mon Jul 02 16:42:22 PDT 2012: Running build preparation stage...
+Mon Jul 02 16:42:22 PDT 2012: Build preparation stage completed
+Mon Jul 02 16:42:22 PDT 2012: Running compilation stage...
+Unable to compile 'c:\Volatile\Source\cpp\MultiReaderMultiWriterLock\MultiReaderMultiWriterLock\MultiReaderMultiWriterLock.cpp'
+Mon Jul 02 16:42:22 PDT 2012: Compilation stage completed
+Mon Jul 02 16:42:22 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: c:\volatile\source\cpp\MultiReaderMultiWriterLock\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 16:42:22.771

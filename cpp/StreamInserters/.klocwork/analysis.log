@@ -1,0 +1,222 @@
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp43D7.tmp  create -sd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwps -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp -b C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw43A6.tmp
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp4657.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp484C.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp -b C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw43A6.tmp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw43A7.tmp
+Thu Jun 28 14:42:52 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:42:52 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:42:52 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:42:52 PDT 2012: Compilation stage completed
+Thu Jun 28 14:42:52 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:42:52.777
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp2A72.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp2C08.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw2A51.tmp
+Thu Jun 28 14:43:50 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:43:50 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:43:50 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:43:50 PDT 2012: Compilation stage completed
+Thu Jun 28 14:43:50 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:43:51.125
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp98D.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpB23.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw96C.tmp
+Thu Jun 28 14:44:47 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:44:47 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:44:48 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:44:48 PDT 2012: Compilation stage completed
+Thu Jun 28 14:44:48 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+Error occurred during build: Linking stage failed. Program exited with 1
+             
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:44:48.295
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp5F8B.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp6160.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw5F7B.tmp
+Thu Jun 28 14:45:09 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:45:09 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:45:10 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:45:10 PDT 2012: Compilation stage completed
+Thu Jun 28 14:45:10 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:45:10.363
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp82E6.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp84DB.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw82C6.tmp
+Thu Jun 28 14:45:18 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:45:19 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:45:19 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:45:19 PDT 2012: Compilation stage completed
+Thu Jun 28 14:45:19 PDT 2012: Running linking stage...
+             
+1 error(s) and 0 warning(s)
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:45:19.893
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpC95B.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpCB21.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kwC93B.tmp
+Thu Jun 28 14:45:36 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:45:37 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:45:37 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:45:38 PDT 2012: Compilation stage completed
+Thu Jun 28 14:45:38 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:45:38.431
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp1397.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp152E.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw1377.tmp
+Thu Jun 28 14:48:07 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:48:07 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:48:07 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:48:07 PDT 2012: Compilation stage completed
+Thu Jun 28 14:48:07 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:48:07.546
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp98A1.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp9A66.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw9881.tmp
+Thu Jun 28 14:48:41 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:48:41 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:48:41 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:48:41 PDT 2012: Compilation stage completed
+Thu Jun 28 14:48:41 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:48:41.601
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp4863.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp4A28.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw4843.tmp
+Thu Jun 28 14:51:37 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:51:37 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:51:37 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:51:37 PDT 2012: Compilation stage completed
+Thu Jun 28 14:51:37 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:51:37.529
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDCF7.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDEBC.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kwDCE6.tmp
+Thu Jun 28 14:52:15 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:52:15 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:52:15 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:52:15 PDT 2012: Compilation stage completed
+Thu Jun 28 14:52:15 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:52:15.626
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp2D1C.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp2F01.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw2D0B.tmp
+Thu Jun 28 14:53:41 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:53:41 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:53:41 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:53:42 PDT 2012: Compilation stage completed
+Thu Jun 28 14:53:42 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:53:42.696
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp96BA.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp98AE.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kw96A9.tmp
+Thu Jun 28 14:54:08 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:54:08 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:54:08 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:54:09 PDT 2012: Compilation stage completed
+Thu Jun 28 14:54:09 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:54:09.636
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpBFEF.tmp  set -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpC1B4.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\StreamInserters\.klocwork\temp\kwBFCE.tmp
+Thu Jun 28 14:55:24 PDT 2012: Running build preparation stage...
+Thu Jun 28 14:55:24 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:55:24 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Thu Jun 28 14:55:25 PDT 2012: Compilation stage completed
+Thu Jun 28 14:55:25 PDT 2012: Running linking stage...
+1 error(s) and 0 warning(s)
+             
+Error occurred during build: Linking stage failed. Program exited with 1
+Build contains errors, build.log file can be found here: C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\build.log
+Compilation with build specification failed
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.28 14:55:25.804

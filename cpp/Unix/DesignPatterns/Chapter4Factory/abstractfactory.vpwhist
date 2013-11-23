@@ -1,0 +1,34 @@
+[Global]
+CurrentProject=abstractfactory.vpj
+[ProjectDates]
+abstractfactory.vpj=20070103141719433
+[ActiveConfig]
+abstractfactory.vpj=,Debug
+[TreeExpansion]
+abstractfactory.vpj 0
+[State]
+SCREEN: 1280 1024 44 44 960 710 0 0 M 0 0 0 0 1006 633
+CWD: ..\..\..\..\Management1\MappingWizardProject
+BUFFER: BN="..\..\..\..\Management1\MappingWizardProject\MappingWizComments.txt"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=1
+VIEW: LN=.109 CL=8 LE=0 CX=7 CY=5 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\..\..\..\Management1\MappingWizardProject\MappingPreviewComments.txt"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=0 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=512 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=23 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 808 435 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="..\..\..\..\Management1\MappingWizardProject\MappingPreviewComments.txt"
+VIEW: LN=.132 CL=68 LE=0 CX=67 CY=5 WI=126 BI=23 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+xx
+..\..\..\..\RSM\RulesetManagerVerification\DSWGDataCreationStep1.sql
+..\..\..\..\RSM\RulesetManagerVerification\DSWGDataCreationStep2.sql
+..\..\..\..\Management1\OneOffReport\oneOff.sql
+..\..\..\..\WORD\js\rs05012006.txt
+..\..\..\..\ccedev\src\ofsabase\fcststub.lcc
+..\..\..\..\ccedev\src\engdb\fcstdb.lcc
+..\..\..\..\Management1\MappingWizardProject\MappingWizComments.txt
+..\..\..\..\Management1\MappingWizardProject\MappingPreviewComments.txt
+DEBUG: 0 0 0 0 3
+printf
+strcpy
+std::*

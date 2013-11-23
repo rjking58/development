@@ -1,0 +1,45 @@
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  RETARG  1:$$=$1
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  xNPD
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  NPD.SRC
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  1:$1
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPcount</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:$1-><id>std::basic_ios<char,std::char_traits<char> >::_Tiestr</id>-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:$1-><id>std::basic_ios<char,std::char_traits<char> >::_Tiestr</id>-><id>std::ios_base::_Mystate</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  1:*$1
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  R  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPcount</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:$1-><id>std::ios_base::_Mystate</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Mylock</id>.<id>std::_Mutex::_Mtx</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Tiestr</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Gfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Pfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IGfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Gnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Pnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IGnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IGcount</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPcount</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_Plocale</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:*$1-><id>std::basic_ios<char,std::char_traits<char> >::_Tiestr</id>-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:**$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IGfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:**$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPfirst</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:**$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IGnext</id>
+std::endl  ,std::basic_ostream<char,std::char_traits<char>\ >&,  W  env:**$1-><id>std::basic_ios<char,std::char_traits<char> >::_Mystrbuf</id>-><id>std::basic_streambuf<char,std::char_traits<char> >::_IPnext</id>
+wmain  ,int,wchar_t*[]const\ ,  RET  1:EQ(0)
+wmain  ,int,wchar_t*[]const\ ,  DMEM  ,MRF,2
+wmain  ,int,wchar_t*[]const\ ,  xNPD
+wmain  ,int,wchar_t*[]const\ ,  NPD.SRC
+wmain  ,int,wchar_t*[]const\ ,  R  dummy
+std::make_error_code  ,std::io_errc::io_errc,  RETARG  1:$$.<id>std::error_code::_Myval</id>=$1
+std::make_error_code  ,std::io_errc::io_errc,  xNPD
+std::make_error_code  ,std::io_errc::io_errc,  NPD.SRC
+std::make_error_code  ,std::io_errc::io_errc,  R  dummy
+new  ,unsigned\ int,void*,  DMEM  ,NMRF,2
+new  ,unsigned\ int,void*,  RETARG  1:$$=$2
+new  ,unsigned\ int,void*,  xNPD
+new  ,unsigned\ int,void*,  NPD.SRC
+new  ,unsigned\ int,void*,  R  dummy

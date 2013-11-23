@@ -1,0 +1,8 @@
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\bin\Debug\HostProg.exe.config
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\bin\Debug\HostProg.exe
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\bin\Debug\HostProg.pdb
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\bin\Debug\WCFExampleCPP.dll
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\bin\Debug\WCFExampleCPP.pdb
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\obj\x86\Debug\HostProg.exe
+C:\Development\SOURCE\cpp\WCFExampleCPP\HostProg\obj\x86\Debug\HostProg.pdb

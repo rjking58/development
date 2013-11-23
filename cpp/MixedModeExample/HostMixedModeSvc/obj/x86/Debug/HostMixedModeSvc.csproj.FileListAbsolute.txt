@@ -1,0 +1,8 @@
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\bin\Debug\HostMixedModeSvc.exe
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\bin\Debug\HostMixedModeSvc.pdb
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\bin\Debug\MixedModeExample.dll
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\bin\Debug\MixedModeExample.pdb
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\obj\x86\Debug\HostMixedModeSvc.exe
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\obj\x86\Debug\HostMixedModeSvc.pdb
+C:\Development\SOURCE\cpp\MixedModeExample\HostMixedModeSvc\bin\Debug\HostMixedModeSvc.exe.config

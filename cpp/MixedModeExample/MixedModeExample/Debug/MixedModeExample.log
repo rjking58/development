@@ -1,0 +1,7 @@
+﻿  CLRCallerTest.cpp
+  EvalService.cpp
+  Generating Code...
+  MixedModeExample.cpp
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+     Creating library C:\Development\SOURCE\cpp\MixedModeExample\Debug\MixedModeExample.lib and object C:\Development\SOURCE\cpp\MixedModeExample\Debug\MixedModeExample.exp
+  MixedModeExample.vcxproj -> C:\Development\SOURCE\cpp\MixedModeExample\Debug\MixedModeExample.dll

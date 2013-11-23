@@ -1,0 +1,14 @@
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\bin\Debug\CallDoSubmitTest.exe
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\bin\Debug\CallDoSubmitTest.pdb
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\obj\x86\Debug\CallDoSubmitTest.exe
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\obj\x86\Debug\CallDoSubmitTest.pdb
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\bin\Debug\MixedModeExample.dll
+C:\Development\SOURCE\cpp\MixedModeExample\CallDoSubmitTest\bin\Debug\MixedModeExample.pdb
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\bin\Debug\CallDoSubmitTest.exe
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\bin\Debug\CallDoSubmitTest.pdb
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\bin\Debug\MixedModeExample.dll
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\bin\Debug\MixedModeExample.pdb
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\obj\x86\Debug\CallDoSubmitTest.exe
+C:\Volatile\Source\cpp\WCFCPPMixedModeExample\CallDoSubmitTest\obj\x86\Debug\CallDoSubmitTest.pdb

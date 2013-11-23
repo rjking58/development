@@ -1,0 +1,21 @@
+[Global]
+CurrentProject=freakout.vpj
+[ProjectDates]
+freakout.vpj=20040208225304000
+[ActiveConfig]
+freakout.vpj=,Release
+[TreeExpansion]
+freakout.vpj 0
+[State]
+SCREEN: 1024 768 66 87 768 530 0 0 M 0 0 0 0 729 506
+CWD: C:\Documents and Settings\Richard\My Documents\My Visual SlickEdit Config\tagfiles
+FILEHIST: 9
+..\..\..\isometric\fstrTracer.h
+..\..\..\isometric\chap_3\IsoHex3_1.trc
+..\..\..\isometric\chap_3\chap_3.cpp
+..\..\..\isometric\chap3_2\IsoHex3_2.trc
+..\..\..\isometric\chap3_2\chap_3_2.cpp
+C:\Program Files\Microsoft Visual Studio .NET 2003\Vc7\crt\src\iostream
+blackbox.h
+freakout.cpp
+blackbox.cpp

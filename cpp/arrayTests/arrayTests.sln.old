@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrayTests", "arrayTests.vcproj", "{10AEA01C-977C-4282-B13C-18B8EF807576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10AEA01C-977C-4282-B13C-18B8EF807576}.Debug|Win32.ActiveCfg = Debug|Win32
+		{10AEA01C-977C-4282-B13C-18B8EF807576}.Debug|Win32.Build.0 = Debug|Win32
+		{10AEA01C-977C-4282-B13C-18B8EF807576}.Release|Win32.ActiveCfg = Release|Win32
+		{10AEA01C-977C-4282-B13C-18B8EF807576}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

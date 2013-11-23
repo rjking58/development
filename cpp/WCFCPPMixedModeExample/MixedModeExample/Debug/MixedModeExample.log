@@ -1,0 +1,39 @@
+﻿Build started 1/4/2013 10:20:43 AM.
+     1>Project "C:\Volatile\Source\cpp\WCFCPPMixedModeExample\MixedModeExample\MixedModeExample.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\MixedModeExample.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\MixedModeExample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Runtime.Serialization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.ServiceModel.dll" /analyze- /errorReport:prompt CLRCallerTest.cpp Eval.cpp EvalService.cpp IEvalService.cpp /clr:nostdlib 
+         CLRCallerTest.cpp
+         Eval.cpp
+         EvalService.cpp
+         IEvalService.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt MixedModeExample.cpp /clr:nostdlib 
+         MixedModeExample.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale(323): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MixedModeExample.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\CLRCallerTest.obj
+         Debug\Eval.obj
+         Debug\EvalService.obj
+         Debug\IEvalService.obj
+         Debug\MixedModeExample.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.lib and object C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.exp
+         MixedModeExample.vcxproj -> C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Volatile\Source\cpp\WCFCPPMixedModeExample\Debug\MixedModeExample.dll;#2" /manifest Debug\MixedModeExample.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MixedModeExample.unsuccessfulbuild".
+         Touching "Debug\MixedModeExample.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Source\cpp\WCFCPPMixedModeExample\MixedModeExample\MixedModeExample.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.16

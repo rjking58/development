@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinDbgLearn", "WinDbgLearn\WinDbgLearn.vcxproj", "{365C8F21-2E13-42AD-A695-3A38B8979146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{365C8F21-2E13-42AD-A695-3A38B8979146}.Debug|Win32.ActiveCfg = Debug|Win32
+		{365C8F21-2E13-42AD-A695-3A38B8979146}.Debug|Win32.Build.0 = Debug|Win32
+		{365C8F21-2E13-42AD-A695-3A38B8979146}.Release|Win32.ActiveCfg = Release|Win32
+		{365C8F21-2E13-42AD-A695-3A38B8979146}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

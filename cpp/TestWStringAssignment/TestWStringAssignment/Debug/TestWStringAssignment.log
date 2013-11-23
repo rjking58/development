@@ -1,0 +1,764 @@
+﻿Build started 10/22/2012 10:35:28 AM.
+Environment at start of build:
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+LOCALAPPDATA = C:\Users\richard.king\AppData\Local
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\richard.king\AppData\Roaming
+ATRIA_FORCE_GUI = 1
+BPADir = C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\
+CLASSPATH = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest\cqjni.jar
+CLEARCASE_BEGIN_SERIES = 1
+CLEARCASE_BRTYPE = RJK.ArchSvcDev_DisconnectHunt_10172012
+CLEARCASE_ELTYPE = text_file
+CLEARCASE_END_SERIES = 1
+CLEARCASE_GROUPS = CORP\sgwwdevccusers
+CLEARCASE_ID_STR = \main\DevMain-Branch\RJK.ArchSvcDev_DisconnectHunt_10172012\5
+CLEARCASE_MTYPE = version
+CLEARCASE_OP_KIND = checkin
+CLEARCASE_PN = W:\ArchSvcDev\src\MXDataServer\MxDataConsumer\MxDataConsumer.UnitTest\MxDataConsumer.UnitTest.vcxproj.ccexclude
+CLEARCASE_PPID = 4604
+CLEARCASE_PRIMARY_GROUP = CORP\sgwwdevccusers
+CLEARCASE_RESERVED = 1
+CLEARCASE_SERIES_ID = 6ca5cc8b.46774704.b227.2e:de:19:61:ed:46
+CLEARCASE_TRTYPE_KIND = post-operation
+CLEARCASE_USER = Richard.King
+CLEARCASE_VIEW_KIND = dynamic
+CLEARCASE_VIEW_TAG = RJK.ArchSvcDev_DisconnectHunt_10172012
+CLEARCASE_VOB_PN = \ArchSvcDev
+CLEARCASE_XN_SFX = @@
+CLEARCASE_XPN = W:\ArchSvcDev\src\MXDataServer\MxDataConsumer\MxDataConsumer.UnitTest\MxDataConsumer.UnitTest.vcxproj.ccexclude@@\main\DevMain-Branch\RJK.ArchSvcDev_DisconnectHunt_10172012\5
+CLEARQUEST_HOME = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest
+CodedUITestCurrentBrowser = IE
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPLUS_LoadFromRemoteSources = 1
+COMPUTERNAME = RICHARDK01
+ComSpec = C:\Windows\system32\cmd.exe
+CORECLR_ENABLE_PROFILING = 1
+CORECLR_PROFILER = {F1216318-0905-4fe8-B2E8-105CEB7CD689}
+COR_SL_PATHS = C:\Volatile\Source\cpp\TestWStringAssignment\Debug;
+CQCLI_BIN_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin
+CQCLI_CLASSPATH = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\config;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\lib\cqcli.jar;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqjni.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\stpcmmn.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\stpwvcm.jar;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\stpcq.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\java\icu\icu4j-3_8_1.jar
+CQCLI_CONFIG_DIR = C:\Program Files (x86)\IBM\RationalSDLC\clearquest\cqcli\config
+CQCLI_DOC_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\doc
+CQCLI_ERR_LEVEL = 1
+CQCLI_HOME = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest\cqcli
+CQCLI_LIB_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\lib
+CQCLI_MAN_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\doc\man
+CQCLI_PATH = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest;C:\Program Files (x86)\IBM\RationalSDLC\Common;C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre\bin;C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre\bin\classic;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin
+DEFLOGDIR = C:\ProgramData\McAfee\DesktopProtection
+envsdk_regkey = 9.0;10.0;9.0;10.0
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\richard.king
+IBMLDAP_ALTHOME = C:\Program Files (x86)\IBM\RationalSDLC\common\codeset
+include = C:\Program Files (x86)\Microsoft Visual Studio\VC98\atl\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\include
+JRE_HOME = C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre
+lib = C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\lib;C:\Program Files (x86)\Microsoft Visual Studio\VC98\lib
+LOGONSERVER = \\INVSLKFWDC02
+MSDevDir = C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98
+NUMBER_OF_PROCESSORS = 6
+OS = Windows_NT
+Path = C:\Klocwork\User 9.5\bin;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x86;C:\Program Files\Code Collaborator Client;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files (x86)\Notepad++\plugins\gtagfornplus
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PERL_INLINE_JAVA_JNI = 1
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2c02
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+RATIONAL_COMMON = C:\Program Files (x86)\IBM\RationalSDLC\Common
+RATIONAL_COMMON_LIB = C:\Program Files (x86)\IBM\RationalSDLC\Common\lib
+RATIONAL_HOME = C:\Program Files (x86)\IBM\RationalSDLC
+RATIONAL_ICU4J_DIR = C:\Program Files (x86)\IBM\RationalSDLC\common\java\icu
+RATIONAL_ICU4J_VERSION = 3_8_1
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\RICHAR~1.KIN\AppData\Local\Temp
+TFSPowerToolDir = C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\
+TISDIR = C:\Program Files (x86)\IBM\RationalSDLC\common
+TMP = C:\Users\RICHAR~1.KIN\AppData\Local\Temp
+USERDNSDOMAIN = CORP.COM
+USERDOMAIN = CORP
+USERNAME = Richard.King
+USERPROFILE = C:\Users\richard.king
+VisualStudioDir = C:\Users\richard.king\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS90COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+VSEDEFLOGDIR = C:\ProgramData\McAfee\DesktopProtection
+windir = C:\Windows
+_NT_SYMBOL_PATH = C:\windbgSymbols
+__COMPAT_LAYER = 
+
+10:35:28.395     1>Project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" on node 2 (build target(s)).
+10:35:28.395     1>Building with tools version "4.0".
+10:35:28.395     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Volatile\Source\cpp\TestWStringAssignment\Debug\' != '' and !HasTrailingSlash('C:\Volatile\Source\cpp\TestWStringAssignment\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+10:35:28.398     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "TestWStringAssignment.vcxproj".: (TargetId:2)
+10:35:28.398     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:28.399     1>Done building target "_DetermineManagedStateFromCL" in project "TestWStringAssignment.vcxproj".: (TargetId:3)
+10:35:28.399     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:28.399     1>Done building target "_PrepareForBuild" in project "TestWStringAssignment.vcxproj".: (TargetId:4)
+10:35:28.399     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:4)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Klocwork\User 9.5\bin;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x86;C:\Program Files\Code Collaborator Client;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files (x86)\Notepad++\plugins\gtagfornplus; (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:5)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+10:35:28.403     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "TestWStringAssignment.vcxproj".: (TargetId:5)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:35:28.403     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ResolveReferences" depends on it):
+10:35:28.403     1>Done building target "BeforeResolveReferences" in project "TestWStringAssignment.vcxproj".: (TargetId:6)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+10:35:28.403     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+10:35:28.403     1>Done building target "_SplitProjectReferencesByFileExistence" in project "TestWStringAssignment.vcxproj".: (TargetId:7)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+10:35:28.403     1>Target "ResolveProjectReferences: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+10:35:28.404     1>Done building target "ResolveProjectReferences" in project "TestWStringAssignment.vcxproj".: (TargetId:8)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+                   Target "ResolveAssemblyReferences" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:35:28.404     1>Target "AfterResolveReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ResolveReferences" depends on it):
+10:35:28.404     1>Done building target "AfterResolveReferences" in project "TestWStringAssignment.vcxproj".: (TargetId:9)
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+                   Target "MolesGenerateBeforeBuild" skipped, due to false condition; (@(Moles) != '' AND '$(BuildingProject)' == 'true') was evaluated as ( != '' AND 'true' == 'true').
+10:35:28.404     1>Target "ResolveReferences: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:28.404     1>Done building target "ResolveReferences" in project "TestWStringAssignment.vcxproj".: (TargetId:10)
+10:35:28.404     1>Target "PlatformPrepareForBuild: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:35:28.404     1>Done building target "PlatformPrepareForBuild" in project "TestWStringAssignment.vcxproj".: (TargetId:11)
+10:35:28.404     1>Target "GetFrameworkPaths: (TargetId:12)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareForBuild" depends on it):
+10:35:28.404     1>Done building target "GetFrameworkPaths" in project "TestWStringAssignment.vcxproj".: (TargetId:12)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:35:28.404     1>Target "GetReferenceAssemblyPaths: (TargetId:13)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:35:28.404     1>Done building target "GetReferenceAssemblyPaths" in project "TestWStringAssignment.vcxproj".: (TargetId:13)
+10:35:28.404     1>Target "PrepareForBuild: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:8)
+                   Done executing task "MakeDir". (TaskId:8)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+10:35:28.405     1>Done building target "PrepareForBuild" in project "TestWStringAssignment.vcxproj".: (TargetId:14)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:35:28.405     1>Target "InitializeBuildStatus: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:10)
+                   Done executing task "ReadLinesFromFile". (TaskId:10)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:11)
+                   Done executing task "WriteLinesToFile". (TaskId:11)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:12)
+                     Creating "Debug\TestWStringAssignment.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:12)
+                   Done executing task "Touch". (TaskId:12)
+10:35:28.415     1>Done building target "InitializeBuildStatus" in project "TestWStringAssignment.vcxproj".: (TargetId:15)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:28.415     1>Target "BuildGenerateSourcesTraverse: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+10:35:28.416     1>Done building target "BuildGenerateSourcesTraverse" in project "TestWStringAssignment.vcxproj".: (TargetId:16)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:28.416     1>Target "BeforeBuildGenerateSources: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "BeforeBuildGenerateSources" in project "TestWStringAssignment.vcxproj".: (TargetId:17)
+10:35:28.416     1>Target "PreBuildEvent: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:35:28.416     1>Done building target "PreBuildEvent" in project "TestWStringAssignment.vcxproj".: (TargetId:18)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:35:28.416     1>Target "_GenerateXMLData: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "_GenerateXMLData" in project "TestWStringAssignment.vcxproj".: (TargetId:19)
+10:35:28.416     1>Target "_GenerateWebServiceProxy: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "_GenerateWebServiceProxy" in project "TestWStringAssignment.vcxproj".: (TargetId:20)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:35:28.416     1>Target "_Xsd: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "_Xsd" in project "TestWStringAssignment.vcxproj".: (TargetId:21)
+10:35:28.416     1>Target "MakeDirsForMidl: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:13)
+                   Done executing task "Makedir". (TaskId:13)
+10:35:28.416     1>Done building target "MakeDirsForMidl" in project "TestWStringAssignment.vcxproj".: (TargetId:22)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:35:28.416     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Midl" depends on it):
+10:35:28.416     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:23)
+10:35:28.416     1>Target "AfterMidl: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Midl" depends on it):
+10:35:28.416     1>Done building target "AfterMidl" in project "TestWStringAssignment.vcxproj".: (TargetId:24)
+10:35:28.416     1>Target "_Midl: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "_Midl" in project "TestWStringAssignment.vcxproj".: (TargetId:25)
+10:35:28.416     1>Target "AfterBuildGenerateSources: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "AfterBuildGenerateSources" in project "TestWStringAssignment.vcxproj".: (TargetId:26)
+10:35:28.416     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:28.416     1>Done building target "AfterBuildGenerateSourcesEvent" in project "TestWStringAssignment.vcxproj".: (TargetId:27)
+10:35:28.416     1>Target "BuildGenerateSources: (TargetId:28)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:28.416     1>Done building target "BuildGenerateSources" in project "TestWStringAssignment.vcxproj".: (TargetId:28)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:28.417     1>Target "BuildCompileTraverse: (TargetId:29)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+10:35:28.417     1>Done building target "BuildCompileTraverse" in project "TestWStringAssignment.vcxproj".: (TargetId:29)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:28.417     1>Target "BeforeClCompile: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+10:35:28.417     1>Done building target "BeforeClCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:30)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:35:28.417     1>Target "ComputeCLInputPDBName: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+10:35:28.417     1>Done building target "ComputeCLInputPDBName" in project "TestWStringAssignment.vcxproj".: (TargetId:31)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:28.417     1>Target "ComputeReferenceCLInput: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; (('@(ProjectReference)'!='' or '@(Reference)'!='')) was evaluated as ((''!='' or ''!='')).
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and 'true' != 'false' and 'true' != '').
+10:35:28.417     1>Done building target "ComputeReferenceCLInput" in project "TestWStringAssignment.vcxproj".: (TargetId:32)
+10:35:28.417     1>Target "MakeDirsForCl: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:14)
+                   Done executing task "MakeDir". (TaskId:14)
+10:35:28.418     1>Done building target "MakeDirsForCl" in project "TestWStringAssignment.vcxproj".: (TargetId:33)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:35:28.418     1>Target "_SelectedFiles: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "SelectClCompile" depends on it):
+10:35:28.418     1>Done building target "_SelectedFiles" in project "TestWStringAssignment.vcxproj".: (TargetId:34)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+10:35:28.418     1>Target "SelectCustomBuild: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "SelectClCompile" depends on it):
+10:35:28.418     1>Done building target "SelectCustomBuild" in project "TestWStringAssignment.vcxproj".: (TargetId:35)
+10:35:28.418     1>Target "SelectClCompile: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ClCompile" depends on it):
+10:35:28.418     1>Done building target "SelectClCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:36)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:28.418     1>Target "GenerateTargetFrameworkMonikerAttribute: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ClCompile" depends on it):
+                   Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+                   Input files: C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Microsoft.BuildSteps.targets
+                   Output files: C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+10:35:28.419     1>Done building target "GenerateTargetFrameworkMonikerAttribute" in project "TestWStringAssignment.vcxproj".: (TargetId:37)
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:28.419     1>Target "ManagedIncrementalBuildPreProcessDependencyGraph: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ClCompile" depends on it):
+                   Using "MIBPreProcessDependencyGraph" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MIBPreProcessDependencyGraph" (TaskId:15)
+                   Done executing task "MIBPreProcessDependencyGraph". (TaskId:15)
+10:35:28.426     1>Done building target "ManagedIncrementalBuildPreProcessDependencyGraph" in project "TestWStringAssignment.vcxproj".: (TargetId:38)
+10:35:28.426     1>Target "ClCompile: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('ProgramDatabase' != '' and 'ProgramDatabase' != 'OldStyle' and 'Debug\vc100.pdb' != '' and !Exists(Debug\vc100.pdb)).
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('ProgramDatabase' != '' and 'ProgramDatabase' != 'OldStyle' and 'Debug\vc100.pdb' != '' and !Exists(Debug\vc100.pdb)).
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:16)
+                     Using cached input dependency table built from: (TaskId:16)
+                     	C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug\cl.read.1.tlog (TaskId:16)
+                     Outputs for C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\STDAFX.CPP: (TaskId:16)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\STDAFX.OBJ (TaskId:16)
+                     All outputs are up-to-date. (TaskId:16)
+                   Done executing task "CL". (TaskId:16)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('Use' == 'Create' and ''!='true').
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('Create' != 'Create' and ''!='true').
+                   Task "CL" (TaskId:17)
+                     Using cached input dependency table built from: (TaskId:17)
+                     	C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug\cl.read.1.tlog (TaskId:17)
+                     Outputs for C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT.CPP: (TaskId:17)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ (TaskId:17)
+                     C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.cpp was modified at 10/22/2012 10:35:28 AM. (TaskId:17)
+                     TestWStringAssignment.cpp will be compiled. (TaskId:17)
+                     Using cached output dependency table built from: (TaskId:17)
+                     	C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug\cl.write.1.tlog (TaskId:17)
+                     Environment Variables passed to tool: (TaskId:17)
+                       VS_UNICODE_OUTPUT=1428 (TaskId:17)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestWStringAssignment.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt TestWStringAssignment.cpp /clr:nostdlib  (TaskId:17)
+                     Tracking command: (TaskId:17)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug /r C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT.CPP /b MSBuildConsole_CancelEvent181abd536c094a52ada0ffea4a529a71  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\TestWStringAssignment.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt TestWStringAssignment.cpp /clr:nostdlib  (TaskId:17)
+                     TestWStringAssignment.cpp (TaskId:17)
+                   Done executing task "CL". (TaskId:17)
+                   Task "CL" (TaskId:18)
+                     Read Tracking Logs: (TaskId:18)
+                     	Debug\cl.read.1.tlog (TaskId:18)
+                     Outputs for C:\USERS\RICHARD.KING\APPDATA\LOCAL\TEMP\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.CPP: (TaskId:18)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ (TaskId:18)
+                     All outputs are up-to-date. (TaskId:18)
+                   Done executing task "CL". (TaskId:18)
+10:35:30.345     1>Done building target "ClCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:39)
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:30.345     1>Target "ManagedIncrementalBuildPostProcessDependencyGraph: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+                   Using "MIBPostProcessDependencyGraph" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MIBPostProcessDependencyGraph" (TaskId:19)
+                   Done executing task "MIBPostProcessDependencyGraph". (TaskId:19)
+10:35:30.376     1>Done building target "ManagedIncrementalBuildPostProcessDependencyGraph" in project "TestWStringAssignment.vcxproj".: (TargetId:40)
+10:35:30.376     1>Target "AfterClCompile: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ClCompile" depends on it):
+10:35:30.376     1>Done building target "AfterClCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:41)
+10:35:30.376     1>Target "_ClCompile: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildCompile" depends on it):
+10:35:30.376     1>Done building target "_ClCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:42)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+10:35:30.376     1>Target "BeforeResourceCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ResourceCompile" depends on it):
+10:35:30.376     1>Done building target "BeforeResourceCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:43)
+10:35:30.376     1>Target "MakeDirsForResourceCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:20)
+                   Done executing task "MakeDir". (TaskId:20)
+10:35:30.377     1>Done building target "MakeDirsForResourceCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:44)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+10:35:30.377     1>Target "AfterResourceCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_ResourceCompile" depends on it):
+10:35:30.377     1>Done building target "AfterResourceCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:45)
+10:35:30.377     1>Target "_ResourceCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildCompile" depends on it):
+10:35:30.377     1>Done building target "_ResourceCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:46)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+10:35:30.377     1>Target "AfterBuildCompileEvent: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildCompile" depends on it):
+10:35:30.377     1>Done building target "AfterBuildCompileEvent" in project "TestWStringAssignment.vcxproj".: (TargetId:47)
+10:35:30.377     1>Target "BuildCompile: (TargetId:48)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:30.377     1>Done building target "BuildCompile" in project "TestWStringAssignment.vcxproj".: (TargetId:48)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:30.377     1>Target "BuildLinkTraverse: (TargetId:49)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+10:35:30.377     1>Done building target "BuildLinkTraverse" in project "TestWStringAssignment.vcxproj".: (TargetId:49)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:30.377     1>Target "BeforeLink: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.377     1>Done building target "BeforeLink" in project "TestWStringAssignment.vcxproj".: (TargetId:50)
+10:35:30.377     1>Target "ComputeRCOutputs: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+10:35:30.377     1>Done building target "ComputeRCOutputs" in project "TestWStringAssignment.vcxproj".: (TargetId:51)
+10:35:30.377     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.377     1>Done building target "ComputeRCGeneratedLinkInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:52)
+10:35:30.377     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.377     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:53)
+10:35:30.377     1>Target "ComputeCustomBuildOutput: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+10:35:30.378     1>Done building target "ComputeCustomBuildOutput" in project "TestWStringAssignment.vcxproj".: (TargetId:54)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+10:35:30.378     1>Target "ComputeCLOutputs: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+10:35:30.383     1>Done building target "ComputeCLOutputs" in project "TestWStringAssignment.vcxproj".: (TargetId:55)
+10:35:30.383     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.384     1>Done building target "ComputeCLGeneratedLinkInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:56)
+10:35:30.384     1>Target "ComputeLinkInputsFromProject: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.384     1>Done building target "ComputeLinkInputsFromProject" in project "TestWStringAssignment.vcxproj".: (TargetId:57)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+10:35:30.384     1>Target "ComputeManifestInputsTargets: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.384     1>Done building target "ComputeManifestInputsTargets" in project "TestWStringAssignment.vcxproj".: (TargetId:58)
+                   Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK') was evaluated as ('MT' == 'LINK').
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+10:35:30.384     1>Target "AssignTargetPaths: (TargetId:59)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:22)
+                   Done executing task "AssignTargetPath". (TaskId:22)
+                   Task "AssignTargetPath" (TaskId:23)
+                   Done executing task "AssignTargetPath". (TaskId:23)
+                   Task "AssignTargetPath" (TaskId:24)
+                   Done executing task "AssignTargetPath". (TaskId:24)
+                   Task "AssignTargetPath" (TaskId:25)
+                   Done executing task "AssignTargetPath". (TaskId:25)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.txt'=='.manifest').
+10:35:30.385     1>Done building target "AssignTargetPaths" in project "TestWStringAssignment.vcxproj".: (TargetId:59)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+10:35:30.385     1>Target "SplitResourcesByCulture: (TargetId:60)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:26)
+                   Done executing task "AssignCulture". (TaskId:26)
+10:35:30.385     1>Done building target "SplitResourcesByCulture" in project "TestWStringAssignment.vcxproj".: (TargetId:60)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+10:35:30.386     1>Target "CreateCustomManifestResourceNames: (TargetId:61)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "PrepareResourceNames" depends on it):
+10:35:30.386     1>Done building target "CreateCustomManifestResourceNames" in project "TestWStringAssignment.vcxproj".: (TargetId:61)
+10:35:30.386     1>Target "PrepareResourceNames: (TargetId:62)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:30.386     1>Done building target "PrepareResourceNames" in project "TestWStringAssignment.vcxproj".: (TargetId:62)
+10:35:30.386     1>Target "MakeDirsForLink: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:27)
+                   Done executing task "MakeDir". (TaskId:27)
+10:35:30.386     1>Done building target "MakeDirsForLink" in project "TestWStringAssignment.vcxproj".: (TargetId:63)
+10:35:30.386     1>Target "DoLinkOutputFilesMatch: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe' != 'C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('.exe' != '.exe').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('TestWStringAssignment' != 'TestWStringAssignment').
+10:35:30.387     1>Done building target "DoLinkOutputFilesMatch" in project "TestWStringAssignment.vcxproj".: (TargetId:64)
+10:35:30.387     1>Target "PreLinkEvent: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+10:35:30.387     1>Done building target "PreLinkEvent" in project "TestWStringAssignment.vcxproj".: (TargetId:65)
+10:35:30.387     1>Target "Link: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Link" (TaskId:28)
+                     Write Tracking Logs: (TaskId:28)
+                     	Debug\link.write.1.tlog (TaskId:28)
+                     	Debug\link.5052.write.1.tlog (TaskId:28)
+                     	Debug\link.5156.write.1.tlog (TaskId:28)
+                     	Debug\link.5400.write.1.tlog (TaskId:28)
+                     	Debug\link.6948.write.1.tlog (TaskId:28)
+                     	Debug\link.7188.write.1.tlog (TaskId:28)
+                     	Debug\link.7268.write.1.tlog (TaskId:28)
+                     	Debug\link.7284.write.1.tlog (TaskId:28)
+                     	Debug\link.7484.write.1.tlog (TaskId:28)
+                     	Debug\link.7600.write.1.tlog (TaskId:28)
+                     	Debug\link.7772.write.1.tlog (TaskId:28)
+                     	Debug\link.8008.write.1.tlog (TaskId:28)
+                     Read Tracking Logs: (TaskId:28)
+                     	Debug\link.read.1.tlog (TaskId:28)
+                     	Debug\link.5052.read.1.tlog (TaskId:28)
+                     	Debug\link.5156.read.1.tlog (TaskId:28)
+                     	Debug\link.5400.read.1.tlog (TaskId:28)
+                     	Debug\link.6948.read.1.tlog (TaskId:28)
+                     	Debug\link.7188.read.1.tlog (TaskId:28)
+                     	Debug\link.7268.read.1.tlog (TaskId:28)
+                     	Debug\link.7284.read.1.tlog (TaskId:28)
+                     	Debug\link.7484.read.1.tlog (TaskId:28)
+                     	Debug\link.7600.read.1.tlog (TaskId:28)
+                     	Debug\link.7772.read.1.tlog (TaskId:28)
+                     	Debug\link.8008.read.1.tlog (TaskId:28)
+                     Outputs for C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\STDAFX.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ: (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.ILK (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.EXE (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.EXE.INTERMEDIATE.MANIFEST (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.PDB (TaskId:28)
+                     Inputs for C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\STDAFX.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ: (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\KERNEL32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\USER32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\GDI32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\WINSPOOL.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\COMDLG32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ADVAPI32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\SHELL32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\OLE32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\OLEAUT32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\UUID.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ODBC32.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\ODBCCP32.LIB (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\STDAFX.OBJ (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ (TaskId:28)
+                     	C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ (TaskId:28)
+                     	C:\WINDOWS\SYSTEM32\TZRES.DLL (TaskId:28)
+                     	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\LINK.EXE (TaskId:28)
+                     	C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V1.1.4322\MSCORWKS.DLL (TaskId:28)
+                     	C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V2.0.50727\MSCORWKS.DLL (TaskId:28)
+                     	C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\CLR.DLL (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\LINK.EXE.CONFIG (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\MSVCRTD.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\OLDNAMES.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\MSVCMRTD.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT SDKS\WINDOWS\V7.0A\LIB\MSCOREE.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\MSVCPRTD.LIB (TaskId:28)
+                     	C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\LIB\COMSUPPWD.LIB (TaskId:28)
+                     Source compilation required: input C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ is newer than output C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.ILK. (TaskId:28)
+                     Environment Variables passed to tool: (TaskId:28)
+                       VS_UNICODE_OUTPUT=1300 (TaskId:28)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestWStringAssignment.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\stdafx.obj
+                     Debug\TestWStringAssignment.obj
+                     "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj" (TaskId:28)
+                     Tracking command: (TaskId:28)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug /r "C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\STDAFX.OBJ|C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.OBJ" /b MSBuildConsole_CancelEvent062250be683242a5952246c7cf339183  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestWStringAssignment.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\stdafx.obj
+                     Debug\TestWStringAssignment.obj
+                     "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj" (TaskId:28)
+                   Done executing task "Link". (TaskId:28)
+                   Task "Message" (TaskId:29)
+                     TestWStringAssignment.vcxproj -> C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe (TaskId:29)
+                   Done executing task "Message". (TaskId:29)
+10:35:31.087     1>Done building target "Link" in project "TestWStringAssignment.vcxproj".: (TargetId:66)
+10:35:31.087     1>Target "_DetermineManagedStateForLink: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:31.087     1>Done building target "_DetermineManagedStateForLink" in project "TestWStringAssignment.vcxproj".: (TargetId:67)
+10:35:31.087     1>Target "ComputeMetaGenInputs: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "MetaGenInputsOutputs" depends on it):
+                   Task "Delete" skipped, due to false condition; ('$(OutputAssemblyMetagenFile)' != '' and '$(ConsumeAnyMetaAssembly)' == 'false' and Exists('$(OutputAssemblyMetagenFile)')) was evaluated as ('C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe.metagen' != '' and 'true' == 'false' and Exists('C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe.metagen')).
+10:35:31.087     1>Done building target "ComputeMetaGenInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:68)
+10:35:31.087     1>Target "MetaGenInputsOutputs: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:31.087     1>Done building target "MetaGenInputsOutputs" in project "TestWStringAssignment.vcxproj".: (TargetId:69)
+10:35:31.087     1>Target "MetaGen: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Building target "MetaGen" completely.
+                   Input file "C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe" is newer than output file "Debug\\metagen.write.1.tlog".
+                   Using "METAGEN" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "METAGEN" (TaskId:30)
+                   Done executing task "METAGEN". (TaskId:30)
+10:35:31.170     1>Done building target "MetaGen" in project "TestWStringAssignment.vcxproj".: (TargetId:70)
+10:35:31.170     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+10:35:31.170     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "TestWStringAssignment.vcxproj".: (TargetId:71)
+10:35:31.170     1>Target "AfterLink: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Link" depends on it):
+10:35:31.170     1>Done building target "AfterLink" in project "TestWStringAssignment.vcxproj".: (TargetId:72)
+10:35:31.170     1>Target "_Link: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.170     1>Done building target "_Link" in project "TestWStringAssignment.vcxproj".: (TargetId:73)
+10:35:31.170     1>Target "_ALink: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.170     1>Done building target "_ALink" in project "TestWStringAssignment.vcxproj".: (TargetId:74)
+                   Target "ComputeManifestInputsTargets" skipped. Previously built successfully.
+10:35:31.170     1>Target "MakeDirsForManifest: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Manifest" depends on it):
+                   Task "MakeDir" (TaskId:31)
+                   Done executing task "MakeDir". (TaskId:31)
+10:35:31.170     1>Done building target "MakeDirsForManifest" in project "TestWStringAssignment.vcxproj".: (TargetId:75)
+10:35:31.170     1>Target "Manifest: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_Manifest" depends on it):
+                   Task "Delete" skipped, due to false condition; (('$(BuildType)' != 'Build' or '$(ForceRebuild)' == 'true') and '$(EmbedManifestby)'=='LINK') was evaluated as (('Build' != 'Build' or '' == 'true') and 'MT'=='LINK').
+                   Using "Mt" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Mt" (TaskId:32)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe;#1" /manifest Debug\TestWStringAssignment.exe.intermediate.manifest (TaskId:32)
+                     Tracking command: (TaskId:32)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\Debug /r C:\VOLATILE\SOURCE\CPP\TESTWSTRINGASSIGNMENT\TESTWSTRINGASSIGNMENT\DEBUG\TESTWSTRINGASSIGNMENT.EXE.INTERMEDIATE.MANIFEST /b MSBuildConsole_CancelEvent82e2d178d6134deaa0b60bdc9dc7aecc  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe"  /nologo /verbose /outputresource:"C:\Volatile\Source\cpp\TestWStringAssignment\Debug\TestWStringAssignment.exe;#1" /manifest Debug\TestWStringAssignment.exe.intermediate.manifest (TaskId:32)
+                   Done executing task "Mt". (TaskId:32)
+                   Task "RC" skipped, due to false condition; ('$(EmbedManifestby)'=='LINK') was evaluated as ('MT'=='LINK').
+10:35:31.450     1>Done building target "Manifest" in project "TestWStringAssignment.vcxproj".: (TargetId:76)
+                   Target "ComputeManifestGeneratedLinkerInputs" skipped. Previously built successfully.
+10:35:31.450     1>Target "_Manifest: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.450     1>Done building target "_Manifest" in project "TestWStringAssignment.vcxproj".: (TargetId:77)
+10:35:31.450     1>Target "RegisterOutput: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('Application'=='Application' and 'false'=='true' and 'false'=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+10:35:31.451     1>Done building target "RegisterOutput" in project "TestWStringAssignment.vcxproj".: (TargetId:78)
+10:35:31.451     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_XdcMake" depends on it):
+10:35:31.451     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "TestWStringAssignment.vcxproj".: (TargetId:79)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:31.451     1>Target "ResolvedXDCMake: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+10:35:31.451     1>Done building target "ResolvedXDCMake" in project "TestWStringAssignment.vcxproj".: (TargetId:80)
+10:35:31.451     1>Target "MakeDirsForXdcMake: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:33)
+                   Done executing task "MakeDir". (TaskId:33)
+10:35:31.451     1>Done building target "MakeDirsForXdcMake" in project "TestWStringAssignment.vcxproj".: (TargetId:81)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+10:35:31.451     1>Target "_XdcMake: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.451     1>Done building target "_XdcMake" in project "TestWStringAssignment.vcxproj".: (TargetId:82)
+10:35:31.451     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_BscMake" depends on it):
+10:35:31.451     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "TestWStringAssignment.vcxproj".: (TargetId:83)
+10:35:31.451     1>Target "MakeDirsForBscMake: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:34)
+                   Done executing task "MakeDir". (TaskId:34)
+10:35:31.451     1>Done building target "MakeDirsForBscMake" in project "TestWStringAssignment.vcxproj".: (TargetId:84)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:35:31.452     1>Target "_BscMake: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.452     1>Done building target "_BscMake" in project "TestWStringAssignment.vcxproj".: (TargetId:85)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+10:35:31.452     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:86)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+10:35:31.452     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "TestWStringAssignment.vcxproj".: (TargetId:86)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+10:35:31.452     1>Target "CreateSatelliteAssemblies: (TargetId:87)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.452     1>Done building target "CreateSatelliteAssemblies" in project "TestWStringAssignment.vcxproj".: (TargetId:87)
+10:35:31.452     1>Target "_Appverifier: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.452     1>Done building target "_Appverifier" in project "TestWStringAssignment.vcxproj".: (TargetId:88)
+10:35:31.452     1>Target "_Deploy: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+10:35:31.452     1>Done building target "_Deploy" in project "TestWStringAssignment.vcxproj".: (TargetId:89)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:31.452     1>Target "GetCopyToOutputDirectoryItems: (TargetId:90)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:35)
+                   Done executing task "AssignTargetPath". (TaskId:35)
+10:35:31.453     1>Done building target "GetCopyToOutputDirectoryItems" in project "TestWStringAssignment.vcxproj".: (TargetId:90)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+10:35:31.453     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:91)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:35:31.453     1>Done building target "_CopySourceItemsToOutputDirectory" in project "TestWStringAssignment.vcxproj".: (TargetId:91)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+10:35:31.453     1>Target "_CheckForCompileOutputs: (TargetId:92)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:35:31.453     1>Done building target "_CheckForCompileOutputs" in project "TestWStringAssignment.vcxproj".: (TargetId:92)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+10:35:31.453     1>Target "CopyFilesToOutputDirectory: (TargetId:93)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyBuildProduct)'!='true') was evaluated as ('true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+10:35:31.454     1>Done building target "CopyFilesToOutputDirectory" in project "TestWStringAssignment.vcxproj".: (TargetId:93)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:35:31.454     1>Target "PostBuildEvent: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:35:31.454     1>Done building target "PostBuildEvent" in project "TestWStringAssignment.vcxproj".: (TargetId:94)
+10:35:31.454     1>Target "BuildLink: (TargetId:95)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:31.454     1>Done building target "BuildLink" in project "TestWStringAssignment.vcxproj".: (TargetId:95)
+10:35:31.454     1>Target "AfterBuild: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+10:35:31.454     1>Done building target "AfterBuild" in project "TestWStringAssignment.vcxproj".: (TargetId:96)
+10:35:31.454     1>Target "FinalizeBuildStatus: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (target "Build" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:36)
+                     Deleting file "Debug\TestWStringAssignment.unsuccessfulbuild". (TaskId:36)
+                   Done executing task "Delete". (TaskId:36)
+                   Task "Touch" (TaskId:37)
+                     Touching "Debug\TestWStringAssignment.lastbuildstate". (TaskId:37)
+                   Done executing task "Touch". (TaskId:37)
+10:35:31.457     1>Done building target "FinalizeBuildStatus" in project "TestWStringAssignment.vcxproj".: (TargetId:97)
+10:35:31.457     1>Target "Build: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (entry point):
+10:35:31.457     1>Done building target "Build" in project "TestWStringAssignment.vcxproj".: (TargetId:98)
+10:35:31.457     1>Done Building Project "C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj" (build target(s)).
+
+Project Performance Summary:
+     3062 ms  C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.vcxproj   1 calls
+               3062 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeMetaGenInputs                       1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  MetaGenInputsOutputs                       1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  MakeDirsForManifest                        1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  Build                                      1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _DetermineManagedStateForLink              1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        1 ms  BuildGenerateSourcesTraverse               1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  CopyFilesToOutputDirectory                 1 calls
+        1 ms  MakeDirsForResourceCompile                 1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  ComputeCLGeneratedLinkInputs               1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  GenerateTargetFrameworkMonikerAttribute    1 calls
+        1 ms  RegisterOutput                             1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  _DetermineManagedStateFromCL               1 calls
+        3 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        3 ms  FinalizeBuildStatus                        1 calls
+        4 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        5 ms  ComputeCLOutputs                           1 calls
+        7 ms  ManagedIncrementalBuildPreProcessDependencyGraph   1 calls
+       10 ms  InitializeBuildStatus                      1 calls
+       31 ms  ManagedIncrementalBuildPostProcessDependencyGraph   1 calls
+       83 ms  MetaGen                                    1 calls
+      280 ms  Manifest                                   1 calls
+      700 ms  Link                                       1 calls
+     1919 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  AssignTargetPath                           5 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  AssignCulture                              1 calls
+        1 ms  Message                                    3 calls
+        1 ms  MakeDir                                   10 calls
+        1 ms  Delete                                     1 calls
+        3 ms  Touch                                      2 calls
+        4 ms  SetEnv                                     4 calls
+        7 ms  MIBPreProcessDependencyGraph               1 calls
+        8 ms  WriteLinesToFile                           1 calls
+       31 ms  MIBPostProcessDependencyGraph              1 calls
+       82 ms  METAGEN                                    1 calls
+      279 ms  Mt                                         1 calls
+      698 ms  Link                                       1 calls
+     1915 ms  CL                                         3 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:03.06

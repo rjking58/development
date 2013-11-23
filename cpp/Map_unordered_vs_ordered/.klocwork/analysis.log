@@ -1,0 +1,20 @@
+------ Analyze started: ProjectConfiguration: Debug|Win32 ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpD554.tmp  create -sd C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwps -pd C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp -b C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\temp\kwD533.tmp
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpD8A0.tmp  set -pd C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDB11.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp -b C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\temp\kwD533.tmp @C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\temp\kwD534.tmp
+Fri Jun 29 17:03:01 PDT 2012: Running build preparation stage...
+Fri Jun 29 17:03:01 PDT 2012: Build preparation stage completed
+Fri Jun 29 17:03:02 PDT 2012: Running compilation stage...
+1> Compiling C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\stdafx.cpp
+2> Compiling C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\Map_unordered_vs_ordered.cpp
+Fri Jun 29 17:03:05 PDT 2012: Compilation stage completed
+Fri Jun 29 17:03:05 PDT 2012: Running C/C++ defects detection stage...
+1> Analyzing c:\volatile\source\cpp\map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\stdafx.cpp_0.o
+2> Analyzing c:\volatile\source\cpp\map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\map_unordered_vs_ordered.cpp_1.o
+Fri Jun 29 17:03:09 PDT 2012: C/C++ defects detection stage completed
+Fri Jun 29 17:03:09 PDT 2012: Running linking stage...
+Fri Jun 29 17:03:09 PDT 2012: Linking stage completed
+Analysis is complete.
+Klocwork analysis complete.
+---------------------------
+Analysis finished 2012.06.29 17:03:11.563

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InnerClassTest", "InnerClassTest\InnerClassTest.vcproj", "{948ED3C1-29AD-4CCB-AC73-D43CE9791C45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{948ED3C1-29AD-4CCB-AC73-D43CE9791C45}.Debug|Win32.ActiveCfg = Debug|Win32
+		{948ED3C1-29AD-4CCB-AC73-D43CE9791C45}.Debug|Win32.Build.0 = Debug|Win32
+		{948ED3C1-29AD-4CCB-AC73-D43CE9791C45}.Release|Win32.ActiveCfg = Release|Win32
+		{948ED3C1-29AD-4CCB-AC73-D43CE9791C45}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

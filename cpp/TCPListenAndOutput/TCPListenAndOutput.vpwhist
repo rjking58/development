@@ -1,0 +1,45 @@
+[Global]
+CurrentProject=TCPListenAndOutput\TCPListenAndOutput.vpj
+[ActiveConfig]
+TCPListenAndOutput\TCPListenAndOutput.vpj=,Debug
+[ProjectDates]
+TCPListenAndOutput\TCPListenAndOutput.vcproj=20090226142424309
+[TreeExpansion]
+TCPListenAndOutput\TCPListenAndOutput.vcproj 1 1 0 0 0 0
+[State]
+SCREEN: 1680 1050 23 23 1260 746 0 0 M 0 0 0 0 1406 794
+CWD: \Dev\Mobile\ProfileManagerBranch\Source Code
+BUFFER: BN="..\nUnitTest\UnManagedDLLTests\UnManagedDLLTests.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.176 CL=10 LE=0 CX=9 CY=12 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\nUnitTest\UnManagedDLLTests\UnManagedDLLTests.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.358 CL=32 LE=0 CX=31 CY=18 WI=5 BI=67 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\nUnitTest\UnManagedDLL\UnManagedDLL.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=66 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\nUnitTest\UnManagedDLL\ExportDefines.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.257 CL=7 LE=0 CX=6 CY=11 WI=5 BI=65 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\SMProfileManager.def"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=64 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\SMProfileManager.vcproj"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=XML	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.5282 CL=50 LE=0 CX=49 CY=50 WI=5 BI=63 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="TCPListenAndOutput\TCPListenAndOutput.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1762 CL=1 LE=0 CX=0 CY=11 WI=5 BI=62 HT=0 HN=0 HF=0 HC=4
+WINDOW: 23 23 1153 541 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="TCPListenAndOutput\TCPListenAndOutput.cpp"
+VIEW: LN=.2322 CL=24 LE=0 CX=23 CY=17 WI=139 BI=62 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\nUnitTest\UnManagedDLLTests\UnManagedDLLTests.cpp
+\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\UnitTests\ProfileManagerUnitTests\ProfileManagerUnitTests.cpp
+\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\UnitTests\ProfileManagerUnitTests\ProfileManagerUnitTests.h
+TCPListenAndOutput.sln
+\Dev\Mobile\Orbiter\StephenBranch\ProfileManager FSM\FSM.vcproj.EXCHANGE.rking.user
+\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\SMProfileManager.def
+\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\SMProfileManager.vcproj
+TCPListenAndOutput\TCPListenAndOutput.cpp
+\Users\Public\Dell\UCM\SMManager.txt

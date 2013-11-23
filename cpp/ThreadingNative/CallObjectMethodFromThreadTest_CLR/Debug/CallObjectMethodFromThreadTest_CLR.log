@@ -1,0 +1,9 @@
+﻿c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(96): error C2872: 'IServiceProvider' : ambiguous symbol
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(96): error C3699: '*' : cannot use this indirection on type 'IServiceProvider'
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(103): error C2371: 'IServiceProvider' : redefinition; different basic types
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(120): error C2872: 'IServiceProvider' : ambiguous symbol
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(241): error C2872: 'IServiceProvider' : ambiguous symbol
+c:\program files (x86)\microsoft sdks\windows\v7.0a\include\servprov.h(251): error C2872: 'IServiceProvider' : ambiguous symbol
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.h(6459): error C2872: 'IServiceProvider' : ambiguous symbol
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\urlmon.h(6461): error C2872: 'IServiceProvider' : ambiguous symbol
+CallObjectMethodFromThreadTest_CLR.cpp(163): error C2084: function 'int main(cli::array<Type> ^)' already has a body

@@ -1,0 +1,1 @@
+C:\Volatile\Source\cpp\Test_bstr_t_semantics\Test_bstr_t_semantics\Test_bstr_t_semantics.cpp;C:\Volatile\Source\cpp\Test_bstr_t_semantics\.klocwork\cpp.kwlp\ds\rhoo0qtu.jnk;1;0;0

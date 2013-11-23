@@ -1,0 +1,12 @@
+-g jHeretic.dll 
+-r drOpenGL.dll 
+
+-wnd -wh 1024 768 -noc 
+-/nomixer
+-/nosound
+-verbose
+-sbd
+
+-file d:/WADs/Heretic/Heretic.wad -- e1m1.wad 
+
+-cmd "net init tcpip"

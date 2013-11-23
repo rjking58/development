@@ -1,0 +1,2904 @@
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:48:05.271-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSystemConfiguration" ClientID="RKING-E5400|1|2324" CommandToken="90792320" Timestamp="2009-03-03T16:48:17.247-08:00">
+    <result code="-842150451"></result>
+    <systemconfiguration>
+        <deviceflags>32 16 8 4 2 1 </deviceflags>
+        <model>1</model>
+        <wificatcher>true</wificatcher>
+        <hardwareswitch>true</hardwareswitch>
+    </systemconfiguration>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSystemConfiguration" ClientID="RKING-E5400|1|2324" CommandToken="2002728012" Timestamp="2009-03-03T16:48:18.566-08:00">
+    <result code="-842150451"></result>
+    <systemconfiguration>
+        <deviceflags>32 16 8 4 2 1 </deviceflags>
+        <model>1</model>
+        <wificatcher>true</wificatcher>
+        <hardwareswitch>true</hardwareswitch>
+    </systemconfiguration>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="WWAN_GetActivationInfo" ClientID="RKING-E5400|1|2324" CommandToken="1186156352" Timestamp="2009-03-03T16:48:18.692-08:00">
+    <result code="0">OK</result>
+    <activationinfo>
+        <carrier>Verizon Wireless</carrier>
+        <providerxml>vzw.xml</providerxml>
+        <reminderperiod>1</reminderperiod>
+        <forcerunactivationagent>false</forcerunactivationagent>
+    </activationinfo>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetDeviceHardwareDetails" ClientID="RKING-E5400|1|2324" CommandToken="146584173" Timestamp="2009-03-03T16:48:19.109-08:00">
+    <result code="0">OK</result>
+    <landeviceinfo>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Broadcom</manufacturer>
+        <technology>65536 131072 </technology>
+        <model>Broadcom NetXtreme 57xx Gigabit Controller</model>
+        <chipset></chipset>
+        <driver>10.100.0.0</driver>
+        <firmware></firmware>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+    </landeviceinfo>
+    <wandeviceinfo>
+        <devicename></devicename>
+        <devicetype></devicetype>
+        <manufacturer></manufacturer>
+        <technology></technology>
+        <model></model>
+        <chipset></chipset>
+        <driver></driver>
+        <firmware></firmware>
+        <macaddress></macaddress>
+    </wandeviceinfo>
+    <wlandeviceinfo>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Broadcom</manufacturer>
+        <technology>4096 8192 16384 32768 </technology>
+        <model>Dell Wireless 1510 Wireless-N WLAN Mini-Card</model>
+        <chipset>Broadcom</chipset>
+        <driver>4.170.77.3</driver>
+        <firmware></firmware>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+    </wlandeviceinfo>
+    <wwandeviceinfo>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Novatel Wireless Incorporated</manufacturer>
+        <technology>1 2 4 8 </technology>
+        <model>E725 VERIZON</model>
+        <chipset></chipset>
+        <driver>1.0.22.11</driver>
+        <firmware>141</firmware>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <esn>5B891A94</esn>
+        <imei></imei>
+        <mobileno>(000) 000-1892</mobileno>
+        <prl>51018</prl>
+        <fid>LT190608201537</fid>
+        <smsc></smsc>
+        <imsi>0000001892</imsi>
+        <iccid></iccid>
+        <mdn>0000001892</mdn>
+        <min>0000001892</min>
+        <sid>2004</sid>
+        <pid>VID_413C&amp;PID_8133</pid>
+        <MCC></MCC>
+        <MNC></MNC>
+        <NDIS_NAME>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</NDIS_NAME>
+        <MODEM_NAME>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</MODEM_NAME>
+        <NAI></NAI>
+        <MEID></MEID>
+    </wwandeviceinfo>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="RKING-E5400|1|2324" CommandToken="1196149446" Timestamp="2009-03-03T16:48:19.368-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSettings" ClientID="RKING-E5400|1|2324" CommandToken="239341854" Timestamp="2009-03-03T16:48:22.2-08:00">
+    <result code="0">OK</result>
+    <hardwaresettings>
+        <hardwareswitchpresent>true</hardwareswitchpresent>
+        <hardwareswitch>true</hardwareswitch>
+        <radiotype>1 2 4 </radiotype>
+    </hardwaresettings>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetLocationProfileList" ClientID="RKING-E5400|1|2324" CommandToken="1328283442" Timestamp="2009-03-03T16:48:22.169-08:00">
+    <result code="0">OK</result>
+    <locationprofile>
+        <lock>false</lock>
+        <id>_default_</id>
+        <global>true</global>
+        <preconfigured>true</preconfigured>
+        <icon></icon>
+        <enable8021xcredentials>false</enable8021xcredentials>
+        <ipaddress></ipaddress>
+        <lansubnetmask></lansubnetmask>
+        <landefaultgateway></landefaultgateway>
+        <primarydns></primarydns>
+        <secondarydns></secondarydns>
+        <hiddenprimarydns></hiddenprimarydns>
+        <hiddensecondarydns></hiddensecondarydns>
+        <hiddendomain></hiddendomain>
+        <hiddengateway></hiddengateway>
+        <hiddengatewaymacaddress></hiddengatewaymacaddress>
+        <dhcp>false</dhcp>
+        <browserclientapp>0</browserclientapp>
+        <homepage></homepage>
+        <useproxy>false</useproxy>
+        <proxyaddress></proxyaddress>
+        <bypassproxyforlocaladdresses>false</bypassproxyforlocaladdresses>
+        <proxyexceptionlist></proxyexceptionlist>
+        <autoconfigscript></autoconfigscript>
+        <enablefilesharing>false</enablefilesharing>
+        <defaultprinter></defaultprinter>
+        <firewallclientapp>false</firewallclientapp>
+        <vpnclientapp></vpnclientapp>
+        <vpnprofile></vpnprofile>
+        <vpnclientappparams></vpnclientappparams>
+        <autoconnectvpn>false</autoconnectvpn>
+        <enablebt>false</enablebt>
+        <enableuwb>false</enableuwb>
+        <enablegps>false</enablegps>
+        <autoactivategps>true</autoactivategps>
+        <enableconcurrentnetworkconnections>false</enableconcurrentnetworkconnections>
+        <enableinternetconnectionsharing>false</enableinternetconnectionsharing>
+        <technologyprofiles>VINO-Marketing</technologyprofiles>
+        <technologyprofiles>VINO-Marketing-MyProf</technologyprofiles>
+        <technologyprofiles>VINO-Marketing-3</technologyprofiles>
+        <technologyprofiles>NationalAccess - BroadbandAccess</technologyprofiles>
+    </locationprofile>
+    <locationprofile>
+        <lock>false</lock>
+        <id>MyLoc</id>
+        <global>false</global>
+        <preconfigured>true</preconfigured>
+        <icon></icon>
+        <enable8021xcredentials>false</enable8021xcredentials>
+        <ipaddress>0.0.0.0</ipaddress>
+        <lansubnetmask></lansubnetmask>
+        <landefaultgateway></landefaultgateway>
+        <primarydns>0.0.0.0</primarydns>
+        <secondarydns>0.0.0.0</secondarydns>
+        <hiddenprimarydns></hiddenprimarydns>
+        <hiddensecondarydns></hiddensecondarydns>
+        <hiddendomain></hiddendomain>
+        <hiddengateway></hiddengateway>
+        <hiddengatewaymacaddress></hiddengatewaymacaddress>
+        <dhcp>true</dhcp>
+        <browserclientapp>1</browserclientapp>
+        <homepage>http://www.yahoo.com/</homepage>
+        <useproxy>false</useproxy>
+        <proxyaddress>:0</proxyaddress>
+        <bypassproxyforlocaladdresses>false</bypassproxyforlocaladdresses>
+        <proxyexceptionlist></proxyexceptionlist>
+        <autoconfigscript></autoconfigscript>
+        <enablefilesharing>true</enablefilesharing>
+        <defaultprinter></defaultprinter>
+        <firewallclientapp>false</firewallclientapp>
+        <vpnclientapp>None</vpnclientapp>
+        <vpnprofile></vpnprofile>
+        <vpnclientappparams></vpnclientappparams>
+        <autoconnectvpn>false</autoconnectvpn>
+        <enablebt>false</enablebt>
+        <enableuwb>false</enableuwb>
+        <enablegps>true</enablegps>
+        <autoactivategps>true</autoactivategps>
+        <enableconcurrentnetworkconnections>false</enableconcurrentnetworkconnections>
+        <enableinternetconnectionsharing>true</enableinternetconnectionsharing>
+        <technologyprofiles>VINO-Marketing-MyProf</technologyprofiles>
+    </locationprofile>
+    <locationprofile>
+        <lock>false</lock>
+        <id>werble</id>
+        <global>false</global>
+        <preconfigured>true</preconfigured>
+        <icon></icon>
+        <enable8021xcredentials>false</enable8021xcredentials>
+        <ipaddress>0.0.0.0</ipaddress>
+        <lansubnetmask></lansubnetmask>
+        <landefaultgateway></landefaultgateway>
+        <primarydns>0.0.0.0</primarydns>
+        <secondarydns>0.0.0.0</secondarydns>
+        <hiddenprimarydns></hiddenprimarydns>
+        <hiddensecondarydns></hiddensecondarydns>
+        <hiddendomain></hiddendomain>
+        <hiddengateway></hiddengateway>
+        <hiddengatewaymacaddress></hiddengatewaymacaddress>
+        <dhcp>true</dhcp>
+        <browserclientapp>1</browserclientapp>
+        <homepage>http://www.yahoo.com/</homepage>
+        <useproxy>false</useproxy>
+        <proxyaddress>:0</proxyaddress>
+        <bypassproxyforlocaladdresses>false</bypassproxyforlocaladdresses>
+        <proxyexceptionlist></proxyexceptionlist>
+        <autoconfigscript></autoconfigscript>
+        <enablefilesharing>true</enablefilesharing>
+        <defaultprinter></defaultprinter>
+        <firewallclientapp>false</firewallclientapp>
+        <vpnclientapp>None</vpnclientapp>
+        <vpnprofile></vpnprofile>
+        <vpnclientappparams></vpnclientappparams>
+        <autoconnectvpn>false</autoconnectvpn>
+        <enablebt>false</enablebt>
+        <enableuwb>false</enableuwb>
+        <enablegps>true</enablegps>
+        <autoactivategps>true</autoactivategps>
+        <enableconcurrentnetworkconnections>false</enableconcurrentnetworkconnections>
+        <enableinternetconnectionsharing>true</enableinternetconnectionsharing>
+        <technologyprofiles>VINO-Marketing-MyProf</technologyprofiles>
+        <technologyprofiles>VINO-Marketing-3</technologyprofiles>
+        <technologyprofiles>NationalAccess - BroadbandAccess</technologyprofiles>
+    </locationprofile>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:48:22.311-08:00">
+    <activatelocation>
+        <locationid>MyLoc</locationid>
+    </activatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetActiveLocationProfiles" ClientID="RKING-E5400|1|2324" CommandToken="1994227901" Timestamp="2009-03-03T16:48:22.379-08:00">
+    <result code="0">OK</result>
+    <activeprofilelist>
+        <profilenames>MyLoc</profilenames>
+    </activeprofilelist>
+    <activeprofilelist>
+        <profilenames>MyLoc</profilenames>
+    </activeprofilelist>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSettings" ClientID="RKING-E5400|1|2972" CommandToken="1984729585" Timestamp="2009-03-03T16:48:43.773-08:00">
+    <result code="0">OK</result>
+    <wwansettings>
+        <roamingmode>0</roamingmode>
+        <disablesms>false</disablesms>
+        <enforcevpn>true</enforcevpn>
+        <showactivationreminder>true</showactivationreminder>
+        <autoconnect>false</autoconnect>
+        <servicemode>0</servicemode>
+        <autolock>false</autolock>
+        <pincode>0</pincode>
+        <networkselection>1</networkselection>
+        <networkname></networkname>
+        <networkCode>0</networkCode>
+    </wwansettings>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSettings" ClientID="RKING-E5400|1|2972" CommandToken="647743516" Timestamp="2009-03-03T16:49:04.522-08:00">
+    <result code="0">OK</result>
+    <locationsettings>
+        <applysetttings>1</applysetttings>
+        <confirmation>true</confirmation>
+        <locationorder>true</locationorder>
+        <promote>true</promote>
+    </locationsettings>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="SetSettings" ClientID="RKING-E5400|1|2972" CommandToken="968673821" Timestamp="2009-03-03T16:49:18.161-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:25.499-08:00">
+    <deactivatelocation>
+        <locationid>MyLoc</locationid>
+    </deactivatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="DisconnectLocationProfile" ClientID="RKING-E5400|1|2972" CommandToken="1264602926" Timestamp="2009-03-03T16:49:25.516-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:49:27.10-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:30.762-08:00">
+    <locationchanged>
+        <locationid>MyLoc</locationid>
+        <previouslocationid></previouslocationid>
+    </locationchanged>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:30.769-08:00">
+    <activatelocation>
+        <locationid>MyLoc</locationid>
+    </activatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="ConnectLocationProfile" ClientID="RKING-E5400|1|2972" CommandToken="1748431237" Timestamp="2009-03-03T16:49:30.776-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="ConnectTechnologyProfile" ClientID="RKING-E5400|1|2972" CommandToken="538020978" Timestamp="2009-03-03T16:49:31.250-08:00">
+    <result code="1">Unknown Error.</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:49:31.565-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="LocationApplied" ClientID="RKING-E5400|1|2972" CommandToken="599434920" Timestamp="2009-03-03T16:49:33.542-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:36.851-08:00">
+    <deactivatelocation>
+        <locationid>MyLoc</locationid>
+    </deactivatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="DisconnectLocationProfile" ClientID="RKING-E5400|1|2972" CommandToken="53077639" Timestamp="2009-03-03T16:49:36.893-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:40.188-08:00">
+    <locationchanged>
+        <locationid>werble</locationid>
+        <previouslocationid></previouslocationid>
+    </locationchanged>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:40.195-08:00">
+    <activatelocation>
+        <locationid>werble</locationid>
+    </activatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="ConnectLocationProfile" ClientID="RKING-E5400|1|2972" CommandToken="1528135891" Timestamp="2009-03-03T16:49:40.207-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="ConnectTechnologyProfile" ClientID="RKING-E5400|1|2972" CommandToken="1068642868" Timestamp="2009-03-03T16:49:40.472-08:00">
+    <result code="1">Unknown Error.</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:49:40.800-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="LocationApplied" ClientID="RKING-E5400|1|2972" CommandToken="1086264219" Timestamp="2009-03-03T16:49:41.216-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:49:43.767-08:00">
+    <deactivatelocation>
+        <locationid>werble</locationid>
+    </deactivatelocation>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="DisconnectLocationProfile" ClientID="RKING-E5400|1|2972" CommandToken="1681318827" Timestamp="2009-03-03T16:49:43.773-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:49:50.797-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="ProfileManager" CommandToken="p1" Timestamp="2009-03-03T16:49:55.569-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSettings" ClientID="RKING-E5400|1|2972" CommandToken="2088012204" Timestamp="2009-03-03T16:50:09.106-08:00">
+    <result code="0">OK</result>
+    <locationsettings>
+        <applysetttings>0</applysetttings>
+        <confirmation>true</confirmation>
+        <locationorder>true</locationorder>
+        <promote>true</promote>
+    </locationsettings>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:22.697-08:00"><serverevent><typeid>DiscardCache</typeid><key>ProgramSettings</key></serverevent></SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="SetSettings" ClientID="RKING-E5400|1|2972" CommandToken="654157410" Timestamp="2009-03-03T16:50:22.702-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetDeviceHardwareDetails" ClientID="RKING-E5400|1|2972" CommandToken="1488053985" Timestamp="2009-03-03T16:50:22.773-08:00">
+    <result code="0">OK</result>
+    <landeviceinfo>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Broadcom</manufacturer>
+        <technology>65536 131072 </technology>
+        <model>Broadcom NetXtreme 57xx Gigabit Controller</model>
+        <chipset></chipset>
+        <driver>10.100.0.0</driver>
+        <firmware></firmware>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+    </landeviceinfo>
+    <wandeviceinfo>
+        <devicename></devicename>
+        <devicetype></devicetype>
+        <manufacturer></manufacturer>
+        <technology></technology>
+        <model></model>
+        <chipset></chipset>
+        <driver></driver>
+        <firmware></firmware>
+        <macaddress></macaddress>
+    </wandeviceinfo>
+    <wlandeviceinfo>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Broadcom</manufacturer>
+        <technology>4096 8192 16384 32768 </technology>
+        <model>Dell Wireless 1510 Wireless-N WLAN Mini-Card</model>
+        <chipset>Broadcom</chipset>
+        <driver>4.170.77.3</driver>
+        <firmware></firmware>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+    </wlandeviceinfo>
+    <wwandeviceinfo>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <devicetype>Network adapters</devicetype>
+        <manufacturer>Novatel Wireless Incorporated</manufacturer>
+        <technology>1 2 4 8 </technology>
+        <model>E725 VERIZON</model>
+        <chipset></chipset>
+        <driver>1.0.22.11</driver>
+        <firmware>141</firmware>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <esn>5B891A94</esn>
+        <imei></imei>
+        <mobileno>(000) 000-1892</mobileno>
+        <prl>51018</prl>
+        <fid>LT190608201537</fid>
+        <smsc></smsc>
+        <imsi>0000001892</imsi>
+        <iccid></iccid>
+        <mdn>0000001892</mdn>
+        <min>0000001892</min>
+        <sid>2004</sid>
+        <pid>VID_413C&amp;PID_8133</pid>
+        <MCC></MCC>
+        <MNC></MNC>
+        <NDIS_NAME>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</NDIS_NAME>
+        <MODEM_NAME>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</MODEM_NAME>
+        <NAI></NAI>
+        <MEID></MEID>
+    </wwandeviceinfo>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="WWAN_GetActivationInfo" ClientID="RKING-E5400|1|2972" CommandToken="563900338" Timestamp="2009-03-03T16:50:22.833-08:00">
+    <result code="0">OK</result>
+    <activationinfo>
+        <carrier>Verizon Wireless</carrier>
+        <providerxml>vzw.xml</providerxml>
+        <reminderperiod>1</reminderperiod>
+        <forcerunactivationagent>false</forcerunactivationagent>
+    </activationinfo>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetNetworkDeviceState" ClientID="RKING-E5400|1|2972" CommandToken="299505258" Timestamp="2009-03-03T16:50:23.43-08:00">
+    <result code="0">OK</result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>9</state>
+        <statedesc>STATE_IDLE</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>1 </encryption>
+        <authentication>1 4 8 64 128 256 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="GetSettings" ClientID="RKING-E5400|1|2972" CommandToken="1291646824" Timestamp="2009-03-03T16:50:29.5-08:00">
+    <result code="0">OK</result>
+    <program>
+        <showtrayicon>true</showtrayicon>
+        <disablenotifications>false</disablenotifications>
+        <ethernetsupport>true</ethernetsupport>
+        <wifisupport>true</wifisupport>
+        <broadbandsupport>true</broadbandsupport>
+        <dialupsupport>true</dialupsupport>
+        <gpssupport>true</gpssupport>
+        <disablewifionlandetect>false</disablewifionlandetect>
+        <disablebroadbandonlandetect>false</disablebroadbandonlandetect>
+        <gpsmode>0</gpsmode>
+        <linterval>0</linterval>
+        <showallnetworks>true</showallnetworks>
+        <vpnclientapp></vpnclientapp>
+        <vpnprofile></vpnprofile>
+        <autoconnectvpn>true</autoconnectvpn>
+        <enforcevpn>false</enforcevpn>
+        <customclientparams></customclientparams>
+        <suppresswifiisnotcontrolled>false</suppresswifiisnotcontrolled>
+        <outsideucm>true</outsideucm>
+    </program>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="ConnectTechnologyProfile" ClientID="RKING-E5400|1|2972" CommandToken="810205772" Timestamp="2009-03-03T16:50:29.134-08:00">
+    <result code="0">OK</result>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:29.386-08:00">
+    <wifievent>
+        <wifievent>36</wifievent>
+        <wifieventstr>PROFILE_CHANGED</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:29.715-08:00">
+    <wifievent>
+        <wifievent>14</wifievent>
+        <wifieventstr>CONNECTION_START</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:29.723-08:00">
+    <wifievent>
+        <wifievent>36</wifievent>
+        <wifieventstr>PROFILE_CHANGED</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:30.385-08:00">
+    <result code="-842150451"></result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias>VINO-Marketing</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>0.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid></bssid>
+        <encryption>4 </encryption>
+        <authentication>16 </authentication>
+        <channel>0</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>2 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1073.741821</mbps>
+        <lobtained>2009-03-03T10:17:16</lobtained>
+        <lexpires>2009-03-03T12:17:16</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:31.532-08:00">
+    <wifievent>
+        <wifievent>29</wifievent>
+        <wifieventstr>AP_ASSOCIATE_START</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:31.648-08:00">
+    <wifievent>
+        <wifievent>32</wifievent>
+        <wifieventstr>8021X_AUTHENTICATE_START</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:32.481-08:00">
+    <wifievent>
+        <wifievent>5</wifievent>
+        <wifieventstr>CONNECTION_CHANGED</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:35.630-08:00">
+    <wifievent>
+        <wifievent>21</wifievent>
+        <wifieventstr>DHCP_CHANGED</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:37.680-08:00">
+    <wifievent>
+        <wifievent>15</wifievent>
+        <wifieventstr>CONNECTION_END</wifieventstr>
+        <alias></alias>
+        <ssid></ssid>
+    </wifievent>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:38.178-08:00">
+    <result code="-842150451"></result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip>192.168.2.134</ip>
+        <ipv6>fe80::c5d1:7c3a:b837:e37f%11</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>192.168.2.1</dns1>
+        <dns2></dns2>
+        <metric>25</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway>192.168.2.1</gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias>VINO-Marketing</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Connected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>54.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid>00:1E:E5:F7:74:7D</bssid>
+        <encryption>4 </encryption>
+        <authentication>16 </authentication>
+        <channel>11</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>1 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1000.000000</mbps>
+        <lobtained>2009-03-03T16:17:17</lobtained>
+        <lexpires>2009-03-03T18:17:17</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:38.893-08:00">
+    <result code="-842150451"></result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip>192.168.2.134</ip>
+        <ipv6>fe80::c5d1:7c3a:b837:e37f%11</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>192.168.2.1</dns1>
+        <dns2></dns2>
+        <metric>25</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway>192.168.2.1</gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias>VINO-Marketing</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Connected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>54.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid>00:1E:E5:F7:74:7D</bssid>
+        <encryption>4 </encryption>
+        <authentication>16 </authentication>
+        <channel>11</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>1 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1000.000000</mbps>
+        <lobtained>2009-03-03T16:17:17</lobtained>
+        <lexpires>2009-03-03T18:17:17</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:43.536-08:00">
+    <result code="-842150451"></result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip>192.168.2.134</ip>
+        <ipv6>fe80::c5d1:7c3a:b837:e37f%11</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>192.168.2.1</dns1>
+        <dns2></dns2>
+        <metric>25</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway>192.168.2.1</gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias>VINO-Marketing</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Connected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>0</signallevel>
+        <mbps>48.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid>00:1E:E5:F7:74:7D</bssid>
+        <encryption>4 </encryption>
+        <authentication>16 </authentication>
+        <channel>11</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>1 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1000.000000</mbps>
+        <lobtained>2009-03-03T16:17:17</lobtained>
+        <lexpires>2009-03-03T18:17:17</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+
+<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="" CommandToken="" Timestamp="2009-03-03T16:50:44.290-08:00">
+    <result code="-842150451"></result>
+    <wwandevicestate>
+        <state>7</state>
+        <statedesc>STATE_UNACTIVATED</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard Network Adapter</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain>Internet</domain>
+        <gateway></gateway>
+        <macaddress>02:00:ca:fe:ba:be</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>NationalAccess - BroadbandAccess</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>NationalAccess - BroadbandAccess</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <carrier>Verizon Wireless</carrier>
+        <protocol>EvDO REV-A</protocol>
+        <signallevel>60</signallevel>
+        <activated>false</activated>
+        <roaming>false</roaming>
+        <newtextsms>false</newtextsms>
+        <doze>false</doze>
+        <carrierurl></carrierurl>
+        <_protocol></_protocol>
+        <mbps>0.000000</mbps>
+        <sprovider></sprovider>
+        <wwantechtype></wwantechtype>
+        <providerxml>vzw.xml</providerxml>
+        <ens>false</ens>
+    </wwandevicestate>
+    <wlandevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Dell Wireless 1510 Wireless-N WLAN Mini-Card</devicename>
+        <ip>192.168.2.134</ip>
+        <ipv6>fe80::c5d1:7c3a:b837:e37f%11</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>192.168.2.1</dns1>
+        <dns2></dns2>
+        <metric>25</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway>192.168.2.1</gateway>
+        <macaddress>00:1f:e2:90:52:78</macaddress>
+        <alias>VINO-Marketing</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>VINO-Marketing</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing</alias>
+            <type></type>
+            <status>Connected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-3</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-3</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <profile>
+            <id>VINO-Marketing-MyProf</id>
+            <global>false</global>
+            <lock>true</lock>
+            <preconfigured>false</preconfigured>
+            <alias>VINO-Marketing-MyProf</alias>
+            <type></type>
+            <status>Disconnected</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <signallevel>70</signallevel>
+        <mbps>48.000000</mbps>
+        <ssid>VINO-Marketing</ssid>
+        <bssid>00:1E:E5:F7:74:7D</bssid>
+        <encryption>4 </encryption>
+        <authentication>16 </authentication>
+        <channel>11</channel>
+        <clientmac></clientmac>
+        <radiostreams>1</radiostreams>
+        <networktype>1 </networktype>
+    </wlandevicestate>
+    <wandevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+        <devicename></devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>false</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <kbps>0.000000</kbps>
+        <phonenum></phonenum>
+    </wandevicestate>
+    <landevicestate>
+        <state>11</state>
+        <statedesc>STATE_CONNECTED</statedesc>
+        <devicename>Broadcom NetXtreme 57xx Gigabit Controller</devicename>
+        <ip>223.13.13.160</ip>
+        <ipv6>fe80::106c:2287:68a0:914a%10</ipv6>
+        <subnetmask>255.255.255.0</subnetmask>
+        <dns1>223.13.13.20</dns1>
+        <dns2>223.13.13.21</dns2>
+        <metric>10</metric>
+        <vpn>false</vpn>
+        <domain>smsi.com</domain>
+        <gateway>223.13.13.111</gateway>
+        <macaddress>00:23:ae:0f:5a:fe</macaddress>
+        <alias></alias>
+        <dhcp>true</dhcp>
+        <signalrssi>0</signalrssi>
+        <mbps>1000.000000</mbps>
+        <lobtained>2009-03-03T16:17:17</lobtained>
+        <lexpires>2009-03-03T18:17:17</lexpires>
+    </landevicestate>
+    <gpsdevicestate>
+        <state>10</state>
+        <statedesc>STATE_CONNECTING</statedesc>
+        <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+        <ip></ip>
+        <ipv6></ipv6>
+        <subnetmask></subnetmask>
+        <dns1></dns1>
+        <dns2></dns2>
+        <metric>9999</metric>
+        <vpn>true</vpn>
+        <domain></domain>
+        <gateway></gateway>
+        <macaddress></macaddress>
+        <alias>gps_ucm</alias>
+        <dhcp>true</dhcp>
+        <profile>
+            <id>gps_ucm</id>
+            <global>true</global>
+            <lock>true</lock>
+            <preconfigured>true</preconfigured>
+            <alias>gps_ucm</alias>
+            <type></type>
+            <status>Connecting</status>
+        </profile>
+        <signalrssi>0</signalrssi>
+        <latitude>0.000000</latitude>
+        <longitute>0.000000</longitute>
+        <comport>6</comport>
+        <satellites>0</satellites>
+        <mode>STANDALONE</mode>
+        <altitude>0.000000</altitude>
+        <horzvelocity>0.000000</horzvelocity>
+        <vertvelocity>0.000000</vertvelocity>
+        <lastfixtime>0.000000</lastfixtime>
+    </gpsdevicestate>
+    <bluetoothdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </bluetoothdevicestate>
+    <uwbdevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </uwbdevicestate>
+    <smartcarddevicestate>
+        <state>1</state>
+        <statedesc>STATE_NOTFOUND</statedesc>
+    </smartcarddevicestate>
+</SMApplicationMessage>
+---------ENDMSG--------
+

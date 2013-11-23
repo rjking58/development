@@ -1,0 +1,49 @@
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp259A.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp2849.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kw256A.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.29 16:21:50.794
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp5D30.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp5EF6.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kw5D10.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.06.29 16:22:04.725
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpE44F.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpE644.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kwE400.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 17:12:48.548
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpF034.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpF238.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kwF014.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 17:12:51.591
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDE2E.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDF86.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kwDE0E.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 17:26:58.512
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp4FF6.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwp518D.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kw4FA7.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 17:27:27.851
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDD1B.tmp  set -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDEE1.tmp  run --verbose -F quiet -j auto --always-on -pd C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwlp @C:\Volatile\Source\cpp\ThreadingNative\.klocwork\temp\kwDCCC.tmp
+Cannot find directory: C:\Volatile\Source\cpp\ThreadingNative\.klocwork\cpp.kwps\localconfig\jkbs
+Processing interrupted by user.
+----- Klocwork analysis failed to complete ------
+Analysis finished 2012.07.02 17:28:04.080

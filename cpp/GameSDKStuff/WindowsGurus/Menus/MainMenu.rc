@@ -1,0 +1,120 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MainMenu MENUEX 
+BEGIN
+    POPUP "&File",                          65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "E&xit",                       MENU_FILE_ID_EXIT,MFT_STRING,
+        MFS_ENABLED
+    END
+    POPUP "&PlaySound",                     65535,MFT_STRING,MFS_ENABLED
+    BEGIN
+        MENUITEM "Energize!",                   MENU_PLAYSOUND_ENERGIZE,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "Beam Me Up",                  MENU_PLAYSOUND_BEAMMEUP,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "Engage Teleporter",           MENU_PLAYSOUND_ENGAGETELEPORTER,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "Quantum Warp Teleport",       MENU_PLAYSOUND_QUANTUMWARPTELEPORT,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "CreateSound",                 MENU_PLAYSOUND_CREATESOUND,
+        MFT_STRING,MFS_ENABLED
+        MENUITEM "TechnoSound",                 MENU_PLAYSOUND_TECHNOSOUND,
+        MFT_STRING,MFS_ENABLED
+    END
+    POPUP "Help",                           65535,
+    MFT_STRING | MFT_RIGHTJUSTIFY,MFS_ENABLED
+    BEGIN
+        MENUITEM "About",                       MENU_HELP_ABOUT,MFT_STRING,
+        MFS_ENABLED
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_KINGAPP             ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_BEAM           WAVE                    "beam.wav"
+IDR_WAVE_WARP           WAVE                    "warp.wav"
+IDR_WAVE_CREATE         WAVE                    "create.wav"
+IDR_WAVE_ENERGIZE       WAVE                    "energize.wav"
+IDR_WAVE_TECHNO         WAVE                    "techno.wav"
+IDR_WAVE_TELEPORT       WAVE                    "TELEPORT.WAV"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

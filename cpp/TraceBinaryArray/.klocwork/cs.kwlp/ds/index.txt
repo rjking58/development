@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\cpp\TraceBinaryArray\TraceBinaryArray\TraceBinaryArray.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\TraceBinaryArray\TraceBinaryArray\stdafx.cpp;;2;0;0

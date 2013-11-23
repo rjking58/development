@@ -1,0 +1,17 @@
+-g jHeretic.dll 
+-r drOpenGL.dll 
+-sbd
+
+-wnd -wh 1024 768 -noc -/ptx
+
+-/dedicated
+
+-verbose
+
+-/nomd2
+
+-file D:/Games/Heretic/Heretic.wad  jHRP.pk3
+
+--
+-- 
+-cmd "net init tcpip"

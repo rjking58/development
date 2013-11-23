@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "breakMechanics", "breakMechanics\breakMechanics.vcproj", "{2F32D45D-2EC0-498A-850B-560426B4C3CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F32D45D-2EC0-498A-850B-560426B4C3CD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F32D45D-2EC0-498A-850B-560426B4C3CD}.Debug|Win32.Build.0 = Debug|Win32
+		{2F32D45D-2EC0-498A-850B-560426B4C3CD}.Release|Win32.ActiveCfg = Release|Win32
+		{2F32D45D-2EC0-498A-850B-560426B4C3CD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

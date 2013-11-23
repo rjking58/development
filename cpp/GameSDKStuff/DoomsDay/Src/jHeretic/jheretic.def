@@ -1,0 +1,4 @@
+LIBRARY			JHERETIC
+
+EXPORTS
+	GetGameAPI		@1

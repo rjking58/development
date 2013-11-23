@@ -1,0 +1,34 @@
+#include <iostream.h>
+
+unsigned int a = 0;
+
+class Cl
+{
+	int i;
+};
+
+
+int tester()
+{
+	return (int) a;
+}
+
+
+void main(void)
+{
+	Cl cl1,cl2;
+
+   cl1 = cl2;
+
+	for (a = 0 ; a<64000 ; a++)
+	if (!tester())
+	{
+		cout << "true side of if #1" << "a=" << a << " !a=" << (!a) << endl;
+	}
+	else
+	{
+//		cout << "false side of if #1" << "a=" << a << " !a=" << (!a) << endl;
+	}
+	a++;
+
+}

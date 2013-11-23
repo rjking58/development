@@ -1,0 +1,213 @@
+
+Richard King                                                    310 835 0503
+
+ 
+
+ 
+
+OBJECTIVE  Technical position ith an emphasis on architecture/design. 
+
+ 
+
+HARDWARE   SUN SPARC/UltraSPARC, IBM PC/AT/XT, INTEL x86, HP, SEQUENT, NCR-TERADATA
+
+OS         Linux, SOLARIS, HP-UX, DYNIX, MS-WINDOWS 2000/XP/NT/98, AT&T S5R4, MS-DOS 
+
+DATABASE   ORACLE, some experience on Unisys network databases.
+
+LANGUAGES  Various C++ compilers (Linux, Sun, Microsoft), SQL, Java, VARIOUS C COMPILERS, x86 ASSEMBLER, PASCAL, BASIC
+
+ 
+
+QUALITIES  Great communicator. Hard working. Conscientious. Great follow through on all tasks. Ferocious learner. Strong architect. Strong leader.
+
+
+EXPERIENCE 
+---------------------------------------------------------------------------
+May 1996 to Present
+
+ORACLE
+Group Manager/Senior Architect
+
+Feature enhancement/Maintenance OFSA/TSER product suite.
+
+Languages:   Various flavors of C++ under Unix, SQL, Microsoft Visual C++ (MFC), Java
+Computers:   Linux, Sun Sparc/UltraSparc, HP, IBM PC compatibles
+Op Systems:  Sun Solaris, Linux, HP-UX, Windows 2000, Windows XP
+
+Manager in charge of base technology (both database and delivered C++ components) used by 4 applications inside Oracle Corporation
+
+  o Responsible for requirement discovery with all consuming application teams.
+  o Responsible for coordination of feature delivery with all consuming application teams.
+  o Responsible for coordination of support activity and prioritization of support activity in conjunction with Product Management.
+  o Responsible for training and management of both engineers and managers of engineers.
+ 
+
+Design/Code/Test large C++ client/server and 3-tier application. Experience on both client and server portions of large financial application (all written in C++). Client runs on Windows 2000. Server runs on larger UNIX servers.
+
+  o Overall technical leader for the 11i Profitability Release. Responsibilities for this includes:
+  o Responsible for creation of architecture level designs
+  o Participation as part of management/planning team. Close coordination with all other members of team.
+  o Review of all designs to be produced for the release
+  o Leadership of engineers involved with the release. 
+  o Input to many engineer's performance reviews.
+  o Large amount of interaction with Product Management during all stages of the development cycle.
+  o Interactions with many external teams to:
+  o Assist management in selling release
+  o Gaining cooperation with external teams for technologies required to deliver the release
+  o Align technical features with other products throughout Oracle.
+  o Lead designer/Lead implementer for object-oriented execution framework for server engines (all flavors of UNIX listed above).
+  o Lead designer for Discover Integrator (Visual C++/MFC)
+  o Lead designer/Lead implementer for Transformation Engine project (UNIX C++)
+  o Lead designer for Profitability Engine Initiative (UNIX C++/Visual C++)
+  o Intimately involved with training of many younger engineers (reviews of code, helped in teaching good programming/design techniques) .
+  o Part of joint Oracle/Sun team to determine maximum performance of OFSA software in a highly parallel 64 bit UNIX environment.
+  o Much experience in performance enhancing Oracle DB access. This is important since the products I work on must process upwards of 50 million of rows each month (some customers exceed 700 million rows of processing each month).
+  o Analysis of customer installed Oracle database's indexing schemes compared with SQL usage.
+  o Analysis of SQL performance 'explain plans' (TKPROF generated execution strategy files for SQL) with an eye towards DB environment and/or SQL changes to improve performance.
+  o Wrote enhanced memory management object templates for applications written for Windows 2000
+  o Enhanced GUI interfaces under Windows 2000.
+  o Globalized C++ Windows GUI code for use in asian marketplace.
+  o Designed multi-processor batch job mechanism.
+  o Heavy use of O-O Design Methods. Specifically: UML, Booch w/ Booch diagrams. Design Patterns used as a basis for many of the object designs.
+  o Debug Windows and Unix programs in C++
+  o Created/Edited a number of design specifications for the above projects.
+                                  
+
+
+---------------------------------------------------------------------------
+July 1994 to May 1996
+
+FORMULA CONSULTANTS INC.
+Manager/Systems Programmer
+
+Architected and programmed UNISYS EBRS project, Phase 2.
+
+Languages:   C , C++
+Computers:   IBM PC’s, Various UNIX platforms, Unisys
+OP Systems:  MS-DOS, Windows 3.1, UNIX (Solaris/SunOS, SVR4-U6000), OS-1100
+
+  o Design, code and test the server portion of a client/server program for enterprise backup and restore of client data files. Wrote server code in “C”.
+  o Write server APPC messages used in client/server communication in “C” and server communications interface to TCP/IP.
+  o Write data movement portion of server and test programs for use on SunOS, Solaris, Unisys Unix platforms and Unix scripts.
+  o Debug Windows and Unix client programs in C++ and edit functional and detail design specifications describing design of above software pieces.
+
+---------------------------------------------------------------------------
+September 1992 to July 1994
+
+KING ASSOCIATES                 
+Senior Software Engineer
+
+Engineered and programmed automated control systems for use in industrial-electric applications.
+
+Languages:   "C", Assembler, Ladder Logic
+Computers:   IBM PC's, Programmable Logic Controllers
+OP Systems:  MS-DOS, Custom
+
+  o Designed, coded and tested electrical control systems. Wrote control portions in PLC ladder logic, "C", Assembler and Basic.
+  o Wrote Wonderware interfaces that ran under MS-Windows.
+  o Wrote communications drivers in Basic for use in embedded processors.
+  o Wrote assembler routines for use in PC interface to discrete logical inputs/output for use in control systems.
+  o Wrote sequence of operations documents describing systems operations for use by end-users and assisted in design and testing of electrical systems.
+
+---------------------------------------------------------------------------
+February 1991 to September 1992
+
+FORMULA CONSULTANTS INC.
+Manager/Systems Programmer
+
+Designed StorageTek client system component/A-Series
+
+Languages:   Algol, "C"
+Computers:   A-Series, IBM PC's, System/36
+OP Systems:  MCP, OS-2, MS-DOS
+
+  o Architected and wrote the A-Series client system component.
+  o Designed, coded and tested the client system component (CSC) user programmatic interface (upi) in DC-Algol. The upi uses the A-Series library interface to provide and interface to user programs (similar to Windows DLL's).
+  o Wrote tasking/locking mechanisms of client system component in DC-Algol.
+  o Designed entire client system component architecture.
+  o Wrote client system component getstatus/setstatus interface to MCP in DC-Algol
+  o Wrote communications portion of CSC in DC-Algol and edited functional and detail design documents describing above software pieces.
+
+---------------------------------------------------------------------------
+September 1989 to February 1991
+
+UNISYS
+Systems Programmer
+
+Developer for market-sensitive products.
+
+Languages:   Algol, 8086 Assembler, Pascal, "C"
+Computers:   A-Series, IBM PC's, System 36
+OP Systems:  MCP, OS-2, MS-DOS
+
+  o Designed, coded, tested RAMP in DC-Algol, Pascal and Assembler.
+  o Wrote communications interface to A-Series Mainframe and PC migration aid.
+  o Wrote RAMP utilities and designed the System/36 migration aid
+  o Performed upgrades to Unisys Semantic Information Model database
+
+---------------------------------------------------------------------------
+April 1989 to September 1989
+
+ASHTON-TATE
+Senior Systems Programmer
+
+Languages:   8086 Assembler, "C"
+Computers:   IBM PC's, System 36
+OP Systems:  MS-DOS
+
+  o Wrote an IBM System/36 and AS/400 interface to dBase III using Intel 80x86 assembler and "C".
+  o Designed PC to mini/mainframe connectivity products, including IBM PC/XT/AT's, IBM System/36, AS/400, and DEC VAX.
+  o Wrote stand-alone test driver in "C".
+
+---------------------------------------------------------------------------
+April 1986 to April 1989
+
+BURROUGHS/UNISYS
+Senior Systems Programmer
+
+Developer for market-sensitive products.
+
+Languages:   Algol, 8086 Assembler, Pascal, "C"
+Computers:   A-Series, IBM PC's, System 36
+OP Systems:  MCP, OS-2, MS-DOS
+
+  o Designed, coded, tested RAMP in DC-Algol, Pascal and Assembler.
+  o Wrote communications interface to A-Series Mainframe and PC migration aid.
+  o Wrote RAMP utilities and designed the System/36 migration aid
+  o Performed upgrades to Unisys Semantic Information Model database
+
+
+---------------------------------------------------------------------------
+January 1985 to April 1986
+
+OLIVER ADVANCED ENGINEERING                 
+Systems Programmer
+
+  o Responsible for hardware/software interface, interrupt systems, real-time event management and systems management of a custom Z80 computer used to program semiconductors. Required knowledge of hardware and algorithms used to program semiconductors. Used Turbo Pascal and Assembler on IBM PC/AT and custom Z80 hardware
+  o Wrote new communication interfaces to PC's and standalone terminals in Z80 assembler.
+
+ 
+
+---------------------------------------------------------------------------
+May 1984 to January 1985
+
+BURROUGHS
+Programmer
+
+  o A-Series programmer. Responsible for coding and testing of OMS office products on A-Series systems.
+
+---------------------------------------------------------------------------
+January 1983 to May 1984
+
+ROLAND CORP. US
+Programmer
+
+  o Responsible for designing/coding a musical application in Forth/Assembler thar runs on both Apple II systems and IBM PC systems.
+
+                                  
+
+ 
+
+EDUCATION B.A, 1982,  University of California, Irvine
+

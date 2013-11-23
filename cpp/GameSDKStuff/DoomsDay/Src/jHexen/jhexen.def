@@ -1,0 +1,4 @@
+LIBRARY			JHEXEN
+
+EXPORTS
+	GetGameAPI		@1

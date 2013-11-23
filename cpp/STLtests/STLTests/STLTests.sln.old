@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STLTests", "STLTests.vcproj", "{BFDC9121-9073-45C1-AC2F-67854F95D22A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDC9121-9073-45C1-AC2F-67854F95D22A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFDC9121-9073-45C1-AC2F-67854F95D22A}.Debug|Win32.Build.0 = Debug|Win32
+		{BFDC9121-9073-45C1-AC2F-67854F95D22A}.Release|Win32.ActiveCfg = Release|Win32
+		{BFDC9121-9073-45C1-AC2F-67854F95D22A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

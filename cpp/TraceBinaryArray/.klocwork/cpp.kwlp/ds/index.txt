@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\cpp\TraceBinaryArray\TraceBinaryArray\TraceBinaryArray.cpp;C:\Volatile\Development\Source\cpp\TraceBinaryArray\.klocwork\cpp.kwlp\ds\3\bjlwoe2r.wop;1;0;0
+C:\Volatile\Development\Source\cpp\TraceBinaryArray\TraceBinaryArray\stdafx.cpp;C:\Volatile\Development\Source\cpp\TraceBinaryArray\.klocwork\cpp.kwlp\ds\2\4bmxwyky.qhf;2;0;0

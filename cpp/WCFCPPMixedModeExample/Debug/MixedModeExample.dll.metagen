@@ -1,0 +1,39 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly MixedModeExample, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class MixedModeIF.MixedModeIF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    DoASubmit(): PrivateScope, Public, Static, HideBySig
+Class WCFExampleCPP.Eval: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String Id : Public
+    System.String Submitter : Public
+    System.String Comments : Public
+    System.DateTime TimeSubmitted : Public
+Interface WCFExampleCPP.IEvalService: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, BeforeFieldInit
+  Methods:
+    SubmitEval(Eval): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetEvals(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveEval(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class WCFExampleCPP.EvalService: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WCFExampleCPP.IEvalService
+  Methods:
+    SubmitEval(Eval): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetEvals(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoveEval(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask

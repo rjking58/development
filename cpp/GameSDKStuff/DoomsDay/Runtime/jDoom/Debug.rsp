@@ -1,0 +1,71 @@
+-r drOpenGL.dll
+-g jDoom.dll 
+
+-sbd
+
+-v 
+
+-wnd -wh 800 600 -noc
+
+-/texcomp
+
+-/csd
+-/nosound
+
+-/nomd2
+
+-def }Defs\jDoom\jDRP.ded
+
+-file d:\games\doom\doom.wad
+
+-- -file d:\games\final\tnt.wad -- z:\data\jdoom\models.pk3 -- d:\wads\doom\doom2-1666.wad 
+-- details.pk3  z:\data\jdoom\models.pk3 hitex.pk3 --   -- ShinyArmor.pk3  soulharvester.pk3  
+
+d:\wads\doom\scythe.wad 
+
+--  --  -- models.pk3 
+
+-- models.pk3 -- HudGraphics.pk3
+-- 
+-- d:\wads\doom\xgtest.wad 
+-- lgtest.wad 
+-- hitex.pk3 -- models.pk3
+
+--
+c:\doomsday\data\wolfdoom\original\original.wad
+c:\doomsday\data\wolfdoom\original\orig15.wad
+
+-deh c:\doomsday\data\wolfdoom\original\original.deh
+
+-cmd "keymap fi" 
+
+z:\data\detail\detail.wad
+ c:\games\doom2\doom2.wad phobia.wad
+
+c:\games\doom\doom.wad  c:\omatti~1\dsrlaunc.wav
+c:\projects\texc\pnames.lmp 
+c:\projects\texc\texture1.lmp 
+c:\projects\texc\texture2.lmp 
+
+
+
+
+c:\games\final\plutonia.wad
+c:\games\final\tnt.wad
+
+e1m1.wad 
+
+
+c:\games\doom2\doom2.wad darken2.wad
+
+
+
+z:/data/detail/detail.wad
+z:/data/detail/dtltest.raw
+
+
+
+
+
+
+

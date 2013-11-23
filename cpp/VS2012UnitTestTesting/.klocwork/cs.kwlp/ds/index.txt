@@ -1,0 +1,17 @@
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\VS2012UnitTestTesting\VS2012UnitTestTesting.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\UnitTestExample1\unittest1.cpp;;2;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\VS2012UnitTestTesting\VS2012UnitTestTesting.h;;3;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\UnitTestExample1\targetver.h;;4;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\VS2012UnitTestTesting\DLLExportHeaders.h;;5;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\MockingExample.cpp;;6;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\dllmain.cpp;;7;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ComplexClass.cpp;;8;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\UserOfComplexClass.cpp;;9;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ExportHeader.h;;10;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IComplexClass.h;;11;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ComplexClass.h;;12;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IUserOfComplexClass.h;;13;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\UserOfComplexClass.h;;14;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IComplexClass.cpp;;15;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample.UnitTests\ComplexClassMock.cpp;;16;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\targetver.h;;17;0;0

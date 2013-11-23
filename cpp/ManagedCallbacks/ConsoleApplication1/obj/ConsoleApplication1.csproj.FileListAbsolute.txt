@@ -1,0 +1,5 @@
+C:\GCS\Source\cpp\ConsoleApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\cpp\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\GCS\Source\cpp\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\GCS\Source\cpp\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\GCS\Source\cpp\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiThread1", "MultiThread1.vcproj", "{ED502668-36A1-41BE-AD9F-36D9B87FD400}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED502668-36A1-41BE-AD9F-36D9B87FD400}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED502668-36A1-41BE-AD9F-36D9B87FD400}.Debug|Win32.Build.0 = Debug|Win32
+		{ED502668-36A1-41BE-AD9F-36D9B87FD400}.Release|Win32.ActiveCfg = Release|Win32
+		{ED502668-36A1-41BE-AD9F-36D9B87FD400}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

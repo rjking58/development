@@ -1,0 +1,1 @@
+c:\Volatile\Source\cpp\ILeakMemory\ILeakMemory\ILeakMemory.cpp;c:\volatile\source\cpp\ILeakMemory\.klocwork\cpp.kwlp\ds\hvnzryic.h2c;1;0;0

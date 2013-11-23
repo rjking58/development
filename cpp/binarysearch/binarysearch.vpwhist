@@ -1,0 +1,33 @@
+[Global]
+CurrentProject=binarysearch\binarysearch.vpj
+[ActiveConfig]
+binarysearch\binarysearch.vpj=,Debug|Win32
+[ProjectDates]
+binarysearch\binarysearch.vcproj=20070112155536328
+[TreeExpansion2]
+- binarysearch\binarysearch.vcproj
+  - Source Files
+  - Header Files
+  + Resource Files
+scroll:0
+[State]
+SCREEN: 1680 1050 44 58 1260 719 0 0 M 0 0 0 0 1374 670
+CWD: binarysearch
+BUFFER: BN="binarysearch\stdafx.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=23 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="binarysearch\ReadMe.txt"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=512 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1220 467 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="binarysearch\ReadMe.txt"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=165 BI=24 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 8
+\Program Files\SlickEdit\alias.slk
+\Program Files\SlickEdit\project.slk
+\Program Files\SlickEdit\win\vslick.ini
+\Program Files\Microsoft Visual Studio 8\VC\INCLUDE\iostream
+binarysearch\stdafx.h
+binarysearch\ReadMe.txt
+binarysearch\binarysearch.cpp
+binarysearch\tstfile.cpp

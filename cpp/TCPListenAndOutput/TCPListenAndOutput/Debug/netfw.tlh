@@ -1,0 +1,1295 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.50727.762 (e71f9f6b).
+//
+// c:\gcs\source\cpp\tcplistenandoutput\tcplistenandoutput\debug\netfw.tlh
+//
+// C++ source equivalent of Win32 type library /Dev/Mobile/Orbiter/Libraries/Microsoft/VistaSDK/Lib/netfw.tlb
+// compiler-generated file created 02/26/09 at 14:45:39 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("db4f3345-3ef8-45ed-b976-25a6d3b81b71"))
+/* LIBID */ __NetFwPublicTypeLib;
+struct __declspec(uuid("d4becddf-6f73-4a83-b832-9c66874cd20e"))
+/* dual interface */ INetFwRemoteAdminSettings;
+enum NET_FW_IP_VERSION_;
+enum NET_FW_SCOPE_;
+struct __declspec(uuid("a6207b2e-7cdd-426a-951e-5e1cbc5afead"))
+/* dual interface */ INetFwIcmpSettings;
+struct __declspec(uuid("e0483ba0-47ff-4d9c-a6d6-7741d0b195f7"))
+/* dual interface */ INetFwOpenPort;
+enum NET_FW_IP_PROTOCOL_;
+struct __declspec(uuid("c0e9d7fa-e07e-430a-b19a-090ce82d92e2"))
+/* dual interface */ INetFwOpenPorts;
+struct __declspec(uuid("79fd57c8-908e-4a36-9888-d5b3f0a444cf"))
+/* dual interface */ INetFwService;
+enum NET_FW_SERVICE_TYPE_;
+struct __declspec(uuid("79649bb4-903e-421b-94c9-79848e79f6ee"))
+/* dual interface */ INetFwServices;
+struct __declspec(uuid("b5e64ffa-c2c5-444e-a301-fb5e00018050"))
+/* dual interface */ INetFwAuthorizedApplication;
+struct __declspec(uuid("644efd52-ccf9-486c-97a2-39f352570b30"))
+/* dual interface */ INetFwAuthorizedApplications;
+struct __declspec(uuid("8267bbe3-f890-491c-b7b6-2db1ef0e5d2b"))
+/* dual interface */ INetFwServiceRestriction;
+struct __declspec(uuid("9c4c6277-5027-441e-afae-ca1f542da009"))
+/* dual interface */ INetFwRules;
+struct __declspec(uuid("af230d27-baba-4e42-aced-f524f22cfce2"))
+/* dual interface */ INetFwRule;
+enum NET_FW_RULE_DIRECTION_;
+enum NET_FW_ACTION_;
+struct __declspec(uuid("174a0dda-e9f9-449d-993b-21ab667ca456"))
+/* dual interface */ INetFwProfile;
+enum NET_FW_PROFILE_TYPE_;
+struct __declspec(uuid("d46d2478-9ac9-4008-9dc7-5563ce5536cc"))
+/* dual interface */ INetFwPolicy;
+struct __declspec(uuid("98325047-c671-4174-8d81-defcd3f03186"))
+/* dual interface */ INetFwPolicy2;
+enum NET_FW_PROFILE_TYPE2_;
+enum NET_FW_MODIFY_STATE_;
+struct __declspec(uuid("f7898af5-cac4-4632-a2ec-da06e5111af2"))
+/* dual interface */ INetFwMgr;
+struct /* coclass */ NetFwRule;
+struct /* coclass */ NetFwOpenPort;
+struct /* coclass */ NetFwAuthorizedApplication;
+struct /* coclass */ NetFwPolicy2;
+struct /* coclass */ NetFwMgr;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(INetFwRemoteAdminSettings, __uuidof(INetFwRemoteAdminSettings));
+_COM_SMARTPTR_TYPEDEF(INetFwIcmpSettings, __uuidof(INetFwIcmpSettings));
+_COM_SMARTPTR_TYPEDEF(INetFwOpenPort, __uuidof(INetFwOpenPort));
+_COM_SMARTPTR_TYPEDEF(INetFwOpenPorts, __uuidof(INetFwOpenPorts));
+_COM_SMARTPTR_TYPEDEF(INetFwService, __uuidof(INetFwService));
+_COM_SMARTPTR_TYPEDEF(INetFwServices, __uuidof(INetFwServices));
+_COM_SMARTPTR_TYPEDEF(INetFwAuthorizedApplication, __uuidof(INetFwAuthorizedApplication));
+_COM_SMARTPTR_TYPEDEF(INetFwAuthorizedApplications, __uuidof(INetFwAuthorizedApplications));
+_COM_SMARTPTR_TYPEDEF(INetFwRule, __uuidof(INetFwRule));
+_COM_SMARTPTR_TYPEDEF(INetFwRules, __uuidof(INetFwRules));
+_COM_SMARTPTR_TYPEDEF(INetFwServiceRestriction, __uuidof(INetFwServiceRestriction));
+_COM_SMARTPTR_TYPEDEF(INetFwProfile, __uuidof(INetFwProfile));
+_COM_SMARTPTR_TYPEDEF(INetFwPolicy, __uuidof(INetFwPolicy));
+_COM_SMARTPTR_TYPEDEF(INetFwPolicy2, __uuidof(INetFwPolicy2));
+_COM_SMARTPTR_TYPEDEF(INetFwMgr, __uuidof(INetFwMgr));
+
+//
+// Type library items
+//
+
+enum NET_FW_IP_VERSION_
+{
+    NET_FW_IP_VERSION_V4 = 0,
+    NET_FW_IP_VERSION_V6 = 1,
+    NET_FW_IP_VERSION_ANY = 2,
+    NET_FW_IP_VERSION_MAX = 3
+};
+
+enum NET_FW_SCOPE_
+{
+    NET_FW_SCOPE_ALL = 0,
+    NET_FW_SCOPE_LOCAL_SUBNET = 1,
+    NET_FW_SCOPE_CUSTOM = 2,
+    NET_FW_SCOPE_MAX = 3
+};
+
+struct __declspec(uuid("d4becddf-6f73-4a83-b832-9c66874cd20e"))
+INetFwRemoteAdminSettings : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetIpVersion,put=PutIpVersion))
+    enum NET_FW_IP_VERSION_ IpVersion;
+    __declspec(property(get=GetScope,put=PutScope))
+    enum NET_FW_SCOPE_ Scope;
+    __declspec(property(get=GetRemoteAddresses,put=PutRemoteAddresses))
+    _bstr_t RemoteAddresses;
+    __declspec(property(get=GetEnabled,put=PutEnabled))
+    VARIANT_BOOL Enabled;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    enum NET_FW_IP_VERSION_ GetIpVersion ( );
+    void PutIpVersion (
+        enum NET_FW_IP_VERSION_ IpVersion );
+    enum NET_FW_SCOPE_ GetScope ( );
+    void PutScope (
+        enum NET_FW_SCOPE_ Scope );
+    _bstr_t GetRemoteAddresses ( );
+    void PutRemoteAddresses (
+        _bstr_t remoteAddrs );
+    VARIANT_BOOL GetEnabled ( );
+    void PutEnabled (
+        VARIANT_BOOL Enabled );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_IpVersion (
+        /*[out,retval]*/ enum NET_FW_IP_VERSION_ * IpVersion ) = 0;
+      virtual HRESULT __stdcall put_IpVersion (
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion ) = 0;
+      virtual HRESULT __stdcall get_Scope (
+        /*[out,retval]*/ enum NET_FW_SCOPE_ * Scope ) = 0;
+      virtual HRESULT __stdcall put_Scope (
+        /*[in]*/ enum NET_FW_SCOPE_ Scope ) = 0;
+      virtual HRESULT __stdcall get_RemoteAddresses (
+        /*[out,retval]*/ BSTR * remoteAddrs ) = 0;
+      virtual HRESULT __stdcall put_RemoteAddresses (
+        /*[in]*/ BSTR remoteAddrs ) = 0;
+      virtual HRESULT __stdcall get_Enabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_Enabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+};
+
+struct __declspec(uuid("a6207b2e-7cdd-426a-951e-5e1cbc5afead"))
+INetFwIcmpSettings : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetAllowOutboundDestinationUnreachable,put=PutAllowOutboundDestinationUnreachable))
+    VARIANT_BOOL AllowOutboundDestinationUnreachable;
+    __declspec(property(get=GetAllowRedirect,put=PutAllowRedirect))
+    VARIANT_BOOL AllowRedirect;
+    __declspec(property(get=GetAllowInboundEchoRequest,put=PutAllowInboundEchoRequest))
+    VARIANT_BOOL AllowInboundEchoRequest;
+    __declspec(property(get=GetAllowOutboundTimeExceeded,put=PutAllowOutboundTimeExceeded))
+    VARIANT_BOOL AllowOutboundTimeExceeded;
+    __declspec(property(get=GetAllowOutboundParameterProblem,put=PutAllowOutboundParameterProblem))
+    VARIANT_BOOL AllowOutboundParameterProblem;
+    __declspec(property(get=GetAllowOutboundSourceQuench,put=PutAllowOutboundSourceQuench))
+    VARIANT_BOOL AllowOutboundSourceQuench;
+    __declspec(property(get=GetAllowInboundRouterRequest,put=PutAllowInboundRouterRequest))
+    VARIANT_BOOL AllowInboundRouterRequest;
+    __declspec(property(get=GetAllowInboundTimestampRequest,put=PutAllowInboundTimestampRequest))
+    VARIANT_BOOL AllowInboundTimestampRequest;
+    __declspec(property(get=GetAllowInboundMaskRequest,put=PutAllowInboundMaskRequest))
+    VARIANT_BOOL AllowInboundMaskRequest;
+    __declspec(property(get=GetAllowOutboundPacketTooBig,put=PutAllowOutboundPacketTooBig))
+    VARIANT_BOOL AllowOutboundPacketTooBig;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    VARIANT_BOOL GetAllowOutboundDestinationUnreachable ( );
+    void PutAllowOutboundDestinationUnreachable (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowRedirect ( );
+    void PutAllowRedirect (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowInboundEchoRequest ( );
+    void PutAllowInboundEchoRequest (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowOutboundTimeExceeded ( );
+    void PutAllowOutboundTimeExceeded (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowOutboundParameterProblem ( );
+    void PutAllowOutboundParameterProblem (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowOutboundSourceQuench ( );
+    void PutAllowOutboundSourceQuench (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowInboundRouterRequest ( );
+    void PutAllowInboundRouterRequest (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowInboundTimestampRequest ( );
+    void PutAllowInboundTimestampRequest (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowInboundMaskRequest ( );
+    void PutAllowInboundMaskRequest (
+        VARIANT_BOOL allow );
+    VARIANT_BOOL GetAllowOutboundPacketTooBig ( );
+    void PutAllowOutboundPacketTooBig (
+        VARIANT_BOOL allow );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_AllowOutboundDestinationUnreachable (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowOutboundDestinationUnreachable (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowRedirect (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowRedirect (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowInboundEchoRequest (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowInboundEchoRequest (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowOutboundTimeExceeded (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowOutboundTimeExceeded (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowOutboundParameterProblem (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowOutboundParameterProblem (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowOutboundSourceQuench (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowOutboundSourceQuench (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowInboundRouterRequest (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowInboundRouterRequest (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowInboundTimestampRequest (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowInboundTimestampRequest (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowInboundMaskRequest (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowInboundMaskRequest (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+      virtual HRESULT __stdcall get_AllowOutboundPacketTooBig (
+        /*[out,retval]*/ VARIANT_BOOL * allow ) = 0;
+      virtual HRESULT __stdcall put_AllowOutboundPacketTooBig (
+        /*[in]*/ VARIANT_BOOL allow ) = 0;
+};
+
+enum NET_FW_IP_PROTOCOL_
+{
+    NET_FW_IP_PROTOCOL_TCP = 6,
+    NET_FW_IP_PROTOCOL_UDP = 17,
+    NET_FW_IP_PROTOCOL_ANY = 256
+};
+
+struct __declspec(uuid("e0483ba0-47ff-4d9c-a6d6-7741d0b195f7"))
+INetFwOpenPort : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetIpVersion,put=PutIpVersion))
+    enum NET_FW_IP_VERSION_ IpVersion;
+    __declspec(property(get=GetProtocol,put=PutProtocol))
+    enum NET_FW_IP_PROTOCOL_ Protocol;
+    __declspec(property(get=GetPort,put=PutPort))
+    long Port;
+    __declspec(property(get=GetScope,put=PutScope))
+    enum NET_FW_SCOPE_ Scope;
+    __declspec(property(get=GetRemoteAddresses,put=PutRemoteAddresses))
+    _bstr_t RemoteAddresses;
+    __declspec(property(get=GetEnabled,put=PutEnabled))
+    VARIANT_BOOL Enabled;
+    __declspec(property(get=GetBuiltIn))
+    VARIANT_BOOL BuiltIn;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t Name );
+    enum NET_FW_IP_VERSION_ GetIpVersion ( );
+    void PutIpVersion (
+        enum NET_FW_IP_VERSION_ IpVersion );
+    enum NET_FW_IP_PROTOCOL_ GetProtocol ( );
+    void PutProtocol (
+        enum NET_FW_IP_PROTOCOL_ ipProtocol );
+    long GetPort ( );
+    void PutPort (
+        long portNumber );
+    enum NET_FW_SCOPE_ GetScope ( );
+    void PutScope (
+        enum NET_FW_SCOPE_ Scope );
+    _bstr_t GetRemoteAddresses ( );
+    void PutRemoteAddresses (
+        _bstr_t remoteAddrs );
+    VARIANT_BOOL GetEnabled ( );
+    void PutEnabled (
+        VARIANT_BOOL Enabled );
+    VARIANT_BOOL GetBuiltIn ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * Name ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall get_IpVersion (
+        /*[out,retval]*/ enum NET_FW_IP_VERSION_ * IpVersion ) = 0;
+      virtual HRESULT __stdcall put_IpVersion (
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion ) = 0;
+      virtual HRESULT __stdcall get_Protocol (
+        /*[out,retval]*/ enum NET_FW_IP_PROTOCOL_ * ipProtocol ) = 0;
+      virtual HRESULT __stdcall put_Protocol (
+        /*[in]*/ enum NET_FW_IP_PROTOCOL_ ipProtocol ) = 0;
+      virtual HRESULT __stdcall get_Port (
+        /*[out,retval]*/ long * portNumber ) = 0;
+      virtual HRESULT __stdcall put_Port (
+        /*[in]*/ long portNumber ) = 0;
+      virtual HRESULT __stdcall get_Scope (
+        /*[out,retval]*/ enum NET_FW_SCOPE_ * Scope ) = 0;
+      virtual HRESULT __stdcall put_Scope (
+        /*[in]*/ enum NET_FW_SCOPE_ Scope ) = 0;
+      virtual HRESULT __stdcall get_RemoteAddresses (
+        /*[out,retval]*/ BSTR * remoteAddrs ) = 0;
+      virtual HRESULT __stdcall put_RemoteAddresses (
+        /*[in]*/ BSTR remoteAddrs ) = 0;
+      virtual HRESULT __stdcall get_Enabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_Enabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_BuiltIn (
+        /*[out,retval]*/ VARIANT_BOOL * BuiltIn ) = 0;
+};
+
+struct __declspec(uuid("c0e9d7fa-e07e-430a-b19a-090ce82d92e2"))
+INetFwOpenPorts : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    HRESULT Add (
+        struct INetFwOpenPort * Port );
+    HRESULT Remove (
+        long portNumber,
+        enum NET_FW_IP_PROTOCOL_ ipProtocol );
+    INetFwOpenPortPtr Item (
+        long portNumber,
+        enum NET_FW_IP_PROTOCOL_ ipProtocol );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * Count ) = 0;
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ struct INetFwOpenPort * Port ) = 0;
+      virtual HRESULT __stdcall raw_Remove (
+        /*[in]*/ long portNumber,
+        /*[in]*/ enum NET_FW_IP_PROTOCOL_ ipProtocol ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ long portNumber,
+        /*[in]*/ enum NET_FW_IP_PROTOCOL_ ipProtocol,
+        /*[out,retval]*/ struct INetFwOpenPort * * openPort ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * newEnum ) = 0;
+};
+
+enum NET_FW_SERVICE_TYPE_
+{
+    NET_FW_SERVICE_FILE_AND_PRINT = 0,
+    NET_FW_SERVICE_UPNP = 1,
+    NET_FW_SERVICE_REMOTE_DESKTOP = 2,
+    NET_FW_SERVICE_NONE = 3,
+    NET_FW_SERVICE_TYPE_MAX = 4
+};
+
+struct __declspec(uuid("79fd57c8-908e-4a36-9888-d5b3f0a444cf"))
+INetFwService : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName))
+    _bstr_t Name;
+    __declspec(property(get=GetType))
+    enum NET_FW_SERVICE_TYPE_ Type;
+    __declspec(property(get=GetCustomized))
+    VARIANT_BOOL Customized;
+    __declspec(property(get=GetIpVersion,put=PutIpVersion))
+    enum NET_FW_IP_VERSION_ IpVersion;
+    __declspec(property(get=GetScope,put=PutScope))
+    enum NET_FW_SCOPE_ Scope;
+    __declspec(property(get=GetRemoteAddresses,put=PutRemoteAddresses))
+    _bstr_t RemoteAddresses;
+    __declspec(property(get=GetEnabled,put=PutEnabled))
+    VARIANT_BOOL Enabled;
+    __declspec(property(get=GetGloballyOpenPorts))
+    INetFwOpenPortsPtr GloballyOpenPorts;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    enum NET_FW_SERVICE_TYPE_ GetType ( );
+    VARIANT_BOOL GetCustomized ( );
+    enum NET_FW_IP_VERSION_ GetIpVersion ( );
+    void PutIpVersion (
+        enum NET_FW_IP_VERSION_ IpVersion );
+    enum NET_FW_SCOPE_ GetScope ( );
+    void PutScope (
+        enum NET_FW_SCOPE_ Scope );
+    _bstr_t GetRemoteAddresses ( );
+    void PutRemoteAddresses (
+        _bstr_t remoteAddrs );
+    VARIANT_BOOL GetEnabled ( );
+    void PutEnabled (
+        VARIANT_BOOL Enabled );
+    INetFwOpenPortsPtr GetGloballyOpenPorts ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * Name ) = 0;
+      virtual HRESULT __stdcall get_Type (
+        /*[out,retval]*/ enum NET_FW_SERVICE_TYPE_ * Type ) = 0;
+      virtual HRESULT __stdcall get_Customized (
+        /*[out,retval]*/ VARIANT_BOOL * Customized ) = 0;
+      virtual HRESULT __stdcall get_IpVersion (
+        /*[out,retval]*/ enum NET_FW_IP_VERSION_ * IpVersion ) = 0;
+      virtual HRESULT __stdcall put_IpVersion (
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion ) = 0;
+      virtual HRESULT __stdcall get_Scope (
+        /*[out,retval]*/ enum NET_FW_SCOPE_ * Scope ) = 0;
+      virtual HRESULT __stdcall put_Scope (
+        /*[in]*/ enum NET_FW_SCOPE_ Scope ) = 0;
+      virtual HRESULT __stdcall get_RemoteAddresses (
+        /*[out,retval]*/ BSTR * remoteAddrs ) = 0;
+      virtual HRESULT __stdcall put_RemoteAddresses (
+        /*[in]*/ BSTR remoteAddrs ) = 0;
+      virtual HRESULT __stdcall get_Enabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_Enabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_GloballyOpenPorts (
+        /*[out,retval]*/ struct INetFwOpenPorts * * openPorts ) = 0;
+};
+
+struct __declspec(uuid("79649bb4-903e-421b-94c9-79848e79f6ee"))
+INetFwServices : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    INetFwServicePtr Item (
+        enum NET_FW_SERVICE_TYPE_ svcType );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * Count ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ enum NET_FW_SERVICE_TYPE_ svcType,
+        /*[out,retval]*/ struct INetFwService * * service ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * newEnum ) = 0;
+};
+
+struct __declspec(uuid("b5e64ffa-c2c5-444e-a301-fb5e00018050"))
+INetFwAuthorizedApplication : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetProcessImageFileName,put=PutProcessImageFileName))
+    _bstr_t ProcessImageFileName;
+    __declspec(property(get=GetIpVersion,put=PutIpVersion))
+    enum NET_FW_IP_VERSION_ IpVersion;
+    __declspec(property(get=GetScope,put=PutScope))
+    enum NET_FW_SCOPE_ Scope;
+    __declspec(property(get=GetRemoteAddresses,put=PutRemoteAddresses))
+    _bstr_t RemoteAddresses;
+    __declspec(property(get=GetEnabled,put=PutEnabled))
+    VARIANT_BOOL Enabled;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t Name );
+    _bstr_t GetProcessImageFileName ( );
+    void PutProcessImageFileName (
+        _bstr_t imageFileName );
+    enum NET_FW_IP_VERSION_ GetIpVersion ( );
+    void PutIpVersion (
+        enum NET_FW_IP_VERSION_ IpVersion );
+    enum NET_FW_SCOPE_ GetScope ( );
+    void PutScope (
+        enum NET_FW_SCOPE_ Scope );
+    _bstr_t GetRemoteAddresses ( );
+    void PutRemoteAddresses (
+        _bstr_t remoteAddrs );
+    VARIANT_BOOL GetEnabled ( );
+    void PutEnabled (
+        VARIANT_BOOL Enabled );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * Name ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall get_ProcessImageFileName (
+        /*[out,retval]*/ BSTR * imageFileName ) = 0;
+      virtual HRESULT __stdcall put_ProcessImageFileName (
+        /*[in]*/ BSTR imageFileName ) = 0;
+      virtual HRESULT __stdcall get_IpVersion (
+        /*[out,retval]*/ enum NET_FW_IP_VERSION_ * IpVersion ) = 0;
+      virtual HRESULT __stdcall put_IpVersion (
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion ) = 0;
+      virtual HRESULT __stdcall get_Scope (
+        /*[out,retval]*/ enum NET_FW_SCOPE_ * Scope ) = 0;
+      virtual HRESULT __stdcall put_Scope (
+        /*[in]*/ enum NET_FW_SCOPE_ Scope ) = 0;
+      virtual HRESULT __stdcall get_RemoteAddresses (
+        /*[out,retval]*/ BSTR * remoteAddrs ) = 0;
+      virtual HRESULT __stdcall put_RemoteAddresses (
+        /*[in]*/ BSTR remoteAddrs ) = 0;
+      virtual HRESULT __stdcall get_Enabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_Enabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+};
+
+struct __declspec(uuid("644efd52-ccf9-486c-97a2-39f352570b30"))
+INetFwAuthorizedApplications : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    HRESULT Add (
+        struct INetFwAuthorizedApplication * app );
+    HRESULT Remove (
+        _bstr_t imageFileName );
+    INetFwAuthorizedApplicationPtr Item (
+        _bstr_t imageFileName );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * Count ) = 0;
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ struct INetFwAuthorizedApplication * app ) = 0;
+      virtual HRESULT __stdcall raw_Remove (
+        /*[in]*/ BSTR imageFileName ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ BSTR imageFileName,
+        /*[out,retval]*/ struct INetFwAuthorizedApplication * * app ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * newEnum ) = 0;
+};
+
+enum NET_FW_RULE_DIRECTION_
+{
+    NET_FW_RULE_DIR_IN = 1,
+    NET_FW_RULE_DIR_OUT = 2,
+    NET_FW_RULE_DIR_MAX = 3
+};
+
+enum NET_FW_ACTION_
+{
+    NET_FW_ACTION_BLOCK = 0,
+    NET_FW_ACTION_ALLOW = 1,
+    NET_FW_ACTION_MAX = 2
+};
+
+struct __declspec(uuid("af230d27-baba-4e42-aced-f524f22cfce2"))
+INetFwRule : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetName,put=PutName))
+    _bstr_t Name;
+    __declspec(property(get=GetDescription,put=PutDescription))
+    _bstr_t Description;
+    __declspec(property(get=GetApplicationName,put=PutApplicationName))
+    _bstr_t ApplicationName;
+    __declspec(property(get=GetserviceName,put=PutserviceName))
+    _bstr_t serviceName;
+    __declspec(property(get=GetProtocol,put=PutProtocol))
+    long Protocol;
+    __declspec(property(get=GetLocalPorts,put=PutLocalPorts))
+    _bstr_t LocalPorts;
+    __declspec(property(get=GetRemotePorts,put=PutRemotePorts))
+    _bstr_t RemotePorts;
+    __declspec(property(get=GetLocalAddresses,put=PutLocalAddresses))
+    _bstr_t LocalAddresses;
+    __declspec(property(get=GetRemoteAddresses,put=PutRemoteAddresses))
+    _bstr_t RemoteAddresses;
+    __declspec(property(get=GetIcmpTypesAndCodes,put=PutIcmpTypesAndCodes))
+    _bstr_t IcmpTypesAndCodes;
+    __declspec(property(get=GetDirection,put=PutDirection))
+    enum NET_FW_RULE_DIRECTION_ Direction;
+    __declspec(property(get=GetInterfaces,put=PutInterfaces))
+    _variant_t Interfaces;
+    __declspec(property(get=GetInterfaceTypes,put=PutInterfaceTypes))
+    _bstr_t InterfaceTypes;
+    __declspec(property(get=GetEnabled,put=PutEnabled))
+    VARIANT_BOOL Enabled;
+    __declspec(property(get=GetGrouping,put=PutGrouping))
+    _bstr_t Grouping;
+    __declspec(property(get=GetProfiles,put=PutProfiles))
+    long Profiles;
+    __declspec(property(get=GetEdgeTraversal,put=PutEdgeTraversal))
+    VARIANT_BOOL EdgeTraversal;
+    __declspec(property(get=GetAction,put=PutAction))
+    enum NET_FW_ACTION_ Action;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetName ( );
+    void PutName (
+        _bstr_t Name );
+    _bstr_t GetDescription ( );
+    void PutDescription (
+        _bstr_t desc );
+    _bstr_t GetApplicationName ( );
+    void PutApplicationName (
+        _bstr_t imageFileName );
+    _bstr_t GetserviceName ( );
+    void PutserviceName (
+        _bstr_t serviceName );
+    long GetProtocol ( );
+    void PutProtocol (
+        long Protocol );
+    _bstr_t GetLocalPorts ( );
+    void PutLocalPorts (
+        _bstr_t portNumbers );
+    _bstr_t GetRemotePorts ( );
+    void PutRemotePorts (
+        _bstr_t portNumbers );
+    _bstr_t GetLocalAddresses ( );
+    void PutLocalAddresses (
+        _bstr_t localAddrs );
+    _bstr_t GetRemoteAddresses ( );
+    void PutRemoteAddresses (
+        _bstr_t remoteAddrs );
+    _bstr_t GetIcmpTypesAndCodes ( );
+    void PutIcmpTypesAndCodes (
+        _bstr_t IcmpTypesAndCodes );
+    enum NET_FW_RULE_DIRECTION_ GetDirection ( );
+    void PutDirection (
+        enum NET_FW_RULE_DIRECTION_ dir );
+    _variant_t GetInterfaces ( );
+    void PutInterfaces (
+        const _variant_t & Interfaces );
+    _bstr_t GetInterfaceTypes ( );
+    void PutInterfaceTypes (
+        _bstr_t InterfaceTypes );
+    VARIANT_BOOL GetEnabled ( );
+    void PutEnabled (
+        VARIANT_BOOL Enabled );
+    _bstr_t GetGrouping ( );
+    void PutGrouping (
+        _bstr_t context );
+    long GetProfiles ( );
+    void PutProfiles (
+        long profileTypesBitmask );
+    VARIANT_BOOL GetEdgeTraversal ( );
+    void PutEdgeTraversal (
+        VARIANT_BOOL Enabled );
+    enum NET_FW_ACTION_ GetAction ( );
+    void PutAction (
+        enum NET_FW_ACTION_ Action );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Name (
+        /*[out,retval]*/ BSTR * Name ) = 0;
+      virtual HRESULT __stdcall put_Name (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall get_Description (
+        /*[out,retval]*/ BSTR * desc ) = 0;
+      virtual HRESULT __stdcall put_Description (
+        /*[in]*/ BSTR desc ) = 0;
+      virtual HRESULT __stdcall get_ApplicationName (
+        /*[out,retval]*/ BSTR * imageFileName ) = 0;
+      virtual HRESULT __stdcall put_ApplicationName (
+        /*[in]*/ BSTR imageFileName ) = 0;
+      virtual HRESULT __stdcall get_serviceName (
+        /*[out,retval]*/ BSTR * serviceName ) = 0;
+      virtual HRESULT __stdcall put_serviceName (
+        /*[in]*/ BSTR serviceName ) = 0;
+      virtual HRESULT __stdcall get_Protocol (
+        /*[out,retval]*/ long * Protocol ) = 0;
+      virtual HRESULT __stdcall put_Protocol (
+        /*[in]*/ long Protocol ) = 0;
+      virtual HRESULT __stdcall get_LocalPorts (
+        /*[out,retval]*/ BSTR * portNumbers ) = 0;
+      virtual HRESULT __stdcall put_LocalPorts (
+        /*[in]*/ BSTR portNumbers ) = 0;
+      virtual HRESULT __stdcall get_RemotePorts (
+        /*[out,retval]*/ BSTR * portNumbers ) = 0;
+      virtual HRESULT __stdcall put_RemotePorts (
+        /*[in]*/ BSTR portNumbers ) = 0;
+      virtual HRESULT __stdcall get_LocalAddresses (
+        /*[out,retval]*/ BSTR * localAddrs ) = 0;
+      virtual HRESULT __stdcall put_LocalAddresses (
+        /*[in]*/ BSTR localAddrs ) = 0;
+      virtual HRESULT __stdcall get_RemoteAddresses (
+        /*[out,retval]*/ BSTR * remoteAddrs ) = 0;
+      virtual HRESULT __stdcall put_RemoteAddresses (
+        /*[in]*/ BSTR remoteAddrs ) = 0;
+      virtual HRESULT __stdcall get_IcmpTypesAndCodes (
+        /*[out,retval]*/ BSTR * IcmpTypesAndCodes ) = 0;
+      virtual HRESULT __stdcall put_IcmpTypesAndCodes (
+        /*[in]*/ BSTR IcmpTypesAndCodes ) = 0;
+      virtual HRESULT __stdcall get_Direction (
+        /*[out,retval]*/ enum NET_FW_RULE_DIRECTION_ * dir ) = 0;
+      virtual HRESULT __stdcall put_Direction (
+        /*[in]*/ enum NET_FW_RULE_DIRECTION_ dir ) = 0;
+      virtual HRESULT __stdcall get_Interfaces (
+        /*[out,retval]*/ VARIANT * Interfaces ) = 0;
+      virtual HRESULT __stdcall put_Interfaces (
+        /*[in]*/ VARIANT Interfaces ) = 0;
+      virtual HRESULT __stdcall get_InterfaceTypes (
+        /*[out,retval]*/ BSTR * InterfaceTypes ) = 0;
+      virtual HRESULT __stdcall put_InterfaceTypes (
+        /*[in]*/ BSTR InterfaceTypes ) = 0;
+      virtual HRESULT __stdcall get_Enabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_Enabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_Grouping (
+        /*[out,retval]*/ BSTR * context ) = 0;
+      virtual HRESULT __stdcall put_Grouping (
+        /*[in]*/ BSTR context ) = 0;
+      virtual HRESULT __stdcall get_Profiles (
+        /*[out,retval]*/ long * profileTypesBitmask ) = 0;
+      virtual HRESULT __stdcall put_Profiles (
+        /*[in]*/ long profileTypesBitmask ) = 0;
+      virtual HRESULT __stdcall get_EdgeTraversal (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_EdgeTraversal (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_Action (
+        /*[out,retval]*/ enum NET_FW_ACTION_ * Action ) = 0;
+      virtual HRESULT __stdcall put_Action (
+        /*[in]*/ enum NET_FW_ACTION_ Action ) = 0;
+};
+
+struct __declspec(uuid("9c4c6277-5027-441e-afae-ca1f542da009"))
+INetFwRules : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCount))
+    long Count;
+    __declspec(property(get=Get_NewEnum))
+    IUnknownPtr _NewEnum;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCount ( );
+    HRESULT Add (
+        struct INetFwRule * rule );
+    HRESULT Remove (
+        _bstr_t Name );
+    INetFwRulePtr Item (
+        _bstr_t Name );
+    IUnknownPtr Get_NewEnum ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Count (
+        /*[out,retval]*/ long * Count ) = 0;
+      virtual HRESULT __stdcall raw_Add (
+        /*[in]*/ struct INetFwRule * rule ) = 0;
+      virtual HRESULT __stdcall raw_Remove (
+        /*[in]*/ BSTR Name ) = 0;
+      virtual HRESULT __stdcall raw_Item (
+        /*[in]*/ BSTR Name,
+        /*[out,retval]*/ struct INetFwRule * * rule ) = 0;
+      virtual HRESULT __stdcall get__NewEnum (
+        /*[out,retval]*/ IUnknown * * newEnum ) = 0;
+};
+
+struct __declspec(uuid("8267bbe3-f890-491c-b7b6-2db1ef0e5d2b"))
+INetFwServiceRestriction : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetRules))
+    INetFwRulesPtr Rules;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RestrictService (
+        _bstr_t serviceName,
+        _bstr_t appName,
+        VARIANT_BOOL RestrictService,
+        VARIANT_BOOL serviceSidRestricted );
+    VARIANT_BOOL ServiceRestricted (
+        _bstr_t serviceName,
+        _bstr_t appName );
+    INetFwRulesPtr GetRules ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RestrictService (
+        /*[in]*/ BSTR serviceName,
+        /*[in]*/ BSTR appName,
+        /*[in]*/ VARIANT_BOOL RestrictService,
+        /*[in]*/ VARIANT_BOOL serviceSidRestricted ) = 0;
+      virtual HRESULT __stdcall raw_ServiceRestricted (
+        /*[in]*/ BSTR serviceName,
+        /*[in]*/ BSTR appName,
+        /*[out,retval]*/ VARIANT_BOOL * ServiceRestricted ) = 0;
+      virtual HRESULT __stdcall get_Rules (
+        /*[out,retval]*/ struct INetFwRules * * Rules ) = 0;
+};
+
+enum NET_FW_PROFILE_TYPE_
+{
+    NET_FW_PROFILE_DOMAIN = 0,
+    NET_FW_PROFILE_STANDARD = 1,
+    NET_FW_PROFILE_CURRENT = 2,
+    NET_FW_PROFILE_TYPE_MAX = 3
+};
+
+struct __declspec(uuid("174a0dda-e9f9-449d-993b-21ab667ca456"))
+INetFwProfile : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetType))
+    enum NET_FW_PROFILE_TYPE_ Type;
+    __declspec(property(get=GetFirewallEnabled,put=PutFirewallEnabled))
+    VARIANT_BOOL FirewallEnabled;
+    __declspec(property(get=GetExceptionsNotAllowed,put=PutExceptionsNotAllowed))
+    VARIANT_BOOL ExceptionsNotAllowed;
+    __declspec(property(get=GetNotificationsDisabled,put=PutNotificationsDisabled))
+    VARIANT_BOOL NotificationsDisabled;
+    __declspec(property(get=GetUnicastResponsesToMulticastBroadcastDisabled,put=PutUnicastResponsesToMulticastBroadcastDisabled))
+    VARIANT_BOOL UnicastResponsesToMulticastBroadcastDisabled;
+    __declspec(property(get=GetRemoteAdminSettings))
+    INetFwRemoteAdminSettingsPtr RemoteAdminSettings;
+    __declspec(property(get=GetIcmpSettings))
+    INetFwIcmpSettingsPtr IcmpSettings;
+    __declspec(property(get=GetGloballyOpenPorts))
+    INetFwOpenPortsPtr GloballyOpenPorts;
+    __declspec(property(get=GetServices))
+    INetFwServicesPtr Services;
+    __declspec(property(get=GetAuthorizedApplications))
+    INetFwAuthorizedApplicationsPtr AuthorizedApplications;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    enum NET_FW_PROFILE_TYPE_ GetType ( );
+    VARIANT_BOOL GetFirewallEnabled ( );
+    void PutFirewallEnabled (
+        VARIANT_BOOL Enabled );
+    VARIANT_BOOL GetExceptionsNotAllowed ( );
+    void PutExceptionsNotAllowed (
+        VARIANT_BOOL notAllowed );
+    VARIANT_BOOL GetNotificationsDisabled ( );
+    void PutNotificationsDisabled (
+        VARIANT_BOOL disabled );
+    VARIANT_BOOL GetUnicastResponsesToMulticastBroadcastDisabled ( );
+    void PutUnicastResponsesToMulticastBroadcastDisabled (
+        VARIANT_BOOL disabled );
+    INetFwRemoteAdminSettingsPtr GetRemoteAdminSettings ( );
+    INetFwIcmpSettingsPtr GetIcmpSettings ( );
+    INetFwOpenPortsPtr GetGloballyOpenPorts ( );
+    INetFwServicesPtr GetServices ( );
+    INetFwAuthorizedApplicationsPtr GetAuthorizedApplications ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_Type (
+        /*[out,retval]*/ enum NET_FW_PROFILE_TYPE_ * Type ) = 0;
+      virtual HRESULT __stdcall get_FirewallEnabled (
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_FirewallEnabled (
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_ExceptionsNotAllowed (
+        /*[out,retval]*/ VARIANT_BOOL * notAllowed ) = 0;
+      virtual HRESULT __stdcall put_ExceptionsNotAllowed (
+        /*[in]*/ VARIANT_BOOL notAllowed ) = 0;
+      virtual HRESULT __stdcall get_NotificationsDisabled (
+        /*[out,retval]*/ VARIANT_BOOL * disabled ) = 0;
+      virtual HRESULT __stdcall put_NotificationsDisabled (
+        /*[in]*/ VARIANT_BOOL disabled ) = 0;
+      virtual HRESULT __stdcall get_UnicastResponsesToMulticastBroadcastDisabled (
+        /*[out,retval]*/ VARIANT_BOOL * disabled ) = 0;
+      virtual HRESULT __stdcall put_UnicastResponsesToMulticastBroadcastDisabled (
+        /*[in]*/ VARIANT_BOOL disabled ) = 0;
+      virtual HRESULT __stdcall get_RemoteAdminSettings (
+        /*[out,retval]*/ struct INetFwRemoteAdminSettings * * RemoteAdminSettings ) = 0;
+      virtual HRESULT __stdcall get_IcmpSettings (
+        /*[out,retval]*/ struct INetFwIcmpSettings * * IcmpSettings ) = 0;
+      virtual HRESULT __stdcall get_GloballyOpenPorts (
+        /*[out,retval]*/ struct INetFwOpenPorts * * openPorts ) = 0;
+      virtual HRESULT __stdcall get_Services (
+        /*[out,retval]*/ struct INetFwServices * * Services ) = 0;
+      virtual HRESULT __stdcall get_AuthorizedApplications (
+        /*[out,retval]*/ struct INetFwAuthorizedApplications * * apps ) = 0;
+};
+
+struct __declspec(uuid("d46d2478-9ac9-4008-9dc7-5563ce5536cc"))
+INetFwPolicy : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCurrentProfile))
+    INetFwProfilePtr CurrentProfile;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    INetFwProfilePtr GetCurrentProfile ( );
+    INetFwProfilePtr GetProfileByType (
+        enum NET_FW_PROFILE_TYPE_ profileType );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_CurrentProfile (
+        /*[out,retval]*/ struct INetFwProfile * * profile ) = 0;
+      virtual HRESULT __stdcall raw_GetProfileByType (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE_ profileType,
+        /*[out,retval]*/ struct INetFwProfile * * profile ) = 0;
+};
+
+enum NET_FW_PROFILE_TYPE2_
+{
+    NET_FW_PROFILE2_DOMAIN = 1,
+    NET_FW_PROFILE2_PRIVATE = 2,
+    NET_FW_PROFILE2_PUBLIC = 4,
+    NET_FW_PROFILE2_ALL = 2147483647
+};
+
+enum NET_FW_MODIFY_STATE_
+{
+    NET_FW_MODIFY_STATE_OK = 0,
+    NET_FW_MODIFY_STATE_GP_OVERRIDE = 1,
+    NET_FW_MODIFY_STATE_INBOUND_BLOCKED = 2
+};
+
+struct __declspec(uuid("98325047-c671-4174-8d81-defcd3f03186"))
+INetFwPolicy2 : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetCurrentProfileTypes))
+    long CurrentProfileTypes;
+    __declspec(property(get=GetFirewallEnabled,put=PutFirewallEnabled))
+    VARIANT_BOOL FirewallEnabled[];
+    __declspec(property(get=GetExcludedInterfaces,put=PutExcludedInterfaces))
+    _variant_t ExcludedInterfaces[];
+    __declspec(property(get=GetBlockAllInboundTraffic,put=PutBlockAllInboundTraffic))
+    VARIANT_BOOL BlockAllInboundTraffic[];
+    __declspec(property(get=GetNotificationsDisabled,put=PutNotificationsDisabled))
+    VARIANT_BOOL NotificationsDisabled[];
+    __declspec(property(get=GetUnicastResponsesToMulticastBroadcastDisabled,put=PutUnicastResponsesToMulticastBroadcastDisabled))
+    VARIANT_BOOL UnicastResponsesToMulticastBroadcastDisabled[];
+    __declspec(property(get=GetRules))
+    INetFwRulesPtr Rules;
+    __declspec(property(get=GetServiceRestriction))
+    INetFwServiceRestrictionPtr ServiceRestriction;
+    __declspec(property(get=GetDefaultInboundAction,put=PutDefaultInboundAction))
+    enum NET_FW_ACTION_ DefaultInboundAction[];
+    __declspec(property(get=GetDefaultOutboundAction,put=PutDefaultOutboundAction))
+    enum NET_FW_ACTION_ DefaultOutboundAction[];
+    __declspec(property(get=GetIsRuleGroupCurrentlyEnabled))
+    VARIANT_BOOL IsRuleGroupCurrentlyEnabled[];
+    __declspec(property(get=GetLocalPolicyModifyState))
+    enum NET_FW_MODIFY_STATE_ LocalPolicyModifyState;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    long GetCurrentProfileTypes ( );
+    VARIANT_BOOL GetFirewallEnabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutFirewallEnabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        VARIANT_BOOL Enabled );
+    _variant_t GetExcludedInterfaces (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutExcludedInterfaces (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        const _variant_t & Interfaces );
+    VARIANT_BOOL GetBlockAllInboundTraffic (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutBlockAllInboundTraffic (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        VARIANT_BOOL Block );
+    VARIANT_BOOL GetNotificationsDisabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutNotificationsDisabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        VARIANT_BOOL disabled );
+    VARIANT_BOOL GetUnicastResponsesToMulticastBroadcastDisabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutUnicastResponsesToMulticastBroadcastDisabled (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        VARIANT_BOOL disabled );
+    INetFwRulesPtr GetRules ( );
+    INetFwServiceRestrictionPtr GetServiceRestriction ( );
+    HRESULT EnableRuleGroup (
+        long profileTypesBitmask,
+        _bstr_t group,
+        VARIANT_BOOL enable );
+    VARIANT_BOOL IsRuleGroupEnabled (
+        long profileTypesBitmask,
+        _bstr_t group );
+    HRESULT RestoreLocalFirewallDefaults ( );
+    enum NET_FW_ACTION_ GetDefaultInboundAction (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutDefaultInboundAction (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        enum NET_FW_ACTION_ Action );
+    enum NET_FW_ACTION_ GetDefaultOutboundAction (
+        enum NET_FW_PROFILE_TYPE2_ profileType );
+    void PutDefaultOutboundAction (
+        enum NET_FW_PROFILE_TYPE2_ profileType,
+        enum NET_FW_ACTION_ Action );
+    VARIANT_BOOL GetIsRuleGroupCurrentlyEnabled (
+        _bstr_t group );
+    enum NET_FW_MODIFY_STATE_ GetLocalPolicyModifyState ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_CurrentProfileTypes (
+        /*[out,retval]*/ long * profileTypesBitmask ) = 0;
+      virtual HRESULT __stdcall get_FirewallEnabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall put_FirewallEnabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ VARIANT_BOOL Enabled ) = 0;
+      virtual HRESULT __stdcall get_ExcludedInterfaces (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ VARIANT * Interfaces ) = 0;
+      virtual HRESULT __stdcall put_ExcludedInterfaces (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ VARIANT Interfaces ) = 0;
+      virtual HRESULT __stdcall get_BlockAllInboundTraffic (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ VARIANT_BOOL * Block ) = 0;
+      virtual HRESULT __stdcall put_BlockAllInboundTraffic (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ VARIANT_BOOL Block ) = 0;
+      virtual HRESULT __stdcall get_NotificationsDisabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ VARIANT_BOOL * disabled ) = 0;
+      virtual HRESULT __stdcall put_NotificationsDisabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ VARIANT_BOOL disabled ) = 0;
+      virtual HRESULT __stdcall get_UnicastResponsesToMulticastBroadcastDisabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ VARIANT_BOOL * disabled ) = 0;
+      virtual HRESULT __stdcall put_UnicastResponsesToMulticastBroadcastDisabled (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ VARIANT_BOOL disabled ) = 0;
+      virtual HRESULT __stdcall get_Rules (
+        /*[out,retval]*/ struct INetFwRules * * Rules ) = 0;
+      virtual HRESULT __stdcall get_ServiceRestriction (
+        /*[out,retval]*/ struct INetFwServiceRestriction * * ServiceRestriction ) = 0;
+      virtual HRESULT __stdcall raw_EnableRuleGroup (
+        /*[in]*/ long profileTypesBitmask,
+        /*[in]*/ BSTR group,
+        /*[in]*/ VARIANT_BOOL enable ) = 0;
+      virtual HRESULT __stdcall raw_IsRuleGroupEnabled (
+        /*[in]*/ long profileTypesBitmask,
+        /*[in]*/ BSTR group,
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall raw_RestoreLocalFirewallDefaults ( ) = 0;
+      virtual HRESULT __stdcall get_DefaultInboundAction (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ enum NET_FW_ACTION_ * Action ) = 0;
+      virtual HRESULT __stdcall put_DefaultInboundAction (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ enum NET_FW_ACTION_ Action ) = 0;
+      virtual HRESULT __stdcall get_DefaultOutboundAction (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[out,retval]*/ enum NET_FW_ACTION_ * Action ) = 0;
+      virtual HRESULT __stdcall put_DefaultOutboundAction (
+        /*[in]*/ enum NET_FW_PROFILE_TYPE2_ profileType,
+        /*[in]*/ enum NET_FW_ACTION_ Action ) = 0;
+      virtual HRESULT __stdcall get_IsRuleGroupCurrentlyEnabled (
+        /*[in]*/ BSTR group,
+        /*[out,retval]*/ VARIANT_BOOL * Enabled ) = 0;
+      virtual HRESULT __stdcall get_LocalPolicyModifyState (
+        /*[out,retval]*/ enum NET_FW_MODIFY_STATE_ * modifyState ) = 0;
+};
+
+struct __declspec(uuid("f7898af5-cac4-4632-a2ec-da06e5111af2"))
+INetFwMgr : IDispatch
+{
+    //
+    // Property data
+    //
+
+    __declspec(property(get=GetLocalPolicy))
+    INetFwPolicyPtr LocalPolicy;
+    __declspec(property(get=GetCurrentProfileType))
+    enum NET_FW_PROFILE_TYPE_ CurrentProfileType;
+
+    //
+    // Wrapper methods for error-handling
+    //
+
+    INetFwPolicyPtr GetLocalPolicy ( );
+    enum NET_FW_PROFILE_TYPE_ GetCurrentProfileType ( );
+    HRESULT RestoreDefaults ( );
+    HRESULT IsPortAllowed (
+        _bstr_t imageFileName,
+        enum NET_FW_IP_VERSION_ IpVersion,
+        long portNumber,
+        _bstr_t localAddress,
+        enum NET_FW_IP_PROTOCOL_ ipProtocol,
+        VARIANT * allowed,
+        VARIANT * restricted );
+    HRESULT IsIcmpTypeAllowed (
+        enum NET_FW_IP_VERSION_ IpVersion,
+        _bstr_t localAddress,
+        unsigned char Type,
+        VARIANT * allowed,
+        VARIANT * restricted );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall get_LocalPolicy (
+        /*[out,retval]*/ struct INetFwPolicy * * LocalPolicy ) = 0;
+      virtual HRESULT __stdcall get_CurrentProfileType (
+        /*[out,retval]*/ enum NET_FW_PROFILE_TYPE_ * profileType ) = 0;
+      virtual HRESULT __stdcall raw_RestoreDefaults ( ) = 0;
+      virtual HRESULT __stdcall raw_IsPortAllowed (
+        /*[in]*/ BSTR imageFileName,
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion,
+        /*[in]*/ long portNumber,
+        /*[in]*/ BSTR localAddress,
+        /*[in]*/ enum NET_FW_IP_PROTOCOL_ ipProtocol,
+        /*[out]*/ VARIANT * allowed,
+        /*[out]*/ VARIANT * restricted ) = 0;
+      virtual HRESULT __stdcall raw_IsIcmpTypeAllowed (
+        /*[in]*/ enum NET_FW_IP_VERSION_ IpVersion,
+        /*[in]*/ BSTR localAddress,
+        /*[in]*/ unsigned char Type,
+        /*[out]*/ VARIANT * allowed,
+        /*[out]*/ VARIANT * restricted ) = 0;
+};
+
+struct __declspec(uuid("2c5bc43e-3369-4c33-ab0c-be9469677af4"))
+NetFwRule;
+    // [ default ] interface INetFwRule
+
+struct __declspec(uuid("0ca545c6-37ad-4a6c-bf92-9f7610067ef5"))
+NetFwOpenPort;
+    // [ default ] interface INetFwOpenPort
+
+struct __declspec(uuid("ec9846b3-2762-4a6b-a214-6acb603462d2"))
+NetFwAuthorizedApplication;
+    // [ default ] interface INetFwAuthorizedApplication
+
+struct __declspec(uuid("e2b3c97f-6ae1-41ac-817a-f6f92166d7dd"))
+NetFwPolicy2;
+    // [ default ] interface INetFwPolicy2
+
+struct __declspec(uuid("304ce942-6e39-40d8-943a-b913c40c9cd4"))
+NetFwMgr;
+    // [ default ] interface INetFwMgr
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\gcs\source\cpp\tcplistenandoutput\tcplistenandoutput\debug\netfw.tli"
+
+#pragma pack(pop)

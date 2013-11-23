@@ -1,0 +1,44 @@
+-g jDoom.dll 
+-r drOpenGL.dll 
+-sbd
+
+-verbose
+-/wnd -wh 640 480 -noc -/ptx -/texcomp
+-/nosound
+-/nomixer 
+
+-/nohightex
+-/verbose
+
+-/bigmtex
+-/nopitch
+
+-/gdifonts
+
+-def }Defs\jDoom\jDRP.ded
+
+-file d:\games\doom\doom.wad d:\projects\de1.7\doomsday\Data\jDoom\Auto\Details.pk3 
+-- models.pk3 details.pk3 -- hitex.pk3 -- 
+
+
+--
+Here's a list of WADs to use (copy&paste):
+
+c:\games\doom\doom.wad aliens.wad 
+
+c:\games\doom\doom.wad aliens.wad alitsnd.wad alitcsf.wad
+c:\games\final\tnt.wad
+c:\games\doom\doom.wad e1m1.wad 
+c:\games\final\plutonia.wad
+c:\games\doom2\doom2.wad darken2.wad
+
+
+z:/data/detail/detail.wad
+z:/data/detail/dtltest.raw
+
+-cmd "net init tcpip"
+
+
+
+
+

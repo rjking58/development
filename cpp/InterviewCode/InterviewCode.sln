@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterviewCode", "InterviewCode\InterviewCode.vcproj", "{252D4E60-2127-4DC1-9350-0038DCF7A0DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Interview2WithPointer", "Interview2WithPointer\Interview2WithPointer.vcproj", "{6C96AC09-EB99-4F86-9393-A0727654C00D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{252D4E60-2127-4DC1-9350-0038DCF7A0DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{252D4E60-2127-4DC1-9350-0038DCF7A0DD}.Debug|Win32.Build.0 = Debug|Win32
+		{252D4E60-2127-4DC1-9350-0038DCF7A0DD}.Release|Win32.ActiveCfg = Release|Win32
+		{252D4E60-2127-4DC1-9350-0038DCF7A0DD}.Release|Win32.Build.0 = Release|Win32
+		{6C96AC09-EB99-4F86-9393-A0727654C00D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C96AC09-EB99-4F86-9393-A0727654C00D}.Debug|Win32.Build.0 = Debug|Win32
+		{6C96AC09-EB99-4F86-9393-A0727654C00D}.Release|Win32.ActiveCfg = Release|Win32
+		{6C96AC09-EB99-4F86-9393-A0727654C00D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

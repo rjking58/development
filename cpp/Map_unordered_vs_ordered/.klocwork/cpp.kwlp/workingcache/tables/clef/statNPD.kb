@@ -1,0 +1,40 @@
+std::basic_string::basic_string::c_str const\ std::basic_string<\#template_arg_1_0\#,\#template_arg_2_0\#,\#template_arg_3_0\#>*,  CHECKRET 0
+std::_Locinfo::_Getfalse const\ std::_Locinfo*,  CHECKRET 0
+std::_Locinfo::_Gettrue const\ std::_Locinfo*,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::eback const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+std::ctype::ctype::do_scan_is const\ std::ctype<unsigned\ short\ int>*,short\ int,const\ unsigned\ short\ int*,const\ unsigned\ short\ int*,  CHECKRET 0
+memmove -  CHECKRET 0
+std::basic_streambuf::basic_streambuf::epptr const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+std::ctype::ctype::do_scan_not const\ std::ctype<wchar_t>*,short\ int,const\ wchar_t*,const\ wchar_t*,  CHECKRET 0
+std::_Locinfo::_Getname const\ std::_Locinfo*,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::egptr const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::_Gndec std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::pptr const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+memchr -  CHECKRET 0
+std::ctype::ctype::table const\ std::ctype<char>*,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::setbuf std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,\#template_arg_1_0\#*,long\ long\ int,  CHECKRET 0
+std::_Locinfo::_Getlconv const\ std::_Locinfo*,  CHECKRET 0
+std::_Iterator_base12::_Getcont const\ std::_Iterator_base12*,  CHECKRET 0
+_Getdays -  CHECKRET 0
+_Gettnames -  CHECKRET 0
+std::basic_streambuf::basic_streambuf::gptr const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+new ,unsigned\ int,void*,  CHECKRET 0
+std::ctype::ctype::do_scan_is const\ std::ctype<wchar_t>*,short\ int,const\ wchar_t*,const\ wchar_t*,  CHECKRET 0
+new ,unsigned\ int,const\ std::_DebugHeapTag_t&,char*,int,  CHECKRET 0
+std::locale::_Getgloballocale ,  CHECKRET 0
+_malloc_dbg -  CHECKRET 0
+std::locale::_Getfacet const\ std::locale*,unsigned\ int,  CHECKRET 0
+new ,unsigned\ int,  CHECKRET 0
+new[] ,unsigned\ int,const\ std::_DebugHeapTag_t&,char*,int,  CHECKRET 0
+memset -  CHECKRET 0
+_Getmonths -  CHECKRET 0
+std::ctype::ctype::do_scan_not const\ std::ctype<unsigned\ short\ int>*,short\ int,const\ unsigned\ short\ int*,const\ unsigned\ short\ int*,  CHECKRET 0
+std::locale::c_str const\ std::locale*,  CHECKRET 0
+std::locale::facet::new ,unsigned\ int,const\ std::_DebugHeapTag_t&,char*,int,  CHECKRET 0
+std::basic_streambuf::basic_streambuf::pbase const\ std::basic_streambuf<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+std::basic_string::basic_string::_Myptr std::basic_string<\#template_arg_1_0\#,\#template_arg_2_0\#,\#template_arg_3_0\#>*,  CHECKRET 1
+memcpy -  CHECKRET 0
+std::basic_ios::basic_ios::rdbuf const\ std::basic_ios<\#template_arg_1_0\#,\#template_arg_2_0\#>*,  CHECKRET 0
+localeconv -  CHECKRET 0
+std::_Container_base12::_Getpfirst const\ std::_Container_base12*,  CHECKRET 0
+std::locale::facet::_Decref std::locale::facet*,  CHECKRET 0

@@ -1,0 +1,317 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\WallpaperQ.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\WallpaperQ.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 158, 134
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "About WallpaperQ"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CTEXT           "WallpaperQ Version 2.00.2",IDC_STATIC,7,7,144,8,
+                    SS_NOPREFIX
+    CTEXT           "Copyright (C) 2003",IDC_STATIC,7,96,144,8
+    DEFPUSHBUTTON   "OK",IDOK,53,110,50,16,WS_GROUP
+    CONTROL         133,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,34,
+                    19,89,74
+END
+
+IDD_WALLPAPERQ_DIALOG DIALOGEX 0, 0, 268, 342
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "WallpaperQ"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Look In:",IDC_STATIC,7,8,27,8
+    EDITTEXT        IDC_LOOKIN,35,7,210,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BROWSE,248,7,13,12,BS_CENTER | BS_BOTTOM
+    LISTBOX         IDC_BROWSELIST,7,21,254,83,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Queue Images",IDC_ADD,22,114,58,14
+    CTEXT           "Screen Resolution:",IDC_STATIC,21,135,61,8
+    CTEXT           "1024x768",IDC_RESOLUTION,21,147,61,8
+    CTEXT           "Color Depth:",IDC_STATIC,21,162,61,8
+    CTEXT           "16 bit",IDC_NUMCOLORS,21,174,61,8
+    GROUPBOX        "Image Information",IDC_STATIC,98,111,163,76
+    LTEXT           "Width:",IDC_WIDTH,104,128,60,8
+    LTEXT           "Height:",IDC_HEIGHT,104,145,60,8
+    LTEXT           "Type:",IDC_TYPE,104,162,60,8
+    CONTROL         "",IDC_PREVIEW,"Static",SS_OWNERDRAW | SS_CENTERIMAGE | 
+                    SS_SUNKEN,170,118,85,64
+    LTEXT           "Queued Images:",IDC_STATIC,7,192,54,8
+    LISTBOX         IDC_QLIST,7,203,194,93,LBS_NOINTEGRALHEIGHT | 
+                    LBS_EXTENDEDSEL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "Position:",IDC_STATIC,204,201,28,8
+    COMBOBOX        IDC_POSITION,204,211,57,46,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Delete Selected",IDC_REMOVESELECTED,203,261,58,14
+    CONTROL         "Randomize Display of Images",IDC_RANDOMIZE,"Button",
+                    BS_AUTOCHECKBOX | BS_TOP | WS_TABSTOP,7,300,107,10
+    PUSHBUTTON      "Delete All",IDC_QLISTEMPTY,151,297,51,14
+    DEFPUSHBUTTON   "OK",IDOK,109,319,50,16
+    PUSHBUTTON      "Cancel",ID_CANCEL,160,319,50,16
+    PUSHBUTTON      "Apply",IDC_APPLY,211,319,50,16,WS_DISABLED
+    PUSHBUTTON      "",IDC_ARROWUP,204,228,15,14,BS_BITMAP
+    PUSHBUTTON      "",IDC_ARROWDOWN,204,243,15,14,BS_BITMAP
+END
+
+IDD_OPTIONS_DIALOG DIALOGEX 0, 0, 222, 75
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Wallpaper Queue Options"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Run at system startup",IDC_STARTUP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,7,87,10
+    CONTROL         "Exit after changing wallpaper",IDC_EXITAFTER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,39,109,10
+    CONTROL         "Change wallpaper every",IDC_USETIMER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,56,94,10
+    EDITTEXT        IDC_MINUTES,101,55,22,12,ES_NUMBER
+    DEFPUSHBUTTON   "OK",IDOK,165,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,165,22,50,14
+    LTEXT           "minutes",IDC_STATIC,128,57,26,8
+    CONTROL         "This User",IDC_THISUSER,"Button",BS_AUTORADIOBUTTON,29,
+                    23,45,10
+    CONTROL         "All Users",IDC_ALLUSERS,"Button",BS_AUTORADIOBUTTON,79,
+                    23,43,10
+    GROUPBOX        "",IDC_STATIC,24,15,104,22,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,2
+ PRODUCTVERSION 2,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "Comments", "Freeware!"
+            VALUE "CompanyName", "JasonSoft"
+            VALUE "FileDescription", "Wallpaper Queue: Wallpaper Management Tool"
+            VALUE "FileVersion", "2.0.0.2"
+            VALUE "InternalName", "WallpaperQ.exe"
+            VALUE "LegalCopyright", "(c) JasonSoft.  All rights reserved."
+            VALUE "OriginalFilename", "WallpaperQ.exe"
+            VALUE "ProductName", "WallpaperQ"
+            VALUE "ProductVersion", "2.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_WALLPAPERQ_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 261
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 335
+    END
+
+    IDD_OPTIONS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\WallpaperQ.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_WALLPAPERQ_DIALOG DLGINIT
+BEGIN
+    IDC_POSITION, 0x403, 6, 0
+0x6954, 0x656c, 0x0064, 
+    IDC_POSITION, 0x403, 7, 0
+0x6543, 0x746e, 0x7265, "\000" 
+    IDC_POSITION, 0x403, 8, 0
+0x7453, 0x6572, 0x6374, 0x0068, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_WPQ                 BITMAP                  "res\\about.bmp"
+IDB_ARROWUP             BITMAP                  "res\\arrowup.bmp"
+IDB_ARROWDOWN           BITMAP                  "res\\arrowdown.bmp"
+IDB_DARROWDOWN          BITMAP                  "res\\darrowdown.bmp"
+IDB_DARROWUP            BITMAP                  "res\\darrowup.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_NOTIFYICON_MENU MENU 
+BEGIN
+    POPUP "Context Menu"
+    BEGIN
+        MENUITEM "&Configure Wallpaper Queue",  ID_CONFIGUREWALLPAPERQUEUE
+        MENUITEM "Set Wallpaper to &Next Image", ID_SETWALLPAPERTONEXTIMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "&Options",                    ID_OPTIONS
+        MENUITEM "&About Wallpaper Queue",      ID_ABOUTWALLPAPERQUEUE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit Wallpaper Queue",       ID_EXITWPQ
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WallpaperQ..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\WallpaperQ.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

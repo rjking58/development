@@ -1,0 +1,29 @@
+-----
+Klocwork 9.2.1.7276
+Installation directory: "C:\Klocwork\User 9.2"
+Tables directory: "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables"
+Jobs number: 7
+-----
+Fri Jun 29 17:03:01 PDT 2012: Running build preparation stage...
+Adding the 'C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\stdafx.cpp' source file to the restriction list because the PCH file 'Map_unordered_vs_ordered.kwpch' created by the 'C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\stdafx.cpp' is used by the 'C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\Map_unordered_vs_ordered.cpp' source file.
+Fri Jun 29 17:03:01 PDT 2012: Build preparation stage completed
+Fri Jun 29 17:03:02 PDT 2012: Running compilation stage...
+1> working directory: "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered"
+1> executing: "C:\Klocwork\User 9.2\bin\kwcc.exe" "-c" "--security" "--metrics" "--ignore-extension" "-o" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\stdafx.cpp_0.o" "--deps-file" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\dep\stdafx.cpp_0.d" "-nocc" "-e" "ms" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include" "-D_MSC_VER=1600" "-D_WIN32" "-D_M_IX86" "--defects-only" "-DWIN32" "-D_DEBUG" "-D_CONSOLE" "-D_UNICODE" "-DUNICODE" "-D_CPPUNWIND" "-Zc:wchar_t" "-Zc:forScope" "-YcStdAfx.h" "-FpC:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\Map_unordered_vs_ordered.kwpch" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\stdafx.cpp"
+2> working directory: "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered"
+2> executing: "C:\Klocwork\User 9.2\bin\kwcc.exe" "-c" "--security" "--metrics" "--ignore-extension" "-o" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\Map_unordered_vs_ordered.cpp_1.o" "--deps-file" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\dep\Map_unordered_vs_ordered.cpp_1.d" "-nocc" "-e" "ms" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include" "-D_MSC_VER=1600" "-D_WIN32" "-D_M_IX86" "--defects-only" "-DWIN32" "-D_DEBUG" "-D_CONSOLE" "-D_UNICODE" "-DUNICODE" "-D_CPPUNWIND" "-Zc:wchar_t" "-Zc:forScope" "-YuStdAfx.h" "-FpC:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\Map_unordered_vs_ordered.kwpch" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\Map_unordered_vs_ordered\Map_unordered_vs_ordered.cpp"
+Fri Jun 29 17:03:05 PDT 2012: Compilation stage completed
+Fri Jun 29 17:03:05 PDT 2012: Running C/C++ defects detection stage...
+working directory: "C:\Klocwork\User 9.2"
+executing: "C:\Klocwork\User 9.2\exec\ix86-pc-win32\kwlef.exe" "--license-host" "Klocwork" "--license-port" "27000" "--force" "--verbose" "-j" "7" "-l" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\kw_object-restriction-list.txt" "-o" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables" "-m" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\object-mapping.txt" "-b" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\buildspec.out"
+Used FBKBs:
+    c:\klocwork\user 9.2\config\kb\all_platforms\posix.kb
+    c:\klocwork\user 9.2\config\kb\all_platforms\stdc.kb
+    c:\klocwork\user 9.2\config\kb\ix86-pc-win32\winapi32.kb
+1> Analyzing c:\volatile\source\cpp\map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\stdafx.cpp_0.o
+2> Analyzing c:\volatile\source\cpp\map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\map_unordered_vs_ordered.cpp_1.o
+Fri Jun 29 17:03:09 PDT 2012: C/C++ defects detection stage completed
+Fri Jun 29 17:03:09 PDT 2012: Running linking stage...
+working directory: "C:\Klocwork\User 9.2"
+executing: "C:\Klocwork\User 9.2\bin\kwlinker.exe" "--progress" "-o" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables" "-w" "-s" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\0.olist" "--restriction-list" "C:\Volatile\Source\cpp\Map_unordered_vs_ordered\.klocwork\cpp.kwlp\workingcache\tables\obj\kw_object-restriction-list.txt" "--no-system-metrics" "--defects-only"
+Fri Jun 29 17:03:09 PDT 2012: Linking stage completed

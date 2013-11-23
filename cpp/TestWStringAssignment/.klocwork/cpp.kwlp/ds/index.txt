@@ -1,0 +1,1 @@
+C:\Volatile\Source\cpp\TestWStringAssignment\TestWStringAssignment\TestWStringAssignment.cpp;C:\Volatile\Source\cpp\TestWStringAssignment\.klocwork\cpp.kwlp\ds\mdfjvpu5.odu;1;0;0

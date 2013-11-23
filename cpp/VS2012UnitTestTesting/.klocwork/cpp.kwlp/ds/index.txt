@@ -1,0 +1,16 @@
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\VS2012UnitTestTesting\VS2012UnitTestTesting.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\4\jftvou5m.mmr;4;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\UnitTestExample1\unittest1.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\9\vnpzabrj.nyc;9;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\VS2012UnitTestTesting\VS2012UnitTestTesting.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\0\dj5af20d.h1e;10;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\UnitTestExample1\targetver.h;;7;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\MockingExample.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\5\cj2qmf3n.tkt;15;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\dllmain.cpp;;16;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ComplexClass.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\7\vfgzhm0p.rud;17;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\UserOfComplexClass.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\8\3032tvb5.oqc;18;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ExportHeader.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\9\z1pvpi1u.afy;19;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IComplexClass.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\0\topnct4d.siw;20;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\ComplexClass.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\1\2wegehs4.rrl;21;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IUserOfComplexClass.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\2\qtwzgsfd.u4w;22;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\UserOfComplexClass.h;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\3\tnw41nqw.yce;23;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\IComplexClass.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\4\jmq2aue1.t4s;24;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample.UnitTests\ComplexClassMock.cpp;C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\.klocwork\cpp.kwlp\ds\9\sqeuwoe4.4sx;29;0;0
+C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\targetver.h;;13;0;0

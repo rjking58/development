@@ -1,0 +1,31 @@
+﻿Build started 9/19/2013 5:20:55 PM.
+     1>Project "C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\MockingExample.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\MockingExample.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D MOCKINGEXAMPLE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MockingExample.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt UserOfComplexClass.cpp
+         UserOfComplexClass.cpp
+     1>c:\volatile\development\source\cpp\vs2012unittesttesting\mockingexample\iuserofcomplexclass.h(11): warning C4251: 'IUserOfComplexClass::m_RcvdMsgs' : class 'std::list<_Ty>' needs to have dll-interface to be used by clients of class 'IUserOfComplexClass'
+                 with
+                 [
+                     _Ty=std::list<unsigned char> *
+                 ]
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.lib" /MACHINE:X86 /DLL Debug\ComplexClass.obj
+         Debug\dllmain.obj
+         Debug\IComplexClass.obj
+         Debug\MockingExample.obj
+         Debug\stdafx.obj
+         Debug\UserOfComplexClass.obj
+            Creating library C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.lib and object C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.exp
+         MockingExample.vcxproj -> C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\Debug\MockingExample.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\MockingExample.unsuccessfulbuild".
+         Touching "Debug\MockingExample.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\cpp\VS2012UnitTestTesting\MockingExample\MockingExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16

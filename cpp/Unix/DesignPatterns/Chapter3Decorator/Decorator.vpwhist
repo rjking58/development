@@ -1,0 +1,37 @@
+[Global]
+CurrentProject=Decorator.vpj
+[ProjectDates]
+Decorator.vpj=20061115133950285
+[ActiveConfig]
+Decorator.vpj=,Debug
+[TreeExpansion]
+Decorator.vpj 1 1 0 0 0 0
+[State]
+SCREEN: 1280 1024 220 220 960 710 0 0 M 0 0 0 0 1006 633
+CWD: ..\Chapter4Factory
+BUFFER: BN="..\Chapter4Factory\abstractfactory.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=225 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.3531 CL=1 LE=0 CX=0 CY=14 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\Chapter4Factory\abstractfactory.mak"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Makefile	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.27 CL=24 LE=0 CX=23 CY=2 WI=5 BI=26 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1006 316 -1 -1 N  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="..\Chapter4Factory\abstractfactory.cpp"
+VIEW: LN=.3531 CL=1 LE=0 CX=0 CY=14 WI=126 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 316 1006 317 -1 -1 N  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="..\Chapter4Factory\abstractfactory.cpp"
+VIEW: LN=.4686 CL=40 LE=0 CX=39 CY=13 WI=144 BI=22 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\STL\Containers\vector_container.cpp
+..\Chapter4Factory\factory.mak
+..\Chapter4Factory\factory.cpp
+..\Chapter4Factory\simplefactory.mak
+..\Chapter4Factory\simplefactory.cpp
+..\Chapter4Factory\factorymethod.mak
+..\Chapter4Factory\factorymethod.cpp
+..\Chapter4Factory\abstractfactory.mak
+..\Chapter4Factory\abstractfactory.cpp
+DEBUG: 0 0 0 0 3
+printf
+strcpy
+std::*

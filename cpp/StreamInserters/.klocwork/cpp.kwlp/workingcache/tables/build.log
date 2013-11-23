@@ -1,0 +1,21 @@
+-----
+Klocwork 9.2.1.7276
+Installation directory: "C:\Klocwork\User 9.2"
+Tables directory: "C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables"
+Jobs number: 7
+-----
+Thu Jun 28 14:55:24 PDT 2012: Running build preparation stage...
+Incremental build message: Analysing build specification changes...
+Incremental build message: Need to compile the 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp' file because it was not present in the previous build
+Incremental build message: Analysing source files dependencies...
+Thu Jun 28 14:55:24 PDT 2012: Build preparation stage completed
+Thu Jun 28 14:55:24 PDT 2012: Running compilation stage...
+Unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp'
+Error: unable to compile 'C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp' using command: "C:\Klocwork\User 9.2\bin\kwcc.exe" "-c" "--security" "--metrics" "--ignore-extension" "-o" "C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\obj\StreamInserters.cpp_0.o" "--deps-file" "C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\dep\StreamInserters.cpp_0.d" "-nocc" "-e" "ms" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include" "-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include" "-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include" "-D_MSC_VER=1600" "-D_WIN32" "-D_M_IX86" "--defects-only" "-DWIN32" "-D_DEBUG" "-D_CONSOLE" "-D_UNICODE" "-DUNICODE" "-D_CPPUNWIND" "-Zc:wchar_t" "-Zc:forScope" "-YuStdAfx.h" "-FpC:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\obj\StreamInserters.kwpch" "C:\Volatile\Source\cpp\StreamInserters\StreamInserters\StreamInserters.cpp": appropriate pch file was not created
+Thu Jun 28 14:55:25 PDT 2012: Compilation stage completed
+Thu Jun 28 14:55:25 PDT 2012: Running linking stage...
+working directory: "C:\Klocwork\User 9.2"
+executing: "C:\Klocwork\User 9.2\bin\kwlinker.exe" "--progress" "-o" "C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables" "-w" "-D" "C:\Volatile\Source\cpp\StreamInserters\.klocwork\cpp.kwlp\workingcache\tables\obj" "--no-system-metrics" "--defects-only"
+kwlinker: FATAL: no object files specified
+Thu Jun 28 14:55:25 PDT 2012: Linking stage failed
+Error occurred during build: Linking stage failed. Program exited with 1

@@ -1,0 +1,5 @@
+[Global]
+Version=8
+[ASSOCIATION]
+workspacefile=MultiThread1.dsw
+workspacetype=microsoft visual c++

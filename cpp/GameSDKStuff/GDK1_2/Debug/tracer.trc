@@ -1,0 +1,152 @@
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:40.24: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:40.24: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:40.24: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:40.24: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:40.24: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:40.24:  mBaseDIB->GetDibNumColors() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:40.24:  mBaseDIB->GetDibHeight() = dec:480 , hex:0x01e0 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:40.24:  mBaseDIB->GetDibWidth() = dec:640 , hex:0x0280 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:40.24: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:40.24: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:40.24: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:40.24: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:40.24: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:40.24: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:40.24: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:40.24: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:40.24: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:40.24: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:40.24: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:45.59: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:45.59: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:45.59: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:45.59: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:45.59: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:45.59:  mBaseDIB->GetDibNumColors() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:45.59:  mBaseDIB->GetDibHeight() = dec:480 , hex:0x01e0 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:45.59:  mBaseDIB->GetDibWidth() = dec:640 , hex:0x0280 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:45.59: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:45.59: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:45.59: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:45.59: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:45.59: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:45.59: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:45.59: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:45.59: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:45.59: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:45.59: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:45.59: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:53.18: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:53.18: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:53.18: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:53.18: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:53.18: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:53.18:  mBaseDIB->GetDibNumColors() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:53.18:  mBaseDIB->GetDibHeight() = dec:480 , hex:0x01e0 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:53.18:  mBaseDIB->GetDibWidth() = dec:640 , hex:0x0280 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:53.18: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:53.18: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:53.18: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:53.18: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:53.18: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:53.18: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:53.18: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:53.18: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:53.18: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:53.18: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:53.18: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:55.25: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:55.25: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:55.25: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:55.25: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:55.25: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:55.25:  mBaseDIB->GetDibNumColors() = dec:139 , hex:0x08b <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:55.25:  mBaseDIB->GetDibHeight() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:55.25:  mBaseDIB->GetDibWidth() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:55.25: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:55.25: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:55.25: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:55.25: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:55.25: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:55.25: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:55.25: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:55.25: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:55.25: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:55.25: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:55.25: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:56.17: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:56.17: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:56.17: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:56.17: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:56.17: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:56.17:  mBaseDIB->GetDibNumColors() = dec:139 , hex:0x08b <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:56.17:  mBaseDIB->GetDibHeight() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:56.17:  mBaseDIB->GetDibWidth() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:56.17: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:56.17: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:56.17: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:56.17: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:56.17: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:56.17: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:56.17: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:56.17: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:56.17: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:56.17: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:56.17: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:06.03: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:06.03: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:06.03: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:06.03: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:06.03: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:06.03:  mBaseDIB->GetDibNumColors() = dec:139 , hex:0x08b <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:06.03:  mBaseDIB->GetDibHeight() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:06.03:  mBaseDIB->GetDibWidth() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:06.03: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:06.03: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:06.03: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:06.03: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:06.03: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:06.03: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:06.03: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:06.03: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:06.03: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:06.03: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:06.03: its OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0028) 16:08.07: DD OBJ created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0037) 16:08.07: cooperative level set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0046) 16:08.07: display mode set ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0054) 16:08.07: surfaces created ok
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0224) 16:08.07: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0231) 16:08.07:  mBaseDIB->GetDibNumColors() = dec:139 , hex:0x08b <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0232) 16:08.07:  mBaseDIB->GetDibHeight() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0233) 16:08.07:  mBaseDIB->GetDibWidth() = dec:256 , hex:0x0100 <
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0242) 16:08.07: Palette created OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0246) 16:08.07: Palette set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0288) 16:08.07: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0295) 16:08.07: Trying to lock..
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0309) 16:08.07: Exiting loop
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0315) 16:08.07: DD_OK!
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0333) 16:08.07: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0252) 16:08.07: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\ddmanager.cpp(0059) 16:08.07: BackScene set OK
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0121) 16:08.07: Instantiated manager
+C:\volatile\Source\Cprogs\Cpp\Vcpp\GameSDKStuff\Gdk1_2\gdk1View.cpp(0124) 16:08.07: its OK
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0028) 14:45.02: DD OBJ created ok
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0037) 14:45.02: cooperative level set ok
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0046) 14:45.02: display mode set ok
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0054) 14:45.03: surfaces created ok
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0224) 14:45.03: Entering-> "DirectDrawManager::BackScene" 
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0231) 14:45.03:  mBaseDIB->GetDibNumColors() = dec:139 , hex:0x08b <
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0232) 14:45.03:  mBaseDIB->GetDibHeight() = dec:256 , hex:0x0100 <
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0233) 14:45.03:  mBaseDIB->GetDibWidth() = dec:256 , hex:0x0100 <
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0242) 14:45.03: Palette created OK
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0246) 14:45.03: Palette set OK
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0288) 14:45.03: Entering-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0295) 14:45.03: Trying to lock..
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0309) 14:45.03: Exiting loop
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0315) 14:45.03: DD_OK!
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0333) 14:45.03: Exiting-> "DirectDrawManager::CopyDibToSurface" 
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0252) 14:45.03: Exiting-> "DirectDrawManager::BackScene" 
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\ddmanager.cpp(0059) 14:45.03: BackScene set OK
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\gdk1View.cpp(0121) 14:45.03: Instantiated manager
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\GDK1_2\gdk1View.cpp(0124) 14:45.03: its OK
