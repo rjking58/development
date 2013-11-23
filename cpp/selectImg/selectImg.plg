@@ -1,0 +1,53 @@
+--------------------Configuration: selectImg - Win32 Debug--------------------
+Begining build with project "C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImg.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/selectImg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/selectImg.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/selectImg.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/selectImg.pdb" /debug /machine:I386 /out:"Debug/selectImg.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x409 /fo"Debug/selectImg.res" /d "_DEBUG" /d "_AFXDLL" "C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImg.rc"" 
+Creating temp file "C:\WINDOWS\TEMP\RSP393.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/selectImg.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\IFTree.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MainFrm.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MyTreeDialog.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImg.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgDoc.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgView.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP393.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP0394.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/selectImg.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP0394.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP0395.TMP" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/selectImg.pdb" /debug /machine:I386 /out:"Debug/selectImg.exe" /pdbtype:sept 
+.\Debug\IFTree.obj
+.\Debug\MainFrm.obj
+.\Debug\MyTreeDialog.obj
+.\Debug\selectImg.obj
+.\Debug\selectImgDoc.obj
+.\Debug\selectImgView.obj
+.\Debug\StdAfx.obj
+.\Debug\selectImg.res>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP0395.TMP" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+IFTree.cpp
+MainFrm.cpp
+MyTreeDialog.cpp
+selectImg.cpp
+selectImgDoc.cpp
+selectImgView.cpp
+Generating Code...
+Linking...
+
+
+
+selectImg.exe - 0 error(s), 0 warning(s)

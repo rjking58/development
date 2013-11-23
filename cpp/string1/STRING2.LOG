@@ -1,0 +1,58 @@
+C:\VOLATILE\CPP\STRING1\STRING2.LOG created 12:30 PM	Tuesday July 23
+
+-------------------------------------------------------------------------------
+C:\VOLATILE\CPP\STRING1\STRING2.EXE loaded 12:30 PM	Tuesday July 23
+
+---------- 12:33 PM  Tuesday July 23 ----------
+
+***** GENERAL PROTECTION ERROR ****
+
+  Procedure:  __VPRINTER  (002BFH)
+     Module: GLOBALS
+Source File:  
+Line Number:  
+
+
+CALL STACK
+----------
+STRING2!__VPRINTER()
+STRING2!_printf(0082,304F,6568,6C6C,206F,6F77,6C72,0064,0AD0,0000,0000,304F)
+               (0082,304F,6568,6C6C,206F,6F77,6C72,0064,0AD0,0000,0000,304F)
+#STRING2!_main()
+
+Comment: 
+
+***************************************************************************
+                        YOUR PROGRAM'S data usage
+***************************************************************************
+
+  Stack Usage:
+      stack space available           stack space used
+      ---------------------           ----------------
+      04896                           00610
+
+STRING2
+  Memory used (in bytes):
+      Local Heap                      Global Heap
+      ----------                      -----------
+      01168                           00408
+
+
+
+***************************************************************************
+                 GDI data usage on your program's behalf
+***************************************************************************
+
+  Memory used (in bytes):
+      Local Heap                      Global Heap
+      ----------                      -----------
+      00000                           00000
+
+***************************************************************************
+                USER data usage on your program's behalf
+***************************************************************************
+
+  Memory used (in bytes):
+      Local Heap                      Global Heap
+      ----------                      -----------
+      00048                           00832

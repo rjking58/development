@@ -1,0 +1,25 @@
+--------------------Configuration: scanFiles - Win32 Debug--------------------
+Begining build with project "C:\volatile\SOURCE\CPROGS\CPP\VCPP\scanFilesX\scanFiles.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/scanFiles.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/scanFiles.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:console /incremental:yes /pdb:"Debug/scanFiles.pdb" /debug /machine:I386 /out:"Debug/scanFiles.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP21A0.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/scanFiles.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\scanFilesX\scanMain.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP21A0.TMP" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/scanFiles.pdb" /debug /machine:I386 /out:"Debug/scanFiles.exe" /pdbtype:sept  .\Debug\dirintfc.obj .\Debug\scanMain.obj" 
+Compiling...
+scanMain.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\scanFilesX\scanMain.cpp(12) : warning C4508: 'main' : function should return a value; 'void' return type assumed
+Linking...
+
+
+
+scanFiles.exe - 0 error(s), 1 warning(s)

@@ -1,0 +1,5 @@
+﻿c:\volatile\source\cpp\copyc\copyc.cpp(39): error C2512: 'ReferenceCpyTstr' : no appropriate default constructor available
+c:\volatile\source\cpp\copyc\copyc.cpp(118): error C2512: 'ReferenceCpyTstr' : no appropriate default constructor available
+c:\volatile\source\cpp\copyc\copyc.cpp(185): error C2661: 'BaseClass::BaseClass' : no overloaded function takes 2 arguments
+c:\volatile\source\cpp\copyc\copyc.cpp(200): error C2661: 'BaseClass::BaseClass' : no overloaded function takes 2 arguments
+c:\volatile\source\cpp\copyc\copyc.cpp(202): error C2661: 'BaseClass::BaseClass' : no overloaded function takes 2 arguments

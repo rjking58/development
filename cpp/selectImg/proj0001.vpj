@@ -1,0 +1,31 @@
+[COMPILER]
+[FILES]
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\MainFrm.cpp
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\MainFrm.h
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\Resource.h
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImg.cpp
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImg.h
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImgDoc.cpp
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImgDoc.h
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImgView.cpp
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\selectImgView.h
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\StdAfx.cpp
+C:\volatile\source\cprogs\cpp\vcpp\selectimg\StdAfx.h
+[STATE]
+SCREEN: 800 600 44 44 600 432 -1 -1 M 0 31 0 50
+CWD: C:\volatile\source\cprogs\cpp\vcpp\selectimg
+FILEHIST: 9
+C:\VOLATILE\SOURCE\CPROGS\CPP\VCPP\tree2\tree2view.h
+C:\VOLATILE\SOURCE\CPROGS\CPP\VCPP\tree2\tree2view.cpp
+C:\VOLATILE\SOURCE\CPROGS\CPP\VCPP\tree2\dirintfc.cpp
+C:\VOLATILE\SOURCE\CPROGS\CPP\VCPP\tree2\dirintfc.h
+F:\quake2\eraser\bots.cfg
+F:\quake2\eraser\bots_600.cfg
+F:\quake2\eraser\chat.txt
+F:\quake2\eraser\default.cfg
+F:\quake2\eraser\config.cfg
+BOOKMARK: 0
+PUSHTAG: 0 1
+PRINTER: 2
+
+

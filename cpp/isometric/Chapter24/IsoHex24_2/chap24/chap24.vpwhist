@@ -1,0 +1,21 @@
+[Global]
+CurrentProject=chap24.vpj
+[ActiveConfig]
+chap24.vpj=,"CFG=chap24 - Win32 Debug"
+[ProjectDates]
+chap24.dsp=20021118000202000
+[TreeExpansion]
+chap24.dsp 1 1 1 0 0 0
+[State]
+SCREEN: 1024 768 110 110 768 537 0 0 M 0 0 0 0 732 478
+CWD: ..\chap24
+FILEHIST: 9
+..\DDFuncs.cpp
+..\GDICanvas.cpp
+..\DDFuncs.h
+..\GDICanvas.h
+..\IsoHex24_2.cpp
+G:\Program Files\Crave\Global Operations\Globalops\GOFastStats\single.cfg
+G:\Program Files\Crave\Global Operations\Globalops\worlds\quebec.AI
+G:\Program Files\Crave\Global Operations\Globalops\default.cfg
+G:\Program Files\Crave\Global Operations\autoexec.cfg

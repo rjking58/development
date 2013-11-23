@@ -1,0 +1,24 @@
+--------------------Configuration: parec1 - Win32 Debug--------------------
+Begining build with project "C:\MY_DATA\VOLATILE\CPP\vcpp\parec1\parec1.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/parec1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/parec1.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:console /incremental:yes /pdb:"Debug/parec1.pdb" /debug /machine:I386 /out:"Debug/parec1.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP8.tmp" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/parec1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\MY_DATA\VOLATILE\CPP\vcpp\parec1\parec1.cpp"
+>
+Creating command line "cl.exe @C:\TEMP\RSP8.tmp" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:yes /pdb:"Debug/parec1.pdb" /debug /machine:I386 /out:"Debug/parec1.exe" /pdbtype:sept  .\Debug\parec1.obj" 
+Compiling...
+parec1.cpp
+Linking...
+
+
+
+parec1.exe - 0 error(s), 0 warning(s)

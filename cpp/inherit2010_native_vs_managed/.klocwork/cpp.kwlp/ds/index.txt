@@ -1,0 +1,8 @@
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native_vs_managed\inher2.cpp;C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\.klocwork\cpp.kwlp\ds\6\dpbvkhyx.3kk;6;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native_vs_managed\stdafx.h;;2;0;0
+C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp;;7;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native_vs_managed\resource.h;;1;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native_vs_managed\stdafx.cpp;;5;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native_vs_managed\ReadMe.txt;;8;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native\inherit2010_native.cpp;C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\.klocwork\cpp.kwlp\ds\2\abq5yshj.elf;12;0;0
+C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_managed\inherit2010_managed.cpp;C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\.klocwork\cpp.kwlp\ds\5\kg1j3fch.xuo;15;0;0

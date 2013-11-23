@@ -1,0 +1,36 @@
+[COMPILER]
+INCLUDEDIRS=
+COMPILE=
+MAKE=
+execute=,partitiondesc.exe
+DEBUG=
+REBUILD=
+MACRO=\n
+FILTERNAME=Source Files\nHeader Files\nResource Files\nBitmaps\nOther Files\n
+FILTERPATTERN=*.c;*.cpp;*.cxx;*.hxx;*.prg;*.pas;*.dpr;*.asm;*.bas;*.java;*.sc;*.e\n*.h;*.hpp;*.inc;*.sh\n*.rc;*.ico;*.cur;*.dlg\n*.bmp\n*.*\n
+FILTERASSOCIATEFILETYPES=0 0 1 1 0
+[ASSOCIATION]
+[FILES]
+C:\MY_DATA\VOLATILE\CPP\vcpp\partitiondesc\pd.cpp
+[STATE]
+SCREEN: 1280 1024 100 12 936 966 0 0 M 0 0 0 0 1276 766
+CWD: C:\MY_DATA\VOLATILE\CPP\vcpp\partitiondesc
+BUFFER: BN="I:\Zinas4.5Copy\src\prw\newcalc\FCFieldExecOp.cpp"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=32
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=9 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 726 486 -1 -1 M  WF=0 WT=2 "Letter Gothic,11,0"
+BUFFER: BN="I:\Zinas4.5Copy\src\prw\newcalc\FCFieldExecOp.cpp"
+VIEW: LN=.1 CL=2 LE=0 CX=7 CY=1 WI=57 BI=9 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+C:\MY_DATA\VOLATILE\CPP\vcpp\partitiondesc\boolean.h
+E:\snapshots\ntS_rjking_4.50\src\ome\calc\obpratebldr.cpp
+E:\snapshots\ntS_rjking_4.50\src\ome\calc\obpratebldr.h
+E:\inc\bc4\iostream.h
+E:\snapshots\ntS_rjking_4.50\src\tserw\execfbase\SimpleReader.h
+I:\Zinas4.5Copy\src\tserw\execfbase\valClss.cpp
+I:\Zinas4.5Copy\src\tserw\utils\simpstr.cpp
+C:\MY_DATA\VOLATILE\CPP\vcpp\partitiondesc\partitiondesc.h
+I:\Zinas4.5Copy\src\prw\newcalc\FCFieldExecOp.cpp
+PRINTER: 2
+
+

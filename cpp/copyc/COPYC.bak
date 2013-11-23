@@ -1,0 +1,159 @@
+#include <iostream.h>
+#include <stdio.h>
+#include <string.h>
+
+
+
+
+class BaseClass
+{
+	private:
+		int		*m_int_p;
+		char	*m_name; 
+
+		BaseClass() { };
+	public:
+		BaseClass(int i, char * name);
+		virtual ~BaseClass();
+		BaseClass(BaseClass &BaseClass_ref);
+		int get_int(void)
+		{
+			return *m_int_p;
+		}
+		BaseClass & operator=(BaseClass &BaseClass_ref);
+
+		void who_am_i(void)
+		{
+			cout << "Name @ " << &m_name << " = " << m_name << endl;
+			cout << "*m_int_p @" << m_int_p << " == " << *m_int_p << endl << endl;
+		}
+
+
+
+};
+
+BaseClass::BaseClass(int i,char *name)
+{
+	cout << "Normal constructor called" << endl;
+	m_int_p = new int;
+	*m_int_p = i;
+
+	m_name = new char [strlen(name)];
+	strcpy (m_name,name);
+
+	who_am_i();
+	cout << "Normal constructor end" << endl << endl;
+	cin;
+
+}
+BaseClass::~BaseClass()
+{
+	cout << "Normal destructor called" << endl;
+	who_am_i();
+	delete m_int_p;
+	delete[] m_name;
+	cout << "m_int_p deleted" << endl;
+	cout << "Normal destructor end" << endl << endl;
+}
+BaseClass::BaseClass(BaseClass &BaseClass_ref)
+{
+	cout << "copy constructor called" << endl;
+	m_int_p = new int;
+	*m_int_p = 0;
+	m_name = new char [2];
+	strcpy(m_name,"z");
+
+	who_am_i();
+	BaseClass_ref.who_am_i();
+	*m_int_p = *(BaseClass_ref.m_int_p);
+
+	delete [] m_name;
+	m_name = new char [ strlen(BaseClass_ref.m_name) + 10];
+	strcpy(m_name,"Copy of ");
+	strcat(m_name, BaseClass_ref.m_name);
+
+	who_am_i();
+	BaseClass_ref.who_am_i();
+
+	cout << "copy constructor end" << endl << endl;
+}
+
+BaseClass & BaseClass::operator=(BaseClass &BaseClass_ref)
+{
+	cout << "assignment operator called" << endl;
+
+	who_am_i();
+	BaseClass_ref.who_am_i();
+
+	*m_int_p = *(BaseClass_ref.m_int_p);
+
+	delete [] m_name;
+	m_name = new char [ strlen(BaseClass_ref.m_name) + 8];
+	strcpy(m_name,"Copy of ");
+	strcat(m_name, BaseClass_ref.m_name);
+
+
+	who_am_i();
+	BaseClass_ref.who_am_i();
+
+	cout << "assignment operator end" << endl << endl;
+
+	return *this;
+}
+
+BaseClass * copy_invoker(BaseClass bc_o)
+{
+	BaseClass *bcp;
+
+	cout << "enter copy_invoker" << endl << endl;
+	cout << "making new pointer..." << endl << endl;
+
+	bcp = new BaseClass(1,"invoker created");
+
+	cout << "copy bc_o to the new pointer..." << endl << endl;
+	*bcp = bc_o;
+
+	cout << "exit copy_invoker" << endl << endl;
+
+	return bcp;
+}
+
+main()
+{
+	BaseClass	bc_a(2,"bc_a");
+	BaseClass	bc_b(5,"bc_b");
+	BaseClass	bc_c = bc_b;
+	BaseClass	*bcp_a;
+	BaseClass	*bcp_b;
+	BaseClass   *bcp_created;
+ 
+	// setup pointers...
+	cout << "setting up main pointers" << endl;
+	bcp_a = &bc_a;
+	bcp_b = bcp_a;
+	cout << "done setting up main pointers" << endl;
+
+	cout << "calling copy_invoker" << endl << endl;
+	bcp_created = copy_invoker(bc_a);
+	cout << "deleting bcp_created" << endl << endl;
+	delete bcp_created;
+
+	cout << "bc_a = " << bc_a.get_int() << endl;
+	cout << "bc_b = " << bc_b.get_int() << endl;
+	cout << "bc_c = " << bc_c.get_int() << endl;
+	cout << "bcp_a = " << bcp_a->get_int() << endl;
+	cout << "bcp_b = " << bcp_b->get_int() << endl << endl;
+	cout;
+
+
+	bc_a = bc_b;				
+	cout << "bc_a = " << bc_a.get_int() << endl;
+	cout << "bc_b = " << bc_b.get_int() << endl;
+	cout << "bc_c = " << bc_c.get_int() << endl;
+	cout << "bcp_a = " << bcp_a->get_int() << endl;
+	cout << "bcp_b = " << bcp_b->get_int() << endl;
+	cout;
+
+	
+
+}

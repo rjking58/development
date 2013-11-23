@@ -1,0 +1,48 @@
+[CONFIGURATIONS]
+config=,Release
+[GLOBAL]
+workingdir=
+macro=\n
+version=7.0
+[ASSOCIATION]
+[FILES]
+IsoHex1_1.cpp
+[STATE]
+SCREEN: 1024 768 256 203 768 537 0 0 M 0 0 0 0 1020 553
+CWD: C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_4
+BUFFER: BN="C:\vslick\win\vrestore.slk"
+BI: MA=1 254 1  TABS=1 9  WWS=3 IWT=0 ST=0 IN=0 BW=0 US=0 RO=0 SE=0 SN=0 BIN=0 MN=Fundamental	HM=0 MF=1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_4\IsoHex2_4.cpp"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=0 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=32
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=9 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 22 844 377 -1 -1 M  WF=0 WT=2 "Lucida Console,10,0"
+BUFFER: BN="C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_4\IsoHex2_4.cpp"
+VIEW: LN=.2627 CL=34 LE=0 CX=39 CY=19 WI=51 BI=9 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\fstrTracer.h
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\fstrTracer.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.trc
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_1\IsoHex2_1.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\LeastGraphDist\pq.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\LeastGraphDist\lgd.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_1\IsoHex2_1.trc
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_4\IsoHex2_4.cpp
+PRINTER: 2
+
+
+[COMPILER.Release]
+INCLUDEDIRS=%(INCLUDE)
+tagfiles=
+reffile=
+FILTEREXPANSION=1 0 0 0 0
+compile=copts: concur|capture|menu: Compile:&Compilecmd: nmake %n.obj
+link=
+make=copts: concur|capture|menu: Build:&Buildcmd: nmake
+rebuild=copts: concur|capture|menu: Rebuild:&Rebuildcmd: nmake /A
+debug=copts: menu: Debug:&Debugcmd: msdev isochap1.exe
+execute=copts: menu: Execute:E&xecutecmd: isochap1.exe
+user1=copts: hide|menu: User 1:User 1cmd: 
+user2=copts: hide|menu: User 2:User 2cmd: 
+usertool_resource_editor=copts: hide|menu: Resource Editor:Resource Editorcmd: msdev

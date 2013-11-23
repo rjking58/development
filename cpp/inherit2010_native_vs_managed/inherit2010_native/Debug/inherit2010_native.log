@@ -1,0 +1,34 @@
+﻿Build started 11/14/2013 1:26:04 PM.
+     1>Project "C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native\inherit2010_native.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\inherit2010_native.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\inherit2010_native.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\inherit2010_native.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\inherit2010_native.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt inherit2010_native.cpp
+         inherit2010_native.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\inherit2010_native.exe.embed.manifest.res" Debug\inherit2010_native_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\inherit2010_native.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.lib" /MACHINE:X86 Debug\inherit2010_native.exe.embed.manifest.res
+         Debug\inherit2010_native.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\inherit2010_native.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\inherit2010_native.exe.embed.manifest" /manifest Debug\inherit2010_native.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\inherit2010_native.exe.embed.manifest.res" Debug\inherit2010_native_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\inherit2010_native.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.lib" /MACHINE:X86 Debug\inherit2010_native.exe.embed.manifest.res
+         Debug\inherit2010_native.obj
+         Debug\stdafx.obj
+         inherit2010_native.vcxproj -> C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\Debug\inherit2010_native.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\inherit2010_native.unsuccessfulbuild".
+         Touching "Debug\inherit2010_native.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\cpp\inherit2010_native_vs_managed\inherit2010_native\inherit2010_native.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.94

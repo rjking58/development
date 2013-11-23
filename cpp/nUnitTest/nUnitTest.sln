@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnManagedDLL", "UnManagedDLL\UnManagedDLL.vcproj", "{E6798A53-1D61-41B7-9CE5-26568F35F5F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnManagedDLLTests", "UnManagedDLLTests\UnManagedDLLTests.vcproj", "{E35F59A6-10EC-4781-8D88-E5EF9F6D66DD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E6798A53-1D61-41B7-9CE5-26568F35F5F5} = {E6798A53-1D61-41B7-9CE5-26568F35F5F5}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6798A53-1D61-41B7-9CE5-26568F35F5F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E6798A53-1D61-41B7-9CE5-26568F35F5F5}.Debug|Win32.Build.0 = Debug|Win32
+		{E6798A53-1D61-41B7-9CE5-26568F35F5F5}.Release|Win32.ActiveCfg = Release|Win32
+		{E6798A53-1D61-41B7-9CE5-26568F35F5F5}.Release|Win32.Build.0 = Release|Win32
+		{E35F59A6-10EC-4781-8D88-E5EF9F6D66DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E35F59A6-10EC-4781-8D88-E5EF9F6D66DD}.Debug|Win32.Build.0 = Debug|Win32
+		{E35F59A6-10EC-4781-8D88-E5EF9F6D66DD}.Release|Win32.ActiveCfg = Release|Win32
+		{E35F59A6-10EC-4781-8D88-E5EF9F6D66DD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

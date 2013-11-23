@@ -1,0 +1,39 @@
+[Global]
+CurrentProject=UnManagedDLL\UnManagedDLL.vpj
+[ActiveConfig]
+UnManagedDLL\UnManagedDLL.vpj=,Debug
+UnManagedDLLTests\UnManagedDLLTests.vpj=,Debug
+[ProjectDates]
+UnManagedDLL\UnManagedDLL.vcproj=20090217192400879
+UnManagedDLLTests\UnManagedDLLTests.vcproj=20090213172348792
+[TreeExpansion]
+UnManagedDLL\UnManagedDLL.vcproj 1 1 1 0 0 0
+UnManagedDLLTests\UnManagedDLLTests.vcproj 1 1 1 0 0 0
+[State]
+SCREEN: 1680 1050 23 23 1260 746 0 0 M 0 0 0 0 1406 794
+CWD: UnManagedDLL
+BUFFER: BN="UnManagedDLLTests\UnManagedDLLTests.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=8 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.176 CL=10 LE=0 CX=9 CY=12 WI=5 BI=27 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="UnManagedDLLTests\UnManagedDLLTests.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=360 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.358 CL=32 LE=0 CX=31 CY=18 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="UnManagedDLL\UnManagedDLL.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=264 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=5 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="UnManagedDLL\ExportDefines.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=297 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+WINDOW: 23 23 1153 541 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="UnManagedDLL\ExportDefines.h"
+VIEW: LN=.257 CL=7 LE=0 CX=6 CY=11 WI=142 BI=24 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\Dev\Mobile\Orbiter\Source Code\SMUtilities\SMException.h
+\Dev\Mobile\Orbiter\Source Code\Dell.UCM\xxx.cs
+\Dev\Mobile\Orbiter\Source Code\SMProfileManager\SMProfileManager.cpp
+\Dev\Mobile\Orbiter\Source Code\Dell.UCM\x.cpp
+..\..\..\ProfileManagerRefactor\SSOThreadSimplify.cpp
+UnManagedDLLTests\UnManagedDLLTests.h
+UnManagedDLLTests\UnManagedDLLTests.cpp
+UnManagedDLL\UnManagedDLL.h
+UnManagedDLL\ExportDefines.h

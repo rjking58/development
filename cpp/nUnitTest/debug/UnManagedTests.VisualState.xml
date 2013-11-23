@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\GCS\Source\cpp\nUnitTest\debug\UnManagedTests.nunit</TopNode>
+  <SelectedNode>[0-1000]C:\GCS\Source\cpp\nUnitTest\debug\UnManagedTests.nunit</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\GCS\Source\cpp\nUnitTest\debug\UnManagedTests.nunit" Expanded="true">
+      <Nodes>
+        <Node UniqueName="[0-1003]C:\GCS\Source\cpp\nUnitTest\debug\UnManagedDLLTests.dll" Expanded="true">
+          <Nodes>
+            <Node UniqueName="[0-1004]UnManagedDLLTests" Expanded="true">
+              <Nodes>
+                <Node UniqueName="[0-1001]UnManagedDLLTests.UnManagedTests" Expanded="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1002]UnManagedDLLTests.UnManagedTests.SimpleTest" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

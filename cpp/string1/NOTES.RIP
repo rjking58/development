@@ -1,0 +1,1050 @@
+
+               ***********************************************
+               *           QNC II for Windows 3.X            *
+               *    Copyright 1994, Lotus Development Corp.  *
+               *               Version 3.0                   *
+               ***********************************************
+12:19:06 Tue Jul 23, 1996  Stopped due to Exception 13: Protection Violation
+Notes Build: North American - Worldwide Security R3.33 |August 16, 1995                    
+
+System Information:
+Windows NT 3.10 enhanced mode, retail version, DOS version 5.0
+CPU: i486+,  Coprocessor 
+Largest free memory block: 15728640 bytes
+Total linear memory space: 2097024 KB
+Free linear memory space : 2050864 KB
+Swap file pages: 42fc (68592 KB)
+USER Heap Free  90%
+GDI Heap Free  90%
+
+Registers:
+
+  AX   BX   CX   DX   SI   DI   CS   IP   SS   SP   BP   DS   ES   FLAGS
+ 0073 0022 0000 0073 0089 2000 327F:2135 325F:1F46 1FE2 325F 325F  3202
+
+CS  327F  Limit: 463F  Access: execute/read
+DS  325F  Limit: 305F  Access: read/write
+ES  325F  Limit: 305F  Access: read/write
+SS  325F  Limit: 305F  Access: read/write
+
+Top of the stack:
+ 325F:1F46  325F 0AD0 0AA6 6153   3A79 0020 1F60 04A1 |_2....Say: .`...|
+ 325F:1F56  1F72 000C 0001 32AF   3301 4132 0043 174F |r......2.32AC.O.|
+ 325F:1F66  3202 0000 0001 32AF   0002 0001 0024 0AD0 |.2.....2....$...|
+ 325F:1F76  0AA6 3423 327F 1BE7   327F 0AD0 0AA6 0000 |..#4.2...2......|
+ 325F:1F86  323F 325F 3237 0000   3237 1F9D 363B 326F |?2_272..72..;6o2|
+ 325F:1F96  325F 36C2 326F 1FC7   0062 3267 1FD8 0AD0 |_2.6o2..b.g2....|
+ 325F:1FA6  0AA6 1FD8 21CD 1BE7   327F 0AD0 0AA6 0000 |.....!...2......|
+ 325F:1FB6  323F 325F 3237 1BE7   327F 0AD0 0AA6 0000 |?2_272...2......|
+ 325F:1FC6  323F 325F 3237 0000   004B 0000 0088 0000 |?2_272..K.......|
+ 325F:1FD6  005F FFFF FFFF 7307   1F51 0020 1FF6 27BE |_......sQ. ....'|
+
+Stack Trace:
+
+Stopped at  CS:IP=327F:2135, hMod:26F7, RefCnt:1 (0001:2135 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 325F:1FE2  1FF6 27BE 2000 0089   325F 0294 325F 2987 |...'. .._2.._2.)|
+ 325F:1FF2  0AD0 0AA6 202B 0034   3277 0082 325F 6568 |....+ 4.w2.._2he|
+
+End of Stack Trace
+
+Tasks Running:
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 26F7  hTask: 329F  hInstance: 325E  06-23-96 12:18:46  Size: 57480
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  hTask: 157F  hInstance: 2346  10-17-94 04:50:00  Size: 662800
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  hTask: 1A47  hInstance: 1AFE  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  hTask: 1047  hInstance: 1936  07-14-95 22:13:02  Size: 55120
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  hTask: 1887  hInstance: 18A6  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  hTask: 03B7  hInstance: 03D6  04-26-95 10:57:00  Size: 10832
+
+Modules Loaded:
+C:\WINDOWS\SYSTEM32\KRNL386.EXE
+    Module: KERNEL    hModule: 021F  RefCount: 38  04-26-95 10:57:00  Size: 82656
+C:\WINDOWS\SYSTEM32\SYSTEM.DRV
+    Module: SYSTEM    hModule: 020F  RefCount: 25  04-26-95 10:57:00  Size: 3360
+C:\WINDOWS\SYSTEM32\KEYBOARD.DRV
+    Module: KEYBOARD  hModule: 01B7  RefCount: 15  04-26-95 10:57:00  Size: 2016
+C:\WINDOWS\SYSTEM32\MOUSE.DRV
+    Module: MOUSE     hModule: 02B7  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\VGA.DRV
+    Module: DISPLAY   hModule: 02CF  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\SOUND.DRV
+    Module: SOUND     hModule: 02E7  RefCount: 3  04-26-95 10:57:00  Size: 1744
+C:\WINDOWS\SYSTEM32\COMM.DRV
+    Module: COMM      hModule: 0307  RefCount: 1  04-26-95 10:57:00  Size: 10592
+C:\WINDOWS\SYSTEM32\USER.EXE
+    Module: USER      hModule: 031F  RefCount: 23  04-26-95 10:57:00  Size: 47136
+C:\WINDOWS\SYSTEM32\GDI.EXE
+    Module: GDI       hModule: 0397  RefCount: 18  04-26-95 10:57:00  Size: 21504
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  RefCount: 1  04-26-95 10:57:00  Size: 10832
+C:\WINDOWS\SYSTEM32\SHELL.DLL
+    Module: SHELL     hModule: 03DF  RefCount: 8  04-26-95 10:57:00  Size: 5120
+C:\WINDOWS\SYSTEM32\WFWNET.DRV
+    Module: WFWNET    hModule: 0C3F  RefCount: 1  04-26-95 10:57:00  Size: 13856
+C:\WINDOWS\SYSTEM32\NETWARE.DRV
+    Module: NETWARE   hModule: 0C1F  RefCount: 1  04-26-95 10:57:00  Size: 2656
+C:\WINDOWS\SYSTEM32\MMSYSTEM.DLL
+    Module: MMSYSTEM  hModule: 0BDF  RefCount: 3  04-26-95 10:57:00  Size: 67936
+C:\WINDOWS\SYSTEM32\TIMER.DRV
+    Module: TIMER     hModule: 0BD7  RefCount: 1  04-26-95 10:57:00  Size: 4032
+C:\WINDOWS\SYSTEM32\WIN87EM.DLL
+    Module: WIN87EM   hModule: 0757  RefCount: 11  04-26-95 10:57:00  Size: 13312
+C:\NOTES\_STRINGS.DLL
+    Module: _STRINGS  hModule: 0A47  RefCount: 8  08-11-95 16:47:44  Size: 88240
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  RefCount: 1  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\TOOLHELP.DLL
+    Module: TOOLHELP  hModule: 0E67  RefCount: 5  04-26-95 10:57:00  Size: 14016
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  RefCount: 1  07-14-95 22:13:02  Size: 55120
+C:\NOTES\_NEM.DLL
+    Module: _NEM      hModule: 088F  RefCount: 2  07-17-95 11:12:32  Size: 364608
+C:\NOTES\_BSAFE.DLL
+    Module: _BSAFE    hModule: 198F  RefCount: 4  07-14-95 22:03:02  Size: 124240
+C:\NOTES\_LIB.DLL
+    Module: _LIB      hModule: 097F  RefCount: 5  07-14-95 22:16:54  Size: 233936
+C:\WINDOWS\SYSTEM32\COMMDLG.DLL
+    Module: COMMDLG   hModule: 11CF  RefCount: 10  04-26-95 10:57:00  Size: 22096
+C:\NOTES\_NIF.DLL
+    Module: _NIF      hModule: 0467  RefCount: 4  07-14-95 22:16:12  Size: 126901
+C:\NOTES\_NSF.DLL
+    Module: _NSF      hModule: 1817  RefCount: 4  07-14-95 22:16:34  Size: 421954
+C:\NOTES\_NET.DLL
+    Module: _NET      hModule: 07E7  RefCount: 4  07-14-95 22:16:04  Size: 70552
+C:\NOTES\_EVENTL.DLL
+    Module: _EVENTL   hModule: 166F  RefCount: 4  07-14-95 22:10:20  Size: 8986
+C:\NOTES\_COMPUTE.DLL
+    Module: _COMPUTE  hModule: 0F1F  RefCount: 4  07-14-95 22:03:40  Size: 2768
+C:\NOTES\_COMPUTN.DLL
+    Module: _COMPUTN  hModule: 121F  RefCount: 4  07-14-95 22:04:06  Size: 46161
+C:\NOTES\_COMPUTF.DLL
+    Module: _COMPUTF  hModule: 1207  RefCount: 4  07-14-95 22:03:50  Size: 55553
+C:\NOTES\_FT.DLL
+    Module: _FT       hModule: 0767  RefCount: 4  07-14-95 22:10:28  Size: 14694
+C:\NOTES\_DESK.DLL
+    Module: _DESK     hModule: 1137  RefCount: 1  07-14-95 22:05:44  Size: 487632
+C:\NOTES\_EDIT.DLL
+    Module: _EDIT     hModule: 06B7  RefCount: 1  07-14-95 22:08:06  Size: 641344
+C:\NOTES\_VIEW.DLL
+    Module: _VIEW     hModule: 19BF  RefCount: 1  07-14-95 22:18:40  Size: 262336
+C:\NOTES\_SPELL.DLL
+    Module: _SPELL    hModule: 130F  RefCount: 1  07-14-95 22:18:12  Size: 87179
+C:\WINDOWS\SYSTEM32\OLECLI.DLL
+    Module: OLECLI    hModule: 1007  RefCount: 1  04-26-95 10:57:00  Size: 83456
+C:\NOTES\_DESIGNL.DLL
+    Module: _DESIGNL  hModule: 04C7  RefCount: 1  07-14-95 22:04:56  Size: 14288
+C:\NOTES\_REG.DLL
+    Module: _REG      hModule: 0FC7  RefCount: 1  07-14-95 22:17:06  Size: 23248
+C:\NOTES\LTSSB01.DLL
+    Module: LTSSB01   hModule: 0E87  RefCount: 1  02-10-93 14:47:06  Size: 32856
+C:\NOTES\_ROUTERL.DLL
+    Module: _ROUTERL  hModule: 0DFF  RefCount: 1  07-14-95 22:17:30  Size: 43868
+C:\NOTES\_TCP.DLL
+    Module: _TCP      hModule: 0DC7  RefCount: 1  07-14-95 22:14:06  Size: 21264
+C:\NOTES\NTSICN03.DLL
+    Module: NTSICN03  hModule: 169F  RefCount: 1  03-22-93 11:27:42  Size: 104576
+C:\NOTES\_ICNV.DLL
+    Module: _ICNV     hModule: 1337  RefCount: 1  07-14-95 22:15:40  Size: 51760
+C:\NOTES\_WSKAPI.DLL
+    Module: _WSKAPI   hModule: 158F  RefCount: 2  07-14-95 22:14:14  Size: 22580
+C:\WINDOWS\SYSTEM32\WINSOCK.DLL
+    Module: WINSOCK   hModule: 1A97  RefCount: 2  04-26-95 10:57:00  Size: 2880
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  RefCount: 1  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_SDK.DLL
+    Module: _SDK      hModule: 1B27  RefCount: 1  07-14-95 22:17:48  Size: 4245
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  RefCount: 1  10-17-94 04:50:00  Size: 662800
+C:\BC45\BIN\BCWPAGES.DLL
+    Module: BCWPAGES  hModule: 233F  RefCount: 2  10-17-94 04:50:00  Size: 87700
+C:\BC45\BIN\BCWRES.DLL
+    Module: BCWRES    hModule: 22E7  RefCount: 3  10-17-94 04:50:00  Size: 412864
+C:\BC45\BIN\BCWIMPRT.DLL
+    Module: BCWIMPRT  hModule: 22DF  RefCount: 2  10-17-94 04:50:00  Size: 69292
+C:\BC45\BIN\IDECRTL.DLL
+    Module: IDECRTL   hModule: 2297  RefCount: 7  10-17-94 04:50:00  Size: 185812
+C:\BC45\BIN\IDEOWL.DLL
+    Module: IDEOWL    hModule: 223F  RefCount: 5  10-17-94 04:50:00  Size: 307400
+C:\BC45\BIN\IDEBID.DLL
+    Module: IDEBID    hModule: 20EF  RefCount: 5  10-17-94 04:50:00  Size: 53060
+C:\BC45\BIN\IDEWIN.DLL
+    Module: IDEWIN    hModule: 2087  RefCount: 3  10-17-94 04:50:00  Size: 154036
+C:\BC45\BIN\IDEPANE.DLL
+    Module: IDEPANE   hModule: 202F  RefCount: 2  10-17-94 04:50:00  Size: 60726
+C:\WINDOWS\system\BWCC.DLL
+    Module: BWCC      hModule: 1FEF  RefCount: 1  01-28-95 11:14:18  Size: 164928
+C:\WINDOWS\SYSTEM32\DDEML.DLL
+    Module: DDEML     hModule: 1FE7  RefCount: 1  04-26-95 10:57:00  Size: 39936
+C:\BC45\BIN\BCWPRJ.DLL
+    Module: BCWPRJ    hModule: 1E97  RefCount: 1  10-17-94 04:50:00  Size: 441768
+C:\BC45\BIN\BCWOBJ.DLL
+    Module: BCWOBJ    hModule: 1DA7  RefCount: 1  10-17-94 04:50:00  Size: 50402
+C:\BC45\BIN\IDEEDIT.DLL
+    Module: IDEEDIT   hModule: 1CF7  RefCount: 1  10-17-94 04:50:00  Size: 89208
+C:\BC45\BIN\IDEKBD.DLL
+    Module: IDEKBD    hModule: 1CCF  RefCount: 1  10-17-94 04:50:00  Size: 10732
+C:\BC45\BIN\BCWTXCL.DLL
+    Module: BCWTXCL   hModule: 1C9F  RefCount: 1  10-17-94 04:50:00  Size: 67666
+C:\BC45\BIN\BCWTXSRV.DLL
+    Module: BCWTXSRV  hModule: 2C6F  RefCount: 1  10-17-94 04:50:00  Size: 63664
+C:\BC45\BIN\BCWS16.DLL
+    Module: BCWS16    hModule: 26E7  RefCount: 2  10-17-94 04:50:00  Size: 820653
+C:\BC45\BIN\BCWDBV16.DLL
+    Module: BCWDBV16  hModule: 3317  RefCount: 1  10-17-94 04:50:00  Size: 380416
+C:\BC45\BIN\BCWDBK16.DLL
+    Module: BCWDBK16  hModule: 3427  RefCount: 1  10-17-94 04:50:00  Size: 243200
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 26F7  RefCount: 1  06-23-96 12:18:46  Size: 57480
+
+
+
+               ***********************************************
+               *           QNC II for Windows 3.X            *
+               *    Copyright 1994, Lotus Development Corp.  *
+               *               Version 3.0                   *
+               ***********************************************
+12:21:08 Tue Jul 23, 1996  Stopped due to Exception 13: Protection Violation
+Notes Build: North American - Worldwide Security R3.33 |August 16, 1995                    
+
+System Information:
+Windows NT 3.10 enhanced mode, retail version, DOS version 5.0
+CPU: i486+,  Coprocessor 
+Largest free memory block: 15728640 bytes
+Total linear memory space: 2097024 KB
+Free linear memory space : 2051056 KB
+Swap file pages: 42fc (68592 KB)
+USER Heap Free  90%
+GDI Heap Free  90%
+
+Registers:
+
+  AX   BX   CX   DX   SI   DI   CS   IP   SS   SP   BP   DS   ES   FLAGS
+ 0073 0022 0000 0073 0089 2000 324F:2135 26F7:1F46 1FE2 26F7 26F7  3202
+
+CS  324F  Limit: 463F  Access: execute/read
+DS  26F7  Limit: 305F  Access: read/write
+ES  26F7  Limit: 305F  Access: read/write
+SS  26F7  Limit: 305F  Access: read/write
+
+Top of the stack:
+ 26F7:1F46  26F7 0AD0 0AA6 6153   3A79 0020 1F60 04A1 |.&....Say: .`...|
+ 26F7:1F56  1F72 000C 0001 32AF   3301 4132 0043 174F |r......2.32AC.O.|
+ 26F7:1F66  3202 0000 0001 32AF   0002 0001 0024 0AD0 |.2.....2....$...|
+ 26F7:1F76  0AA6 3423 324F 1BE7   324F 0AD0 0AA6 0000 |..#4O2..O2......|
+ 26F7:1F86  313F 26F7 3147 0000   3147 1F9D 363B 31AF |?1.&G1..G1..;6.1|
+ 26F7:1F96  26F7 36C2 31AF 1FC7   0062 323F 1FD8 0AD0 |.&.6.1..b.?2....|
+ 26F7:1FA6  0AA6 1FD8 21CD 1BE7   324F 0AD0 0AA6 0000 |.....!..O2......|
+ 26F7:1FB6  313F 26F7 3147 1BE7   324F 0AD0 0AA6 0000 |?1.&G1..O2......|
+ 26F7:1FC6  313F 26F7 3147 0000   004B 0000 0088 0000 |?1.&G1..K.......|
+ 26F7:1FD6  00F7 FFFF FFFF 7307   1F51 0020 1FF6 27BE |.......sQ. ....'|
+
+Stack Trace:
+
+Stopped at  CS:IP=324F:2135, hMod:31B7, RefCnt:1 (0001:2135 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 26F7:1FE2  1FF6 27BE 2000 0089   26F7 0294 26F7 2987 |...'. ...&...&.)|
+ 26F7:1FF2  0AD0 0AA6 202B 0034   3227 0082 26F7 6568 |....+ 4.'2...&he|
+
+End of Stack Trace
+
+Tasks Running:
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 31B7  hTask: 3157  hInstance: 26F6  06-23-96 12:21:10  Size: 57480
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  hTask: 157F  hInstance: 2346  10-17-94 04:50:00  Size: 662800
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  hTask: 1A47  hInstance: 1AFE  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  hTask: 1047  hInstance: 1936  07-14-95 22:13:02  Size: 55120
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  hTask: 1887  hInstance: 18A6  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  hTask: 03B7  hInstance: 03D6  04-26-95 10:57:00  Size: 10832
+
+Modules Loaded:
+C:\WINDOWS\SYSTEM32\KRNL386.EXE
+    Module: KERNEL    hModule: 021F  RefCount: 38  04-26-95 10:57:00  Size: 82656
+C:\WINDOWS\SYSTEM32\SYSTEM.DRV
+    Module: SYSTEM    hModule: 020F  RefCount: 25  04-26-95 10:57:00  Size: 3360
+C:\WINDOWS\SYSTEM32\KEYBOARD.DRV
+    Module: KEYBOARD  hModule: 01B7  RefCount: 15  04-26-95 10:57:00  Size: 2016
+C:\WINDOWS\SYSTEM32\MOUSE.DRV
+    Module: MOUSE     hModule: 02B7  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\VGA.DRV
+    Module: DISPLAY   hModule: 02CF  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\SOUND.DRV
+    Module: SOUND     hModule: 02E7  RefCount: 3  04-26-95 10:57:00  Size: 1744
+C:\WINDOWS\SYSTEM32\COMM.DRV
+    Module: COMM      hModule: 0307  RefCount: 1  04-26-95 10:57:00  Size: 10592
+C:\WINDOWS\SYSTEM32\USER.EXE
+    Module: USER      hModule: 031F  RefCount: 23  04-26-95 10:57:00  Size: 47136
+C:\WINDOWS\SYSTEM32\GDI.EXE
+    Module: GDI       hModule: 0397  RefCount: 18  04-26-95 10:57:00  Size: 21504
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  RefCount: 1  04-26-95 10:57:00  Size: 10832
+C:\WINDOWS\SYSTEM32\SHELL.DLL
+    Module: SHELL     hModule: 03DF  RefCount: 8  04-26-95 10:57:00  Size: 5120
+C:\WINDOWS\SYSTEM32\WFWNET.DRV
+    Module: WFWNET    hModule: 0C3F  RefCount: 1  04-26-95 10:57:00  Size: 13856
+C:\WINDOWS\SYSTEM32\NETWARE.DRV
+    Module: NETWARE   hModule: 0C1F  RefCount: 1  04-26-95 10:57:00  Size: 2656
+C:\WINDOWS\SYSTEM32\MMSYSTEM.DLL
+    Module: MMSYSTEM  hModule: 0BDF  RefCount: 3  04-26-95 10:57:00  Size: 67936
+C:\WINDOWS\SYSTEM32\TIMER.DRV
+    Module: TIMER     hModule: 0BD7  RefCount: 1  04-26-95 10:57:00  Size: 4032
+C:\WINDOWS\SYSTEM32\WIN87EM.DLL
+    Module: WIN87EM   hModule: 0757  RefCount: 11  04-26-95 10:57:00  Size: 13312
+C:\NOTES\_STRINGS.DLL
+    Module: _STRINGS  hModule: 0A47  RefCount: 8  08-11-95 16:47:44  Size: 88240
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  RefCount: 1  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\TOOLHELP.DLL
+    Module: TOOLHELP  hModule: 0E67  RefCount: 5  04-26-95 10:57:00  Size: 14016
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  RefCount: 1  07-14-95 22:13:02  Size: 55120
+C:\NOTES\_NEM.DLL
+    Module: _NEM      hModule: 088F  RefCount: 2  07-17-95 11:12:32  Size: 364608
+C:\NOTES\_BSAFE.DLL
+    Module: _BSAFE    hModule: 198F  RefCount: 4  07-14-95 22:03:02  Size: 124240
+C:\NOTES\_LIB.DLL
+    Module: _LIB      hModule: 097F  RefCount: 5  07-14-95 22:16:54  Size: 233936
+C:\WINDOWS\SYSTEM32\COMMDLG.DLL
+    Module: COMMDLG   hModule: 11CF  RefCount: 10  04-26-95 10:57:00  Size: 22096
+C:\NOTES\_NIF.DLL
+    Module: _NIF      hModule: 0467  RefCount: 4  07-14-95 22:16:12  Size: 126901
+C:\NOTES\_NSF.DLL
+    Module: _NSF      hModule: 1817  RefCount: 4  07-14-95 22:16:34  Size: 421954
+C:\NOTES\_NET.DLL
+    Module: _NET      hModule: 07E7  RefCount: 4  07-14-95 22:16:04  Size: 70552
+C:\NOTES\_EVENTL.DLL
+    Module: _EVENTL   hModule: 166F  RefCount: 4  07-14-95 22:10:20  Size: 8986
+C:\NOTES\_COMPUTE.DLL
+    Module: _COMPUTE  hModule: 0F1F  RefCount: 4  07-14-95 22:03:40  Size: 2768
+C:\NOTES\_COMPUTN.DLL
+    Module: _COMPUTN  hModule: 121F  RefCount: 4  07-14-95 22:04:06  Size: 46161
+C:\NOTES\_COMPUTF.DLL
+    Module: _COMPUTF  hModule: 1207  RefCount: 4  07-14-95 22:03:50  Size: 55553
+C:\NOTES\_FT.DLL
+    Module: _FT       hModule: 0767  RefCount: 4  07-14-95 22:10:28  Size: 14694
+C:\NOTES\_DESK.DLL
+    Module: _DESK     hModule: 1137  RefCount: 1  07-14-95 22:05:44  Size: 487632
+C:\NOTES\_EDIT.DLL
+    Module: _EDIT     hModule: 06B7  RefCount: 1  07-14-95 22:08:06  Size: 641344
+C:\NOTES\_VIEW.DLL
+    Module: _VIEW     hModule: 19BF  RefCount: 1  07-14-95 22:18:40  Size: 262336
+C:\NOTES\_SPELL.DLL
+    Module: _SPELL    hModule: 130F  RefCount: 1  07-14-95 22:18:12  Size: 87179
+C:\WINDOWS\SYSTEM32\OLECLI.DLL
+    Module: OLECLI    hModule: 1007  RefCount: 1  04-26-95 10:57:00  Size: 83456
+C:\NOTES\_DESIGNL.DLL
+    Module: _DESIGNL  hModule: 04C7  RefCount: 1  07-14-95 22:04:56  Size: 14288
+C:\NOTES\_REG.DLL
+    Module: _REG      hModule: 0FC7  RefCount: 1  07-14-95 22:17:06  Size: 23248
+C:\NOTES\LTSSB01.DLL
+    Module: LTSSB01   hModule: 0E87  RefCount: 1  02-10-93 14:47:06  Size: 32856
+C:\NOTES\_ROUTERL.DLL
+    Module: _ROUTERL  hModule: 0DFF  RefCount: 1  07-14-95 22:17:30  Size: 43868
+C:\NOTES\_TCP.DLL
+    Module: _TCP      hModule: 0DC7  RefCount: 1  07-14-95 22:14:06  Size: 21264
+C:\NOTES\NTSICN03.DLL
+    Module: NTSICN03  hModule: 169F  RefCount: 1  03-22-93 11:27:42  Size: 104576
+C:\NOTES\_ICNV.DLL
+    Module: _ICNV     hModule: 1337  RefCount: 1  07-14-95 22:15:40  Size: 51760
+C:\NOTES\_WSKAPI.DLL
+    Module: _WSKAPI   hModule: 158F  RefCount: 2  07-14-95 22:14:14  Size: 22580
+C:\WINDOWS\SYSTEM32\WINSOCK.DLL
+    Module: WINSOCK   hModule: 1A97  RefCount: 2  04-26-95 10:57:00  Size: 2880
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  RefCount: 1  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_SDK.DLL
+    Module: _SDK      hModule: 1B27  RefCount: 1  07-14-95 22:17:48  Size: 4245
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  RefCount: 1  10-17-94 04:50:00  Size: 662800
+C:\BC45\BIN\BCWPAGES.DLL
+    Module: BCWPAGES  hModule: 233F  RefCount: 2  10-17-94 04:50:00  Size: 87700
+C:\BC45\BIN\BCWRES.DLL
+    Module: BCWRES    hModule: 22E7  RefCount: 3  10-17-94 04:50:00  Size: 412864
+C:\BC45\BIN\BCWIMPRT.DLL
+    Module: BCWIMPRT  hModule: 22DF  RefCount: 2  10-17-94 04:50:00  Size: 69292
+C:\BC45\BIN\IDECRTL.DLL
+    Module: IDECRTL   hModule: 2297  RefCount: 7  10-17-94 04:50:00  Size: 185812
+C:\BC45\BIN\IDEOWL.DLL
+    Module: IDEOWL    hModule: 223F  RefCount: 5  10-17-94 04:50:00  Size: 307400
+C:\BC45\BIN\IDEBID.DLL
+    Module: IDEBID    hModule: 20EF  RefCount: 5  10-17-94 04:50:00  Size: 53060
+C:\BC45\BIN\IDEWIN.DLL
+    Module: IDEWIN    hModule: 2087  RefCount: 3  10-17-94 04:50:00  Size: 154036
+C:\BC45\BIN\IDEPANE.DLL
+    Module: IDEPANE   hModule: 202F  RefCount: 2  10-17-94 04:50:00  Size: 60726
+C:\WINDOWS\system\BWCC.DLL
+    Module: BWCC      hModule: 1FEF  RefCount: 1  01-28-95 11:14:18  Size: 164928
+C:\WINDOWS\SYSTEM32\DDEML.DLL
+    Module: DDEML     hModule: 1FE7  RefCount: 1  04-26-95 10:57:00  Size: 39936
+C:\BC45\BIN\BCWPRJ.DLL
+    Module: BCWPRJ    hModule: 1E97  RefCount: 1  10-17-94 04:50:00  Size: 441768
+C:\BC45\BIN\BCWOBJ.DLL
+    Module: BCWOBJ    hModule: 1DA7  RefCount: 1  10-17-94 04:50:00  Size: 50402
+C:\BC45\BIN\IDEEDIT.DLL
+    Module: IDEEDIT   hModule: 1CF7  RefCount: 1  10-17-94 04:50:00  Size: 89208
+C:\BC45\BIN\IDEKBD.DLL
+    Module: IDEKBD    hModule: 1CCF  RefCount: 1  10-17-94 04:50:00  Size: 10732
+C:\BC45\BIN\BCWTXCL.DLL
+    Module: BCWTXCL   hModule: 1C9F  RefCount: 1  10-17-94 04:50:00  Size: 67666
+C:\BC45\BIN\BCWTXSRV.DLL
+    Module: BCWTXSRV  hModule: 2C6F  RefCount: 1  10-17-94 04:50:00  Size: 63664
+C:\BC45\BIN\BCWS16.DLL
+    Module: BCWS16    hModule: 26E7  RefCount: 2  10-17-94 04:50:00  Size: 820653
+C:\BC45\BIN\BCWDBV16.DLL
+    Module: BCWDBV16  hModule: 3317  RefCount: 1  10-17-94 04:50:00  Size: 380416
+C:\BC45\BIN\BCWDBK16.DLL
+    Module: BCWDBK16  hModule: 3427  RefCount: 1  10-17-94 04:50:00  Size: 243200
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 31B7  RefCount: 1  06-23-96 12:21:10  Size: 57480
+
+
+
+               ***********************************************
+               *           QNC II for Windows 3.X            *
+               *    Copyright 1994, Lotus Development Corp.  *
+               *               Version 3.0                   *
+               ***********************************************
+12:22:36 Tue Jul 23, 1996  Stopped due to Exception 13: Protection Violation
+Notes Build: North American - Worldwide Security R3.33 |August 16, 1995                    
+
+System Information:
+Windows NT 3.10 enhanced mode, retail version, DOS version 5.0
+CPU: i486+,  Coprocessor 
+Largest free memory block: 15728640 bytes
+Total linear memory space: 2097024 KB
+Free linear memory space : 2051464 KB
+Swap file pages: 42fc (68592 KB)
+USER Heap Free  90%
+GDI Heap Free  90%
+
+Registers:
+
+  AX   BX   CX   DX   SI   DI   CS   IP   SS   SP   BP   DS   ES   FLAGS
+ 0073 0022 0000 0073 0089 2000 3287:2135 3227:1F46 1FE2 3227 3227  3202
+
+CS  3287  Limit: 463F  Access: execute/read
+DS  3227  Limit: 305F  Access: read/write
+ES  3227  Limit: 305F  Access: read/write
+SS  3227  Limit: 305F  Access: read/write
+
+Top of the stack:
+ 3227:1F46  3227 0AD0 0AA6 6153   3A79 0020 1F60 04A1 |'2....Say: .`...|
+ 3227:1F56  1F72 000C 0001 32AF   3301 4132 0043 174F |r......2.32AC.O.|
+ 3227:1F66  3202 0000 0001 32AF   0002 0001 0024 0AD0 |.2.....2....$...|
+ 3227:1F76  0AA6 3423 3287 1BE7   3287 0AD0 0AA6 0000 |..#4.2...2......|
+ 3227:1F86  317F 3227 3187 0000   3187 1F9D 363B 3207 |.1'2.1...1..;6.2|
+ 3227:1F96  3227 36C2 3207 1FC7   0062 31FF 1FD8 0AD0 |'2.6.2..b..1....|
+ 3227:1FA6  0AA6 1FD8 21CD 1BE7   3287 0AD0 0AA6 0000 |.....!...2......|
+ 3227:1FB6  317F 3227 3187 1BE7   3287 0AD0 0AA6 0000 |.1'2.1...2......|
+ 3227:1FC6  317F 3227 3187 0000   004B 0000 0088 0000 |.1'2.1..K.......|
+ 3227:1FD6  0027 FFFF FFFF 7307   1F51 0020 1FF6 27BE |'......sQ. ....'|
+
+Stack Trace:
+
+Stopped at  CS:IP=3287:2135, hMod:316F, RefCnt:1 (0001:2135 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 3227:1FE2  1FF6 27BE 2000 0089   3227 0294 3227 2987 |...'. ..'2..'2.)|
+ 3227:1FF2  0AD0 0AA6 202B 0034   3147 0082 3227 6568 |....+ 4.G1..'2he|
+
+End of Stack Trace
+
+Tasks Running:
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 316F  hTask: 31CF  hInstance: 3226  06-23-96 12:22:38  Size: 57480
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  hTask: 157F  hInstance: 2346  10-17-94 04:50:00  Size: 662800
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  hTask: 1A47  hInstance: 1AFE  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  hTask: 1047  hInstance: 1936  07-14-95 22:13:02  Size: 55120
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  hTask: 1887  hInstance: 18A6  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  hTask: 03B7  hInstance: 03D6  04-26-95 10:57:00  Size: 10832
+
+Modules Loaded:
+C:\WINDOWS\SYSTEM32\KRNL386.EXE
+    Module: KERNEL    hModule: 021F  RefCount: 38  04-26-95 10:57:00  Size: 82656
+C:\WINDOWS\SYSTEM32\SYSTEM.DRV
+    Module: SYSTEM    hModule: 020F  RefCount: 25  04-26-95 10:57:00  Size: 3360
+C:\WINDOWS\SYSTEM32\KEYBOARD.DRV
+    Module: KEYBOARD  hModule: 01B7  RefCount: 15  04-26-95 10:57:00  Size: 2016
+C:\WINDOWS\SYSTEM32\MOUSE.DRV
+    Module: MOUSE     hModule: 02B7  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\VGA.DRV
+    Module: DISPLAY   hModule: 02CF  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\SOUND.DRV
+    Module: SOUND     hModule: 02E7  RefCount: 3  04-26-95 10:57:00  Size: 1744
+C:\WINDOWS\SYSTEM32\COMM.DRV
+    Module: COMM      hModule: 0307  RefCount: 1  04-26-95 10:57:00  Size: 10592
+C:\WINDOWS\SYSTEM32\USER.EXE
+    Module: USER      hModule: 031F  RefCount: 23  04-26-95 10:57:00  Size: 47136
+C:\WINDOWS\SYSTEM32\GDI.EXE
+    Module: GDI       hModule: 0397  RefCount: 18  04-26-95 10:57:00  Size: 21504
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  RefCount: 1  04-26-95 10:57:00  Size: 10832
+C:\WINDOWS\SYSTEM32\SHELL.DLL
+    Module: SHELL     hModule: 03DF  RefCount: 8  04-26-95 10:57:00  Size: 5120
+C:\WINDOWS\SYSTEM32\WFWNET.DRV
+    Module: WFWNET    hModule: 0C3F  RefCount: 1  04-26-95 10:57:00  Size: 13856
+C:\WINDOWS\SYSTEM32\NETWARE.DRV
+    Module: NETWARE   hModule: 0C1F  RefCount: 1  04-26-95 10:57:00  Size: 2656
+C:\WINDOWS\SYSTEM32\MMSYSTEM.DLL
+    Module: MMSYSTEM  hModule: 0BDF  RefCount: 3  04-26-95 10:57:00  Size: 67936
+C:\WINDOWS\SYSTEM32\TIMER.DRV
+    Module: TIMER     hModule: 0BD7  RefCount: 1  04-26-95 10:57:00  Size: 4032
+C:\WINDOWS\SYSTEM32\WIN87EM.DLL
+    Module: WIN87EM   hModule: 0757  RefCount: 11  04-26-95 10:57:00  Size: 13312
+C:\NOTES\_STRINGS.DLL
+    Module: _STRINGS  hModule: 0A47  RefCount: 8  08-11-95 16:47:44  Size: 88240
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  RefCount: 1  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\TOOLHELP.DLL
+    Module: TOOLHELP  hModule: 0E67  RefCount: 5  04-26-95 10:57:00  Size: 14016
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  RefCount: 1  07-14-95 22:13:02  Size: 55120
+C:\NOTES\_NEM.DLL
+    Module: _NEM      hModule: 088F  RefCount: 2  07-17-95 11:12:32  Size: 364608
+C:\NOTES\_BSAFE.DLL
+    Module: _BSAFE    hModule: 198F  RefCount: 4  07-14-95 22:03:02  Size: 124240
+C:\NOTES\_LIB.DLL
+    Module: _LIB      hModule: 097F  RefCount: 5  07-14-95 22:16:54  Size: 233936
+C:\WINDOWS\SYSTEM32\COMMDLG.DLL
+    Module: COMMDLG   hModule: 11CF  RefCount: 10  04-26-95 10:57:00  Size: 22096
+C:\NOTES\_NIF.DLL
+    Module: _NIF      hModule: 0467  RefCount: 4  07-14-95 22:16:12  Size: 126901
+C:\NOTES\_NSF.DLL
+    Module: _NSF      hModule: 1817  RefCount: 4  07-14-95 22:16:34  Size: 421954
+C:\NOTES\_NET.DLL
+    Module: _NET      hModule: 07E7  RefCount: 4  07-14-95 22:16:04  Size: 70552
+C:\NOTES\_EVENTL.DLL
+    Module: _EVENTL   hModule: 166F  RefCount: 4  07-14-95 22:10:20  Size: 8986
+C:\NOTES\_COMPUTE.DLL
+    Module: _COMPUTE  hModule: 0F1F  RefCount: 4  07-14-95 22:03:40  Size: 2768
+C:\NOTES\_COMPUTN.DLL
+    Module: _COMPUTN  hModule: 121F  RefCount: 4  07-14-95 22:04:06  Size: 46161
+C:\NOTES\_COMPUTF.DLL
+    Module: _COMPUTF  hModule: 1207  RefCount: 4  07-14-95 22:03:50  Size: 55553
+C:\NOTES\_FT.DLL
+    Module: _FT       hModule: 0767  RefCount: 4  07-14-95 22:10:28  Size: 14694
+C:\NOTES\_DESK.DLL
+    Module: _DESK     hModule: 1137  RefCount: 1  07-14-95 22:05:44  Size: 487632
+C:\NOTES\_EDIT.DLL
+    Module: _EDIT     hModule: 06B7  RefCount: 1  07-14-95 22:08:06  Size: 641344
+C:\NOTES\_VIEW.DLL
+    Module: _VIEW     hModule: 19BF  RefCount: 1  07-14-95 22:18:40  Size: 262336
+C:\NOTES\_SPELL.DLL
+    Module: _SPELL    hModule: 130F  RefCount: 1  07-14-95 22:18:12  Size: 87179
+C:\WINDOWS\SYSTEM32\OLECLI.DLL
+    Module: OLECLI    hModule: 1007  RefCount: 1  04-26-95 10:57:00  Size: 83456
+C:\NOTES\_DESIGNL.DLL
+    Module: _DESIGNL  hModule: 04C7  RefCount: 1  07-14-95 22:04:56  Size: 14288
+C:\NOTES\_REG.DLL
+    Module: _REG      hModule: 0FC7  RefCount: 1  07-14-95 22:17:06  Size: 23248
+C:\NOTES\LTSSB01.DLL
+    Module: LTSSB01   hModule: 0E87  RefCount: 1  02-10-93 14:47:06  Size: 32856
+C:\NOTES\_ROUTERL.DLL
+    Module: _ROUTERL  hModule: 0DFF  RefCount: 1  07-14-95 22:17:30  Size: 43868
+C:\NOTES\_TCP.DLL
+    Module: _TCP      hModule: 0DC7  RefCount: 1  07-14-95 22:14:06  Size: 21264
+C:\NOTES\NTSICN03.DLL
+    Module: NTSICN03  hModule: 169F  RefCount: 1  03-22-93 11:27:42  Size: 104576
+C:\NOTES\_ICNV.DLL
+    Module: _ICNV     hModule: 1337  RefCount: 1  07-14-95 22:15:40  Size: 51760
+C:\NOTES\_WSKAPI.DLL
+    Module: _WSKAPI   hModule: 158F  RefCount: 2  07-14-95 22:14:14  Size: 22580
+C:\WINDOWS\SYSTEM32\WINSOCK.DLL
+    Module: WINSOCK   hModule: 1A97  RefCount: 2  04-26-95 10:57:00  Size: 2880
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  RefCount: 1  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_SDK.DLL
+    Module: _SDK      hModule: 1B27  RefCount: 1  07-14-95 22:17:48  Size: 4245
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  RefCount: 1  10-17-94 04:50:00  Size: 662800
+C:\BC45\BIN\BCWPAGES.DLL
+    Module: BCWPAGES  hModule: 233F  RefCount: 2  10-17-94 04:50:00  Size: 87700
+C:\BC45\BIN\BCWRES.DLL
+    Module: BCWRES    hModule: 22E7  RefCount: 3  10-17-94 04:50:00  Size: 412864
+C:\BC45\BIN\BCWIMPRT.DLL
+    Module: BCWIMPRT  hModule: 22DF  RefCount: 2  10-17-94 04:50:00  Size: 69292
+C:\BC45\BIN\IDECRTL.DLL
+    Module: IDECRTL   hModule: 2297  RefCount: 7  10-17-94 04:50:00  Size: 185812
+C:\BC45\BIN\IDEOWL.DLL
+    Module: IDEOWL    hModule: 223F  RefCount: 5  10-17-94 04:50:00  Size: 307400
+C:\BC45\BIN\IDEBID.DLL
+    Module: IDEBID    hModule: 20EF  RefCount: 5  10-17-94 04:50:00  Size: 53060
+C:\BC45\BIN\IDEWIN.DLL
+    Module: IDEWIN    hModule: 2087  RefCount: 3  10-17-94 04:50:00  Size: 154036
+C:\BC45\BIN\IDEPANE.DLL
+    Module: IDEPANE   hModule: 202F  RefCount: 2  10-17-94 04:50:00  Size: 60726
+C:\WINDOWS\system\BWCC.DLL
+    Module: BWCC      hModule: 1FEF  RefCount: 1  01-28-95 11:14:18  Size: 164928
+C:\WINDOWS\SYSTEM32\DDEML.DLL
+    Module: DDEML     hModule: 1FE7  RefCount: 1  04-26-95 10:57:00  Size: 39936
+C:\BC45\BIN\BCWPRJ.DLL
+    Module: BCWPRJ    hModule: 1E97  RefCount: 1  10-17-94 04:50:00  Size: 441768
+C:\BC45\BIN\BCWOBJ.DLL
+    Module: BCWOBJ    hModule: 1DA7  RefCount: 1  10-17-94 04:50:00  Size: 50402
+C:\BC45\BIN\IDEEDIT.DLL
+    Module: IDEEDIT   hModule: 1CF7  RefCount: 1  10-17-94 04:50:00  Size: 89208
+C:\BC45\BIN\IDEKBD.DLL
+    Module: IDEKBD    hModule: 1CCF  RefCount: 1  10-17-94 04:50:00  Size: 10732
+C:\BC45\BIN\BCWTXCL.DLL
+    Module: BCWTXCL   hModule: 1C9F  RefCount: 1  10-17-94 04:50:00  Size: 67666
+C:\BC45\BIN\BCWTXSRV.DLL
+    Module: BCWTXSRV  hModule: 2C6F  RefCount: 1  10-17-94 04:50:00  Size: 63664
+C:\BC45\BIN\BCWS16.DLL
+    Module: BCWS16    hModule: 26E7  RefCount: 2  10-17-94 04:50:00  Size: 820653
+C:\BC45\BIN\BCWDBV16.DLL
+    Module: BCWDBV16  hModule: 3317  RefCount: 1  10-17-94 04:50:00  Size: 380416
+C:\BC45\BIN\BCWDBK16.DLL
+    Module: BCWDBK16  hModule: 3427  RefCount: 1  10-17-94 04:50:00  Size: 243200
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 316F  RefCount: 1  06-23-96 12:22:38  Size: 57480
+
+
+
+               ***********************************************
+               *           QNC II for Windows 3.X            *
+               *    Copyright 1994, Lotus Development Corp.  *
+               *               Version 3.0                   *
+               ***********************************************
+12:23:21 Tue Jul 23, 1996  Stopped due to Exception 13: Protection Violation
+Notes Build: North American - Worldwide Security R3.33 |August 16, 1995                    
+
+System Information:
+Windows NT 3.10 enhanced mode, retail version, DOS version 5.0
+CPU: i486+,  Coprocessor 
+Largest free memory block: 15728640 bytes
+Total linear memory space: 2097024 KB
+Free linear memory space : 2051464 KB
+Swap file pages: 42fc (68592 KB)
+USER Heap Free  90%
+GDI Heap Free  90%
+
+Registers:
+
+  AX   BX   CX   DX   SI   DI   CS   IP   SS   SP   BP   DS   ES   FLAGS
+ 0073 0022 0000 0073 0089 1FFE 316F:2135 320F:1F44 1FE0 320F 320F  3202
+
+CS  316F  Limit: 463F  Access: execute/read
+DS  320F  Limit: 305F  Access: read/write
+ES  320F  Limit: 305F  Access: read/write
+SS  320F  Limit: 305F  Access: read/write
+
+Top of the stack:
+ 320F:1F44  320F 0AD0 0AA6 6153   3A79 0020 0000 0000 |.2....Say: .....|
+ 320F:1F54  0000 0000 0000 0000   0000 0000 0000 0000 |................|
+ 320F:1F64  0000 0000 0000 0000   0000 0000 0000 0AD0 |................|
+ 320F:1F74  0AA6 3423 316F 1BE7   316F 0AD0 0AA6 0000 |..#4o1..o1......|
+ 320F:1F84  32A7 320F 31A7 0000   31A7 1F9B 363B 31DF |.2.2.1...1..;6.1|
+ 320F:1F94  320F 36C2 31DF 1FC5   0062 3227 1FD6 0AD0 |.2.6.1..b.'2....|
+ 320F:1FA4  0AA6 1FD6 21CD 1BE7   316F 0AD0 0AA6 0000 |.....!..o1......|
+ 320F:1FB4  32A7 320F 31A7 1BE7   316F 0AD0 0AA6 0000 |.2.2.1..o1......|
+ 320F:1FC4  32A7 320F 31A7 0000   004B 0000 0088 0000 |.2.2.1..K.......|
+ 320F:1FD4  000F FFFF FFFF 7305   1F4F 0020 1FF4 27BE |.......sO. ....'|
+
+Stack Trace:
+
+Stopped at  CS:IP=316F:2135, hMod:318F, RefCnt:1 (0001:2135 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 320F:1FE0  1FF4 27BE 1FFE 0089   320F 0294 320F 2987 |...'.....2...2.)|
+ 320F:1FF0  0AD0 0AA6 2029 0034   317F 0082 320F 6568 |....) 4..1...2he|
+
+Called from CS:IP=316F:27BE, hMod:318F, RefCnt:1 (0001:27BE in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 320F:1FF4  2029 0034 317F 0082   320F 6568 6C6C 206F |) 4..1...2hello |
+ 320F:2004  6F77 6C72 0064 FFFF   21CD 31DF 3209 6568 |world....!.1.2he|
+ 320F:2014  6C6C 206F 6F77 6C72   0064 FFFF 21CD 31DF |llo world....!.1|
+ 320F:2024  3209 320F 204B 42A7   316F 0001 09DE 314F |.2.2K .Bo1....O1|
+
+Called from CS:IP=317F:0034, hMod:318F, RefCnt:1 (0002:0034 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 320F:2028  204B 42A7 316F 0001   09DE 314F 0A22 314F |K .Bo1....O1".O1|
+ 320F:2038  0AD0 0AA6 00B7 316F   0001 0080 3287 0000 |......o1.....2..|
+ 320F:2048  320E 0000 0000 0000   0000 0000 0000 0000 |.2..............|
+
+Called from CS:IP=316F:42A7, hMod:318F, RefCnt:1 (0001:42A7 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 320F:204A  0000 0000 0000 0000   0000 0000 0000 0000 |................|
+ 320F:205A  0000 0000 0000 2061   206C 000A 2060 209C |......a l ..` . |
+
+End of Stack Trace
+
+Tasks Running:
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 318F  hTask: 31FF  hInstance: 320E  06-23-96 12:22:38  Size: 57480
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  hTask: 157F  hInstance: 2346  10-17-94 04:50:00  Size: 662800
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  hTask: 1A47  hInstance: 1AFE  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  hTask: 1047  hInstance: 1936  07-14-95 22:13:02  Size: 55120
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  hTask: 1887  hInstance: 18A6  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  hTask: 03B7  hInstance: 03D6  04-26-95 10:57:00  Size: 10832
+
+Modules Loaded:
+C:\WINDOWS\SYSTEM32\KRNL386.EXE
+    Module: KERNEL    hModule: 021F  RefCount: 38  04-26-95 10:57:00  Size: 82656
+C:\WINDOWS\SYSTEM32\SYSTEM.DRV
+    Module: SYSTEM    hModule: 020F  RefCount: 25  04-26-95 10:57:00  Size: 3360
+C:\WINDOWS\SYSTEM32\KEYBOARD.DRV
+    Module: KEYBOARD  hModule: 01B7  RefCount: 15  04-26-95 10:57:00  Size: 2016
+C:\WINDOWS\SYSTEM32\MOUSE.DRV
+    Module: MOUSE     hModule: 02B7  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\VGA.DRV
+    Module: DISPLAY   hModule: 02CF  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\SOUND.DRV
+    Module: SOUND     hModule: 02E7  RefCount: 3  04-26-95 10:57:00  Size: 1744
+C:\WINDOWS\SYSTEM32\COMM.DRV
+    Module: COMM      hModule: 0307  RefCount: 1  04-26-95 10:57:00  Size: 10592
+C:\WINDOWS\SYSTEM32\USER.EXE
+    Module: USER      hModule: 031F  RefCount: 23  04-26-95 10:57:00  Size: 47136
+C:\WINDOWS\SYSTEM32\GDI.EXE
+    Module: GDI       hModule: 0397  RefCount: 18  04-26-95 10:57:00  Size: 21504
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  RefCount: 1  04-26-95 10:57:00  Size: 10832
+C:\WINDOWS\SYSTEM32\SHELL.DLL
+    Module: SHELL     hModule: 03DF  RefCount: 8  04-26-95 10:57:00  Size: 5120
+C:\WINDOWS\SYSTEM32\WFWNET.DRV
+    Module: WFWNET    hModule: 0C3F  RefCount: 1  04-26-95 10:57:00  Size: 13856
+C:\WINDOWS\SYSTEM32\NETWARE.DRV
+    Module: NETWARE   hModule: 0C1F  RefCount: 1  04-26-95 10:57:00  Size: 2656
+C:\WINDOWS\SYSTEM32\MMSYSTEM.DLL
+    Module: MMSYSTEM  hModule: 0BDF  RefCount: 3  04-26-95 10:57:00  Size: 67936
+C:\WINDOWS\SYSTEM32\TIMER.DRV
+    Module: TIMER     hModule: 0BD7  RefCount: 1  04-26-95 10:57:00  Size: 4032
+C:\WINDOWS\SYSTEM32\WIN87EM.DLL
+    Module: WIN87EM   hModule: 0757  RefCount: 11  04-26-95 10:57:00  Size: 13312
+C:\NOTES\_STRINGS.DLL
+    Module: _STRINGS  hModule: 0A47  RefCount: 8  08-11-95 16:47:44  Size: 88240
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  RefCount: 1  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\TOOLHELP.DLL
+    Module: TOOLHELP  hModule: 0E67  RefCount: 5  04-26-95 10:57:00  Size: 14016
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  RefCount: 1  07-14-95 22:13:02  Size: 55120
+C:\NOTES\_NEM.DLL
+    Module: _NEM      hModule: 088F  RefCount: 2  07-17-95 11:12:32  Size: 364608
+C:\NOTES\_BSAFE.DLL
+    Module: _BSAFE    hModule: 198F  RefCount: 4  07-14-95 22:03:02  Size: 124240
+C:\NOTES\_LIB.DLL
+    Module: _LIB      hModule: 097F  RefCount: 5  07-14-95 22:16:54  Size: 233936
+C:\WINDOWS\SYSTEM32\COMMDLG.DLL
+    Module: COMMDLG   hModule: 11CF  RefCount: 10  04-26-95 10:57:00  Size: 22096
+C:\NOTES\_NIF.DLL
+    Module: _NIF      hModule: 0467  RefCount: 4  07-14-95 22:16:12  Size: 126901
+C:\NOTES\_NSF.DLL
+    Module: _NSF      hModule: 1817  RefCount: 4  07-14-95 22:16:34  Size: 421954
+C:\NOTES\_NET.DLL
+    Module: _NET      hModule: 07E7  RefCount: 4  07-14-95 22:16:04  Size: 70552
+C:\NOTES\_EVENTL.DLL
+    Module: _EVENTL   hModule: 166F  RefCount: 4  07-14-95 22:10:20  Size: 8986
+C:\NOTES\_COMPUTE.DLL
+    Module: _COMPUTE  hModule: 0F1F  RefCount: 4  07-14-95 22:03:40  Size: 2768
+C:\NOTES\_COMPUTN.DLL
+    Module: _COMPUTN  hModule: 121F  RefCount: 4  07-14-95 22:04:06  Size: 46161
+C:\NOTES\_COMPUTF.DLL
+    Module: _COMPUTF  hModule: 1207  RefCount: 4  07-14-95 22:03:50  Size: 55553
+C:\NOTES\_FT.DLL
+    Module: _FT       hModule: 0767  RefCount: 4  07-14-95 22:10:28  Size: 14694
+C:\NOTES\_DESK.DLL
+    Module: _DESK     hModule: 1137  RefCount: 1  07-14-95 22:05:44  Size: 487632
+C:\NOTES\_EDIT.DLL
+    Module: _EDIT     hModule: 06B7  RefCount: 1  07-14-95 22:08:06  Size: 641344
+C:\NOTES\_VIEW.DLL
+    Module: _VIEW     hModule: 19BF  RefCount: 1  07-14-95 22:18:40  Size: 262336
+C:\NOTES\_SPELL.DLL
+    Module: _SPELL    hModule: 130F  RefCount: 1  07-14-95 22:18:12  Size: 87179
+C:\WINDOWS\SYSTEM32\OLECLI.DLL
+    Module: OLECLI    hModule: 1007  RefCount: 1  04-26-95 10:57:00  Size: 83456
+C:\NOTES\_DESIGNL.DLL
+    Module: _DESIGNL  hModule: 04C7  RefCount: 1  07-14-95 22:04:56  Size: 14288
+C:\NOTES\_REG.DLL
+    Module: _REG      hModule: 0FC7  RefCount: 1  07-14-95 22:17:06  Size: 23248
+C:\NOTES\LTSSB01.DLL
+    Module: LTSSB01   hModule: 0E87  RefCount: 1  02-10-93 14:47:06  Size: 32856
+C:\NOTES\_ROUTERL.DLL
+    Module: _ROUTERL  hModule: 0DFF  RefCount: 1  07-14-95 22:17:30  Size: 43868
+C:\NOTES\_TCP.DLL
+    Module: _TCP      hModule: 0DC7  RefCount: 1  07-14-95 22:14:06  Size: 21264
+C:\NOTES\NTSICN03.DLL
+    Module: NTSICN03  hModule: 169F  RefCount: 1  03-22-93 11:27:42  Size: 104576
+C:\NOTES\_ICNV.DLL
+    Module: _ICNV     hModule: 1337  RefCount: 1  07-14-95 22:15:40  Size: 51760
+C:\NOTES\_WSKAPI.DLL
+    Module: _WSKAPI   hModule: 158F  RefCount: 2  07-14-95 22:14:14  Size: 22580
+C:\WINDOWS\SYSTEM32\WINSOCK.DLL
+    Module: WINSOCK   hModule: 1A97  RefCount: 2  04-26-95 10:57:00  Size: 2880
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  RefCount: 1  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_SDK.DLL
+    Module: _SDK      hModule: 1B27  RefCount: 1  07-14-95 22:17:48  Size: 4245
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  RefCount: 1  10-17-94 04:50:00  Size: 662800
+C:\BC45\BIN\BCWPAGES.DLL
+    Module: BCWPAGES  hModule: 233F  RefCount: 2  10-17-94 04:50:00  Size: 87700
+C:\BC45\BIN\BCWRES.DLL
+    Module: BCWRES    hModule: 22E7  RefCount: 3  10-17-94 04:50:00  Size: 412864
+C:\BC45\BIN\BCWIMPRT.DLL
+    Module: BCWIMPRT  hModule: 22DF  RefCount: 2  10-17-94 04:50:00  Size: 69292
+C:\BC45\BIN\IDECRTL.DLL
+    Module: IDECRTL   hModule: 2297  RefCount: 7  10-17-94 04:50:00  Size: 185812
+C:\BC45\BIN\IDEOWL.DLL
+    Module: IDEOWL    hModule: 223F  RefCount: 5  10-17-94 04:50:00  Size: 307400
+C:\BC45\BIN\IDEBID.DLL
+    Module: IDEBID    hModule: 20EF  RefCount: 5  10-17-94 04:50:00  Size: 53060
+C:\BC45\BIN\IDEWIN.DLL
+    Module: IDEWIN    hModule: 2087  RefCount: 3  10-17-94 04:50:00  Size: 154036
+C:\BC45\BIN\IDEPANE.DLL
+    Module: IDEPANE   hModule: 202F  RefCount: 2  10-17-94 04:50:00  Size: 60726
+C:\WINDOWS\system\BWCC.DLL
+    Module: BWCC      hModule: 1FEF  RefCount: 1  01-28-95 11:14:18  Size: 164928
+C:\WINDOWS\SYSTEM32\DDEML.DLL
+    Module: DDEML     hModule: 1FE7  RefCount: 1  04-26-95 10:57:00  Size: 39936
+C:\BC45\BIN\BCWPRJ.DLL
+    Module: BCWPRJ    hModule: 1E97  RefCount: 1  10-17-94 04:50:00  Size: 441768
+C:\BC45\BIN\BCWOBJ.DLL
+    Module: BCWOBJ    hModule: 1DA7  RefCount: 1  10-17-94 04:50:00  Size: 50402
+C:\BC45\BIN\IDEEDIT.DLL
+    Module: IDEEDIT   hModule: 1CF7  RefCount: 1  10-17-94 04:50:00  Size: 89208
+C:\BC45\BIN\IDEKBD.DLL
+    Module: IDEKBD    hModule: 1CCF  RefCount: 1  10-17-94 04:50:00  Size: 10732
+C:\BC45\BIN\BCWTXCL.DLL
+    Module: BCWTXCL   hModule: 1C9F  RefCount: 1  10-17-94 04:50:00  Size: 67666
+C:\BC45\BIN\BCWTXSRV.DLL
+    Module: BCWTXSRV  hModule: 2C6F  RefCount: 1  10-17-94 04:50:00  Size: 63664
+C:\BC45\BIN\BCWS16.DLL
+    Module: BCWS16    hModule: 26E7  RefCount: 2  10-17-94 04:50:00  Size: 820653
+C:\BC45\BIN\BCWDBV16.DLL
+    Module: BCWDBV16  hModule: 3317  RefCount: 1  10-17-94 04:50:00  Size: 380416
+C:\BC45\BIN\BCWDBK16.DLL
+    Module: BCWDBK16  hModule: 3427  RefCount: 1  10-17-94 04:50:00  Size: 243200
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 318F  RefCount: 1  06-23-96 12:22:38  Size: 57480
+
+
+
+               ***********************************************
+               *           QNC II for Windows 3.X            *
+               *    Copyright 1994, Lotus Development Corp.  *
+               *               Version 3.0                   *
+               ***********************************************
+12:23:40 Tue Jul 23, 1996  Stopped due to Exception 13: Protection Violation
+Notes Build: North American - Worldwide Security R3.33 |August 16, 1995                    
+
+System Information:
+Windows NT 3.10 enhanced mode, retail version, DOS version 5.0
+CPU: i486+,  Coprocessor 
+Largest free memory block: 15728640 bytes
+Total linear memory space: 2097024 KB
+Free linear memory space : 2051464 KB
+Swap file pages: 42fc (68592 KB)
+USER Heap Free  90%
+GDI Heap Free  90%
+
+Registers:
+
+  AX   BX   CX   DX   SI   DI   CS   IP   SS   SP   BP   DS   ES   FLAGS
+ 0073 0022 0000 0073 0089 1FFE 31DF:2135 3147:1F44 1FE0 3147 3147  3202
+
+CS  31DF  Limit: 463F  Access: execute/read
+DS  3147  Limit: 305F  Access: read/write
+ES  3147  Limit: 305F  Access: read/write
+SS  3147  Limit: 305F  Access: read/write
+
+Top of the stack:
+ 3147:1F44  3147 0AD0 0AA6 6153   3A79 0020 0000 0000 |G1....Say: .....|
+ 3147:1F54  0000 0000 0000 0000   0000 0000 0000 0000 |................|
+ 3147:1F64  0000 0000 0000 0000   0000 0000 0000 0AD0 |................|
+ 3147:1F74  0AA6 3423 31DF 1BE7   31DF 0AD0 0AA6 0000 |..#4.1...1......|
+ 3147:1F84  31A7 3147 3187 0000   3187 1F9B 363B 318F |.1G1.1...1..;6.1|
+ 3147:1F94  3147 36C2 318F 1FC5   0062 32A7 1FD6 0AD0 |G1.6.1..b..2....|
+ 3147:1FA4  0AA6 1FD6 21CD 1BE7   31DF 0AD0 0AA6 0000 |.....!...1......|
+ 3147:1FB4  31A7 3147 3187 1BE7   31DF 0AD0 0AA6 0000 |.1G1.1...1......|
+ 3147:1FC4  31A7 3147 3187 0000   004B 0000 0088 0000 |.1G1.1..K.......|
+ 3147:1FD4  0047 FFFF FFFF 7305   1F4F 0020 1FF4 27BE |G......sO. ....'|
+
+Stack Trace:
+
+Stopped at  CS:IP=31DF:2135, hMod:31FF, RefCnt:1 (0001:2135 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 3147:1FE0  1FF4 27BE 1FFE 0089   3147 0294 3147 2987 |...'....G1..G1.)|
+ 3147:1FF0  0AD0 0AA6 2029 0034   31D7 0082 3147 6568 |....) 4..1..G1he|
+
+Called from CS:IP=31DF:27BE, hMod:31FF, RefCnt:1 (0001:27BE in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 3147:1FF4  2029 0034 31D7 0082   3147 6568 6C6C 206F |) 4..1..G1hello |
+ 3147:2004  6F77 6C72 0064 FFFF   21CD 318F 3209 6568 |world....!.1.2he|
+ 3147:2014  6C6C 206F 6F77 6C72   0064 FFFF 21CD 318F |llo world....!.1|
+ 3147:2024  3209 3147 204B 42A7   31DF 0001 09DE 3197 |.2G1K .B.1.....1|
+
+Called from CS:IP=31D7:0034, hMod:31FF, RefCnt:1 (0002:0034 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 3147:2028  204B 42A7 31DF 0001   09DE 3197 0A22 3197 |K .B.1.....1"..1|
+ 3147:2038  0AD0 0AA6 00B7 31DF   0001 0080 317F 0000 |.......1.....1..|
+ 3147:2048  3146 0000 0000 0000   0000 0000 0000 0000 |F1..............|
+
+Called from CS:IP=31DF:42A7, hMod:31FF, RefCnt:1 (0001:42A7 in C:\VOLATILE\CPP\STRING1\STRING2.EXE)
+ 3147:204A  0000 0000 0000 0000   0000 0000 0000 0000 |................|
+ 3147:205A  0000 0000 0000 2061   206C 000A 2060 209C |......a l ..` . |
+
+End of Stack Trace
+
+Tasks Running:
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 31FF  hTask: 3287  hInstance: 3146  06-23-96 12:22:38  Size: 57480
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  hTask: 157F  hInstance: 2346  10-17-94 04:50:00  Size: 662800
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  hTask: 1A47  hInstance: 1AFE  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  hTask: 1047  hInstance: 1936  07-14-95 22:13:02  Size: 55120
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  hTask: 1887  hInstance: 18A6  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  hTask: 03B7  hInstance: 03D6  04-26-95 10:57:00  Size: 10832
+
+Modules Loaded:
+C:\WINDOWS\SYSTEM32\KRNL386.EXE
+    Module: KERNEL    hModule: 021F  RefCount: 38  04-26-95 10:57:00  Size: 82656
+C:\WINDOWS\SYSTEM32\SYSTEM.DRV
+    Module: SYSTEM    hModule: 020F  RefCount: 25  04-26-95 10:57:00  Size: 3360
+C:\WINDOWS\SYSTEM32\KEYBOARD.DRV
+    Module: KEYBOARD  hModule: 01B7  RefCount: 15  04-26-95 10:57:00  Size: 2016
+C:\WINDOWS\SYSTEM32\MOUSE.DRV
+    Module: MOUSE     hModule: 02B7  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\VGA.DRV
+    Module: DISPLAY   hModule: 02CF  RefCount: 1  04-26-95 10:57:00  Size: 2032
+C:\WINDOWS\SYSTEM32\SOUND.DRV
+    Module: SOUND     hModule: 02E7  RefCount: 3  04-26-95 10:57:00  Size: 1744
+C:\WINDOWS\SYSTEM32\COMM.DRV
+    Module: COMM      hModule: 0307  RefCount: 1  04-26-95 10:57:00  Size: 10592
+C:\WINDOWS\SYSTEM32\USER.EXE
+    Module: USER      hModule: 031F  RefCount: 23  04-26-95 10:57:00  Size: 47136
+C:\WINDOWS\SYSTEM32\GDI.EXE
+    Module: GDI       hModule: 0397  RefCount: 18  04-26-95 10:57:00  Size: 21504
+C:\WINDOWS\SYSTEM32\WOWEXEC.EXE
+    Module: WOWEXEC   hModule: 0347  RefCount: 1  04-26-95 10:57:00  Size: 10832
+C:\WINDOWS\SYSTEM32\SHELL.DLL
+    Module: SHELL     hModule: 03DF  RefCount: 8  04-26-95 10:57:00  Size: 5120
+C:\WINDOWS\SYSTEM32\WFWNET.DRV
+    Module: WFWNET    hModule: 0C3F  RefCount: 1  04-26-95 10:57:00  Size: 13856
+C:\WINDOWS\SYSTEM32\NETWARE.DRV
+    Module: NETWARE   hModule: 0C1F  RefCount: 1  04-26-95 10:57:00  Size: 2656
+C:\WINDOWS\SYSTEM32\MMSYSTEM.DLL
+    Module: MMSYSTEM  hModule: 0BDF  RefCount: 3  04-26-95 10:57:00  Size: 67936
+C:\WINDOWS\SYSTEM32\TIMER.DRV
+    Module: TIMER     hModule: 0BD7  RefCount: 1  04-26-95 10:57:00  Size: 4032
+C:\WINDOWS\SYSTEM32\WIN87EM.DLL
+    Module: WIN87EM   hModule: 0757  RefCount: 11  04-26-95 10:57:00  Size: 13312
+C:\NOTES\_STRINGS.DLL
+    Module: _STRINGS  hModule: 0A47  RefCount: 8  08-11-95 16:47:44  Size: 88240
+C:\NOTES\QNCW.EXE
+    Module: QNCW      hModule: 185F  RefCount: 1  07-14-95 22:17:00  Size: 40768
+C:\WINDOWS\SYSTEM32\TOOLHELP.DLL
+    Module: TOOLHELP  hModule: 0E67  RefCount: 5  04-26-95 10:57:00  Size: 14016
+C:\NOTES\_LNOTES.EXE
+    Module: _LNOTES   hModule: 1987  RefCount: 1  07-14-95 22:13:02  Size: 55120
+C:\NOTES\_NEM.DLL
+    Module: _NEM      hModule: 088F  RefCount: 2  07-17-95 11:12:32  Size: 364608
+C:\NOTES\_BSAFE.DLL
+    Module: _BSAFE    hModule: 198F  RefCount: 4  07-14-95 22:03:02  Size: 124240
+C:\NOTES\_LIB.DLL
+    Module: _LIB      hModule: 097F  RefCount: 5  07-14-95 22:16:54  Size: 233936
+C:\WINDOWS\SYSTEM32\COMMDLG.DLL
+    Module: COMMDLG   hModule: 11CF  RefCount: 10  04-26-95 10:57:00  Size: 22096
+C:\NOTES\_NIF.DLL
+    Module: _NIF      hModule: 0467  RefCount: 4  07-14-95 22:16:12  Size: 126901
+C:\NOTES\_NSF.DLL
+    Module: _NSF      hModule: 1817  RefCount: 4  07-14-95 22:16:34  Size: 421954
+C:\NOTES\_NET.DLL
+    Module: _NET      hModule: 07E7  RefCount: 4  07-14-95 22:16:04  Size: 70552
+C:\NOTES\_EVENTL.DLL
+    Module: _EVENTL   hModule: 166F  RefCount: 4  07-14-95 22:10:20  Size: 8986
+C:\NOTES\_COMPUTE.DLL
+    Module: _COMPUTE  hModule: 0F1F  RefCount: 4  07-14-95 22:03:40  Size: 2768
+C:\NOTES\_COMPUTN.DLL
+    Module: _COMPUTN  hModule: 121F  RefCount: 4  07-14-95 22:04:06  Size: 46161
+C:\NOTES\_COMPUTF.DLL
+    Module: _COMPUTF  hModule: 1207  RefCount: 4  07-14-95 22:03:50  Size: 55553
+C:\NOTES\_FT.DLL
+    Module: _FT       hModule: 0767  RefCount: 4  07-14-95 22:10:28  Size: 14694
+C:\NOTES\_DESK.DLL
+    Module: _DESK     hModule: 1137  RefCount: 1  07-14-95 22:05:44  Size: 487632
+C:\NOTES\_EDIT.DLL
+    Module: _EDIT     hModule: 06B7  RefCount: 1  07-14-95 22:08:06  Size: 641344
+C:\NOTES\_VIEW.DLL
+    Module: _VIEW     hModule: 19BF  RefCount: 1  07-14-95 22:18:40  Size: 262336
+C:\NOTES\_SPELL.DLL
+    Module: _SPELL    hModule: 130F  RefCount: 1  07-14-95 22:18:12  Size: 87179
+C:\WINDOWS\SYSTEM32\OLECLI.DLL
+    Module: OLECLI    hModule: 1007  RefCount: 1  04-26-95 10:57:00  Size: 83456
+C:\NOTES\_DESIGNL.DLL
+    Module: _DESIGNL  hModule: 04C7  RefCount: 1  07-14-95 22:04:56  Size: 14288
+C:\NOTES\_REG.DLL
+    Module: _REG      hModule: 0FC7  RefCount: 1  07-14-95 22:17:06  Size: 23248
+C:\NOTES\LTSSB01.DLL
+    Module: LTSSB01   hModule: 0E87  RefCount: 1  02-10-93 14:47:06  Size: 32856
+C:\NOTES\_ROUTERL.DLL
+    Module: _ROUTERL  hModule: 0DFF  RefCount: 1  07-14-95 22:17:30  Size: 43868
+C:\NOTES\_TCP.DLL
+    Module: _TCP      hModule: 0DC7  RefCount: 1  07-14-95 22:14:06  Size: 21264
+C:\NOTES\NTSICN03.DLL
+    Module: NTSICN03  hModule: 169F  RefCount: 1  03-22-93 11:27:42  Size: 104576
+C:\NOTES\_ICNV.DLL
+    Module: _ICNV     hModule: 1337  RefCount: 1  07-14-95 22:15:40  Size: 51760
+C:\NOTES\_WSKAPI.DLL
+    Module: _WSKAPI   hModule: 158F  RefCount: 2  07-14-95 22:14:14  Size: 22580
+C:\WINDOWS\SYSTEM32\WINSOCK.DLL
+    Module: WINSOCK   hModule: 1A97  RefCount: 2  04-26-95 10:57:00  Size: 2880
+C:\NOTES\_WSKDMN.EXE
+    Module: _WSKDMN   hModule: 17D7  RefCount: 1  07-14-95 22:14:20  Size: 4610
+C:\NOTES\_SDK.DLL
+    Module: _SDK      hModule: 1B27  RefCount: 1  07-14-95 22:17:48  Size: 4245
+C:\BC45\BIN\BCW.EXE
+    Module: BCW       hModule: 17AF  RefCount: 1  10-17-94 04:50:00  Size: 662800
+C:\BC45\BIN\BCWPAGES.DLL
+    Module: BCWPAGES  hModule: 233F  RefCount: 2  10-17-94 04:50:00  Size: 87700
+C:\BC45\BIN\BCWRES.DLL
+    Module: BCWRES    hModule: 22E7  RefCount: 3  10-17-94 04:50:00  Size: 412864
+C:\BC45\BIN\BCWIMPRT.DLL
+    Module: BCWIMPRT  hModule: 22DF  RefCount: 2  10-17-94 04:50:00  Size: 69292
+C:\BC45\BIN\IDECRTL.DLL
+    Module: IDECRTL   hModule: 2297  RefCount: 7  10-17-94 04:50:00  Size: 185812
+C:\BC45\BIN\IDEOWL.DLL
+    Module: IDEOWL    hModule: 223F  RefCount: 5  10-17-94 04:50:00  Size: 307400
+C:\BC45\BIN\IDEBID.DLL
+    Module: IDEBID    hModule: 20EF  RefCount: 5  10-17-94 04:50:00  Size: 53060
+C:\BC45\BIN\IDEWIN.DLL
+    Module: IDEWIN    hModule: 2087  RefCount: 3  10-17-94 04:50:00  Size: 154036
+C:\BC45\BIN\IDEPANE.DLL
+    Module: IDEPANE   hModule: 202F  RefCount: 2  10-17-94 04:50:00  Size: 60726
+C:\WINDOWS\system\BWCC.DLL
+    Module: BWCC      hModule: 1FEF  RefCount: 1  01-28-95 11:14:18  Size: 164928
+C:\WINDOWS\SYSTEM32\DDEML.DLL
+    Module: DDEML     hModule: 1FE7  RefCount: 1  04-26-95 10:57:00  Size: 39936
+C:\BC45\BIN\BCWPRJ.DLL
+    Module: BCWPRJ    hModule: 1E97  RefCount: 1  10-17-94 04:50:00  Size: 441768
+C:\BC45\BIN\BCWOBJ.DLL
+    Module: BCWOBJ    hModule: 1DA7  RefCount: 1  10-17-94 04:50:00  Size: 50402
+C:\BC45\BIN\IDEEDIT.DLL
+    Module: IDEEDIT   hModule: 1CF7  RefCount: 1  10-17-94 04:50:00  Size: 89208
+C:\BC45\BIN\IDEKBD.DLL
+    Module: IDEKBD    hModule: 1CCF  RefCount: 1  10-17-94 04:50:00  Size: 10732
+C:\BC45\BIN\BCWTXCL.DLL
+    Module: BCWTXCL   hModule: 1C9F  RefCount: 1  10-17-94 04:50:00  Size: 67666
+C:\BC45\BIN\BCWTXSRV.DLL
+    Module: BCWTXSRV  hModule: 2C6F  RefCount: 1  10-17-94 04:50:00  Size: 63664
+C:\BC45\BIN\BCWS16.DLL
+    Module: BCWS16    hModule: 26E7  RefCount: 2  10-17-94 04:50:00  Size: 820653
+C:\BC45\BIN\BCWDBV16.DLL
+    Module: BCWDBV16  hModule: 3317  RefCount: 1  10-17-94 04:50:00  Size: 380416
+C:\BC45\BIN\BCWDBK16.DLL
+    Module: BCWDBK16  hModule: 3427  RefCount: 1  10-17-94 04:50:00  Size: 243200
+C:\VOLATILE\CPP\STRING1\STRING2.EXE
+    Module: STRING2   hModule: 31FF  RefCount: 1  06-23-96 12:22:38  Size: 57480
+
+

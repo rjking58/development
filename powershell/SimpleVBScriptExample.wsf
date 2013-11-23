@@ -1,0 +1,38 @@
+
+' --------------------------------------------------------
+' receiver script for powershell run VBScript demo
+' expects two parameters..
+' --------------------------------------------------------
+
+<job>
+	<runtime>
+		<description>SimpleVBScriptExample.wsf 
+shows VBScript receiving two parameters from power shell
+		</description>
+		<unnamed
+			name="parameter1"
+			helpstring="the first parameter"
+			required="true"
+		/>
+		<unnamed
+			name="parameter2"
+			helpstring="the second parameter"
+			required="true"
+		/>
+		<example>
+Example: cscript SimpleVBScriptExample.wsf "param1" "param2" </example>
+	</runtime>
+	<reference object="Scripting.FileSystemObject"/>
+	<reference object="Msxml2.DOMDocument.3.0"/>
+	<object id="fso" progid="Scripting.FileSystemObject"/>
+	<object id="dom" progid="Msxml2.DOMDocument.3.0"/>
+	<object id="WshShell" progid="WScript.Shell"/>
+	<script language="VBScript">
+		Option Explicit
+
+		ON ERROR RESUME NEXT
+
+        WScript.Echo "Param1[" &  Wscript.Arguments.Unnamed(0) & "]  Param2[" &  Wscript.Arguments.Unnamed(1) & "]"
+	</script>
+</job>
+        

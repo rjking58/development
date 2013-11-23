@@ -1,0 +1,45 @@
+[COMPILER]
+INCLUDEDIRS=%(INCLUDE)
+MACRO=\n
+FILTERNAME=Source Files\nHeader Files\nResource Files\nBitmaps\nOther Files\n
+FILTERPATTERN=*.c;*.cpp;*.cxx;*.hxx;*.prg;*.pas;*.dpr;*.asm;*.bas;*.java;*.sc;*.e\n*.h;*.hpp;*.inc;*.sh\n*.rc;*.ico;*.cur;*.dlg\n*.bmp\n*.*\n
+FILTERASSOCIATEFILETYPES=0 0 1 1 0
+compile=concur|capture|:Compile:&Compile,nmake %n.obj
+make=concur|capture|:Build:&Build,nmake -f doubledispatch.mak
+rebuild=concur|capture|:Rebuild:&Rebuild,nmake /A
+debug=:Debug:&Debug,msdev doubledispatch.dsw
+execute=:Execute:E&xecute,debug\doubledispatch.exe
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+usertool_resource_editor=hide|:Resource Editor:Resource Editor,msdev
+workingdir=
+includedirs=%(INCLUDE)
+tagfiles=
+FILTEREXPANSION=0 0 0 0 0
+[ASSOCIATION]
+[FILES]
+C:\MY_DATA\VOLATILE\CPP\doubledispatch\doubledispatch.cpp
+[STATE]
+SCREEN: 1280 1024 100 12 936 966 0 0 M 0 0 0 0 1050 651
+CWD: C:\MY_DATA\VOLATILE\CPP\doubledispatch
+BUFFER: BN="C:\MY_DATA\VOLATILE\CPP\doubledispatch\doubledispatch.cpp"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0
+VIEW: LN=.749 CL=57 LE=0 CX=56 CY=7 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 36 44 850 488 0 706 M  WF=0 WT=2 "Letter Gothic,11,0"
+BUFFER: BN="C:\MY_DATA\VOLATILE\CPP\doubledispatch\doubledispatch.cpp"
+VIEW: LN=.1260 CL=57 LE=0 CX=62 CY=7 WI=88 BI=19 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+E:\vw_3.50.UI\devl\src\tserw\iomod\str_cid.h
+E:\vw_3.50.UI\devl\src\admn\tbls_sup.cpp
+E:\vw_3.50.UI\devl\src\admn\calc\admnvals.h
+E:\vw_3.50.UI\devl\src\admn\io_admn.cpp
+C:\vslick\macros\vusrmacs.e
+I:\ORANT\NET80\ADMIN\TNSNAMES.ORA
+E:\vw_3.50.UI\devl\src\tserw\engbase\filter.cpp
+E:\vw_3.50.UI\devl\src\tserw\dbmem\acc_filt.cpp
+C:\MY_DATA\VOLATILE\CPP\doubledispatch\doubledispatch.cpp
+BOOKMARK: 0
+PUSHTAG: 0 4
+PRINTER: 2
+
+

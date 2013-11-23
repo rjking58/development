@@ -1,0 +1,32 @@
+[COMPILER]
+INCLUDEDIRS=%(INCLUDE)
+compile=concur|capture|:Compile:&Compile,nmake %n.obj
+make=concur|capture|:Build:&Build,nmake
+rebuild=concur|capture|:Rebuild:&Rebuild,nmake /A
+debug=:Debug:&Debug,msdev proj0002.exe
+execute=:Execute:E&xecute,proj0002.exe
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+usertool_resource_editor=hide|:Resource Editor:Resource Editor,msdev
+workingdir=
+includedirs=%(INCLUDE)
+tagfiles=
+reffile=
+MACRO=\n
+[ASSOCIATION]
+[FILES]
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\IFTree.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\IFTree.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MainFrm.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MainFrm.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MyTreeDialog.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\MyTreeDialog.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\resource.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImg.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImg.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgDoc.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgDoc.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgView.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\selectImgView.h
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\StdAfx.cpp
+c:\volatile\SOURCE\CPROGS\CPP\VCPP\selectImg\StdAfx.h

@@ -1,0 +1,30 @@
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(104) >>Start of Session___
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(151) >>before CreateWindowEx
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>1
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(166) >>after CreateWindowEx
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(191) >>start message pump..
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(69) >>WM_PAINT
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>0
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>1
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(69) >>WM_PAINT
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>0
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>1
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(69) >>WM_PAINT
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(53) >>WM_ACTIVATEAPP>>0
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(59) >>WM_DESTROY
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap1\IsoHex1_1.cpp
+(213) >>WM_QUIT

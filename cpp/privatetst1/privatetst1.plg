@@ -1,0 +1,26 @@
+--------------------Configuration: privatetst1 - Win32 Debug--------------------
+Begining build with project "D:\VOLATILE\CPP\vcpp\privatetst1\privatetst1.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/privatetst1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/privatetst1.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/privatetst1.pdb" /debug /machine:I386 /out:"Debug/privatetst1.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\temp\RSP13F.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/privatetst1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\VOLATILE\CPP\vcpp\privatetst1\privatetst1.cpp"
+>
+Creating command line "cl.exe @C:\temp\RSP13F.tmp" 
+Creating temp file "C:\temp\RSP140.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/privatetst1.pdb" /debug /machine:I386 /out:"Debug/privatetst1.exe" /pdbtype:sept 
+.\Debug\privatetst1.obj>
+Creating command line "link.exe @C:\temp\RSP140.tmp" 
+Compiling...
+privatetst1.cpp
+Linking...
+
+
+
+privatetst1.exe - 0 error(s), 0 warning(s)

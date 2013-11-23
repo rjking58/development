@@ -1,0 +1,136 @@
+(Double::IDNT_CONSOL_CD)Handle=0
+(Double::IDNT_CONSOL_CD)Handle=0
+(Double::IDNT_YEAR_S)Handle=1
+(Double::IDNT_YEAR_S)Handle=1
+(Double::IDNT_BUCKET_NUM)Handle=2
+(Double::IDNT_BUCKET_NUM)Handle=2
+(Double::IDNT_SCENARIO_NUM)Handle=3
+(Double::IDNT_SCENARIO_NUM)Handle=3
+(String::IDNT_AS_OF_DATE)Handle=0
+(String::IDNT_AS_OF_DATE)Handle=0
+(String::500)Handle=1
+(String::501)Handle=2
+SETDOUBLEKEY,#0,@11------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#1,@12------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#2,@13------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#3,@14------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#4,@15------------------
+Val::SetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+SetDoubleKey complete
+SETDOUBLEKEY,#5,@16------------------
+Val::SetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+SetDoubleKey complete
+SETDOUBLEKEY,#6,@17------------------
+Val::SetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+SetDoubleKey complete
+SETDOUBLEKEY,#7,@18------------------
+Val::SetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+SetDoubleKey complete
+SETDOUBLEKEY,#8,@19------------------
+Val::SetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+SetDoubleKey complete
+GETDOUBLEKEY,#0------------------
+keyval>>11<<
+GETDOUBLEKEY,#1------------------
+keyval>>12<<
+GETDOUBLEKEY,#2------------------
+keyval>>13<<
+GETDOUBLEKEY,#3------------------
+keyval>>14<<
+GETDOUBLEKEY,#4------------------
+Val::GetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+keyval>>0<<
+GETDOUBLEKEY,#5------------------
+Val::GetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+keyval>>0<<
+GETDOUBLEKEY,#6------------------
+Val::GetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+keyval>>0<<
+GETDOUBLEKEY,#7------------------
+Val::GetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+keyval>>0<<
+GETDOUBLEKEY,#8------------------
+Val::GetDoubleKey:BAD KEY ACCESS: DoubleHandle larger than allocated
+keyval>>0<<
+SETSTRINGKEY,#0,FirstStringKey------------------
+SetStringKey complete
+SETSTRINGKEY,#1,SecondStringKey------------------
+SetStringKey complete
+SETSTRINGKEY,#2,ThirdStringKey------------------
+SetStringKey complete
+SETSTRINGKEY,#3,FourthStringKey------------------
+Val::SetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+SetStringKey complete
+SETSTRINGKEY,#4,FifthStringKey------------------
+Val::SetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+SetStringKey complete
+GETSTRINGKEY,#0------------------
+keyval>>FirstStringKey<<
+GETSTRINGKEY,#1------------------
+keyval>>SecondStringKey<<
+GETSTRINGKEY,#2------------------
+keyval>>ThirdStringKey<<
+GETSTRINGKEY,#3------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found
+GETSTRINGKEY,#4------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found
+INITIALIZE------------------
+initialize complete
+GETDOUBLEKEY,#0------------------
+keyval>>0<<
+GETDOUBLEKEY,#1------------------
+keyval>>0<<
+GETDOUBLEKEY,#2------------------
+keyval>>0<<
+GETDOUBLEKEY,#3------------------
+keyval>>0<<
+GETSTRINGKEY,#0------------------
+NULL pointer found
+GETSTRINGKEY,#1------------------
+NULL pointer found
+GETSTRINGKEY,#2------------------
+NULL pointer found
+GETSTRINGKEY,#3------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found
+GETSTRINGKEY,#4------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found
+SETDOUBLEKEY,#0,@110000------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#1,@120000------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#2,@130000------------------
+SetDoubleKey complete
+SETDOUBLEKEY,#3,@140000------------------
+SetDoubleKey complete
+GETDOUBLEKEY,#0------------------
+keyval>>110000<<
+GETDOUBLEKEY,#1------------------
+keyval>>120000<<
+GETDOUBLEKEY,#2------------------
+keyval>>130000<<
+GETDOUBLEKEY,#3------------------
+keyval>>140000<<
+SETSTRINGKEY,#0,SixthStringKey------------------
+SetStringKey complete
+SETSTRINGKEY,#1,SeventhStringKey------------------
+SetStringKey complete
+GETSTRINGKEY,#0------------------
+keyval>>SixthStringKey<<
+GETSTRINGKEY,#1------------------
+keyval>>SeventhStringKey<<
+GETSTRINGKEY,#2------------------
+NULL pointer found
+GETSTRINGKEY,#3------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found
+GETSTRINGKEY,#4------------------
+Val::GetStringKey:BAD KEY ACCESS: StringHandle larger than allocated
+NULL pointer found

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\GCS\Source\cpp\nUnitTest\debug\UnManagedTests.nunit" total="1" failures="0" not-run="0" date="2009-02-18" time="11:00:12">
+  <environment nunit-version="2.4.8.0" clr-version="2.0.50727.3074" os-version="Microsoft Windows NT 6.0.6001 Service Pack 1" platform="Win32NT" cwd="C:\GCS\Source\cpp\nUnitTest\debug" machine-name="RKING-E5400" user="rking" user-domain="EXCHANGE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\GCS\Source\cpp\nUnitTest\debug\UnManagedTests.nunit" success="True" time="0.692" asserts="0">
+    <results>
+      <test-suite name="C:\GCS\Source\cpp\nUnitTest\debug\UnManagedDLLTests.dll" success="True" time="0.676" asserts="0">
+        <results>
+          <test-suite name="UnManagedDLLTests" success="True" time="0.673" asserts="0">
+            <results>
+              <test-suite name="UnManagedTests" success="True" time="0.651" asserts="0">
+                <results>
+                  <test-case name="UnManagedDLLTests.UnManagedTests.SimpleTest" executed="True" success="True" time="0.052" asserts="4" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

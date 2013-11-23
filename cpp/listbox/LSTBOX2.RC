@@ -1,0 +1,23 @@
+/****************************************************************************
+
+
+lstbox2.rc
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#include "lstbox.rc"
+
+DIALOG_1 DIALOG 74, 67, 194, 119
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "DIALOG_1"
+FONT 8, "MS Sans Serif"
+{
+ DEFPUSHBUTTON "OK", IDOK, 12, 96, 50, 14
+ PUSHBUTTON "Cancel", IDCANCEL, 72, 96, 50, 14
+ PUSHBUTTON "Help", IDHELP, 132, 96, 50, 14
+ LISTBOX IDC_LISTBOX1, 18, 14, 161, 67, LBS_STANDARD
+}
+

@@ -1,0 +1,18 @@
+
+#include <iostream.h>
+
+// _RTLDLL;STRICT;WIN31;_CLASSDLL;TEMPLATES;
+
+extern "C" pascal int Times2(int	a_number);
+
+
+
+
+void main()
+{
+	int i;
+
+	Times2(2);
+
+	cin >> i;	
+}

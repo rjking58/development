@@ -1,0 +1,21 @@
+[COMPILER]
+INCLUDEDIRS=%(INCLUDE)
+compile=concur|capture|:Compile:&Compile,nmake %n.obj
+make=concur|capture|:Build:&Build,nmake
+rebuild=concur|capture|:Rebuild:&Rebuild,nmake /A
+debug=:Debug:&Debug,msdev chap2_1.exe
+execute=:Execute:E&xecute,chap2_1.exe
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+usertool_resource_editor=hide|:Resource Editor:Resource Editor,msdev
+workingdir=
+includedirs=%(INCLUDE)
+tagfiles=
+reffile=
+MACRO=\n
+[ASSOCIATION]
+[FILES]
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\fstrTracer.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\fstrTracer.h
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\managedc.h
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap2_1\IsoHex2_1.cpp

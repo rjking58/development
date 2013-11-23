@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stlManualLink", "stlManualLink\stlManualLink.vcproj", "{5ABDC06F-7FE8-426B-BD19-5AF227ED71FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5ABDC06F-7FE8-426B-BD19-5AF227ED71FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5ABDC06F-7FE8-426B-BD19-5AF227ED71FD}.Debug|Win32.Build.0 = Debug|Win32
+		{5ABDC06F-7FE8-426B-BD19-5AF227ED71FD}.Release|Win32.ActiveCfg = Release|Win32
+		{5ABDC06F-7FE8-426B-BD19-5AF227ED71FD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

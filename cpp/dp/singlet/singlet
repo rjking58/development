@@ -1,0 +1,50 @@
+#include <iostream.h>
+
+
+class Singleton
+{
+
+public:
+	// access to object w/ automatic instantiation.
+	static	Singleton* Instance();
+	void	HiThere()
+	{
+		cout << "Hi from obj #" << obj_num << "!" << endl;
+	}
+
+protected:
+	// prevent instantiation...
+	Singleton();
+
+private:
+	int					obj_num;
+	static int			obj_num_tracker;
+	static Singleton	*_instance;
+};
+
+Singleton* Singleton::_instance = 0;
+int		   Singleton::obj_num = 0;
+
+Singleton* Singleton::Instance()
+{
+	if(_instance==0)
+	{
+		_instance = new Singleton;
+		obj_num_tracker++;
+		_instance->obj_num = obj_num_tracker;
+	}
+	return _instance;
+}
+
+void main(void)
+{
+	Singleton *s1;
+	Singleton *s2;
+	Singleton *s3;
+
+
+
+}
+
+
+

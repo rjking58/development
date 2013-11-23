@@ -1,0 +1,26 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+class String
+{
+   private:
+   	char	mStr[20];
+   public:
+		String(const char*Str)		// Convert from const char* to SimpleString
+		{
+			strcpy(mStr,Str);
+		}
+		operator const char*() const	// Convert to a const char*, allows to be used in strcpy, etc.
+		{
+			return mStr;
+		}
+
+};
+
+main()
+{
+	String Str("hello world");
+
+	printf("Say: %s\n", Str);
+}

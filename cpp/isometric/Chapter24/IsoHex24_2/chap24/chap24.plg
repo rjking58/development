@@ -1,0 +1,239 @@
+--------------------Configuration: chap24 - Win32 Debug--------------------
+Begining build with project "D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\chap24\chap24.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /I "g:\dxsdk\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/chap24.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/chap24.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3d8.lib dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/chap24.pdb" /debug /machine:I386 /out:"Debug/chap24.exe" /pdbtype:sept /libpath:"g:\dxsdk\lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP10.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /I "g:\dxsdk\include" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/chap24.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp"
+"D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\GDICanvas.cpp"
+"D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp"
+>
+Creating command line "cl.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP10.tmp" 
+Creating temp file "C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP11.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3d8.lib dxguid.lib ddraw.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/chap24.pdb" /debug /machine:I386 /out:"Debug/chap24.exe" /pdbtype:sept /libpath:"g:\dxsdk\lib" 
+.\Debug\DDFuncs.obj
+.\Debug\GDICanvas.obj
+.\Debug\IsoHex24_2.obj>
+Creating command line "link.exe @C:\DOCUME~1\Richard\LOCALS~1\Temp\RSP11.tmp" 
+Compiling...
+DDFuncs.cpp
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2065: 'pddsd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2182: 'DDSD_Clear' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(24) : error C2182: 'DDSD_PrimarySurface' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2146: syntax error : missing ')' before identifier 'dwBackBufferCount'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2182: 'DDSD_PrimarySurfaceWBackBuffer' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2078: too many initializers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2146: syntax error : missing ')' before identifier 'dwWidth'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2182: 'DDSD_OffscreenSurface' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2078: too many initializers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2065: 'DDSCAPS2' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2065: 'pddscaps' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2182: 'DDSCAPS_Clear' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(40) : error C2182: 'DDSCAPS_BackBuffer' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2501: 'LPDIRECTDRAW7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAW7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2061: syntax error : identifier 'LPDD_Create'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(67) : error C2065: 'lplpdd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(67) : error C2182: 'LPDD_Release' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2061: syntax error : identifier 'LPDDS_CreatePrimary'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2061: syntax error : identifier 'LPDDS_GetSecondary'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2061: syntax error : identifier 'LPDDS_CreateOffscreen'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2061: syntax error : identifier 'LPDDS_LoadFromFile'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2146: syntax error : missing ')' before identifier 'lpdds'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2182: 'LPDDS_ReloadFromFile' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(89) : error C2065: 'lplpdds' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(89) : error C2182: 'LPDDS_Release' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2146: syntax error : missing ')' before identifier 'lpdds'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2182: 'LPDDS_SetSrcColorKey' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2146: syntax error : missing ')' before identifier 'lpdd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2440: 'initializing' : cannot convert from 'int' to 'struct IDirectDrawClipper *'
+                                                                                                Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(17) : error C2448: 'DDSD_Clear' : function-style initializer appears to be a function definition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(23) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(32) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(32) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(32) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(35) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(35) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(35) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(35) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(37) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(46) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(46) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(46) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(46) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(49) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(49) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(49) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(49) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(52) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(52) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(52) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(52) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(53) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(62) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(62) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(62) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(62) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(65) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(65) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(65) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(65) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(68) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(68) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(68) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(68) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(69) : error C2501: 'pddsd' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(69) : error C2086: 'pddsd' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(69) : error C2239: unexpected token '->' following declaration of 'pddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(69) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(71) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(82) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(91) : error C2501: 'pddscaps' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(91) : error C2239: unexpected token '->' following declaration of 'pddscaps'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(91) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(92) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(105) : error C2501: 'pddbltfx' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(105) : error C2239: unexpected token '->' following declaration of 'pddbltfx'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(105) : error C2059: syntax error : '->'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(106) : error C2143: syntax error : missing ';' before '}'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(115) : error C2501: 'pddbltfx' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.cpp(115) : fatal error C1003: error count exceeds 100; stopping compilation
+GDICanvas.cpp
+IsoHex24_2.cpp
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2065: 'DDSURFACEDESC2' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2065: 'pddsd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(21) : error C2182: 'DDSD_Clear' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(24) : error C2182: 'DDSD_PrimarySurface' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2146: syntax error : missing ')' before identifier 'dwBackBufferCount'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2182: 'DDSD_PrimarySurfaceWBackBuffer' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2078: too many initializers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(27) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2146: syntax error : missing ')' before identifier 'dwWidth'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2182: 'DDSD_OffscreenSurface' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2078: too many initializers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2275: 'DWORD' : illegal use of this type as an expression
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(30) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2065: 'DDSCAPS2' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2065: 'pddscaps' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(37) : error C2182: 'DDSCAPS_Clear' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(40) : error C2182: 'DDSCAPS_BackBuffer' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2501: 'LPDIRECTDRAW7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAW7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(64) : error C2061: syntax error : identifier 'LPDD_Create'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(67) : error C2065: 'lplpdd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(67) : error C2182: 'LPDD_Release' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(74) : error C2061: syntax error : identifier 'LPDDS_CreatePrimary'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(77) : error C2061: syntax error : identifier 'LPDDS_GetSecondary'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(80) : error C2061: syntax error : identifier 'LPDDS_CreateOffscreen'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(83) : error C2061: syntax error : identifier 'LPDDS_LoadFromFile'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2146: syntax error : missing ')' before identifier 'lpdds'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2182: 'LPDDS_ReloadFromFile' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(86) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(89) : error C2065: 'lplpdds' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(89) : error C2182: 'LPDDS_Release' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2146: syntax error : missing ')' before identifier 'lpdds'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2182: 'LPDDS_SetSrcColorKey' : illegal use of type 'void'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(95) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2146: syntax error : missing ')' before identifier 'lpdd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2440: 'initializing' : cannot convert from 'int' to 'struct IDirectDrawClipper *'
+                                                                                                Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\DDFuncs.h(112) : error C2059: syntax error : ')'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(60) : error C2501: 'LPDIRECTDRAW7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(60) : error C2086: 'LPDIRECTDRAW7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(60) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAW7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(60) : error C2061: syntax error : identifier 'lpdd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(63) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(63) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(63) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(63) : error C2061: syntax error : identifier 'lpddsPrime'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(64) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(64) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(64) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(64) : error C2061: syntax error : identifier 'lpddsBack'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(65) : error C2501: 'LPDIRECTDRAWSURFACE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(65) : error C2086: 'LPDIRECTDRAWSURFACE7' : redefinition
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(65) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECTDRAWSURFACE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(65) : error C2061: syntax error : identifier 'lpddsTex'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(68) : error C2501: 'LPDIRECT3D7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(68) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECT3D7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(68) : error C2061: syntax error : identifier 'lpd3d'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(71) : error C2501: 'LPDIRECT3DDEVICE7' : missing decl-specifiers
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(71) : error C2239: unexpected token 'identifier' following declaration of 'LPDIRECT3DDEVICE7'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(71) : error C2061: syntax error : identifier 'lpd3ddev'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(227) : error C2065: 'lpdd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(227) : error C2065: 'LPDD_Create' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(230) : error C2227: left of '->SetDisplayMode' must point to class/struct/union
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(233) : error C2146: syntax error : missing ';' before identifier 'ddsd'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(233) : error C2065: 'ddsd' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(235) : error C2228: left of '.dwSize' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(236) : error C2228: left of '.dwFlags' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(237) : error C2228: left of '.dwBackBufferCount' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(238) : error C2228: left of '.ddsCaps' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(238) : error C2228: left of '.dwCaps' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(239) : error C2227: left of '->CreateSurface' must point to class/struct/union
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(239) : error C2065: 'lpddsPrime' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(242) : error C2146: syntax error : missing ';' before identifier 'ddscaps'
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(242) : error C2065: 'ddscaps' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(244) : error C2228: left of '.dwCaps' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(245) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(245) : error C2065: 'lpddsBack' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(249) : error C2228: left of '.dwSize' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(250) : error C2228: left of '.dwFlags' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(251) : error C2228: left of '.dwWidth' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(252) : error C2228: left of '.dwHeight' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(253) : error C2228: left of '.ddsCaps' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(253) : error C2228: left of '.dwCaps' must have class/struct/union type
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(254) : error C2227: left of '->CreateSurface' must point to class/struct/union
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(254) : error C2065: 'lpddsTex' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(259) : error C2227: left of '->QueryInterface' must point to class/struct/union
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(259) : error C2065: 'IID_IDirect3D7' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(259) : error C2065: 'lpd3d' : undeclared identifier
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\Chapter24\IsoHex24_2\IsoHex24_2.cpp(259) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+chap24.exe - 204 error(s), 0 warning(s)

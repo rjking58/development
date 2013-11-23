@@ -1,0 +1,45 @@
+--------------------Configuration: makedeps - Win32 Debug--------------------
+Begining build with project "C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\makedeps.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/makedeps.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/makedeps.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/makedeps.pdb" /debug /machine:I386 /out:"Debug/makedeps.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP31.tmp" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/makedeps.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP31.tmp" 
+Creating temp file "C:\TEMP\RSP32.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/makedeps.pdb" /debug /machine:I386 /out:"Debug/makedeps.exe" /pdbtype:sept 
+.\Debug\cppsetup.obj
+.\Debug\include.obj
+.\Debug\main.obj
+.\Debug\parse.obj
+.\Debug\pr.obj>
+Creating command line "link.exe @C:\TEMP\RSP32.tmp" 
+Compiling...
+main.c
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(173) : warning C4013: 'atoi' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(239) : warning C4013: 'redirect' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(272) : warning C4013: 'find_includes' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(273) : warning C4013: 'freefile' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(274) : warning C4013: 'recursive_pr_include' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(275) : warning C4013: 'inc_clean' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(279) : warning C4013: 'exit' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(280) : warning C4035: 'main' : no return value
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(295) : warning C4013: 'open' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(322) : warning C4013: '_read' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(340) : warning C4013: 'close' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(351) : warning C4013: 'free' undefined; assuming extern returning int
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(353) : warning C4035: 'freefile' : no return value
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(476) : warning C4033: 'redirect' must return a value
+C:\MY_DATA\VOLATILE\CPP\vcpp\makedeps\main.c(525) : warning C4013: '_chmod' undefined; assuming extern returning int
+Linking...
+
+
+
+makedeps.exe - 0 error(s), 15 warning(s)

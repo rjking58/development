@@ -1,0 +1,5 @@
+[Global]
+Version=8
+[ASSOCIATION]
+workspacefile=chap24.dsw
+workspacetype=microsoft visual c++

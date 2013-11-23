@@ -1,0 +1,150 @@
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(192) >>Start of Session___
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(267) >>start message pump..
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>12<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>123<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>12345<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>123456<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>12345678<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>123456789<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890A<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890AB<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABa<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABab<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABabY<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABabYZ<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABabYZy<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(70) >>in WM_CHAR
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(80) >>found a valid character
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(90) >>cBuffer>>1234567890ABabYZyz<<
+D:\volatile\SOURCE\CPROGS\CPP\VCPP\isometric\chap_3\chap_3.cpp
+(117) >>PAINT CALLED

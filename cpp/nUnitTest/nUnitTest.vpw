@@ -1,0 +1,5 @@
+[Global]
+Version=8
+[ASSOCIATION]
+workspacefile=nUnitTest.sln
+workspacetype=microsoft visual studio

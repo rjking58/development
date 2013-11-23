@@ -1,0 +1,25 @@
+[ASSOCIATION]
+makefile=chap24.dsp
+makefiledate=20021117225734000
+makefiletype=microsoft visual c++
+[GLOBAL]
+workingdir=.
+version=7.0
+packname=Microsoft Visual C++ for 32 bit Windows
+[CONFIGURATIONS]
+[COMPILER."CFG=chap24 - Win32 Release"]
+INCLUDEDIRS=%(INCLUDE)
+COMPILE=copts: savecurrent|concur|capturecmd: nmake /F "%rn.mak" %b "%bd%n.obj"
+MAKE=copts: saveworkspacefiles|concur|capturecmd: nmake /F "%rn.mak" %b
+REBUILD=copts: saveworkspacefiles|concur|capturecmd: nmake /A /F "%rn.mak" %b
+DEBUG=cmd: msdev "%bdchap24.exe"
+EXECUTE=cmd:"%bdchap24.exe"
+usertool_resource_editor=copts: hide|menu: Resource Editor:Resource Editorcmd: msdev
+[COMPILER."CFG=chap24 - Win32 Debug"]
+INCLUDEDIRS=%(INCLUDE)
+COMPILE=copts: savecurrent|concur|capturecmd: nmake /F "%rn.mak" %b "%bd%n.obj"
+MAKE=copts: saveworkspacefiles|concur|capturecmd: nmake /F "%rn.mak" %b
+REBUILD=copts: saveworkspacefiles|concur|capturecmd: nmake /A /F "%rn.mak" %b
+DEBUG=cmd: msdev "%bdchap24.exe"
+EXECUTE=cmd:"%bdchap24.exe"
+usertool_resource_editor=copts: hide|menu: Resource Editor:Resource Editorcmd: msdev

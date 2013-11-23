@@ -1,0 +1,22 @@
+# DO NOT DELETE THIS LINE -- make depend depends on it.
+
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/CompatNT.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/engbase/aggrcol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/engbase/coldesc.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/utils/boolean.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/utils/simpstr.h
+aggrcol.o: c:/program files/devstudio/vc/include/iostream.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/utils/str_date.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/acc_col.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcacccol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/lenmax.h
+aggrcol.o: c:/program files/devstudio/vc/include/string.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fccolimp.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fccoltpl.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcdrvcol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcchrcol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcschcol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcdtscol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcdmscol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcdatcol.h
+aggrcol.o: e:/snapshots/ntS_4.50.rjk/src/tserw/acc/fcdtmcol.h

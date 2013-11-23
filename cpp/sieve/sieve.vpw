@@ -1,0 +1,5 @@
+[Global]
+Version=8
+[ASSOCIATION]
+workspacefile=sieve.dsw
+workspacetype=microsoft visual c++

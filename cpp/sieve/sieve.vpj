@@ -1,0 +1,25 @@
+[ASSOCIATION]
+makefile=sieve.dsp
+makefiledate=20020903222752000
+makefiletype=microsoft visual c++
+[GLOBAL]
+workingdir=.
+version=7.0
+packname=Microsoft Visual C++ for 32 bit Windows
+[CONFIGURATIONS]
+[COMPILER."CFG=sieve - Win32 Release"]
+INCLUDEDIRS=%(INCLUDE)
+COMPILE=copts: savecurrent|concur|capturecmd: nmake /F "%rn.mak" %b "%bd%n.obj"
+MAKE=copts: saveworkspacefiles|concur|capturecmd: nmake /F "%rn.mak" %b
+REBUILD=copts: saveworkspacefiles|concur|capturecmd: nmake /A /F "%rn.mak" %b
+DEBUG=cmd: msdev "%bdsieve.exe"
+EXECUTE=cmd:"%bdsieve.exe"
+usertool_resource_editor=copts: hide|menu: Resource Editor:Resource Editorcmd: msdev
+[COMPILER."CFG=sieve - Win32 Debug"]
+INCLUDEDIRS=%(INCLUDE)
+COMPILE=copts: savecurrent|concur|capturecmd: nmake /F "%rn.mak" %b "%bd%n.obj"
+MAKE=copts: saveworkspacefiles|concur|capturecmd: nmake /F "%rn.mak" %b
+REBUILD=copts: saveworkspacefiles|concur|capturecmd: nmake /A /F "%rn.mak" %b
+DEBUG=cmd: msdev "%bdsieve.exe"
+EXECUTE=cmd:"%bdsieve.exe"
+usertool_resource_editor=copts: hide|menu: Resource Editor:Resource Editorcmd: msdev

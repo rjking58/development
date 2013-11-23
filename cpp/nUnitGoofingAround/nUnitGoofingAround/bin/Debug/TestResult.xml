@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Volatile\SOURCE\CPROGS\CPP\VCPP\nUnitGoofingAround\nUnitGoofingAround\bin\Debug\nUnitGoofingAround.exe" total="1" failures="1" not-run="0" date="2007-02-13" time="23:04:36">
+  <environment nunit-version="2.2.9.0" clr-version="2.0.50727.42" os-version="Microsoft Windows NT 5.1.2600 Service Pack 2" platform="Win32NT" cwd="C:\Volatile\SOURCE\CPROGS\CPP\VCPP\nUnitGoofingAround\nUnitGoofingAround\bin\Debug" machine-name="DEVELOPMENT" user="Richard" user-domain="DEVELOPMENT" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Volatile\SOURCE\CPROGS\CPP\VCPP\nUnitGoofingAround\nUnitGoofingAround\bin\Debug\nUnitGoofingAround.exe" success="False" time="0.172" asserts="0">
+    <results>
+      <test-suite name="bank" success="False" time="0.156" asserts="0">
+        <results>
+          <test-suite name="AccountTest" success="False" time="0.109" asserts="0">
+            <results>
+              <test-case name="bank.AccountTest.TransferFunds" executed="True" success="False" time="0.078" asserts="1">
+                <failure>
+                  <message><![CDATA[
+	expected: <250>
+	 but was: <150>]]></message>
+                  <stack-trace><![CDATA[   at bank.AccountTest.TransferFunds() in C:\Volatile\SOURCE\CPROGS\CPP\VCPP\nUnitGoofingAround\nUnitGoofingAround\Program.cs:line 44
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

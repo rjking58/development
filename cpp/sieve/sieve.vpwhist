@@ -1,0 +1,27 @@
+[Global]
+CurrentProject=sieve.vpj
+[ActiveConfig]
+sieve.vpj=,"CFG=sieve - Win32 Debug"
+[ProjectDates]
+sieve.dsp=20020903222752000
+[TreeExpansion]
+sieve.dsp 1 1 0 0 0 0
+[State]
+SCREEN: 1024 768 110 110 768 537 0 0 M 0 0 0 0 750 392
+CWD: ..\sieve
+BUFFER: BN="Sieve.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 44 44 640 282 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="Sieve.cpp"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=279 BI=22 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\Program Files\Maxis\The Sims\GameData\Skins\adult-censor.cmx
+\Documents and Settings\Richard\Cookies\richard@yahoo[2].txt
+\gcs\XPTweaks\DisableServiceList.txt
+\Program Files\Quake III ArenaBACKUP\baseq3\q3config.cfg
+\Program Files\EA SPORTS\NHL 2001\savestat\playst02.csv
+\work\meetingnotes10112002.txt
+G:\UT2003\KarmaData\Bot.ka
+G:\UT2003\Benchmark\botmatch-all.bat
+Sieve.cpp

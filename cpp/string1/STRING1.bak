@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+main()
+
+{
+
+	char strTemp[26] = "";
+
+	sprintf( strTemp, "'%25s'", "100" );
+	printf("|%s|",strTemp);
+
+}

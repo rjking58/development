@@ -1,0 +1,16 @@
+DEBUG2.CPP:(88) a-one->1<-
+DEBUG2.CPP:(89) an 'a'->'a'<-
+DEBUG2.CPP:(90) a string->12345<-
+DEBUG2.CPP:(91) an array->8377d 900d 8095d 8402d 2934d 2892d 8402d 8749d 9207d 19469d 8311d 8342d 7271d 8311d 2934d 2892d 0d 8071d 8175d 8303d <-
+DEBUG2.CPP:(88) a-one->1<-
+DEBUG2.CPP:(89) an 'a'->'a'<-
+DEBUG2.CPP:(90) a string->12345<-
+DEBUG2.CPP:(91) an array->64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 <-
+DEBUG2.CPP:6/5/96 16:16 (106)'a-one'->1<-
+DEBUG2.CPP:6/5/96 16:16 (107)'an 'a''->'a'<-
+DEBUG2.CPP:6/5/96 16:16 (108)'a string'->12345<-
+DEBUG2.CPP:6/5/96 16:16 (109)'an array'->64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 <-
+DEBUG2.CPP:6/5/96 16:27 (17)'a-one'->1<-
+DEBUG2.CPP:6/5/96 16:27 (18)'an 'a''->'a'<-
+DEBUG2.CPP:6/5/96 16:27 (19)'a string'->12345<-
+DEBUG2.CPP:6/5/96 16:27 (20)'an array'->64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 <-
