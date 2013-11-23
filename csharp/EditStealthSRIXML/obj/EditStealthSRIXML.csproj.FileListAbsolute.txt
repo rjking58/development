@@ -1,8 +1,0 @@
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\EditStealthSRIXML.exe
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\EditStealthSRIXML.pdb
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\bin\Debug\EditStealthSRIXML.exe
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\bin\Debug\EditStealthSRIXML.pdb
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\ResolveAssemblyReference.cache
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\EditStealthSRIXML.Form1.resources
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\EditStealthSRIXML.Properties.Resources.resources
-C:\Volatile\Source\csharp2\vs2005Projs\EditStealthSRIXML\obj\Debug\EditStealthSRIXML.csproj.GenerateResource.Cache
