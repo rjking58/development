@@ -1,0 +1,4 @@
+c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include\WinBase.h;;5;0;0
+C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.cpp;C:\Volatile\Development\Source\cpp\COMStringTest\.klocwork\cpp.kwlp\ds\3\w2ipbbtm.mbu;3;0;0
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\comutil.h;;6;0;0
+C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\AAComBSTR.h;C:\Volatile\Development\Source\cpp\COMStringTest\.klocwork\cpp.kwlp\ds\7\dezklnei.zua;7;0;0

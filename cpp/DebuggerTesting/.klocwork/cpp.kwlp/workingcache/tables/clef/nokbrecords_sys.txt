@@ -1,0 +1,11 @@
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\exception
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\locale.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\math.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\system_error
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\typeinfo
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xiosbase
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocale
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocinfo
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xlocinfo.h
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\xutility
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\yvals.h

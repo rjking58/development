@@ -1,0 +1,131 @@
+// Debug library initialized ...
+DBGHELP: COMStringTest - private symbols & lines 
+        C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.pdb
+DBGHELP: ntdll - export symbols
+DBGHELP: kernel32 - export symbols
+DBGHELP: KERNELBASE - export symbols
+DBGHELP: USER32 - export symbols
+DBGHELP: GDI32 - export symbols
+DBGHELP: LPK - export symbols
+DBGHELP: USP10 - export symbols
+DBGHELP: msvcrt - export symbols
+DBGHELP: ADVAPI32 - export symbols
+DBGHELP: sechost - export symbols
+DBGHELP: RPCRT4 - export symbols
+DBGHELP: SspiCli - export symbols
+DBGHELP: CRYPTBASE - export symbols
+DBGHELP: OLEAUT32 - export symbols
+DBGHELP: ole32 - export symbols
+DBGHELP: MSVCP100D - export symbols
+DBGHELP: MSVCR100D - export symbols
+DBGHELP: IMM32 - export symbols
+DBGHELP: MSCTF - export symbols
+//                                                                          
+// Each log entry has the following syntax:                                 
+//                                                                          
+// + BYTES_DELTA (NEW_BYTES - OLD_BYTES) NEW_COUNT allocs BackTrace TRACEID 
+// + COUNT_DELTA (NEW_COUNT - OLD_COUNT) BackTrace TRACEID allocations      
+//     ... stack trace ...                                                  
+//                                                                          
+// where:                                                                   
+//                                                                          
+//     BYTES_DELTA - increase in bytes between before and after log         
+//     NEW_BYTES - bytes in after log                                       
+//     OLD_BYTES - bytes in before log                                      
+//     COUNT_DELTA - increase in allocations between before and after log   
+//     NEW_COUNT - number of allocations in after log                       
+//     OLD_COUNT - number of allocations in before log                      
+//     TRACEID - decimal index of the stack trace in the trace database     
+//         (can be used to search for allocation instances in the original  
+//         UMDH logs).                                                      
+//                                                                          
+
+
++      d0 (    d0 -     0)      1 allocs	BackTraceBD058
++       1 (     1 -     0)	BackTraceBD058	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+3D3
+	OLEAUT32!GetErrorInfo+46A
+	OLEAUT32!SysAllocStringLen+29
+	OLEAUT32!SysAllocString+35
+	COMStringTest!CopyLeakTest+A4 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 72)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 89)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      40 (    40 -     0)      1 allocs	BackTraceBD27C
++       1 (     1 -     0)	BackTraceBD27C	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringByteLen+39
+	COMStringTest!_bstr_t::Data_t::Data_t+65 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 706)
+	COMStringTest!_bstr_t::Assign+DE (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 567)
+	COMStringTest!CopyLeakTest+D9 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 77)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 89)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      40 (    40 -     0)      1 allocs	BackTraceBD194
++       1 (     1 -     0)	BackTraceBD194	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringLen+39
+	OLEAUT32!SysAllocString+35
+	COMStringTest!AAComBSTR::AAComBSTR+40 (c:\volatile\development\source\cpp\comstringtest\comstringtest\aacombstr.h, 190)
+	COMStringTest!CopyLeakTest+BA (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 73)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 89)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      40 (    40 -     0)      1 allocs	BackTraceBD140
++       1 (     1 -     0)	BackTraceBD140	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringLen+39
+	OLEAUT32!SysAllocString+35
+	COMStringTest!CopyLeakTest+A4 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 72)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 89)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      10 (    10 -     0)      1 allocs	BackTraceBD0AC
++       1 (     1 -     0)	BackTraceBD0AC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!VariantCopy+104
+	OLEAUT32!VarUI4FromUI1+31E
+	OLEAUT32!GetErrorInfo+409
+	OLEAUT32!GetErrorInfo+46A
+	OLEAUT32!SysAllocStringLen+29
+	OLEAUT32!SysAllocString+35
+	COMStringTest!CopyLeakTest+A4 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 72)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 89)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+
+Total increase ==    1a0 requested +     78 overhead =    218

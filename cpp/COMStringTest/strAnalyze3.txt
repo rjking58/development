@@ -1,0 +1,545 @@
+// Debug library initialized ...
+DBGHELP: COMStringTest - private symbols & lines 
+        C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.pdb
+DBGHELP: ntdll - export symbols
+DBGHELP: kernel32 - export symbols
+DBGHELP: KERNELBASE - export symbols
+DBGHELP: USER32 - export symbols
+DBGHELP: GDI32 - export symbols
+DBGHELP: LPK - export symbols
+DBGHELP: USP10 - export symbols
+DBGHELP: msvcrt - export symbols
+DBGHELP: ADVAPI32 - export symbols
+DBGHELP: sechost - export symbols
+DBGHELP: RPCRT4 - export symbols
+DBGHELP: SspiCli - export symbols
+DBGHELP: CRYPTBASE - export symbols
+DBGHELP: OLEAUT32 - export symbols
+DBGHELP: ole32 - export symbols
+DBGHELP: MSVCP100D - export symbols
+DBGHELP: MSVCR100D - export symbols
+DBGHELP: IMM32 - export symbols
+DBGHELP: MSCTF - export symbols
+//                                                                          
+// Each log entry has the following syntax:                                 
+//                                                                          
+// + BYTES_DELTA (NEW_BYTES - OLD_BYTES) NEW_COUNT allocs BackTrace TRACEID 
+// + COUNT_DELTA (NEW_COUNT - OLD_COUNT) BackTrace TRACEID allocations      
+//     ... stack trace ...                                                  
+//                                                                          
+// where:                                                                   
+//                                                                          
+//     BYTES_DELTA - increase in bytes between before and after log         
+//     NEW_BYTES - bytes in after log                                       
+//     OLD_BYTES - bytes in before log                                      
+//     COUNT_DELTA - increase in allocations between before and after log   
+//     NEW_COUNT - number of allocations in after log                       
+//     OLD_COUNT - number of allocations in before log                      
+//     TRACEID - decimal index of the stack trace in the trace database     
+//         (can be used to search for allocation instances in the original  
+//         UMDH logs).                                                      
+//                                                                          
+
+
++     224 (   224 -     0)      1 allocs	BackTraceBFEAC
++       1 (     1 -     0)	BackTraceBFEAC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+544
+	MSVCR100D!calloc_dbg+2C
+	MSVCP100D!Getctype+36
+	MSVCP100D!std::_Locinfo::_Getctype+14
+	MSVCP100D!std::ctype<wchar_t>::_Init+17
+	MSVCP100D!std::ctype<wchar_t>::ctype<wchar_t>+50
+	MSVCP100D!std::ctype<wchar_t>::_Getcat+A9
+	COMStringTest!std::use_facet<std::ctype<wchar_t> >+B0 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xlocale, 516)
+	COMStringTest!std::operator<<<wchar_t,std::char_traits<wchar_t> >+1A1 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream, 693)
+	COMStringTest!BstrAsKeyInMapTest+330 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 50)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      fc (    fc -     0)      1 allocs	BackTraceBFF40
++       1 (     1 -     0)	BackTraceBFF40	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+544
+	MSVCR100D!calloc_dbg+2C
+	MSVCR100D!setlocale+FA
+	MSVCP100D!std::_Locinfo::_Locinfo_dtor+2B
+	MSVCP100D!std::_Locinfo::~_Locinfo+38
+	MSVCP100D!std::ctype<wchar_t>::_Getcat+E5
+	COMStringTest!std::use_facet<std::ctype<wchar_t> >+B0 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xlocale, 516)
+	COMStringTest!std::operator<<<wchar_t,std::char_traits<wchar_t> >+1A1 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream, 693)
+	COMStringTest!BstrAsKeyInMapTest+330 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 50)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      d0 (    d0 -     0)      1 allocs	BackTraceBEEFC
++       1 (     1 -     0)	BackTraceBEEFC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+3D3
+	OLEAUT32!GetErrorInfo+46A
+	OLEAUT32!SysAllocStringLen+29
+	OLEAUT32!SysAllocString+35
+	COMStringTest!BstrAsKeyInMapTest+15F (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 32)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      a0 (    a0 -     0)      5 allocs	BackTraceBF1F4
++       5 (     5 -     0)	BackTraceBF1F4	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringLen+39
+	OLEAUT32!SysAllocString+35
+	COMStringTest!_bstr_t::Data_t::Data_t+43 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 691)
+	COMStringTest!_bstr_t::_bstr_t+71 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 322)
+	COMStringTest!std::_Pair_base<_bstr_t,int>::_Pair_base<_bstr_t,int><wchar_t * &,int &>+59 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 163)
+	COMStringTest!std::pair<_bstr_t,int>::pair<_bstr_t,int><wchar_t * &,int &>+45 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 248)
+	COMStringTest!BstrAsKeyInMapTest+1A5 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 38)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      44 (    44 -     0)      1 allocs	BackTraceBF850
++       1 (     1 -     0)	BackTraceBF850	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::locale::facet::operator new+1A
+	MSVCP100D!std::ctype<wchar_t>::_Getcat+61
+	COMStringTest!std::use_facet<std::ctype<wchar_t> >+B0 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xlocale, 516)
+	COMStringTest!std::operator<<<wchar_t,std::char_traits<wchar_t> >+1A1 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream, 693)
+	COMStringTest!BstrAsKeyInMapTest+330 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 50)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      3c (    3c -     0)      1 allocs	BackTraceBDF60
++       1 (     1 -     0)	BackTraceBDF60	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::locale::facet::operator new+1A
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+51CE
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+37BF
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Iput+65
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::do_put+6A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::put+2F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+150
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      3c (    3c -     0)      1 allocs	BackTraceBD3D0
++       1 (     1 -     0)	BackTraceBD3D0	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc+1B
+	MSVCR100D!operator new+11
+	COMStringTest!std::_Allocate<std::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Node>+49 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 36)
+	COMStringTest!std::allocator<std::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Node>::allocate+2E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 187)
+	COMStringTest!std::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >+7E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 544)
+	COMStringTest!std::_Tree<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Tree<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >+41 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 699)
+	COMStringTest!std::map<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> > >::map<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> > >+3E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\map, 107)
+	COMStringTest!BstrAsKeyInMapTest+8E (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 20)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      3c (    3c -     0)      1 allocs	BackTraceBD180
++       1 (     1 -     0)	BackTraceBD180	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::_Mutex::_Mutex+1F
+	MSVCP100D!std::basic_streambuf<wchar_t,std::char_traits<wchar_t> >::basic_streambuf<wchar_t,std::char_traits<wchar_t> >+3E
+	COMStringTest!std::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+4D (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 26)
+	COMStringTest!std::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+CE (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 538)
+	COMStringTest!BstrAsKeyInMapTest+7C (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 19)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      34 (    34 -     0)      1 allocs	BackTraceBD4F8
++       1 (     1 -     0)	BackTraceBD4F8	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::locale::facet::operator new+1A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Getcat+61
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+435F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+86
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      30 (    30 -     0)      1 allocs	BackTraceBE650
++       1 (     1 -     0)	BackTraceBE650	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!operator new[]+1A
+	MSVCP100D!std::time_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Init+1D2
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+6441
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5915
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5218
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+37BF
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Iput+65
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::do_put+6A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::put+2F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+150
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      2e (    2e -     0)      1 allocs	BackTraceBE6E4
++       1 (     1 -     0)	BackTraceBE6E4	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!operator new[]+1A
+	MSVCP100D!std::time_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Init+1D2
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+6479
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5915
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5218
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+37BF
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Iput+65
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::do_put+6A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::put+2F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+150
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      2c (    2c -     0)      1 allocs	BackTraceBD33C
++       1 (     1 -     0)	BackTraceBD33C	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc+1B
+	MSVCR100D!operator new+11
+	COMStringTest!std::_Allocate<std::_Container_proxy>+49 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 36)
+	COMStringTest!std::allocator<std::_Container_proxy>::allocate+2E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 187)
+	COMStringTest!std::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >+8F (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 492)
+	COMStringTest!std::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >+60 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 542)
+	COMStringTest!std::_Tree<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Tree<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >+41 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 699)
+	COMStringTest!std::map<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> > >::map<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> > >+3E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\map, 107)
+	COMStringTest!BstrAsKeyInMapTest+8E (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 20)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      2c (    2c -     0)      1 allocs	BackTraceBDECC
++       1 (     1 -     0)	BackTraceBDECC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::_Lockit::_Lockit_dtor+71
+	MSVCP100D!std::basic_streambuf<unsigned short,std::char_traits<unsigned short> >::_Pninc+552
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+43AA
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+86
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      2c (    2c -     0)      1 allocs	BackTraceC02B8
++       1 (     1 -     0)	BackTraceC02B8	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	COMStringTest!std::locale::facet::_Facet_Register+43 (f:\dd\vctools\crt_bld\self_x86\crt\src\locale0.cpp, 57)
+	COMStringTest!std::locale::facet::_Register+2C (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xlocale, 133)
+	COMStringTest!std::use_facet<std::ctype<wchar_t> >+11A (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xlocale, 536)
+	COMStringTest!std::operator<<<wchar_t,std::char_traits<wchar_t> >+1A1 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\ostream, 693)
+	COMStringTest!BstrAsKeyInMapTest+330 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 50)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      2c (    2c -     0)      1 allocs	BackTraceBEAF0
++       1 (     1 -     0)	BackTraceBEAF0	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::_Lockit::_Lockit_dtor+71
+	MSVCP100D!std::basic_streambuf<unsigned short,std::char_traits<unsigned short> >::_Pninc+552
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+380A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Iput+65
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::do_put+6A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::put+2F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+150
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      28 (    28 -     0)      1 allocs	BackTraceBD2A8
++       1 (     1 -     0)	BackTraceBD2A8	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::basic_streambuf<wchar_t,std::char_traits<wchar_t> >::basic_streambuf<wchar_t,std::char_traits<wchar_t> >+59
+	COMStringTest!std::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+4D (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 26)
+	COMStringTest!std::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+CE (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 538)
+	COMStringTest!BstrAsKeyInMapTest+7C (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 19)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      28 (    28 -     0)      1 allocs	BackTraceBD0EC
++       1 (     1 -     0)	BackTraceBD0EC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!std::ios_base::_Init+8A
+	MSVCP100D!std::basic_ios<wchar_t,std::char_traits<wchar_t> >::init+11
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::basic_ostream<wchar_t,std::char_traits<wchar_t> >+86
+	COMStringTest!std::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+9C (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 537)
+	COMStringTest!BstrAsKeyInMapTest+7C (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 19)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      25 (    25 -     0)      1 allocs	BackTraceBE5BC
++       1 (     1 -     0)	BackTraceBE5BC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc_dbg+21
+	MSVCP100D!operator new+20
+	MSVCP100D!operator new[]+1A
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+49A3
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+6409
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5915
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+5218
+	MSVCP100D!std::time_put<unsigned short,std::ostreambuf_iterator<unsigned short,std::char_traits<unsigned short> > >::do_put+37BF
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::_Iput+65
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::do_put+6A
+	MSVCP100D!std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >::put+2F
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::operator<<+150
+	COMStringTest!BstrAsKeyInMapTest+10D (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 25)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      20 (    20 -     0)      1 allocs	BackTraceBD214
++       1 (     1 -     0)	BackTraceBD214	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ntdll!RtlRunOnceBeginInitialize+8E
+	ntdll!RtlInitializeCriticalSection+12
+	MSVCP100D!Mtxinit+F
+	MSVCP100D!std::_Mutex::_Mutex+38
+	MSVCP100D!std::basic_streambuf<wchar_t,std::char_traits<wchar_t> >::basic_streambuf<wchar_t,std::char_traits<wchar_t> >+3E
+	COMStringTest!std::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_stringbuf<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+4D (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 26)
+	COMStringTest!std::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >::basic_ostringstream<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >+CE (c:\program files (x86)\microsoft visual studio 10.0\vc\include\sstream, 538)
+	COMStringTest!BstrAsKeyInMapTest+7C (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 19)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      20 (    20 -     0)      1 allocs	BackTraceBEFE4
++       1 (     1 -     0)	BackTraceBEFE4	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringLen+39
+	OLEAUT32!SysAllocString+35
+	COMStringTest!BstrAsKeyInMapTest+15F (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 32)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
++      10 (    10 -     0)      1 allocs	BackTraceBEF50
++       1 (     1 -     0)	BackTraceBEF50	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!VariantCopy+104
+	OLEAUT32!VarUI4FromUI1+31E
+	OLEAUT32!GetErrorInfo+409
+	OLEAUT32!GetErrorInfo+46A
+	OLEAUT32!SysAllocStringLen+29
+	OLEAUT32!SysAllocString+35
+	COMStringTest!BstrAsKeyInMapTest+15F (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 32)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+-      fc (     0 -    fc)      0 allocs	BackTraceBBFC0
+-       1 (     0 -     1)	BackTraceBBFC0	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+544
+	MSVCR100D!calloc_dbg+2C
+	MSVCR100D!setlocale+FA
+	MSVCP100D!std::_Locinfo::_Locinfo_dtor+2B
+	MSVCP100D!std::_Locinfo::~_Locinfo+38
+	MSVCP100D!std::ctype<wchar_t>::_Getcat+E5
+	MSVCP100D!std::basic_streambuf<unsigned short,std::char_traits<unsigned short> >::_Pninc+8DF
+	MSVCP100D!std::basic_ios<wchar_t,std::char_traits<wchar_t> >::widen+4F
+	MSVCP100D!std::basic_ios<wchar_t,std::char_traits<wchar_t> >::init+2E
+	MSVCP100D!std::basic_ostream<wchar_t,std::char_traits<wchar_t> >::basic_ostream<wchar_t,std::char_traits<wchar_t> >+86
+	MSVCP100D!Wcsxfrm+C018
+	MSVCR100D!initterm+1C
+	MSVCP100D!Wcsxfrm+933
+	MSVCP100D!Wcsxfrm+C5E
+	MSVCP100D!Wcsxfrm+BA1
+	ntdll!RtlQueryEnvironmentVariable+241
+	ntdll!LdrResSearchResource+B4D
+	ntdll!RtlGetNtVersionNumbers+9B
+	ntdll!RtlSetUnhandledExceptionFilter+50
+	ntdll!LdrInitializeThunk+10
+
+
+Total increase ==    693 requested +    26d overhead =    900

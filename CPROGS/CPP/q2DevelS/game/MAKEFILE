@@ -1,0 +1,512 @@
+# Wedit Makefile for project Q2Src320
+CFLAGS=-Ic:\usr\include -DC_ONLY  -O  -A
+CC=c:\usr\bin\lcc.exe
+OBJS=\
+	q_shared.obj \
+	p_weapon.obj \
+	p_view.obj \
+	p_trail.obj \
+	p_hud.obj \
+	p_client.obj \
+	m_tank.obj \
+	m_supertank.obj \
+	m_soldier.obj \
+	m_parasite.obj \
+	m_mutant.obj \
+	m_move.obj \
+	m_medic.obj \
+	m_insane.obj \
+	m_infantry.obj \
+	m_hover.obj \
+	m_gunner.obj \
+	m_gladiator.obj \
+	m_flyer.obj \
+	m_float.obj \
+	m_flipper.obj \
+	m_flash.obj \
+	m_chick.obj \
+	m_brain.obj \
+	m_boss32.obj \
+	m_boss31.obj \
+	m_boss3.obj \
+	m_boss2.obj \
+	m_berserk.obj \
+	m_actor.obj \
+	g_weapon.obj \
+	g_utils.obj \
+	g_turret.obj \
+	g_trigger.obj \
+	g_target.obj \
+	g_svcmds.obj \
+	g_spawn.obj \
+	g_save.obj \
+	g_phys.obj \
+	g_monster.obj \
+	g_misc.obj \
+	g_main.obj \
+	g_items.obj \
+	g_func.obj \
+	g_combat.obj \
+	g_cmds.obj \
+	g_chase.obj \
+	g_ai.obj
+
+LIBS=
+
+gamex86.dll:	$(OBJS) Makefile
+	c:\usr\bin\lcclnk  -entry GetGameAPI -s -dll -o c:\quake2\baseq2\gamex86.dll $(OBJS) $(LIBS) game.def
+
+# Build Q_SHARED.C
+Q_SHARED_C=\
+	c:\q2src320\q_shared.h\
+
+q_shared.obj: $(Q_SHARED_C) c:\q2src320\q_shared.c
+	$(CC) -c $(CFLAGS) c:\q2src320\q_shared.c
+
+# Build P_WEAPON.C
+P_WEAPON_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_player.h\
+
+p_weapon.obj: $(P_WEAPON_C) c:\q2src320\p_weapon.c
+	$(CC) -c $(CFLAGS) c:\q2src320\p_weapon.c
+
+# Build P_VIEW.C
+P_VIEW_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_player.h\
+
+p_view.obj: $(P_VIEW_C) c:\q2src320\p_view.c
+	$(CC) -c $(CFLAGS) c:\q2src320\p_view.c
+
+# Build P_TRAIL.C
+P_TRAIL_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+p_trail.obj: $(P_TRAIL_C) c:\q2src320\p_trail.c
+	$(CC) -c $(CFLAGS) c:\q2src320\p_trail.c
+
+# Build P_HUD.C
+P_HUD_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+p_hud.obj: $(P_HUD_C) c:\q2src320\p_hud.c
+	$(CC) -c $(CFLAGS) c:\q2src320\p_hud.c
+
+# Build P_CLIENT.C
+P_CLIENT_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_player.h\
+
+p_client.obj: $(P_CLIENT_C) c:\q2src320\p_client.c
+	$(CC) -c $(CFLAGS) c:\q2src320\p_client.c
+
+# Build M_TANK.C
+M_TANK_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_tank.h\
+
+m_tank.obj: $(M_TANK_C) c:\q2src320\m_tank.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_tank.c
+
+# Build M_SUPERTANK.C
+M_SUPERTANK_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_supertank.h\
+
+m_supertank.obj: $(M_SUPERTANK_C) c:\q2src320\m_supertank.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_supertank.c
+
+# Build M_SOLDIER.C
+M_SOLDIER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_soldier.h\
+
+m_soldier.obj: $(M_SOLDIER_C) c:\q2src320\m_soldier.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_soldier.c
+
+# Build M_PARASITE.C
+M_PARASITE_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_parasite.h\
+
+m_parasite.obj: $(M_PARASITE_C) c:\q2src320\m_parasite.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_parasite.c
+
+# Build M_MUTANT.C
+M_MUTANT_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_mutant.h\
+
+m_mutant.obj: $(M_MUTANT_C) c:\q2src320\m_mutant.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_mutant.c
+
+# Build M_MOVE.C
+M_MOVE_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+m_move.obj: $(M_MOVE_C) c:\q2src320\m_move.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_move.c
+
+# Build M_MEDIC.C
+M_MEDIC_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_medic.h\
+
+m_medic.obj: $(M_MEDIC_C) c:\q2src320\m_medic.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_medic.c
+
+# Build M_INSANE.C
+M_INSANE_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_insane.h\
+
+m_insane.obj: $(M_INSANE_C) c:\q2src320\m_insane.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_insane.c
+
+# Build M_INFANTRY.C
+M_INFANTRY_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_infantry.h\
+
+m_infantry.obj: $(M_INFANTRY_C) c:\q2src320\m_infantry.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_infantry.c
+
+# Build M_HOVER.C
+M_HOVER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_hover.h\
+
+m_hover.obj: $(M_HOVER_C) c:\q2src320\m_hover.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_hover.c
+
+# Build M_GUNNER.C
+M_GUNNER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_gunner.h\
+
+m_gunner.obj: $(M_GUNNER_C) c:\q2src320\m_gunner.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_gunner.c
+
+# Build M_GLADIATOR.C
+M_GLADIATOR_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_gladiator.h\
+
+m_gladiator.obj: $(M_GLADIATOR_C) c:\q2src320\m_gladiator.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_gladiator.c
+
+# Build M_FLYER.C
+M_FLYER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_flyer.h\
+
+m_flyer.obj: $(M_FLYER_C) c:\q2src320\m_flyer.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_flyer.c
+
+# Build M_FLOAT.C
+M_FLOAT_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_float.h\
+
+m_float.obj: $(M_FLOAT_C) c:\q2src320\m_float.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_float.c
+
+# Build M_FLIPPER.C
+M_FLIPPER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_flipper.h\
+
+m_flipper.obj: $(M_FLIPPER_C) c:\q2src320\m_flipper.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_flipper.c
+
+# Build M_FLASH.C
+M_FLASH_C=\
+	c:\q2src320\q_shared.h\
+
+m_flash.obj: $(M_FLASH_C) c:\q2src320\m_flash.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_flash.c
+
+# Build M_CHICK.C
+M_CHICK_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_chick.h\
+
+m_chick.obj: $(M_CHICK_C) c:\q2src320\m_chick.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_chick.c
+
+# Build M_BRAIN.C
+M_BRAIN_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_brain.h\
+
+m_brain.obj: $(M_BRAIN_C) c:\q2src320\m_brain.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_brain.c
+
+# Build M_BOSS32.C
+M_BOSS32_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_boss32.h\
+
+m_boss32.obj: $(M_BOSS32_C) c:\q2src320\m_boss32.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_boss32.c
+
+# Build M_BOSS31.C
+M_BOSS31_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_boss31.h\
+
+m_boss31.obj: $(M_BOSS31_C) c:\q2src320\m_boss31.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_boss31.c
+
+# Build M_BOSS3.C
+M_BOSS3_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_boss32.h\
+
+m_boss3.obj: $(M_BOSS3_C) c:\q2src320\m_boss3.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_boss3.c
+
+# Build M_BOSS2.C
+M_BOSS2_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_boss2.h\
+
+m_boss2.obj: $(M_BOSS2_C) c:\q2src320\m_boss2.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_boss2.c
+
+# Build M_BERSERK.C
+M_BERSERK_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_berserk.h\
+
+m_berserk.obj: $(M_BERSERK_C) c:\q2src320\m_berserk.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_berserk.c
+
+# Build M_ACTOR.C
+M_ACTOR_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_actor.h\
+
+m_actor.obj: $(M_ACTOR_C) c:\q2src320\m_actor.c
+	$(CC) -c $(CFLAGS) c:\q2src320\m_actor.c
+
+# Build G_WEAPON.C
+G_WEAPON_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_weapon.obj: $(G_WEAPON_C) c:\q2src320\g_weapon.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_weapon.c
+
+# Build G_UTILS.C
+G_UTILS_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_utils.obj: $(G_UTILS_C) c:\q2src320\g_utils.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_utils.c
+
+# Build G_TURRET.C
+G_TURRET_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_turret.obj: $(G_TURRET_C) c:\q2src320\g_turret.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_turret.c
+
+# Build G_TRIGGER.C
+G_TRIGGER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_trigger.obj: $(G_TRIGGER_C) c:\q2src320\g_trigger.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_trigger.c
+
+# Build G_TARGET.C
+G_TARGET_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_target.obj: $(G_TARGET_C) c:\q2src320\g_target.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_target.c
+
+# Build G_SVCMDS.C
+G_SVCMDS_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_svcmds.obj: $(G_SVCMDS_C) c:\q2src320\g_svcmds.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_svcmds.c
+
+# Build G_SPAWN.C
+G_SPAWN_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_spawn.obj: $(G_SPAWN_C) c:\q2src320\g_spawn.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_spawn.c
+
+# Build G_SAVE.C
+G_SAVE_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_save.obj: $(G_SAVE_C) c:\q2src320\g_save.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_save.c
+
+# Build G_PHYS.C
+G_PHYS_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_phys.obj: $(G_PHYS_C) c:\q2src320\g_phys.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_phys.c
+
+# Build G_MONSTER.C
+G_MONSTER_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_monster.obj: $(G_MONSTER_C) c:\q2src320\g_monster.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_monster.c
+
+# Build G_MISC.C
+G_MISC_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_misc.obj: $(G_MISC_C) c:\q2src320\g_misc.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_misc.c
+
+# Build G_MAIN.C
+G_MAIN_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_main.obj: $(G_MAIN_C) c:\q2src320\g_main.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_main.c
+
+# Build G_ITEMS.C
+G_ITEMS_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_items.obj: $(G_ITEMS_C) c:\q2src320\g_items.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_items.c
+
+# Build G_FUNC.C
+G_FUNC_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_func.obj: $(G_FUNC_C) c:\q2src320\g_func.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_func.c
+
+# Build G_COMBAT.C
+G_COMBAT_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_combat.obj: $(G_COMBAT_C) c:\q2src320\g_combat.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_combat.c
+
+# Build G_CMDS.C
+G_CMDS_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+	c:\q2src320\m_player.h\
+
+g_cmds.obj: $(G_CMDS_C) c:\q2src320\g_cmds.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_cmds.c
+
+# Build G_CHASE.C
+G_CHASE_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_chase.obj: $(G_CHASE_C) c:\q2src320\g_chase.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_chase.c
+
+# Build G_AI.C
+G_AI_C=\
+	c:\q2src320\g_local.h\
+	c:\q2src320\q_shared.h\
+	c:\q2src320\game.h\
+
+g_ai.obj: $(G_AI_C) c:\q2src320\g_ai.c
+	$(CC) -c $(CFLAGS) c:\q2src320\g_ai.c
+

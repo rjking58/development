@@ -1,0 +1,5 @@
+- using form objects
+- regular expression validations.
+- formal use of DOM (instead of innerHTML, which is non-standard)
+- setting styles on found elements
+- use of CSS in combination with these things.

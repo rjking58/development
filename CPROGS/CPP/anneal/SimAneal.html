@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<TITLE>Algorithm of the Gods</TITLE>
+</HEAD>
+<H1>Algorithm of the Gods</H1>
+
+<H3><a href="AnnealCode.html">C Code</a> All the C code you'll need to apply Simulated Annealing to your computing problems.<BR><BR>
+<a href="Init200.html">Inital List</a> Benchmark your code against ours.  This is a list of 200 x-y coorinates (floating point) for you to anneal.<BR><BR>
+<a href="Best200.html">Best List</a> This is that same list annealed using the code presented here.  Can you do better?<BR><BR>
+<a href="TimeProg.html">Progress</a> This file tells the temperature, total path length and the number of successful alterations to the list as the best 200 list was annealed.<BR><BR>
+</H3>
+
+<H2>Additional Information</H2>
+
+Thank you for your interest in the Algorithm of the Gods, or, as it is more widely known, the simulated annealing algorithm.  I'm assuming that you've read The Amateur Scientist, form Scientific American magazine, March, 1997.  If you haven't you may not understand the information here.  <BR><BR>
+
+In this section of the Society for Amateur Scientist's World Wide Web page you'll find both the C code you'll need to implement this algorithm, and two files with 200 lines of data. StartList.dat contains 200 randomly generated pairs of x-y coordinates (floating point) between 0 and 100.  BestList.dat contains "annealed" list-- that is, the same set of points after the annealing code has been run on them.  If you plot these two sets of data you'll get an idea of just how well the annealing technique works for finding a good solution to the traveling salesman problem.  I think you'll be impressed!  We are providing this data to provide you with a benchmark.  I do not claim that this solution is the best possible, so if you find a better one, please e-mail it to scarlson@sas.org and I'll post the record holder to this page.  <BR><BR>
+
+
+<H2>Code Notes</H2>
+
+The code has a few special features that you should note. <BR><BR>
+
+<UL>
+<LI> The algorithm can not be trusted to stop at the absolute lowest energy solution it found. As it approaches the minimum, it can wander away towards slightly higher energy solutions in the hopes of dropping into a still lower energy solution.  That lower energy solution is not always found and so when the procedure is getting near the end I start saving the lowest energy solution to a special best-solution array. This is accomplished by setting a global flag called CHECKBEST to "YES" when the number of successful alterations ("numSuc") reaches 0.01 * runLimit.  (runLimit is the largest number of trials to be run at any single temperature.)  This flag is set in main(), and triggers the anneal() function to start saving successively better solutions.  Memory for this global array is allocated in setup().<BR><BR>
+<LI>The program also prints out a file called "energy.dat" which tabulates the energy, the temperature and the number of successful alterations made to this as the annealing process takes place.  The print statements related to this file reside in the for-loop in main().<BR><BR>
+
+<LI>The value of the best energy is printed out in a separate file called lowestEnergy.dat.  I did it this way so that the data list data could be easily ported into any spreadsheet or graphing program without worrying about odd data in the file. <BR><BR>
+
+<LI>This program generates 200 randomly selected floating point x and y coordinates between 0 and 99 and stores them in a data structure of type "ListElement."  To make this program a useful research tool you'll need to design your own data structure, allocate one structure for each data point in your list, read the data onto the allocated structures and install these into the "list" array.  <BR><BR>
+
+<LI>You will also need make sure numListItems in main() gets set to the number of items on your list.<BR><BR>
+
+<LI>Finally, you must alter the energy() function.  Currently, it calculates the distance between any two elements in the list array.  Your application may require a very different definition of the "energy" between two list elements.  However, I've designed the code so that you should only need to worry about getting your definition of the energy correct in this one function.  Then the rest of the code should anneal your data-list correctly. <BR><BR>
+
+<LI>The classic traveling salesman problem has the huckster starting and ending from the same point.  This code does NOT do this.  It allows the endpoints to vary in order to find the shortest possible total path.  To solve the classic traveling salesman problem, install the desired starting and stopping locations in the ends of the list. (That is, list[0] and list[numListItems - 1].  They can be pointers to the same data structure) and alter the GetSegment() function as follows:  <BR><BR>
+
+Change the line <BR><BR>
+
+<PRE>
+for(i = 0; i < 3; i++)
+	shuffle[i] = (int)(((float)rand()/RAND_MAX)*(listSize - 1));
+</PRE>
+
+to<BR><BR>
+<PRE>
+for(i = 0; i < 3; i++) {
+	shuffle[i] = (int)(((float)rand()/RAND_MAX)*(listSize - 2));
+	if(shuffle[i] == 0) shuffle[i] = 1;
+}
+</PRE>
+
+Changing "(listSize - 1)" to "(listSize - 2)" prevents the code from selecting the last structure in the list.  And making sure that shuffle[i] never equals zero prevents the first element from being selected. <BR><BR>
+</UL>
+<BR><BR>
+Here's a very interesting thing to try:  Turn off the annealing.  That is, turn off the program's ability to select a higher-energy path.  It's astonishing just how fast the list gets trapped in a local minimum!  To turn off the annealing make the following change in Oracle().  <BR><BR>
+
+<PRE>
+if(Edif < 0.0 || exp(-Edif/temperature) > (double)rand()/RAND_MAX) return YES;
+</PRE>
+
+becomes
+
+<PRE>
+if(Edif < 0.0/* || exp(-Edif/temperature) > (double)rand()/RAND_MAX */) return YES;
+</PRE>
+<BR>
+This comments out the part of the code that considers high-energy solutions.  Don't forget to reset the code to the original when you've finished experimenting here.  <BR><BR>
+
+
+Please note that this code is home-spun by yours truly.  The Society for Amateur Scientists is providing it free of change as a service to both the amateur and professional scientist community.  I've run it for several hours on lists ranging in size from 10 to 200 elements and have had no problems with it.  However, I make absolutely no representation that this code is bug-free and that using it won't drop you into a world of hurt, or that making modifications to suit your needs won't trigger some buried ticking bomb.  SO USE IT AT YOUR OWN RISK. If you find any bugs please <a href="mailto:SimAnneal@sas.org"> LET ME KNOW IMMEDIATELY </a>so I can correct them!  Also, I haven't spent too much time trying to speed the code along, so if you see a way to speed things up easily, please chime in! <BR><BR>
+
+This code was compiled using Think C on a Macintosh personal computer.  It annealed the 200 item list in about 1 hour and 22 minutes on a Mac IIvx (24 MHz, or there abouts).  I believe that I have only used standard C techniques and so you should be able to port this easily to any platform.  However, you may have to make some modifications to the code to get it to run on your system.  If so, please let me know so we can make this code of better service to professional and amateur scientists everywhere. <BR><BR>
+
+One last challenge.  If you graph the initial list you'll see that the a traveling salesman would cross over his own path many times if he visited the points in that order.  However, if you graph the best solution, you'll see that a salesman would never cross his own path if he visited the points in that order.  In all the annealed lists I've run I have never seen a good solution where the path crossed itself anywhere.  I suspect that this expresses a deep fact that the minimum solution (and therefore paths that are close to it) has no cross-over points anywhere along the path.  (It's obvious that there should be few crossing, but none?)  For all I know mathematicians may have proven this long ago, or it may not even true.  However, its a very interesting problem to think about.  If it is true, how close to the best solution must one be before one has a high probability of having a path with no crossings?  Also, if this is so, one might be able to stop the algorithm as soon all the cross-over points disappear.  Is this a useful criteria to use in some problems?  Can we develop a new algorithm which minimizes the path length by systematically reducing the number of cross-overs until none remain?  I'm not sure, but this may be a place where amateur scientists can advance computer science.  Think about these problems and let me know what you come up with.  <BR><BR>
+
+
+<a href="mailto:SimAnneal@sas.org">Shawn Carlson</a>
+ <BR><BR>
+
+
+<H2>Amendemnts</H2>
+
+Current Record Holder:  <a href=mailto:"sparky@navpoint.com">Tim Sheridan</a>  But he implies that he's not using simulated annealing!<BR><BR>
+
+I personally verified that Tim's list comes in at a tiny 1050.871!  That is currently the shortest known list.  Hopefully, he'll share his secrets.  <BR><BR>
+
+<H3>Connect to <a href="Sheridan.html">Tim Sheridan's record list. </a> </H3>
+
+Tim's comments follow: <BR><BR>
+
+<PRE>
+Hi,
+I ran the tsp data on my system.  It came out a little shorter.)
+
+Although I used a process that took about 5 minutes.
+It's been a while but I guess it still works.  I recall using all kinds
+of guessing and random stuff in there. (I like to think I coined the
+term "code soup") -perhaps a good name for a future column. :) 
+
+If the path is good then I guess I'll have to take the code apart and
+see what it's doing!
+
+What interests me is there should almost always be a better path..  
+The numbers sugest that anyway.
+
+</PRE>
+<BR><BR>
+
+======================<BR><BR>
+
+Art Adamson has developed the simulated annealing algorithm in Euphoria.  For those of you with an Euphoria interpreter, you can down load the code directly.  <BR><BR>
+
+<H3>Connect to <a href="Euphoria.html">Art Adamson's Euphoria Code</a></H3>
+
+Art used a 120 MHZ Pentium, dos 6.22, Euphoria language and annealed the list of coordinates in init200.dat.  For a closed path, (ie. home to home), gave  the  following  results  on  the  first, second, and third trial.  <BR><BR>
+
+<PRE>
+Trial #  closed path       found at          total                             total time
+               distance             iteration #       iterations
+
+      1     1119.228           7,929,510        102,003,000               19031    seconds
+      2     1115.929          18,454,640        same                           19014
+      3     1099.652            8,506,909        same                           19309
+</PRE>
+
+
+=====================<BR><BR>
+
+And from Jim Hannon:<BR><BR>
+
+<PRE>
+Shawn,
+
+I thought you might like to hear,  I compiled your simulated annealing code under 
+Windows 3.1 with Microsoft visual C++ ver 1.52 and it  compiled with no errors and only 
+4 warnings (nothing important). "Out of the box" the code runs in 3.5 minutes on a 100 
+MHZ 486 machine.  I then tried it under Windows NT with Microsoft visual C++ 4.2.  It 
+compiled with no errors and 5 warnings (nothing important). Under NT it runs in 1.1 
+minutes.
+
+==============================
+</PRE>
+
+</HTML>
+

@@ -1,0 +1,3 @@
+- arrays
+- wiring JS to HTML without injecting JS into HTML.. 
+

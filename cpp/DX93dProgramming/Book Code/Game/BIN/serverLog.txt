@@ -1,0 +1,42 @@
+Log file for Server
+===============================
+Server starting up...
+Creating Spawn point at 4.000000 1.000000 4.000000
+Creating Spawn point at 4.000000 1.000000 13.000000
+Server is creating a player entity
+Received a Spawn Request
+obj 131072 wants to fire.
+spawning rocket with parent 131072, id 262144, yaw 1.600000, pitch -0.080204
+Creating projectile on server at 8.614827 0.659435 11.686148
+launcher is at 8.614827 0.659435 11.686148
+Sucessfully added rocket to world
+[cGameEnt::~cGameEnt] Entering destructor for (4:0)
+[cGameWorld::NotifyRemove] Removing (4:0)
+obj 131072 wants to fire.
+spawning rocket with parent 131072, id 262145, yaw 3.890000, pitch 0.039796
+Creating projectile on server at 26.157894 0.501000 7.212539
+launcher is at 26.157894 0.501000 7.212539
+Sucessfully added rocket to world
+[cGameEnt::~cGameEnt] Entering destructor for (4:1)
+[cGameWorld::NotifyRemove] Removing (4:1)
+obj 131072 wants to fire.
+spawning rocket with parent 131072, id 262146, yaw 3.890000, pitch 0.039796
+Creating projectile on server at 26.157894 0.501000 7.212539
+launcher is at 26.157894 0.501000 7.212539
+Sucessfully added rocket to world
+[cGameEnt::~cGameEnt] Entering destructor for (4:2)
+[cGameWorld::NotifyRemove] Removing (4:2)
+obj 131072 wants to fire.
+spawning rocket with parent 131072, id 262147, yaw 4.448400, pitch 0.049796
+Creating projectile on server at 16.242981 0.647671 4.304135
+launcher is at 16.242981 0.647671 4.304135
+Sucessfully added rocket to world
+[cGameEnt::~cGameEnt] Entering destructor for (4:3)
+[cGameWorld::NotifyRemove] Removing (4:3)
+obj 131072 wants to fire.
+spawning rocket with parent 131072, id 262148, yaw 6.438400, pitch -0.170204
+Creating projectile on server at 2.079981 1.273404 5.142609
+launcher is at 2.079981 1.273404 5.142609
+Sucessfully added rocket to world
+[cGameEnt::~cGameEnt] Entering destructor for (4:4)
+[cGameWorld::NotifyRemove] Removing (4:4)

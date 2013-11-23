@@ -1,0 +1,40 @@
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\MY_DATA\VOLATILE\CPP\vcpp\40to50testprog\Debug\40to50testprog.exe)(HOST=RJKING-PC2)(USER=rking))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.4.0.0 - Production
+  Time: 01-JUN-98 17:35:45
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12538
+    TNS-12538: TNS:no such protocol adapter
+    ns secondary err code: 12560
+    nt main err code: 508
+    TNS-00508: No such protocol adapter
+    nt secondary err code: 0
+    nt OS err code: 0
+
+
+***********************************************************************
+Fatal NI connect error 12203, connecting to:
+ (DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=BEQ)(PROGRAM=oracle80)(ARGV0=oracle80ORCL)(ARGS='(DESCRIPTION=(LOCAL=YES)(ADDRESS=(PROTOCOL=beq)))')))(CONNECT_DATA=(SID=ORCL)(CID=(PROGRAM=C:\MY_DATA\VOLATILE\CPP\vcpp\40to50testprog\Debug\40to50testprog.exe)(HOST=RJKING-PC2)(USER=rking))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 8.0.4.0.0 - Production
+  Time: 01-JUN-98 17:37:59
+  Tracing not turned on.
+  Tns error struct:
+    nr err code: 12203
+    TNS-12203: TNS:unable to connect to destination
+    ns main err code: 12538
+    TNS-12538: TNS:no such protocol adapter
+    ns secondary err code: 12560
+    nt main err code: 508
+    TNS-00508: No such protocol adapter
+    nt secondary err code: 0
+    nt OS err code: 0

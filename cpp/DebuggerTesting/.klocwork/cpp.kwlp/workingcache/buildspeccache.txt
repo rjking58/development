@@ -1,0 +1,2 @@
+C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\DebuggerTesting.cpp;C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\DebuggerTesting.cpp
+C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\stdafx.cpp;C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\stdafx.cpp

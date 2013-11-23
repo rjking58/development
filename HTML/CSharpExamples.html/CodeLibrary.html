@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>C# Examples</title>
+    <link rel="stylesheet" type="text/css" href="CSharpExamples.css" />
+  </head> 
+
+  <body>
+    <div id="header">
+			<h1>Code Library</h1>
+    </div>
+
+    <div id="main">
+		<hr />	
+		<hr />	
+			<h2> C# </h2>
+		<hr />	
+		<hr />	
+		<h3>byte [] to string</h3>
+		<hr />	
+
+		<textarea class="code" cols="120" rows="3">
+System.Text.ASCIIEncoding enc = new System.Text.ASCIIEncoding();
+string str = enc.GetString(xml);
+		</textarea>
+
+		<h3>retrieving results from a run process in .NET and outputting to a multi line text box..</h3>
+		<hr />	
+
+		<textarea class="code" cols="120" rows="24">
+Process myProcess = new Process();
+
+Directory.SetCurrentDirectory(@"C:\Core");
+myProcess.StartInfo.UseShellExecute = false;
+myProcess.StartInfo.RedirectStandardOutput = true;
+myProcess.StartInfo.RedirectStandardError = true;
+myProcess.StartInfo.CreateNoWindow = true;
+myProcess.StartInfo.FileName = @"C:\Program Files\SlikSvn\bin\svn.exe";
+myProcess.StartInfo.Arguments = "status";
+myProcess.Start();
+
+txt_Output.Clear();
+StringBuilder sb = new StringBuilder();
+while( ! myProcess.StandardOutput.EndOfStream)
+{
+	string inputLine = myProcess.StandardOutput.ReadLine();
+	if( ! Regex.IsMatch(inputLine, ".rking.user|.lib|.dll|.pdb|.obj|.ncb|.exe|([dD]ebug$)|(Obj$)"))
+	{
+		sb.Append(inputLine + "\r\n");
+		//Console.WriteLine(inputLine);
+	}
+}
+txt_Output.Text = sb.ToString();
+		</textarea>
+
+		<h3>outputting an arbitrary structure to a multi line text box.</h3>
+		<hr />	
+
+
+		<textarea class="code" cols="120" rows="7">
+StringBuilder sb = new StringBuilder();
+foreach (string currStr in m_outputLog)
+{
+	sb.Append(currStr + "\r\n");
+}
+ResultLog.Text = sb.ToString();
+		</textarea>
+
+		<h3>Validating a text box for integer.. also shows filtering keystrokes to a textbox</h3>
+		<hr />	
+		<textarea class="code" cols="120" rows="22">
+private void ValidateTextBoxForInt(KeyPressEventArgs e,TextBox tb)
+{
+	if( ! char.IsDigit(e.KeyChar))
+	{
+		e.Handled = true;
+	}
+	else
+	{
+		// add to current text field..
+		string fld = tb.Text + e.KeyChar;
+		long tmp = long.Parse(fld);
+		if(tmp > int.MaxValue)
+		{
+			e.Handled = true;	
+		}
+	}
+}
+private void tb_Val1_KeyPress(object sender, KeyPressEventArgs e)
+{
+	ValidateTextBoxForInt(e,tb_Val1);
+}
+
+		</textarea>
+
+		<h3>invoking across thread boundaries..  BeginInvoke will do this asynchronously..</h3>
+		<hr />	
+		<textarea class="code" cols="120" rows="14">
+private delegate void IntUpdater(int result);
+public void UpdateResult(int result)
+{
+	if(this.InvokeRequired)
+	{
+		this.BeginInvoke(new IntUpdater(UpdateResult), 
+				new object[] { result });
+	}
+	else
+	{
+		tb_Result.Text = result.ToString();
+	}
+}
+		</textarea>
+		<hr />	
+		<hr />	
+			<h2> C++ </h2>
+		<hr />	
+		<hr />	
+
+		<h3>STL Iteration example</h3>
+		<hr />	
+
+		<textarea class="code" cols="120" rows="7">
+    for(TestMapVecIter currKey = tst_mapvec.begin ();
+        currKey != tst_mapvec.end();
+        currKey++)
+    {
+        std::cout << "keyval[" << currKey->first << "]" << std::endl;
+    }
+		</textarea>
+
+		<h3>building an STL string</h3>
+		<hr />	
+
+		<textarea class="code" cols="120" rows="7">
+std::ostringstream oss; 
+
+// get version info
+oss << SMEVENT_VERSION_NUMBER << "." << SMEVENT_BUILD_NUMBER; 
+std::string	sVersion = oss.str();
+rspEvent.GetInterface()->SetString(SMEVENT_PARAM_SDKVERSION, sVersion.c_str());
+		</textarea>
+
+
+    </div>
+
+
+    <div id="footer">
+    </div>
+
+  </body>
+</html>
+
+

@@ -1,0 +1,90 @@
+
+// these are the only sprites still in the game...
+
+$spritename sprites/s_explod
+$load baseq2/gfx/sprites/explod03.lbm
+$spriteframe	24	24	56	56
+$spriteframe	120	24	56	56
+$spriteframe	216	24	56	56
+$spriteframe	24	88	56	56
+$spriteframe	120	88	56	56
+$spriteframe	216	88	56	56
+
+$spritename sprites/s_bubble
+$load baseq2/gfx/sprites/bubble.lbm
+$spriteframe	16	16	16	16
+$spriteframe	40	16	16	16
+
+
+$spritename sprites/s_explo2
+$load baseq2/gfx/sprites/small1.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small2.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small3.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small4.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small5.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small6.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/small7.lbm
+$spriteframe	16	16	128	128
+
+$spritename sprites/s_explo3
+$load baseq2/gfx/sprites/rock1.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/rock2.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/rock3.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+$load baseq2/gfx/sprites/rock4.lbm
+$spriteframe	16	16	128	128
+$spriteframe	152	16	128	128
+
+$spritename sprites/s_flash
+$load baseq2/gfx/sprites/flash.lbm
+$spriteframe	 24	 16	96	80
+$spriteframe	136	 16	96	80
+$spriteframe	 24	112	96	80
+
+//$spritename sprites/s_bfg
+//$load baseq2/gfx/sprites/flash2.lbm
+//$spriteframe	136	144	48	48
+//$spriteframe	184	144	48	48
+
+$spritename sprites/s_bfg1
+$load baseq2/gfx/sprites/bfg1.lbm
+$spriteframe	32	32	48	48
+$spriteframe	32	88	48	48
+
+$spritename sprites/s_bfg2
+$load baseq2/gfx/sprites/bfg2.lbm
+$spriteframe	32	32	64	64
+$spriteframe	104	32	64	64
+$spriteframe	32	104	64	64
+$spriteframe	104	104	64	64
+
+$spritename sprites/s_bfg3
+$load baseq2/gfx/sprites/bfg3.lbm
+$spriteframe	24	24	144	144
+$load baseq2/gfx/sprites/bfg4.lbm
+$spriteframe	24	24	144	144
+$load baseq2/gfx/sprites/bfg5.lbm
+$spriteframe	24	24	144	144
+$load baseq2/gfx/sprites/bfg6.lbm
+$spriteframe	24	24	144	144
+$load baseq2/gfx/sprites/bfg7.lbm
+$spriteframe	24	24	144	144
+$load baseq2/gfx/sprites/bfg8.lbm
+$spriteframe	24	24	144	144

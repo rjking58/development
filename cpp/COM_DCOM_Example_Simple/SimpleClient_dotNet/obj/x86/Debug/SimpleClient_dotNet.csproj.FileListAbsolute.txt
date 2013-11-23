@@ -1,0 +1,12 @@
+C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.exe
+C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.pdb
+C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
+C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.exe
+C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
+C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb

@@ -1,0 +1,21 @@
+.main {
+	margin-top:	75px;
+	text-align:	left
+
+}
+
+span.noerrortext {
+	font-weight:bold;
+	color: #000000;
+	padding:5px;
+	background-color:#BBBBBB;
+}
+
+span.errortext {
+	font-weight:bold;
+	color:#555555;
+	padding:5px;
+	background-color:#BBBBBB;
+}
+
+

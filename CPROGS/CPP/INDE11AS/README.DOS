@@ -1,0 +1,19 @@
+# readme. - GNU indent for MS-DOS			-*-Text-*-
+# Copyright (C) 1990 by Thorsten Ohl, ohl@gnu.ai.mit.edu
+
+
+Date: Fri, 27 Jul 90 21:33:25 EDT
+
+This version of GNU indent v1.1 may be compiled with Microsoft C 5.1
+for MS-DOS, other compilers surely need some more work!
+     
+The MS-DOS modifications, although distributed under the GNU General
+Public License, do NOT belong to the official GNU indent distribution.
+     
+Of course the MS-DOS Version of GNU indent comes with ABSOLUTELY NO WARRANTY.
+     
+You can reach me at <ohl@gnu.ai.mit.edu> for bug reports, etc. (but no
+promises).
+     
+Enjoy it!
+-Thorsten Ohl

@@ -1,0 +1,68 @@
+LNFVER 3.2                                       
+  500   -3
+
+!    0   19   -3
+    1  801 log_scr
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+!    1  500    2
+sedwin_Class
+132
+132
+10 15 16 64 1 1 1 0 7 7 7
+
+bd_prompt
+Log
+sedmou_Click
+
+7 1 32000 4 0 0 7340032 32 32
+7 112 0 1 0
+string_funcs
+char *
+log_line1
+@p[0,0]@f{log_line1}pD[@[49,#]]
+
+-1 -1 0 1 0
+string_funcs
+char *
+log_line2
+@p[1,0]@f{log_line2}pD[@[49,#] ]
+
+-1 -1 0 1 0
+string_funcs
+char *
+log_line3
+@p[2,0]@f{log_line3}pD[@[49,#] ]
+
+-1 -1 0 1 0
+string_funcs
+char *
+log_line4
+@p[3,0]@f{log_line4}pD[@[49,#] ]
+
+-1 -1 0 1 0
+string_funcs
+char *
+log_line5
+@p[4,0]@f{log_line5}pD[@[49,#] ]
+
+-1 -1 0 1 0
+str
+!    2  171   -3
+ing_funcs
+char *
+log_line6
+@p[5,0]@f{log_line6}pD[@[49,#] ]
+
+-1 -1 0 1 0
+string_funcs
+char *
+log_line7
+@p[6,0]@f{log_line7}pD[@[49,#] ]
+
+0 0
+0 7 7 112 15 112
+
+
+
+701495290
+                                                                                                                                                                                                                                                                                                                                         

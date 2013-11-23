@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\cpp\FloodBadNamespaces\FloodBadNamespaces\FloodBadNamespaces.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\FloodBadNamespaces\FloodBadNamespaces\MxConsumerIF.idl;;2;0;0

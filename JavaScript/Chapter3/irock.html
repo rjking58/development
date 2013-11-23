@@ -1,0 +1,106 @@
+<html>
+	<head>
+		<title>iRock - The Virtual Pet Rock</title>
+		<link type="text/css" rel="stylesheet" href="iRock.css" />
+
+		<script type="text/javascript" src="cookieUtil.js"></script>
+		<script type="text/javascript">
+			var userName;
+			var timerID;
+			var timerActive = false;
+
+			function clearCookie()
+			{
+				userName = null;
+				eraseCookie("irock_username");
+			}
+			function resizeRock()
+			{
+				var clientVertSize = document.body.clientHeight;
+				var rockSize = document.getElementById("rockImg").style.height;
+
+				var newRockSize = (clientVertSize - 100) * .9;
+				if(newRockSize < 50)
+				{
+					newRockSize = 50;
+				}
+				document.getElementById("rockImg").style.height = newRockSize;
+			}
+			function touchTimeOut()
+			{
+				document.getElementById("rockImg").src = "rock.png";
+				timerActive = false;
+			}
+			function touchRock()
+			{
+				if(userName != null && userName.length > 0)
+				{
+					alert("thanks for the attention " + userName + "!");
+				}
+				else
+				{
+					// get user name..
+					userName=prompt("What is your name?","Enter your name here.");
+
+					// assuming we got something..
+					if (userName)
+					{
+						if(navigator.cookieEnabled)
+						{
+							writeCookie("irock_username",userName,"1");
+							// print the response..
+							// note that the image replacement does NOT run until after the alert has
+							// been cleared by pressing OK.
+							alert("It is good to meet you, " + userName + ".");
+							// and change the image to a happy rock..
+						}
+						else
+						{
+							alert("Cookies aren't supported/enabled in your browser, which means I won't remember you later.  Sorry!");
+						}
+					}
+				}
+				document.getElementById("rockImg").src = "rock_happy.png";
+				if(timerActive)
+				{
+					clearTimeout(timerID);
+					timerActive = false;
+				}
+				timerID = setTimeout("touchTimeOut();",5000);
+				timerActive = true;
+			}
+			function YoYoYo()
+			{
+				resizeRock();
+				if(navigator.cookieEnabled)
+				{
+					userName = readCookie("irock_username");
+				}
+				if(userName == null)
+				{
+					alert ('Yo yo yo! I am your pet rock.');
+				}
+				else
+				{
+					if(userName.length != 0)
+					{
+						alert("Yo " + userName + ", I missed ya!");
+					}
+					else
+					{
+						alert ('Yo yo yo! I am your pet rock.');
+					}
+				}
+			}
+
+		</script>
+	</head>
+
+	<body onload="YoYoYo();" onresize="resizeRock();">
+		<div >
+			<img id="rockImg" src="rock.png" alt="iRock" style="cursor:pointer" onclick="touchRock();" />
+		</div>
+		<button type="button" onclick="clearCookie();">clear name</button>
+	</body>
+</html>
+

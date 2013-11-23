@@ -1,0 +1,449 @@
+
+
+                      Doomsday Command Line Options
+                      -----------------------------
+
+                            by Jaakko Keränen
+                        <skyjake@doomsdayhq.com>
+                               06/27/2004
+
+                       http://www.doomsdayhq.com/
+                      http://deng.sourceforge.net/
+
+
+CONTENTS:
+   1. General options
+   2. Configuration options
+   3. DED options
+   4. Multiplayer options
+        4.1 Options for a server
+        4.2 Options for a client
+   5. Graphics options
+        5.1 Textures
+        5.2 OpenGL renderer
+        5.3 Direct3D renderer
+   6. Sound options
+   7. Plugin options
+        7.1 DeHackEd reader
+   8. Development options
+
+========================================================================
+1. GENERAL OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ @filename                Response file. The given file is read and
+                          its contents are inserted to the command
+                          line, replacing the option itself. E.g.
+                          "@args.rsp".
+
+ --                       Stop processing options. Anything after
+                          this is discarded. Useful in response files.
+
+ -verbose         -v      Be more verbose with console messages. Two
+                          "-verbose" options gives even more messages
+                          (e.g. "-v -v").
+
+ -userdir P       -ud     Sets the working directory. By default the
+                          engine uses the current working directory
+                          (the one in which it was started). Relative
+                          paths in "-game" and "-gl" are not affected.
+
+ -basedir P       -bd     Defines a custom base directory that will
+                          be prepended to some relative paths
+                          (default fonts path, model search paths,
+                          default DED file paths, default WAD file
+                          paths). E.g. the standard distribution uses
+                          "-basedir ..\..", which is the relative
+                          path from the runtime folders to the
+                          Doomsday root folder.
+
+ -stdbasedir      -sbd    Use the standard base directory (..\..).
+
+ -savedir P               Changes the directory where savegames will
+                          be placed. The default is savegame.
+
+ -out F                   Redirects output to the given file. By
+                          default all messages are printed to
+                          Doomsday.out.
+
+ -file F          -f      Loads in the given WAD file as a startup
+                          WAD (i.e. it can't be unloaded with the
+                          unload command). You can give more than one
+                          WAD file as the parameter. An alternative
+                          to "-file" is "-iwad", which works in the
+                          same way.
+
+ -game F          -g      Specifies the game DLL to use (required).
+                          This must either be just the file name
+                          (jDoom.dll) or the full path to the DLL
+                          (C:\Doomsday\Bin\jDoom.dll).
+
+ -maxzone N       -mem    Specify how much memory will be allocated
+                          for the game (N bytes). E.g. to allocate 32
+                          Mbs:
+
+                              -maxzone 32m
+
+ -playdemo F              After initialization loads the given demo
+                          file F (which resides in the Demo
+                          subdirectory), plays it and then quits.
+
+ -timedemo F              After initialization loads the given demo
+                          file F (which resides in the Demo
+                          subdirectory), plays it in singletics mode
+                          (i.e. as fast as possible), displays frame
+                          count information and quits.
+
+ -nowsk                   Disable Windows system keys (Alt-Tab etc).
+
+ -nomouse                 Don't initialize mouse.
+
+ -nojoy                   Don't initialize joystick.
+
+========================================================================
+2. CONFIGURATION OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -config F        -cfg    Specifies the CFG file to use (for example
+                          jDoom.cfg). When the game is quit, console
+                          variable values and key bindings are
+                          written to this file.
+
+ -parse F         -p      After initialization reads the given file
+                          and executes the commands in it (by
+                          treating each read line as a console
+                          command). You can give more than one file
+                          as the parameter.
+
+ -cparse F        -cp     Same as "-parse", but executes the commands
+                          before anything is initialized (right after
+                          console variable values have been read from
+                          the default config file). You can give more
+                          than one file as the parameter.
+
+ -command S       -cmd    After initialization executes the console
+                          command "S". Note that if the command
+                          includes whitespace characters it must be
+                          quoted. E.g. to execute the command:
+
+                              echo "Hello world."
+
+                          you must use the option:
+
+                              -command "echo ""Hello world."""
+
+                          More than one command can be given as a
+                          parameter, either as separate command line
+                          options ("-cmd S S S") or separate console
+                          commands ("-cmd "S; S; S"").
+
+========================================================================
+3. DED OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -def F                   Additional Doomsday Engine Definition files
+                          to read. The specified files are read in
+                          addition to the default DED files.
+
+ -defs F          -d      Specifies the Doomsday Engine Definition
+                          files to read. You can give more than one
+                          DED file as the parameter. When using this
+                          option you must give the name of the
+                          primary DED file first (for example
+                          jDoom.ded).
+
+========================================================================
+4. MULTIPLAYER OPTIONS
+
+........................................................................
+4.1 Options for a server
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -dedicated               Run in dedicated mode. No graphics or
+                          sounds will be initialized. The game will
+                          run in a text mode console.
+
+ -server                  Start running in server mode right after
+                          startup, using TCP/IP as the network
+                          protocol.
+
+........................................................................
+4.2 Options for a client
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -connect IP              Connect to a server running at the
+                          specified IP address immediately after
+                          startup, using TCP/IP. For example:
+                          "-connect 127.0.0.1". The port to use can
+                          be included: "-connect 127.0.0.1:12345".
+
+========================================================================
+5. GRAPHICS OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -gl F            -r      Specifies the rendering DLL to use
+                          (drOpenGL.dll by default). This must either
+                          be just the file name (drD3D.dll) or the
+                          full path to the DLL
+                          (C:\Doomsday\Bin\drD3D.dll).
+
+ -bpp N           -b      Specify the color depth to use. Defaults to
+                          desktop color depth. E.g. "-bpp 32"
+
+ -refresh N               Specify the refresh rate to use in
+                          fullscreen mode. Defaults to the current
+                          display refresh rate. E.g. "-refresh 75"
+
+ -window          -wnd    Start the game in a window. By default the
+                          game runs in fullscreen mode.
+
+ -width N         -w      Game window width or horizontal display
+                          resolution. The default value for this is
+                          taken from the vid-res-x console variable.
+
+ -height N        -h      Game window height or vertical display
+                          resolution. The default value for this is
+                          taken from the vid-res-y console variable.
+
+ -winsize N N     -wh     Game window width and height or display
+                          resolution.
+
+ -xpos N                  Game window X coordinate.
+
+ -ypos N                  Game window Y coordinate.
+
+ -nocenter        -noc    Prevents the game window from being
+                          centered on screen.
+
+ -modeldir P      -md     Uses the given search path instead of the
+                          one specified in the primary DED file.
+
+ -fontdir P       -fd     Looks in the given directory P for the font
+                          files. Defaults to Data\Fonts\.
+
+ -gdifonts                Use Windows' GDI fonts instead of the DFNs.
+
+ -novideo                 Don't initialize video.
+
+ -noramp                  Don't use hardware color settings (gamma,
+                          contrast, brightness).
+
+ -leaveramp               At shutdown, don't reset color settings
+                          (gamma, contrast, brightness) back to the
+                          original values.
+
+ -gfxdir P                Sets the directory where Doomsday graphics
+                          resources are loaded. Defaults to
+                          Data\Graphics.
+
+........................................................................
+5.1 Textures
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -outlines                All letters, sprites, etc. will have black
+                          outlines.
+
+ -bigmtex                 If a masked texture has taller patches than
+                          the texture's height, the engine will
+                          resize the texture so that the largest
+                          patch will fit.
+
+ -anifilter       -ani    Use anisotropic texture filtering.
+
+ -paltex          -ptx    Use paletted textures (if supported by the
+                          hardware).
+
+ -maxtex N                Set maximum texture size to N x N. E.g.
+                          "-maxtex 128" sets the maximum size to 128
+                          x 128 pixels.
+
+ -pwadtex                 Allow using external resources with
+                          textures/flats whose data is read from a
+                          PWAD. By default, external resources are
+                          only used with textures from an IWAD.
+
+ -nohightex               Disable high-resolution (external) textures
+                          and flats.
+
+ -nohighpat               Disable high-resolution (external) patches
+                          and sprites.
+
+ -texdir P        -td     Loads all high-resolution (PNG, TGA, PCX)
+                          textures from the given directory P.
+                          Defaults to Data\<Game>\Textures.
+
+ -texdir2 P       -td2    Secondary high-resolution (PNG, TGA, PCX)
+                          texture directory. This directory is
+                          checked first, so it can be used to
+                          override textures in the normal texture
+                          directory ("-texdir").
+
+ -patdir P                Sets the directory where external resources
+                          for patches are loaded. Defaults to
+                          Data\<Game>\Patches.
+
+ -patdir2 P               Secondary directory for searching external
+                          resources for patches. This is checked
+                          first, so it can be used for overriding
+                          resources in the normal Patches directory.
+
+ -lmdir P                 Sets the directory where light map
+                          resources are loaded. Defaults to
+                          Data\<Game>\LightMaps.
+
+ -lmdir2 P                Secondary directory for light maps
+                          resources. This is checked first, so it can
+                          be used for overriding resources in the
+                          normal LightMaps directory.
+
+........................................................................
+5.2 OpenGL renderer
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -vtxar                   Use vertex arrays. Vertex arrays are
+                          usually enabled by default.
+
+ -novtxar                 Disable vertex arrays. Try this when
+                          experiencing rendering errors.
+
+ -texcomp                 Enable texture compression (if supported by
+                          the OpenGL driver). Compression is disabled
+                          by default.
+
+ -nosgm                   Disable the SGIS_generate_mipmap extension.
+                          Try this when experiencing texture errors.
+
+ -allowsoftware           Allow using the software renderer if no 3D
+                          hardware acceleration is detected (or
+                          reported by Windows).
+
+ -dumptextures            Debug: Writes Targa images out of all the
+                          textures that are loaded (mipmap level
+                          zero).
+
+........................................................................
+5.3 Direct3D renderer
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -d3dcfg                  Display the Direct3D configuration dialog.
+                          The dialog is otherwise only shown if Ctrl,
+                          Shift or Alt is held down when the game is
+                          started.
+
+ -triple                  Enable triple buffering.
+
+ -texbits N               Set texture bit depth. Won't affect the
+                          default configuration in drD3D.ini.
+
+ -zbits N                 Set Z buffer bit depth. Won't affect the
+                          default configuration in drD3D.ini.
+
+ -badtexalpha             Use as few bytes for texture alpha data as
+                          possible (with 16 bit textures causes that
+                          only one bit is used for the alpha data).
+
+ -nodither                Disable dithering.
+
+ -diag                    Print lots of extra information about
+                          Direct3D initialization.
+
+========================================================================
+6. SOUND OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -csd                     Use dsCompat.dll, the DirectSound 6 sound
+                          driver.
+
+ -dummy                   Use the Dummy sound driver (does nothing).
+
+ -sfxchan N               Set the number of sound channels. 16 is the
+                          default.
+
+ -musdir P                Same as "-patdir" but for music resources.
+
+ -musdir2 P               Same as "-patdir2" but for music resources.
+
+ -sfxdir P                Same as "-patdir" but for sound effect
+                          resources.
+
+ -sfxdir2 P               Same as "-patdir2" but for sound effect
+                          resources.
+
+ -mdvol                   Multiply the volume of all MIDI notes by
+                          two. The volume is still capped to the MIDI
+                          maximum of 127, though.
+
+ -eaxignore               Ignore any errors that occur with EAX.
+
+ -nopsf                   Do not set the primary sound buffer format.
+                          Try this option if you notice that the
+                          audio quality of other applications
+                          (including FMOD) degrades when Doomsday is
+                          running.
+
+ -noeax                   Disable EAX.
+
+ -nopitch                 Disable sound effect pitch/frequency
+                          changes.
+
+ -nodop                   Disable doppler effect (with 3D sounds).
+
+ -nosound                 Don't initialize sound or music.
+
+ -nomixer                 Don't use Windows' mixer (used for CD
+                          volume).
+
+ -nosfx                   Don't initialize sound.
+
+ -nomusic                 Don't initialize music.
+
+ -nofmod                  Don't initialize FMOD
+                          (http://www.fmod.org/).
+
+========================================================================
+7. PLUGIN OPTIONS
+
+........................................................................
+7.1 DeHackEd reader
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -deh F                   Applies the Dehacked patch F. You can give
+                          more than one F as arguments, e.g. "-deh
+                          first.deh second.deh".
+
+ -alldehs                 Allows the processing of more than one
+                          DEHACKED lump. Otherwise only the DEHACKED
+                          lump that has been loaded last is
+                          processed. Does not affect the "-deh"
+                          option.
+
+========================================================================
+8. DEVELOPMENT OPTIONS
+
+ Option           Abbr.   Description
+ ----------------------------------------------------------------------
+ -sounddebug              Display lots of sound debug information.
+
+ -dump S                  Writes the specified lump (S) into a file
+                          named (S).DUM and quits.
+
+ -dumpfont                When a font is prepared it is written to a
+                          file named FONT(id number).DFN.
+
+ -dumpwaddir              Prints the names of all the lumps in the
+                          loaded WAD files and quits.
+
+ -dump_pal18to8           Generates a PAL18TO8 palette conversion
+                          table. If you don't know what that means
+                          you don't have to worry about this option.

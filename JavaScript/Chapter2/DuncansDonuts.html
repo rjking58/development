@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Duncan's Just-In-Time Donuts'</title>
+		<link rel="stylesheet" type="text/css" href="donuts.css" />
+		<script type="text/javascript">
+			// converts to number if possible.. returns value convert or 0.
+			// also detects usages of the world 'dozen' and works appropriately..
+			function validateIntNumberField(valToValidate)
+			{
+				// validate contents.. must be nonzero length and number!
+				if(valToValidate.length == 0)
+				{
+					// it is neither.. so just put a 0 in there..
+					validatedValue = 0;
+				}
+				else
+				{
+					// make sure we are all lower case..
+					valToValidate = valToValidate.toLowerCase();
+					// get any number prefix..
+					validatedValue = parseInt(valToValidate);
+					// check if it says 'dozen' somwhere.. if so, multiply by 12.
+					if(valToValidate.indexOf("dozen") != -1)
+					{
+						validatedValue *= 12;
+					}
+				}
+				return validatedValue;
+			}
+			function updateOrder()
+			{
+				const TAXRATE=.0825;
+				const DONUTPRICE=.75;
+
+				var numCakeDonuts = validateIntNumberField(document.getElementById("cakedonuts").value);
+				var numGlazedDonuts=validateIntNumberField(document.getElementById("glazeddonuts").value);
+
+				var subTotal= (numCakeDonuts + numGlazedDonuts) * DONUTPRICE;
+				var tax = subTotal * TAXRATE;
+				var total = subTotal + tax;
+
+				document.getElementById("subtotal").value = "$" + subTotal.toFixed(2);
+				document.getElementById("tax").value = "$" + tax.toFixed(2);
+				document.getElementById("total").value = "$" + total.toFixed(2);
+			}
+			function placeOrder()
+			{
+				form.submit();
+			}
+		</script>
+	</head>
+	<body>
+		<div id="frame">
+			<form name="orderform" action="donuts.php" method="post" >
+			
+				<div class="field">
+					# of cake donuts: <input type="text" id="cakedonuts" name="cakedonuts" value="" onchange="updateOrder();" />
+				</div>
+				<div class="field">
+					# of glazed donuts: <input type="text" id="glazeddonuts" name="glazeddonuts" value="" onchange="updateOrder();" />
+				</div>
+				<div class="field">
+					subtotal: <input type="text" id="subtotal" name="subtotal" value="" />
+				</div>
+				<div class="field">
+					tax: <input type="text" id="tax" name="tax" value="" />
+				</div>
+				<div class="field">
+					total: <input type="text" id="total" name="total" value="" />
+				</div>
+
+			</form>
+
+		</div>
+		<p>
+			<a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a>
+		</p>
+
+	</body>
+</html>

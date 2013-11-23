@@ -1,0 +1,9 @@
+  CLASS2.CPP(0019) 01:04.29: Entering-> "myclass::myclass" 
+  CLASS2.CPP(0028) 01:07.26: Exiting-> "myclass::myclass" 
+  CLASS2.CPP(0074) 01:08.46: before display
+  CLASS2.CPP(0052) 01:09.08: Entering-> "display" 
+  CLASS2.CPP(0041) 01:09.14: Entering-> "myclass::getval" 
+  CLASS2.CPP(0055) 01:09.55: Exiting-> "display" 
+  CLASS2.CPP(0032) 01:09.59: Entering-> "myclass::~myclass" 
+  CLASS2.CPP(0034) 01:09.59: freeing val
+  CLASS2.CPP(0037) 01:09.59: Exiting-> "myclass::~myclass" 

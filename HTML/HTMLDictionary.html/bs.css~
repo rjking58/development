@@ -1,0 +1,25 @@
+.bs-solid {
+	border-style: solid;
+}
+.bs-double {
+	border-style: double;
+}
+.bs-groove {
+	border-style: groove;
+}
+.bs-outset {
+	border-style: outset;
+}
+.bs-dotted {
+	border-style: dotted;
+}
+.bs-dashed {
+	border-style: dashed;
+}
+.bs-inset {
+	border-style: inset;
+}
+.bs-ridge {
+	border-style: ridge;
+}
+

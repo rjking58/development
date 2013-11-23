@@ -1,0 +1,3 @@
+version;104
+config;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe;-e;ms;-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;-Jc:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;-JC:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include;-D_MSC_VER=1600;-D_WIN32;-D_M_IX86
+compile;C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe;Debug\DebuggerTesting.obj;C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\DebuggerTesting.cpp;-DWIN32;-D_DEBUG;-D_CONSOLE;-D_UNICODE;-DUNICODE;-D_CPPUNWIND;-Zc:wchar_t;-Zc:forScope;-YuStdAfx.h;-FpDebug\DebuggerTesting.kwpch

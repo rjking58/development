@@ -1,0 +1,137 @@
+#pragma once
+
+#include "DataClient.idl"
+
+typedef
+[
+	uuid(441AC761-08A3-4B41-804C-917C60D0C9CF),
+	version(1.0),
+    helpstring("ItemRegistrationResponse Struture")
+]
+struct ItemRegistrationResponse
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+    [helpstring("User Data")]			unsigned __int64    UserData;
+    [helpstring("Status")]				HRESULT             Status;
+	[helpstring("Write Capability")]	int					WriteCapability;
+} ItemRegistrationResponse;
+
+typedef
+[
+	uuid(BD6BACE0-9002-44C5-8B7A-8119751F160A),
+	version(1.0),
+    helpstring("ItemSubscriptionResponse Struture")
+]
+struct ItemSubscriptionResponse
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+    [helpstring("User Data")]			unsigned __int64    UserData;
+    [helpstring("Status")]				HRESULT             Status;
+} ItemSubscriptionResponse;
+
+typedef
+[
+	uuid(B960F7E2-A583-49D3-8B15-DB3FE37F718B),
+	version(1.0),
+    helpstring("ItemUnregisterResponse Struture")
+]
+struct ItemUnregisterResponse
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+    [helpstring("Status")]				HRESULT             Status;
+} ItemUnregisterResponse;
+
+typedef struct _ItemDataUpdate
+{
+    unsigned __int64    ItemId;
+    unsigned long		StatusCode;
+    unsigned long		StatusDetail;
+    FILETIME			Timestamp;
+    unsigned long		Quality;
+    IVariant			Value;
+} ItemDataUpdate;
+
+typedef
+[
+	uuid(FF261F10-8BF9-4CEE-85D3-11D3D530EF9E),
+	version(1.0),
+    helpstring("ItemDataUpdate2 Struture")
+]
+struct ItemDataUpdate2
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+	[helpstring("Status")]				unsigned long		StatusCode;
+    //[helpstring("FILETIME")]			FILETIME			Timestamp;
+    [helpstring("HighDateTime")]		unsigned int        HighDateTime;
+    [helpstring("LowDateTime")]		    unsigned int        LowDateTime;
+    [helpstring("Quality")]				unsigned long		Quality;
+    [helpstring("Value")]				IDataVariant	    Value;
+} ItemDataUpdate2;
+
+typedef
+[
+	uuid(5799A991-D9C1-4513-BB6C-D2D91E65F0E5),
+	version(1.0),
+    helpstring("ItemWriteResponse Struture")
+]
+struct ItemWriteResponse
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+    [helpstring("User Data")]			unsigned __int64    UserData;
+    [helpstring("Status")]				HRESULT             Status;
+} ItemWriteResponse;
+
+typedef
+[
+	uuid(E671ED95-A301-4761-97F9-103D15CBCDF7),
+	version(1.0),
+    helpstring("ItemActiveResponse Struture")
+]
+struct ItemActiveResponse
+{
+    [helpstring("Item Id")]				unsigned __int64    ItemId;
+    [helpstring("User Data")]			unsigned __int64    UserData;
+    [helpstring("Status")]				HRESULT             Status;
+} ItemActiveResponse;
+
+typedef
+[
+    uuid(1FDA8A16-06B0-413D-BEB3-C764BDCB352A), 
+    version(1.0),
+    helpstring("MxResultCode Struture")
+]
+struct MxResultCode
+{
+    [helpstring("Namespace Id")]		long			lNamespaceId;
+    [helpstring("ErrCode")]				HRESULT			ErrorCode;
+	[helpstring("ArchestrA ErrCode")]	unsigned int	ArchestrErrorCode;
+	[helpstring("Specific ErrCode")]	unsigned int	ArchestrSpecific;
+	[helpstring("ArchestrA Status")]	unsigned int	ArchestrStatus;
+} MxResultCode;
+
+[
+    object,
+    uuid(FA990F6C-2F68-4C46-84F7-0A0279ADFA99)
+]
+/* {vb}
+Interface implemented by MxDataConsumer clients and called by 
+MxDataConsumer to notify of status of operations.
+*/
+interface IDataConsumerCallback : IUnknown
+{
+    /*
+    Description:
+    Notifies clients that the namespace has been resolved.
+
+    Returns:
+    S_OK		-  Success
+    E_FAIL		-  Failure
+    */
+    HRESULT NamespaceResolved
+    (
+        /*
+        This is the id of the namespace that has been resolved.
+        */
+	    [in] long lNamespaceId
+    );
+};

@@ -1,0 +1,22 @@
+﻿Build started 7/26/2013 11:31:08 AM.
+     1>Project "C:\Volatile\Development\Source\cpp\FloodBadNamespaces\FloodBadNamespaces\FloodBadNamespaces.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\FloodBadNamespaces.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Midl:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\FloodBadNamespaces.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FloodBadNamespaces.cpp
+         FloodBadNamespaces.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\FloodBadNamespaces\Debug\FloodBadNamespaces.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Volatile\Development\Source\cpp\FloodBadNamespaces\Debug\FloodBadNamespaces.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\FloodBadNamespaces\Debug\FloodBadNamespaces.lib" /MACHINE:X86 Debug\FloodBadNamespaces.obj
+         Debug\stdafx.obj
+         FloodBadNamespaces.vcxproj -> C:\Volatile\Development\Source\cpp\FloodBadNamespaces\Debug\FloodBadNamespaces.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\FloodBadNamespaces.unsuccessfulbuild".
+         Touching "Debug\FloodBadNamespaces.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\cpp\FloodBadNamespaces\FloodBadNamespaces\FloodBadNamespaces.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.57

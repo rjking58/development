@@ -1,0 +1,271 @@
+/*
+===============================================================================
+
+WORLD WEAPONS
+
+===============================================================================
+*/
+
+$cd weapons/g_bfg
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_bfg
+
+$cd weapons/g_blast
+$origin 0 0 -8
+$base base
+$skin base
+$frame g_blast
+
+$cd weapons/g_chain
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_chain
+
+$cd weapons/g_disint
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_disint
+
+$cd weapons/g_flareg
+$origin 0 0 -16
+$base base
+$skin base
+$frame g_flareg
+
+$cd weapons/g_hyperb
+$origin 0 0 0
+$base base
+$skin skin
+$frame g_hyperb
+
+$cd weapons/g_launch
+$origin 0 0 -16
+$base base
+$skin skin
+$frame g_launch
+
+$cd weapons/g_machn
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_machn
+
+$cd weapons/g_rail
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_rail
+
+$cd weapons/g_rocket
+$origin 0 0 -16
+$base base
+$skin skin
+$frame g_rocket
+
+$cd weapons/g_shotg
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_shotd
+
+$cd weapons/g_shotg2
+$origin 0 0 -8
+$base base
+$skin skin
+$frame g_shotg2
+
+/*
+===============================================================================
+
+VIEW WEAPONS
+
+===============================================================================
+*/
+
+$cd weapons/v_bfg
+$origin 7 12 10
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06 active07 active08 active09
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10
+$frame pow11 pow12 pow13 pow14 pow15 pow16 pow17 pow18 pow19 pow20
+$frame pow21 pow22 pow23
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23
+$frame putway01 putway02 putway03 putway04
+
+$cd weapons/v_blast
+$origin 7 9 52
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05
+$frame pow01 pow02 pow03 pow04
+$frame idle101 idle102 idle103 idle104 idle105 idle106 idle107 idle108 idle109 idle110
+$frame idle111 idle112 idle113 idle114 idle115 idle116 idle117 idle118 idle119 idle120
+$frame idle121 idle122 idle123 idle124
+$frame idle201 idle202 idle203 idle204 idle205 idle206 idle207 idle208 idle209 idle210
+$frame idle211 idle212 idle213 idle214 idle215 idle216 idle217 idle218 idle219 idle220
+$frame putway01 putway02 putway03
+
+$cd weapons/v_chain
+$origin 7 2 53
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10
+$frame pow11 pow12 pow13 pow14 pow15 pow16 pow17 pow18 pow19 pow20
+$frame pow21 pow22 pow23 pow24 pow25 pow26 pow27
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09
+$frame idle10 idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18
+$frame idle19 idle20 idle21 idle22 idle23 idle24 idle25 idle26 idle27
+$frame idle28 idle29 idle30
+$frame putway01 putway02 putway03
+
+//$cd weapons/v_chain/flash
+//$origin 7 2 53
+//$base base
+//$skin base
+//$frame flash01 flash02 flash03 flash04 flash05 flash06 flash07 flash08
+//$frame flash09 flash10 flash11 flash12 flash13 flash14 flash15 flash16
+//$frame flash17 flash18 flash19 flash20 flash21 flash22 flash23 flash24
+//$frame flash25 flash26 flash27 flash28 flash29 flash30 flash31 flash32
+//$frame flash33 flash34 flash35 flash36 flash37 flash38
+
+
+$cd weapons/v_disint
+$origin 7 12 10
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06 active07 active08 active09
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10 pow11 pow12 pow13 pow14 pow15
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23
+$frame putway01 putway02 putway03 putway04
+
+$cd weapons/v_flareg
+$origin 14 28 27
+$base base
+$skin base
+$frame active01 active02 active03 active04 active05 active06 active07 active08 active09
+$frame pow01 pow02 pow03 pow04 pow05
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29 idle30
+$frame idle31 idle32 idle33 idle34 idle35 idle36
+$frame putway01 putway02 putway03 putway04
+
+$cd weapons/v_handgr
+$origin 0 0 8
+$base base
+$skin skin
+$frame throw01 throw02 throw02 throw04 throw05 throw06 throw07 throw08 throw09 throw10
+$frame throw11 throw12 throw13 throw14 throw15 throw16
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29 idle30
+$frame idle31 idle32 idle33
+
+$cd weapons/v_hyperb
+$origin 6 7 11
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06
+//$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10
+$frame pow11 pow12 pow13 pow14 pow15 pow16 pow17 pow18 pow19 pow20
+$frame pow21 pow22 pow23 pow24 pow25
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29
+$frame putway01 putway02 putway03 putway04
+
+$cd weapons/v_launch
+$origin 7 8 10
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06 active07
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10 pow11
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29 idle30
+$frame idle31 idle32 idle33 idle34 idle35 idle36 idle37 idle38 idle39 idle40
+$frame idle41 idle42 idle43
+$frame putway01 putway02 putway03 putway04 putway05
+
+$cd weapons/v_machn
+$origin 9 14 53
+$base base
+$skin skin
+$frame active01 active02 active03 active04
+$frame pow01 pow02
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09
+$frame idle10 idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18
+$frame idle19 idle20 idle21 idle22 idle23 idle24 idle25 idle26 idle27
+$frame idle28 idle29 idle30 idle31 idle32 idle33 idle34 idle35 idle36
+$frame idle37 idle38 idle39 idle40
+$frame putway01 putway02 putway03 putway04
+
+//$cd weapons/v_machn/flash
+//$origin 9 14 53
+//$base base
+//$skin skin
+//$frame flash01 flash02 flash03 flash04 flash05
+
+$cd weapons/v_rail
+$origin 7 8 53
+$base base
+$skin skin
+$frame active01 active02 active03 active04
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08
+$frame pow09 pow10 pow11 pow12 pow13 pow14 pow15
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09
+$frame idle10 idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18
+$frame idle19 idle20 idle21 idle22 idle23 idle24 idle25 idle26 idle27
+$frame idle28 idle29 idle30 idle31 idle32 idle33 idle34 idle35 idle36
+$frame idle37 idle38
+$frame putway01 putway02 putway03 putway04 putway05
+
+$cd weapons/v_rocket
+$origin 6 5 8
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29 idle30
+$frame idle31 idle32 idle33 idle34 idle35 idle36 idle37 idle38
+$frame putway01 putway02 putway03 putway04
+
+$cd weapons/v_shotg
+$origin 8 12 54
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06 active07 active08
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10 pow11
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09
+$frame idle10 idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18
+$frame putway01 putway02 putway03
+
+//$cd weapons/v_shotg/flash2
+//$origin 8 12 54
+//$base base
+//$skin skin
+//$frame flash1
+
+$cd weapons/v_shotg2
+$origin 6 7 11
+$base base
+$skin skin
+$frame active01 active02 active03 active04 active05 active06 active07
+$frame pow01 pow02 pow03 pow04 pow05 pow06 pow07 pow08 pow09 pow10 pow11
+$frame idle01 idle02 idle03 idle04 idle05 idle06 idle07 idle08 idle09 idle10
+$frame idle11 idle12 idle13 idle14 idle15 idle16 idle17 idle18 idle19 idle20
+$frame idle21 idle22 idle23 idle24 idle25 idle26 idle27 idle28 idle29 idle30
+$frame idle31 idle32 idle33 idle34 idle35 idle36 idle37 idle38 idle39 idle40
+$frame putway01 putway02 putway03 putway04

@@ -1,0 +1,170 @@
+--------------------Configuration: gamex86 - Win32 Release--------------------
+Begining build with project "c:\VOLATILE\SOURCE\CPROGS\CPP\Q2DEVELS\GAME\gamex86\gamex86.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/gamex86.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Release/gamex86.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/gamex86.pdb" /machine:I386 /out:"Release/gamex86.dll" /implib:"Release/gamex86.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSPB081.TMP" with contents </nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/gamex86.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_chase.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_cmds.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_combat.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_func.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_items.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_main.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_misc.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_monster.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_phys.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_save.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_spawn.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_svcmds.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_target.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_trigger.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_turret.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_utils.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_weapon.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_actor.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_berserk.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_boss2.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_boss3.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_boss31.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_boss32.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_brain.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_chick.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_flash.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_flipper.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_float.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_flyer.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_gladiator.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_gunner.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_hover.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_infantry.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_insane.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_medic.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_move.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_mutant.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_parasite.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_soldier.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_supertank.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\m_tank.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\p_client.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\p_hud.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\p_trail.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\p_view.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\p_weapon.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\q_shared.c"
+"C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\g_ai.c"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSPB081.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSPB082.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:no /pdb:"Release/gamex86.pdb" /machine:I386 /out:"Release/gamex86.dll" /implib:"Release/gamex86.lib" 
+.\Release\g_chase.obj
+.\Release\g_cmds.obj
+.\Release\g_combat.obj
+.\Release\g_func.obj
+.\Release\g_items.obj
+.\Release\g_main.obj
+.\Release\g_misc.obj
+.\Release\g_monster.obj
+.\Release\g_phys.obj
+.\Release\g_save.obj
+.\Release\g_spawn.obj
+.\Release\g_svcmds.obj
+.\Release\g_target.obj
+.\Release\g_trigger.obj
+.\Release\g_turret.obj
+.\Release\g_utils.obj
+.\Release\g_weapon.obj
+.\Release\m_actor.obj
+.\Release\m_berserk.obj
+.\Release\m_boss2.obj
+.\Release\m_boss3.obj
+.\Release\m_boss31.obj
+.\Release\m_boss32.obj
+.\Release\m_brain.obj
+.\Release\m_chick.obj
+.\Release\m_flash.obj
+.\Release\m_flipper.obj
+.\Release\m_float.obj
+.\Release\m_flyer.obj
+.\Release\m_gladiator.obj
+.\Release\m_gunner.obj
+.\Release\m_hover.obj
+.\Release\m_infantry.obj
+.\Release\m_insane.obj
+.\Release\m_medic.obj
+.\Release\m_move.obj
+.\Release\m_mutant.obj
+.\Release\m_parasite.obj
+.\Release\m_soldier.obj
+.\Release\m_supertank.obj
+.\Release\m_tank.obj
+.\Release\p_client.obj
+.\Release\p_hud.obj
+.\Release\p_trail.obj
+.\Release\p_view.obj
+.\Release\p_weapon.obj
+.\Release\q_shared.obj
+.\Release\g_ai.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSPB082.TMP" 
+Compiling...
+g_chase.c
+g_cmds.c
+g_combat.c
+g_func.c
+g_items.c
+g_main.c
+g_misc.c
+g_monster.c
+g_phys.c
+g_save.c
+g_spawn.c
+g_svcmds.c
+g_target.c
+g_trigger.c
+g_turret.c
+g_utils.c
+g_weapon.c
+m_actor.c
+m_berserk.c
+m_boss2.c
+m_boss3.c
+m_boss31.c
+m_boss32.c
+m_brain.c
+m_chick.c
+m_flash.c
+m_flipper.c
+m_float.c
+m_flyer.c
+m_gladiator.c
+m_gunner.c
+m_hover.c
+m_infantry.c
+m_insane.c
+m_medic.c
+m_move.c
+m_mutant.c
+m_parasite.c
+m_soldier.c
+m_supertank.c
+m_tank.c
+p_client.c
+p_hud.c
+p_trail.c
+p_view.c
+p_weapon.c
+q_shared.c
+C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\q_shared.c(10) : warning C4081: expected 'string'; found 'constant'
+C:\volatile\Source\Cprogs\Cpp\q2DevelS\game\q_shared.c(69) : warning C4081: expected 'string'; found 'constant'
+g_ai.c
+Linking...
+
+
+
+gamex86.dll - 0 error(s), 2 warning(s)

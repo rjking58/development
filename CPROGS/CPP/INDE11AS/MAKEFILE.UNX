@@ -1,0 +1,123 @@
+# Copyright (c) 1987 Regents of the University of California.
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms are permitted
+# provided that the above copyright notice and this paragraph are
+# duplicated in all such forms and that any documentation,
+# advertising materials, and other materials related to such
+# distribution and use acknowledge that the software was developed
+# by the University of California, Berkeley.  The name of the
+# University may not be used to endorse or promote products derived
+# from this software without specific prior written permission.
+# THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+# WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+#
+#	@(#)Makefile	5.9 (Berkeley) 9/15/88
+#
+# $Header: e:/gnu/indent/RCS/makefile.'v 1.1.0.3 90/07/02 20:22:49 tho Exp $
+#
+
+BINDIR	= c:/bin
+
+# MSC 5.1 bombs with -Oailt -Gs, we have not yet taken pains to spot
+# the faulty module.
+# Floating point makes no sense, pretending to use the alternate library
+# prevents the dumb linker from loading to much floating point code.
+
+CFLAGS	= -AH -FPa -Oilt -Gs -W3
+LDFLAGS	= /e/st:0x2000
+
+SRCS	= indent.c io.c lexi.c parse.c pr_comment.c args.c globs.c
+OBJS	= indent.obj io.obj lexi.obj parse.obj pr_comment.obj \
+	  args.obj globs.obj
+HEADERS	= indent_g.h version.h
+
+all: indent.exe
+
+indent.exe: $(OBJS)
+	$(LINK) $(LDFLAGS) $(OBJS), $@;
+
+zip:
+	pkzip -f indent'v
+
+disk:
+	cp indent'v.zip b:/indent'v.zip
+	pkunzip -t b:/indent'v | grep -vw OK
+
+$(OBJS): indent_globs.h
+args.obj: version.h
+
+install:
+	cp indent.exe $(BINDIR)
+
+clean:
+	rm -f *.exe *.obj errs tags
+	rcsclean *.c *.h
+
+tags: $(SRCS) $(HEADERS)
+	etags -t *.h *.c
+
+
+
+#
+# Copyright (c) 1987 Regents of the University of California.
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms are permitted
+# provided that the above copyright notice and this paragraph are
+# duplicated in all such forms and that any documentation,
+# advertising materials, and other materials related to such
+# distribution and use acknowledge that the software was developed
+# by the University of California, Berkeley.  The name of the
+# University may not be used to endorse or promote products derived
+# from this software without specific prior written permission.
+# THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+# IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+# WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+#
+#	@(#)Makefile	5.9 (Berkeley) 9/15/88
+#
+CFLAGS=	-O
+SRCS=	indent.c io.c lexi.c parse.c pr_comment.c args.c globs.c
+OBJS=	indent.o io.o lexi.o parse.o pr_comment.o args.o globs.o
+HEADERS= indent_globs.h version.h
+MAN=	indent.texinfo ChangeLog Projects
+TARFILES= ${SRCS} Makefile ${MAN} ${HEADERS} indent.gperf
+# -g is here rather than in CFLAGS since many versions of cc do not
+# allow -g with -O
+CC=gcc -g
+
+all: indent
+
+indent: ${OBJS}
+	${CC} -o $@ ${CFLAGS} ${OBJS}
+
+indent.tar.Z: ${TARFILES}
+	rm -f indent.tar.Z
+	mkdir dist-indent
+	cd dist-indent ; for i in ${TARFILES} ; do ln -s ../$$i . ; done
+# Note: requires GNU tar
+	tar -c -h -z -f indent.tar.Z dist-indent
+	rm -rf dist-indent
+
+${OBJS}: indent_globs.h
+args.o: version.h
+
+clean:
+	rm -f ${OBJS} core indent
+
+cleandir: clean
+	rm -f ${MAN} tags .depend
+
+depend: ${SRCS}
+	mkdep ${CFLAGS} ${SRCS}
+
+lint: ${SRCS}
+	lint ${CFLAGS} ${SRCS}
+
+tags: ${SRCS}
+	ctags ${SRCS} ${HEADERS}
+
+
+

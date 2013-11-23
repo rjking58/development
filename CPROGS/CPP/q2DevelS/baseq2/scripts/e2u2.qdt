@@ -1,0 +1,584 @@
+$load baseq2/gfx/gamepal.lbm
+$mippal
+$mipdir e2u2		
+
+;========== unused      unused =========
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/metal.lbm
+;metal1_1          16      16      64      128
+;metal1_2          88      16      64      128
+;metal1_3          160     16      64      128
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/concret.lbm
+;con1_1            16      16      64      128
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/bigmet.lbm
+;bmet1_1           16      16      128     128
+;bmet1_2           152     16      128     128
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/metal2.lbm
+;metal2_1          16      16      64      64
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/hex_flr.lbm
+;hex1_1            16      16      64      64
+
+;$load baseq2/gfx/textures/episode2/refinery/unused/floor3.lbm
+;floor3_1          16             16      64      64
+;floor3_2          88      16      64      64
+
+;======== unused        unsused =========
+
+
+;============ TEMP TEMP ==============
+$load baseq2/gfx/textures/episode2/mines/minedr01.lbm
+$mip     minedr1                   16              16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/cable.lbm
+$mip     cable1_1                  16              16              64              128
+
+$load baseq2/gfx/textures/episode2/refinery/bigpipe9.lbm
+$mip     pipe9_1           16              16              128             128
+$mip     pipe9_2           152             16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/signs.lbm
+$mip     sign1_1           16              16              128             128
+$mip     sign1_2           152             16              128             128
+$mip     sign1_3				16				152				128				48
+$mip     sign1_4				152				152				128				48
+
+$load baseq2/gfx/textures/episode2/refinery/notch04.lbm
+$mip     notch4_1                  16              16              128             128
+$mip     notch4_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/notch03.lbm
+$mip     notch3_1                  16              16              128             128
+$mip     notch3_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/notch02.lbm
+$mip     notch2_1                  16              16              128             128
+$mip     notch2_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/notch01.lbm
+$mip     notch1_1                  16              16              128             128
+$mip     notch1_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/bigpipe7.lbm
+$mip     pipe7_1                   16              16              64              96
+$mip     pipe7_2                   224             16              64              96
+$mip     pipe7_3                   88              16              128             128
+
+$load baseq2/gfx/textures/episode2/refinery/refdr9.lbm
+$mip     refdr9_1      16              16              32              96
+$mip     refdr9_2                  56              16              32              96
+$mip     refdr9_3                  96              16              32              96
+$mip     refdr9_4                  136             16              32              96
+
+$load baseq2/gfx/textures/episode1/base/timpod5.lbm
+$mip     timpod5_1      16              16              64              80
+
+$load baseq2/gfx/textures/episode2/refinery/refdr5.lbm
+$mip     refdr1_1                  16              16              64              96
+$mip     refdr1_2                  88              16              64              96
+$mip     refdr1_3                  160             16              64              96
+$mip     refdr1_4                  232             16              64              96
+
+$load baseq2/gfx/textures/episode2/refinery/comp3.lbm
+$mip     comp3_1	           16              16              64              64
+$mip     comp3_2	           88              16              64              64
+$mip     comp3_3	           160             16              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/refdr6.lbm
+$mip     refdr2_1                  16              16              64              96
+$mip     refdr2_2                  88              16              64              96
+$mip     refdr2_3                  160             16              64              96
+$mip     refdr2_4                  232             16              64              96
+
+
+$load baseq2/gfx/textures/episode2/refinery/refdr7.lbm
+$mip     refdr3_1                  16              16              64              96
+$mip     refdr3_2                  88              16              64              96
+$mip     refdr3_3                  160             16              64              96
+$mip     refdr3_4                  232             16              64              96
+
+
+$load baseq2/gfx/textures/episode2/refinery/refdr8.lbm
+$mip     refdr4_1                  16              16              64              96
+$mip     refdr4_2                  88              16              64              96
+$mip     refdr4_3                  160             16              64              96
+$mip     refdr4_4                  232             16              64              96
+
+
+$load baseq2/gfx/textures/episode1/temp/bas_flr.lbm
+$mip     temp1_2           88      16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/belt.lbm
+$mip     belt1_1          16      16      112      32
+$mip     belt1_2          128     16      32       32
+
+$load baseq2/gfx/textures/episode2/refinery/ref_flr.lbm
+$mip     flr1_1          16      16      64      64
+$mip     flr1_2          88      16      64      64
+$mip     flr1_3          160     16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/gears6.lbm
+$mip     gear6_1           16      16      128     128
+$mip     gear6_2           152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/gears7.lbm
+$mip     gear7_1           16      16      128     128
+$mip     gear7_2           152     16      64      64
+$mip     gear7_3           152     88      64      64
+$mip     gear7_4           224     16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/arrows3.lbm
+$mip     pipe3_1           16              16              64              64
+$mip     pipe3_2           88              16              64              64
+$mip     pipe3_3           160             16              64              64
+$mip     pipe3_4           232             16              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/arrows2.lbm
+$mip     pipe2_1           16              16              64              64
+$mip     pipe2_2           88              16              64              64
+$mip     pipe2_3           160             16              64              64
+$mip     pipe2_4           232             16              64              64
+$mip     pipe2_5           16              88              64              64
+$mip     pipe2_6           88              88              64              64
+$mip     pipe2_7           160             88              64              64
+$mip     pipe2_8           232             88              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/arrows.lbm
+$mip     pipe1_1           16              16              64              64
+$mip     pipe1_2           88              16              64              64
+$mip     pipe1_3           160             16              64              64
+$mip     pipe1_4           232             16              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/floor1.lbm
+$mip     floor1_1         16              16              64              64
+$mip     floor1_2         88              16              64              64
+$mip     floor1_3         160             16              64              64
+$mip     floor1_4         232             16              64              64
+$mip     floor1_5         16              88              64              64
+$mip     floor1_6         88              88              64              64
+$mip     floor1_7         160             88              64              64
+$mip     floor1_8         232             88              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/floor2.lbm
+$mip     floor2_1          16              16              64              64
+$mip     floor2_2          88              16              64              64
+$mip     floor2_3          160             16              64              64
+$mip     floor2_4          232             16              64              64
+$mip     floor2_5          16              88              64              64
+$mip     floor2_6          88              88              64              64
+$mip     floor2_7          160             88              64              64
+$mip     floor2_8          232             88              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/comp5.lbm
+$mip     comp5_1			16		16		128		128
+$mip     comp5_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode2/refinery/comp4.lbm
+$mip     comp4_1			16		16		128		128
+$mip     comp4_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode2/refinery/lava2.lbm
+$mip     tlava1_1        16              16              64              64 light 300 lava warping
+$mip     tlava1_2        88              16              64              64 light 300 lava warping
+$mip     tlava1_3        160             16              64              64 light 300 lava warping
+$mip     tlava1_4        232             16              64              64 light 300 lava warping
+$mip     tlava1_5        16              88              64              64 light 300 lava warping
+$mip     tlava1_6        88              88              64              64 light 300 lava warping
+
+$load baseq2/gfx/textures/episode2/refinery/metal46.lbm
+$mip     metal46_1          16      16      64      128
+$mip     metal46_2          88      16      64      128
+$mip     metal46_3          160     16      64      128
+$mip     metal46_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/flesh.lbm
+$mip     flesh1_1          16              16              64              64		slime light 100 warping
+$mip     flesh1_2          88              16              64              64		slime light 100 warping
+
+$load baseq2/gfx/textures/episode2/refinery/metal41.lbm
+$mip     metal41_1                  16      16      128     128
+$mip     metal41_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal42.lbm
+$mip     metal42_1                  16      16      128     128
+$mip     metal42_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal43.lbm
+$mip     metal43_1                  16      16      128     128
+$mip     metal43_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal44.lbm
+$mip     metal44_1                  16      16      128     128
+$mip     metal44_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal45.lbm
+$mip     metal45_1                  16      16      128     128
+$mip     metal45_2                  152     16      128     128
+
+;============ TEMP TEMP =============
+
+;============= MINE ================
+
+$load baseq2/gfx/textures/episode1/base/comp1.lbm
+$mip     comp1_1   16      16      64      64
+$mip     comp1_2   88      16      64      64
+$mip     comp1_3   160     16      64      64
+$mip     comp1_4   232     16      64      64
+$mip     comp1_5   16      88      64      64
+$mip     comp1_6   88      88      64      64
+$mip     comp1_7   160     88      64      64
+$mip     comp1_8   232     88      64      64
+
+$load baseq2/gfx/textures/episode1/base/comp2.lbm
+$mip     comp2_1   16      16      32      32
+$mip     comp2_2   56      16      32      32
+$mip     comp2_3   96      16      32      32
+$mip     comp2_4   136     16      32      32
+$mip     comp2_5   176     16      32      32
+$mip     comp2_6   216     16      32      32
+$mip     comp2_7   16      56      48      48
+$mip     comp2_8   64      56      48      48
+$mip     comp2_9   112     56      48      48
+$mip     comp2_a   160     56      48      48
+$mip     comp2_b   208     56      48      48
+$mip     comp2_c   256     56      48      48
+$mip     comp2_d   16      104     48      48
+
+$load baseq2/gfx/textures/episode1/base/comp3.lbm
+$mip     comp3_1   16      16      64      64
+$mip     comp3_2   88      16      64      64
+$mip     comp3_3   160     16      64      64
+$mip     comp3_4   232     16      64      64
+$mip     comp3_5   16      88      64      64
+$mip     comp3_6   88      88      64      64
+$mip     comp3_7   160     88      64      64
+$mip     comp3_8   232     88      64      64
+
+$load baseq2/gfx/textures/episode1/base/comp4.lbm
+$mip     comp4_1   16      16      64      64
+$mip     comp4_2   88      16      64      64
+$mip     comp4_3   160     16      64      64
+
+$load baseq2/gfx/textures/episode1/base/comp5.lbm
+$mip     comp5_1   16      16      64      64
+$mip     comp5_2   88      16      64      64
+$mip     comp5_3   160     16      64      64
+$mip     comp5_4   232     16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/redmet1.lbm
+$mip     redmt1_1   16      16      64      128
+$mip     redmt1_2   88      16      64      128
+
+$load baseq2/gfx/textures/episode1/base/comp7.lbm
+$mip     comp7_1   16      16      64      128
+$mip     comp7_2   88      16      64      128
+$mip     comp7_3   160     16      64      128
+
+$load baseq2/gfx/textures/episode1/base/comp8.lbm
+$mip     comp8_1   16      16      128      128
+
+$load baseq2/gfx/textures/episode1/base/comp9.lbm
+$mip     comp9_1   16      16      128      128
+$mip     comp9_2   152     16      64      128
+$mip     comp9_3   224     16      64      128
+
+$load baseq2/gfx/textures/episode1/base/compu1.lbm
+$mip     compu1_1   16      16      128      128
+$mip     compu1_2   152     16      64      128
+$mip     compu1_3   224     16      64      128
+
+$load baseq2/gfx/textures/episode1/base/compu2.lbm
+$mip     compu2_1   16      16      128      128
+
+$load baseq2/gfx/textures/episode2/mines/pillar01.lbm
+$mip     pilr01_1         16      16      64     128
+$mip     pilr01_2         88      16      64     128
+$mip     pilr01_3         160      16      64     128
+
+$load baseq2/gfx/textures/episode2/mines/pillar02.lbm
+$mip     pilr02_1         16      16      64     128
+$mip     pilr02_2         88     16      64     128
+
+$load baseq2/gfx/textures/episode2/mines/mine03.lbm
+$mip     mine03_1         16      16      128     128
+$mip     mine03_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/mines/mine04.lbm
+$mip     mine04_1         16      16      128     128
+$mip     mine04_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/mines/mine05.lbm
+$mip     mine05_1         16      16      128     128
+$mip     mine05_2         152     16      128     128
+
+;=================================================
+
+$include baseq2/scripts/common.inc
+
+$load baseq2/gfx/textures/episode2/refinery/belt2.lbm
+$mip     belt2_1          16      16      64      64
+$mip     belt2_2          88      16      64      64
+$mip     belt2_3          160     16      64      64
+$mip     belt2_4          232     16      64      64
+$mip     belt2_5          16      88      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/redpipe1.lbm
+$mip     redp1_1                  16      16      128     128
+$mip     redp1_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/crush1.lbm
+$mip     crush1_1          16      16      64      128
+$mip     crush1_2          88      16      64      32
+
+$load baseq2/gfx/textures/episode2/refinery/metal26.lbm
+$mip     metal26_1                  16      16      128     128
+$mip     metal26_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal27.lbm
+$mip     metal27_1                  16      16      128     128
+$mip     metal27_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal28.lbm
+$mip     metal28_1                  16      16      128     128
+$mip     metal28_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal29.lbm
+$mip     metal29_1                  16      16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/rock.lbm
+$mip     rock1_1        16      16      128     128
+$mip     rock1_2        152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/r_pipe02.lbm
+$mip     rpip2_1        16      16      128     128
+$mip     rpip2_2        152     16      64      128
+$mip     rpip2_3        16      152     128     32
+
+$load baseq2/gfx/textures/episode2/refinery/ref_lt01.lbm
+$mip     rlight1_1         16      16      32      32 light 5000
+$mip     rlight1_2         56      16      32      32 light 8000
+$mip     rlight1_3         96      16      128     32 light 3000
+
+$load baseq2/gfx/textures/episode2/refinery/door01.lbm
+$mip     door01          16      16      128      128
+
+$load baseq2/gfx/textures/episode2/refinery/machine1.lbm
+$mip     mach1_1           16      16      64      64
+$mip     mach1_2           88      16      64      64
+$mip     mach1_3				160		16		64		64
+$mip     mach1_4				232		16		64		64
+$mip     mach1_5				16		88		64		64
+$mip     mach1_6				88		88		64		64
+
+
+$load baseq2/gfx/textures/episode2/refinery/plate01.lbm
+$mip     plate1_1          16      16      64      64
+$mip     plate1_2          88      16      64      64
+$mip     plate1_3          160     16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/plate02.lbm
+$mip     plate2_1          16      16      64      128
+$mip     plate2_2          88      16      64      128
+$mip     plate2_3          160     16      64      128
+$mip     plate2_4                  232             16              64              64
+$mip     plate2_5                  232             88              64              64
+
+
+$load baseq2/gfx/textures/episode2/refinery/ref_flr2.lbm
+$mip     rflr2_1           16      16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/temp1.lbm
+$mip     temp1_1          16      16      64      128
+$mip     temp1_2          88      16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal3.lbm
+$mip     metal3_1          16      16      64      128
+$mip     metal3_2          88      16      64      128
+$mip     metal3_3          160     16      64      128
+$mip     metal3_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal4.lbm
+$mip     metal4_1          16      16      64      128
+$mip     metal4_2          88      16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal5.lbm
+$mip     metal5_1                  16      16      128     128
+$mip     metal5_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal7.lbm
+$mip     metal7_1                  16      16      128     128
+$mip     metal7_2                  152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal6.lbm
+$mip     metal6_1          16      16      64      128
+$mip     metal6_2          88      16      64      128
+$mip     metal6_3          160     16      64      128
+$mip     metal6_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal8.lbm
+$mip     metal8_1          16      16      64      128
+$mip     metal8_2          88      16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal9.lbm
+$mip     metal9_1          16      16      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/metal10.lbm
+$mip     metal10_1          16      16      128      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal11.lbm
+$mip     bmetal11_1         16      16      128     128
+$mip     bmetal11_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal12.lbm
+$mip     bmetal12_1       16      16      128     128
+$mip     bmetal12_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal13.lbm
+$mip     bmetal13_1       16      16      128     128
+$mip     bmetal13_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal14.lbm
+$mip     bmetal14_1                16      16      128     128
+;bmetal14_2               152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal15.lbm
+$mip     bmetal15_1        16      16      128     128
+$mip     bmetal15_2        152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal16.lbm
+$mip     metal16_1          16      16      64      128
+$mip     metal16_2          88      16      64      128
+$mip     metal16_3          160     16      64      128
+$mip     metal16_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal17.lbm
+$mip     metal17_1       16      16      128     128
+$mip     metal17_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal18.lbm
+$mip     metal18_1       16      16      128     128
+$mip     metal18_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal19.lbm
+$mip     metal19_1       16      16      128     128
+$mip     metal19_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal20.lbm
+$mip     metal20_1       16      16      128     128
+$mip     metal20_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal21.lbm
+$mip     metal21_1       16      16      128     128
+$mip     metal21_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal22.lbm
+$mip     metal22_1       16      16      128     128
+$mip     metal22_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal23.lbm
+$mip     metal23_1       16      16      128     128
+$mip     metal23_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal29.lbm
+$mip     metal29_1       16      16      128     128
+$mip     metal29_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal30.lbm
+$mip     metal30_1       16      16      128     128
+$mip     metal30_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal31.lbm
+$mip     metal31_1       16      16      128     128
+$mip     metal31_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal32.lbm
+$mip     metal32_1       16      16      128     128
+$mip     metal32_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal33.lbm
+$mip     metal33_1       16      16      128     128
+$mip     metal33_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal34.lbm
+$mip     metal34_1       16      16      128     128
+$mip     metal34_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal35.lbm
+$mip     metal35_1       16      16      128     128
+$mip     metal35_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal36.lbm
+$mip     metal36_1          16      16      64      128
+$mip     metal36_2          88      16      64      128
+$mip     metal36_3          160     16      64      128
+$mip     metal36_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal37.lbm
+$mip     metal37_1          16      16      64      128
+$mip     metal37_2          88      16      64      128
+$mip     metal37_3          160     16      64      128
+$mip     metal37_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal24.lbm
+$mip     metal24_1          16      16      64      128
+$mip     metal24_2          88      16      64      128
+$mip     metal24_3          160     16      64      128
+$mip     metal24_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal25.lbm
+$mip     metal25_1          16      16      64      128
+$mip     metal25_2          88      16      64      128
+$mip     metal25_3          160     16      64      128
+$mip     metal25_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal47.lbm
+$mip     metal47_1       16      16      128     128
+$mip     metal47_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/bigpipe5.lbm
+$mip     bpipe1_1       16      16      128     128
+$mip     bpipe1_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/bigpipe6.lbm
+$mip     bpipe2_1       16      16      128     128
+$mip     bpipe2_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/y_pipe01.lbm
+$mip     ypipe1_1       16      16      128     128
+$mip     ypipe1_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/reflt.lbm
+$mip     reflt1_1   16      16      32      128 light 300
+$mip     reflt1_2   56      16      32      128 light 300
+$mip     reflt1_3   96      16      32      128 light 300
+$mip     reflt1_4   136     16      32      128 light 5000
+$mip     reflt1_5   176     16      32      128 light 300
+$mip     reflt1_6   16      152     128     16 light 5000
+$mip     reflt1_7   16      176     128     16 light 300
+$mip     reflt1_8   264     16      32      128 light 300
+$mip     reflt1_9   216     16              16              16 light 20000
+$mip     reflt1_10          240     16              16              16 light 20000
+$mip     reflt1_11          216     40              16              16 light 20000
+
+$load baseq2/gfx/textures/episode2/refinery/reflt3.lbm
+$mip     reflt3_1   16      16      32      128 light 5000
+$mip     reflt3_2   56      16      32      128 light 5000
+$mip     reflt3_3   96      16      32      128 light 5000
+$mip     reflt3_4   136     16      32      128 light 5000
+$mip     reflt3_5   176     16      32      128 light 5000
+$mip     reflt3_6   16      152     128     16 light 300
+$mip     reflt3_7   16      176     128     16 light 300
+$mip     reflt3_8   264     16      32      128 light 300
+$mip     reflt3_9   216     16              16              16 light 20000
+$mip     reflt3_10          240     16              16              16 light 20000
+$mip     reflt3_11          216     40              16              16 light 20000
+
+$load baseq2/gfx/textures/episode2/refinery/comp1.lbm
+$mip     rcomp1_1          16      16      128             64
+$mip     rcomp1_2          152     16      128             64
+$mip     rcomp1_3          16      88      128             64
+$mip     rcomp1_4          152     88      128             64
+

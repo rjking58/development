@@ -1,0 +1,4 @@
+c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include\WinBase.h;;1;0;0
+C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.cpp;;2;0;0
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\comutil.h;;3;0;0
+C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\AAComBSTR.h;;4;0;0

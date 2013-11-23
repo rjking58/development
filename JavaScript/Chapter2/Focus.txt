@@ -1,0 +1,3 @@
+- validation strategy
+- converting strings to numbers
+- manipulation of fields in the DOM.

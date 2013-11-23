@@ -1,0 +1,131 @@
+// Debug library initialized ...
+DBGHELP: COMStringTest - private symbols & lines 
+        C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.pdb
+DBGHELP: ntdll - export symbols
+DBGHELP: kernel32 - export symbols
+DBGHELP: KERNELBASE - export symbols
+DBGHELP: USER32 - export symbols
+DBGHELP: GDI32 - export symbols
+DBGHELP: LPK - export symbols
+DBGHELP: USP10 - export symbols
+DBGHELP: msvcrt - export symbols
+DBGHELP: ADVAPI32 - export symbols
+DBGHELP: sechost - export symbols
+DBGHELP: RPCRT4 - export symbols
+DBGHELP: SspiCli - export symbols
+DBGHELP: CRYPTBASE - export symbols
+DBGHELP: OLEAUT32 - export symbols
+DBGHELP: ole32 - export symbols
+DBGHELP: MSVCP100D - export symbols
+DBGHELP: MSVCR100D - export symbols
+DBGHELP: IMM32 - export symbols
+DBGHELP: MSCTF - export symbols
+//                                                                          
+// Each log entry has the following syntax:                                 
+//                                                                          
+// + BYTES_DELTA (NEW_BYTES - OLD_BYTES) NEW_COUNT allocs BackTrace TRACEID 
+// + COUNT_DELTA (NEW_COUNT - OLD_COUNT) BackTrace TRACEID allocations      
+//     ... stack trace ...                                                  
+//                                                                          
+// where:                                                                   
+//                                                                          
+//     BYTES_DELTA - increase in bytes between before and after log         
+//     NEW_BYTES - bytes in after log                                       
+//     OLD_BYTES - bytes in before log                                      
+//     COUNT_DELTA - increase in allocations between before and after log   
+//     NEW_COUNT - number of allocations in after log                       
+//     OLD_COUNT - number of allocations in before log                      
+//     TRACEID - decimal index of the stack trace in the trace database     
+//         (can be used to search for allocation instances in the original  
+//         UMDH logs).                                                      
+//                                                                          
+
+
+-    7c60 (    a0 -  7d00)      5 allocs	BackTraceBF1F4
+-     3e3 (     5 -   3e8)	BackTraceBF1F4	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	ole32!CoFreeUnusedLibrariesEx+33E2
+	OLEAUT32!GetErrorInfo+636
+	OLEAUT32!SysAllocStringLen+39
+	OLEAUT32!SysAllocString+35
+	COMStringTest!_bstr_t::Data_t::Data_t+43 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 691)
+	COMStringTest!_bstr_t::_bstr_t+71 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 322)
+	COMStringTest!std::_Pair_base<_bstr_t,int>::_Pair_base<_bstr_t,int><wchar_t * &,int &>+59 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 163)
+	COMStringTest!std::pair<_bstr_t,int>::pair<_bstr_t,int><wchar_t * &,int &>+45 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 248)
+	COMStringTest!BstrAsKeyInMapTest+1A5 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 38)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+-    b72a (     0 -  b72a)      0 allocs	BackTraceBF7BC
+-     3e8 (     0 -   3e8)	BackTraceBF7BC	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc+1B
+	MSVCR100D!operator new+11
+	COMStringTest!_com_util::ConvertBSTRToString+E0 (f:\dd\vctools\compiler\cxxfe\sl\vccom\comutil.cpp, 94)
+	COMStringTest!_bstr_t::Data_t::GetString+37 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 825)
+	COMStringTest!_bstr_t::operator char const *+35 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 486)
+	COMStringTest!BstrAsKeyInMapTest+323 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 50)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+-    bb80 (     0 -  bb80)      0 allocs	BackTraceBF160
+-     3e8 (     0 -   3e8)	BackTraceBF160	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc+1B
+	MSVCR100D!operator new+11
+	COMStringTest!_bstr_t::Data_t::operator new+27 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 915)
+	COMStringTest!_bstr_t::_bstr_t+49 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\comutil.h, 322)
+	COMStringTest!std::_Pair_base<_bstr_t,int>::_Pair_base<_bstr_t,int><wchar_t * &,int &>+59 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 163)
+	COMStringTest!std::pair<_bstr_t,int>::pair<_bstr_t,int><wchar_t * &,int &>+45 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility, 248)
+	COMStringTest!BstrAsKeyInMapTest+1A5 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 38)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+-    ea60 (     0 -  ea60)      0 allocs	BackTraceBF288
+-     3e8 (     0 -   3e8)	BackTraceBF288	allocations
+
+	ntdll!RtlUlonglongByteSwap+B52
+	MSVCR100D!malloc_base+E3
+	MSVCR100D!malloc_dbg+31C
+	MSVCR100D!malloc_dbg+BF
+	MSVCR100D!malloc_dbg+6C
+	MSVCR100D!malloc+1B
+	MSVCR100D!operator new+11
+	COMStringTest!std::_Allocate<std::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Node>+49 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 36)
+	COMStringTest!std::allocator<std::_Tree_nod<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Node>::allocate+2E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xmemory, 187)
+	COMStringTest!std::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Buynode+30 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 560)
+	COMStringTest!std::_Tree_val<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::_Buynode<std::pair<_bstr_t,int> >+4E (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 588)
+	COMStringTest!std::_Tree<std::_Tmap_traits<_bstr_t,int,std::less<_bstr_t>,std::allocator<std::pair<_bstr_t const ,int> >,0> >::insert<std::pair<_bstr_t,int> >+44 (c:\program files (x86)\microsoft visual studio 10.0\vc\include\xtree, 756)
+	COMStringTest!BstrAsKeyInMapTest+1D4 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 38)
+	COMStringTest!wmain+23 (c:\volatile\development\source\cpp\comstringtest\comstringtest\comstringtest.cpp, 88)
+	COMStringTest!__tmainCRTStartup+1BF (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 552)
+	COMStringTest!wmainCRTStartup+F (f:\dd\vctools\crt_bld\self_x86\crt\src\crtexe.c, 371)
+	kernel32!BaseThreadInitThunk+12
+	ntdll!RtlInitializeExceptionChain+63
+	ntdll!RtlInitializeExceptionChain+36
+
+
+Total decrease ==  2d96a requested +  18a7e overhead =  463e8

@@ -1,0 +1,18 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+uuid(980174CF-5730-4941-B554-A79AC8D1D5EE), 
+version(1.0), // 1.0 should match LIB_MAJOR_VERSION and LIB_MINOR_VERSION as defined in stdafs.h
+helpstring("MxConsumerIF")
+]
+
+library MxDataConsumerScaleTests // namespace for #import
+{
+importlib("stdole32.tlb");
+importlib("stdole2.tlb");
+
+
+#include "DataConsumer.idl"
+};

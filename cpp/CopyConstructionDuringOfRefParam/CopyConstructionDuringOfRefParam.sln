@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CopyConstructionDuringOfRefParam", "CopyConstructionDuringOfRefParam\CopyConstructionDuringOfRefParam.vcxproj", "{41B8BE75-1567-4FE7-8FDB-E6E29F9DDEA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{41B8BE75-1567-4FE7-8FDB-E6E29F9DDEA4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41B8BE75-1567-4FE7-8FDB-E6E29F9DDEA4}.Debug|Win32.Build.0 = Debug|Win32
+		{41B8BE75-1567-4FE7-8FDB-E6E29F9DDEA4}.Release|Win32.ActiveCfg = Release|Win32
+		{41B8BE75-1567-4FE7-8FDB-E6E29F9DDEA4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

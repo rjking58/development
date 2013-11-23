@@ -1,0 +1,40 @@
+
+// the maps command will copy the bsp files and all textures
+// used by any of the maps
+
+$maps base1 base2 base3 train bunk1 ware1 ware2 jail1 jail2 jail3 jail4 jail5 security mintro mine1 mine2 mine3 mine4 fact1 fact2 fact3 power1 power2 cool1 waste1 waste2 waste3 biggun hangar1 hangar2 lab command strike space city1 city2 city3 boss1 boss2
+
+// these are discrete files that need to be copied into release dumps
+
+$file	default.cfg
+$file	maps.lst
+$file	demos/demo1.dm2
+$file	demos/demo2.dm2
+
+// jump to level configs
+$file	warehouse.cfg
+$file	jail.cfg
+$file	mine.cfg
+$file	factory.cfg
+$file	power.cfg
+$file	biggun.cfg
+$file	hangar.cfg
+$file	city.cfg
+$file	boss.cfg
+
+// our custom player configs
+$file	johnc.cfg
+$file	tim.cfg
+$file	bwh.cfg
+$file	xian.cfg
+$file	killme.cfg
+$file	amnet.cfg
+$file	todd.cfg
+$file	bear.cfg
+$file	paulj.cfg
+$file	steed.cfg
+$file	thresh.cfg
+$file	redwood.cfg
+
+$dir	sound
+

@@ -1,0 +1,6 @@
+LPBITMAPFILEHEADER m_pBmFileHeader;
+LPBITMAPINFO m_pBmInfo;
+LPBITMAPINFOHEADER m_pBmInfoHeader;
+RGBQUAD* m_pRGBTable;
+BYTE* m_pDibBits;
+

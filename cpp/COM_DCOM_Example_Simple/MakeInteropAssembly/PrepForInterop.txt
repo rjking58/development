@@ -1,0 +1,17 @@
+﻿These commands must be run..
+
+
+You must make an SNK file for the strong name required by the interop import tool
+
+Command:
+
+(for example)
+sn -k COM_DCOM_ExSimple.snk
+
+This makes a random key pair and places it in the .snk file shown.
+
+The command for creating the interop assembly is:
+
+tlbimp COM_DCOM_Example_Simple.tlb /primary /keyfile:COM_DCOM_ExSimple.snk /out:COM_DCOM_Example_Simple_Interop.dll
+
+the /out parameter is the assembly we are creating..

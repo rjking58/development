@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    <title>Head First Lounge</title>
+    <link type="text/css" rel="stylesheet" href="bs.css" />
+  </head>
+  <body>
+	  <p>
+	  <a href="htmldict.html" title="html dictionary" />
+	  </p>
+	  <p class="bs-solid">
+	  this is <em>border-style:solid</em>
+	  </p>
+	  <p class="bs-double">
+	  this is <em>border-style:double</em>
+	  </p>
+	  <p class="bs-groove">
+	  this is <em>border-style:groove</em>
+	  </p>
+	  <p class="bs-outset">
+	  this is <em>border-style:outset</em>
+	  </p>
+	  <p class="bs-dotted">
+	  this is <em>border-style:dotted</em>
+	  </p>
+	  <p class="bs-dashed">
+	  this is <em>border-style:dashed</em>
+	  </p>
+	  <p class="bs-inset">
+	  this is <em>border-style:inset</em>
+	  </p>
+	  <p class="bs-ridges">
+	  this is <em>border-style:ridges</em>
+	  </p>
+
+  </body>
+</html>

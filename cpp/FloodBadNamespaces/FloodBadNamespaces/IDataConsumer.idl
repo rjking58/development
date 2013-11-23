@@ -1,0 +1,380 @@
+#pragma once
+
+#include "IDataConsumerCallback.idl"
+
+[
+    object,
+    uuid(CF507A59-D4E6-480D-B38E-7D8B035B8C94)
+]
+/* {vb}
+Description:
+Interface used to monitor and control Platforms.
+
+Implemented by PlatformManagers component and used by System Management Console.
+*/
+interface IDataConsumer : IUnknown
+{
+    /*
+    Description:
+    Register a callback notification with PlatformManagers.  This callback will be called when the
+    platform's status had been changed.
+
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT RegisterCallback
+    (
+        /*
+        This interface is implemented by the caller.  IManagePlatform will use this interface to notify
+        any changes to the platform's status.
+        */
+	    [in] IDataConsumerCallback * pCallback
+	);
+
+    /*
+    Description:
+    Unregister a callback notification with PlatformManagers.  This will release the IMsgNotify interface.
+
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT UnregisterCallback
+    (
+	);
+
+	/*
+    Description:
+    Resolve Namespace
+
+	Param:
+	bstrNamespace: input, string, Namespace Name,eg testGalaxy
+	pNamespaceId: output, integer, Namespace Id.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ResolveNamespace
+    (
+	    [in] BSTR bstrNamespace,
+	    [out, retval] long * pNamespaceId
+	);
+
+	/*
+    Description:
+    pre-Operator:Resolve Reference,Register
+
+	Param:
+	lNamespaceId:  input, integer, Namespace Id.
+	bstrName:	   input, string, Item Name.eg. UD0001.AFA01
+	bstrContext:   input, string, Item context.
+	lItemId:       input, integer, Item Id.
+	ulUserData:	   input, 64bit integer, user's data.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ResolveReference
+    (
+	    [in] long lNamespaceId,
+        [in] BSTR bstrName,
+        [in] BSTR bstrContext,
+	    [in] long lItemId,
+        [in] unsigned __int64 ulUserData
+	);
+
+	/*
+    Description:
+    pre-Operator:Subscribe,Add to watch
+
+	Param:
+	lNamespaceId:  input, integer, Namespace Id.
+	lItemId:       input, integer, Item Id.
+	ulUserData:	   input, 64bit integer, user's data.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT Subscribe
+    (
+	    [in] long lNamespaceId,
+        [in] long lItemId,
+        [in] unsigned __int64 ulUserData,
+        [in] BOOL bActive
+	);
+
+	/*
+    Description:
+    pre-Operator:Unregiste rReference,remove from watch and unregister
+
+	Param:
+	lNamespaceId:  input, integer, Namespace Id.
+	lItemId:       input, integer, Item Id.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT UnregisterReference
+    (
+	    [in] long lNamespaceId,
+        [in] long lItemId
+	);
+
+	/*
+    Description:
+    pre-Operator:Activate or Suspend,change watch item (active or suspend)
+
+	Param:
+	lNamespaceId:  input, integer, Namespace Id.
+	lItemId:       input, integer, Item Id.
+	ulUserData:	   input, 64bit integer, user's data.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ActivateSuspend
+    (
+	    [in] long lNamespaceId,
+        [in] long lItemId,
+        [in] unsigned __int64 ulUserData,
+        [in] BOOL bActive
+	);
+
+	/*
+    Description:
+    pre-Operator:Write value to item
+
+	Param:
+	lNamespaceId:  input, integer, Namespace Id.
+	lItemId:       input, integer, Item Id.
+	ulUserData:	   input, 64bit integer, user's data.
+	bUser:         input, integer, need user yes or no.
+	bVerifier:     input, integer, need Verifier yes or no.
+	ItemTimestamp: input, datatime.
+	ItemQuality:   input, unsigned integer, Item's Quality.
+	ItemValue:     input, Variant object, the value will be writon.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    //US-51105 - Secured Write
+    HRESULT Write
+    (
+	    [in] long lNamespaceId,
+        [in] long lItemId,
+        [in] unsigned __int64 ulUserData,
+        [in] GUID * userId,
+        [in] GUID * verifierId,
+        [in] VARIANT_BOOL bUserVerified,
+        [in] FILETIME ItemTimestamp,
+        [in] unsigned __int32 ItemQuality,
+        [in] IVariant * ItemValue,
+        [in] unsigned __int32 MxOperationType //US-54273 - Supervisory Write 
+	);
+
+    //US-51105 - Secured Write
+	HRESULT Write2
+    (
+	    [in] long lNamespaceId,
+        [in] long lItemId,
+        [in] unsigned __int64 ulUserData,
+        [in] GUID * userId,
+        [in] GUID * verifierId,
+        [in] VARIANT_BOOL bUserVerified,
+        [in] unsigned __int32 ItemQuality,
+        [in] SAFEARRAY(IDataVariant) ItemValue,
+        [in] unsigned __int32 MxOperationType //US-54273 - Supervisory Write 
+	);
+
+	//US-54264 Support write with reason description
+    HRESULT WriteWithReasonDesc
+    (
+        [in] long lNamespaceId,
+        [in] long lItemId,
+        [in] unsigned __int64 ulUserData,
+        [in] GUID * userId,
+        [in] GUID * verifierId,
+        [in] VARIANT_BOOL bUserVerified,
+        [in] FILETIME ItemTimestamp,
+        [in] short ItemQuality,
+        [in] IVariant * ItemValue,
+        [in] LPCWSTR reasonDescription,
+        [in] unsigned __int32 MxOperationType
+    );
+
+
+
+	/*
+    Description:
+    Event handler:watch the item's change
+
+	Param:
+	lSize:        output, integer, the number of reponse.
+	updates:      output, ptr, reponse.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ProcessMessages
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemDataUpdate ** updates,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+    );
+
+	HRESULT ProcessMessages2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemDataUpdate2) * updates,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+    );
+
+	/*
+    Description:
+    Event handler:register item
+
+	Param:
+	lSize:        output, integer, the number of reponse.
+	responses:    output, ptr, reponse.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ProcessRegistration
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemRegistrationResponse ** responses,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessRegistration2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemRegistrationResponse) * responses,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	/*
+    Description:
+    Event handler:add item to watch
+
+	Param:
+	lSize:        output, integer, the number of reponse.
+	responses:    output, ptr, reponse.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ProcessSubscription
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemSubscriptionResponse ** responses,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessSubscription2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemSubscriptionResponse) * responses,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	/*
+    Description:
+    Event handler:remove item from watch and unregister item
+
+	Param:
+	lSize:        output, integer, the number of reponse.
+	responses:    output, ptr, reponse.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ProcessUnregister
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemUnregisterResponse ** responses,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessUnregister2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemUnregisterResponse) * responses,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	/*
+    Description:
+    Event handler:remove item from watch and unregister item
+
+	Param:
+	lSize:        output, integer, the number of reponse.
+	responses:    output, ptr, reponse.
+	
+    Returns:
+    S_OK		- Success
+    E_FAIL		- Failure
+    */
+    HRESULT ProcessWriteComplete
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemWriteResponse ** responses,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessWriteComplete2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemWriteResponse) * responses,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessActivateSuspend
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] ItemActiveResponse ** responses,
+        [out] MxResultCode ** pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+
+	HRESULT ProcessActivateSuspend2
+    (
+        [out] long * lSize,
+        [out, size_is(, * lSize)] SAFEARRAY(ItemActiveResponse) * responses,
+        [out] SAFEARRAY(MxResultCode) * pResultCode,
+        [out, retval] unsigned int *ResultCount
+	);
+    
+    HRESULT IsConnected
+    (
+        [in]  long namespaceId,
+        [out] BOOL *connected
+    );
+
+    HRESULT Shutdown
+    (
+    );
+
+};

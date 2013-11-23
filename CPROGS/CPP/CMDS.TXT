@@ -1,0 +1,40 @@
+                     nmemonic form      word1 word2 word3  
+                     ------------------------------------- 
+ABORT          0        ???             ???                
+ADDR_TO_A      1     move [ADDR] -> A   CMD   ADDR   -     
+A_TO_ADDR      2     move A -> [ADDR]   CMD   ADDR   -     
+ADDR_TO_B      3     move [ADDR] -> B   CMD   ADDR   -     
+B_TO_ADDR      4     move B -> [ADDR]   CMD   ADDR   -     
+ADDR_TO_C      5     move [ADDR] -> C   CMD   ADDR   -     
+C_TO_ADDR      6     move C -> [ADDR]   CMD   ADDR   -     
+ADDR_TO_D      7     move [ADDR] -> D   CMD   ADDR   -     
+D_TO_ADDR      8     move D -> [ADDR]   CMD   ADDR   -     
+A_PLUS_B_TO_C  9     A + B -> C         CMD   -      -     
+A_PLUS_C_TO_B  10    A + C -> B         CMD   -      -     
+C_PLUS_B_TO_A  11    C + B -> A         CMD   -      -     
+NUMBER_TO_A    12    move #NUM -> A     CMD   NUM    -     
+NUMBER_TO_B    13    move #NUM -> B     CMD   NUM    -     
+NUMBER_TO_C    14    move #NUM -> C     CMD   NUM    -     
+NUMBER_TO_D    15    move #NUM -> D     CMD   NUM    -     
+JUMP_TO_ADDR   16    jump ADDR          CMD   ADDR   -     
+CALL           17    call ADDR          CMD   ADDR   -     
+RETURN         18    return             CMD   -      -     
+CMP_A_B        19    compare A,B        CMD   -      -     
+CMP_A_C        20    compare A,C        CMD   -      -     
+BRANCH_LSS     21    brlss              CMD   ADDR   -     
+BRANCH_GTR     22    brgtr              CMD   ADDR   -     
+BRANCH_EQL     23    breql              CMD   ADDR   -     
+BRANCH_LEQ     24    brleq              CMD   ADDR   -     
+BRANCH_GEQ     25    brgeq              CMD   ADDR   -     
+A_MINUS_B_TO_C 26    A - B -> C         CMD   -      -    
+A_MINUS_C_TO_B 27    A - C -> B         CMD   -      -    
+C_MINUS_B_TO_A 28    C - B -> A         CMD   -      -    
+A_TO_ADDRINB   29    move A -> [B]      CMD   -      -    
+ADDRINB_TO_A   30    move [B] -> A      CMD   -      -    
+SWAP_A_B       31    swap A <-> B       CMD   -      -     
+SWAP_A_C       32    swap A <-> C       CMD   -      -     
+SWAP_A_D       33    swap A <-> D       CMD   -      -     
+SWAP_B_C       34    swap B <-> C       CMD   -      -     
+SWAP_B_D       35    swap B <-> D       CMD   -      -     
+SWAP_C_D       36    swap C <-> D       CMD   -      -     
+

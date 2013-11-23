@@ -1,0 +1,2 @@
+C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\Debug\stdafx.obj;1341000997141
+C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\Debug\DebuggerTesting.obj;1341001098958

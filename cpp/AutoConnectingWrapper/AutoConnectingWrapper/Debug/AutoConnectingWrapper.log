@@ -1,0 +1,8 @@
+﻿AutoConnectingWrapper.cpp(29): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+AutoConnectingWrapper.cpp(38): warning C4996: '_vsnwprintf': This function or variable may be unsafe. Consider using _vsnwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(27): warning C4793: 'LogWarning' : function compiled as native :
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(29): warning C4793: 'LogWarning' : function compiled as native :
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(29): warning C4793: 'LogWarning' : function compiled as native :
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(36): warning C4793: 'LogSomething' : function compiled as native :
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(38): warning C4793: 'LogSomething' : function compiled as native :
+c:\volatile\source\cpp\autoconnectingwrapper\autoconnectingwrapper\autoconnectingwrapper.cpp(38): warning C4793: 'LogSomething' : function compiled as native :

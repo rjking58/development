@@ -1,0 +1,401 @@
+$load baseq2/gfx/gamepal.lbm
+$mippal
+$mipdir e1u2
+
+;================ TEMP TEMP TEMP ========
+
+$load baseq2/gfx/textures/episode1/warehous/heavydr1.lbm
+$mip     hvy_dr1_2                 152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/heavydr2.lbm
+$mip     hvy_dr2_1                 16              16              128             128
+$mip     hvy_dr2_2                 152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/heavydr3.lbm
+$mip     hvy_dr3_1                 16              16              128             128
+$mip     hvy_dr3_2                 152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/heavydr4.lbm
+$mip     hvy_dr4_1                 16              16              128             128
+$mip     hvy_dr4_2                 152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/subdr1.lbm
+$mip     subdr1_1                  16              16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/subdr2.lbm
+$mip     subdr2_1                  16              16              128             128
+$mip     subdr2_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/subdr3.lbm
+$mip     subdr3_1                  16              16              128             128
+$mip     subdr3_2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/metal14.lbm
+$mip     metal14_1                 16              16              128             128
+$mip     metal14_2                 152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/metal13.lbm
+$mip     metal13_1                 16              16              128             128
+$mip     metal13_2                 152             16              64              128
+$mip     metal13_3                 224             16              64              128
+
+$load baseq2/gfx/textures/episode1/warehous/elevatr1.lbm
+$mip     elev_dr1                  16              16              128             128
+$mip     elev_dr2                  152             16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/train.lbm
+$mip     train1_1                  16              16              256             64
+$mip     train1_2                  16              88              64              64
+$mip     train1_3                  88              88              64              64
+$mip     train1_4                  160             88              64              64
+$mip     train1_7                  232             88              64              64
+$mip     train1_5                  16              160             64              16
+$mip     train1_6                  88              160             64              16
+$mip     train1_8                  160             160             64              16
+
+$load baseq2/gfx/textures/episode3/hangar/bigdoor1.lbm
+$mip     hdoor1_1           0       16      320     128
+
+$load baseq2/gfx/textures/episode3/hangar/bigdoor2.lbm
+$mip     hdoor1_2           0       16      320     128
+
+$load baseq2/gfx/textures/episode1/warehous/box02.lbm
+$mip     box02_1                   16              16              128             128
+$mip     box02_2                   152             16              128             64
+$mip     box02_3                   152             88              128             64
+
+$load baseq2/gfx/textures/episode1/warehous/heavydr1.lbm
+$mip     hvydoor1_1                16              16              128             128
+
+$load baseq2/gfx/textures/episode1/warehous/boxmvr01.lbm
+$mip     mvr1_1                    16              16              32              64
+$mip     mvr1_2                    56              16              32              64
+$mip     mvr1_3                    96              16              64              64
+$mip     mvr1_4                    168             16              32              48
+$mip     mvr1_5                    208             16              32              48
+
+$load baseq2/gfx/textures/episode1/warehous/light03.lbm
+$mip     light03_1          16      16      64      64 light 3000
+$mip     light03_2          88      16      64      64 light 3000
+$mip     light03_3          160     16      64      64 light 3000
+$mip     light03_4          232     16      64      64 light 3000
+$mip     light03_5          16      88      64      64 light 3000
+$mip     light03_6          88      88      64      64 light 3000
+$mip     light03_7          160     88      64      64 light 3000
+$mip     light03_8          232     88      64      64 light 2000
+
+$load baseq2/gfx/textures/episode1/security/t_roof4.lbm
+$mip     troof4_1          16      16      64      64
+$mip     troof4_2          88      16      64      64
+$mip     troof4_3          160     16      64      64
+$mip     troof4_4          232     16      64      64
+$mip     troof4_5          16      88      64      64
+$mip     troof4_6          88      88      64      64
+$mip     troof4_7          160     88      64      64
+$mip     troof4_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/temp/crate01.lbm
+$mip     crate1_1          16      16      64      64
+$mip     crate1_2          88      16      64      64
+$mip     crate1_3          160     16      64      64
+$mip     crate1_4          232     16      64      64
+$mip     crate1_5          16      88      64      64
+$mip     crate1_6          88      88      64      64
+$mip     crate1_7          160     88      64      64
+$mip     crate1_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/temp/crate02.lbm
+$mip     crate2_1          16      16      64      64
+$mip     crate2_2          88      16      64      64
+$mip     crate2_5          16      88      64      64
+$mip     crate2_6          88      88      64      64
+
+$load baseq2/gfx/textures/episode2/refinery/cable.lbm
+$mip     cable1_1                  16              16              64              64
+
+;================ TEMP TEMP TEMP ========
+
+$include baseq2/scripts/common.inc
+
+$load baseq2/gfx/textures/episode1/warehous/stripe.lbm
+$mip     stripe1_1                 16              16              64              64
+$mip     stripe1_2                 88              16              64              64
+$mip     stripe1_3                 160             16              64              64
+$mip     stripe1_4         232     16      64      64
+$mip     stripe1_5         16      88      64      64
+$mip     stripe1_6         88      88      64      64
+$mip     stripe1_7         160     88      64      64
+$mip     stripe1_8         232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/stripe2.lbm
+$mip     stripe2_1                 16              16              64              64
+$mip     stripe2_2                 88              16              64              64
+$mip     stripe2_3                 160             16              64              64
+$mip     stripe2_4         232     16      64      64
+$mip     stripe2_5         16      88      64      64
+$mip     stripe2_6         88      88      64      64
+$mip     stripe2_7         160     88      64      64
+$mip     stripe2_8         232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/basic1.lbm
+$mip     basic1_1          16      16      64      64
+$mip     basic1_2          88      16      64      64
+$mip     basic1_3          160     16      64      64
+$mip     basic1_4          232     16      64      64
+$mip     basic1_5          16      88      64      64
+$mip     basic1_6          88      88      64      64
+$mip     basic1_7          160     88      64      64
+$mip     basic1_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/box01.lbm
+$mip     box1_1                    16              16              96              32
+$mip     box1_2                    16              56              96              32
+$mip     box1_3                    16              96              96              32
+$mip     box1_4                    120             16              64              64
+$mip     box1_5                    192             16              64              64
+$mip     box1_6                    192             88              64              64
+
+$load baseq2/gfx/textures/episode1/warehous/box03.lbm
+$mip     box3_1          16      16      64      64
+$mip     box3_2          88      16      64      64
+$mip     box3_3          160     16      64      64
+$mip     box3_4          16      88      64      64
+$mip     box3_5          88      88      64      64
+$mip     box3_6          160     88      64      64
+$mip     box3_7          232     16      64      64
+$mip     box3_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/box04.lbm
+$mip     box4_1          16      16      64      96
+$mip     box4_2          88      16      64      96
+$mip     box4_3          16      120     64      64
+$mip     box4_4              88      120     64      64
+$mip     box4_5                    160             88              32              32
+$mip     box4_6                    200             88              32              32
+
+$load baseq2/gfx/textures/episode1/security/t_roof1.lbm
+$mip     troof1_1          16      16      64      64
+$mip     troof1_2          88      16      64      64
+$mip     troof1_3          160     16      64      64
+$mip     troof1_3          232     16      64      64
+$mip     troof1_4          16      88      64      64
+$mip     troof1_5          88      88      64      64
+$mip     troof1_6          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/w_slot1.lbm
+$mip     wslt1_1          16      16      128     128
+$mip     wslt1_2          152     16      128     64
+$mip     wslt1_3          152     88      64      64
+$mip     wslt1_4          224     88      64      64
+$mip     wslt1_5          152     160     64      16 light 4000
+$mip     wslt1_6          224     160     64      16 light 3000
+
+$load baseq2/gfx/textures/episode1/warehous/metal.lbm
+$mip     metal1_1          16      16      64      64
+$mip     metal1_2          88      16      64      64
+$mip     metal1_3          160     16      64      64
+$mip     metal1_4          232     16      64      64
+$mip     metal1_5          16      88      64      64
+$mip     metal1_6          88      88      64      64
+$mip     metal1_7          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/fuse1.lbm
+$mip     fuse1_1          16      16      64      128 light 500
+$mip     fuse1_2          88      16      64      128 light 1000
+$mip     fuse1_3          160     16      64      128
+$mip     fuse1_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/fusedr1.lbm
+$mip     fusedr1           16              16              64              128
+$mip     fusedr2           88              16              128             32
+
+$load baseq2/gfx/textures/episode1/warehous/computr2.lbm
+$mip     comp2_1                   16      16      64      128
+$mip     comp2_2                   88      16      64      128
+$mip     comp2_3                   160             16              64              64
+$mip     comp2_4                   160             88              64              64
+
+$load baseq2/gfx/textures/episode1/warehous/metal2.lbm
+$mip     metal2_1          16      16      64      128
+$mip     metal2_2          88      16      64      128
+$mip     metal2_3          160     16      64      128
+$mip     metal2_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/computr1.lbm
+$mip     comp1_1         16              16              64              64
+$mip     comp1_2         88              16              64              64
+$mip     comp1_3         160             16              64              64
+$mip     comp1_4         232             16              64              64
+$mip     comp1_5         16              88              64              64
+$mip     comp1_6         88              88              64              64
+$mip     comp1_7         160             88              64              64
+$mip     comp1_8         232             88              64              64
+
+$load baseq2/gfx/textures/episode1/warehous/metal10.lbm
+$mip     metal10_1          16      16      64      128
+$mip     metal10_2          88      16      64      128
+$mip     metal10_3          160     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/symbol06.lbm
+$mip     sym6_1          16      16      64      128
+$mip     sym6_2          88      16      64      128
+$mip     sym6_3          160     16      64      128
+$mip     sym6_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/metal6.lbm
+$mip     metal6_1          16      16      64      64
+$mip     metal6_2          88      16      64      64
+$mip     metal6_3          160     16      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/metal5.lbm
+$mip     metal5_1          16      16      64      64
+$mip     metal5_2          88      16      64      64
+$mip     metal5_3          160     16      64      64
+$mip     metal5_4          232     16      64      64
+$mip     metal5_5          16      88      64      64
+$mip     metal5_6          88      88      64      64
+$mip     metal5_7          160     88      64      64
+$mip     metal5_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/metal4.lbm
+$mip     metal4_1          16      16      64      128
+$mip     metal4_2          88      16      64      128
+$mip     metal4_3          160     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/stripe1.lbm
+$mip     metal3_1          16      16      64      128
+$mip     metal3_2          88      16      64      128
+$mip     metal3_3          160     16      64      128
+$mip     metal3_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/metal3.lbm
+$mip     metals_1          16      16      64      128
+$mip     metals_2          88      16      64      128
+$mip     metals_3          160     16      64      128
+$mip     metals_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode1/warehous/grates.lbm
+$mip     grate1_1          16      16      64      64
+$mip     grate1_2          88      16      64      64
+$mip     grate1_3          160     16      64      64
+$mip     grate1_4          232     16      64      64
+$mip     grate1_5          16      88      64      64
+$mip     grate1_6          88      88      64      64
+$mip     grate1_7          160     88      64      64
+$mip     grate1_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/symbol05.lbm
+$mip     symbol1_1          16      16      64      64
+$mip     symbol1_2          88      16      64      64
+$mip     symbol1_3          160     16      64      64
+$mip     symbol1_4          232     16      64      64
+$mip     symbol1_5          16      88      64      64
+$mip     symbol1_6          88      88      64      64
+$mip     symbol1_7          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/plates01.lbm
+$mip     plate1_1          16      16      64      64
+$mip     plate1_2          88      16      64      64
+$mip     plate1_3          160     16      64      64
+$mip     plate1_4          232     16      64      64
+$mip     plate1_5          16      88      64      64
+$mip     plate1_6          88      88      64      64
+$mip     plate1_7          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/angled01.lbm
+$mip     angle1_1          16      16      64      64
+$mip     angle1_2          88      16      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/support1.lbm
+$mip     wsupport1_1                16              16              32              64
+$mip     wsupport1_2                56              16              32              64
+$mip     wsupport1_3                96              16              32              64
+$mip     wsupport1_4                136             16              32              64
+$mip     wsupport1_5                176             16              32              64
+$mip     wsupport1_6                216             16              32              64
+$mip     wsupport1_7                256             16              32              64
+$mip     wsupport1_8                16              88              32              64 light 3000
+$mip     wsupport1_9                56              88              32              64 light 3000
+$mip     wsupport1_10               96              88              32              64 light 3000
+$mip     wsupport1_11               136             88              32              64 light 3000
+$mip     wsupport1_12               176             88              32              64 light 3000
+$mip     wsupport1_13               216             88              32              64 light 3000
+$mip     wsupport1_14               256             88              32              64 light 3000
+
+$load baseq2/gfx/textures/episode1/warehous/metal8.lbm
+$mip     metal8_1          16      16      64      64
+$mip     metal8_2          88      16      64      64
+$mip     metal8_3          160     16      64      64
+$mip     metal8_4          232     16      64      64
+$mip     metal8_5          16      88      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/pillar.lbm
+$mip     pillar1_1         16      16      64      64
+$mip     pillar1_2         88      16      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/symbol07.lbm
+$mip     symbol1_1          16      16      64      64
+$mip     symbol1_2          88      16      64      64
+$mip     symbol1_3          160     16      64      64
+$mip     symbol1_4          232     16      64      64
+
+$load baseq2/gfx/textures/episode1/warehous/endsign.lbm
+$mip     endsign1_1          16      16      64      16
+$mip     endsign1_2          88      16      64      16
+$mip     endsign1_3          160     16      64      16
+$mip     endsign1_4          16      40      64      16
+$mip     endsign1_5          88      40      64      16
+$mip     endsign1_6          160     40      64      16
+$mip     endsign1_7          16      64      128     32
+$mip     endsign1_8          152     64      128     32
+$mip     endsign1_9          16      104     128     32
+
+$load baseq2/gfx/textures/episode1/warehous/light01.lbm
+$mip     light1_1          16      16      64      128 light 5000
+$mip     light1_2          88      16      64      128 light 2000
+$mip     light1_3          160     16      64      128 light 2000
+$mip     light1_4          232     16      64      128 light 2000
+
+$load baseq2/gfx/textures/episode1/warehous/light02.lbm
+$mip     light2_1          16      16      64      64 light 4000
+$mip     light2_2          88      16      64      64 light 3000
+$mip     light2_3          160     16      64      128
+$mip     light2_5          16      88      64      64
+$mip     light2_6          88      88      64      64 light 4000
+
+$load baseq2/gfx/textures/episode1/warehous/bigmet.lbm
+$mip     bigmet1_1         16      16      128     128
+$mip     bigmet1_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode1/warehous/symbol01.lbm
+$mip     wall1_1           32      16      240     128
+
+$load baseq2/gfx/textures/episode1/warehous/symbol02.lbm
+$mip     wall1_2           32      16      240     128
+
+$load baseq2/gfx/textures/episode1/warehous/symbol03.lbm
+$mip     wall2_1           32      16      240     128
+
+$load baseq2/gfx/textures/episode1/warehous/symbol04.lbm
+$mip     wall2_2           32      16      240     128
+
+$load baseq2/gfx/textures/episode1/warehous/metal9.lbm
+$mip     metal9_1          16              16              32              128
+$mip     metal9_2          56              16              32              128
+$mip     metal9_3          96              16              32              64
+$mip     metal9_4          136             16              32              64
+$mip     metal9_5          176             16              32              128
+$mip     metal9_6          216             16              32              64
+
+$load baseq2/gfx/textures/episode1/warehous/metal12.lbm
+$mip     metal12_1         16              16              32              64
+$mip     metal12_2         56              16              64              128
+$mip     metal12_3         128             16              128             64
+$mip     metal12_4         128             88              64              64
+
+$load baseq2/gfx/textures/episode1/warehous/metal11.lbm
+$mip     metal11_1         16              16              64              128
+$mip     metal11_2         88              16              64              64
+$mip     metal11_3         160             16              64              64
+$mip     metal11_4         88              88              64              64
+$mip     metal11_5         160             88              64              64

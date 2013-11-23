@@ -1,0 +1,1493 @@
+
+
+
+
+
+
+
+                             C-scape for DOS
+							   Version 3.2
+                              Release Notes   
+
+        Copyright (c) 1990, Oakland Group, Inc.  All rights reserved.
+
+
+
+
+
+
+
+
+1:  INTRODUCTION
+
+    Thank you for purchasing the C-scape(tm) Interface Management System,
+    version 3.2.
+
+    Please complete and return your registration card so we can send you the
+    library source.  The registration card also serves to allow us to send you
+    information of new versions and features.  We automatically notify
+    registered users of new versions and new products.
+
+    New C-scape users and those current users who are upgrading from C-scape
+    version 2.0 should have received the following:
+
+         3 5.25" 1.2 Megabyte High Density disks or 5 3.5" 720K disks (an
+         additional source disk is sent upon receipt of registration)
+
+         2 manuals (the C-scape Manual and the C-scape Function Reference)
+
+         The C-scape Quick Reference Card
+
+    If you purchased C-scape with the Look & Feel (tm) Screen Designer, you
+    should also have received:
+
+         1 disk containing Look & Feel
+
+         1 manual (the Look & Feel User's Manual)
+
+    C-scape users who are upgrading from a registered version 3.1 should have
+    received the following:
+
+         3 5.25" 1.2 Megabyte High Density disks OR 5 3.5" 720K disks (an
+         additional source disk is sent upon receipt of registration)
+
+         1 disk containing the source
+
+         The C-scape Quick Reference Card
+
+
+
+2:  WHAT YOU SHOULD READ
+
+    PLEASE READ THIS DOCUMENT AND THE READ.ME FILE BEFORE USING C-SCAPE.  THESE
+    DOCUMENTS CONTAIN INFORMATION ESSENTIAL TO USING C-SCAPE.
+
+    This document is INSTALL.TXT.  It contains instructions for installing the
+    C-scape libraries and for compiling and linking your C-scape application
+    code.
+
+    At a minimum you should read the following sections in this document:
+
+             DISK CONTENTS
+             INSTALLATION
+             COMPILING AND LINKING
+
+
+    Please refer to your distribution media for the READ.ME file.  The READ.ME
+    file contains updates and errata to the C-scape Manual and Function
+    Reference; a description of the example programs; release notes;
+    supplementary library information; and miscellany.
+
+    At a minimum you should read the following sections in the READ.ME file:
+
+             MANUAL UPDATES
+             MANUAL ERRATA
+
+
+    We recommend that you read the following additional sections of the
+    READ.ME:
+
+             NEW FUNCTIONS (SLEDS)
+             NEW FUNCTIONS (PCX FILE SUPPORT)
+             OAKLAND DEBUGGING AID
+             OAKLAND TECHNICAL SUPPORT
+
+
+    If you are upgrading from 3.1 to 3.2 then you should also consult these in
+    the READ.ME:
+
+             WHAT'S BEEN FIXED
+             WHAT'S NEW
+             WHAT'S IMPROVED IN THIS RELEASE
+             UPGRADING YOUR CODE
+
+3:  DISK CONTENTS
+
+    The distribution disks are high-density, 1.2 Megabyte, DOS formatted floppy
+    diskettes.  If your computer does not have a high-density disk drive, you
+    or your computer dealer can copy the files on the C-scape diskettes onto
+    several low-density disks using another computer.  If you are unable to do
+    this, contact us for assistance.
+
+    All files on the C-scape distribution disks with the .EXE filename
+    extension are self-extracting archives.
+
+    For 5.25" disks, the contents are as follows:
+
+    Disk1    install.txt          This file
+             read.me              Manual supplement and release notes
+             graphics.txt         Information on C-scape and graphics
+             pcxspec.txt          Specification of ZSoft's .PCX file format
+             cshead.exe           C-scape header files
+             owlhead.exe          Oakland Windowing Library (OWL) header files
+             example.exe          C-scape examples and demos
+             install.bat          Installation Batch Program
+             funcs.exe            Source for field functions
+             z2lcscap.exe         Large model Zortech C++ C-scape library
+             z2lowl.exe           Large model Zortech C++ OWL library
+
+    Disk2    t2lowl.exe           Large model Turbo C 2.0 OWL library
+             t2mowl.exe           Medium model Turbo C 2.0 OWL library
+             tplowl.exe           Large model Turbo C++ 1.0 OWL library
+             tpmowl.exe           Medium model Turbo C++ 1.0 OWL library
+             t2lcscap.exe         Large model Turbo C 2.0 C-scape library
+             t2mcscap.exe         Medium model Turbo C 2.0 C-scape library
+             tplcscap.exe         Large model Turbo C++ 1.0 C-scape library
+             tpmcscap.exe         Medium model Turbo C++ 1.0 C-scape library
+
+    Disk3    m1lowl.exe           Large model Microsoft C 5.1 OWL library
+             m1mowl.exe           Medium model Microsoft C 5.1 OWL library
+             m6lowl.exe           Large model Microsoft C 6.0 OWL library
+             m6mowl.exe           Medium model Microsoft C 6.0 OWL library
+             m1lcscap.exe         Large model Microsoft C 5.1 C-scape library
+             m1mcscap.exe         Medium model Microsoft C 5.1 C-scape library
+             m6lcscap.exe         Large model Microsoft C 6.0 C-scape library
+             m6mcscap.exe         Medium model Microsoft C 6.0 C-scape library
+
+    Source   cssrc.exe            C-scape source code
+             owlsrc.exe           OWL source code
+             sinstall.bat         Batch file for installing the source
+             compile.exe          Batch files for recompiling the libraries for
+                                  various compilers (See RECOMPILING THE
+                                  SOURCE, below.)
+
+                                  NOTE: Unless you are upgrading from version
+                                  3.1,  the source is shipped separately upon
+                                  receipt of registration.
+
+    For 3.5" disks, the contents are as follows:
+
+    Disk1    install.txt          This file
+             read.me              Manual supplement and release notes
+             graphics.txt         Information on C-scape and graphics
+             pcxspec.txt          Specification of ZSoft's .PCX file format
+             cshead.exe           C-scape header files
+             owlhead.exe          Oakland Windowing Library (OWL) header files
+             example.exe          C-scape examples and demos
+             install.bat          Installation Batch Program
+             funcs.exe            Source for field functions
+
+    Disk2    t2lcscap.exe         Large model Turbo C 2.0 C-scape library
+             t2lowl.exe           Large model Turbo C 2.0 OWL library
+             t2mcscap.exe         Medium model Turbo C 2.0 C-scape library
+             tplcscap.exe         Large model Turbo C++ 1.0 C-scape library
+             tplowl.exe           Large model Turbo C++ 1.0 OWL library
+
+    Disk3    m1lcscap.exe         Large model Microsoft C 5.1 C-scape library
+             m1lowl.exe           Large model Microsoft C 5.1 OWL library
+             m1mcscap.exe         Medium model Microsoft C 5.1 C-scape library
+             m1mowl.exe           Medium model Microsoft C 5.1 OWL library
+             t2mowl.exe           Medium model Turbo C 2.0 OWL library
+
+    Disk4    m6lcscap.exe         Large model Microsoft C 6.0 C-scape library
+             m6lowl.exe           Large model Microsoft C 6.0 OWL library
+             m6mcscap.exe         Medium model Microsoft C 6.0 C-scape library
+             m6mowl.exe           Medium model Microsoft C 6.0 OWL library
+
+    Disk5    tpmcscap.exe         Medium model Turbo C++ 1.0 C-scape library
+             tpmowl.exe           Medium model Turbo C++ 1.0 OWL library
+             z2lcscap.exe         Large model Zortech C++ C-scape library
+             z2lowl.exe           Large model Zortech C++ OWL library
+
+    Src1     cssrc.exe            C-scape source code
+             owlsrc.exe           OWL source code
+             sinstall.bat         Batch file for installing the source
+
+    Src2     compile.exe          Batch files for recompiling the libraries for
+                                  various compilers (See RECOMPILING THE
+                                  SOURCE, below.)
+
+                                  NOTE: Unless you are upgrading from version
+                                  3.1,  the source is shipped separately upon
+                                  receipt of registration.
+
+4:  INSTALLATION
+
+    This section explains the various methods by which you can install C-scape
+    on your machine.
+
+4.1:  Quick And Dirty (First Time Installation)
+
+    On Disk 1 is the file install.bat - the C-scape installation program.  You
+    can use it to install Microsoft C, Turbo C, Turbo C++, or Zortech C++
+    version of C-scape.  You can use it to install additional libraries as
+    well.  The scenario below assumes we wish to install C-scape on drive C:.
+    You can, of course, install it on any drive you want.
+
+    1)  Change to the directory level on drive C: where you wish to install
+        C-scape.
+
+    2)  Change to drive A: and insert Disk1.
+
+    3)  To install the Microsoft C 5.1 version type:
+
+            INSTALL C: M51
+
+
+        To install the Microsoft C 6.0 version type:
+
+            INSTALL C: M6
+
+
+        To install the Turbo C 2.0 version type:
+
+            INSTALL C: TC2
+
+
+        To install the Turbo C++ 1.0 version type:
+
+            INSTALL C: TCPP
+
+
+        To install the Zortech C++ 2.14 version type:
+
+            INSTALL C: ZCPP
+
+
+    4)  When prompted to install the libraries remove Disk 1 and insert Disk 2.
+
+    If you are at the root of drive C: the above installation creates the
+    following:
+
+         c:\cscape\lib                   library (.lib) files
+         c:\cscape\include               header (.h) files
+         c:\cscape\source                field function source (.c) files
+         c:\cscape\examples              C-scape example and Demo programs
+
+
+    NOTE:  The \cscape\source sub-directory contains the field functions source
+    modules.  On the Source disk (with the complete library source), there is a
+    separate installation program to install the source, sinstall.bat.  Change
+    to the \cscape\source directory.  Then, change to drive A: and run
+    sintall.bat.
+
+4.2:  Quick And Dirty (Upgrade)
+
+    The quick and dirty installation of a C-scape upgrade is identical to the
+    above except that you must ensure that there are no old C-scape headers or
+    libs in the directories.
+
+    Be sure to recompile ALL your application source with the new headers and
+    libraries.  Failure to do so will produce some very strange unresolved
+    external errors in the link.
+
+4.3:  Notes On Source Code
+
+    The diskettes you have been shipped include source code for the field
+    functions only.  These are the functions documented in Appendix B of the
+    C-scape Function Reference.  These functions are those that many
+    programmers find it necessary to modify at one time or another.
+
+    Unless you are upgrading from C-scape version 3.1, Oakland Group will send
+    the source for the rest of the functions in the libraries upon receipt of
+    your registration card.  Note that sending in your registration card ends
+    your trial period (of up to 30 days) and should not be done until you have
+    decided to keep the C-scape package.
+
+    When you receive the complete source on the Source disk, there will be a
+    separate installation program to install the source, sinstall.bat.  First,
+    change to your \cscape\source directory.  Then, change to drive A: and run
+    sintall.bat.
+
+5:  COMPILING AND LINKING
+
+5.1:  General Information
+
+    The first three letters of the C-scape library files indicate the compiler
+    and memory model of the library.  These are listed below:
+
+      M1L    Microsoft C 5.1, large model
+
+      M1M    Microsoft C 5.1, medium model
+
+      M6L    Microsoft C 6.0, large model
+
+      M6M    Microsoft C 6.0, medium model
+
+      MWS    MetaWare High C Locally Optimizing Compiler 1.6
+
+      MGS    MetaWare High C Globally Optimizing Compiler 2.3
+
+      T2L    Turbo C 2.0, large model
+
+      T2M    Turbo C 2.0, medium model
+
+      TPL    Turbo C++, large model
+
+      TPM    Turbo C++, medium model
+
+      W8L    Watcom C 8.0 386, large model
+
+      W8M    Watcom C 8.0, medium model
+
+      W3S    Watcom C 386
+
+      Z2L    Zortech C++ 2.14, large model
+
+    Only large and medium memory models of the libraries have been provided.  A
+    small model library is not included because the base size of an executable
+    with C-scape code exceeds the amount of code allowable in the code segment
+    of a small model program.
+
+    You must link with BOTH the OWL and C-scape libraries.  You must be sure to
+    use the appropriate memory models.
+
+    All C-scape's header files must be placed where the compiler can find them.
+    We recommend that you create a \cscape\include sub-directory.  To tell the
+    compiler the location of the C-scape header files, use either the
+    environment variable INCLUDE or a compiler flag.  Consult your compiler
+    reference for more information.
+
+    Please do not call us with questions about compilers.  Call the compiler
+    vendor.
+
+5.2:  Microsoft C
+
+5.2.1:  Microsoft C 5.0 and 5.1
+
+5.2.1.1:  Microsoft C 5.0 And 5.1 Command Lines
+
+    The Microsoft C 5.1 (5.0 compatible)  versions of the C-scape 3.2 libraries
+    are identified by the prefix "m1l" (large model) and "m1m" (medium model).
+
+    Medium model compile and link lines:
+
+        cl /c /DM5 /AM /I\cscape\include myprog.c
+
+        link /SE:500 myprog, myprog, , \cscape\lib\m1mowl \cscape\lib\m1mcscap;
+
+
+    Large model compile and link lines:
+
+        cl /c /DM5 /AL /I\cscape\include myprog.c
+
+        link /SE:500 myprog, myprog,  , \cscape\lib\m1lowl
+        \cscape\lib\m1lcscap;
+
+
+    You must define M5 with the /D flag.  This is because some of the Oakland
+    header files are compiler specific.  If you do not define this symbol
+    you'll get the Microsoft C message "error C2061: syntax error: identifier
+    'byte'".
+
+    Note also that in your .c source file, you must include the STDIO.H or
+    STDLIB.H file before the CSCAPE.H file (so the compiler to use certain
+    implementation specific symbols).  If you do not do this, you will receive
+    a message telling you that SIZE_T is undefined.
+
+    You may have to alter the use of /SE: to increase the number of link
+    segments.  The above specification of /SE:500 is only a suggestion.  It
+    should work with most compilations of application programs.  If you get the
+    Microsoft error message "error L1049: too many segments", then you need to
+    increase the number of segments specified with the /SE:.  Note that if the
+    /SE: switch is not included then the Microsoft Linker defaults to 128.
+
+    Do not use the packed structures (/Zp) option when compiling.  We have
+    compiled C-scape library objects with the default Microsoft compiler
+    setting.  Use of the /Zp option to force any other alignment results in
+    incompatibility.  If you need to use packed structures (because you are
+    linking with another library that uses them,  for example), you must
+    recompile the entire C-scape and OWL libraries with the same structure
+    packing as your application.  See the section of this document called
+    RECOMPILING THE SOURCE CODE.
+
+5.2.2:  Microsoft Quick C
+
+5.2.2.1 Microsoft Quick C Command Lines
+
+    Please refer to the previous section discussing the command lines for the
+    Microsoft C 5.0 and 5.1 Optimizing Compiler.  While the Quick C compiler
+    does not have all the options the 5.0 and 5.1 compilers offer, the
+    Microsoft 5.1 command lines work for Quick C.
+
+5.2.2.2:  Microsoft Quick C Integrated Environment
+
+5.2.2.3:  Microsoft Quick C 2.0 Integrated Environment
+
+    The example below assumes that C-scape 3.2 has been installed in accordance
+    with Section 4.1, above.  That is, the C-scape and OWL header files reside
+    in C:\CSCAPE\INCLUDE; the C-scape and OWL libraries in C:\CSCAPE\LIB.
+
+    To simplify the description of menu selections from within the integrated
+    environment, hyphenated phrases are used; for instance, File-New indicates
+    a main menu choice of File and then submenu choice of New.  Strings in
+    double quotes denote the labels of data entry fields in a dialogue box; for
+    instance, "File Name" is a field in the dialogue that pops up when you
+    select File-Open from the menu.
+
+    1)  Select Options-Environment to establish the environment options for
+        this session.
+
+        *   Indicate the path for the C-scape and OWL header files.  For
+            example, assuming the Microsoft Quick C 2.0 compiler files are in
+            C:\QC :
+
+                Include Files Search Path: [.;c:\qc\include;c:\cscape\include;]
+
+
+        *   Indicate the path for the C-scape and OWL libraries.  For example:
+
+                Library Files Search Path: [c:\qc\lib;c:\cscape\lib;]
+
+
+    2)  Select Options-Make
+
+        *   "Compiler Flags".  Set the memory model for the compilation.  Only
+            medium and large model C-scape libraries are available.
+
+        *   "Defines".  Define "M5".
+
+    3)  Select Make-Set Program List to establish a makefile for building a
+        project.  For example, to create the C-scape application MYPROG.EXE
+        from MYPROG.C:
+
+        *   Name the program list (makefile) in the "File Name" field.  For
+            example:
+
+                File Name: [myprog.mak]
+
+
+            If this is a new program list, you should see a message pop up to
+            this effect.  The  Edit Program List dialogue box appear when you
+            acknowledge that you wish to create MYPROG.MAK.
+
+        *   In the Edit Program List dialogue box, specify the entries in the
+            program list.  You may select from the given file list or use the
+            "File Name" field to enter items in the program list.  For example:
+
+                File Name: [myprog.c]
+
+
+            Enter both the C-scape and OWL libraries in the program list.
+            Remember that the memory model of the library to which you are
+            linking must correspond with the memory model you choose for the
+            compilation of your C-scape application.  For example, if we
+            compiled myprog.c in the large memory model:
+
+                File Name: [c:\cscape\lib\m1lcscap.lib]
+
+
+            And again, for the OWL library:
+
+                File Name: [c:\cscape\lib\m1lowl.lib]
+
+
+            Your program list should now look like this:
+
+                myprog.c
+                m1lcscap.lib
+                m1lowl.lib
+
+
+        *   Save the program list.
+
+    4)  Select File-Exit and reply "Yes" when your are asked if you wish to
+        save the changes to your program make file.
+
+    5)  Re-enter Quick C and edit your program make file.  To the macro
+        definition of "LFLAGS_D" append "/SE:" (follow the ":" with the number
+        of segments you want the linker to use).  Save your make file.  (Note:
+        if we had edited and saved the make file before exiting in step 4,
+        Quick C's update would override the "/SE:" change.)
+
+    6)  You may now build your program by selecting Make-Build.  Note that you
+        may not have enough memory available while running the integrated
+        environment to execute your program.  Exit it to run your program.
+
+    Consult the Quick C Programmer's Guide for more information about using the
+    integrated environment.
+
+5.2.2.4:  Microsoft Quick C 1.0 Integrated Environment
+
+    The example below assumes that C-scape 3.2 has been installed in accordance
+    with Section 4.1, above.  That is, the C-scape and OWL header files reside
+    in C:\CSCAPE\INCLUDE; the C-scape and OWL libraries in C:\CSCAPE\LIB.
+
+    To simplify the description of menu selections from within the integrated
+    environment, hyphenated phrases are used; for instance, File-New indicates
+    a main menu choice of File and then submenu choice of New.  Strings in
+    double quotes denote the labels of data entry fields in a dialogue box; for
+    instance, "File Name" is a field in the dialogue that pops up when you
+    select File-Open from the menu.
+
+    1)  Select Options-Environment to establish the environment options for
+        this session.
+
+        *   Indicate the path for the C-scape and OWL header files.  For
+            example, assuming the Microsoft Quick C 1.0 compiler files are in
+            C:\QC :
+
+                Include Files Search Path: [.;c:\qc\include;c:\cscape\include;]
+
+
+        *   Indicate the path for the C-scape and OWL libraries.  For example:
+
+                Library Files Search Path: [c:\qc\lib;c:\cscape\lib;]
+
+
+    2)  Select File-Set Program List to establish a makefile for building a
+        project.  For example, to create the C-scape application MYPROG.EXE
+        from MYPROG.C:
+
+        *   Name the program list (makefile) in the "File Name" field.  For
+            example:
+
+                File Name: [myprog.mak]
+
+
+            If this is a new program list, you should see a message pop up to
+            this effect.  The  Edit Program List dialogue box will appear when
+            you acknowledge that you wish to create MYPROG.MAK.
+
+        *   In the Edit Program List dialogue box, specify the entries in the
+            program list.  You may select from the given file list, or use the
+            "File Name" field to enter items in the program list.  For example:
+
+                File Name: [myprog.c]
+
+
+            Enter both the medium model of the C-scape and the medium model of
+            the OWL libraries in the program list (Quick C 1.0 only supports
+            the medium model.)  For example:
+
+                File Name: [c:\cscape\lib\m1mcscap.lib]
+
+
+            And again, for the OWL library:
+
+                File Name: [c:\cscape\lib\m1mowl.lib]
+
+
+            Your program list should now look like this:
+
+                myprog.c
+                m1mcscap.lib
+                m1mowl.lib
+
+
+        *   Save the program list.
+
+    3)  Select File-Open to edit the makefile generated from the program list.
+
+        *   You'll note that at the end of the make file there is a reference
+            to "$(LDFLAGS)" on the link line.   Define this at the top of the
+            make file so that the "/SE:" switch is used.  This switch sets the
+            number of segments that the linker can use (the default is 128,
+            which is too low for C-scape library usage) and the ceiling is
+            3072.  400 or 500 should be sufficient for most programs, so define
+            "LDFLAGS" - e.g., "LDFLAGS=/SE:500".
+
+        *   Save the changes you've made to your makefile.
+
+        *   Exit Quick-C.  You must do this so that you can pull in the updated
+            makefile for use.  Had you simply re-opened your program source and
+            tried to compile it would not know about the "LDFLAGS" definition
+            yet.
+
+    4)  Re-start Quick-C and open your program source file.
+
+    5)  Select Run-Compile.
+
+        *   In the "Include:" field, enter the directory path of your header
+            files.  For example:
+
+            Include:  [., c:\cscape\include, ]
+
+
+        *   In the "Define:" field, enter "M5".
+
+        *   Select the compilation action: "Build Program", "Compile", or
+            "Rebuild All".  If you select "Cancel" the "Include:"
+            and "Define:" field contents are not going to be added to your make
+            and you'll have to re-edit these fields should you exit and come
+            back later.
+
+    6)  Select File-Exit.  Reply "Yes" when your are asked if you wish to save
+        the changes to your program makefile.
+
+    Consult the Quick C Programmer's Guide for more information about using the
+    integrated environment.
+
+5.2.3:  Microsoft C 6.0
+
+5.2.3.1:  Microsoft C 6.0 command line
+
+    The Microsoft C 6.0 versions of the C-scape 3.2 libraries are identified by
+    the prefix "m6l" (large model) and "m6m" (medium model).
+
+    Medium model compile and link lines:
+
+        cl -c -AM /I\cscape\include myprog.c
+
+        link /SE:500 myprog, myprog, , \cscape\lib\m6mcscap \cscape\lib\m6mowl;
+
+
+    Large model compile and link lines:
+
+        cl -c -AL /I\cscape\include myprog.c
+
+        link /SE:500 myprog, myprog,  , \cscape\lib\m6lcscap
+        \cscape\lib\m6lowl;
+
+
+    Your C-scape application source file must have the STDIO.H or STDLIB.H file
+    included before the CSCAPE.H file so the compiler knows to use certain
+    implementation specific symbols.  If this is not done you will receive a
+    message telling you that SIZE_T is undefined.
+
+    You may have to alter the use of /SE: to increase the number of link
+    segments.  The above specification of /SE:500 is only a suggestion.  It
+    should work with most compilations of application programs.  If you get the
+    Microsoft error message "error L1049: too many segments" then you need to
+    increase the number of segments specified with the /SE:.  Note that if the
+    /SE: switch is not included then the Microsoft Linker defaults to 128.
+
+    Do not use the -Oe compile option.  We have found that this optimization
+    will generate internal compiler errors in Microsoft C 6.0.
+
+    Do not the packed structures (/Zp) option when compiling.  We have compiled
+    C-scape library objects with the default Microsoft compiler setting.  Use
+    of the /Zp option to force any other alignment will result in
+    incompatibility.  If you need to use packed structures (because you are
+    linking with another library that uses them, for example), you must
+    recompile the entire C-scape and OWL libraries with the same structure
+    packing as your application. See the section of the READ.ME file
+    RECOMPILING THE SOURCE CODE.
+
+5.2.3.2:  Microsoft C 6.0 Programmer's WorkBench (PWB)
+
+    The example below assumes that C-scape 3.2 has been installed in accordance
+    with Section 4.1, above.  That is, the C-scape and OWL header files reside
+    in C:\CSCAPE\INCLUDE; the C-scape and OWL libraries in C:\CSCAPE\LIB.
+
+    To simplify the description of menu selections from within the WorkBench,
+    hyphenated phrases are used; for instance, File-New indicates a main menu
+    choice of File and then submenu choice of New.  Strings in double quotes
+    denote the labels of data entry fields in a PWB dialogue box; for instance,
+    "Defines" is a field in the C Compiler Options dialogue that pops up when
+    you select Options-C Compiler Options from the menu.
+
+        Note that these settings are in effect only for the duration of the
+        current session of the WorkBench.  You may wish to establish a simple
+        batch file that sets the DOS environment variables INLCUDE and LIB.
+        These variables correspond to the "Include Files Search Path" and
+        "Library Files Search Path" fields in PWB.  If run such a batch file
+        prior to invoking the WorkBench, then you will not have to alter
+        Options-Environment for each session.  Alternately, you can edit the
+        Microsoft PWB TOOLS.INI initialization file.  See the PWB documentation
+        for further detail.
+
+    1)  Select Options-C Compiler Options to set the compiler options.
+
+        *   "Memory Model".  Only medium and large model compilations are
+            supported by the C-scape 3.2 libraries.
+
+        *   "Calling Conventions".  C-scape 3.2 uses the C calling convention.
+
+        *   "Defines".  You may define the symbol M6 here, if you wish.  When
+            working with the Microsoft C 5.1 compiler and C-scape, it was
+            necessary to define M5 so that the compiler-dependent information
+            in our headers was appropriately included.  It is not necessary to
+            define M6, because the new MS C 6.0 compiler (unlike 5.1) defines a
+            symbol itself to indicate the MS compiler is in use.
+
+        *   "Additional Options".  There many options available under the
+            Microsoft 6.0 compiler.  Consult the MS C 6.0 documentation for
+            details.
+
+            We do recommend avoiding the use of the "Global Register
+            Allocation" optimization setting.  We have found it to generate
+            internal compiler errors under the present release of MS C 6.0.
+            The corresponding command line option flag is /Oe.
+
+            When we compiled the library modules we used the following settings
+            (flags):
+
+                Optimize for Time (/Ot)
+                Loop Code Optimization (/Ol)
+                Global Code Optimization (/Og)
+                Generate Intrinsic Functions (/Oi)
+                Floating Point Emulation Calls (/FPc)
+                Additional Options (/Zl)
+
+
+            These setting can be saved for use from PWB session to session when
+            working on a particular project.  They are saved when you create
+            and save Program List (see below).
+
+    2)  Select Options-LINK Options to set the linker options.
+
+        *   "Additional Options".   The default number of logical segments the
+            linker uses is determine by the /SE flag.  The default is 128 (too
+            low for C-scape library usage) and the ceiling is 3072.  400 or 500
+            should be sufficient for most programs.
+
+                Additional Options [ /SE:500 ]
+
+    3)  Select Make-Set Program List to establish a makefile for building a
+        project.  For example, to create the C-scape application MYPROG.EXE
+        from MYPROG.C:
+
+        *   Name the program list (makefile).  For example:
+
+                File Name: [myprog.mak]
+
+
+            If this is a new program list, you should see a message pop up to
+            this effect.  The  Edit Program List dialogue box will appear when
+            you acknowledge that you wish to create myprog.mak.
+
+        *   In the Edit Program List dialogue box, specify the entries in the
+            program list.  You may select from the given file list, or use the
+            "File Name" field to enter items in the program list.  For example:
+
+                File Name: [myprog.c]
+
+
+            Enter both the C-scape and OWL libraries in the program list.
+            Remember that the memory model of the library to which you are
+            linking must correspond with the memory model chosen for the
+            compilation of your C-scape application.  For example, if we
+            compiled myprog.c in the large memory model:
+
+                File Name: [c:\cscape\lib\m6lcscap.lib]
+
+
+            And again, for the OWL library:
+
+                File Name: [c:\cscape\lib\m6lowl.lib]
+
+
+            Your program list should now look like this:
+
+                myprog.c
+                m6lcscap.lib
+                m61lowl.lib
+
+
+        *   Save the program list.  When you save the list, the current
+            compiler and linker options are also saved.
+
+    4)  You may now build your program by selecting Make-Build.  Note that you
+        may not have enough memory available while running the WorkBench to
+        execute your program.  Exit the WorkBench to test run your program.
+
+    If you have difficulty with the WorkBench, review its documentation.  Keep
+    in mind, the basic task is to indicate to the compiler where the header
+    files and your application source reside; and specify a memory model for
+    the compilation.  The name of the C-scape and OWL libraries and the path
+    the libraries must be indicated for the linker.
+
+5.2.4:  Microsoft C 6.0, 5.1 and 5.0 Common Compile And Link Errors
+
+     C1027: DGROUP data allocation exceeds 64K
+
+         Your program is running out of static data space.  Experiment with the
+         /Gt compile flag.  This tells the compiler not to place all static
+         data (such as menu_Printf format strings) within the same data
+         segment.  See the Microsoft User's Guide, p.247, for more information.
+
+     C2061: syntax error: identifier "byte"
+
+         With Microsoft C 5.0 and 5.1, you must define M5 with the /D flag.
+         This is because some of the Oakland header files are compiler
+         specific.
+
+     C2061: syntax error: identifier "SIZE T"
+
+         In your source code, place the #include <stdio.h> or #include
+         <stdlib.h> statement before the #include "cscape.h" statement.
+
+     L1049: too many segments
+
+         Use the /SE: option to increase the number of link segments (128 is
+         the Microsoft LINK default value).  Also check that you have all the
+         appropriate commas in use on the command line. Remember , the
+         Microsoft Linkers ignore the file name extensions such as .obj and
+         .lib and need the correct positioning on the command line to ensure a
+         clean link.
+
+     L1101: invalid object module
+
+         It can be caused by having an older version of the LINK command
+         somewhere on your DOS path.  The other possibility is that the library
+         or one of the code modules has been corrupted.
+
+     L2003: intersegment self-relative fixup
+
+         This can be caused by compiler and library memory model mismatch.
+         You've probably compiled under the medium model C library and are
+         linking to a the large model C-scape libraries (or vice versa).  Note
+         that there are no small model C-scape libraries.
+
+5.3:  Turbo C and C++
+
+5.3.1:  Turbo C++ 1.0
+
+5.3.1.1:  Turbo C++ 1.0 command line
+
+    This section describes how to compile and link a C-scape application under
+    Turbo C++ 1.0, in C++ mode, from the command line.  It is assumed that you
+    are linking to the C++ versions of C-scape libraries.
+
+    The Turbo C++ versions of the C-scape 3.2 libraries are identified by the
+    prefix "tpl" (large model) and "tpm" (medium model).
+
+    Medium model compile and link lines:
+
+        tcc -P -c -mm -I\cscape\include myprog
+
+        tlink \tcpp\lib\c0m myprog, myprog, , \cscape\lib\tpmcscap
+        \cscape\lib\tpmowl \tcpp\lib\emu \tcpp\lib\mathm \tcpp\lib\cm
+
+
+    Large model compile and link lines:
+
+        tcc -P -c -ml -I\cscape\include myprog
+
+        tlink \tc\lib\c0l myprog, myprog, , \cscape\lib\tplcscap
+        \cscape\lib\tplowl \tc\lib\emu \tc\lib\mathl \tc\lib\cl
+
+
+    Do not use the word alignment (-a) option when compiling.  We have compiled
+    C-scape library objects with the default Turbo C setting.  Use of the -a
+    option to force any other alignment will result in incompatibility.  If you
+    need to use word alignment (because you are linking with another library
+    that uses them,  for example) you must recompile the entire C-scape and OWL
+    libraries with the same alignment as your application.
+
+    Do not use the option that turn offs the treatment of enums as ints (-b-).
+    We have compiled the C-scape library objects with the default treatment of
+    enums as ints (-b).  As with the -a option above, if you wish to use the
+    -b- option, then you must recompile both the C-scape and OWL libraries.
+
+5.3.1.2:  Turbo C++ 1.0 Integrated Development Environment (IDE)
+
+    This section describes how to compile and link a C-scape application under
+    Turbo C++ 1.0, in C++ mode, from within the IDE.  It is assumed that you
+    are linking to the C++ versions of C-scape libraries.
+
+    The example below assumes that C-scape 3.2 has been installed in accordance
+    with Section 4.1, above.  That is, the C-scape and OWL header files reside
+    in C:\CSCAPE\INCLUDE; the C-scape and OWL libraries in C:\CSCAPE\LIB.
+
+    To simplify the description of menu selections from within the IDE
+    hyphenated phrases are used; for instance, File-New indicates a main menu
+    choice of File and the submenu choice of New.  Strings in double quotes
+    denote the labels of data entry fields in a IDE dialogue box; for instance,
+    "Defines" is a field in the Code Generation dialogue that pops up when you
+    select Options-Compiler-Code Generation... From the menu.
+
+    The IDE may be customized in many ways for a particular project.  In the
+    steps below, we describe only the bare-bones settings to set for compiling
+    and linking a C-scape application.  See the Turbo C++ User's Guide for more
+    information on the IDE.
+
+    1)  Options-Full Menu On.
+
+        *   Turn this setting "On" to show the IDE's menus in full detail.
+
+    2)  Options-Compiler-Code Generation...
+
+        *   Do not select "Word Alignment".  This option MUST NOT be checked.
+            The C-scape and OWL libraries were compiled with the default
+            compiler setting, byte alignment.  If your application needs to use
+            word aligned structures, then you must recompile both the C-scape
+            and OWL libraries to achieve compatibility with C-scape 3.2 (see
+            the section below, Recompiling the source).
+
+        *   "Model".  Only Medium and Large model compilations are supported by
+            the C-scape 3.2 libraries.
+
+        *   "Calling Conventions".  C-scape 3.2 uses the C calling convention.
+
+        *   "Generate Underbars".  You should check this option.
+
+        *   "Treat enums as ints".  You should check this option; if you do
+            not, your C-scape application will compile and link without error
+            but will crash when you run it.
+
+    3)  Options-Compiler-C++ options...
+
+        *   "Use C++ always".  This setting allows you to compile your C-scape
+            standard C code in C++ mode, so you can properly link to the C++
+            version of the C-scape libraries.
+
+    4)  Options-Compiler-Messages.
+
+        *   We recommend setting the IDE to display its full range of warning
+            and error messages.
+
+    5)  Options-Linker.
+
+        *   Use the "Case-sensitive link" option.
+
+    6)  Options-Directories.
+
+        *   "Include Directories".  This field tells the IDE where to find the
+            header files.  For example:
+
+                .;c:\tcpp\include\;c:\cscape\include\;
+
+
+            This assumes that you have installed Turbo C++ in a directory off
+            the root, called "tcpp"; and that C-scape was installed as in
+            section 4.1, above.
+
+        *   "Library Directories".  This field tells the IDE where to find the
+            library to which it must link your application.  For example:
+
+                .;c:\tcpp\lib\;c:\cscape\lib\;
+
+
+            This assumes that you have installed Turbo C++ in a directory off
+            the root, called "tcpp"; and that C-scape was installed as in
+            section 4.1, above.
+
+    7)  Select the File-Open... To load your application file into the editor.
+        We assume we are compiling and linking an new application MYPROG.EXE
+        from MYPROG.C.
+
+    8)  Select Project-Open Project...
+
+        *   Name the project file.  For example, in the "Load Project File"
+            field, enter:
+
+                myprog.prj
+
+
+            Choose the "OK" field.  If this is a new program list, you should
+            see an empty Project window appear at the bottom of the display
+
+        *   Now enter the names of the application modules and the libraries to
+            which to link in the Project window.  Pressing the Insert key calls
+            up the Add Item to Project List dialogue box.  You may select from
+            the given file list, or use the "Name" field to enter items in the
+            program list.  For example, in the "Name" field, enter:
+
+                myprog.c
+
+
+            Enter both the C-scape and OWL libraries in the Project.  Remember
+            that the memory model of the library to which you are linking must
+            correspond with the memory model chosen for the compilation of your
+            C-scape application.  For example, if we compiled MYPROG.C in the
+            large memory model:
+
+                tplcscap.lib
+
+
+            And again, for the OWL library:
+
+                tplowl.lib
+
+
+            Your Project list should now look like this:
+
+                myprog.c
+                tplcscap.lib
+                tplowl.lib
+
+
+    9)  Select Options-Save...
+
+        *   Check the "Project" option, at least.  You compiler, linker,
+            directory and project files list will be saved into the project
+            file you established for your application.
+
+    10) You may now build your program by selecting Compile-Make EXE File.
+        Note that, depending upon the size of your application, you may not
+        have enough memory available under the IDE to execute your program.  If
+        so, exit the IDE to test run your program.
+
+    If you have difficulty with the IDE, review the Turbo C++ User's Guide.
+    Keep in mind, the basic task is to indicate to the compiler where the
+    header files and your application source reside; and specify a memory model
+    for the compilation.  The name of the C-scape and OWL libraries and the
+    path the libraries must be indicated for the linker.
+
+5.3.2:  Turbo C 2.0
+
+5.3.2.1:  Turbo C 2.0 Command Line
+
+    The Turbo C 2.0 versions of the C-scape 3.2 libraries are identified by the
+    prefix "t2l" (large model) and "t2l" (medium model).
+
+    Medium model compile and link lines:
+
+        tcc -c -mm -I\cscape\include myprog
+
+        tlink \tc\lib\c0m myprog, myprog, , \tc\lib\emu \tc\lib\mathm
+        \tc\lib\cm \cscape\lib\t2mowl \cscape\lib\t2mcscap
+
+
+    Large model compile and link lines:
+
+        tcc -c -ml -I\cscape\include myprog
+
+        tlink \tc\lib\c0l myprog, myprog, , \tc\lib\emu \tc\lib\mathl
+        \tc\lib\cl \cscape\lib\t2lowl.lib \cscape\lib\t2lcscap
+
+
+    Do not use the word alignment (-a) option when compiling.  We have compiled
+    C-scape library objects with the default Turbo C setting.  Use of the -a
+    option to force any other alignment will result in incompatibility.  If you
+    need to use word alignment (because you are linking with another library
+    that uses them,  for example), you must recompile the entire C-scape and
+    OWL libraries with the same alignment as your application.
+
+5.3.2.2:  Turbo C 2.0 Integrated Environment
+
+    To use the Turbo C integrated environment follow these instructions:
+
+     1)  Select Options from the main menu.  Select Directories.
+
+     a) Make sure the include directories option lists the path to the
+         directory containing the Turbo C and the C-scape include files (.h):
+         Example:  \tc\include;\cscape\include;
+
+     b) Make sure the libraries directories option list the path to the
+         directories containing the Turbo C libraries and the C-scape and OWL
+         library (.lib) files.
+         Example:  \tc\lib;\cscape\lib;
+
+     3)  Create a project (.prj) file by opening a new file  (consult the
+         Turbo-C manual for more information about project files).
+
+     4)  In the project file, list the names of the .C file(s) you are working
+         on.  (There should be one file name per line.)  Next, add the C-scape
+         library with which you wish to link (make sure you choose the correct
+         memory model).
+
+             Example:
+             --------
+             sample.c
+             t2lowl.lib
+             t2lcscap.lib
+
+     5)  Save the project file.
+
+     6)  Use the Project menu to set the project name to the file just created.
+
+     7)  Now use the compile menu to compile (or build) your program.
+
+     8)  Consult the Turbo C Manual for more information about the integrated
+         environment.
+
+    Do not use the word alignment option when compiling.  We have compiled
+    C-scape library objects with the default Turbo C setting.  Use of the word
+    alignment will result in incompatibility.  If you need to use word
+    alignment (because you are linking with another library that uses them,
+    for example), you must recompile the entire C-scape and OWL libraries with
+    the same alignment as your application.
+
+5.3.3:  Turbo C Versions Prior To 2.0
+
+    The objects created by the compiler of versions of Turbo C prior to 2.0 are
+    incompatible with those of Turbo C 2.0.  C-scape is compiled under Turbo C
+    2.0. If you are using an older version of Turbo C you must recompile the
+    C-scape source.
+
+    When recompiling for Turbo-C C 1.5 you will have to place a -DTC on the
+    command line because the C-scape and OWL code depends on a pre-defined
+    macro define __TURBO_C__ not found in the 1.5 compiler.
+
+5.4:  Zortech C++ 2.14
+
+    1)  Zortech large model compile line:
+
+        ztc -b -p -cpp -mL -c -I\cscape\include myprog.c
+
+        Note that you may have to add the -br switch in on large compiles
+
+    2)  Link line:
+
+        blink myprog, myprog,,\cscape\lib\Z2Lowl.lib+\cscape\lib\Z2Lcscap.lib
+
+        Note that we are linking with the version 4.10 of Zortech's blink
+        linker.
+
+5.5:  Watcom C 8.0
+
+5.5.1:  Watcom 8.0 regular
+
+    We do not ship compiled libraries for this compiler.  If you wish to use
+    it, you must create your own library with the Watcom batch file described
+    in the section "RECOMPILING THE SOURCE CODE".
+
+    The Watcom versions of the C-scape 3.2 libraries are identified by the
+    prefix "w8l" (large model) and "w8m" (medium model).
+
+    Large model compile and link lines:
+
+        wccp /w3 /fo=obj\ /ml /i=..\include myprog.c
+
+        wlink NAME myprog FILE myprog @lnkrsp.w8l
+
+    lnkrsp.w8l is a linker response file that should contain the following:
+
+        FORM DOS
+        OPTION MAP
+        OPTION CASEEXACT
+        LIBRARY W8LCSCAP.LIB
+        LIBRARY W8LOWL.LIB
+        LIBRARY CLIBL.LIB
+        LIBRARY MATHL.LIB
+
+    Medium model compile and link lines:
+
+        wccp /w3 /fo=obj\ /mm /i=..\include myprog.c
+
+        wlink NAME myprog FILE myprog @lnkrsp.w8m
+
+    lnkrsp.w8m is a linker response file that should contain the following:
+
+        FORM DOS
+        OPTION MAP
+        OPTION CASEEXACT
+        LIBRARY W8MCSCAP.LIB
+        LIBRARY W8MOWL.LIB
+        LIBRARY CLIBL.LIB
+        LIBRARY MATHL.LIB
+
+5.5.2:  Watcom 8.0 386
+
+    Refer to the read.me on the C-scape Phar Lap 386 DOS|Extender Support Disk.
+
+5.6:  MetaWare High C
+
+    Refer to the read.me on the C-scape Phar Lap 386 DOS|Extender Support Disk.
+
+5.7:  JPI TopSpeed C
+
+    We do not ship compiled libraries for this compiler.  If you wish to use
+    it, you must create your own library with the JPI batch file described in
+    the section "RECOMPILING THE SOURCE CODE".  Once you have the libraries
+    compiled, you can create your own applications by compiling your source
+    code with the compile lines listed below and linking your application with
+    the link lines listed below.
+
+    The TopSpeed versions of the C-scape 3.2 libraries are identified by the
+    prefix "j1l" (large model) and "j1m" (medium model).
+
+    Medium model compile and link lines:
+
+        tsc myprog.c /mm /wall /y /i..\include
+
+        TSC myprog.prj /m /n
+
+    myprog.prj is a project file, recognized by the JPI make system and should
+    contain the following:
+
+        include MYPROG INITEXE
+        import RM_CLIB J1LCSCAP J1LOWL
+
+    Large model compile and link lines:
+
+        tsc myprog.c /ml /wall /y /i..\include
+
+        TSC myprog.prj /m /n
+
+    myprog.prj is a project file, recognized by the JPI make system and should
+    contain the following:
+
+        include MYPROG INITEXE
+        import RL_CLIB J1LCSCAP J1LOWL
+
+6:  RECOMPILING THE SOURCE CODE
+
+    We provide libraries for Microsoft C 5.1, Microsoft C 6.0, Turbo C 2.0,
+    Turbo C++ 1.0, and Zortech C++ 2.14.  If you want libraries for other
+    compilers, you can recompile the source code with our new batch files.  (We
+    do not provide DOS makefiles.)
+
+    The batch files are in a self-extracting archive called COMPILE.EXE, which
+    is on the source distribution disk.  It contains batch files for use with
+    the following compilers:
+
+               Microsoft C 5.1
+               Microsoft C 6.0
+               Turbo C 2.0
+               Turbo C++ 1.0
+               MetaWare High C LOC 1.6
+               MetaWare High C GOC 2.3
+               Watcom C 8.0 386
+               Watcom C 8.0 regular
+               Zortech C++ 2.14
+
+    Each batch file compiles all the files for the C-scape and OWL libraries
+    with a given compiler.  Once it has compiled all the modules, it creates
+    the libraries.
+
+    The batch files are named as follows: "COMPxxmt.BAT", where "xx" is a
+    two-letter code representing a compiler, "m" is a one-letter code
+    representing the memory model, and "t" is an optional one-letter code
+    representing a special version of the library.  The choices are as follows:
+
+    xx:
+
+               Compiler                                 Code
+               ---------------------------------------  ----
+               Microsoft C 5.1........................   M1
+               Microsoft C 6.0........................   M6
+               Turbo C 2.0............................   T2
+               Turbo C++ 1.0..........................   TP
+               MetaWare High C LOC 1.6................   MW
+               Metaware High C GOC 2.3                   MG
+               Watcom C 8.0 '386......................   W3
+               Watcom C 8.0 regular...................   W8
+               Zortech C++ 2.14.......................   Z2
+               JPI TopSpeed C 1.0.....................   J1
+
+    m:
+
+               Compiler Model                           Code
+               ---------------------------------------  ----
+               Large model............................    L
+               Medium model (large code, small data)..    M
+               Small model (for '386 compilers only;
+                   denotes "flat" model)..............    S
+
+    t:
+
+               Special Version                          Code
+               ---------------------------------------  ----
+               MetaWINDOW graphics library............    M
+               Rational DOS/16M DOS Extender..........    R
+               OS/2 Version...........................    2
+               OS/2 Family API version................    F
+
+    For example COMPM6LR.BAT compiles the libraries for Microsoft C 6.0 large
+    model for use with Rational's DOS/16M DOS extender.
+
+    COMPILE.EXE also contains librarian response files with names of the form
+    CSRESP.xxm and OWLRESPt.xxm.  Each batch file uses its response file to
+    produce the libraries.  These have names of the form xxmCSCAP.LIB and
+    xxmOWLt.LIB.
+
+    The batch files all assume that your C-scape directories are arranged as
+    the C-scape installation batch file does it.  That is, you should have a
+    C-scape directory with directories below it named "include", "source" and
+    "lib".  The batch files and response files reside in the source directory
+    and create their output libraries in the lib directory.
+
+    The batch files also assume that your compiler can find its standard header
+    files (such as STDIO.H) without any command line flags telling it where
+    they are.  You should set whatever environment variables or configuration
+    files are needed to arrange this.
+
+    The batch files create and use a subdirectory called "source\obj" to hold
+    the compiled object files.  Each batch file deletes all the object files in
+    this directory before it starts work.
+
+    NOTE:  You may wish to use compiler options other than those we specify.
+    Remember, however, that compiler optimizations are not fool-proof and can
+    sometimes have undesired effects.  The section on compiling and linking
+    mentions a few particular optimizations that you should avoid.  Generally,
+    if you use optimizations other than those in our batch files, beware.
+
+    If you would like to know what compiler options to use for a particular
+    compiler, refer to the batch file.
+
+7:  USING C-SCAPE WITH OS/2
+
+    You can use the Microsoft version of the C-scape 3.2 libraries to create
+    OS/2 applications.
+
+    C-scape operates only in text mode (def_ModeText) under OS/2.  At some
+    future date, C-scape will support graphics mode under Presentation Manager.
+
+7.1:  PROTECTED MODE
+
+    To create an OS/2 application you must define the symbol OAK_OS2 when
+    compiling your source.
+
+    The basic compile line is:
+
+        cl /c /DM5 /DOAK_OS2 /I\cscape\include myprog.c
+
+    OAK_OS2 may also be placed in your source file.  If you place it in your
+    source file you don't need to define it on the command line.  If you do
+    this, you should place the definition in the your .c file that contains the
+    disp_Init call and you must place it before the include statements.
+
+        #define OAK_OS2             /* for OS/2 */
+
+        #include <stdio.h>
+        #include <cscape.h>
+
+        /* ... */
+
+        {
+            disp_Init(def_ModeText, FNULL);
+
+            /* ... */
+
+
+    Please note that when OS/2 version 1.0 changed to OS/2 Extended Edition 1.1
+    the library DOSCALLS.LIB was renamed to OS2.LIB.  Along with that change,
+    one of the functions changed its name slightly.  What was called DosGetPid
+    is now DosGetPID.  The Microsoft 5.1 LIBCEP libraries however, still refer
+    to DOSCALLS.LIB.
+
+    The current call name, DosGetPID, is what appears in OWL source.  If you
+    are compiling for OS/2 E.E. 1.1, all is well.
+
+    If, however, you are compiling for OS/2 1.0 then you must make an
+    additional step.  Redefine the current call name back to the older one so
+    that the linker can find DosGetPid.  You redefine this in the OWL module
+    that has the call reference (OS2HARD.C):
+
+        #define DosGetPID DosGetPid     /* define for compat. with 1.0 */
+
+    then recompile OS2HARD.C.  Note that this must be compiled in a code
+    segment that bears the name "PCDIG_TEXT" (use the /NT flag to name the
+    segment).  Then, replace OS2HARD.C in the OWL library.
+
+    After compilation you must link with the OWL, C-scape and C runtime
+    libraries.
+
+    For Microsoft 5.1 with OS/2 prior to the Extended Edition 1.1:
+
+        link /SE:500 myprog.obj,,,LLIBCEP.LIB \cscape\lib\m1lowl.lib
+        \cscape\lib\m1lcscap.lib;
+
+
+    For Microsoft 5.1 with OS/2 Extended Edition 1.1:
+
+        link /NOE /SE:500 myprog.obj,,,OS2.LIB LLIBCEP.LIB
+         \cscape\lib\m1lowl.lib \cscape\lib\m1lcscap.lib;
+
+
+7.2:  FAMILY API MODE
+
+    If you wish to create a family mode application add the following to the
+    above steps.
+
+    Define OAK_OS2FAPI instead of OAK_OS2 in the compile command line for the
+    recompilation of the these 4 files in the OWL: OS2HARD.C, OS2DISP.C,
+    OS2OPEN.C, PCHARD.C.  (By defining OAK_OS2FAPI our headers automatically
+    define OAK_OS2.)  After this, you may link these with your application:
+
+    Again, for Microsoft 5.1 with OS/2 prior to the Extended Edition 1.1:
+
+        link /SE:500 myprog os2hard os2disp os2open pchard, myprog, ,
+        LLIBCEP.LIB \cscape\lib\m1lowl.lib \cscape\lib\m1lcscap.lib;
+
+    For Microsoft 5.1 with OS/2 Extended Edition 1.1:
+
+        link /NOE /SE:500 myprog os2hard os2disp os2open pchard, myprog, ,
+        OS2.LIB LLIBCEP.LIB \cscape\lib\m1lowl.lib \cscape\lib\m1lcscap.lib;
+
+    Then bind your family api application.
+
+    For OS/2 prior to Extended Edition version 1.1:
+
+        bind myprog.exe doscalls.lib api.lib -n @bind.exc
+
+
+    For OS/2 Extended Edition version 1.1:
+
+        bind myprog.exe os2.lib api.lib -n @bind.exc
+
+
+    For the bind, bind.exc is a text file containing the following lines:
+
+         DOSCREATETHREAD
+         DOSENTERCRITSEC
+         DOSEXITCRITSEC
+         DOSGETPID
+         DOSMUXSEMWAIT
+         DOSSEMCLEAR
+         DOSSEMREQUEST
+         DOSSEMSET
+         DOSSEMWAIT
+         MOUDRAWPTR
+         MOUGETNUMQUEEL
+         MOUOPEN
+         MOUREADEVENTQUE
+         MOUREMOVEPTR
+         MOUSETDEVSTATUS
+
+    This exception file is necessary because C-scape code contains references
+    to OS/2 calls that have no family api counterparts.  The bind utility warns
+    us of this - that it would be a problem to run under DOS.  However, C-scape
+    provides the functionality to perform the associated tasks under DOS so we
+    may ignore these.
+
+7.3:  USING MULTIPLE THREADS
+
+    C-scape supports the use of multiple threads under OS/2.  We use semaphores
+    within the library to protect against any conflicts that may arise when two
+    or more threads try to communicate with the display at the same time.
+
+    Any thread can write to the display with the following restrictions:
+    Threads can talk to multiple windows at the same time, but no more than one
+    thread should talk to a particular window at a time; only one thread should
+    read events from the keyboard, if more than one thread tries to read an
+    event, C-scape error 1023 will be generated.
+
+    To use multiple threads with C-scape, you must recompile the libraries to
+    enable the semaphore protection code.  You can do this with the
+    compm1lf.bat, compm1l2.bat, compm6lf.bat, or compm6l2.bat batch files.
+
+8:  ABOUT RATIONAL SYSTEMS' DOS/16M DOS Extender
+
+    You can create C-scape applications that use Rational Systems' DOS/16M DOS
+    Extender.  You must purchase the DOS/16M version of C-scape to create
+    programs that use the extender.  DOS/16M allows you to create programs that
+    use more than 640K of RAM and directly address up to 16 Megabytes of
+    memory.
+
+    You can order the DOS/16M version of C-scape from Oakland Group.  DOS/16M
+    itself is available directly from Rational Systems:
+
+        Rational Systems
+        P.O. Box 480
+        Natick, MA 01760
+        (508) 653-6006
+
+
+9:  ABOUT PHAR LAP's 386 DOS|Extender
+
+    You can create C-scape applications that use Phar Lap's 386 DOS|Extender.
+    You must purchase the 386 DOS|Extender version of C-scape to create
+    programs that use the extender.  The 386 DOS|Extender allows you to create
+    programs that use the 32-bit protected mode of the 386 processor and
+    address up to 4 gigabytes of memory.
+
+    You can order the 386 DOS|Extender version of C-scape from Oakland Group.
+    The 386 DOS|Extender is available directly from Phar Lap:
+
+
+        Phar Lap Software
+        60 Aberdeen Ave.
+        Cambridge, MA 02138
+        (617) 661-1510
+
+
+    To use the Phar Lap 386DOS|Extender you must compile your program for
+    32-bit 386 protected mode (using one of the MetaWare High C compilers or
+    the Watcom 386 compiler).
+
+10:  ABOUT Metagraphics MetaWINDOW
+
+    You can create C-scape applications that use the Metagraphics MetaWINDOW
+    graphics library to display their screen output.  To do this, you must
+    purchase the MetaWINDOW version of C-scape.
+
+    The MetaWINDOW version of C-scape consists of a Device Interface Group
+    (DIG) that uses MetaWINDOW graphics commands to communicate with the
+    display.  Using this version of C-scape you can use any type of display
+    hardware supported by MetaWINDOW.  This includes most high resolution super
+    VGA display adapters.
+
+    You can order the Metagraphics MetaWINDOW version of C-scape from Oakland
+    Group.  Metagraphics MetaWINDOW is available directly from Metagraphics:
+
+        Metagraphics Software Corporation
+        P.O. 66779
+        Scotts Valley, CA 95067
+        (408) 438-1550 - telephone
+        (408) 438-5379 - fax
+

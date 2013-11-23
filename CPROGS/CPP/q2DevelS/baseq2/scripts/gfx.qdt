@@ -1,0 +1,245 @@
+;=============================================================================
+
+$load baseq2/gfx/gamepal.lbm
+
+; colormap goes from 0 - 200% intensity in 64 levels of 256 entries
+; the brightest color table is first
+; 0 fullbright colors in the palette
+; quake also gets the game palette from this resulting pcx file
+$colormap       colormap
+$inverse16table
+
+;=============================================================================
+
+$load baseq2/gfx/2d/conback2.lbm
+
+; conback is the full screen image that will be used for the
+; console background
+$grab   conback         0	0	320	240
+
+;=============================================================================
+
+$load baseq2/gfx/2d/quit.lbm
+
+; quit holds the "quit y/n" message and the credits
+$grab   quit			0	0	320	240
+
+;=============================================================================
+
+$load baseq2/gfx/2d/victory.lbm
+
+$grab   victory			0	0	320	240
+
+;=============================================================================
+
+$load baseq2/gfx/2d/pc.lbm
+
+; background for the help computer
+$grab   help			8	8	256	192
+
+;=============================================================================
+
+$load baseq2/gfx/2d/inv.lbm
+
+; background for the inventory
+$grab   inventory       8	8	256	192
+
+;=============================================================================
+
+$load baseq2/gfx/2d/nplak1.lbm
+
+; areyousure holds the "are you sure y/n" plaque
+$grab   areyousure		0	0	182	25
+$grab   yn              0	25	65	25
+$grab   loading         0	75	111	25
+$grab   pause           0	125	101	25
+
+;=============================================================================
+
+$load   baseq2/gfx/2d/chars.lbm
+
+; the trademarked proof of purchase image is used to legally protect
+; level data
+$raw   pics/pop             152 80 16 16
+
+; system font
+$grab   conchars        0	0	128	128
+
+; tiled graphic to use around sized down screen
+$grab   backtile        192     0       64  64
+
+; System status icons
+$grab   net				152     0       32      32
+$grab   turtle          152     40      32      32
+
+; crosshairs
+$grab	ch1				0 136 8 8
+$grab	ch2				16 136 8 8
+$grab	ch3				32 136 8 8
+
+;=============================================================================
+
+;=============================================================================
+
+$load   baseq2/gfx/2d/items.lbm
+
+; normal number pics
+$grab   num_0               0           64      16      24 
+$grab   num_1               16          64      16      24 
+$grab   num_2               32          64      16      24 
+$grab   num_3               48          64      16      24 
+$grab   num_4               64          64      16      24 
+$grab   num_5               80          64      16      24 
+$grab   num_6               96          64      16      24 
+$grab   num_7               112         64      16      24 
+$grab   num_8               128         64      16      24 
+$grab   num_9               144         64      16      24 
+$grab   num_minus           160         64      16      24 
+
+; highlighted number pics
+$grab   anum_0               0          96      16      24 
+$grab   anum_1               16         96      16      24 
+$grab   anum_2               32         96      16      24 
+$grab   anum_3               48         96      16      24 
+$grab   anum_4               64         96      16      24 
+$grab   anum_5               80         96      16      24 
+$grab   anum_6               96         96      16      24 
+$grab   anum_7               112        96      16      24 
+$grab   anum_8               128        96      16      24 
+$grab   anum_9               144        96      16      24 
+$grab   anum_minus           160        96      16      24 
+
+; flashed background
+$grab   field_3				64		128		48		24
+
+; deathmatch dogtags
+$load baseq2/gfx/2d/dm_face.lbm
+$grab	tag1		0 160 128 32
+$grab	tag2		136 160 128 32
+
+;=============================================================================
+
+$load   baseq2/gfx/2d/items3.lbm
+
+; weapon icons
+$grab   w_blaster           0               0               24              24
+$grab   w_shotgun           32              0               24              24
+$grab   w_sshotgun          64              0               24              24
+$grab   w_machinegun        96              0               24              24
+$grab   w_chaingun          128             0               24              24
+$grab   w_glauncher         160             0               24              24
+$grab   w_rlauncher         192             0               24              24
+$grab   w_hgrenade          224             0               24              24
+$grab   w_hyperblaster      256             0               24              24
+$grab   w_railgun           0               32              24              24
+$grab   w_bfg				32              32              24              24
+
+; item icons
+$grab   i_jacketarmor		96              32              24              24
+$grab   i_combatarmor       128             32              24              24
+$grab   i_bodyarmor         160             32              24              24
+$grab   i_powerscreen       192             32              24              24
+$grab   i_powershield       224             32              24              24
+$grab   i_health            256             32              24              24
+
+; ammo icons
+$grab   a_cells             0               64              24              24
+$grab   a_shells            32              64              24              24
+$grab   a_bullets           64              64              24              24
+$grab   a_slugs             96              64              24              24
+$grab   a_grenades          128             64              24              24
+$grab   a_rockets           160             64              24              24
+$grab   a_blaster           192             64              24              24
+
+; powerup icons
+$grab   p_silencer          0               96              24              24
+$grab   p_bandolier         32              96              24              24
+$grab   p_quad              64              96              24              24
+$grab   p_rebreather        96              96              24              24
+$grab   p_envirosuit        128             96              24              24
+;grab   p_goggles           160             96              24              24
+$grab   p_invulnerability   192             96              24              24
+
+; key icons
+$grab   k_bluekey           0               128             24              24
+$grab   k_redkey            32              128             24              24
+$grab   k_comhead           64              128             24              24
+
+$grab   i_airstrike         96          128             24              24
+$grab   p_adrenaline        128			128 24 24
+;grab   p_booster	        160         128             24              24
+$grab   p_megahealth		192			128 24 24
+
+$grab   k_security	        224			128 24 24
+$grab   k_powercube		    256			128 24 24
+
+
+$grab   k_pyramid           0            160             24              24
+$grab   k_dataspin          32           160             24              24
+$grab   k_datacd            64            160             24              24
+
+$grab   i_pack              96           160             24              24
+
+
+; spare icon (placeholder)
+$grab   i_fixme				224             64              24              24
+
+$grab   i_help              256          64              24              24
+
+;=====================================================
+;
+; menu
+;
+;=====================================================
+$load	baseq2/gfx/2d/nplak1.lbm
+$grab	m_main_options					0		150		150		32
+$grab	m_main_options_sel				0		182		150		32
+
+$load	baseq2/gfx/2d/nplak2.lbm
+$grab	m_banner_start_server			0		0		275		32
+$grab	m_banner_customize				0		32		275		32
+$grab	m_banner_join_server			0		64		275		32
+$grab	m_banner_save_game				0		96		275		32
+$grab	m_banner_multiplayer			0		128		275		32
+$grab	m_banner_addressbook			0		160		275		32
+$grab	m_banner_plauer_setup			0		192		275		32
+
+$load	baseq2/gfx/2d/nplak3.lbm
+$grab   m_main_game                     0       0       99      32
+$grab   m_main_game_sel                 0       32      99      32
+$grab	m_main_multiplayer				0		64		215		32
+$grab	m_main_multiplayer_sel			0		96		215		32
+$grab	m_main_video    				0		128		118		32
+$grab	m_main_video_sel				0		160		118		32
+
+$load	baseq2/gfx/2d/nplak4.lbm
+$grab	m_main_quit						0		0		100		32		
+$grab	m_main_quit_sel					0		32		100		32
+$grab	m_banner_video					0		64		275		32
+$grab	m_banner_options				0		96		275		32
+$grab	m_banner_load_game				0		128		275		32
+$grab	m_banner_game					0		160		275		32
+
+$load   baseq2/gfx/2d/nplak5.lbm
+$grab   m_cursor0						1	1	22	29
+$grab   m_cursor1						1	31	22	29
+$grab   m_cursor2						1	61	22	29
+$grab   m_cursor3						1	91	22	29
+$grab   m_cursor4						1	121	22	29
+$grab   m_cursor5						1	151	22	29
+$grab   m_cursor6						1	181	22	29
+$grab   m_cursor7						1	211	22	29
+$grab   m_cursor8						151	1	22	29
+$grab   m_cursor9						151	31	22	29
+$grab   m_cursor10						151	61	22	29
+$grab   m_cursor11						151	91	22	29
+$grab   m_cursor12						151	121	22	29
+$grab   m_cursor13						151	151	22	29
+$grab   m_cursor14						151	181	22	29
+
+$load   baseq2/gfx/2d/men_q2id.lbm
+$grab   m_main_logo                                             1               176             36              42
+$grab   m_main_plaque                                   0               0               38              166
+
+$load   baseq2/gfx/2d/main.lbm
+$grab   m_main                          16      16      224     136

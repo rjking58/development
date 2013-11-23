@@ -1,0 +1,59 @@
+[COMPILER]
+INCLUDEDIRS=%(INCLUDE)
+compile=concur|capture|:Compile:&Compile,nmake %n.obj
+make=concur|capture|:Build:&Build,nmake
+rebuild=concur|capture|:Rebuild:&Rebuild,nmake /A
+debug=:Debug:&Debug,msdev show4.exe
+execute=:Execute:E&xecute,show4.exe
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+usertool_resource_editor=hide|:Resource Editor:Resource Editor,msdev
+workingdir=
+includedirs=%(INCLUDE)
+tagfiles=
+reffile=
+MACRO=\n
+FILTEREXPANSION=1 1 0 0 0
+[ASSOCIATION]
+[FILES]
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\CDIB.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\CDIB.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\MAINFRM.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\MAINFRM.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\RESOURCE.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOW.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOW.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOWDOC.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOWDOC.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOWVIEW.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\SHOWVIEW.H
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\STDAFX.CPP
+C:\volatile\source\cprogs\cpp\VCPP\GameSDKStuff\CHAP02\SHOW4\STDAFX.H
+[STATE]
+SCREEN: 1024 768 88 88 768 537 0 0 M 0 0 0 0 1020 454
+CWD: C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial
+BUFFER: BN="D:\CHAP04\GDK1_1\GDK1VIEW.CPP"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=32
+VIEW: LN=.614 CL=1 LE=0 CX=0 CY=26 WI=5 BI=4 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="D:\CHAP04\GDK1_1\GDK1DOC.CPP"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=32
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=9 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="D:\CHAP04\GDK1_2\GDK1VIEW.CPP"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=32
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 690 177 -1 -1 M  WF=0 WT=2 "Lucida Console,11,0"
+BUFFER: BN="D:\CHAP04\GDK1_2\GDK1VIEW.CPP"
+VIEW: LN=.6914 CL=1 LE=0 CX=6 CY=15 WI=51 BI=11 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+D:\CHAP17\AZTEC15\CWAVE.CPP
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp
+C:\Program Files\DevStudio\VC\include\DDRAW.H
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.h
+D:\CHAP08\GDK4\GDK4VIEW.CPP
+D:\CHAP07\GDK3\GDK3VIEW.CPP
+D:\CHAP04\GDK1_1\GDK1VIEW.CPP
+D:\CHAP04\GDK1_1\GDK1DOC.CPP
+D:\CHAP04\GDK1_2\GDK1VIEW.CPP
+PRINTER: 2
+
+

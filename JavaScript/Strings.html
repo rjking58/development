@@ -1,0 +1,73 @@
+<html>
+<head>
+	<title>Strings</title>
+</head>
+<body>
+<h2>String Stuff</h2>
+<script>
+var str = "a string";
+var str2 = "another string";
+var str3 = str + "_" + str2;
+
+document.write("string str[" + str + "]");
+document.write("<br>");
+document.write("str.length[" + str.length + "]");
+document.write("<br>");
+document.write("string str2[" + str2 + "]");
+document.write("<br>");
+document.write("str2.length[" + str2.length + "]");
+document.write("<br>");
+document.write("string str3[" + str3 + "]");
+document.write("<br>");
+document.write("str3.length[" + str3.length + "]");
+document.write("<br>");
+
+// using charAt 
+for(currChar = 0; currChar < str3.length; currChar++)
+{
+	document.write(str3.charAt(currChar));
+	document.write(".");
+}
+
+document.write("<br>");
+
+document.write("<br>");
+document.write("<br>");
+document.write("str3[" + str3 + "]");
+document.write("<br>");
+document.write("str3.substring(2,4)[" + str3.substring(2,4) + "]");
+document.write("<br>");
+document.write("str3.substring(2,6)[" + str3.substring(2,6) + "]");
+document.write("<br>");
+document.write("str3.substring(8,11)[" + str3.substring(8,11) + "]");
+
+document.write("<br>");
+document.write("<br>");
+document.write("Numeric Conversions<br>");
+
+var num = 17;
+
+document.write("basic:  num.toString()[" + num.toString() + "]<br>");
+document.write("binary:  num.toString(2)[" + num.toString(2) + "]<br>");
+document.write("octal:  num.toString(8)[" + num.toString(8) + "]<br>");
+document.write("hex:  num.toString(16)[" + num.toString(16) + "]<br>");
+document.write("fixed:  num.toFixed(0)[" + num.toFixed(0) + "]<br>");
+document.write("fixed:  num.toFixed(2)[" + num.toFixed(2) + "]<br>");
+document.write("toExponential:  num.toExponential(1)[" + num.toExponential(1) + "]<br>");
+document.write("toExponential:  num.toExponential(3)[" + num.toExponential(3) + "]<br>");
+document.write("toPrecision:  num.toPrecision(4)[" + num.toPrecision(4) + "]<br>");
+document.write("toPrecision:  num.toPrecision(7)[" + num.toPrecision(7) + "]<br>");
+
+document.write('parseInt("3 blind mice")[' + parseInt("3 blind mice") + "]<br>");
+document.write('parseFloat("3.14 meters")[' + parseFloat("3.14 meters") + "]<br>");
+document.write('parseFloat("3.14 meters").toPrecision(4)[' + parseFloat("3.14 meters").toPrecision(4) + "]<br>");
+document.write('parseInt("blind mice")[' + parseInt("blind mice") + "]<br>");
+document.write("<br>");
+document.write('parseInt("11",2)[' + parseInt("11",2) + "]<br>");
+document.write('parseInt("11",16)[' + parseInt("11",16) + "]<br>");
+document.write('parseInt("ff",16)[' + parseInt("ff",16) + "]<br>");
+
+
+</script>
+</body>
+</html>

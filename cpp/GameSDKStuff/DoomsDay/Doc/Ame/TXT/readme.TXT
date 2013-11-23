@@ -1,0 +1,813 @@
+
+
+                           The Doomsday Engine
+                           -------------------
+                              Version 1.8.0
+
+                            by Jaakko Keränen
+                        <skyjake@doomsdayhq.com>
+                               06/27/2004
+
+                       http://www.doomsdayhq.com/
+                      http://deng.sourceforge.net/
+
+
+CONTENTS:
+   1. Introduction
+        1.1 Features
+        1.2 Requirements
+   2. Documentation
+   3. Running from the Command Line
+        3.1 File Paths on the Command Line
+        3.2 The "-file" Option
+   4. Data and Definitions Files
+        4.1 PK3 Files
+        4.2 Definitions and Files in WADs
+        4.3 Automatical Loading of Data and Definitions
+   5. Graphics
+        5.1 3D Models as Particles
+        5.2 Detail Textures
+   6. Resource Files
+        6.1 Game Modes
+        6.2 Textures
+        6.3 Patches
+        6.4 Sprite Frames
+        6.5 Raw Screens
+        6.6 Light Maps
+        6.7 Music
+        6.8 Sound Effects
+   7. Plugins
+        7.1 Dehacked Patches
+   8. Networking
+        8.1 Server Settings
+        8.2 Client Settings
+   9. Known Issues
+  10. Acknowledgements and Thanks
+
+========================================================================
+1. INTRODUCTION
+
+The Doomsday Engine is an enhanced Doom source port for the Windows and
+Linux platforms. It is based on the source code of id Software's Doom
+and Raven Software's Heretic and Hexen. The Doomsday Engine and the
+associated ports of Doom, Heretic and Hexen have been under development
+since 1999. The first versions were released in late 1999 and early
+2000. Most of the development work has been done by Jaakko Keränen
+(skyjake). Several other people have also been involved in the project
+(see Acknowledgements).
+
+The purpose of the project is to create versions of Doom, Heretic and
+Hexen that feel the same as the original games but are implemented
+using modern techniques such as 3D graphics and client/server
+networking. A lot of emphasis is placed on good-looking graphics.
+
+........................................................................
+1.1 Features
+
+Graphics:
+* Supports both OpenGL and Direct3D
+* Dynamic lights
+* Lens flares
+* High-resolution textures (PNG, TGA, PCX)
+* Particle effects
+* Detail textures
+* 3D models (uses Quake II's MD2 format)
+* Simple environmental mapping for 3D models (shiny effects)
+* MD2 skymodels and skyboxes
+* Actor (monster) movement smoothing
+* Simulated radiosity shadowing system for the environment
+* Simple shadows for objects
+* Fog
+* Glowing surfaces
+* Smart texture filtering using a modified hq2x algorithm
+
+Sound:
+* Plays music using standard Windows MIDI routines
+* Win32: supports DirectSound, DirectSound3D, EAX 2.0 and A3D 3.0
+* Linux: SDL_mixer, OpenAL
+* Uses FMOD (http://www.fmod.org/) to play music files such as MP3
+* 3D sound effects
+* Environmental (reverb) effects
+* Runtime sound effect resamping to 22/44 KHz with 8/16 bits
+
+Networking:
+* TCP/UDP-based client/server networking
+* Up to 16 players
+* Clients can join games in progress
+* Dedicated mode for servers
+
+Other:
+* Console
+* Control Panel
+* Plain text definition files for game objects and other data
+* Files can be loaded from WAD files (see wadtool)
+* Doomsday KickStart (on Win32): a launcher for games running on
+  Doomsday
+
+........................................................................
+1.2 Requirements
+
+* Pentium 166 (or equivalent) with 64Mb of RAM (providing that 3D
+  models and special effects are disabled)
+
+* Windows 98 (or newer)
+
+* DirectX 8 (or newer)
+
+* A display adapter capable of 3D hardware acceleration
+
+* At least one WAD file from the original Doom, Heretic, Hexen, etc.
+
+========================================================================
+2. DOCUMENTATION
+
+Additional documentation is available in the Doc\ folder:
+
+Beginner.txt
+    A Beginner's Guide to Doomsday. Installation instructions and basic
+    usage information for a first-time user.
+
+CmdLine.txt
+    Doomsday command line options. A quick reference listing all the
+    command line options recognized by Doomsday, with a short
+    explanation for each.
+
+DEDDoc.txt
+    Doomsday Engine Definition reference. An in-depth look into the
+    syntax and uses of DED files.
+
+InFine.txt
+    InFine scripts reference. InFine scripts are used to define
+    interludes and finale animations.
+
+DHistory.txt
+    Doomsday version history.
+
+DSS.txt
+    Doomsday directory structure standard. Mod-makers and other
+    developers are encouraged to follow the structure described here.
+
+Network.txt
+    Multiplayer games with Doomsday. Some details about network games
+    running on Doomsday.
+
+Example.bat
+    Example batch file for launching.
+
+An up-to-date version history of the Doomsday engine should be
+available at:
+
+    http://www.doomsdayhq.com/changes.php
+
+The Extended General Line And Sector Type Reference (XGRef) can be
+downloaded from:
+
+    http://iki.fi/code/files/XGRef.pdf
+
+========================================================================
+3. RUNNING FROM THE COMMAND LINE
+
+........................................................................
+3.1 File Paths on the Command Line
+
+There are a few things you should know about the handling of relative
+paths. First of all, these are the directories that the engine is
+working with:
+
+* Doomsday root/base directory (for example C:\Doomsday\). Everything
+  relating to the Doomsday engine is under this directory.
+
+* Working/runtime directory (for example C:\Doomsday\Run\x\). This is
+  the directory where the engine spends it time when a game is running.
+
+* Data directory (for example C:\Doomsday\Data\x\). WAD files and
+  external resources are loaded from here.
+
+The "-basedir" option tells the engine where the base directory is in
+relation to the runtime directory (or it's the the absolute path of the
+base directory, e.g. C:\Doomsday\).
+
+The principle is that "-basedir" only affects built-in default paths
+and relative paths in DED files. "-basedir" does not affect relative
+paths in command line options. If a relative path is given on the
+command line, it is first searched in relation to the runtime
+directory. For example, the option "-file doom.wad" will make the
+engine read the file doom.wad, which is located in the runtime
+directory. In the default configuration this is C:\Doomsday\Run\jDoom\.
+If the file is not found in the runtime directory, the data directory
+is searched instead.
+
+KickStart automatically uses a "-basedir" of ..\.., which means the
+root directory is the 'grandparent' of the runtime directory. The
+option "-sbd" ("-stdbasedir") is the equivalent of "-basedir ..\..".
+
+There is one exception, though. With the "-file" (and "-iwad") options
+a relative path can begin with a greater-than character (>) or a
+closing brace character (}). When the engine loads the WAD file in
+question, the > or } character is replaced with the path specified by
+"-basedir". For example, "-file >Data\Doom.wad" would make the engine
+load a WAD named C:\Doomsday\Data\Doom.wad (assuming the default
+Doomsday root C:\Doomsday\). Note that if you're executing Doomsday.exe
+from the command line or from a DOS batch file, you must enclose the
+file names that contain a > character in quotes or otherwise DOS will
+think you're trying to redirect output. In response files it doesn't
+matter if there are quotes or not. (If you really are trying to
+redirect output, you should use the "-out" option.)
+
+The default launch method (used by KickStart 1.6) is a runtime
+directory oriented approach. KickStart will change the current working
+directory to the Game's runtime folder and execute Doomsday.exe from
+there, with the "-basedir ..\.." option. This way the engine will use
+the appropriate runtime folder as the working directory, but will also
+know where the Doomsday root directory is by adding the base
+directory's ..\.. to default path names (like fonts and definitions
+files).
+
+There is an alternative approach, which could be called an executable
+oriented approach. Doomsday.exe is executed in the Bin directory, with
+the options "-userdir <runtime-path> -basedir <path-to-root>".
+<runtime-path> can be a relative or an absolute path to the correct
+runtime directory. Again, "-basedir" tells the engine where the root
+directory is, using an absolute path or in relation to <runtime-path>.
+"-userdir" will make the engine run in the given directory, i.e. it
+specifies the runtime directory.
+
+Note that "-game" and "-gl" work a bit differently because their
+arguments are directly passed on to the Win32 routine LoadLibrary. You
+should either omit the path entirely (e.g. "-game jHeretic.dll") or use
+a full path to the DLL (e.g. "-game C:\Doomsday\Bin\jHeretic.dll"), no
+matter where you're executing Doomsday.exe.
+
+The default place where you should put your IWADs is Data\<Game>\.
+jDoom, jHeretic and jHexen will by default look for IWADs in
+Data\<Game>\, Data\, the base directory and the runtime directory, in
+that order.
+
+........................................................................
+3.2 The "-file" Option
+
+The "-file" option is used to load WAD files and other data files from
+the command line. "-file" has two aliases: the abbreviation "-f" and
+"-iwad". Both of these are just aliases; they are treated like they
+were in fact "-file".
+
+In addition to normal WAD files, the "-file" option can be used to load
+any type of data files, for instance PCX images. An example:
+
+    -file image.pcx
+
+This would load the file image.pcx from the runtime directory (or the
+data directory). When loading files in this manner, the engine will
+treat the file as if it was a WAD file with a single data lump. The
+lump gets its name from the base of the file name, which in the
+example's case would be IMAGE. Anyone can then refer to the data lump
+using that name, just as if it was included in a WAD file.
+
+Any file loaded with the "-file" option can't be unloaded from memory
+at runtime using the unload command. This is mainly a precaution, since
+unloading the main WAD file of the game or any data related to it would
+lead to fatal errors.
+
+========================================================================
+4. DATA AND DEFINITIONS FILES
+
+........................................................................
+4.1 PK3 Files
+
+Doomsday supports the PK3 (i.e. ZIP) format. Compression is not
+allowed. If you try to load a compressed PK3/ZIP file, you will get an
+error message.
+
+PK3 files can be loaded using the "-file" option. For example, "-file
+some.pk3" will try loading some.pk3 first from the runtime directory
+and then from the data directory.
+
+A PK3 contains a set of files. When a PK3 is loaded, all of them become
+virtual files that Doomsday can access just like the regular files on
+your hard drive. The end result is the same as if you had unpacked the
+PK3 into your Doomsday base directory. (Don't worry, no actual
+unpacking is done.) For example, the PK3 could have the file
+Data\jDoom\Auto\Superb.wad.
+
+PK3 files can be created with just about any ZIP program, such as
+WinZip. Just make sure all the files have the correct paths, or
+otherwise Doomsday may not be able to find them.
+
+........................................................................
+4.2 Definitions and Files in WADs
+
+After all DED files have been processed, the engine will check through
+all the loaded WAD files for lumps named DD_DEFNS. All the lumps with
+that name are processed just as if they were DED files, i.e. they
+should contain a DED file in plain text format. The DD_DEFNS lumps are
+applied in the order in which they have been loaded.
+
+Another special lump used by Doomsday is DD_DIREC. It contains a table
+that translates file paths to lump names. An example is shown below:
+
+    FILE001  /Md2/jDoom/Some.md2
+    FILE002  Another.ded
+
+Each line in DD_DIREC contains a lump/path pair. The paths that begin
+with a (back)slash are interpreted as paths that start from the
+Doomsday base directory (set with "-basedir"; e.g. C:\Doomsday) and
+paths that don't begin with a (back)slash are located in the runtime
+directory. The engine will first search the DD_DIRECs before opening
+any file for reading. Note, however, that all kinds of files are not
+loaded using the DD_DIRECs: for instance demos (which are compressed
+with the LZSS library) must always be loaded from real files.
+
+I've written a simple utility for automatically creating a WAD file
+that contains the current directory and all its subdirectories plus a
+DD_DIREC lump that has (with a high probability) a unique lump name for
+each file. You could invoke the utility like this:
+
+    wadtool myfiles.wad /Data/jDoom/Textures/
+
+This would create a WAD file that contains all the files from the
+current directory. When writing the DD_DIREC table, the prefix
+"/Data/jDoom/Textures/" would be added to each file name.
+
+........................................................................
+4.3 Automatical Loading of Data and Definitions
+
+All WAD, PK3, ZIP and LMP files placed in the Data\<Game>\Auto\
+directory will be automatically loaded at startup.
+
+All DED files placed in the Defs\<Game>\Auto\ directory will be
+automatically read at startup.
+
+Virtual files (from a PK3 or a WAD) in the Auto directories will also
+be loaded.
+
+========================================================================
+5. GRAPHICS
+
+........................................................................
+5.1 3D Models as Particles
+
+3D models can be used as particles in a particle generator. There are
+two things that need to be done. In the particle generator definition,
+set the particle stage's type to one of the "pt_model" flags. The
+following would make the stage use particle model number 13:
+
+    Type = "pt_model13";
+
+In the particle stage definition, remember to set a color for the
+stage. If the color is not specified, the default values will result in
+a completely transparent particle model.
+
+The model definition must have a matching ID. For example, particle
+model number 13 uses the following ID:
+
+    ID = "Particle13";
+
+For further details see the DED Reference.
+
+........................................................................
+5.2 Detail Textures
+
+Detail textures are grayscale images that are rendered on top of normal
+textures when walls and planes are viewed from close by. A signed-add
+blending is used, which lets the detail texture either darken or
+brighten the underlying texture: black => dark, gray => no change,
+white => bright.
+
+Detail textures can be assigned to specific wall textures and flats
+using Detail definitions (Details.ded). The definition is described in
+the Doomsday Engine Definitions Reference (DEDDoc.txt).
+
+Detail textures can be loaded from PCX images or raw image data. Either
+way, the image must be inside a WAD file or loaded using the "-file"
+option. When using the "-file" option to load detail textures, the file
+names of the images become lump names (see "-file" option).
+
+PCX images used as detail textures must have a color depth of 8 bits
+and their width and height must be powers of two. The palette should be
+a grayscale one. It's possible to use other colors but the result can
+be weird due to the way the blending of detail textures is done.
+
+If the source data is a raw image, it must be either 64x64, 128x128 or
+256x256 pixels in size. Raw images contain only the pixel values, (one
+byte per pixel) and have only one color component per pixel (they're
+black and white images), which means the lump or file that contains the
+detail texture can either be 4096, 16384 or 65536 bytes long.
+
+Using the default scaling, the pixels of detail textures are four times
+smaller than the pixels of regular textures.
+
+The console variables rend-tex-detail, rend-tex-detail-far,
+rend-tex-detail-strength and rend-tex-detail-scale control the
+rendering of detail textures.
+
+========================================================================
+6. RESOURCE FILES
+
+Normally all resources such as wall textures, menu graphics and fonts,
+background music and sound effects are loaded from the WAD files.
+Doomsday has a mechanism that allows replacing these resources with
+external resource files placed in specific directories. The files are
+called 'external' because they are regular files and not part of a WAD
+file.
+
+External resource files are easy to use. They do not require making
+changes to any configuration or definition files. As long as a resource
+file is placed in the correct directory, Doomsday will load and use it
+automatically.
+
+External resources are divided into a number of classes. Each class has
+its own subdirectory under the Data\<Game>\ directory. The table below
+lists the resource classes and gives a brief description of each.
+
+ Resource Class   Description
+ ----------------------------------------------------------------------
+ Textures         Textures for walls and flats (floors and ceilings)
+ Patches          Graphics for menus, fonts and sprite frames
+ LightMaps        Textures for dynamic lights
+ Music            Background music
+ Sfx              Sound effects
+
+For example, sound effects for jDoom would be placed in the directory
+Data\jDoom\Sfx\.
+
+........................................................................
+6.1 Game Modes
+
+One Game DLL, such as jDoom, is able to run in many different modes.
+Each mode emulates a specific version of the original game and
+typically has its own IWAD file. In some cases two modes can have a
+resource with the same name. This is a problem if the same resource
+file can't be used by both modes.
+
+The resource class directory can have a subdirectory for each game
+mode. When Doomsday looks for an external resource, it first checks the
+current game mode's subdirectory. If no suitable resource is found
+there, the class directory is searched instead.
+
+Below is a list of all the game modes supported by jDoom, jHeretic and
+jHexen.
+
+ Game        Mode               Description
+ ----------------------------------------------------------------------
+ jDoom       doom1-share        Shareware Doom
+             doom1              Registered Doom
+             doom1-ultimate     Ultimate Doom (has a 4th episode)
+             doom2              Doom 2
+             doom2-plut         Final Doom: Plutonia Experiment
+             doom2-tnt          Final Doom: TNT Evilution
+ jHeretic    heretic-share      Shareware Heretic
+             heretic            Registered Heretic
+             heretic-ext        Heretic: Shadow of the Serpent Riders
+                                (has episodes 4, 5)
+ jHexen      hexen              Hexen
+             hexen-dk           Hexen: Death Kings of Dark Citadel
+             hexen-demo         The 4-level Hexen Demo
+
+For example, textures meant only for Final Doom: Plutonia Experiment
+would be placed in the directory Data\jDoom\Textures\doom2-plut\.
+
+........................................................................
+6.2 Textures
+
+Normal wall textures and flats can be replaced with TGA (Truevision
+Targa), PNG (Portable Network Graphics) or PCX (Zsoft Paintbrush)
+images. The engine currently supports these image formats:
+
+ Pixel size                  PCX           PNG           TGA
+ ----------------------------------------------------------------------
+ 8-bit (paletted)*           Yes           Yes           -
+ 16-bit                      -             -             -
+ 24-bit                      -             Yes           Yes**
+ 32-bit (alpha channel)      -             Yes           Yes**
+
+* = the palette does not have to match the palette of the game
+** = TGAs must be type 2 (uncompressed, unmapped RGB)
+
+Note that 32-bit images are just 24-bit images with an additional 8
+bits per pixel for the alpha channel. Contact me if you feel that it's
+necessary to add support for other formats.
+
+The recommended format for high-resolution textures is paletted PNG. It
+is the easiest format in which to distribute the textures due to its
+small size. Since the palette doesn't have to be the same as the
+game's, it should be enough for many textures.
+
+The high-resolution textures can be of any size. The engine will render
+them scaled so that they fit the size of the original texture. This
+means the aspect ratio of the new texture doesn't have to be the same
+as of the original texture. Note that the engine will have to resize
+all textures so that their dimensions are powers of two (e.g. 32, 64,
+128, 256). This means TGA/PNG textures whose width and height are
+already powers of two can be loaded faster.
+
+Color keying is done if the file name of the image ends in "-ck", for
+example brnbigc-ck.png. Both cyan (0,255,255) and purple (255,0,255)
+are used as keys. An alternative way to have transparency is to use an
+alpha channel. In it, white (255) means opaque and black (0) is fully
+transparent. All values in between can be used, too, for partly
+translucent pixels. When using an alpha channel, the "-ck" suffix is
+not needed.
+
+To create a high-resolution texture for the wall texture STARTAN3 you'd
+place a TGA file named startan3.tga or a PNG file named startan3.png
+into the Textures directory. The file names of images that replace
+flats must begin with "flat-", e.g. to replace the flat FLOOR7_2 you'd
+need to have a TGA file flat-floor7_2.tga in the Textures directory. If
+there are both PNG and TGA versions of the same texture, the engine
+will use the PNG version.
+
+NOTE! The file names of the high-resolution textures must match the
+      *texture* names, not the names of the patches that make up the
+      textures. For example: DOOR2_5 is a patch name, DOOR3 is the
+      texture that uses DOOR2_5.
+
+To disable high-resolution textures use the command line option
+"-nohightex". The option "-texdir" can be used to change the directory
+from which the textures are searched.
+
+Links to high-resolution texture sites:
+
+    http://switch.to/doom2textures
+    http://switch.to/heretictextures
+    http://switch.to/hexentextures
+
+More texture-related resources are available at DoomsdayHQ:
+
+    http://www.doomsdayhq.com/files.php?class=4&type=3
+
+........................................................................
+6.3 Patches
+
+Patches are images that are commonly used in game menus and
+intermission screens. Like textures, patches can be replaced with TGA,
+PNG or PCX images. The Patches resource class directory is searched
+using the lump names of the original patches. For example, to replace
+the Doom menu title, you would place the file m_doom.png to the Patches
+directory.
+
+The original data lumps are required even if an external resource is
+found, because the original data includes information about offsets and
+the on-screen size of the patch. This means the image from the external
+resource can be of any arbitrary resolution: it will be scaled to match
+the original patch.
+
+Currently external patch resources are not precached, which may cause
+slight delays when the patches are first loaded.
+
+........................................................................
+6.4 Sprite Frames
+
+Sprite frames are patches. They can be replaced with external resources
+just like all other patches. The same restrictions apply, though: the
+dimensions of the external resource do not affect the actual size of
+the sprite frame. This means the external resources must really be
+*high-resolution* versions of the original images. Otherwise the size
+and/or aspect ratio will not be right for the resource.
+
+For example, in order to replace the Doom medikit (lump name MEDIA0),
+one would place the file media0.png into the Patches directory.
+
+Color-mapped versions of sprite frames can have external resources,
+too. To indicate that a resource is color-mapped, its name is formed
+like this:
+
+    (patchName)-table(classNum)(tableNum).ext
+
+(patchName) is the sprite frame lump name. (classNum) is the number of
+the color translation class. This number is always zero in jDoom and
+jHeretic. In jHexen, it's the player's class (0=Fighter, 1=Cleric,
+2=Mage). tableNum is the index number of the color translation table.
+jDoom and jHeretic have 4 tables, jHexen has 8. For example:
+playa1-table01-ck.png would be the Doom player sprite frame A1 with
+color table 1. The -ck suffix makes the image color keyed (i.e. special
+colors indicate transparent pixels).
+
+........................................................................
+6.5 Raw Screens
+
+Some background pictures are in the raw screen format, which is used to
+store 320 x 200 pixel paletted images. A lump containing a raw screen
+image (for example Heretic's TITLEPIC) is exactly 320 x 200 = 64000
+bytes long. Raw screens can be replaced with external resources in the
+Patches directory.
+
+........................................................................
+6.6 Light Maps
+
+Light maps are monochrome images that can be used with dynamic lights.
+The dimensions of a light map must be powers of two, for example 256 x
+256. If the map contains an alpha channel, the actual color values are
+ignored; only the alpha values are significant. If the map doesn't have
+an alpha channel, one is generated by averaging the color values of the
+image.
+
+Example: If you assign the light map "Round" to a light source, images
+with that file name are searched from the LightMaps directory. The
+accepted image formats are PCX, TGA and PNG. If Round.pcx, Round.tga or
+Round.png is found, it will be loaded.
+
+........................................................................
+6.7 Music
+
+Doomsday can play various external music files using the FMOD library
+(http://www.fmod.org/). FMOD supports many music file formats including
+MP3, OGG, MOD and S3M (mods are a good choice due to their good
+quality/size ratio). External music files can be played at any time
+using the playext console command.
+
+NOTE! On some systems, using FMOD with Doomsday has caused lock-ups or
+      other unwanted behavior. If this appears to be the case for you,
+      you should disable FMOD with the "-nofmod" option. However, this
+      will also make it impossible to play external music files such as
+      MP3s.
+
+Like other external resources, placing a music file into the Music
+resource class directory is enough. The file name must match the lump
+name of the original music data lump. For example, to replace the music
+for Doom's first episode's second map, the file d_e1m2.mp3 would be
+placed in the Music directory.
+
+It is also possible to store music files into a WAD. Again, you must
+name the lumps so that they match the lumps of the original songs, and
+are thus loaded instead of them. Any music files supported by FMOD can
+be loaded from a WAD.
+
+Another way to specify an external resource file is to use the "Ext"
+key of a Music definition (in Audio.ded). An example of editing the
+definitions: You have a terrific song called song.mp3 and you'd like to
+hear it instead of Doom's regular "e1m2".
+
+1. The first thing to decide is whether you want to play the song from
+   where it's currently located, or do you want to move it under the
+   Doomsday directory. In the latter case it would be easy to
+   distribute the song and its definition file to others, since they
+   wouldn't have to worry about where the music file is. If you decide
+   to move the song, create a directory under the Doomsday\Data\jDoom\
+   directory called Music. Another logical choice could be
+   Doomsday\Music\. Then copy the song into the created directory.
+
+2. Open Audio.ded in a text editor. In it, you will find a bunch of
+   Music definitions, including:
+
+       Music { ID = "e1m2"; Lump = "D_E1M2"; }
+
+   In order to make the change persist over version upgrades (each one
+   will overwrite Audio.ded) copy the definition to User.ded in the
+   Defs\jDoom\ directory, or create a new DED file with any name you
+   like in the Defs\jDoom\Auto\ directory. Everything in the Auto
+   directory will be read automatically. If User.ded doesn't exist,
+   just create a new file for it.
+
+3. Now you have the new Music definition, and the only thing left is to
+   let the engine know which file it should load when the song "e1m2"
+   is played. Edit your definition by adding the "Ext" key:
+
+       Music {
+         ID = "e1m2"; Lump = "D_E1M2";
+         Ext = "Data\jDoom\Music\song.mp3";
+       }
+
+CD tracks can be associated with songs in a similar fashion, but
+instead of using the "Ext" key you should use a "CD track" key:
+
+    CD track = 3;
+
+........................................................................
+6.8 Sound Effects
+
+Sound samples can be replaced with WAV files. The supported formats are
+8-bit and 16-bit mono PCM with no compression. The Sfx resource class
+directory is searched using the lump names of the original samples. For
+example, to replace jDoom's rocket launcher sound, the file
+dsrlaunc.wav would be placed in the Sfx directory.
+
+Another way to specify an external resource file is to use the Sound
+definition "Ext" key.
+
+Doomsday will automatically detect the format of a sample if it's
+loaded from a WAD file, making it possible to compile a WAD out of WAV
+samples.
+
+========================================================================
+7. PLUGINS
+
+........................................................................
+7.1 Dehacked Patches
+
+Most features of Dehacked are supported by Doomsday's Dehacked reader.
+The loader will print a message during startup if an unsupported
+feature is used.
+
+Let's say you have the Dehacked patch file.deh in your runtime
+directory. Then you can use the command line option "-deh file.deh" to
+load it at startup.
+
+If a lump named DEHACKED is found in a WAD, it will be automatically
+applied when the WAD is loaded. Normally only the last DEHACKED lump is
+used if a lump with that name is found in multiple WADs. Use the option
+"-alldehs" to make the engine apply all found DEHACKED lumps.
+
+========================================================================
+8. NETWORKING
+
+Doomsday uses both TCP and UDP for making network connections. If you
+are behind a firewall or you are using NAT, you must make sure that
+other computers are able to send network packets to your computer. This
+entails opening the appropriate incoming TCP/UDP ports on your firewall
+and/or configuring the NAT so that the correct ports are routed to your
+computer.
+
+All the TCP/UDP ports that Doomsday will use (in a basic setup where
+there is either one server or one client on a computer) are visible in
+the network setup screens. The corresponding console variables are
+net-port-control (TCP) and net-port-data (UDP).
+
+........................................................................
+8.1 Server Settings
+
+The server uses one TCP port for listening to incoming connections. By
+default this is 13209 (setting the port to zero will mean 13209 will be
+used instead). This port must be open for incoming TCP traffic.
+
+The server also uses one UDP port of listening to incoming data
+messages from the clients. By default this is port 13209 (the same
+number as with TCP). This port must be open for incoming and outgoing
+UDP traffic.
+
+........................................................................
+8.2 Client Settings
+
+The client uses one UDP port for data messages. By default this is
+13209 (just like the server). This port must be open for incoming and
+outgoing UDP traffic.
+
+========================================================================
+9. KNOWN ISSUES
+
+* The list of reported bugs is on the deng Project page on SourceForge:
+  http://sourceforge.net/projects/deng/
+
+* Display color adjustments (gamma, contrast, brightness) are currently
+  not functional in Linux.
+
+* The FMOD library has been known to cause problems on some systems. If
+  you experience sudden crashes or lock-ups, try the "-nofmod" option.
+  It may also be helpful to disable MIDI music entirely with the
+  "-nomusic" option.
+
+* Software gamma doesn't affect MD2 skins. Use hardware gamma
+  correction (vid-gamma, vid-contrast, vid-bright) instead.
+
+========================================================================
+10. ACKNOWLEDGEMENTS AND THANKS
+
+id Software, for creating DOOM and then releasing its source code.
+
+Raven Software, for creating Heretic and Hexen and then releasing their
+source code.
+
+Daniel Swanson, for maintaining the jDoom Resource Pack and creating
+the Doomsday Engine logo.
+
+Abbs, for maintaining the jDoom model pack and doing wonderful work on
+the models and particle effects.
+
+Anton Rzheshevski (aka Cheb), for player weapon 3D models and other MD2
+modifications/enhancements, maintaining the jDoom model pack and
+writing KickStart version 2.
+
+Greg Fisk (Slyrr), for many excellent 3D models for jHeretic.
+
+Graham Jackson, for helping me with the source code, fixing some Doom
+bugs and doing a lot of testing.
+
+All authors of the MD2 models and definition files (see the readme
+files under Md2\ for more detailed info).
+
+David Jarvis, for doing network testing with jDoom and jHeretic and
+generously contributing essential computer hardware components! :-)
+
+Andrew Apted, for glBSP (http://glbsp.sourceforge.net/).
+
+William Mull, for hosting the j-sites and bearing with me.
+
+James Bunting and Patrick Farrell, for providing FTP space for the
+Doomsday project.
+
+Darin Petersen, for the very useful MD2 export tool QTiP.
+
+People who have sent bug reports. One can't expect me to keep coding
+this thing and test every possible level in case something has broken
+down... (Did you know that Doom, Heretic and Hexen combined have over
+220 'official' levels?) By sending bug reports you can be sure I'll at
+least try to fix it some day. :-)
+
+People who have sent ideas for new features. My goal is not to create
+the most feature-packed, super-customizable FPS extravaganza but to
+have ports of Doom, Heretic and Hexen that play right and look nice, so
+I might not think of something you'd very much like to see.
+
+All DOOM / Heretic / Hexen fans, for keeping these excellent games
+alive. Keep on playing!
+
+Me, Jaakko Keränen, for writing this stuff! You rule! ;-D

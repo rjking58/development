@@ -1,0 +1,3 @@
+Borland C++ Version 4.02 Copyright (c) 1994 Borland International
+fli5.cpp:
+Warning fli5.cpp 242: 'readlen' is assigned a value that is never used in function load_PCX(char *,pcx_struct *)

@@ -1,0 +1,2 @@
+23e6e5010fff6408530f16a713133bb8C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\Debug\stdafx.obj
+e7dbb7ded206533f1ea1b59c44b83063C:\Volatile\Source\cpp\DebuggerTesting\DebuggerTesting\Debug\DebuggerTesting.obj

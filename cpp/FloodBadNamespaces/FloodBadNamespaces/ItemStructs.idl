@@ -1,0 +1,329 @@
+#pragma once
+
+typedef
+[
+	uuid(15C679A3-AC29-4497-AC43-5EA8710BAD46), 
+    version(1.0),
+    helpstring("ENUM Holding datatypes supported by IData")
+]
+enum IItemIdentityType
+{
+	[helpstring("Name Type")]		Name				= 0,
+	[helpstring("Id Type")]			Id					= 1,
+	[helpstring("NameAndId Type")]	NameAndId			= 2,
+	[helpstring("Other")]			Other				= 65535,
+} IItemIdentityType;
+
+typedef
+[
+    uuid(78FC3B63-DACE-4192-A550-1E645F607A37), 
+    version(1.0),
+    helpstring("ENUM Item Reference Type")
+]
+enum IItemReferenceType
+{
+    [helpstring("None Type")]		    ItemReferenceNone = 0,
+    [helpstring("Absolute Type")]		ItemReferenceAbsolute = 1,
+    [helpstring("Hierarchical Type")]	ItemReferenceHierarchical = 2,
+    [helpstring("Relative Type")]		ItemReferenceRelative = 3,
+    [helpstring("Other Type")]		    ItemReferenceOther = 65535
+} IItemReferenceType;
+
+typedef
+[
+    uuid(77051582-C09B-4222-BA2A-766554B0D142), 
+    version(1.0),
+    helpstring("ENUM Holding datatypes supported by IData")
+]
+enum IDataType
+{
+    [helpstring("Byte Type")]                   TypeByte = 0,
+    [helpstring("Char Type")]                   TypeChar = 1,
+    [helpstring("signed int16 Type")]           TypeInt16 = 2,
+    [helpstring("Unsigned int16 Type")]         TypeUInt16 = 3,
+    [helpstring("signed int32 Type")]           TypeInt32 =  4,
+    [helpstring("Unsigned int32 Type")]         TypeUInt32 = 5,
+    [helpstring("signed int64 Type")]           TypeInt64 =  6,
+    [helpstring("Unsigned int64 Type")]         TypeUInt64 = 7,
+    [helpstring("Float Type")]                  TypeFloat =  8,
+    [helpstring("Double Type")]                 TypeDouble = 9,
+    [helpstring("String Type")]                 TypeString = 10,
+    [helpstring("DateTime Type")]               TypeDateTime = 11,
+    [helpstring("Duration Type")]               TypeDuration = 12,
+    [helpstring("Guid Type")]                   TypeGuid = 13,
+    [helpstring("ByteString Type")]             TypeByteString = 14,
+    [helpstring("LocaleID Type")]               TypeLocaleID = 15,
+    [helpstring("LocalizedText Type")]          TypeLocalizedText = 16,
+    [helpstring("Boolean Type")]                TypeBool = 17,
+    [helpstring("CustomStruct Type")]           TypeSByte = 18,
+    [helpstring("ErrorStatus Type")]            TypeErrorStatus = 19,
+    [helpstring("Enum Type")]                   TypeEnum = 20,
+    // Begin - US 91973
+    [helpstring("DataType Type")]               TypeDataType = 21,
+    [helpstring("SecurityClassification Type")] TypeSecurityClassification = 22,
+    [helpstring("DataQuality Type")]            TypeDataQuality = 23,
+    // End - US 91973
+
+    [helpstring("Byte Array Type")]             TypeByteArray = 40,
+    [helpstring("Char Array Type")]             TypeCharArray = 41,
+    [helpstring("signed int16 Array Type")]     TypeInt16Array = 42,
+    [helpstring("Unsigned int16 Array Type")]   TypeUInt16Array = 43,
+    [helpstring("signed int32 Array Type")]     TypeInt32Array = 44,
+    [helpstring("Unsigned int32 Array Type")]   TypeUInt32Array = 45,
+    [helpstring("signed int64 Array Type")]     TypeInt64Array = 46,
+    [helpstring("Unsigned int64 Array Type")]   TypeUInt64Array = 47,
+    [helpstring("Float Array Type")]            TypeFloatArray = 48,
+    [helpstring("Double Array Type")]           TypeDoubleArray = 49,
+    [helpstring("String Array Type")]           TypeStringArray = 50,
+    [helpstring("DateTime Array Type")]         TypeDateTimeArray = 51,
+    [helpstring("Duration Array Type")]         TypeDurationArray = 52,
+    [helpstring("Guid Array Type")]             TypeGuidArray = 53,
+    [helpstring("ByteString Array Type")]       TypeByteStringArray = 54,
+    [helpstring("LocaleID Array Type")]         TypeLocaleIDArray = 55,
+    [helpstring("LocalizedText Array Type")]    TypeLocalizedTextArray = 56,
+    [helpstring("Boolean Array Type")]          TypeBoolArray = 57,
+    [helpstring("CustomStruct Array Type")]     TypeSByteArray = 58,
+
+    [helpstring("Enum Array Type")]             TypeEnumArray = 60,
+    // Begin - US 91973
+    [helpstring("DataType Array Type")]          TypeDataTypeArray = 61,
+    [helpstring("SecurityClassification Array Type")] TypeSecurityClassificationArray = 62,
+    [helpstring("DataQuality Array Type")]       TypeDataQualityArray = 63,
+    // End - US 91973
+
+    [helpstring("Unknown Type")]                TypeUnknown = 65535
+} IDataType;
+
+typedef
+[
+    uuid(90F6EA33-C670-4285-887E-74EB765CA422), 
+    version(1.0),
+    helpstring("ENUM ArchestrAError datatypes")
+]
+enum IArchestrAError
+{
+    [helpstring("")]    ArchestrAErrorSuccess = 0,
+    [helpstring("")]    ArchestrAErrorInvalidConnectionId = 1,
+    [helpstring("")]    ArchestrAErrorApplicationAuthenticationError = 2,
+    [helpstring("")]    ArchestrAErrorUserAuthenticationError = 3,
+    [helpstring("")]    ArchestrAErrorUserAuthorizationError = 4,
+    [helpstring("")]    ArchestrAErrorNotSupportedOperation = 5,
+    [helpstring("")]    ArchestrAErrorMonitoredItemsNotFound = 6,
+    [helpstring("")]    ArchestrAErrorInvalidSubscriptionID = 7,
+    [helpstring("")]    ArchestrAErrorItemAlreadyRegistered = 8,
+    [helpstring("")]    ArchestrAErrorItemAlreadyDeletedOrDoesNotExist = 9,
+    [helpstring("")]    ArchestrAErrorInvalidMonitoredItems = 10,
+    [helpstring("")]    ArchestrAErrorOperationFailed = 11,
+    [helpstring("")]    ArchestrAErrorSpecificError = 12,
+    [helpstring("")]    ArchestrAErrorBadNoCommunication = 13,
+    [helpstring("")]    ArchestrAErrorBad_NothingToDo = 14,
+    [helpstring("")]    ArchestrAErrorBad_TooManyOperations = 15,
+    [helpstring("")]    ArchestrAErrorBad_NodeIdInvalid = 16,
+    [helpstring("")]    ArchestrAErrorBrowseFailed = 17,
+    [helpstring("")]    ArchestrAErrorWriteFailed_BadOutOfRange = 18,
+    [helpstring("")]    ArchestrAErrorWriteFailed_BadTypeMismatch = 19,
+    [helpstring("")]    ArchestrAErrorUnknown = 65535,
+} IArchestrAError;
+
+typedef struct _IItemIdentity
+{
+    WCHAR* ContextName; // optional
+    unsigned __int64 Id;
+    WCHAR* Name; // optional
+    unsigned short ReferenceType;
+    unsigned short Type;
+} IItemIdentity;
+
+typedef struct _IWS_BYTES
+{
+    ULONG length;
+    BYTE* bytes;
+} IWS_BYTES;
+
+typedef struct _IVariant
+{
+    int Length;
+    IWS_BYTES Payload; // optional
+    unsigned short Type;
+} IVariant;
+
+typedef
+[
+    uuid(8D6DED71-C022-4F83-AF3D-BA24E13D22D0), 
+    version(1.0),
+    helpstring("IDataVariant Struture")
+]
+struct IDataVariant {
+    [helpstring("DataType")] unsigned short Type;
+    [helpstring("Length")] int Length;
+    [helpstring("SAFEARRAY(byte) to hold data")] SAFEARRAY(byte) PayLoad;
+} IDataVariant;
+
+typedef struct _IMonitoredItem
+{
+    unsigned char Active;
+    IItemIdentity * Item;
+    unsigned __int64 SampleInterval;
+    unsigned __int64 TimeDeadband;
+    IVariant* UserData;
+    IVariant* ValueDeadband;
+} IMonitoredItem;
+
+typedef struct _IUserToken
+{
+    int Encryption;
+    WCHAR* HostName; // optional
+    int IdType;
+    WCHAR* LocationID; // optional
+    WCHAR* Password; // optional
+    WCHAR* UserName; // optional    
+    IWS_BYTES SamlToken;
+    unsigned short Validity;
+    IWS_BYTES X509Certificate; // optional
+} IUserToken;
+
+typedef struct _DataUpdate
+{
+    unsigned __int64 ItemId;
+    unsigned long StatusCode;
+	unsigned long StatusDetail;
+    FILETIME Timestamp;
+    unsigned long Quality;
+    IVariant Value;
+} DataUpdate;
+
+typedef struct _WriteRequest
+{
+    IItemIdentity* Item;
+    FILETIME Timestamp;
+    unsigned short StatusCode;
+    unsigned long Quality;
+    IVariant Value;
+} WriteRequest;
+
+//US-54264 - Support write with reason description
+typedef struct _WriteRequestWithReasonDesc
+{
+    IItemIdentity* Item;
+    FILETIME Timestamp;
+    unsigned short StatusCode;
+    short Quality;
+    IVariant Value;
+    LPCWSTR reasonDescription;
+} WriteRequestWithReasonDesc;
+
+typedef
+[
+	uuid(E3E3A688-9FAE-4B44-B87A-95C1B3711F06),
+    version(1.0),
+    helpstring("IItemIdentity2 structure")
+]
+struct IItemIdentity2
+{
+    [helpstring("Reference Type")]		unsigned short ReferenceType;
+    [helpstring("Item Type")]			unsigned short Type;
+    [helpstring("context Name")]		BSTR ContextName; // optional
+    [helpstring("Item Name")]			BSTR Name; // optional
+    [helpstring("Item Id")]				unsigned __int64 Id;
+} IItemIdentity2;
+
+typedef
+[ 
+    uuid(2AA2E248-AF2E-4FCC-95CD-C46AF4F0A1FA),
+    version(1.0),
+    helpstring("IMonitoredItem2 structure")
+]
+struct IMonitoredItem2
+{
+    [helpstring("Active")]				unsigned char Active;
+    [helpstring("Reference Type")]		unsigned short ReferenceType;
+    [helpstring("Item Type")]			unsigned short Type;
+    [helpstring("context Name")]		BSTR ContextName; // optional
+    [helpstring("Item Name")]			BSTR Name; // optional
+    [helpstring("Item Id")]				unsigned __int64 Id;
+    [helpstring("SampleInterval")]		unsigned __int64 SampleInterval;
+    [helpstring("TimeDeadband")]		unsigned __int64 TimeDeadband;
+    //IDataVariant UserData;
+    //IDataVariant ValueDeadband;
+} IMonitoredItem2;
+
+typedef
+[
+	uuid(F6DF55F3-CECE-4857-96FE-3B390D6DAF77),
+    version(1.0),
+    helpstring("WriteRequest2 structure")
+]
+struct WriteRequest2
+{
+    [helpstring("Reference Type")]		unsigned short ReferenceType;
+    [helpstring("Item Type")]			unsigned short Type;
+    [helpstring("context Name")]		BSTR ContextName; // optional
+    [helpstring("Item Name")]			BSTR Name; // optional
+    [helpstring("Item Id")]				unsigned __int64 Id;
+    [helpstring("Quality")]				unsigned long Quality;
+    [helpstring("Value")]				IDataVariant Value;
+} WriteRequest2;
+
+typedef 
+[ 
+    uuid(4C6219B2-BE72-4EB4-9722-2D14F2B1D94E),
+    version(1.0),
+    helpstring("DataChange Update structure")
+]
+struct DataChangeUpdate
+{
+    [helpstring("Item Handle")]     ULONGLONG       ItemId;
+    [helpstring("Item Status")]     LONG            StatusCode;
+    [helpstring("HighDateTime")]	unsigned int    HighDateTime;
+    [helpstring("LowDateTime")]		unsigned int    LowDateTime;
+    [helpstring("Item Quality")]    LONG            Quality;
+	[helpstring("Item Value")]      IDataVariant    Value;
+} DataChangeUpdate;
+
+typedef struct _StatusItem 
+{
+    int ErrorCode;
+    IItemIdentity* Item;
+} StatusItem;
+
+typedef
+[
+	uuid(953FDABA-3C19-4B96-8B52-AF69BB3FFE0C),
+	version(1.0),
+    helpstring("Write Capability Type")
+]
+enum WriteCapabilityType
+{
+    [helpstring("WriteUnknown")]    WriteUnknown = 0,
+    [helpstring("WriteNonsecure")]  WriteNonsecure = 1,
+    [helpstring("WriteUser")]       WriteUser = 2,
+    [helpstring("WriteConfirm")]    WriteConfirm = 4,
+    [helpstring("WriteVerify")]     WriteVerify = 8
+} WriteCapabilityType;
+
+typedef
+[
+	uuid(C826B0C8-F2AE-4032-BDF4-B74C189087BD),
+	version(1.0),
+    helpstring("ASBResultCode Structure")
+]
+struct ASBResultCode
+{
+    [helpstring("Item Id")]             unsigned __int64 ItemId;
+    [helpstring("Error Code")]          HRESULT ErrorCode;
+    [helpstring("Write Capability")]    unsigned int WriteCapability;
+    [helpstring("Write Handle")]        unsigned int WriteHandle;
+} ASBResultCode;
+
+typedef
+[
+    uuid(8830ECEF-F8A7-4897-9048-83CD085B8EB5), 
+    version(1.0),
+    helpstring("IArchestrAResult Structure")
+]
+struct IArchestrAResult 
+{
+    [helpstring("ArchestrA ErrorCode")]         IArchestrAError ErrorCode;
+    [helpstring("ArchestrA SpecificErrorCode")] unsigned int SpecificErrorCode;
+    [helpstring("ArchestrA Status")]            unsigned int Status;
+} IArchestrAResult;

@@ -1,0 +1,222 @@
+$load baseq2/gfx/gamepal.lbm
+$mippal
+$mipdir e1u4
+
+;=========== TEMP TEMP TEMP =============
+$load baseq2/gfx/textures/episode1/security/p_button.lbm
+$mip     buttn1_1          16      16      32      32 light 1000
+$mip     buttn1_2          56      16      32      32 light 1000
+$mip     buttn1_3          96      16      32      32 light 1000
+$mip     buttn1_4          136     16      32      32 light 1000
+$mip     buttn1_5          176     16      32      32 light 1000
+$mip     buttn1_6          16      56      32      32 light 1000
+$mip     buttn1_7          56      56      32      32 light 1000
+$mip     buttn1_8          96      56      32      32 light 1000
+$mip     buttn1_9          136     56      32      32 light 1000
+$mip     buttn1_0          176     56      32      32 light 1000
+$mip     buttn1_a          216     56      32      32 light 1000
+$mip     buttn1_b          256     56      32      32 light 1000
+
+
+;============== TEMP TEMP TEMP ===========
+
+
+$include baseq2/scripts/common.inc
+
+$load baseq2/gfx/textures/episode1/security/button01.lbm
+$mip     butn01_1          16      16      32      32
+$mip     butn01_2          16      56      32      16
+
+$load baseq2/gfx/textures/episode1/security/bigpipe2.lbm
+$mip     bigpip2_1          16      16      64      128
+$mip     bigpip2_2          88      16      64      128
+$mip     bigpip2_3          160     16      64      128
+
+$load baseq2/gfx/textures/episode1/security/slotwal2.lbm
+$mip     slotwl2_1          16      16      128      128
+$mip     slotwl2_2          152     16      128      128
+$mip     slotwl2_3          16      152     128       16
+$mip     slotwl2_4          16      168     128       32
+$mip     slotwl2_5          152     152     128       16
+$mip     slotwl2_6          152     168     128      32
+$mip     slotwl2_7          288     16      16       16 light 1000
+
+$load baseq2/gfx/textures/episode1/security/slotwal4.lbm
+$mip     slotwl4_1          16      16      128      128
+$mip     slotwl4_2          152     16      128      128
+$mip     slotwl4_3          16      152     128      32
+$mip     slotwl4_4          152     152     128      32
+
+$load baseq2/gfx/textures/episode1/security/slotwal5.lbm
+$mip     slotwl5_1          16      16      64      64
+$mip     slotwl5_2          88      16      64      64
+$mip     slotwl5_3          160     16      64      64
+$mip     slotwl5_3          232     16      64      64
+
+$load baseq2/gfx/textures/episode1/security/slotwal6.lbm
+$mip     slotwl6_1          16      16      64      128
+$mip     slotwl6_2          88      16      64      128
+$mip     slotwl6_3          16      152     32      32
+$mip     slotwl6_4          56      152     32      32
+$mip     slotwl6_5          96      152     32      32
+$mip     slotwl6_6          136     152     32      32
+
+$load baseq2/gfx/textures/episode1/security/slotflr2.lbm
+$mip     sltfl2_1          16      16      64      64
+$mip     sltfl2_2          88      16      64      64
+$mip     sltfl2_3          160     16      64      64
+$mip     sltfl2_3          232     16      64      64
+$mip     sltfr2_4          88      88      64      64
+$mip     sltfr2_5          160     88      64      64
+$mip     sltfl2_6          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/slots02.lbm
+$mip     slots2_1          16      16      64      64
+$mip     slots2_2          88      16      64      64
+$mip     slots2_3          160     16      64      64
+$mip     slots2_4          16      88      64      64
+$mip     slots2_5          88      88      64      64
+$mip     slots2_6          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/wire02.lbm
+$mip     wires2_1          16      16      128      128
+$mip     wires2_2          152     16      128      128
+
+$load baseq2/gfx/textures/episode1/security/p_light.lbm
+$mip     plite1_1          16      16      16      16 light 20000
+$mip     plite1_2          40      16      32      16 light 20000
+$mip     plite1_3          80      16      32      16 light 10000
+$mip     invis_lt          120     16      16      16 light 100
+
+$load baseq2/gfx/textures/episode1/security/jaildr02.lbm
+$mip     jaildr2_1         16      16      128     128
+$mip     jaildr2_2         152     16      128     128
+$mip     jaildr2_3         288     16      16      128 light 700
+
+$load baseq2/gfx/textures/episode1/security/airduct.lbm
+$mip     airduc1_1          16      16      64      64
+$mip     airduc1_2          88      16      64      64
+$mip     airduc1_3          160     16      64      64
+
+$load baseq2/gfx/textures/episode1/security/t_roof1.lbm
+$mip     troof1_1          16      16      64      64
+$mip     troof1_2          88      16      64      64
+$mip     troof1_3          160     16      64      64
+$mip     troof1_3          232     16      64      64
+$mip     troof1_4          16      88      64      64
+$mip     troof1_5          88      88      64      64
+$mip     troof1_6          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/t_roof2.lbm
+$mip     troof2_1          16      16      128      128
+$mip     troof2_2          152     16      128      128
+
+$load baseq2/gfx/textures/episode1/security/t_roof3.lbm
+$mip     troof3_1          16      16      128      128
+$mip     troof3_2          152     16      128      128
+
+$load baseq2/gfx/textures/episode1/security/t_roof4.lbm
+$mip     troof4_1          16      16      64      64
+$mip     troof4_2          88      16      64      64
+$mip     troof4_3          160     16      64      64
+$mip     troof4_3          232     16      64      64
+$mip     troof4_4          16      88      64      64
+$mip     troof4_5          88      88      64      64
+$mip     troof4_6          160     88      64      64
+$mip     troof4_7          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/t_roof5.lbm
+$mip     troof5_1          16      16      64      64
+$mip     troof5_2          88      16      64      64 light 1000
+$mip     troof5_3          160     16      64      64 light 1500
+$mip     troof5_3          232     16      64      64 light 1500
+$mip     troof5_4          16      88      64      64
+$mip     troof5_5          88      88      64      64
+
+$load baseq2/gfx/textures/episode1/security/techmet4.lbm
+$mip     tcmet4_1    16      16      64      128
+$mip     tcmet4_2    88      16      64      128
+$mip     tcmet4_3    160     16      64      128
+$mip     tcmet4_4    232     16      64      128
+
+$load baseq2/gfx/textures/episode1/security/techmet5.lbm
+$mip     tcmet5_1    16      16      64      128
+$mip     tcmet5_2    88      16      64      128
+$mip     tcmet5_3    160     16      64      128
+$mip     tcmet5_4    232     16      64      128
+
+$load baseq2/gfx/textures/episode1/security/techmet9.lbm
+$mip     tcmt9_1    16      16      64      64
+$mip     tcmt9_2    88      16      64      64
+$mip     tcmt9_3    160     16      64      64
+$mip     tcmt9_4    232     16      64      64
+$mip     tcmt9_5    16      88      64      64
+$mip     tcmt9_6    88      88      64      64
+$mip     tcmt9_7    160     88      64      64
+$mip     tcmt9_8    232     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/slots01.lbm
+$mip     slots1_1          16      16      64      64
+$mip     slots1_2          88      16      64      64
+$mip     slots1_3          160     16      64      64
+$mip     slots1_4          16      88      64      64
+$mip     slots1_5          88      88      64      64
+$mip     slots1_6          160     88      64      64
+
+$load baseq2/gfx/textures/episode1/security/monitor.lbm
+$mip     mon1_1    16      16      64      64
+$mip     mon1_2    88      16      64      64
+$mip     mon1_3    160     16      64      64
+$mip     mon1_4    232     16      64      64
+$mip     mon1_5    16      88      64      64
+$mip     mon1_6    88      88      64      64
+$mip     mon1_7    160     88      64      64
+$mip     mon1_8    232     88      64      64
+$mip     mon1_a    16      160     32      32
+$mip     mon1_b    56      160     32      32
+$mip     mon1_c    96      160     32      32
+$mip     mon1_d    136     160     32      32
+$mip     mon1_e    176     160     32      32
+$mip     mon1_f    216     160     32      32
+
+$load baseq2/gfx/textures/episode1/security/wires1.lbm
+$mip     wire1_1   16      16      64      64
+$mip     wire1_2   88      16      64      64
+$mip     wire1_3   160     16      64      64
+
+$load baseq2/gfx/textures/episode1/security/slotflr.lbm
+$mip     sflr1_1   16      16      64      64
+$mip     sflr1_2   88      16      64      64
+$mip     sflr1_3   160     16      64      64
+$mip     sflr1_4   232     16      64      64
+
+$load baseq2/gfx/textures/episode1/security/flatmet.lbm
+$mip     fmet1_1   16      16      64      128
+$mip     fmet1_2   88      16      64      128
+$mip     fmet1_3   160     16      64      128
+$mip     fmet1_4   232     16      64      128
+
+$load baseq2/gfx/textures/episode1/security/flatmet2.lbm
+$mip     fmet2_1   16      16      64      128
+$mip     fmet2_2   88      16      64      128
+$mip     fmet2_3   160     16      64      128
+$mip     fmet2_4   232     16      64      128
+
+$load baseq2/gfx/textures/episode1/security/flatmet3.lbm
+$mip     fmet3_1   16      16      64      128
+$mip     fmet3_2   88      16      64      64
+$mip     fmet3_3   160     16      64      128
+$mip     fmet3_4   232     16      64      128
+$mip     fmet3_5   16      152     128     16 light 2500
+$mip     fmet3_6   160     152     64      16 light 700
+$mip     fmet3_7   160     176     64      16 light 700
+$mip     fmet3_8   232     152     16      16 light 700
+$mip     fmet3_9   232     176     16      16 light 700
+
+
+$load baseq2/gfx/textures/episode1/security/stairs.lbm
+$mip     stflr1_1          16      16      64      64
+$mip     stflr1_2          88      16      64      64
+$mip     stflr1_3          160     16      64      64
+$mip     stflr1_4          232     16      64      64
+$mip     stflr1_5          232     88      64      16

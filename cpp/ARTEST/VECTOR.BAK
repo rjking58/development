@@ -1,0 +1,36 @@
+#include <iostream.h>
+
+class Vector 
+{
+	public:
+		Vector(void)
+		{
+			the_array =  (int **) new (int *) [30];
+		}
+		int far * far & operator [] ( unsigned int ref)
+		{
+			return the_array[ref];
+		}
+
+	protected:
+		int ** the_array ;
+};
+
+
+main()
+{
+	  Vector				v1;
+	  unsigned int		x;
+	  int					far * i_p;
+	  
+	  for (x = 0; x < 10 ; x++)
+	  {
+			i_p = (int far *) new (int);
+			*i_p = x;
+			v1[x] = i_p;
+	  }
+	  for (x = 0; x < 10 ; x++)
+	  {
+			cout << *(v1[x]) << " ";
+	  }                     
+}

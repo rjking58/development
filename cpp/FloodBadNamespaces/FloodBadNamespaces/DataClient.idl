@@ -1,0 +1,12 @@
+#pragma once
+
+#include "IDataClient.idl"
+
+[
+	uuid(73BC4121-FF89-4762-901C-206E2BD9FE87),
+	helpstring("DataClient Class")
+]
+coclass DataClient
+{
+	interface IDataClient;
+};

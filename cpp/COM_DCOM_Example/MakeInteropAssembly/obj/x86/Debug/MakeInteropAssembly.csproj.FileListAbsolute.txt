@@ -1,0 +1,1 @@
+C:\Development\SOURCE\cpp\COM_DCOM_Example\MakeInteropAssembly\obj\x86\Debug\ResolveAssemblyReference.cache

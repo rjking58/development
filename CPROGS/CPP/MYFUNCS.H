@@ -1,0 +1,2 @@
+extern char *GetString(void);
+

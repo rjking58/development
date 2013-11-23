@@ -1,0 +1,209 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "artest.h"
+
+class RandomArr // n number of unique random numbers...
+{
+	public:
+		RandomArr (	unsigned int 	init_RandCnt, // how many...
+						unsigned long 	RandRng		) // maximum size for random number.
+		{	
+			unsigned int	ofst;
+			unsigned long 	a_random;
+
+
+			RandCnt 			= init_RandCnt;
+			Elements_added = 0;
+			Curr_RandOfst = 0;
+
+			if (RandRng < (long) init_RandCnt)
+			{
+				printf("not possible to create %d unique numbers in the range\n"
+						 "%d to %ld", 
+						 init_RandCnt,
+						 0,
+						 RandRng);
+				// this is the worst way to exit.. but HEY, this is just a test class.
+				exit(0);
+			}
+			
+			RandArr = new unsigned long [init_RandCnt];
+			if ( RandArr == NULL)
+			{
+				// this is the worst way to exit.. but HEY, this is just a test class.
+				printf("bad memory allocation!\n");
+				exit(0);		
+			}
+			randomize();
+			a_random = (long) rand() % RandRng;
+			for (ofst = 0; ofst < RandCnt; ofst++)
+			{
+				while(		(Elements_added != 0)
+						&& 	IsNotUnique(a_random) ) 
+					a_random = (long) rand() % RandRng;
+						
+				RandArr[ofst] = a_random;
+				Elements_added++;
+				a_random = (long) rand() % RandRng;
+			}	
+		}
+		~RandomArr()
+		{
+			delete[] RandArr;
+		}
+		unsigned long GetNext() 
+		{  
+			unsigned int prev_RandOfst = Curr_RandOfst;
+			Curr_RandOfst = (++Curr_RandOfst) % RandCnt;
+			return RandArr[prev_RandOfst];
+		}
+
+	protected:
+		unsigned int			Curr_RandOfst;
+		unsigned int			RandCnt;
+		unsigned long 			*RandArr;
+		unsigned int		   Elements_added;
+
+		int	IsNotUnique(unsigned long num)
+		{
+			unsigned int 	x;
+			if (Elements_added)
+			{
+				for (x = 0; x < Elements_added; x++)
+				{
+					if (RandArr[x] == num)
+						return 1;
+				}
+			}
+			return 0;
+		}
+};
+
+
+
+					
+int TestArray( long Rows )
+{
+	ISAr *Array = new ISAr( 1L, 0, 1000 );
+
+	LoadArray( Array, Rows );
+
+	PrintCheckArrayStats(Array,Rows);
+
+	delete Array;
+
+	return 0;
+
+} // TestArray()
+
+
+int LoadArray( ISAr *Array, long Rows )
+{
+//	RandomArr	R_Ar(	2000, 	// number of random numbers.
+//							20000L);  // range for a random number.
+
+	FILE *f;
+	f = fopen("artest.out","a+t");
+	if (!f)
+	{
+		printf("bad file open!");
+		exit(0);	
+	}
+	for ( long Row = 0; Row < Rows; Row++ )
+	{
+		if (  !(Row % 200) )
+			printf( "Row: %ld\n", Row );
+
+		DATA_STRUCT *d = new DATA_STRUCT ;
+
+//		d->i = R_Ar.GetNext();
+		if (Row < 39500L)
+		{
+			d->i = Row;
+		}
+		else
+		{
+			d->i = 1;
+		}
+		Array->add( d );
+	}
+	fclose(f);
+
+	return 0;
+
+} // LoadArray()
+
+void PrintCheckArrayStats(ISAr *Array, long Rows)
+{
+	FILE 					*f;
+	static int		   first_time = 1;
+	static int			first_unique = 1;
+	unsigned long     curr_item = -1;
+	unsigned long     fetched_item ;
+	unsigned long		last_item;
+	unsigned long     item_cnt = 0;	
+	unsigned long		last_item_cnt;
+	DATA_STRUCT huge	*d;
+
+	f = fopen("artest.out","a+t");	
+
+	for ( unsigned long Row = 0; Row < 500; Row++ )
+	{
+		d = Array->itemAt( Row );
+		fetched_item = d->i;
+		printf( "fetched----%ld=\n",fetched_item);
+//		if (!first_time)
+//		{
+//			if(curr_item != fetched_item)
+//			{
+//				if (!first_unique)
+//				{
+//					// verify that we are OK.
+//					if (		curr_item <= last_item
+//							||	last_item_cnt != item_cnt )
+//					{
+//						printf("bad compare...\n"
+//								 "curr_item: %ld, last_item: %ld\n"
+//								 "item_cnt:  %ld, last_item_cnt: %ld\n",
+//								 curr_item,
+//								 last_item,
+//								 item_cnt,
+//								 last_item_cnt);
+//						exit(0);
+//					}
+//				}
+//				else
+//				{
+//					first_unique 	= 0;
+//				}
+//				last_item 		= curr_item;
+//				last_item_cnt 	= item_cnt;
+//
+//				printf(".");
+//				printf(	"item:%ld, count:%ld\n",
+//							curr_item,
+//							item_cnt);
+//				item_cnt = 1;
+//				curr_item = fetched_item;
+//			}
+//			else
+//			{
+//				item_cnt++;
+//			}
+//		}
+//		else
+//		{
+//			first_time = 0;
+//			curr_item = fetched_item;
+//			item_cnt++;
+//		}
+	}
+	for ( Row = Rows-500; Row < Rows; Row++ )
+	{
+		d = Array->itemAt( Row );
+		fetched_item = d->i;
+		printf( "fetched----%ld=\n",fetched_item);
+	}
+	printf( "\n\n Passed Verification\n");
+	fclose(f);
+}

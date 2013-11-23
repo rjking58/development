@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>Objects</title>
+</head>
+<body>
+<h2>Objects</h2>
+<script>
+
+var someObj = new Object();
+
+// basic assignment..
+someObj.x = 4.4;
+someObj.y = 5.5;
+
+document.write("someObj.x[" + someObj.x + "]<br>");
+document.write("someObj.y[" + someObj.y + "]<br>");
+
+// initializers..
+var someObj2 =  { x: someObj.y, y:someObj.x };
+
+document.write("someObj2.x[" + someObj2.x + "]<br>");
+document.write("someObj2.y[" + someObj2.y + "]<br>");
+
+</script>
+</body>
+</html>

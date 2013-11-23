@@ -1,0 +1,25 @@
+﻿  Processing .\DrawServ.idl
+  DrawServ.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+  objidl.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+  basetsd.h
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+  guiddef.h
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+  oaidl.acf
+  predraw.cpp
+  DrawObj.cpp
+  DrawServ.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(54): warning RC4011: identifier truncated to '_CRT_SECURE_CPP_OVERLOAD_STANDA'
+  
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(76): warning RC4011: identifier truncated to '_CRT_SECURE_CPP_OVERLOAD_SECURE'
+  
+  DrawServ.vcxproj -> C:\Development\SOURCE\cpp\DCOM\DrawServ\.\Debug\DrawServ.exe

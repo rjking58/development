@@ -1,0 +1,538 @@
+
+/*
+===============================================================================
+ITEMS
+ammo
+armor
+health
+gibs
+debris1 - 3
+keys
+===============================================================================
+*/
+
+//
+// ammo
+//
+
+$cd items/ammo/bullets/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame bullets
+
+$cd items/ammo/cells/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame cells
+
+$cd items/ammo/grenades/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame grenade
+
+$cd items/ammo/mines
+$origin 0 0 16
+$scale 0.5
+$base base
+$skin skin
+$frame mines
+
+$cd items/ammo/nuke
+$origin 0 0 16
+$base base
+$skin skin
+$frame nuke
+
+$cd items/ammo/rockets/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame rockets
+
+$cd items/ammo/shells/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame shells
+
+$cd items/ammo/slugs/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame slugs
+
+
+//
+// armor
+//
+$cd items/armor/body
+$origin 0 0 8
+$base base
+$skin skin
+$frame body 
+
+$cd items/armor/combat
+$origin 0 0 8
+$base base
+$skin skin
+$frame combat 
+
+$cd items/armor/jacket
+$origin 0 0 8
+$base base
+$skin skin
+$frame armor
+
+$cd items/armor/shard
+$origin 0 0 0
+$scale 0.6
+$base base
+$skin skin
+$frame shard
+
+$cd items/armor/screen
+$origin 0 0 0
+$base base
+$skin skin
+$frame screen
+
+$cd items/armor/shield
+$origin 0 0 0
+$base base
+$skin skin
+$frame shield
+
+$cd items/armor/effect
+$origin 0 16 24
+$scale 0.4
+$base base
+$skin skin
+$frame effect
+
+
+//
+// health
+//
+
+$cd items/healing/medium
+$origin 0 0 16
+$base base
+$skin skin
+$frame medium
+
+$cd items/healing/stimpack
+$origin 0 0 16
+$base base
+$skin skin
+$frame stimpack
+
+$cd items/healing/large
+$origin 0 0 16
+$base base
+$skin skin
+$frame large
+
+$cd items/mega_h
+$origin 0 0 16
+$scale 1.0
+$base base
+$skin skin
+$frame mega
+
+
+//
+// gibs
+//
+
+$cd objects/gibs/arm
+$origin 0 0 0
+$base base
+$skin skin
+$frame arm
+
+$cd objects/gibs/bone
+$origin 0 0 0
+$base base
+$skin skin
+$frame bone
+
+$cd objects/gibs/bone2
+$origin 0 0 0
+$base base
+$skin skin
+$frame bone
+
+$cd objects/gibs/chest
+$origin 0 0 0
+$base base
+$skin skin
+$frame chest
+
+$cd objects/gibs/gear
+$origin 0 0 0
+$base base
+$skin skin
+$frame gear
+
+// factory gib head
+$cd objects/gibs/head
+$origin 0 0 0
+$base base
+$skin skin
+$frame head
+
+// player head
+$cd objects/gibs/head2
+$origin 0 0 0
+$base base
+$skin skin
+$skin player
+$frame head
+
+$cd objects/gibs/leg
+$origin 0 0 0
+$base base
+$skin skin
+$frame leg
+
+$cd objects/gibs/skull
+$origin 0 0 0
+$base base
+$skin skin
+$frame skull
+
+$cd objects/gibs/sm_meat
+$origin 0 0 0
+$base base
+$skin skin
+$frame meat meat2 meat3 meat4 meat5 meat6 meat7 meat8 meat9 meat10 meat11
+
+$cd objects/gibs/sm_metal
+$origin 0 0 0
+$base base
+$skin skin
+$frame metal
+
+
+//
+// debris
+//
+
+$cd objects/debris1
+$origin 0 0 0
+$base base
+$skin skin
+$frame debris1
+
+$cd objects/debris2
+$origin 0 0 0
+$base base
+$skin skin
+$frame debris2
+
+$cd objects/debris3
+$origin 0 0 0
+$base base
+$skin skin
+$frame debris3
+
+
+/*
+===============================================================================
+
+PROJECTILES
+
+===============================================================================
+*/
+
+$cd objects/laser
+$origin 0 0 0
+$base base
+$skin skin
+$frame frame1
+
+$cd objects/rocket
+$origin 0 0 0
+$base base
+$skin skin
+$frame missile
+
+$cd objects/bomb
+$origin 0 0 0
+$scale 3.5
+$base base
+$skin skin
+$frame missile
+
+$cd objects/grenade 
+$origin 0 0 0
+$base base
+$skin skin
+$frame grenade
+
+$cd objects/grenade2 
+$scale 2.0
+$origin 0 0 0
+$base base
+$skin skin
+$frame grenade
+
+
+/*
+===============================================================================
+
+MISC
+
+===============================================================================
+*/
+
+$cd objects/flash
+$origin 0 0 0
+$base base
+$skin skin
+$frame flash1 flash2
+
+$cd objects/smoke 
+$origin 0 0 0
+$base base
+$skin skin
+$frame smoke1 smoke2 smoke3 smoke4
+
+$cd objects/explode
+$origin 0 0 0
+$base base
+$skin skin
+$frame explod01 explod02 explod03 explod04 explod05
+
+$cd objects/r_explode
+$origin 0 0 0
+$scale 2.0
+$base base
+$skin skin1
+$skin skin2
+$skin skin3
+$skin skin4
+$skin skin5
+$skin skin6
+$skin skin7
+$frame explode1 explode2 explode3 explode4 explode5 explode6 explode7 explode8 explode9 explode10
+$frame explode11 explode12 explode13 explode14 explode15
+
+$frame explodb1 explodb2 explodb3 explodb4 explodb5 explodb6 explodb7 explodb8 explodb9 explodb10
+$frame explodb11 explodb12 explodb13 explodb14 explodb15
+
+$frame explodc1 explodc2 explodc3 explodc4 explodc5 explodc6 explodc7 explodc8 explodc9 explodc10
+$frame explodc11 explodc12 explodc13 explodc14 explodc15 explodc16 explodc17 explodc18 explodc19
+
+$cd objects/barrels
+$origin 0 0 0
+$base base
+$skin skin
+$frame barrel barrel1 barrel2 barrel3
+
+$cd objects/minelite/light1
+$origin 0 0 0
+$base base
+$skin base
+$frame light1
+
+$cd objects/minelite/light2
+$origin 0 0 0
+$base base
+$skin base
+$frame light2
+
+$cd deadbods/dude
+$origin 0 0 0
+$base base
+$skin dead1
+$frame body1 body2 body3 body4 body5 body6
+
+$cd items/c_head
+$origin 0 0 0
+$scale 2.0
+$base base
+$skin skin
+$frame head
+
+$cd objects/dmspot
+$origin 0 0 24
+$base base
+$skin skin
+$skin skin2
+$frame dmspot
+
+
+/*
+===============================================================================
+
+POWERUPS
+
+===============================================================================
+*/
+
+$cd items/quaddama
+$origin 0 0 4
+$base base
+$skin skin
+$frame quaddama
+
+$cd items/invulner
+$origin 0 0 0
+$base base
+$skin skin
+$frame invulner
+
+$cd items/silencer
+$origin 0 0 -16
+$base base
+$skin skin
+$frame silencer
+
+$cd items/breather
+$origin 0 0 0
+$base base
+$skin skin
+$frame breather
+
+$cd items/enviro
+$origin 0 0 0
+$base base
+$skin skin
+$frame enviro
+
+$cd items/band
+$origin 0 0 0
+$base base
+$skin skin
+$frame band
+
+$cd items/pack
+$origin 0 0 0
+$base base
+$skin skin
+$frame pack
+
+$cd items/adrenal
+$origin 0 0 0
+$base base
+$skin skin
+$frame adrenal
+
+
+
+/*
+===============================================================================
+
+SPECIALS
+
+===============================================================================
+*/
+
+$cd ships/viper
+$origin 0 0 0
+$scale 0.18
+$base base
+$skin skin
+$frame viper
+
+$cd ships/bigviper
+$origin 0 0 0
+$scale 0.8
+$base base
+$skin skin
+$frame viper
+
+$cd ships/strogg1
+$origin 0 0 0
+$scale 0.2
+$base base
+$skin skin
+$frame ship01
+
+$cd items/keys/target
+$origin 0 0 0
+$scale 0.5
+$base base
+$skin skin
+$frame target
+
+$cd objects/banner
+$scale 2.0
+$origin 0 0 0
+$base base
+$skin skin
+$frame frame1  frame2  frame3  frame4  frame5  frame6  frame7  frame8  frame9  frame10
+$frame frame11 frame12 frame13 frame14 frame15 frame16
+
+$cd objects/satellite
+$origin 0 0 0
+$base base
+$skin skin
+$frame frame1  frame2  frame3  frame4  frame5  frame6  frame7  frame8  frame9  frame10
+$frame frame11 frame12 frame13 frame14 frame15 frame16 frame17 frame18 frame19 frame20
+$frame frame21 frame22 frame23 frame24 frame25 frame26 frame27 frame28 frame29 frame30
+$frame frame31 frame32 frame33 frame34 frame35 frame36 frame37 frame38 frame39
+
+$cd objects/black
+$origin 0 0 0
+$scale 9
+$base base
+$skin skin
+$frame frame1 frame2 frame3 frame4 frame5 frame6 frame7 frame8 frame9 frame10
+$frame frame11 frame12 frame13 frame14 frame15 frame16 frame17 frame18 frame19
+
+/*
+===============================================================================
+
+KEYS
+
+===============================================================================
+*/
+
+$cd items/keys/data_cd
+$origin 0 0 0
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/power
+$scale	0.7
+$origin 0 0 8
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/pyramid
+$origin 0 0 0
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/spinner
+$origin 0 0 0
+$scale 1.5
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/pass
+$origin 0 0 0
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/key
+$origin 0 0 0
+$base base
+$skin skin
+$frame key
+
+$cd items/keys/red_key
+$origin 0 0 0
+$base base
+$skin red_skin
+$frame key

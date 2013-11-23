@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CastingExamples">
+</Property><Property Name="Solution File" Value="C:\Volatile\Source\cpp\CastingExamples\CastingExamples.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\Source\cpp\CastingExamples\CastingExamples.suo">
+</Property><Property Name="Date" Value="Thursday, October 11, 2012">
+</Property><Property Name="Time" Value="14:06 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CastingExamples.sln" Description="File successfully backed up as C:\Volatile\Source\cpp\CastingExamples\CastingExamples.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="CastingExamples.suo" Description="File successfully backed up as C:\Volatile\Source\cpp\CastingExamples\CastingExamples.suo.old">
+</Event><Event ErrorLevel="0" Project="CastingExamples" Source="CastingExamples.vcproj" Description="Converting project file 'C:\Volatile\Source\cpp\CastingExamples\CastingExamples.vcproj'.">
+</Event><Event ErrorLevel="1" Project="CastingExamples" Source="CastingExamples.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="CastingExamples" Source="CastingExamples.vcproj" Description="Done converting to new project file 'C:\Volatile\Source\cpp\CastingExamples\CastingExamples.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="CastingExamples" Source="CastingExamples.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CastingExamples.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CastingExamples.sln" Description="Converted">
+</Event></UpgradeLog>

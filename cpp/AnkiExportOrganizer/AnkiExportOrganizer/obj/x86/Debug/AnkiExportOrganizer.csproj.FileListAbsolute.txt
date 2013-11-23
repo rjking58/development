@@ -1,0 +1,5 @@
+C:\Development\SOURCE\cpp\AnkiExportOrganizer\AnkiExportOrganizer\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\cpp\AnkiExportOrganizer\AnkiExportOrganizer\bin\Debug\AnkiExportOrganizer.exe
+C:\Development\SOURCE\cpp\AnkiExportOrganizer\AnkiExportOrganizer\bin\Debug\AnkiExportOrganizer.pdb
+C:\Development\SOURCE\cpp\AnkiExportOrganizer\AnkiExportOrganizer\obj\x86\Debug\AnkiExportOrganizer.exe
+C:\Development\SOURCE\cpp\AnkiExportOrganizer\AnkiExportOrganizer\obj\x86\Debug\AnkiExportOrganizer.pdb

@@ -1,0 +1,18 @@
+.main {
+	margin-top:	75px;
+	text-align:	left
+
+}
+
+
+.blog_entry_shaded {
+	background-color: 	#DDDDDD;
+	border-style:		double;
+	border-width:		4px;
+}
+
+.blog_entry_white {
+	background-color: #FFFFFF;
+	border-style:		double;
+	border-width:		4px;
+}

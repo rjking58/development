@@ -1,0 +1,12 @@
+#pragma once
+
+#include "IDataConsumer.idl"
+
+[
+	uuid(85209FB2-0BA1-4594-BBC4-59D3DDAB823D),
+	helpstring("DataConsumer Class")
+]
+coclass DataConsumer
+{
+	interface IDataConsumer;
+};

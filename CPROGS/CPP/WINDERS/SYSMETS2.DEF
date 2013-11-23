@@ -1,0 +1,13 @@
+ NAME SysMets2
+
+ DESCRIPTION   'SystemMetrics2 Program'
+ EXETYPE       WINDOWS
+ STUB          'WINSTUB.EXE'
+ CODE          PRELOAD MOVEABLE DISCARDABLE
+ DATA          PRELOAD MOVEABLE MULTIPLE
+ HEAPSIZE      1024
+ STACKSIZE     8192
+
+
+
+                   

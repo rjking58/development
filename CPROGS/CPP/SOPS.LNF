@@ -1,0 +1,67 @@
+LNFVER 3.2                                       
+  500   -3
+
+!    0   35   -3
+    3  801 __work
+    1  801 sops1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+!    1  500    2
+sedwin_Class
+132
+132
+7 25 15 58 1 0 0 0 7 0 26
+
+bd_title
+Dos Environment Variables
+
+exp_BeamMeUp
+4 136 32000 4 0 0 7340032 32 32
+19 26 0 1 0
+yesno_funcs
+boolean *
+network
+@p[1,11]@f{network}D[### ]
+
+19 26 0 1 0
+yesno_funcs
+boolean *
+netbios
+@p[2,11]@f{netbios}D[### ]
+
+19 26 0 1 0
+yesno_funcs
+boolean *
+virus
+@p[3,11]@f{virus}D[### ]
+
+19 26 0 1 0
+yesno_funcs
+boolean *
+printq
+@p[4,11]@f{printq}D[### ]
+
+16 0
+
+  Network:     1 19
+
+15 0
+  NetBios:     1 19
+
+102 0
+  Virus  :     
+  PrintQ :     
+
+  Use
+!    2   99   -3
+ Up/Down Arrows to select
+  Space Bar to change
+  Return to Quit0 0
+0 26 7 112 15 112
+
+
+
+702020229
+                                                                                                                                                                                                                                                                                                                                                                                                                 
+!    3    6   -3
+sops1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

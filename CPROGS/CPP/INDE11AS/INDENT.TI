@@ -1,0 +1,740 @@
+\input texinfo   @c -*-texinfo-*-
+@setfilename indent.info
+@settitle @code{indent}:  Indent and Format C Program Source
+@setchapternewpage odd
+
+@page
+Copyright @copyright{} 1989 Free Software Foundation, Inc.
+
+Permission is granted to make and distribute verbatim copies of this
+documentation provided that the copyright notice and this permission
+notice are preserved on all copies.
+
+@comment put the following line in the the file dir in the info directory
+@comment under wherever you have installed emacs (assuming that
+@comment the info file made from this file is in the file "indent")
+@comment * indent:(indent).  How to change the appearance of a C program.
+
+@node Top,  , (dir), (dir)
+@comment  node-name,  next,  previous,  up
+@chapter @code{indent}:  Indent and Format C Program Source
+
+The @code{indent} program changes the appearance of a C program by
+inserting or deleting whitespace.  It can be used to make code easier to
+read.  It can also convert from one style of writing C to another.
+
+@code{indent} understands a substantial amount about the syntax of C,
+but it also attempts to cope with incomplete and misformed syntax.
+
+@menu
+* Invoking indent::  How to run the indent program.
+* Common styles::  Common styles of formatting C programs.
+
+* Blank lines::   Options to control addition or deletion of blank lines.
+* Comments::  How indent affects comments.
+* Statements::  Options involving statements.
+* Declarations::  Options involving declarations.
+* Indentation::  How far each line is indented from the left margin.
+* Miscellaneous options::  Troff and verbose modes, and getting indent's
+                           version number.
+* Copyright::  Copyright notice for the indent program.
+
+* Option summary::  Alphabetical list of options with short descriptions.
+@end menu
+
+@node Invoking indent, Common styles, Top, Top
+@comment  node-name,  next,  previous,  up
+@section Invoking @code{indent}
+
+The format of the @code{indent} command is:
+
+@example
+indent [@var{input-file} [@var{output-file}]] [@var{options}]
+@end example
+
+Options begin with @samp{-}, and can appear anywhere in the command.
+These options control how programs are formatted (for a list of options,
+@pxref{Option summary}).
+
+For example, to indent the program @file{munch.c} and write the indented
+C program to @file{munch.out}, you would use the command
+
+@example
+indent munch.c munch.out
+@end example
+
+If an input file is specified but no output file is specified, the
+formatted file is written back into the input file, and a backup copy of
+the input file is written in the current directory.  The name of the
+backup copy is formed by adding @samp{.BAK} to the end of the name of the
+input file.
+
+For example:
+@example
+indent -br test/munch.c -l85
+@end example
+This will indent the program @file{test/munch.c} using the @samp{-br}
+and @samp{-l85} options, write the output back to @file{test/munch.c},
+and copy the original contents of @file{test/munch.c} to
+@file{munch.c.BAK} in the current directory.
+
+Note that it does not work to type @code{indent *.c} to indent all the
+programs in a directory.  The shell expands this command into a command
+such as @code{indent foo.c bar.c baz.c}.  If there are more than 2 files
+in the current directory ending in @samp{.c}, you will get an error
+message; if there are exactly 2 such files you will overwrite the second
+one with the indented version of the first.  The exact command to indent
+all the C programs in the current directory depends on what shell you
+are using; for @samp{bash} or similar shells you would use the following:
+
+@example
+for file in *.c; do
+indent $file
+done
+@end example
+
+To cause @code{indent} to read from standard input and write to standard
+output, use the @samp{-st} option.  If an input file (and/or output
+file) is specified in addition to @samp{-st}, @code{indent} will use the
+specified file rather than standard input (and/or output).@refill
+
+If you find that you often use @code{indent} with the same options, you
+may put those options into a file called @file{.indent.pro}.  Upon
+starting up, @code{indent} first reads @file{.indent.pro} in the your
+login directory, then reads @file{.indent.pro} in the current directory,
+and then processes command line switches.  Options specified later
+override arguments specified earlier, with one exception: Explicitly
+specified options always override background options (@pxref{Common
+styles}).  You can prevent @code{indent} from reading the
+@file{.indent.pro} files by specifying the @samp{-npro} option.@refill
+
+@node Common styles, Blank lines, Invoking indent, Top
+@comment  node-name,  next,  previous,  up
+@section Common styles
+
+There are a number of common styles of formatting C code.  These include
+the default @code{indent} style, the GNU style, and the Kernighan &
+Ritchie style.  @code{indent} allows you to select one of these styles
+with a single @dfn{background} option.  A background option provides
+settings for all other options, but explicitly specified options always
+override options implied by a background option.  
+
+If you do not give any background option, @code{indent} will use its own
+list of default options.  The indent defaults were decided at the
+University of California at Berkeley, which originally wrote
+@code{indent}.  The indent defaults are:
+@example
+-nbap -nbad -nbbb -bc -br -c33 -cd33 -cdb -ce -ci4 -cli0 -d4 -di16 
+-fc1 -i4 -ip4 -l75 -lp -npcs -psl -sc -nsob -fca -cp33 -nss
+@end example
+
+The Kernighan & Ritchie style is the one used in their influential book
+@cite{The C Programming Language}.  It is enabled with the @samp{-kr}
+option.  The Kernighan & Ritchie style corresponds to the following set
+of options:
+@example
+-nbad -bap -nbbb -nbc -br -c33 -cd33 -ncdb -ce -ci4 -cli0 -d0 -di1 
+-nfc1 -i4 -ip0 -l75 -lp -npcs -npsl -nsc -nsob -nfca -cp33 -nss
+@end example
+Kernighan & Ritchie do not put comments to the right of code in the same
+column at all times (nor do they use only one space to the right of the
+code), so @code{indent} in this mode has arbitrarily picked column 33.
+
+The GNU coding style is the preferred style for writing code for the GNU
+project.  It is also the style that the GNU emacs C mode encourages.
+People interested in writing programs for GNU should get a copy of the
+GNU coding standards, which also cover semantic issues such as memory
+usage, the size of integers, etc.  To tell @code{indent} to use GNU
+coding standards, specify the @samp{-gnu} option, which has the same
+effect as the following options:
+@example
+-nbad -bap -nbbb -nbc -bl -c33 -cd33 -ncdb -nce -di0 -nfc1 -i2 
+-ip5 -lp -pcs -psl -nsc -nsob -bli2 -ss -cp1 -nfca -cli0
+@end example
+
+@node Blank lines,  Comments, Common styles, Top
+@comment  node-name,  next,  previous,  up
+@section Blank lines
+
+Various programming styles use blank lines in different places.
+@code{indent} has a number of options to insert or delete blank lines in
+specific places.
+
+The @samp{-bad} option causes @code{indent} to force a blank line after
+every block of declarations.  The @samp{-nbad} option causes
+@code{indent} not to force such blank lines.
+
+The @samp{-bap} option forces a blank line after every procedure body.
+The @samp{-nbap} option forces no such blank line.
+
+The @samp{-bbb} option forces a blank line before every block comment.
+The exact definition of a block comment is unclear.  The @samp{-nbbb}
+option does not force such blank lines.
+
+The @samp{-sob} option causes @code{indent} to swallow optional blank
+lines (that is, any optional blank lines present in the input will be
+removed from the output).  If the @samp{-nsob} is specified, any blank
+lines present in the input file will be copied to the output file.
+
+@menu
+* -bad::   More on the @samp{-bad} option.
+* -bap::   More on the @samp{-bap} option.
+@end menu
+
+@node -bad, -bap, Blank lines, Blank lines    
+@comment  node-name,  next,  previous,  up
+
+The @samp{-bad} option forces a blank line after every block of
+declarations.  The @samp{-nbad} option does not add any such blank
+lines.
+
+For example, given the input
+@example
+char *foo;
+char *bar;
+/* This separates blocks of declarations.  */
+int baz;
+@end example
+
+@code{indent -bad} produces
+@example
+char *foo;
+char *bar;
+
+/* This separates blocks of declarations.  */
+int baz;
+@end example
+
+and @code{indent -nbad} produces
+@example
+char *foo;
+char *bar;
+/* This separates blocks of declarations.  */
+int baz;
+@end example
+
+@node -bap,  , -bad, Blank lines    
+@comment  node-name,  next,  previous,  up
+The @samp{-bap} option forces a blank line after every procedure body.
+
+For example, given the input
+@example
+int
+foo ()
+@{
+  puts("Hi");
+@}
+/* The procedure bar is even less interesting.  */
+char *
+bar ()
+@{
+  puts("Hello");
+@}
+@end example
+
+@code{indent -bap} produces
+@example
+int
+foo ()
+@{
+  puts ("Hi");
+@}
+
+/* The procedure bar is even less interesting.  */
+char *
+bar ()
+@{
+  puts ("Hello");
+@}
+@end example
+
+and @code{indent -nbap} produces
+@example
+int
+foo ()
+@{
+  puts ("Hi");
+@}
+/* The procedure bar is even less interesting.  */
+char *
+bar ()
+@{
+  puts ("Hello");
+@}
+@end example
+
+There is a bug with @samp{-nbap} whereby if the end of a procedure is
+followed by something such as the name of a type, with no intervening
+comment, the blank line will not be added.  For example, given the input
+@example
+int
+foo ()
+@{
+  puts ("Hi");
+@}
+char *
+bar ()
+@{
+  puts ("Hello");
+@}
+@end example
+no blank line will be added after the procedure @code{foo}.
+
+@node Comments, Statements, Blank lines, Top
+@comment  node-name,  next,  previous,  up
+@section Comments
+
+By default, @code{indent} treats comments as straight text.  Newlines in
+the input file are ignored and as many words (separated by blanks, tabs,
+or newlines) as possible are put onto a line in the output file.  Blank
+lines break paragraphs.  The length of the lines in the output file is
+controlled by the @samp{-l} numeric option.  Because this reformatting
+will often not give good results, it can be disabled with the
+@samp{-nfca} option, which is also implicitly specified by the
+@samp{-gnu} and @samp{-kr} options.  All comments starting with @samp{-}
+or @samp{*} immediately following the opening @samp{/*} are assumed to
+be carefully formatted, so reformatting is disabled.  If comments
+starting in the first column have been carefully formatted, the
+@samp{-nfc1} option can be used to disable reformatting of such
+comments.  In cases where reformatting is disabled, the indentation
+of a comment may still be adjusted.
+
+The indentation of comments which do not appear to the right of code is
+set by the @samp{-d} option, which specifies the number of spaces to the
+left of the surrounding code that the comment appears.  For example,
+@samp{-d2} places comments two spaces to the left of code; @samp{-d0}
+lines up comments with the code.  The @samp{-cdb} option controls
+whether the @samp{/*} and @samp{*/} are placed on blank lines.  With
+@samp{-cdb}, comments look like this:
+
+@example
+/*
+ * this is a comment
+ */
+@end example
+
+@noindent
+With @samp{-ncdb}, comments look like this:
+
+@example
+/* this is a comment */
+@end example
+
+@noindent
+@samp{-cdb} only affects block comments, not comments to the right of
+code.
+
+Comments which appear on the same line as code are placed to the right.
+The column in which comments on code start is controlled by the
+@samp{-c} option.  The column in which comments to the right of
+declarations start is controlled by the @samp{-cd} option.  By default,
+they start in the same column as comments to the right of code.  The
+column number for comments to the right of @samp{#else} and
+@samp{#endif} statements is controlled by the @samp{-cp} option.  If the
+code on a line extends past the comment column, the comment starts
+further to the right, and the right margin may be automatically extended
+in extreme cases.@refill
+
+If the @samp{-sc} option is specified, @samp{*} is placed at the left
+edge of all comments.  For example:
+
+@example
+/* This is a comment which extends from one line onto the next line,
+ * thus causing us to consider how it should continue.  */
+@end example
+
+@noindent
+instead of
+
+@example
+/* This is a comment which extends from one line onto the next line,
+   thus causing us to consider how it should continue.  */
+@end example
+
+@node Statements,  Declarations, Comments, Top    
+@comment  node-name,  next,  previous,  up
+@section Statements
+
+Use the @samp{-br} or @samp{-bl} option to specify how you want braces
+to be formatted.  Using @samp{-br} lines up braces like this:
+
+@example
+if (x > 0) @{
+  x--;
+@}
+@end example
+
+@noindent
+Using @samp{-bl} makes them look like this:
+
+@example
+if (x > 0)
+@{
+  x--;
+@}
+@end example
+
+If you use the @samp{-bl} option, you may also want to specify the
+@samp{-bli} option.  This option gives the number of spaces that the
+braces are indented.  @samp{-bli0} gives the result shown above.
+@samp{-bli2} results in the following appearance:
+
+@example
+if (x > 0)
+  @{
+    x--;
+  @}
+@end example
+
+The @samp{-ce} option causes the @code{else} in an if-then-else
+construct to cuddle up to the immediately preceding @samp{@}}.  For
+example, with @samp{-ce} you would get
+
+@example
+if (x > 0) @{
+  x--;
+@} else @{
+  fprintf (stderr, "You seem to have done something wrong.\n");
+@}
+@end example
+
+@noindent
+With @samp{-nce} that code would appear as
+
+@example
+if (x > 0) @{
+  x--;
+@}
+else @{
+  fprintf (stderr, "You seem to have done something wrong.\n");
+@}
+@end example
+
+The @samp{-cli} option specifies the number of spaces that case labels
+should be indented to the right of the containing @samp{switch}
+statement.
+
+If a semicolon is on the same line as a @code{for} or @code{while}
+statement, the @samp{-ss} option will cause a space to be placed before
+the semicolon.  This emphasizes the semicolon, making it clear that the
+body of the @code{for} or @code{while} statement is an empty statement.
+
+The @samp{-pcs} option causes a space to be placed between the name of
+the procedure being called and the @samp{(} (for example @code{puts
+("Hi");}.  The @samp{-npcs} option would give @code{puts("Hi");}).
+@refill
+
+If the @samp{-cs} option is specified, @code{indent} puts a space after
+a cast operator.
+
+@node Declarations, Indentation, Statements, Top 
+@comment  node-name,  next,  previous,  up
+@section Declarations
+
+By default @code{indent} will line up identifiers, in the column
+specified by the @samp{-di} option.  For example, the default
+@samp{-di16} makes things look like:
+
+@example
+int		foo;
+char *		bar;
+@end example
+
+The @samp{-di1} option can be used to cause the indentifiers to be
+placed in the first available position, for example
+
+@example
+int foo;
+char *bar;
+@end example
+
+If the @samp{-bc} option is specified, a newline is forced after each
+comma in a declaration.  For example,
+
+@example
+int a,
+  b,
+  c;
+@end example
+
+@noindent
+With the @samp{-nbc} option this would look like
+
+@example
+int a, b, c;
+@end example
+
+The @samp{-psl} option causes the type of a procedure being defined to
+be placed on the line before the name of the procedure.  This style is
+required for the @code{etags} program to work correctly.
+
+If you are not using the @samp{-di1} option to place variables being
+declared immediately after their type, you will need to use the
+@samp{-T} option to tell @code{indent} the name of all the typenames in
+your program that are defined by @code{typedef}.  @samp{-T} can be
+specified more than once, and all names specified are used.  For
+example, if your program contains
+
+@example
+typedef unsigned long CODE_ADDR;
+typedef enum @{red, blue, green@} COLOR;
+@end example
+
+@noindent
+you would use the options @samp{-T CODE_ADDR -T COLOR}.
+
+@node Indentation, Miscellaneous options, Declarations, Top    
+@comment  node-name,  next,  previous,  up
+@section Indentation
+
+One issue in the formatting of code is how far each line should be
+indented from the left margin.  Both on reading the input and writing
+the output @code{indent} assumes that tabs are placed at eight character
+intervals.  A tab is treated no differently than the number of spaces
+that correspond to the effect of the tab.  When the beginning of a
+statement such as @code{if} or @code{for} is encountered, the
+indentation level is increased by the value specified by the @samp{-i}
+option.  For example, use @samp{-i8} to specify an eight character
+indentation for each level.  When a statement is continued from a
+previous line, it is indented by a number of additional spaces specified
+by the @samp{-ci} option.  @samp{-ci} defaults to the same value as
+@samp{-i}.  However, if the @samp{-lp} option is specified, and a line
+has a left parenthesis which is not closed on that line, then
+continuation lines will be lined up to start at the character position
+just after the left parenthesis.  This processing also applies to
+@samp{[} and applies to @samp{@{} when it occurs in initialization
+lists.  For example, a piece of continued code might look like this with
+@samp{-nlp -ci3} in effect:@refill
+
+@example
+  p1 = first_procedure (second_procedure (p2, p3),
+     third_procedure (p4, p5));
+@end example
+
+@noindent
+With @samp{-lp} in effect the code looks somewhat clearer:
+
+@example
+  p1 = first_procedure (second_procedure (p2, p3),
+                        third_procedure (p4, p5));
+@end example
+
+The indentation of type declarations in old-style function definitions
+is controlled by the @samp{-ip} parameter.  This is a numeric parameter
+specifying how many spaces to indent type declarations.  For example,
+with @samp{-ip5} specified a function definition might look like this:
+
+@example
+char *
+create_world (x, y, scale)
+     int x;
+     int y;
+     float scale;
+@{
+  . . .
+@}
+@end example
+
+@node Miscellaneous options, Copyright, Indentation, Top    
+@comment  node-name,  next,  previous,  up
+@section Miscellaneous options
+
+To find out what version of @code{indent} you have, use the command
+@code{indent -version}.  This will report the version number of
+@code{indent}, without doing any of the normal processing.
+
+If you are printing your program, you may wish to use the @samp{-troff}
+option to produce output suitable for processing by the @code{troff}
+program.  When the @samp{-troff} option is specified, if the output file
+is not specified, the default is standard output, rather than formatting
+in place.
+
+The @samp{-v} option can be used to turn on verbose mode.  When in
+verbose mode, @code{indent} reports when it splits one line of input
+into two more more lines of output, and gives some size statistics at
+completion. 
+
+@node Copyright, Option summary, Miscellaneous options, Top    
+@comment  node-name,  next,  previous,  up
+@section Copyright
+
+@display
+Copyright (c) 1989 Free Software Foundation
+Copyright (c) 1985 Sun Microsystems, Inc.
+Copyright (c) 1980 The Regents of the University of California.
+Copyright (c) 1976 Board of Trustees of the University of Illinois.
+All rights reserved.
+
+Redistribution and use in source and binary forms are permitted
+provided that the above copyright notice and this paragraph are
+duplicated in all such forms and that any documentation,
+advertising materials, and other materials related to such
+distribution and use acknowledge that the software was developed
+by the University of California, Berkeley, the University of Illinois,
+Urbana, and Sun Microsystems, Inc.  The name of either University
+or Sun Microsystems may not be used to endorse or promote products
+derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+@end display
+
+@node Option summary,  , Copyright, Top    
+@comment  node-name,  next,  previous,  up
+@section Option summary
+
+@table @samp
+@item -bad
+Force blank lines after declarations.  @xref{Blank lines}.
+
+@item -bap
+Force blank lines after procedure bodies.  @xref{Blank lines}.
+
+@item -bbb
+Force blank lines after block comments.  @xref{Blank lines}.
+
+@item -bc
+Force newline after comma in declaration.  @xref{Declarations}.
+
+@item -bl
+Put braces on line after @code{if}, etc.  @xref{Statements}.
+
+@item -br
+Put braces on line with @code{if}, etc.  @xref{Statements}.
+
+@item -c@var{n}
+Put comments to the right of code in column @var{n}.  @xref{Comments}.
+
+@item -cd@var{n}
+Put comments to the right of declarations in column @var{n}.
+@xref{Comments}.
+
+@item -cdb
+Put comment delimiters on blank lines.  @xref{Comments}.
+
+@item -ce
+Cuddle else and preceeding @samp{@}}.  @xref{Comments}.
+
+@item -ci@var{n}
+Continuation indent of @var{n} spaces.  @xref{Statements}.
+
+@item -cli@var{n}
+Case label indent of @var{n} spaces.  @xref{Statements}.
+
+@item -cs
+Put a space after a cast operator.  @xref{Statements}.
+
+@item -d@var{n}
+Set indentation of comments not to the right of code to @var{n} spaces.  
+@xref{Comments}.
+
+@item -di@var{n}
+Put variables in column @var{n}.  @xref{Declarations}.
+
+@item -fc1
+Format comments in the first column.  @xref{Comments}.
+
+@item -fca
+Do not disable all formatting of comments.  @xref{Comments}
+
+@item -gnu
+Use GNU coding style.  @xref{Common styles}.
+
+@item -i@var{n}
+Set indentation level to @var{n} spaces.  @xref{Indentation}.
+
+@item -ip@var{n}
+Indent parameter types in old-style function defitions by @var{n} spaces.
+@xref{Indentation}.
+
+@item -kr
+Use Kernighan & Ritchie coding style.  @xref{Common styles}.
+
+@item -l@var{n}
+Set maximum line length to @var{n}.  @xref{Comments}.
+
+@item -lp
+Line up continued lines at parentheses.  @xref{Indentation}.
+
+@item -pcs
+Put a space after the function in function calls.  @xref{Statements}.
+
+@item -nbad
+Do not force blank lines after declarations.  @xref{Blank lines}.
+
+@item -nbap
+Do not force blank lines after procedure bodies.  @xref{Blank lines}.
+
+@item -nbbb
+Do not force blanklines after block comments.  @xref{Blank lines}.
+
+@item -nbc
+Do not force newlines after commas in declarations.
+@xref{Declarations}.
+
+@item -ncdb
+Do not put comment delimiters on blank lines.  @xref{Comments}.
+
+@item -nce
+Do not cuddle @code{@}} and @code{else}.  @xref{Statements}.
+
+@item -ncs
+Do not put a space after cast operators.
+
+@item -nfc1
+Do not format comments in the first column as normal.  @xref{Comments}.
+
+@item -nfca
+Do not format any comments.  @xref{Comments}.
+
+@item -nlp
+Do not line up parentheses.  @xref{Statements}.
+
+@item -npcs
+Do not put space after the function in function calls.
+@xref{Statements}.
+
+@item -npsl
+Put the type of a procedure on the same line as its name.
+@xref{Declarations}.
+
+@item -nsc
+Do not put the @samp{*} character at the left of comments.
+@xref{Comments}.
+
+@item -nsob
+Do not swallow optional blank lines.  @xref{Blank lines}.
+
+@item -nv
+Disable verbose mode.  @xref{Miscellaneous options}.
+
+@item -npro
+Do not read @file{.indent.pro} files.  @xref{Invoking indent}.
+
+@item -psl
+Put the type of a procedure on the line before its name.
+@xref{Declarations}.
+
+@item -sc
+Put the @samp{*} character at the left of comments.
+@xref{Comments}.
+
+@item -sob
+Swallow optional blank lines.  @xref{Blank lines}.
+
+@item -st
+Read from standard input and write to standard output.
+@xref{Invoking indent}.
+
+@item -troff
+Format the program for printing with @code{troff}.
+@xref{Miscellaneous options}.
+
+@item -v
+Enable verbose mode.  @xref{Miscellaneous options}.
+
+@item -version
+Output the version number of @code{indent}.  @xref{Miscellaneous
+options}.
+@end table
+@bye

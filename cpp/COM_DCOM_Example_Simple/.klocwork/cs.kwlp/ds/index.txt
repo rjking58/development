@@ -1,0 +1,10 @@
+c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcom.h;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\SimpleChatServer.cpp;;4;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\SimpleClient.cpp;;5;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.cpp;;6;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.def;;7;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.h;;8;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\targetver.h;;9;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.cpp;;10;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.idl;;11;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\Program.cs;;1;0;0

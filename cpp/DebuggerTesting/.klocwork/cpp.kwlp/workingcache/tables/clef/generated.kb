@@ -1,0 +1,9 @@
+wmain  ,int,wchar_t*[]const\ ,  RET  1:EQ(0)
+wmain  ,int,wchar_t*[]const\ ,  DMEM  ,MRF,2
+wmain  ,int,wchar_t*[]const\ ,  xNPD
+wmain  ,int,wchar_t*[]const\ ,  NPD.SRC
+wmain  ,int,wchar_t*[]const\ ,  R  dummy
+std::make_error_code  ,std::io_errc::io_errc,  RETARG  1:$$.<id>std::error_code::_Myval</id>=$1
+std::make_error_code  ,std::io_errc::io_errc,  xNPD
+std::make_error_code  ,std::io_errc::io_errc,  NPD.SRC
+std::make_error_code  ,std::io_errc::io_errc,  R  dummy

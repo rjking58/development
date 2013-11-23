@@ -1,0 +1,424 @@
+
+
+; this file isn't a .qdt because we don't want to include these in the pak file
+
+$load baseq2/gfx/2d/dm_face.lbm
+
+$grab	/players/male/grunt_i		0	0	32	32
+$grab	/players/male/razor_i		40	0	32	32
+$grab	/players/male/pointman_i	80	0	32	32
+$grab	/players/male/scout_i		120	0	32	32
+$grab	/players/male/cipher_i		160	0	32	32
+$grab	/players/male/rampage_i		200	0	32	32
+$grab	/players/male/nightops_i	240	0	32	32
+$grab	/players/male/claymore_i	0	40	32	32
+$grab	/players/male/recon_i		40	40	32	32
+$grab	/players/male/flak_i		80	40	32	32
+$grab	/players/male/major_i		120	40	32	32
+$grab	/players/male/sniper_i		160	40	32	32
+$grab	/players/male/viper_i		200	40	32	32
+$grab	/players/male/howitzer_i	240	40	32	32
+$grab	/players/male/psycho_i		0	80	32	32
+
+$grab	/players/female/ensign_i	40	80	32	32
+$grab	/players/female/jungle_i	80	80	32	32
+$grab	/players/female/venus_i		120	80	32	32
+$grab	/players/female/stiletto_i	160	80	32	32
+$grab	/players/female/jezebel_i	200	80	32	32
+$grab	/players/female/lotus_i		240	80	32	32
+$grab	/players/female/athena_i	0	120	32	32
+$grab	/players/female/voodoo_i	40	120	32	32
+$grab	/players/female/cobalt_i	80	120	32	32
+$grab	/players/female/brianna_i	120	120	32	32
+
+
+$load baseq2/models/player_y/grunt.lbm
+$grab	/players/male/grunt		0	0	284	195
+
+$load baseq2/models/player_y/razor.lbm
+$grab	/players/male/razor		0	0	284	195
+
+$load baseq2/models/player_y/pointman.lbm
+$grab	/players/male/pointman		0	0	284	195
+
+$load baseq2/models/player_y/scout.lbm
+$grab	/players/male/scout		0	0	284	195
+
+$load baseq2/models/player_y/cipher.lbm
+$grab	/players/male/cipher		0	0	284	195
+
+$load baseq2/models/player_y/rampage.lbm
+$grab	/players/male/rampage		0	0	284	195
+
+$load baseq2/models/player_y/nightops.lbm
+$grab	/players/male/nightops		0	0	284	195
+
+$load baseq2/models/player_y/claymore.lbm
+$grab	/players/male/claymore		0	0	284	195
+
+$load baseq2/models/player_y/recon.lbm
+$grab	/players/male/recon		0	0	284	195
+
+$load baseq2/models/player_y/flak.lbm
+$grab	/players/male/flak		0	0	284	195
+
+$load baseq2/models/player_y/major.lbm
+$grab	/players/male/major		0	0	284	195
+
+$load baseq2/models/player_y/sniper.lbm
+$grab	/players/male/sniper		0	0	284	195
+
+$load baseq2/models/player_y/viper.lbm
+$grab	/players/male/viper		0	0	284	195
+
+$load baseq2/models/player_y/howitzer.lbm
+$grab	/players/male/howitzer		0	0	284	195
+
+$load baseq2/models/player_y/psycho.lbm
+$grab	/players/male/psycho		0	0	284	195
+
+
+
+$load baseq2/models/player_x/ensign.lbm
+$grab	/players/female/ensign		0	0	252	195
+
+$load baseq2/models/player_x/jungle.lbm
+$grab	/players/female/jungle		0	0	252	195
+
+$load baseq2/models/player_x/venus.lbm
+$grab	/players/female/venus		0	0	252	195
+
+$load baseq2/models/player_x/stiletto.lbm
+$grab	/players/female/stiletto	0	0	252	195
+
+$load baseq2/models/player_x/jezebel.lbm
+$grab	/players/female/jezebel		0	0	252	195
+
+$load baseq2/models/player_x/lotus.lbm
+$grab	/players/female/lotus		0	0	252	195
+
+$load baseq2/models/player_x/athena.lbm
+$grab	/players/female/athena		0	0	252	195
+
+$load baseq2/models/player_x/voodoo.lbm
+$grab	/players/female/voodoo		0	0	252	195
+
+$load baseq2/models/player_x/cobalt.lbm
+$grab	/players/female/cobalt		0	0	252	195
+
+$load baseq2/models/player_x/brianna.lbm
+$grab	/players/female/brianna		0	0	252	195
+
+
+/*
+==============================================================================
+FEMALE PLAYER
+==============================================================================
+*/
+
+$cd player_x/frames
+$modelname players/female/tris.md2
+$origin 0 0 24
+$base base
+
+//stand1
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8
+
+//pain1
+$frame pain101 pain102 pain103 pain104
+
+//pain2
+$frame pain201 pain202 pain203 pain204
+
+//pain3
+$frame pain301 pain302 pain303 pain304
+
+//jump
+$frame jump1 jump2 jump3 jump4 jump5 jump6
+
+// wave 0 : flipoff
+$frame flip01 flip02 flip03 flip04 flip05 flip06 flip07 flip08 flip09
+$frame flip10 flip11 flip12
+
+// wave2 : salute
+$frame salute01 salute02 salute03 salute04 salute05 salute06 salute07 salute08
+$frame salute09 salute10 salute11
+
+// wave3 : taunt
+$frame taunt01 taunt02 taunt03 taunt04 taunt05 taunt06 taunt07 taunt08 taunt09
+$frame taunt10 taunt11 taunt12 taunt13 taunt14 taunt15 taunt16 taunt17
+
+// wave4 : wave
+$frame wave01 wave02 wave03 wave04 wave05 wave06 wave07 wave08 wave09 wave10
+$frame wave11
+
+// wave5 : point
+$frame point01 point02 point03 point04 point05 point06 point07 point08 point09
+$frame point10 point11 point12
+
+//crouch stand
+$frame crstnd01 crstnd02 crstnd03 crstnd04 crstnd05 crstnd06 crstnd07 crstnd08
+$frame crstnd09 crstnd10 crstnd11 crstnd12 crstnd13 crstnd14 crstnd15 crstnd16
+$frame crstnd17 crstnd18 crstnd19
+
+//crouch walk
+$frame crwalk1 crwalk2 crwalk3 crwalk4 crwalk5 crwalk6
+
+//crouch attack
+$frame crattak1 crattak2 crattak3 crattak4 crattak5 crattak6 crattak7 crattak8 crattak9
+
+//crouch pain
+$frame crpain1 crpain2 crpain3 crpain4
+
+// death frames last, because gun isn't present
+
+//crouch death
+$frame crdeath1 crdeath2 crdeath3 crdeath4 crdeath5
+
+//death1
+$frame death101 death102 death103 death104 death105 death106
+
+//death2
+$frame death201 death202 death203 death204 death205 death206
+
+//death3
+$frame death301 death302 death303 death304 death305 death306 death307 death308
+
+
+/*
+==============================================================================
+FEMALE PLAYER GUN
+==============================================================================
+*/
+
+$cd player_x/weapon
+$modelname players/female/weapon.md2
+$origin 0 0 24
+$base base
+$skin skin players/female/weapon
+
+
+//stand1
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8
+
+//pain1
+$frame pain101 pain102 pain103 pain104
+
+//pain2
+$frame pain201 pain202 pain203 pain204
+
+//pain3
+$frame pain301 pain302 pain303 pain304
+
+//jump
+$frame jump1 jump2 jump3 jump4 jump5 jump6
+
+// wave 0 : flipoff
+$frame flip01 flip02 flip03 flip04 flip05 flip06 flip07 flip08 flip09
+$frame flip10 flip11 flip12
+
+// wave2 : salute
+$frame salute01 salute02 salute03 salute04 salute05 salute06 salute07 salute08
+$frame salute09 salute10 salute11
+
+// wave3 : taunt
+$frame taunt01 taunt02 taunt03 taunt04 taunt05 taunt06 taunt07 taunt08 taunt09
+$frame taunt10 taunt11 taunt12 taunt13 taunt14 taunt15 taunt16 taunt17
+
+// wave4 : wave
+$frame wave01 wave02 wave03 wave04 wave05 wave06 wave07 wave08 wave09 wave10
+$frame wave11
+
+// wave5 : point
+$frame point01 point02 point03 point04 point05 point06 point07 point08 point09
+$frame point10 point11 point12
+
+//crouch stand
+$frame crstnd01 crstnd02 crstnd03 crstnd04 crstnd05 crstnd06 crstnd07 crstnd08
+$frame crstnd09 crstnd10 crstnd11 crstnd12 crstnd13 crstnd14 crstnd15 crstnd16
+$frame crstnd17 crstnd18 crstnd19
+
+//crouch walk
+$frame crwalk1 crwalk2 crwalk3 crwalk4 crwalk5 crwalk6
+
+//crouch attack
+$frame crattak1 crattak2 crattak3 crattak4 crattak5 crattak6 crattak7 crattak8 crattak9
+
+//crouch pain
+$frame crpain1 crpain2 crpain3 crpain4
+
+
+/*
+==============================================================================
+MALE PLAYER
+==============================================================================
+*/
+
+$cd player_y/frames
+$modelname players/male/tris.md2
+$origin 0 0 24
+$base base
+
+//stand1
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8
+
+//pain1
+$frame pain101 pain102 pain103 pain104
+
+//pain2
+$frame pain201 pain202 pain203 pain204
+
+//pain3
+$frame pain301 pain302 pain303 pain304
+
+//jump
+$frame jump1 jump2 jump3 jump4 jump5 jump6
+
+// wave 0 : flipoff
+$frame flip01 flip02 flip03 flip04 flip05 flip06 flip07 flip08 flip09
+$frame flip10 flip11 flip12
+
+// wave2 : salute
+$frame salute01 salute02 salute03 salute04 salute05 salute06 salute07 salute08
+$frame salute09 salute10 salute11
+
+// wave3 : taunt
+$frame taunt01 taunt02 taunt03 taunt04 taunt05 taunt06 taunt07 taunt08 taunt09
+$frame taunt10 taunt11 taunt12 taunt13 taunt14 taunt15 taunt16 taunt17
+
+// wave4 : wave
+$frame wave01 wave02 wave03 wave04 wave05 wave06 wave07 wave08 wave09 wave10
+$frame wave11
+
+// wave5 : point
+$frame point01 point02 point03 point04 point05 point06 point07 point08 point09
+$frame point10 point11 point12
+
+//crouch stand
+$frame crstnd01 crstnd02 crstnd03 crstnd04 crstnd05 crstnd06 crstnd07 crstnd08
+$frame crstnd09 crstnd10 crstnd11 crstnd12 crstnd13 crstnd14 crstnd15 crstnd16
+$frame crstnd17 crstnd18 crstnd19
+
+//crouch walk
+$frame crwalk1 crwalk2 crwalk3 crwalk4 crwalk5 crwalk6
+
+//crouch attack
+$frame crattak1 crattak2 crattak3 crattak4 crattak5 crattak6 crattak7 crattak8 crattak9
+
+//crouch pain
+$frame crpain1 crpain2 crpain3 crpain4
+
+// death frames last, because gun isn't present
+
+//crouch death
+$frame crdeath1 crdeath2 crdeath3 crdeath4 crdeath5
+
+//death1
+$frame death101 death102 death103 death104 death105 death106
+
+//death2
+$frame death201 death202 death203 death204 death205 death206
+
+//death3
+$frame death301 death302 death303 death304 death305 death306 death307 death308
+
+
+/*
+==============================================================================
+MALE PLAYER GUN
+==============================================================================
+*/
+
+$cd player_y/weapon
+$modelname players/male/weapon.md2
+$origin 0 0 24
+$base base
+$skin skin players/male/weapon
+
+
+//stand1
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8
+
+//pain1
+$frame pain101 pain102 pain103 pain104
+
+//pain2
+$frame pain201 pain202 pain203 pain204
+
+//pain3
+$frame pain301 pain302 pain303 pain304
+
+//jump
+$frame jump1 jump2 jump3 jump4 jump5 jump6
+
+// wave 0 : flipoff
+$frame flip01 flip02 flip03 flip04 flip05 flip06 flip07 flip08 flip09
+$frame flip10 flip11 flip12
+
+// wave2 : salute
+$frame salute01 salute02 salute03 salute04 salute05 salute06 salute07 salute08
+$frame salute09 salute10 salute11
+
+// wave3 : taunt
+$frame taunt01 taunt02 taunt03 taunt04 taunt05 taunt06 taunt07 taunt08 taunt09
+$frame taunt10 taunt11 taunt12 taunt13 taunt14 taunt15 taunt16 taunt17
+
+// wave4 : wave
+$frame wave01 wave02 wave03 wave04 wave05 wave06 wave07 wave08 wave09 wave10
+$frame wave11
+
+// wave5 : point
+$frame point01 point02 point03 point04 point05 point06 point07 point08 point09
+$frame point10 point11 point12
+
+//crouch stand
+$frame crstnd01 crstnd02 crstnd03 crstnd04 crstnd05 crstnd06 crstnd07 crstnd08
+$frame crstnd09 crstnd10 crstnd11 crstnd12 crstnd13 crstnd14 crstnd15 crstnd16
+$frame crstnd17 crstnd18 crstnd19
+
+//crouch walk
+$frame crwalk1 crwalk2 crwalk3 crwalk4 crwalk5 crwalk6
+
+//crouch attack
+$frame crattak1 crattak2 crattak3 crattak4 crattak5 crattak6 crattak7 crattak8 crattak9
+
+//crouch pain
+$frame crpain1 crpain2 crpain3 crpain4
+
+

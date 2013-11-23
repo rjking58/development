@@ -1,0 +1,740 @@
+This is a text-only version for now.  I will put an html version up as soon
+as I finish putting in the codes and pictures.  I will keep this text
+version available for downloading since I have had so many requests for it.
+
+
+It's here!  Oct. 30th - Devil's Night, the commercial release of...
+--------------------------------------------------------------------------
+                                                                        e" 
+              ..                       .z$%           .      4ee"     J$*  
+             z$$P  e. ...."$e        J$$*"   zeeeee$$$$P    z$$$.   .d$"   
+            d$$P .$$$$$$$P  "$b. ..e$$P"   .d$$$eeee       z$$$$$c z$$"    
+  .ee$     z$$F .$"*"**"     ^)$e$$$$*    z$$$*"***"      z$*"$$$$e$$"     
+   $$F    J$$* zdL.z.. ...     $$$$"      $$$$eeeeeed$$- .$$   *$$$$L      
+  .$$$$$$$$$" z$"$$$$$****- ..$$**$F.    4$$$$$$*$""**"  P"     3P*"       
+  ^$$$P*$$$   $"      .    e$$""   $$..                 ^                  
+  4$$"  $$F   "$$$**"    .dP*       $$P                                    
+  $$$  .$*"               "          ""                                    
+
+                                - F  A  Q -
+                                  v1.0.3
+                             By Arne Michaelsen
+                            Email - arne@cco.net
+--------------------------------------------------------------------------
+Anyone with information that can update this FAQ, please write to me at
+arne@cco.net, and make the subject line "new info"
+
+If you have downloaded this from a BBS or a newsgroup and have World Wide
+Web access, visit my home page at http://www.cco.net/~arne to find the
+latest version of this FAQ.
+
+Hexen FAQ 1.0.3 - Based on the commercial release of Hexen 1.0 on October
+30th.  This FAQ is back in text-based form so that I could get it out
+sooner.  Also, many people have asked me to make a text-only form for
+downloading.  When I have the time I will put both this and the html
+version on my web page (http://www.cco.net/~arne) for your viewing
+pleasure.
+
+
+.--------.
+|Contents|
+`--------'
+
+  Important!
+  What is Hexen?
+  What's new in Hexen?
+  Version info
+  Multiplayer
+  Cheat Codes
+  Classes
+  Weapons
+  Artifacts
+  Armor
+  Monsters
+  Other programs
+  
+
+* I have taken out the "levels" section temporarily.  I will put it back into
+the next version with a lot more info...  I removed it for now so the main
+faq can be realesed with the new code information.
+
+* I have removed the section on scripts and wad files.  This is covered
+much more knowladgably by Ben Morris's technical specs.  They are
+available from ftp.cdrom.com or at my web page:
+http://www.cco.net/~arne
+
+.----------.
+|IMPORTANT!|
+`----------'
+
+The Full Version (1.0) is out!  Go buy it!  Now!  We know where you live!
+
+For those of you who still haven't tasted it yet, there is a demo available
+from ftp.cdrom.com (or your nearest mirror site) in the idstuff/hexen
+directory.  It is approx. 5.7 megs zipped (almost 11 unzipped) and has
+four levels in it.
+
+The full version comes on 7 3.5" disks (or 1 CD-ROM) and takes about 22
+megabytes of hard drive space (cd-rom owners can run it from CD).
+The saved games directory will eat an additional few megs since the saved
+games tend to be huge.
+
+CD-ROM owners also get to listen to great CD music recordings instead
+of midi music for the background music on the levels.  You can even play
+any CD you want (I suggest Devo's Greatest Hits).
+
+Hexen is being published by GT Interactive.  Their web page is
+http://www.gtinteractive.com  (go figure!)
+They have a lot of info on Hexen, including a lot of story background.
+Some of their pictures and such are wrong though ;)
+
+Now I heard (from id themselves) that there will be an 8-player patch
+coming out soon after Hexen is released.  Look for it!  Play it!  That's
+not a request...
+
+.--------------.
+|What is Hexen?|
+`--------------'
+Hexen is the sequel to a great game called Heretic by Raven Software.
+Hexen's full title is "Hexen: Beyond Heretic."  Heretic was the first game
+to use the now infamous Doom 3D engine.  It took the awesome 3D 
+first-person perspective of Doom and put it into a fantasy setting.  It
+also added a lot of new features to the basic game-play structure of the
+Doom Engine.  Unlike Doom, Heretic allowed the player to look up and down
+(to a limited degree), carry items around and use them when you pleased,
+even fly!  It also added ambient sounds, currents, and wind to the levels,
+as well as objects that could be pushed (and carried off by the wind!).
+
+It had a lot of subtler improvements as well, like better texturemapping,
+more detailed objects, even partial transparency as opposed to Doom's
+"Predator" looking partial invisibility.  All of the eight weapons had two
+modes of fire each, giving 16 different ways to kill your friends!
+
+And now, here comes the sequel to Heretic... Hexen!  Hexen has added some
+major changes to the way the Doom engine represents the maps, not to
+mention more intelligent monsters, a bigger collection of artifacts, and
+even different character classes!
+
+.--------------------.
+|What's new in Hexen?|
+`--------------------'
+
+For those who haven't played Heretic, it had a set of items that could be 
+carried and used at any time in the game.  This was new to the Doom 
+engine.  Hexen also has most of the first Heretic's artifacts, plus many new 
+ones!  Hexen also has added a lot of atmospheric effects (like lightning 
+in the background and MANY ambient sounds).  Another nifty effect seen in 
+level 1 is that you can actually break windows!  There are some other 
+pieces of terrain that can be affected too, like the trees that can be
+destroyed, even a large bell that you can ring!  The sky textures can be
+two layers now with parallax scrolling.  On some levels there is a mountain
+background with clouds scrolling by.  Some other levels have two layers
+of clouds scrolling at different speeds.
+
+The first thing you notice when playing is that you can choose one of 
+three characters to play now!  They all have strengths and weaknesses.  
+(The details of each has moved to another section)
+
+When playing Hexen, there is a lot more emphasis on puzzles and traps 
+now.  No more simple hacking and slashing!  (there still is a lot of that 
+though!).  I have found some rooms with very interesting traps, from 
+crushing pillars to poison darts to rapid-fire shards of ice!  Not to
+mention very deep pits, spiked balls, and the occasional earthquake!
+
+Another new feature is randomness in the terrain.  Sometimes pulling a 
+lever can do one thing, but play the level again and it might do 
+another.  This randomness is not used to a major extent in the demo, but 
+has a lot of potential for making levels that are different each time you
+play.
+
+Yet another new thing is the ability to travel back and forth between 
+worlds.  For instance, level 2 has portals to levels 3,4,5,6 and 7 (only 3
+and 4 are available in the demo, however).  Some actions you do in one 
+level can affect another.  Sometimes you have to get an item in one level 
+(like the flame mask) and bring it to another to accomplish your goals.
+
+Another big difference is the way the difficulty levels are set up.  On
+skill 1, artifacts that replenish your life will be automatically used if you
+are going to die.  Also, skill 5 acts a lot like the skill 5 (Nightmare!)
+from Doom, except the monsters do not respawn.  In fact, the -respawn
+function that worked on all other doom engines does not make a difference
+in Hexen.  In fact, the "respawning" happens at any skill level, it is just
+more frequent the higher the skill level you choose.  This is not real
+"respawning" since dead monsters are not coming back to life.  Instead,
+completely new ones are being created in random places on the level.  They
+just ensure that the level is never completely empty.
+
+There are two very important changes to the engine now that make it 
+more powerful than ever:
+
+1)  The lines that make up the walls can be moved now!  In Doom, doors 
+could only open up and down.  In Hexen, they can swing or slide as well!  
+There is a trap in level 4 where you are on a narrow ledge and the wall 
+moves out to push you off!  Being jammed between two moving walls can 
+really hurt too!
+
+2)  Probably one of the best changes:  Triggers now activate scripts 
+instead of single actions.  Now walking into a room can do all sorts of 
+neat things at once, like lowering the lights, opening two doors behind 
+you, teleporting monsters into the room, and dropping the floor 20 feet!  
+Scripts can also be used to automate "continuous" actions.  See the end 
+of this FAQ for more info on scripts.
+
+.------------.
+|Version Info|
+`------------'
+The first version to be released to the public was the "retail store beta"
+around the beginning of October.  It had 4 levels, working multiplayer and
+a lot of little bugs.  But that's why it is "beta."
+
+The demo of Hexen was fixed up and re-released (with a lot of bugs fixed!)
+on Oct. 18th.  This was called the official "Demo" version.  The major
+changes from the beta were mainly in the behavior of the classes and their
+weapons.  Nearly all visual bugs were fixed, as well as being made much
+more stable and crashing a lot less.  It rarely crashes on my system
+anymore, although it still happens once in a while.
+
+Now the commercial version 1.0 is out.  It is nearly identical to the
+demo version, but with all 30 levels.
+
+.-----------.
+|Multiplayer|
+`-----------'
+
+When I hear more about id's 8-player upgrade, I will post it here!
+
+Hexen may be played with 2 players via modem or serial link, and 4 by a
+local network (just like the rest of the Doom engine games).
+
+Deathmatch mode makes tons more objects appear on each level.  This usually
+includes one of every weapon for each class and all 3 pieces of the
+super-weapon for each class as well.  Many scripts that normally have to
+be solved by going to other levels will run automatically to open up the
+level more and give you more room to fight.  Also, most items and weapons
+will re-appear after a minute or so, except the Icon of the Defender which
+takes 10 minutes (any less would throw game balance out of whack!).
+
+In Deathmatch games, you can choose to have your class be random each time
+you die.  This makes for especially fun games when everyone does it!  And
+you really get sick of seeing someone pick the same character (like the
+Cleric perhaps) over and over again...  the command line command is
+-randclass.  When using DM or another front-end program to setup your
+multi-player games, you can usually choose this in the same place you
+choose your class normally.
+
+In cooperative mode, you have to solve the puzzles just like a single
+player game, so the levels look just the same as in single player, with a
+few exceptions:  For one, you can find the weapons of any class that is
+playing the game... but you may only grab the ones that your player can
+use.  Two, the scrolls (Mystic Ambit Incants) are placed throughout the
+levels.  Three, there are some more combined mana powerups that are
+available, but not on the scale of Deathmatch games.  And fourth, when you
+die you restart the level at the location you last entered into it, and
+with 25 of each color mana and all weapons and keys that you had previously
+grabbed.  So when you die you do not lose those hard to get weapons and
+keys (including the pieces to the super-weapons)... but you *do* lose any
+puzzle items you were carrying, as well as all artifacts you had in your
+possession.
+
+You may broadcast messages to all players by pressing "t" and then typing
+a one line message.  When you are typing, all movement controls still work
+(all my controls are not on the letters, so there is no conflict) but you
+cannot change weapon numbers until you send the message (hitting "1" will
+just type a 1 on the screen.  So don't use it too much when you are busy!).
+
+You can send messages to a single player by pressing the first letter of
+his or her color.  Ie, "b" is like hitting "t" but will only send your
+message to the blue player.  The player colors are red, blue, yellow, and
+green.  You can also use chat macros (you define them from the setup
+program) by starting the "chat" typer, and hitting alt + a number, where
+the number is the number of your chat macro.  
+
+I have found one bug apparently in cooperative multiplayer games so far.
+It seems that in cooperative games, the ending sequence to the "Gibbet"
+level does not work correctly and you get stuck in the room where the boss
+is supposed to come out and pummel you.  But instead the room stays dark
+and he does not appear.
+
+.-----------.
+|Cheat Codes|
+`-----------'
+The codes have changed in the commercial version yet again!
+
+The majority of codes in the demo version where based on the programmers
+names.  Look at the info screens till you find the credits, and use those
+names as codes.  The all use the first initial and full last name.  So
+Ben Gokey = BGOKEY, which is god mode in the demo.  Don't include any
+hyphens or other weird bits though.
+
+For the commercial release:
+SATAN = God mode
+NRA = All weapons + full mana + full armor.
+LOCKSMITH = All keys (one of them looks like a little axe, cool!)
+INDIANA = 25 of each item (this will not give you the firemask or other 
+"one of a kind" items).
+MAPSCO = same as IDDT in doom.  Useable only in map mode.  Shows you lots 
+of neat places you haven't found yet.
+DELIVERANCE = pig mode ;)
+TICKER = ticker to count your framerate (like Doom's devparm mode)
+CASPER = no clipping
+BUTCHER = kill all monsters (it tells you how many lives you just ended)
+SHERLOCK = All puzzle pieces
+INIT = restarts the level you are on.
+NOISE = shows sound info on your screen.
+PUKE## = runs script (01-99 for the ##)
+MAPSCO = allmap mode (must type it in while the automap is on)
+SHADOWCASTER# = change class to the # you enter.
+VISIT## - warp to level.  The normal levels are now numbered 1 through 31,
+but the "secret" level is still in there.  It's number is 41.
+CLUBMED = full health.
+
+Also, ala Heretic, the previous games cheat codes will hurt you!  But in
+the commercial version, the codes that hurt you are the same codes that
+worked in the (pirated) full beta version of Hexen:
+CONAN = takes all your weapons away except #1
+MARTEK = a warning message the first two times, then instant death!
+
+Another important key is the F5 button.  It is for suicide... useful in 
+deathmatch when you get bad random characters, or if you get stuck
+somewhere without dying.
+
+Here's some other interesting keys:  All the numbers above 4 activate 
+certain artifacts (if you have them in stock).
+
+5 = Icon of the Defender
+6 = Porkulator
+0 = Flechette
+\ = Quartz flask
+
+The rest I will write down soon.  They are in the readme.txt file that
+comes with the game actually...
+
+The Backspace key will now use one of every item you have that can be used
+in your current situation.  Makes for some real chaos is Deathmatch.
+
+.-----------------.
+|Character Classes|
+`-----------------'
+One of the best parts of the game is the fact that you can now choose one
+of three characters to play:  Baratus the fighter, Parius the cleric, or
+Deadolon the mage.  When playing multiplayer, each player can pick any
+class he chooses.  This makes cooperative games much more interesting then
+they were in the olden days of same-character Doom and Heretic.  It also
+makes deathmatch more interesting, although everyone I know picks the
+cleric every time (while I always choose the mage!).  When you run Hexen,
+you can use the -randclass command line argument to make the game choose
+a class for you in deathmatch (in single player or cooperative, it just
+makes you the fighter all the time).
+
+Weapon notes:
+S = Short range   M = Uses mana
+L = Long range    nm= Can be used without mana
+H = Homing        E = Explosive/area effect
+x = Poisonous     + = Can give the wielder life
+P = Penetrates    sp= Spreads
+Two sets of ()'s means there are two different effects, depending on the
+situation.
+
+               Baratus, the Fighter
+Speed    : 10           Weapon 1 - Spiked Gauntlets      (S,nm)
+Armor    : 10           Weapon 2 - Timon's Axe           (S,M)(S,nm)
+Magic    :  1           Weapon 3 - Hammer of Retribution (S,nm)(L,M,E)
+Strength : 10           Weapon 4 - Quietus               (L,M,sp)
+Special abilities:  Can run faster and jump higher than the other 2
+classes.  Can throw flechettes like grenades.  Also his close-in attacks
+are much more powerful than most of the other classes attacks.  He is
+actually the best mana-miser around as well.  His axe only uses 2 per
+hit (and then only when it actually HITS an enemy... you use no mana if you
+miss!) and the hammer uses 3 when it shoots.  Both of these can be used
+without mana as well!  Quietus also uses less mana (14 of each) than the
+other two super-weapons.
+
+               Parius, the Cleric
+Speed    :  7           Weapon 1 - Mace of Contrition    (S,nm)
+Armor    :  8           Weapon 2 - Serpent Staff         (S,M,+)(L,M,x)
+Magic    :  6           Weapon 3 - Firestorm             (L,M,E)
+Strength :  6           Weapon 4 - Wraithverge             (L,H,M)
+Special abilities:  Can drop flechettes as poison clouds (VERY useful!)
+Turns partially invisible when using the Icon of the Defender.
+Has the best homing weapon (Wraithverge) around, but the most expensive
+(18 mana of each color) as well.
+
+               Daedolon, the Mage
+Speed    :  4           Weapon 1 - Sapphire Wand         (L,nm,P)
+Armor    :  2           Weapon 2 - Frozen Shards         (L,M,sp)
+Magic    : 10           Weapon 3 - Arc of Death          (L,M)
+Strength :  4           Weapon 4 - Bloodscourge          (L,M,sp,H)
+Special abilities:  Weapon 1 has long penetrating range for 0 mana.  Can
+reflect projectiles when using Icon of the Defender.  Most of his attacks
+cost more mana, but have more power than the other classes.
+
+.-------.
+|Weapons|
+`-------'
+All classes have four weapons.  The fourth weapon must be made up of 
+three separate pieces before it can work.  The first weapon does not need 
+any mana.  The second uses blue, the third uses green, and the fourth 
+uses lots of both.  This is true for all three classes.  Also note that 
+in deathmatch mode you CAN pick up items that belong to other classes, 
+but you can't use them (you just get their mana).
+
+Fighter:
+
+#1 - Spiked Gauntlets.
+The fighter can land three punches in quick 
+succession on a target, so he can deal out more damage quickly than the 
+other 2 classes.  This is the most powerful #1 weapon of the three classes.
+
+#2 - Timon's Axe.  This glows with blue mana, and makes a flash when you 
+hit someone.  It uses 2 blue mana per whack, but only when you actually hit
+someone.  If you beat on the wall with it it will make the flashes but not
+cost mana.  It has longer range than punching as well.  It can be used
+without mana, but is only about a third as powerful then (punches are
+better than the axe with no mana, but have lesser range).
+
+#3 - Hammer of Retribution.  When used at close range it is about as strong
+as the axe with mana, but is not as fast.  If you have some green mana,
+and use it at long range, it will spend 3 mana to fire a "flaming hammer"
+out that explodes. This is much more powerful than the hammer itself.
+The thrown projectile explodes and can damage several targets, but the
+explosion does not damage the firing player at all.
+
+#4 - Quietus.  This is a big sword that has green flames on it.  It 
+uses 14 blue and 14 green mana and fires a spread of 5 green fireballs
+which are quite powerful.  It fires them whether or not you are at close 
+range to someone.  I think that the sword itself doesn't actually hit 
+anyone like the hammer does, just the fireballs.  So you can only use it 
+if you have enough mana.
+
+
+Cleric:
+
+#1 - Mace of Contrition.  Less powerful than the fighters fists, but 
+longer range.  It doesn't have the extra-slow recovery of that third 
+punch also.
+
+#2 - Serpent staff.  This thing blinks once in a while!  Anyway, at long 
+range it fires two green wavy fireballs that hit for poison damage.  At 
+close range, it hits continuously draining the victims life and giving it 
+to you!  Uses 1 blue mana per firing (yes, thats 2 fireballs for 1 mana,
+but they are very weak).
+
+#3 - Firestorm.  Uses 4 green mana to fire a streak of fire across the
+ground, exploding if you hit someone with it.  Does good damage.  It has a 
+limited range, but that range is pretty good.  You just can't fire it 
+across huge chasms.  Note that even though the fire travels on the ground, 
+you can still shoot it up.  The fire makes a path any direction you fire...
+it just happens that most of the time this happens to be along the ground.
+If it hits a creature, it will explode and leave some burning marks on the
+ground for a second or two.  This causes extra secondary damage to the
+target and anyone near it.  It also means that a fast moving target will
+take less damage than a slow one.
+
+#4 - Wraithverge.  Fires a big gray burst that 
+splinters into four ghosts.  These ghosts fly out in a straight spread if 
+no enemies are nearby, or fly in circles around nearby villains.  They do a
+lot of damage as they fly around, and scream all the time.  When they kill 
+someone, they look for another victim to fly around.  They do disappear 
+after a little while though, or if there are no more enemies.  Uses 18 of
+each color of mana.
+
+
+Mage:
+
+#1 - Sapphire Wand.  This is like the elven wand... unlimited range, but 
+weak.  It does have neat looking tracers though.  Not as powerful as the
+fists of the fighter or the mace of the cleric, but it fires "almost
+instant" bullets... that is they aren't instant, but they are so fast that
+you can't really dodge them at all.  Note that this weapon penetrates!
+That means it goes through enemies so you can hit more than one with
+a single shot, as long as they are lined up.
+
+#2 - Frozen Shards.  This is cool.  Uses 3 blue mana to fire a *big* 
+spread of icicles.  Each icicle does a little damage, but there 17 per 
+volley, so it adds up at close range.
+
+the spread looks like this:
+             *
+          *  *  *
+*   *   *    *    *   *   *
+          *  *  *
+             *
+Note the center column is 7 shards, not five.  Limits of ascii... <sigh>
+
+When a target dies from these, 
+instead of falling he becomes frozen.  After a few seconds, or if he is 
+hit with something else, or falls, the frozen guy will shatter into lots 
+of pieces.  These pieces sit on the ground and slowly melt away.  Pretty 
+cool.  If a player dies by this, his screen turns blue, and he dies like 
+normal, but the point of view does not fall to the ground.  You can watch 
+your killer move around, and then you shatter and the POV falls.  You can
+also press space bar soon as the screen turns blue.  See if you can run
+fast enough to see your own frozen body before it shatters!
+
+#3 - Arc of Death.  This is a bolt of electricity that follows the 
+ceiling AND the ground.  If it hits someone, it stays on them and hurts 
+them for about 3 seconds.  After it hits, it "locks on" to that person.  
+So if they move it will follow.  If you move VERY fast, you can outrun it 
+after it locks, but not usually.  It is a very good monster killer though.
+You can fire it at creatures that you normally couldn't see as long as 
+there is no wall completely blocking your path. For instance, you can fire
+it off a cliff to hit someone right at the foot that you can't even see.
+Requires 5 green mana.
+
+#4 - Bloodscourge.  It fires three incredibly powerful fireballs.  Each one
+is capable of killing any of the creatures I have met so far in one hit, as
+well as the players (except the fighter if he has a really high AC... but 
+even then he is very near death, and thats from ONE of the three fireballs).
+Uses 15 of each color mana.  It acts a lot like the Wraithverge, but deals
+more damage at the expense of less accurate homing power.
+
+.---------.
+|Artifacts|
+`---------'
+
+First, these items are directly descended from Heretic:
+
+Wings of Wrath:  Lets you fly.  In single-player mode, they will last until you pass
+the current hub.  In multi-player, they are limited to a minute or two of flight.
+
+Quartz Flask:  Gives you about 25% health back.  These will be used 
+*AUTOMATICALLY* when your life hits 0 *AND* you are on skill level 1.  At
+higher skill levels you still must use them yourself.
+
+Mystic Urn:  Gives you 100% health back.  These will be used AUTOMATICALLY 
+as the flasks are, but only after the flasks run out.
+
+Chaos Device:  Teleports you to the starting point of the level.  A small bug in
+the 1.0 release of Hexen has this artifacts name swapped with the Disc of
+Repulsion.
+
+Torch:  Provides a high, glowing light level in all areas for a few minutes.
+
+Now for some new stuff!
+
+Banishment Device:  Like a Chaos Device, but you use it on others 
+instead!  It fires a neat-o pattern of rings.  Whoever gets hit by it 
+(monsters included) gets teleported to a random starting position of the 
+level.  For some real fun, transport a bunch of MEAN monsters, then hit 
+another player to send him into the thick of them!
+
+Boots of Speed:  What can I say?  They make you run faster.  The mage
+becomes decently fast and the fighter gets blazingly fast.
+
+Dragonskin Bracers:  These glowing purple bracers increase your AC by 4 
+when you use them.  You can use a few at once, but only up to a certain
+maximum level, depending on which class you take.  They only last for
+a certain amount of time, after which their effect goes away.
+
+Disk of Repulsion:  Makes ALL enemies within a certain range of you get 
+pushed AWAY.  Can be used to get out of corners, smash guys into the 
+wall, or push guys of the cliff (great fun here!).  Pushing people into 
+the wall does do damage to them, but not very much it seems.  I had to 
+use 5 disks to kill an Ettin.  BUT, any creatures bumping into each other
+from this effect count as having attacked each other, and this means they
+will usually start fighting with each other.  *IMPORTANT*  The disk can
+repulse fireballs too!  In fact, all the creatures in the beta that shoot
+can have their missile weapons turned away by the disk. (Note there is
+a small bug in the 1.0 release of Hexen, the Disc of Repulsion and the
+Chaos Device had their names switched.  Oops.)
+
+Dark Servant:   When used, you toss a Maulator "voodoo" doll 
+out a few feet.  Sometimes it sits there and you can pick it up again.  
+Sometimes it becomes a giant Maulotor for 30 seconds to pummel your 
+enemies!  Note that if you drop it in a spot where the Maulotor would
+overlap another object on the map, he won't form.  The doll floats there
+and you can pick it up again.  A note on the Maulotors:  They can be killed
+like normal, but generally they will disappear by the time you can muster
+enough firepower to get them anyway.  If you use the Porkulator on them,
+the change becomes PERMANENT and they won't disappear.  Also, when the
+Maulotor first forms, he is semi-transparent.  If you can hit him with the
+Porkulator at the instant he appears, the result is a transparent pig.
+
+Porkalator:  Just like the morph ovum of Heretic, but it turns people 
+into pigs!  Note that when you are a pig now, you can still use items.
+Anyone who is a pig can throw the green flechette flasks as though they 
+were the fighter.  Wings of wrath can make you a Pig of Wrath!.  Pigs are
+also small enough that you can stand on them like steps.
+
+Flechette:  The green flasks.  Each class uses these differently.  The
+fighter chucks them forward and they bounce off of the walls and floor. 
+It explodes when it either hits someone, or comes to rest for 3 seconds. 
+The cleric drops it right where he stands (run!), then it quickly explodes
+into a noxious cloud for about a minute.  Anyone walking into this cloud
+suffers poison damage.  The screen turns green and they cough a lot. Even
+after they leave the cloud, they will take damage while the screen slowly
+fades back to normal.  The mage drops these like the Timebomb in heretic. 
+it explodes very quickly.  This is one of the most plentiful artifacts in
+Hexen.
+
+Mystic Ambit Incant:  The Cleric can gain life from it.  The fighter can
+gain 1 armor point, and the mage can gain some mana from it.  I finally
+found out what they do in multiplayer now!  When you use it, it will also
+affect all players within range of you (the range is 255 game-world
+pixles to be exact).
+
+Icon of the Defender:  This gives you invincibility without changing the 
+color of your screen, which is handy.  It also has side effects which are 
+different for each class.  The cleric fades in and out from total to
+partial invisibility.  When he is totally invisible, missile weapons can
+move right through him.  The mage becomes reflective to all missile
+weapons.  Any that hit him bounce away.  If a cleric fires his Wraithverge
+at you, this can make the ghosts home in on him and kill him!  
+
+Krater of Might:  Looks like a chalice.  This artifact, when 
+used will fill your mana levels to the max.
+
+.-----.
+|Armor|
+`-----'
+Armor sticks around a LOT longer now than it did in the old demos.  In
+the old version of the demo armor flew away in big chunks everytime you got
+hurt, but now it goes down much slower, making it a lot more valuable!
+
+Each class has a different limit on armor.  Each piece of armor protects
+you in different amounts depending on your class.
+
+.------------------------.
+|class    max min A S H a|
+|------------------------|
+|Fighter   16  3  5 4 3 1|
+|Cleric    14  2  2 5 1 4|
+|Mage      12  1  1 3 2 5|
+`------------------------'
+Max = maximum armor class *without* using any bracers.
+Min = minimum armor that never goes below this value.
+A = Mesh Armor
+S - Falcon Shield
+H = Platinum Helmet
+a = Amulet of Warding
+
+.--------.
+|Monsters|
+`--------'
+
+Ettin - The first monster you will probably see is the two-headed brown 
+beastie wielding a mace.  His attack is hand-to-hand range only, so he is 
+not a major threat.  All the players hand weapons have a greater range 
+than he does (even the fighters punch!).  Typically takes about 5 or 6 
+hits to kill using the weakest weapon of any class (3 with the fighter!)
+They can be dangerous in packs!  When they corner you and have more than
+one hitting you at a time your life will go down FAST!
+
+Afrit - These creatures resemble the gargoyles from Heretic, but 
+they are on fire!  They are also much smarter:  They shoot fireballs at 
+you in bursts of three, and the strafe side to side quickly when they fire, 
+making them very hard to hit.  A fire gargoyle in its "resting" state 
+looks like a gray fiery sphere.  When you "wake them up" they unfold into 
+themselves.  They are invulnerable in this "sphere" mode.
+
+Chaos Serpents - D'Sparil rode one of these at the very end of Heretic.  
+It is a large (taller than you) creature that shoots fireballs at you or 
+bites at close range.  They are not nearly as hard to kill as the one in 
+Heretic, but they are still trouble, and usually appear in groups of two or
+three.  Those fireballs do a LOT of damage too.
+
+Brown Serpents - Pretty much just like the green ones, but they fire green
+gas-balls which hurt even MORE than the Green serpents fire!
+
+Wendigo - Always found in icy levels... They look like Swamp Thing but 
+bluish and made of ice instead of green moss.  They fire pairs of spiky
+ice balls that shatter when they hit anything into a spread of 6 ice shards
+that have the same effect as the mages #2 weapon.  When you kill 
+these guys (with any weapon) they shatter like they died from frozen shards.
+
+Centaurs - These creatures are tough to kill.  They don't have a lot of 
+hit points, but everytime you hit them they raise their shield and become 
+invulnerable (and can reflect most spells).  After they drop their shield 
+they can be hurt again.
+
+Slaughtaurs - Just like the Centaurs but their shields can fire
+blue, fast moving fireballs at you.  They hurt a lot and are hard to dodge
+because of their speed!  They tend to be harder to kill than Centaurs too.
+
+Stalkers - These slimy green guys usually hang out in swamps, or regular
+water if they are feeling particularly clean.  You can see their tails
+swishing about in the muck, but you cannot hurt them until they rise up
+out of the water.  Unfortunately, they only like to rise up right next
+to you!  They don't take much to kill, but they hit you very hard!
+Some Stalkers will rise up you of the water even when you
+are not nearby to shoot at you.  They fire hissing green balls of gas that
+you can hear fly by.
+
+Dark Bishops - These resemble the bishops from Heretic, but they are
+wearing much nicer clothes now.  They can fly, and can "zip" around at high
+speed once in a while.  They fire volleys of 10 fireballs that come at you
+in a spiral pattern.  They have limited homing, so they can chase you after
+you dodge them.  Their spiral motion makes them VERY hard to predict!  
+Sometimes they hit corners and stop early, sometimes they loop around
+corners that you swear they couldn't have and hit you!
+
+Reivers - Only seen in the last few levels of the game, these can fly,
+shoot fireballs at you, and hit at close range for some nasty damage.  They
+resemble the top half of a corpse in chainmail with a helmet on and long
+arms.
+
+Death Wyvern - an undead dragon that is the first mini-boss you
+encounter.  He swoops in circles and fires a fiery breath-weapon at you
+that causes some secondary explosions after it hits.
+
+Heresiarch - A powerful mage with the tail of a scorpion and three mana
+cubes circling his head.  He has several attacks, as well as a temporary
+reflective invincability spell and he can summon Dark Bishops to his aid.
+
+Yourself - Yes, as part of the game you must defeat one of each of the
+three player classes.  They move like a player and fire your own weapons
+at you.  They might be a confusing addition to Deathmatch games as well!
+
+Korax - The Big Bad Guy.  He's big.  He's mean.  He's tough.  He's so bad,
+he's even dangerous when dead.
+
+.--------------.
+|Other programs|
+`--------------'
+
+These are the other programs I have found useful for playing around with
+the levels and other tidbits.
+
+hexspc09.zip  is Ben Morris's technical specs, and comes with the program
+ACC by Ben Gokey (Raven's head programmer) for compiling level scripts
+from text files.
+
+deth267.zip is a Doom, Doom II, Heretic, and Hexen editor.  heth-b11.zip is
+the most recent upgrade (install it ontop of deth267) that incorperates all the
+new info from Ben Morris's tech specs into the Heth Hexen editor.
+
+deep802s.zip is the latest shareware release of DeeP, and will edit Hexen
+levels but has not been updated (yet) with the technical specs info yet.
+
+All these files can be found at ftp.cdrom.com or any site that mirrors it, in the
+idgames directory tree.
+
+---------------------------------------------------------------------------
+If anyone has extra info, email me at birdie@halcyon.com.  Please only 
+send useful information, not stuff like misspellings (of which there are 
+many, I know).
+
+Feel free to add this to any web page or whatever, just let me know when
+you do so I can come and see it!
+Make sure you give me credit for it too!
+---------------------------------------------------------------------------
+Arne Michaelsen - keeper of the FAQ, email: birdie@halcyon.com
+
+Special thanks to:
+Todd Wagner (toddwgnr@vt.edu).... for many cheat codes and activation keys.
+Killian (wgriffin@mindspring.com)............ for listing a lot of scripts.
+Deird'Re M. Brooks (margali@netcom.com)............. for the clipping code.
+Paul Falstad (pjf@cts.com)........................... for the tech details.
+Kyle Hofmann (rhofmann@crl.com)....................... for the hidden text.
+Rowan (Rowan@chwilson.demon.co.uk).................. for the ascii picture.
+Colin Caird (ccaird@islandnet.com)............ for too many things to list!
+Carl Plunkett (carlp@teclink.net) for help with the files.
+
+Ben Morris for all the tech info!
+
+I'd like to thank all the ops on the irc channel #hexen, since they found most
+of the new codes for me.  Especially PLuNKeTT, Baratus, and Tyrian.
+
+Thanks to Dan Sully and cco.net for providing me with Web space!
+
+Extra special thanks to the fellows at id and Raven for making a great game!

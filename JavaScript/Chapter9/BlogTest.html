@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Duncan's Just-In-Time Donuts'</title>
+		<link rel="stylesheet" type="text/css" href="BlogTest.css" />
+		<script type="text/javascript">
+
+			var blogEntrys = [];
+
+			function Blog(entry,entry_date)
+			{
+				this.entry = entry;
+				this.entry_date = new Date(entry_date);
+			}
+
+			function updateBlog()
+			{
+
+				blogtext = "";
+				for(currBlogEntry =0; currBlogEntry < blogEntrys.length; currBlogEntry++)
+				{
+					if(blogEntrys[currBlogEntry] != null)
+					{
+						if((currBlogEntry % 2) == 0)
+						{
+							blogtext += "<p class='blog_entry_shaded'>";
+						}
+						else
+						{
+							blogtext += "<p class='blog_entry_white'>";
+						}
+						blogtext += "<strong>" 	+ 	(blogEntrys[currBlogEntry].entry_date.getMonth()  + 1)
+												+ 	"/" 
+												+  blogEntrys[currBlogEntry].entry_date.getDate() 
+												+ 	"/" 
+												+  blogEntrys[currBlogEntry].entry_date.getFullYear() 
+												+ 	"</strong><br />" + blogEntrys[currBlogEntry].entry + "</p>";
+					}
+				}
+				document.getElementById("body1stdiv").innerHTML = blogtext;
+			}
+			window.onload = function()
+			{
+
+				// wire our seat elements with a anonymous function so that we can call our 
+				// seatclick with the proper argument.
+
+				// simply wire initSeats directly to the button's onclick
+
+				// and finally, do our initialization..
+				blogEntrys = [	new Blog("my second entry!","8/14/2009"),
+								new Blog("my first entry!","8/12/2009"),
+								new Blog("my fourth entry!","8/17/2009"),
+								new Blog("my third entry!","8/15/2009")];
+
+				// executes a sort, using our custom sort func.
+				blogEntrys.sort(function(blog1,blog2)
+				{
+					return blog2.entry_date - blog1.entry_date;
+				});
+
+				document.getElementById("updateblogbutton").onclick = updateBlog;
+
+				updateBlog();
+
+			}
+
+			
+			
+		</script>
+	</head>
+	<body>
+		<div class="main" id="body1stdiv" name="body1stdiv">
+
+		</div>
+		<button id="updateblogbutton" name "updateblogbutton">update blog</button>
+	</body>
+</html>

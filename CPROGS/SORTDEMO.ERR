@@ -1,0 +1,31 @@
+Turbo C++  Version 1.01 Copyright (c) 1990 Borland International
+sortdemo.c:
+Error sortdemo.c 102: Type name expected
+Error sortdemo.c 103: Type name expected
+Error sortdemo.c 104: Type name expected
+Error sortdemo.c 136: Function 'VioGetMode' should have a prototype in function main()
+Error sortdemo.c 137: Left side must be a structure in function main()
+Error sortdemo.c 138: Left side must be a structure in function main()
+Error sortdemo.c 139: Left side must be a structure in function main()
+Error sortdemo.c 140: Left side must be a structure in function main()
+Error sortdemo.c 141: Function 'VioSetMode' should have a prototype in function main()
+Error sortdemo.c 142: Left side must be a structure in function main()
+Error sortdemo.c 143: Left side must be a structure in function main()
+Error sortdemo.c 144: Function 'VioSetMode' should have a prototype in function main()
+Error sortdemo.c 145: Function 'VioGetMode' should have a prototype in function main()
+Error sortdemo.c 146: Left side must be a structure in function main()
+Error sortdemo.c 147: Function 'VioSetMode' should have a prototype in function main()
+Error sortdemo.c 171: Function 'VioWrtCharStrAtt' should have a prototype in function BoxInit()
+Error sortdemo.c 177: Function 'VioWrtCharStrAtt' should have a prototype in function BoxInit()
+Error sortdemo.c 179: Function 'VioWrtCharStrAtt' should have a prototype in function BoxInit()
+Error sortdemo.c 202: Left side must be a structure in function BubbleSort()
+Error sortdemo.c 273: Function 'DosGetDateTime' should have a prototype in function ElapsedTime(int)
+Error sortdemo.c 275: Left side must be a structure in function ElapsedTime(int)
+Error sortdemo.c 276: Left side must be a structure in function ElapsedTime(int)
+Error sortdemo.c 277: Left side must be a structure in function ElapsedTime(int)
+Error sortdemo.c 278: Left side must be a structure in function ElapsedTime(int)
+Error sortdemo.c 287: Function 'DosBeep' should have a prototype in function ElapsedTime(int)
+Error sortdemo.c 287: Too many error or warning messages in function ElapsedTime(int)
+*** 26 errors in Compile ***
+
+        Available memory 317808

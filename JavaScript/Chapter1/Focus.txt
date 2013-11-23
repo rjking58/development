@@ -1,0 +1,2 @@
+- basic connection of javascript to HTML
+- changing things in the DOM (changes the 'src' of an image from one file to another)

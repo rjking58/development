@@ -1,0 +1,58 @@
+--------------------Configuration: DirectX Tutorial - Win32 Debug--------------------
+Begining build with project "C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX Tutorial.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/DirectX Tutorial.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /fo"Debug/DirectX Tutorial.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/DirectX Tutorial.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/DirectX Tutorial.pdb" /debug /machine:I386 /out:"Debug/DirectX Tutorial.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x409 /fo"Debug/DirectX Tutorial.res" /d "_DEBUG" /d "_AFXDLL" "C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX Tutorial.rc"" 
+Creating temp file "C:\WINDOWS\TEMP\RSP72B5.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/DirectX Tutorial.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX Tutorial.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialDoc.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp"
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\MainFrm.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP72B5.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP72B6.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/DirectX Tutorial.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP72B6.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP72B7.TMP" with contents </nologo /subsystem:windows /incremental:yes /pdb:"Debug/DirectX Tutorial.pdb" /debug /machine:I386 /out:"Debug/DirectX Tutorial.exe" /pdbtype:sept 
+".\Debug\DirectX Tutorial.obj"
+".\Debug\DirectX TutorialDoc.obj"
+".\Debug\DirectX TutorialView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\DirectX Tutorial.res"
+"..\..\..\..\..\..\..\Program Files\DevStudio\Vc\lib\Ddraw.lib">
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP72B7.TMP" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DirectX Tutorial.cpp
+DirectX TutorialDoc.cpp
+DirectX TutorialView.cpp
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(122) : error C2065: 'CreateSurfaces' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(131) : error C2065: 'm_directDrawOK' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(131) : error C2065: 'ClearSurface' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(131) : error C2065: 'm_pBackBuffer' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(135) : error C2039: 'CreateSurfaces' : is not a member of 'CDirectXTutorialView'
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(136) : error C2040: 'CreateSurfaces' : 'int (void)' differs in levels of indirection from 'int'
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(151) : error C2065: 'm_pDirectDrawObj' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(152) : error C2227: left of '->CreateSurface' must point to class/struct/union
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(152) : error C2065: 'm_pPrimarySurface' : undeclared identifier
+C:\volatile\SOURCE\CPROGS\CPP\VCPP\GameSDKStuff\DirectX Tutorial\DirectX TutorialView.cpp(160) : error C2227: left of '->GetAttachedSurface' must point to class/struct/union
+MainFrm.cpp
+Generating Code...
+Error executing cl.exe.
+
+
+
+DirectX Tutorial.exe - 10 error(s), 0 warning(s)

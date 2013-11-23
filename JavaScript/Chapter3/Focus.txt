@@ -1,0 +1,5 @@
+- creation/deletion of one-shot timers
+- cookies!
+- detection of cookie disable.
+- placing javascript in its own file and 'including' it in the html.
+- manipulation of style content for DOM objects (height of an image in this instance)

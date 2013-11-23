@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: math3D - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP71.tmp" with contents
+[
+/nologo /MLd /W2 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/math3D.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\BspTree.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\color3.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\color4.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\matrix4.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\plane3.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 03\math3D\point3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP71.tmp" 
+Creating command line "link.exe -lib /nologo /out:"..\lib\math3D.lib"  ".\Debug\BspTree.obj" ".\Debug\color3.obj" ".\Debug\color4.obj" ".\Debug\matrix4.obj" ".\Debug\plane3.obj" ".\Debug\point3.obj" "
+<h3>Output Window</h3>
+Compiling...
+BspTree.cpp
+color3.cpp
+color4.cpp
+matrix4.cpp
+plane3.cpp
+point3.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+math3D.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

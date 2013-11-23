@@ -1,0 +1,207 @@
+#pragma once
+#include "ItemStructs.idl"
+[
+    object,
+    uuid(D55C14E8-FB22-48F8-A092-EF9BC452A083)
+]
+/* {vb}
+Description:
+Interface used to monitor and control Platforms.
+
+Implemented by PlatformManagers component and used by System Management Console.
+*/
+interface IDataClient : IUnknown
+{
+    HRESULT Initialize(
+        [in] BSTR bstrNamespace);
+
+    HRESULT GetLastError([out, retval] BSTR *LastError);
+    HRESULT ResetHeap();
+
+    HRESULT Connect(
+        [in] BSTR endPointUri,
+        [in] unsigned __int64 timeout,
+        [in] IUserToken * UserToken,
+        [out] unsigned long * clientId,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT Connect2(
+        [in] BSTR endPointUri,
+        [in] unsigned __int64 timeout,
+        [in] IUserToken * UserToken,
+        [out] unsigned long * clientId,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT Disconnect(
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT Disconnect2(
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT IsIDataClientConnected(
+        [out, retval] BOOL * bConnected);
+
+    HRESULT CreateSubscription(
+        [in] __int64 MaxQueueSize,
+        [in] unsigned __int64 SampleInterval,
+        [in] int ActiveState,
+        [out] __int64 * SubscriptionId,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT CreateSubscription2(
+        [in] __int64 MaxQueueSize,
+        [in] unsigned __int64 SampleInterval,
+        [in] int ActiveState,
+        [out] __int64 * SubscriptionId,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT ChangeSubscription(
+        [in] __int64 SubscriptionId,
+        [in] int ActiveState,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT ChangeSubscription2(
+        [in] __int64 SubscriptionId,
+        [in] int ActiveState,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT DeleteSubscription(
+        [in] __int64 SubscriptionId,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT DeleteSubscription2(
+        [in] __int64 SubscriptionId,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT AddMonitoredItems(
+        [in] __int64 SubscriptionId,
+        [in] IMonitoredItem * MonItems,
+        [in] unsigned int ItemsCount,
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int *ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT AddMonitoredItems2(
+        [in] __int64 SubscriptionId,
+        [in] SAFEARRAY(IMonitoredItem2) MonItems,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int *ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT ChangeMonitoredItems(
+        [in] __int64 SubscriptionId,
+        [in] IMonitoredItem * MonItems,
+        [in] unsigned int ItemsCount,
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT ChangeMonitoredItems2(
+        [in] __int64 SubscriptionId,
+        [in] SAFEARRAY(IMonitoredItem2) MonItems,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT DeleteMonitoredItems(
+        [in] __int64 SubscriptionId,
+        [in] unsigned __int64 * ItemIds,
+        [in] unsigned int ItemsCount,
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT DeleteMonitoredItems2(
+        [in] __int64 SubscriptionId,
+        [in] SAFEARRAY(unsigned __int64) ItemIds,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT RegisterItems(
+        [in] IItemIdentity * IdItems,
+        [in] unsigned int ItemsCount,
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT RegisterItems2(
+        [in] SAFEARRAY(IItemIdentity2) IdItems,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT UnregisterItems(
+        [in] unsigned __int64 * varItems,
+        [in] unsigned int ItemsCount,
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT UnregisterItems2(
+        [in] SAFEARRAY(unsigned __int64) varItems,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT Write(
+        [in] WriteRequest * pWriteRequests,
+        [in] unsigned int RequestsCount,
+        [in] unsigned int WriteHandle,
+        [in] IUserToken * User,
+        [in] IUserToken * UserToken,
+        [out] ASBResultCode **pResultCode,
+        [out] unsigned int *ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT Write2(
+        [in] SAFEARRAY(WriteRequest2) pWriteRequests,
+        [in] unsigned int RequestsCount,
+        [in] unsigned int WriteHandle,
+        [in] IUserToken * User,
+        [in] IUserToken * UserToken,
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT Publish(
+        [in] __int64 SubscriptionId,
+        [out] DataUpdate **pDataUpdates,
+        [out] unsigned int *UpdatesCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT Publish2(
+        [in] __int64 SubscriptionId,
+        [out] SAFEARRAY(DataChangeUpdate) * pDataUpdates,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT PublishWriteComplete(
+        [out] ASBResultCode ** pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT PublishWriteComplete2(
+        [out] SAFEARRAY(ASBResultCode) * pResultCode,
+        [out] unsigned int * ResultCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+
+    HRESULT Read(
+        [in] IItemIdentity * IdItems,
+        [in] unsigned int ItemsCount,
+        [out] DataUpdate **pDataUpdates,
+        [out] unsigned int *UpdatesCount,
+		[out, retval] IArchestrAResult ** pArchestrAResult);
+
+	HRESULT Read2(
+        [in] SAFEARRAY(IItemIdentity2) IdItems,
+        [in] unsigned int ItemsCount,
+        [out] SAFEARRAY(DataChangeUpdate) * pDataUpdates,
+        [out] unsigned int *UpdatesCount,
+		[out, retval] SAFEARRAY(IArchestrAResult) * pArchestrAResult);
+};

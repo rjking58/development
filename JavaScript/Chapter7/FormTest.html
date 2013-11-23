@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Duncan's Just-In-Time Donuts'</title>
+		<link rel="stylesheet" type="text/css" href="FormTest.css" />
+		<script type="text/javascript">
+			var 	currValToUpdate = 0;
+			var     flashingFieldState = false;
+			var 	errorState = [false,false,false,false,false];
+			// using anonymous functions
+
+			// here we create an anonymous function that includes all our wiring logic..
+			window.onload = function()
+			{
+
+				// wire our seat elements with a anonymous function so that we can call our 
+				// seatclick with the proper argument.
+
+				// simply wire initSeats directly to the button's onclick
+
+				// and finally, do our initialization..
+				document.getElementById("field1").onblur = function() { updateField(this.form,1)};
+				document.getElementById("field2").onblur = function() { updateField(this.form,2)};
+				document.getElementById("field3").onblur = function() { updateField(this.form,3)};
+				document.getElementById("field4").onblur = function() { updateField(this.form,4)};
+
+				setTimeout("updateFieldState();",1000);
+			}
+
+			function clearNode(node)
+			{
+				while(node.firstChild)
+				{
+					node.removeChild(node.firstChild);
+				}
+			}
+
+			function updateField(formObj,fieldid)
+			{
+				const FIELDNAME = "field" + fieldid;
+				var intermediateVal = formObj[FIELDNAME].value;
+
+				const HELPFIELDNAME = FIELDNAME + "_help";
+				var helpNode = document.getElementById(HELPFIELDNAME);
+
+				// we always do this, no matter what..
+				clearNode(helpNode);
+
+				const ZIP_CODE_REGEX = /^\d{5}$/;
+
+				if( ! ZIP_CODE_REGEX.test(intermediateVal))
+				{
+					// non compliant way..
+					//document.getElementById(HELPFIELDNAME).innerHTML = "<I>Not a 5 digit zip code!</I>";
+
+
+					// italics element
+					var italicEle = document.createElement("i");
+					// text to be italicized
+					italicEle.appendChild(document.createTextNode("Not a 5 digit zip code!"));
+					helpNode.appendChild(italicEle);
+
+					errorState[fieldid] = true;
+				}
+				else
+				{
+					errorState[fieldid] = false;
+				}
+				document.getElementById("para1").innerHTML = "<I>" + FIELDNAME + ":" + intermediateVal + "</I>";
+			}
+
+
+			function setVisible(fieldnum)
+			{
+				const FIELD_NAME = "field" + fieldnum + "_help";
+				if(errorState[fieldnum])
+				{
+					document.getElementById(FIELD_NAME).style.visibility = "visible";
+				}
+				else
+				{
+					document.getElementById(FIELD_NAME).style.visibility = "hidden";
+				}
+			}
+
+			function updateFieldState()
+			{
+				flashingFieldState = ! flashingFieldState;
+
+				// set visibility of the fields based on error state..
+				setVisible(1);
+				setVisible(2);
+				setVisible(3);
+				setVisible(4);
+
+				// vary the class names of fields that are in an error state ONLY
+				for(currfield = 1; currfield < 5; currfield++)
+				{
+					if(errorState[currfield])
+					{
+						var HELPFIELDNAME = "field" + currfield + "_help";
+						var helpNode = document.getElementById(HELPFIELDNAME);
+						if(flashingFieldState)
+						{
+							helpNode.className = "errortext";
+						}
+						else
+						{
+							helpNode.className = "noerrortext";
+						}
+					}
+				}
+
+				setTimeout("updateFieldState();",1000);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<form>
+				Input Field1: <input type="text" id="field1" name="field1" /> <span id="field1_help" name="field1_help"></span><br />
+				Input Field2: <input type="text" id="field2" name="field2" /> <span id="field2_help" name="field2_help"></span><br />
+				Input Field3: <input type="text" id="field3" name="field3" /> <span id="field3_help" name="field3_help"></span><br />
+				Input Field4: <input type="text" id="field4" name="field4" /> <span id="field4_help" name="field4_help"></span><br />
+			</form>
+			<p id="para1" name="para1">
+				sample
+			</p>
+		</div>
+	</body>
+</html>

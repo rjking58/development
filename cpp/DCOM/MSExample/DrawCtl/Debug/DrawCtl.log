@@ -1,0 +1,26 @@
+﻿  Processing .\DrawCtl.idl
+  DrawCtl.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\objidl.idl
+  objidl.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\basetsd.h
+  basetsd.h
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\guiddef.h
+  guiddef.h
+  Processing C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\oaidl.acf
+  oaidl.acf
+  StdAfx.cpp
+  Draw.cpp
+  DrawCtl.cpp
+  Generating Code...
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(54): warning RC4011: identifier truncated to '_CRT_SECURE_CPP_OVERLOAD_STANDA'
+  
+C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(76): warning RC4011: identifier truncated to '_CRT_SECURE_CPP_OVERLOAD_SECURE'
+  
+     Creating library .\Debug\DrawCtl.lib and object .\Debug\DrawCtl.exp
+  DrawCtl.vcxproj -> C:\Development\SOURCE\cpp\DCOM\DrawCtl\.\Debug\DrawCtl.dll

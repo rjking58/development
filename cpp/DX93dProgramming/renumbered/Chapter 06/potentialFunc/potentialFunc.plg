@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: math3D - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB1.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/math3D.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\BspTree.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\color3.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\color4.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\matrix4.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\plane3.cpp"
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\point3.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB1.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\math3D.lib"  ".\Release\BspTree.obj" ".\Release\color3.obj" ".\Release\color4.obj" ".\Release\matrix4.obj" ".\Release\plane3.obj" ".\Release\point3.obj" "
+<h3>Output Window</h3>
+Compiling...
+BspTree.cpp
+color3.cpp
+color4.cpp
+matrix4.cpp
+plane3.cpp
+point3.cpp
+Creating library...
+<h3>
+--------------------Configuration: potentialFunc - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/potentialFunc.res" /d "NDEBUG" "C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\potentialFunc\potentialFunc.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/potentialFunc.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\potentialFunc\potentialFunc.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB2.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/potentialFunc.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\potentialFunc\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\bin/potentialFunc.pdb" /machine:I386 /out:"..\bin/potentialFunc.exe" 
+".\Release\potentialFunc.obj"
+".\Release\StdAfx.obj"
+".\Release\potentialFunc.res"
+"\Documents and Settings\Administrator\Desktop\Adv3D 9\DX8 Book CD\Book Code\Chapter 04\math3D\Release\math3D.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+potentialFunc.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+potentialFunc.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

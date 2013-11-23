@@ -1,0 +1,25 @@
+  tracer.cpp(0281) 18:38.13:  test1   char array
+0000:  2  3  4  5  6  7  8  9  :  ;  <  =  >  ?  @  A  B  C  D  E 
+    : 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 
+0020:  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y 
+    : 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 
+0040:  Z  [  \  ]  ^  _  `  a  b  c 
+    : 5a 5b 5c 5d 5e 5f 60 61 62 63 
+  tracer.cpp(0282) 18:38.13:  test2   integer array
+0000: ? ?  ? ?  ? ?  ? ?  ? ?  ? #  ? *  ? 1  ? 8  ? ?  
+    : 0000 0007 000e 0015 001c 0023 002a 0031 0038 003f 
+0010: ? F  ? M  ? T  ? [  ? b  ? i  ? p  ? w  ? ~  ? ?  
+    : 0046 004d 0054 005b 0062 0069 0070 0077 007e 0085 
+0020: ? ?  ? ?  ? ?  ? !  ? (  ? /  ? 6  ? =  ? D  ? K  
+    : 008c 0093 009a 00a1 00a8 00af 00b6 00bd 00c4 00cb 
+  tracer.cpp(0283) 18:38.13: a test of TRACE_STR
+  tracer.cpp(0284) 18:38.13: below should be an equals delimiter
+  tracer.cpp(0285) 18:38.13: ==================================================
+  tracer.cpp(0287) 18:38.13:  x = dec:42000 , hex:0x0a410 <
+  tracer.cpp(0289) 18:38.13:  c ='a' ( dec:97 , hex:0x061 )<
+  tracer.cpp(0319) 18:38.13: Entering-> call_time_once 
+  tracer.cpp(0322) 18:38.13: Exiting-> call_time_once 
+  tracer.cpp(0298) 18:38.13:  x_p1 pointer addr = 1580:0ffe
+  tracer.cpp(0299) 18:38.13:  x_p2 pointer addr = 1580:0ffe
+  tracer.cpp(0300) 18:38.13:  c_p1 pointer addr = 1580:0ff5
+  tracer.cpp(0301) 18:38.13:  c_p2 pointer addr = 1580:0ff5

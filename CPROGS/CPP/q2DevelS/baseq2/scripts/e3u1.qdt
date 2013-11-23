@@ -1,0 +1,681 @@
+$load baseq2/gfx/gamepal.lbm
+$mippal
+$mipdir e3u1		
+
+;=======================================
+
+$include baseq2/scripts/common.inc
+
+;==================================================
+;Episode 1/Base textures
+;==================================================
+
+$load baseq2/gfx/textures/episode1/base/cgrate.lbm
+$mip     +0cgrate1_1   16      16      64      64
+$mip     +1cgrate1_1   232     16      64      64
+
+$load baseq2/gfx/textures/episode1/base/p_tubwl2.lbm
+$mip     p_tub2_1          16      16      128     64
+$mip     p_tub2_2          152     16      128     64
+$mip     p_tub2_3          16      88      128     64
+$mip     p_tub2_4          152     88      128     64
+
+$load baseq2/gfx/textures/episode2/mines/c_met5.lbm
+$mip     c_met5_1        16      16      128     128
+
+$load baseq2/gfx/textures/episode1/base/metal4.lbm
+$mip     metal4_1          16      16      64      64
+$mip     metal4_2          88      16      64      64
+
+$load baseq2/gfx/textures/episode1/base/metal3.lbm
+$mip     metal3_2          88      16      64      64
+$mip     metal3_3          160     16      64      64
+$mip     metal3_4          232     16      64      64
+$mip     metal3_5          16      88      64      64
+$mip     metal3_6          88      88      64      64
+
+$load baseq2/gfx/textures/episode1/base/baselt.lbm
+;$mip     pallt_7   16      176     128     16 light 6000
+$mip     black     240      40      16      16
+
+$load baseq2/gfx/textures/episode1/base/pipe02.lbm
+$mip     pip02_1   16      16      64      128
+$mip     pip02_2   88      16      64      64
+$mip     pip02_3   160     16      64      64
+$mip     pip02_4   232     16      64      64
+$mip     pip02_5   88      88      64      64
+$mip     pip02_6   160     88      64      64
+$mip     pip02_7   232     88      64      64
+
+$load baseq2/gfx/textures/episode1/base/grnx02.lbm
+$mip     grnx2_1   16      16      64      64
+$mip     grnx2_2   88      16      64      64
+$mip     grnx2_3   160     16      64      64
+$mip     grnx2_4   232     16      64      64
+$mip     grnx2_5   16      88      64      64
+$mip     grnx2_6   88      88      64      64
+$mip     grnx2_7   160     88      64      64
+$mip     grnx2_8   232     88      64      64
+$mip     grnx2_9   16      160     16      16
+
+$load baseq2/gfx/textures/episode1/base/grndoor.lbm
+$mip     grndoor1         16              16              64              128
+
+$load baseq2/gfx/textures/episode1/base/grate2.lbm
+$mip     grate2_1          16      16      64      64
+$mip     grate2_2          88      16      64      64
+$mip     grate2_3          160     16      64      64
+$mip     grate2_4          232     16      64      64
+$mip     grate2_5          16      88      64      64
+$mip     grate2_6          88      88      64      64
+$mip     grate2_7          160     88      64      64
+$mip     grate2_8          232     88      64      64
+
+$load baseq2/gfx/textures/episode1/base/grate.lbm
+$mip     grate1_1          16      16      64      64
+$mip     grate1_2          88      16      64      64
+$mip     grate1_3          160     16      64      64
+$mip     grate1_4          232     16      64      64
+$mip     grate1_5          16      88      64      64
+$mip     grate1_6          88      88      64      64
+$mip     grate1_7          160     88      64      64
+$mip     grate1_8          232     88      64      64
+
+
+$load baseq2/gfx/textures/episode1/base/p_floor1.lbm
+$mip     p_lit_01          16      16      16      16 light 15000
+$mip     p_lit_02          40      16      16      16    light 15000
+$mip     p_lit_03          64      16      16      16     light 15000
+
+$mip     p_flr_01          16      88      32      32
+$mip     p_flr_02          56      88      32      32
+$mip     p_flr_03          96      88      32      32
+$mip     p_flr_04          136     88      32      32
+$mip     p_flr_05          176     88      32      32
+$mip     p_flr_06          216     88      32      32
+$mip     p_flr_07          256     88      32      32
+$mip     p_flr_08          16      128     32      32
+$mip     p_flr_09          56      128     32      32
+$mip     p_flr_10          96      128     32      32
+$mip     p_flr_11          136     128     32      32
+$mip     p_flr_12          176     128     32      32
+$mip     p_flr_13          216     128     32      32
+$mip     p_flr_14          256     128     32      32
+
+
+$load baseq2/gfx/textures/episode1/base/pipe01.lbm
+$mip     window1   16      16      64      128 window
+
+$load baseq2/gfx/textures/episode1/prison/jaildr01.lbm
+$mip     jaildr1_3         288     16      16      128 light 700
+
+$load baseq2/gfx/textures/episode1/prison/jaildr02.lbm
+$mip     jaildr2_3         288     16      16      128 light 700
+
+$load baseq2/gfx/textures/episode1/prison/p_light.lbm
+$mip     white             120     16      16      16 light 5000
+
+;==================================================
+;Episode 2/Refinery Textures
+;==================================================
+$load baseq2/gfx/textures/episode2/refinery/floor1.lbm
+$mip     florr1_1         16              16              64              64
+$mip     florr1_2         88              16              64              64
+$mip     florr1_3         160             16              64              64
+$mip     florr1_4         232             16              64              64
+$mip     florr1_5         16              88              64              64
+$mip     florr1_6         88              88              64              64
+$mip     florr1_7         160             88              64              64
+$mip     florr1_8         232             88              64              64
+
+$load baseq2/gfx/textures/episode2/refinery/floor2.lbm
+$mip     florr2_1          16              16              64              64
+$mip     florr2_2          88              16              64              64
+$mip     florr2_3          160             16              64              64
+$mip     florr2_4          232             16              64              64
+$mip     florr2_5          16              88              64              64
+$mip     florr2_6          88              88              64              64
+$mip     florr2_7          160             88              64              64
+$mip     florr2_8          232             88              64              64
+
+;==================================================
+;Episode 2/Waste Textures
+;==================================================
+
+$load baseq2/gfx/textures/episode2/waste/plat1.lbm
+$mip     plat1_1          16      16      32      64
+$mip     plat1_2          56      16      32      64
+$mip     plat1_3          96     16      32      64
+
+$load baseq2/gfx/textures/episode2/waste/metal.lbm
+$mip     metal1_1          16      16      128     128
+$mip     metal1_2          152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal2.lbm
+$mip     metal2_1          16      16      128     128
+$mip     metal2_2          152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal16.lbm
+$mip     metal16_1         16      16      128     128
+$mip     metal16_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal17.lbm
+$mip     metal17_1         16      16      128     128
+$mip     metal17_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal18.lbm
+$mip     metal18_1         16      16      128     128
+$mip     metal18_2         152     16      128     128
+
+
+$load baseq2/gfx/textures/episode2/waste/metal5.lbm
+$mip     metal5_1          16      16      128     128
+$mip     metal5_2          152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal5b.lbm
+$mip     metl5b_1          16      16      128     128
+$mip     metl5b_2          152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/metal6.lbm
+$mip     metal6_1          16      16      128     128
+
+$load baseq2/gfx/textures/episode1/base/floor2b.lbm
+$mip     slip   16      16      64      64 slick
+
+$load baseq2/gfx/textures/episode2/waste/floor2.lbm
+$mip     floor2_1          16      16      64      64
+$mip     floor2_2          88      16      64      64
+$mip     floor2_3          160     16      64      64
+$mip     floor2_4          232     16      64      64
+$mip     floor2_5          16      88      64      64
+$mip     floor2_6          88      88      64      64
+$mip     floor2_7          160     88      64      64
+$mip     floor2_8          232     88      64      64
+
+;=================================================
+;  Mines
+;=================================================
+
+$load baseq2/gfx/textures/episode2/mines/c_met5.lbm
+$mip     c_met5_1        16      16      128     128
+$mip     c_met5_2        152     16      128     128
+
+$load baseq2/gfx/textures/episode2/mines/c_met7.lbm
+$mip     c_met7_1        16      16      128     128
+$mip     c_met7_2        152     16      128     128
+
+$load baseq2/gfx/textures/episode3/hangar/meddoor1.lbm
+$mip     door2_1           16      16      160     160
+$mip     door2_2           184     16      128     128
+
+;==================================================
+;Temporary textures
+;==================================================
+
+$load baseq2/gfx/textures/episode3/paulj/plsup1.lbm
+$mip     palsup1_5			160		88		16		64
+
+;==================================================
+;Episode 3/City textures
+;==================================================
+$load baseq2/gfx/textures/episode3/city/Redcar2.lbm
+$mip     redcar_2			16		16		256		128
+
+$load baseq2/gfx/textures/episode3/city/doom.lbm
+$mip     doom			16		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/comp_01.lbm
+$mip     citycomp1			16		16		64		64
+$mip     citycomp2			88		16		64		64
+$mip     citycomp3			160		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/geoplain.lbm
+$mip     geoplain_01        16      16      128     128
+
+$load baseq2/gfx/textures/episode3/city/geowal1.lbm
+$mip     geowal_01        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal2.lbm
+$mip     geowal_02        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal3.lbm
+$mip     geowal_03        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal4.lbm
+$mip     geowal_04        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal5.lbm
+$mip     geowal_05        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal6.lbm
+$mip     geowal_06        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal7.lbm
+$mip     geowal_07        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal8.lbm
+$mip     geowal_08        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal9.lbm
+$mip     geowal_09        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal10.lbm
+$mip     geowal_10        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal11.lbm
+$mip     geowal_11        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal12.lbm
+$mip     geowal_12        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/drag.lbm
+$mip     drag1_1			16		16		128		64
+$mip     drag1_2			152		16		128		64
+$mip     drag1_3			16		88		128		64
+$mip     drag1_4			152		88		128		64
+
+$load baseq2/gfx/textures/episode3/city/drag2.lbm
+$mip     drag2_1			16		16		128		64
+$mip     drag2_2			152		16		128		64
+$mip     drag2_3			16		88		128		64
+$mip     drag2_4			152		88		128		64
+
+$load baseq2/gfx/textures/episode3/city/drag3.lbm
+$mip     drag3_1			16		16		128		64
+$mip     drag3_2			152		16		128		64
+$mip     drag3_3			16		88		128		64
+$mip     drag3_4			152		88		128		64
+
+$load baseq2/gfx/textures/episode3/city/drag4.lbm
+$mip     drag4_1			16		16		128		64
+$mip     drag4_2			152		16		128		64
+$mip     drag4_3			16		88		128		64
+$mip     drag4_4			152		88		128		64
+
+$load baseq2/gfx/textures/episode3/city/Window01.lbm
+$mip     wndw01_1			16		16		32		128	
+$mip		wndw01_2		56		16		32		128	light 500 
+$mip		wndw01_3		96		16		32		128	light 500 
+$mip		wndw01_4		136		16		32		128 	light 500 
+$mip		wndw01_5		176		16		32		128	light 500 
+$mip		wndw01_6		216		16		32		128
+
+$load baseq2/gfx/textures/episode3/city/bigred01.lbm
+$mip     bigred1_1			16		16		128		128
+$mip     bigred1_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/bigred08.lbm
+$mip     bigred8_1			16		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/reddr8.lbm
+$mip     reddr6_1			16		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/reddr8.lbm
+$mip     reddr8_1			16		16		128		128
+$mip     reddr8_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode2/mines/c_met10.lbm
+$mip     c_met10_1        16      16      128     128
+$mip     c_met10_2        152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/jaildr03.lbm
+$mip     jaildr03_1			16		16		16		128
+$mip     jaildr03_2			40		16		16		128
+$mip     jaildr03_3			64		16		16		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor1.lbm
+$mip     dfloor1_1			16		16		128		128
+$mip     dfloor1_2			152		16		128		128
+$mip     dfloor1_3			16		152		128		16
+$mip     dfloor1_4			152		152		128		16
+
+$load baseq2/gfx/textures/episode3/city/dfloor2.lbm
+$mip     dfloor2_1			16		16		128		128
+$mip     dfloor2_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor3.lbm
+$mip     dfloor3_1			16		16		128		128
+$mip     dfloor3_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor4.lbm
+$mip     dfloor4_1			16		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor5.lbm
+$mip     dfloor5_1			16		16		128		128
+$mip     dfloor5_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor6.lbm
+$mip     dfloor6_1			16		16		128		128
+$mip     dfloor6_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor7.lbm
+$mip     dfloor7_1			16		16		128		128
+$mip     dfloor7_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor8.lbm
+$mip     dfloor8_1			16		16		128		128
+$mip     dfloor8_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor3.lbm
+$mip     dfloor9_1			16		16		128		128
+$mip     dfloor9_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/dfloor3.lbm
+$mip     dfloor10_1			16		16		128		128
+$mip     dfloor10_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode3/city/palmet.lbm
+$mip     palmet1_1       16      16      128     128
+$mip     palmet1_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet8.lbm
+$mip     palmet8_1       16      16      128     128
+$mip     palmet8_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet7.lbm
+$mip     palmet7_1       16      16      128     128
+$mip     palmet7_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet6.lbm
+$mip     palmet6_1       16      16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet5.lbm
+$mip     palmet5_1       16      16      128     128
+$mip     palmet5_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet4.lbm
+$mip     palmet4_1       16      16      128     128
+$mip     palmet4_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet3.lbm
+$mip     palmet3_1       16      16      128     128
+$mip     palmet3_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet2.lbm
+$mip     palmet2_1       16      16      128     128
+$mip     palmet2_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet9.lbm
+$mip     palmet9_1       16      16      128     128
+$mip     palmet9_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet10.lbm
+$mip     palmet10_1       16      16      128     128
+$mip     palmet10_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet11.lbm
+$mip     palmet11_1       16      16      128     128
+$mip     palmet11_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/palmet12.lbm
+$mip     palmet12_1       16      16      128     128
+$mip     palmet12_2       152     16      128     128
+$mip     palmet12_3       16     152      64     16
+
+$load baseq2/gfx/textures/episode3/city/palmet13.lbm
+$mip     palmet13_1			16		16		64		128
+$mip     palmet13_2			88		16		64		128
+$mip     palmet13_3			160		16		64		128
+$mip     palmet13_4			232		16		64		128
+
+$load baseq2/gfx/textures/episode3/city/palmet14.lbm
+$mip     palmet14_1			16		16		64		128
+$mip     palmet14_2			88		16		64		128
+$mip     palmet14_3			160		16		64		128
+$mip     palmet14_4			232		16		64		128
+
+$load baseq2/gfx/textures/episode3/city/geowalj.lbm
+$mip     geowalj1_1			16		16		64		64
+$mip     geowalj1_2			88		16		64		64
+$mip     geowalj1_3			160		16		64		64
+$mip     geowalj1_4			232		16		64		64
+
+$load baseq2/gfx/textures/episode3/city/geowali.lbm
+$mip     geowaldi_1       16      16      128     128
+$mip     geowaldi_2       152     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/geowalm.lbm
+$mip     geowalm1_1 		  16      16      128     128	
+$mip     geowalm1_2 		  152     16      128     128	
+
+$load baseq2/gfx/textures/episode3/city/geowaln.lbm
+$mip     geowaln1_1		  16      16      128     128	
+$mip     geowaln1_2		  152     16      128     128	
+
+$load baseq2/gfx/textures/episode3/city/geowalo.lbm
+$mip     geowalo1_1		  16      16      128     128	
+
+$load baseq2/gfx/textures/episode3/city/geowalp.lbm
+$mip     geowalp1_1		  16      16      64     128	
+$mip     geowalp1_2		  16      152      16     32 light 1000
+
+$load baseq2/gfx/textures/episode3/city/geowalg.lbm
+$mip     geowaldg         16      16      128     128
+
+$load baseq2/gfx/textures/episode3/city/geowald.lbm
+$mip     geowald1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowala.lbm
+$mip     geowala1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowalb.lbm
+$mip     geowalb1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowale.lbm
+$mip     geowale1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowalf.lbm
+$mip     geowalf1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowalc.lbm
+$mip     geowalc1_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geowal2.lbm
+$mip     geowal2_1        16      16      256     128
+
+$load baseq2/gfx/textures/episode3/city/geolitc.lbm
+$mip     geolitc1_1        16      16      64     16
+
+;$load baseq2/gfx/textures/episode3/city/gold.lbm
+;$mip     gold1_1        16      16      128     128 light 500
+;$mip     gold1_2        152     16      128     128 light 500
+
+;$load baseq2/gfx/textures/episode3/city/blue.lbm
+;$mip     blue1_1        16      16      128     128 light 500
+
+$load baseq2/gfx/textures/episode3/city/marble.lbm
+$mip     marble1_1			16		16		64		64
+$mip     marble1_2			88		16		64		64
+$mip     marble1_3			160		16		64		64
+$mip     marble1_4			232		16		64		64
+$mip     marble1_5			16		88		64		64
+$mip     marble1_6			88		88		64		64
+$mip     marble1_7			160		88		64		64
+$mip     marble1_8			232		88		64		64
+
+$load baseq2/gfx/textures/episode3/city/light.lbm
+$mip     citlit1_1		16	16		64		16	light 2000
+$mip     citlit1_2		88	16		64		64	light 5000
+$mip     citlit1_3		160	16		64		64	light 5000
+$mip     citlit1_4		232	16		64		64	light 5000
+
+$load baseq2/gfx/textures/episode3/city/marble2.lbm
+$mip     marble2_1			16		16		64		128
+;$mip    met15b_3				88		16		64		64
+
+$load baseq2/gfx/textures/episode3/city/marble3.lbm
+$mip     metl5b_4				88		16		64		64
+
+$load baseq2/gfx/textures/episode3/paulj/dragwal2.lbm
+$mip     dragwal2_1			08		16		128		128
+
+$load baseq2/gfx/textures/episode2/xmike/damn1.lbm
+$mip     damn1_1			16		16		128		128
+$mip     damn1_2			152		16		128		128
+
+$load baseq2/gfx/textures/episode2/xmike/patwal1.lbm
+$mip     patwal1_1        16      16      128     128
+$mip     patwal1_2        152     16      64      64
+
+;$load baseq2/gfx/textures/episode2/xmike/sglaspg2.lbm
+;$mip     sglas2_1			16		16		128		128
+;$mip     sglas2_2			152		16		128		128
+
+$load baseq2/gfx/textures/city/mrock.lbm
+$mip     glocrys_1          152	16	128	128	light	10000
+
+$load baseq2/gfx/textures/city/mrock2.lbm
+$mip     glocrys_2          152	16	128	128	light	15000
+
+;$load baseq2/gfx/textures/episode2/xmike/sglaspg.lbm
+;$mip     sglas1_1          16      16      64      64	light	500
+;$mip     sglas1_2          88      16      128      64	light	500
+;$mip     sglas1_3          224      16      64      64	light	500
+
+;$load baseq2/gfx/textures/episode3/city/wglaspg.lbm
+;$mip     wglas1_1          16     16      64      64	window
+
+$load baseq2/gfx/textures/episode3/city/brick.lbm
+$mip     brick1_1          16      16      64      64
+$mip     brick1_2          88      16      64      64
+$mip     brick1_3          160     16      64      64
+$mip     brick1_4          232     16      64      64
+
+;$load baseq2/gfx/textures/episode3/city/talldr2.lbm
+;$mip     drleft1           16      16      128     64
+;$mip     drleft2           152     16      128     64
+;$mip     drright1          16      88      128     64
+;$mip     drright2          152     88      128     64
+
+$load baseq2/gfx/textures/episode3/city/citylt1.lbm
+$mip     ctylt1_1          16      16      32      128 light 10000
+
+$load baseq2/gfx/textures/episode3/city/red1.lbm
+$mip     red1_1            16      16      64      64
+$mip     red1_2            88      16      64      64
+$mip     red1_3            160     16      128     128
+
+$load baseq2/gfx/textures/episode3/city/darkmet1.lbm
+$mip     darkmet1_1        16      16      128     128
+
+;$load baseq2/gfx/textures/episode3/city/banner4.lbm
+;$mip     bannera           16      16      240     32 light 500
+;$mip     bannerb           16      56      240     32 light 500
+
+$load baseq2/gfx/textures/episode3/paulj/banner5.lbm
+$mip     bannerc           16      16      176     128
+
+$load baseq2/gfx/textures/episode3/paulj/banner6.lbm
+$mip     bannerd           16      16      176     128
+
+$load baseq2/gfx/textures/episode3/paulj/banner7.lbm
+$mip     bannere           16      16      176     128
+
+$load baseq2/gfx/textures/episode3/paulj/banner8.lbm
+$mip     bannerf           16      16      176     128
+
+;==================================================
+;Power textures
+;==================================================
+
+$load baseq2/gfx/textures/episode2/waste/power10.lbm
+$mip     pow10_1   16      16      128     128
+$mip     pow10_2   152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power11.lbm
+$mip     pow11_1   16      16      128     128
+$mip     pow11_2   152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power12.lbm
+$mip     pow12_1   16      16      128     128
+$mip     pow12_2   152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power17.lbm
+$mip     pow17_1   16      16      128     128
+$mip     pow17_2   152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power02.lbm
+$mip     pow2_1    16      16      128     128
+$mip     pow2_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power03.lbm
+$mip     pow3_1    16      16      128     128
+$mip     pow3_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power04.lbm
+$mip     pow4_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power05.lbm
+$mip     pow5_1    16      16      128     128
+$mip     pow5_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power07.lbm
+$mip     pow7_1    16      16      128     128
+$mip     pow7_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power08.lbm
+$mip     pow8_1    16      16      128     128
+$mip     pow8_2    152     16      128     128
+
+$load baseq2/gfx/textures/episode2/waste/power21.lbm
+$mip     pow21_1          16      16      128      128
+
+$load baseq2/gfx/textures/episode2/waste/powr_lt1.lbm
+$mip     prwlt1_1          16      16      64      128
+$mip     prwlt1_2          88      16      64      128
+$mip     prwlt1_3          160     16      64      128
+$mip     prwlt1_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/waste/powr_lt2.lbm
+$mip     prwlt2_1          16      16      64      128
+$mip     prwlt2_2          88      16      64      128
+$mip     prwlt2_3          160     16      64      128
+
+$load baseq2/gfx/textures/episode2/waste/pwr_dr1.lbm
+$mip     pwr_dr1_1         16      16      128     128
+$mip     pwr_dr1_2         152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal3.lbm
+$mip     pmetal3_1          16      16      64      128
+$mip     pmetal3_2          88      16      64      128
+$mip     pmetal3_3          160     16      64      128
+$mip     pmetal3_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal4.lbm
+$mip     pmetal4_1          16      16      64      128
+$mip     pmetal4_2          88      16      64      128
+
+$load baseq2/gfx/textures/episode2/refinery/metal5.lbm
+$mip     pmetal5_1          16      16      128     128
+$mip     pmetal5_2          152     16      128     128
+
+$load baseq2/gfx/textures/episode2/refinery/metal6.lbm
+$mip     pmetal6_1          16      16      64      128
+$mip     pmetal6_2          88      16      64      128
+$mip     pmetal6_3          160     16      64      128
+$mip     pmetal6_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/waste/thinmet1.lbm
+$mip     pthnm1_1          16      16      64      128
+$mip     pthnm1_2          88      16      64      64
+$mip     pthnm1_3          160     16      64      128
+$mip     pthnm1_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/waste/thinmet2.lbm
+$mip     pthnm2_1          16      16      64      128
+$mip     pthnm2_2          88      16      64      128
+$mip     pthnm2_3          160     16      64      128
+$mip     pthnm2_4          232     16      64      128
+
+$load baseq2/gfx/textures/episode2/waste/thinmet3.lbm
+$mip     pthnm3_1          16      16      64      128
+$mip     pthnm3_2          88      16      64      128
+$mip     pthnm3_3          160     16      64      64
+$mip     pthnm3_4          232     16      64      64
+$mip     pthnm3_5          160     88      64      64
+$mip     pthnm3_6          232     88      64      64
+
+
+;==================================================
+
+

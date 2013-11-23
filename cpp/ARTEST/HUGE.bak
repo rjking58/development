@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+main()
+{
+	long * huge * hi;
+	long * huge * hi2;
+	long l;
+
+	hi  = new long * huge [160000L];
+	hi2 = new long * huge [160000L];
+
+	for (l = 0; l < 160000L; l++)
+	{
+		hi[l] = new long ;
+		*(hi[l]) = l;
+	}
+	printf("done\n");
+
+	memmove()
+}

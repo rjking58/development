@@ -1,0 +1,24 @@
+
+Microsoft (R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Rebuild All started: Project: COMStringTest, Configuration: Release Win32 ------
+1>Build started 1/14/2013 3:42:49 PM.
+1>PrepareForBuild:
+1>  Creating directory "c:\Volatile\Source\cpp\COMStringTest\Release\".
+1>InitializeBuildStatus:
+1>  Creating "Release\COMStringTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+1>ClCompile:
+1>  stdafx.cpp
+1>  COMStringTest.cpp
+1>Link:
+1>  Generating code
+1>  Finished generating code
+1>  COMStringTest.vcxproj -> c:\Volatile\Source\cpp\COMStringTest\Release\COMStringTest.exe
+1>FinalizeBuildStatus:
+1>  Deleting file "Release\COMStringTest.unsuccessfulbuild".
+1>  Touching "Release\COMStringTest.lastbuildstate".
+1>
+1>Build succeeded.
+1>
+1>Time Elapsed 00:00:02.47
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========

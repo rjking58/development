@@ -1,0 +1,4 @@
+﻿  COM_DCOM_Example_Simple_i.c
+COM_DCOM_Example_Simple_i.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     Creating library C:\Development\SOURCE\cpp\COM_DCOM_Example\Debug\COM_DCOM_Example_SimplePS.lib and object C:\Development\SOURCE\cpp\COM_DCOM_Example\Debug\COM_DCOM_Example_SimplePS.exp
+  COM_DCOM_Example_SimplePS.vcxproj -> C:\Development\SOURCE\cpp\COM_DCOM_Example\Debug\COM_DCOM_Example_SimplePS.dll

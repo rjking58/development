@@ -1,0 +1,1360 @@
+/*
+==============================================================================
+
+BERSERK
+
+==============================================================================
+*/
+
+$cd monsters/berserk
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+//idle
+$frame stand1 stand2 stand3 stand4 stand5
+$frame standb1 standb2 standb3 standb4 standb5 standb6 standb7 standb8 standb9 standb10
+$frame standb11 standb12 standb13 standb14 standb15 standb16 standb17 standb18 standb19 standb20
+
+//walk
+//$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10
+
+//walkb
+//$frame walkb1 walkb2 walkb3 walkb4 walkb5 walkb6 walkb7 walkb8 walkb9 walkb10
+//$frame walkb11 walkb12 walkb13 walkb14 walkb15
+
+$frame walkc1 walkc2 walkc3 walkc4 walkc5 walkc6 walkc7 walkc8 walkc9 walkc10
+$frame walkc11
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//attack1
+$frame att_a1 att_a2 att_a3 att_a4 att_a5 att_a6 att_a7 att_a8 att_a9 att_a10 att_a11 att_a12
+$frame att_a13
+
+//attack2
+$frame att_b1 att_b2 att_b3 att_b4 att_b5 att_b6 att_b7 att_b8 att_b9 att_b10 att_b11 att_b12
+$frame att_b13 att_b14 att_b15 att_b16 att_b17 att_b18 att_b19 att_b20 att_b21
+
+//attack3
+$frame att_c1 att_c2 att_c3 att_c4 att_c5 att_c6 att_c7 att_c8 att_c9 att_c10
+$frame att_c11 att_c12 att_c13 att_c14 att_c15 att_c16 att_c17 att_c18 att_c19 att_c20
+$frame att_c21 att_c22 att_c23 att_c24 att_c25 att_c26 att_c27 att_c28 att_c29 att_c30
+$frame att_c31 att_c32 att_c33 att_c34
+
+//running attack
+$frame r_att1  r_att2  r_att3  r_att4  r_att5  r_att6  r_att7  r_att8  r_att9  r_att10
+$frame r_att11 r_att12 r_att13 r_att14 r_att15 r_att16 r_att17 r_att18
+
+$frame r_attb1 r_attb2 r_attb3 r_attb4 r_attb5 r_attb6 r_attb7 r_attb8 r_attb9 r_attb10
+$frame r_attb11 r_attb12 r_attb13 r_attb14 r_attb15 r_attb16 r_attb17 r_attb18
+
+//slam attack
+$frame slam1  slam2  slam3  slam4  slam5  slam6  slam7  slam8  slam9  slam10
+$frame slam11 slam12 slam13 slam14 slam15 slam16 slam17 slam18 slam19 slam20
+$frame slam21 slam22 slam23
+
+//duck
+$frame duck1 duck2 duck3 duck4 duck5 duck6 duck7 duck8 duck9 duck10
+
+//hit the dirt
+$frame fall1  fall2  fall3  fall4  fall5  fall6  fall7  fall8  fall9  fall10
+$frame fall11 fall12 fall13 fall14 fall15 fall16 fall17 fall18 fall19 fall20
+
+//pain
+$frame painc1 painc2 painc3 painc4
+
+//big pain
+$frame painb1 painb2 painb3 painb4 painb5 painb6 painb7 painb8 painb9 painb10
+$frame painb11 painb12 painb13 painb14 painb15 painb16 painb17 painb18 painb19 painb20
+
+//death
+$frame death1 death2 death3 death4 death5 death6 death7 death8 death9 death10 death11 death12
+$frame death13
+
+$frame deathc1 deathc2 deathc3 deathc4 deathc5 deathc6 deathc7 deathc8
+
+
+
+/*
+==============================================================================
+
+GLADIATOR
+
+==============================================================================
+*/
+
+$cd monsters/gladiatr
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+//idle
+$frame stand1 stand2 stand3 stand4 stand5 stand6 stand7
+
+//walk
+$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10 walk11 walk12
+$frame walk13 walk14 walk15 walk16
+
+//run
+$frame run1 run2 run3 run4 run5 run6
+
+//melee
+$frame melee1 melee2 melee3 melee4 melee5 melee6 melee7 melee8 melee9 melee10
+$frame melee11 melee12 melee13 melee14 melee15 melee16 melee17
+
+//attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8 attack9
+
+//pain
+$frame pain1 pain2 pain3 pain4 pain5 pain6
+
+//death
+$frame death1 death2 death3 death4 death5 death6 death7 death8 death9 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19
+$frame death20 death21 death22
+
+//pain - special for when knocked into air
+$frame painup1 painup2 painup3 painup4 painup5 painup6 painup7
+
+
+/*
+==============================================================================
+
+GUNNER
+
+==============================================================================
+*/
+
+$cd monsters/gunner
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+$scale 1.15
+
+//idle
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51 stand52 stand53 stand54 stand55 stand56 stand57 stand58 stand59 stand60
+$frame stand61 stand62 stand63 stand64 stand65 stand66 stand67 stand68 stand69 stand70
+
+//walk
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24
+
+//run
+$frame run01 run02 run03 run04 run05 run06 run07 run08
+
+//run & shoot
+$frame runs01 runs02 runs03 runs04 runs05 runs06
+
+//attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118 attak119 attak120
+$frame attak121 
+
+//attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217 attak218 attak219 attak220
+$frame attak221 attak222 attak223 attak224 attak225 attak226 attak227 attak228 attak229 attak230
+
+//pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109 pain110
+$frame pain111 pain112 pain113 pain114 pain115 pain116 pain117 pain118
+
+//pain2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207 pain208
+
+//pain3
+$frame pain301 pain302 pain303 pain304 pain305
+
+//death
+$frame death01 death02 death03 death04 death05 death06 death07 death08 death09 death10
+$frame death11
+
+// duck
+$frame duck01 duck02 duck03 duck04 duck05 duck06 duck07 duck08
+
+
+
+/*
+==============================================================================
+
+INFANTRY
+
+==============================================================================
+*/
+
+$cd monsters/infantry
+$origin 0 0 24
+$base base              
+$skin skin
+$skin pain
+
+//
+$frame gun02
+
+// Stand Frames
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51 stand52 stand53 stand54 stand55 stand56 stand57 stand58 stand59 stand60
+$frame stand61 stand62 stand63 stand64 stand65 stand66 stand67 stand68 stand69 stand70 stand71
+
+// Walk
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+
+// Run
+$frame run01 run02 run03 run04 run05 run06 run07 run08
+
+// Pain 1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109 pain110
+
+// Pain 2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207 pain208 pain209 pain210
+
+// Duck
+$frame duck01 duck02 duck03 duck04 duck05 
+
+// Death 1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111 death112 death113 death114 death115 death116 death117 death118 death119 death120
+
+// Death 2
+$frame death201 death202 death203 death204 death205 death206 death207 death208 death209 death210
+$frame death211 death212 death213 death214 death215 death216 death217 death218 death219 death220
+$frame death221 death222 death223 death224 death225
+
+// Death 3
+$frame death301 death302 death303 death304 death305 death306 death307 death308 death309
+
+// Block
+$frame block01 block02 block03 block04 block05
+
+// Attack 1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115
+
+// Attack 2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208
+
+/*
+==============================================================================
+
+SOLDIER
+
+==============================================================================
+*/
+
+$cd monsters/soldier
+$origin 0 0 24
+$base base              
+$skin skin_lt
+$skin skin_ltp
+$skin skin
+$skin pain
+$skin skin_ss
+$skin skin_ssp
+$scale 1.2
+
+// Attack 1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112
+
+// Attack 2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217 attak218
+
+// Attack3
+$frame attak301 attak302 attak303 attak304 attak305 attak306 attak307 attak308 attak309
+
+// Attack4
+$frame attak401 attak402 attak403 attak404 attak405 attak406
+
+// Attack5
+//$frame attak501 attak502 attak503 attak504 attak505 attak506 attak507 attak508
+
+// Duck
+$frame duck01 duck02 duck03 duck04 duck05 
+
+// Pain 1
+$frame pain101 pain102 pain103 pain104 pain105
+
+// Pain 2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207
+
+// Pain 3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312 pain313 pain314 pain315 pain316 pain317 pain318
+
+// Pain 4
+$frame pain401 pain402 pain403 pain404 pain405 pain406 pain407 pain408 pain409 pain410
+$frame pain411 pain412 pain413 pain414 pain415 pain416 pain417
+
+// Run
+$frame run01 run02 run03 run04 run05 run06 run07 run08 run09 run10
+$frame run11 run12
+
+// Run and Shoot
+$frame runs01 runs02 runs03 runs04 runs05 runs06 runs07 runs08 runs09 runs10
+$frame runs11 runs12 runs13 runs14 runs15 runs16 runs17 runs18
+
+// Run and Trip
+$frame runt01 runt02 runt03 runt04 runt05 runt06 runt07 runt08 runt09 runt10
+$frame runt11 runt12 runt13 runt14 runt15 runt16 runt17 runt18 runt19
+
+// Stand1
+$frame stand101 stand102 stand103 stand104 stand105 stand106 stand107 stand108 stand109 stand110
+$frame stand111 stand112 stand113 stand114 stand115 stand116 stand117 stand118 stand119 stand120
+$frame stand121 stand122 stand123 stand124 stand125 stand126 stand127 stand128 stand129 stand130
+
+// Stand3
+$frame stand301 stand302 stand303 stand304 stand305 stand306 stand307 stand308 stand309 stand310
+$frame stand311 stand312 stand313 stand314 stand315 stand316 stand317 stand318 stand319 stand320
+$frame stand321 stand322 stand323 stand324 stand325 stand326 stand327 stand328 stand329 stand330
+$frame stand331 stand332 stand333 stand334 stand335 stand336 stand337 stand338 stand339
+
+// Stand4
+//$frame stand401 stand402 stand403 stand404 stand405 stand406 stand407 stand408 stand409 stand410
+//$frame stand411 stand412 stand413 stand414 stand415 stand416 stand417 stand418 stand419 stand420
+//$frame stand421 stand422 stand423 stand424 stand425 stand426 stand427 stand428 stand429 stand430
+//$frame stand431 stand432 stand433 stand434 stand435 stand436 stand437 stand438 stand439 stand440
+//$frame stand441 stand442 stand443 stand444 stand445 stand446 stand447 stand448 stand449 stand450
+//$frame stand451 stand452
+
+// Walk1
+$frame walk101 walk102 walk103 walk104 walk105 walk106 walk107 walk108 walk109 walk110
+$frame walk111 walk112 walk113 walk114 walk115 walk116 walk117 walk118 walk119 walk120
+$frame walk121 walk122 walk123 walk124 walk125 walk126 walk127 walk128 walk129 walk130
+$frame walk131 walk132 walk133
+
+// Walk2
+$frame walk201 walk202 walk203 walk204 walk205 walk206 walk207 walk208 walk209 walk210
+$frame walk211 walk212 walk213 walk214 walk215 walk216 walk217 walk218 walk219 walk220
+$frame walk221 walk222 walk223 walk224
+
+// Death 1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111 death112 death113 death114 death115 death116 death117 death118 death119 death120
+$frame death121 death122 death123 death124 death125 death126 death127 death128 death129 death130
+$frame death131 death132 death133 death134 death135 death136
+
+// Death 2
+$frame death201 death202 death203 death204 death205 death206 death207 death208 death209 death210
+$frame death211 death212 death213 death214 death215 death216 death217 death218 death219 death220
+$frame death221 death222 death223 death224 death225 death226 death227 death228 death229 death230
+$frame death231 death232 death233 death234 death235
+
+// Death 3
+$frame death301 death302 death303 death304 death305 death306 death307 death308 death309 death310
+$frame death311 death312 death313 death314 death315 death316 death317 death318 death319 death320
+$frame death321 death322 death323 death324 death325 death326 death327 death328 death329 death330
+$frame death331 death332 death333 death334 death335 death336 death337 death338 death339 death340
+$frame death341 death342 death343 death344 death345
+
+// Death 4
+$frame death401 death402 death403 death404 death405 death406 death407 death408 death409 death410
+$frame death411 death412 death413 death414 death415 death416 death417 death418 death419 death420
+$frame death421 death422 death423 death424 death425 death426 death427 death428 death429 death430
+$frame death431 death432 death433 death434 death435 death436 death437 death438 death439 death440
+$frame death441 death442 death443 death444 death445 death446 death447 death448 death449 death450
+$frame death451 death452 death453
+
+// Death 5
+$frame death501 death502 death503 death504 death505 death506 death507 death508 death509 death510
+$frame death511 death512 death513 death514 death515 death516 death517 death518 death519 death520
+$frame death521 death522 death523 death524
+
+// Death 6
+$frame death601 death602 death603 death604 death605 death606 death607 death608 death609 death610
+
+
+/*
+==============================================================================
+
+TANK
+
+==============================================================================
+*/
+
+$cd monsters/tank
+$origin 0 0 16
+$base base
+$skin skin
+$skin pain
+$skin ../ctank/skin
+$skin ../ctank/pain
+
+//stand
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+
+//walk
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24 walk25
+
+//attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118 attak119 attak120
+$frame attak121 attak122
+
+//attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217 attak218 attak219 attak220
+$frame attak221 attak222 attak223 attak224 attak225 attak226 attak227 attak228 attak229 attak230
+$frame attak231 attak232 attak233 attak234 attak235 attak236 attak237 attak238
+
+//attack3
+$frame attak301 attak302 attak303 attak304 attak305 attak306 attak307 attak308 attak309 attak310
+$frame attak311 attak312 attak313 attak314 attak315 attak316 attak317 attak318 attak319 attak320
+$frame attak321 attak322 attak323 attak324 attak325 attak326 attak327 attak328 attak329 attak330
+$frame attak331 attak332 attak333 attak334 attak335 attak336 attak337 attak338 attak339 attak340
+$frame attak341 attak342 attak343 attak344 attak345 attak346 attak347 attak348 attak349 attak350
+$frame attak351 attak352 attak353
+
+//attack4
+$frame attak401 attak402 attak403 attak404 attak405 attak406 attak407 attak408 attak409 attak410
+$frame attak411 attak412 attak413 attak414 attak415 attak416 attak417 attak418 attak419 attak420
+$frame attak421 attak422 attak423 attak424 attak425 attak426 attak427 attak428 attak429
+
+//pain1
+$frame pain101 pain102 pain103 pain104
+
+//pain2
+$frame pain201 pain202 pain203 pain204 pain205
+
+//pain3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312 pain313 pain314 pain315 pain316
+
+//death1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111 death112 death113 death114 death115 death116 death117 death118 death119 death120
+$frame death121 death122 death123 death124 death125 death126 death127 death128 death129 death130
+$frame death131 death132
+
+//recline
+
+$frame recln101 recln102 recln103 recln104 recln105 recln106 recln107 recln108 recln109 recln110
+$frame recln111 recln112 recln113 recln114 recln115 recln116 recln117 recln118 recln119 recln120
+$frame recln121 recln122 recln123 recln124 recln125 recln126 recln127 recln128 recln129 recln130
+$frame recln131 recln132 recln133 recln134 recln135 recln136 recln137 recln138 recln139 recln140
+
+
+// TANK COMMANDER BODY
+
+$cd monsters/commandr
+$origin 0 0 0
+$base base
+$skin skin
+$frame inactive
+$frame active01 active02 active03 active04 active05 active06 active07 active08 active09 active10
+$frame active11 active12 active13 active14 active15 active16 active17 active18 active19 active20
+$frame active21 active22 active23 active24
+
+
+// TANK COMMANDER HEAD
+
+$cd monsters/commandr/head
+$origin 0 0 16
+$base base
+$skin skin
+$frame comhead
+
+
+/*
+==============================================================================
+
+MEDIC
+
+==============================================================================
+*/
+
+$cd monsters/medic
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+//walk1
+$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10
+$frame walk11 walk12
+
+//wait
+$frame wait1 wait2 wait3 wait4 wait5 wait6 wait7 wait8 wait9 wait10
+$frame wait11 wait12 wait13 wait14 wait15 wait16 wait17 wait18 wait19 wait20
+$frame wait21 wait22 wait23 wait24 wait25 wait26 wait27 wait28 wait29 wait30
+$frame wait31 wait32 wait33 wait34 wait35 wait36 wait37 wait38 wait39 wait40
+$frame wait41 wait42 wait43 wait44 wait45 wait46 wait47 wait48 wait49 wait50
+$frame wait51 wait52 wait53 wait54 wait55 wait56 wait57 wait58 wait59 wait60
+$frame wait61 wait62 wait63 wait64 wait65 wait66 wait67 wait68 wait69 wait70
+$frame wait71 wait72 wait73 wait74 wait75 wait76 wait77 wait78 wait79 wait80
+$frame wait81 wait82 wait83 wait84 wait85 wait86 wait87 wait88 wait89 wait90
+
+// run
+$frame run1 run2 run3 run4 run5 run6
+
+// pain1
+$frame paina1 paina2 paina3 paina4 paina5 paina6 paina7 paina8
+
+// pain2
+$frame painb1 painb2 painb3 painb4 painb5 painb6 painb7 painb8 painb9 painb10
+$frame painb11 painb12 painb13 painb14 painb15
+
+// duck
+$frame duck1 duck2 duck3 duck4 duck5 duck6 duck7 duck8 duck9 duck10
+$frame duck11 duck12 duck13 duck14 duck15 duck16
+
+// death
+$frame death1 death2 death3 death4 death5 death6 death7 death8 death9 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19 death20
+$frame death21 death22 death23 death24 death25 death26 death27 death28 death29 death30
+
+// attack
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8 attack9 attack10
+$frame attack11 attack12 attack13 attack14 attack15 attack16 attack17 attack18 attack19 attack20
+$frame attack21 attack22 attack23 attack24 attack25 attack26 attack27 attack28 attack29 attack30
+$frame attack31 attack32 attack33 attack34 attack35 attack36 attack37 attack38 attack39 attack40
+$frame attack41 attack42 attack43 attack44 attack45 attack46 attack47 attack48 attack49 attack50
+$frame attack51 attack52 attack53 attack54 attack55 attack56 attack57 attack58 attack59 attack60
+
+//============================================================================
+
+/*
+==============================================================================
+
+FLIPPER
+
+==============================================================================
+*/
+
+$cd monsters/flipper
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+
+//bite attack
+$frame flpbit01 flpbit02 flpbit03 flpbit04 flpbit05 flpbit06 flpbit07 flpbit08 flpbit09 flpbit10
+$frame flpbit11 flpbit12 flpbit13 flpbit14 flpbit15 flpbit16 flpbit17 flpbit18 flpbit19 flpbit20
+
+//tail attack
+$frame flptal01 flptal02 flptal03 flptal04 flptal05 flptal06 flptal07 flptal08 flptal09 flptal10
+$frame flptal11 flptal12 flptal13 flptal14 flptal15 flptal16 flptal17 flptal18 flptal19 flptal20
+$frame flptal21
+
+//move horiziontal
+$frame flphor01 flphor02 flphor03 flphor04 flphor05 flphor06 flphor07 flphor08 flphor09 flphor10
+$frame flphor11 flphor12 flphor13 flphor14 flphor15 flphor16 flphor17 flphor18 flphor19 flphor20
+$frame flphor21 flphor22 flphor23 flphor24
+
+//move vertical
+$frame flpver01 flpver02 flpver03 flpver04 flpver05 flpver06 flpver07 flpver08 flpver09 flpver10
+$frame flpver11 flpver12 flpver13 flpver14 flpver15 flpver16 flpver17 flpver18 flpver19 flpver20
+$frame flpver21 flpver22 flpver23 flpver24 flpver25 flpver26 flpver27 flpver28 flpver29
+
+//pain left
+$frame flppn101 flppn102 flppn103 flppn104 flppn105
+
+//pain right
+$frame flppn201 flppn202 flppn203 flppn204 flppn205
+
+//death
+$frame flpdth01 flpdth02 flpdth03 flpdth04 flpdth05 flpdth06 flpdth07 flpdth08 flpdth09 flpdth10
+$frame flpdth11 flpdth12 flpdth13 flpdth14 flpdth15 flpdth16 flpdth17 flpdth18 flpdth19 flpdth20
+$frame flpdth21 flpdth22 flpdth23 flpdth24 flpdth25 flpdth26 flpdth27 flpdth28 flpdth29 flpdth30
+$frame flpdth31 flpdth32 flpdth33 flpdth34 flpdth35 flpdth36 flpdth37 flpdth38 flpdth39 flpdth40
+$frame flpdth41 flpdth42 flpdth43 flpdth44 flpdth45 flpdth46 flpdth47 flpdth48 flpdth49 flpdth50
+$frame flpdth51 flpdth52 flpdth53 flpdth54 flpdth55 flpdth56
+
+//============================================================================
+
+/*
+==============================================================================
+
+CHICK
+
+==============================================================================
+*/
+
+$cd monsters/bitch
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+
+// Attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118 attak119 attak120
+$frame attak121 attak122 attak123 attak124 attak125 attak126 attak127 attak128 attak129 attak130
+$frame attak131 attak132
+
+// Attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216
+
+// Death1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111 death112
+
+// Death2
+$frame death201 death202 death203 death204 death205 death206 death207 death208 death209 death210
+$frame death211 death212 death213 death214 death215 death216 death217 death218 death219 death220
+$frame death221 death222 death223
+
+// Duck
+$frame duck01 duck02 duck03 duck04 duck05 duck06 duck07
+
+// Pain1
+$frame pain101 pain102 pain103 pain104 pain105
+
+// Pain2
+$frame pain201 pain202 pain203 pain204 pain205
+
+// Pain3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312 pain313 pain314 pain315 pain316 pain317 pain318 pain319 pain320
+$frame pain321 
+
+// Stand1
+$frame stand101 stand102 stand103 stand104 stand105 stand106 stand107 stand108 stand109 stand110
+$frame stand111 stand112 stand113 stand114 stand115 stand116 stand117 stand118 stand119 stand120
+$frame stand121 stand122 stand123 stand124 stand125 stand126 stand127 stand128 stand129 stand130
+
+// Stand2
+$frame stand201 stand202 stand203 stand204 stand205 stand206 stand207 stand208 stand209 stand210
+$frame stand211 stand212 stand213 stand214 stand215 stand216 stand217 stand218 stand219 stand220
+$frame stand221 stand222 stand223 stand224 stand225 stand226 stand227 stand228 stand229 stand230
+
+// Walk
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24 walk25 walk26 walk27
+
+$frame recln201 recln202 recln203 recln204 recln205 recln206 recln207 recln208 recln209 recln210
+$frame recln211 recln212 recln213 recln214 recln215 recln216 recln217 recln218 recln219 recln220
+$frame recln221 recln222 recln223 recln224 recln225 recln226 recln227 recln228 recln229 recln230
+$frame recln231 recln232 recln233 recln234 recln235 recln236 recln237 recln238 recln239 recln240
+
+$frame recln101 recln102 recln103 recln104 recln105 recln106 recln107 recln108 recln109 recln110
+$frame recln111 recln112 recln113 recln114 recln115 recln116 recln117 recln118 recln119 recln120
+$frame recln121 recln122 recln123 recln124 recln125 recln126 recln127 recln128 recln129 recln130
+$frame recln131 recln132 recln133 recln134 recln135 recln136 recln137 recln138 recln139 recln140
+
+/*
+==============================================================================
+
+FLOAT
+
+==============================================================================
+*/
+
+
+$cd monsters/float
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+// Activate
+$frame actvat01 actvat02 actvat03 actvat04 actvat05 actvat06 actvat07 actvat08 actvat09 actvat10
+$frame actvat11 actvat12 actvat13 actvat14 actvat15 actvat16 actvat17 actvat18 actvat19 actvat20
+$frame actvat21 actvat22 actvat23 actvat24 actvat25 actvat26 actvat27 actvat28 actvat29 actvat30
+$frame actvat31
+
+// Attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114
+
+// Attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217 attak218 attak219 attak220
+$frame attak221 attak222 attak223 attak224 attak225
+
+// Attack3
+$frame attak301 attak302 attak303 attak304 attak305 attak306 attak307 attak308 attak309 attak310
+$frame attak311 attak312 attak313 attak314 attak315 attak316 attak317 attak318 attak319 attak320
+$frame attak321 attak322 attak323 attak324 attak325 attak326 attak327 attak328 attak329 attak330
+$frame attak331 attak332 attak333 attak334
+
+// Death
+$frame death01 death02 death03 death04 death05 death06 death07 death08 death09 death10
+$frame death11 death12 death13
+
+// Pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107
+
+// Pain2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207 pain208
+
+// Pain3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312
+
+// Stand1
+$frame stand101 stand102 stand103 stand104 stand105 stand106 stand107 stand108 stand109 stand110
+$frame stand111 stand112 stand113 stand114 stand115 stand116 stand117 stand118 stand119 stand120
+$frame stand121 stand122 stand123 stand124 stand125 stand126 stand127 stand128 stand129 stand130
+$frame stand131 stand132 stand133 stand134 stand135 stand136 stand137 stand138 stand139 stand140
+$frame stand141 stand142 stand143 stand144 stand145 stand146 stand147 stand148 stand149 stand150
+$frame stand151 stand152
+
+// Stand2
+$frame stand201 stand202 stand203 stand204 stand205 stand206 stand207 stand208 stand209 stand210
+$frame stand211 stand212 stand213 stand214 stand215 stand216 stand217 stand218 stand219 stand220
+$frame stand221 stand222 stand223 stand224 stand225 stand226 stand227 stand228 stand229 stand230
+$frame stand231 stand232 stand233 stand234 stand235 stand236 stand237 stand238 stand239 stand240
+$frame stand241 stand242 stand243 stand244 stand245 stand246 stand247 stand248 stand249 stand250
+$frame stand251 stand252
+
+==============================================================================
+*/
+
+/*
+==============================================================================
+
+PARASITE
+
+==============================================================================
+*/
+
+$cd monsters/parasite
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+// Break
+$frame break01 break02 break03 break04 break05 break06 break07 break08 break09 break10
+$frame break11 break12 break13 break14 break15 break16 break17 break18 break19 break20
+$frame break21 break22 break23 break24 break25 break26 break27 break28 break29 break30
+$frame break31 break32
+
+// Death1
+$frame death101 death102 death103 death104 death105 death106 death107
+
+// Drain
+$frame drain01 drain02 drain03 drain04 drain05 drain06 drain07 drain08 drain09 drain10
+$frame drain11 drain12 drain13 drain14 drain15 drain16 drain17 drain18
+
+// Pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109 pain110
+$frame pain111
+
+// Run
+$frame run01 run02 run03 run04 run05 run06 run07 run08 run09 run10
+$frame run11 run12 run13 run14 run15
+
+// Stand
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35
+
+$cd monsters/parasite/segment
+$origin 0 0 0
+$base base
+$skin skin
+$frame segment
+
+$cd monsters/parasite/tip
+$origin 0 0 0
+$base base
+$skin base
+$frame tip
+
+
+/*
+==============================================================================
+FLYER
+==============================================================================
+*/
+
+$cd monsters/flyer
+$origin 0 0 24
+$scale 1.2
+$base base
+$skin skin
+$skin pain
+
+//start
+$frame start01 start02 start03 start04 start05 start06
+
+//stop
+$frame stop01 stop02 stop03 stop04 stop05 stop06 stop07
+
+//stand
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45
+
+//attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118 attak119 attak120
+$frame attak121
+
+//attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217
+
+//bank left
+$frame bankl01 bankl02 bankl03 bankl04 bankl05 bankl06 bankl07
+
+//bank right
+$frame bankr01 bankr02 bankr03 bankr04 bankr05 bankr06 bankr07
+
+//roll left
+$frame rollf01 rollf02 rollf03 rollf04 rollf05 rollf06 rollf07 rollf08 rollf09
+
+//roll right
+$frame rollr01 rollr02 rollr03 rollr04 rollr05 rollr06 rollr07 rollr08 rollr09
+
+// defense
+$frame defens01 defens02 defens03 defens04 defens05 defens06
+
+//pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109
+
+//pain2
+$frame pain201 pain202 pain203 pain204
+
+//pain3
+$frame pain301 pain302 pain303 pain304
+
+
+/*
+==============================================================================
+
+BRAIN
+
+==============================================================================
+*/
+
+$cd monsters/brain
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+//walk1
+$frame walk101 walk102 walk103 walk104 walk105 walk106 walk107 walk108 walk109 walk110
+$frame walk111 walk112 walk113
+
+//walk2
+$frame walk201 walk202 walk203 walk204 walk205 walk206 walk207 walk208 walk209 walk210
+$frame walk211 walk212 walk213 walk214 walk215 walk216 walk217 walk218 walk219 walk220
+$frame walk221 walk222 walk223 walk224 walk225 walk226 walk227 walk228 walk229 walk230
+$frame walk231 walk232 walk233 walk234 walk235 walk236 walk237 walk238 walk239 walk240
+
+//attack1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118
+
+//attack2
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213 attak214 attak215 attak216 attak217
+
+//pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109 pain110
+$frame pain111 pain112 pain113 pain114 pain115 pain116 pain117 pain118 pain119 pain120
+$frame pain121
+
+//pain2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207 pain208
+
+//pain3
+$frame pain301 pain302 pain303 pain304 pain305 pain306
+
+//death1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111 death112 death113 death114 death115 death116 death117 death118
+
+//death2
+$frame death201 death202 death203 death204 death205
+
+// duck
+$frame duck01 duck02 duck03 duck04 duck05 duck06 duck07 duck08
+
+// defense
+$frame defens01 defens02 defens03 defens04 defens05 defens06 defens07 defens08
+
+// stand
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51 stand52 stand53 stand54 stand55 stand56 stand57 stand58 stand59 stand60
+
+
+/*
+==============================================================================
+
+HOVER
+
+==============================================================================
+*/
+
+$cd monsters/hover
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+// stand
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+
+// forward
+$frame forwrd01 forwrd02 forwrd03 forwrd04 forwrd05 forwrd06 forwrd07 forwrd08 forwrd09 forwrd10
+$frame forwrd11 forwrd12 forwrd13 forwrd14 forwrd15 forwrd16 forwrd17 forwrd18 forwrd19 forwrd20
+$frame forwrd21 forwrd22 forwrd23 forwrd24 forwrd25 forwrd26 forwrd27 forwrd28 forwrd29 forwrd30
+$frame forwrd31 forwrd32 forwrd33 forwrd34 forwrd35
+
+// stop1 (forwards stop)
+$frame stop101 stop102 stop103 stop104 stop105 stop106 stop107 stop108 stop109
+
+// stop2 (backwards stop)
+$frame stop201 stop202 stop203 stop204 stop205 stop206 stop207 stop208
+
+// take off
+$frame takeof01 takeof02 takeof03 takeof04 takeof05 takeof06 takeof07 takeof08 takeof09 takeof10
+$frame takeof11 takeof12 takeof13 takeof14 takeof15 takeof16 takeof17 takeof18 takeof19 takeof20
+$frame takeof21 takeof22 takeof23 takeof24 takeof25 takeof26 takeof27 takeof28 takeof29 takeof30
+
+// land
+$frame land01
+
+// pain1
+$frame pain101 pain102 pain103 pain104 pain105 pain106 pain107 pain108 pain109 pain110
+$frame pain111 pain112 pain113 pain114 pain115 pain116 pain117 pain118 pain119 pain120
+$frame pain121 pain122 pain123 pain124 pain125 pain126 pain127 pain128
+
+// pain2
+$frame pain201 pain202 pain203 pain204 pain205 pain206 pain207 pain208 pain209 pain210
+$frame pain211 pain212
+
+// pain3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309
+
+// death1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109 death110
+$frame death111
+
+// backwards
+$frame backwd01 backwd02 backwd03 backwd04 backwd05 backwd06 backwd07 backwd08 backwd09 backwd10
+$frame backwd11 backwd12 backwd13 backwd14 backwd15 backwd16 backwd17 backwd18 backwd19 backwd20
+$frame backwd21 backwd22 backwd23 backwd24
+
+// attack 1
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108
+
+/*
+==============================================================================
+
+MUTANT
+
+==============================================================================
+*/
+
+$cd monsters/mutant
+$origin 0 0 24
+$base base
+$skin skin
+$skin pain
+
+// attack
+$frame attack01 attack02 attack03 attack04 attack05 attack06 attack07 attack08 attack09 attack10
+$frame attack11 attack12 attack13 attack14 attack15
+
+// death 1
+$frame death101 death102 death103 death104 death105 death106 death107 death108 death109
+
+// death 2
+$frame death201 death202 death203 death204 death205 death206 death207 death208 death209 death210
+
+// pain 1
+$frame pain101 pain102 pain103 pain104 pain105
+
+// pain 2
+$frame pain201 pain202 pain203 pain204 pain205 pain206
+
+// pain 3
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311
+
+// run (loop)
+$frame run03 run04 run05 run06 run07 run08
+
+// stand
+$frame stand101 stand102 stand103 stand104 stand105 stand106 stand107 stand108 stand109 stand110
+$frame stand111 stand112 stand113 stand114 stand115 stand116 stand117 stand118 stand119 stand120
+$frame stand121 stand122 stand123 stand124 stand125 stand126 stand127 stand128 stand129 stand130
+$frame stand131 stand132 stand133 stand134 stand135 stand136 stand137 stand138 stand139 stand140
+$frame stand141 stand142 stand143 stand144 stand145 stand146 stand147 stand148 stand149 stand150
+$frame stand151 stand152 stand153 stand154 stand155 stand156 stand157 stand158 stand159 stand160
+$frame stand161 stand162 stand163 stand164
+
+// walk
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23
+
+/*
+==============================================================================
+ Insane Guy
+==============================================================================
+*/
+$cd monsters/insane
+$origin 0 0 24
+$base base
+$skin i_skin
+$skin i_skin02
+$skin i_skin03
+
+// Insane Up to Down
+$frame stand1 stand2 stand3 stand4 stand5 stand6 stand7 stand8 stand9 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+
+// Down to Up
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51 stand52 stand53 stand54 stand55 stand56 stand57 stand58 stand59
+
+// Normal Stand
+$frame stand60 stand61 stand62 stand63 stand64
+
+// Insane Stand
+$frame stand65 stand66 stand67 stand68 stand69 stand70 stand71 stand72 stand73 stand74 stand75
+$frame stand76 stand77 stand78 stand79 stand80 stand81 stand82 stand83 stand84 stand85 stand86
+$frame stand87 stand88 stand89 stand90 stand91 stand92 stand93 stand94
+
+// Jump Down
+$frame stand95 stand96 stand97 stand98
+
+// Down and not moving forward
+$frame stand99 stand100 stand101 stand102 stand103 stand104 stand105 stand106 stand107 stand108
+$frame stand109 stand110 stand111 stand112 stand113 stand114 stand115 stand116 stand117 stand118
+$frame stand119 stand120 stand121 stand122 stand123 stand124 stand125 stand126 stand127 stand128
+$frame stand129 stand130 stand131 stand132 stand133 stand134 stand135 stand136 stand137 stand138
+$frame stand139 stand140 stand141 stand142 stand143 stand144 stand145 stand146 stand147 stand148
+$frame stand149 stand150 stand151 stand152 stand153 stand154 stand155 stand156 stand157 stand158 
+$frame stand159 stand160
+
+// Normal Walking
+$frame walk27 walk28 walk29 walk30 walk31 walk32 walk33 walk34 walk35 walk36 walk37 walk38 walk39
+
+// Insane Walking
+$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24 walk25 walk26
+
+// Standing pain
+$frame st_pain2 st_pain3 st_pain4 st_pain5 st_pain6 st_pain7 st_pain8 st_pain9 st_pain10 st_pain11 st_pain12
+
+// Standing death
+$frame st_death2 st_death3 st_death4 st_death5 st_death6 st_death7 st_death8 st_death9 st_death10
+$frame st_death11 st_death12 st_death13 st_death14 st_death15 st_death16 st_death17 st_death18
+
+// Crawling
+$frame crawl1 crawl2 crawl3 crawl4 crawl5 crawl6 crawl7 crawl8 crawl9
+
+// Crawling Pain
+$frame cr_pain2 cr_pain3 cr_pain4 cr_pain5 cr_pain6 cr_pain7 cr_pain8 cr_pain9 cr_pain10
+
+// Crawling Death
+$frame cr_death10 cr_death11 cr_death12 cr_death13 cr_death14 cr_death15 cr_death16
+
+// Crucified Solder
+$frame cross1 cross2 cross3 cross4 cross5 cross6 cross7 cross8 cross9 cross10
+$frame cross11 cross12 cross13 cross14 cross15
+
+// Crucified -- Struggling to get off
+$frame cross16 cross17 cross18 cross19 cross20 cross21 cross22 cross23 cross24 cross25 cross26
+$frame cross27 cross28 cross29 cross30
+
+/*
+==============================================================================
+
+BOSS1 (SuperTank)
+
+==============================================================================
+*/
+
+$cd monsters/boss1
+$skinsize 512 256
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+$scale 0.98
+
+// Attack 1
+$frame attaka1 attaka2 attaka3 attaka4 attaka5 attaka6 attaka7 attaka8 attaka9
+$frame attaka10 attaka11 attaka12 attaka13 attaka14 attaka15 attaka16 attaka17 attaka18 attaka19 attaka20
+
+// Attack2
+$frame attakb1 attakb2 attakb3 attakb4 attakb5 attakb6 attakb7 attakb8 attakb9 attakb10
+$frame attakb11 attakb12 attakb13 attakb14 attakb15 attakb16 attakb17 attakb18 attakb19 attakb20
+$frame attakb21 attakb22 attakb23 attakb24 attakb25 attakb26 attakb27
+
+// Attack 3
+$frame attakc1 attakc2 attakc3 attakc4 attakc5 attakc6 attakc7 attakc8 attakc9 attakc10
+$frame attakc11 attakc12 attakc13 attakc14 attakc15 attakc16 attakc17 attakc18 attakc19 attakc20
+$frame attakc21 attakc22 attakc23 attakc24 attakc25 attakc26 attakc27
+
+// Attack 4
+$frame attakd1 attakd2 attakd3 attakd4 attakd5 attakd6
+
+// Backwards
+$frame backwd1 backwd2 backwd3 backwd4 backwd5 backwd6 backwd7 backwd8 backwd9 backwd10
+$frame backwd11 backwd12 backwd13 backwd14 backwd15 backwd16 backwd17 backwd18
+
+// Death
+$frame death1 death2 death3 death4 death5 death6 death7 death8 death9 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19 death20
+$frame death21 death22 death23 death24
+$frame death31 death32 death33
+$frame death45 death46 death47
+
+// Forwards
+$frame forwrd1 forwrd2 forwrd3 forwrd4 forwrd5 forwrd6 forwrd7 forwrd8 forwrd9 forwrd10
+$frame forwrd11 forwrd12 forwrd13 forwrd14 forwrd15 forwrd16 forwrd17 forwrd18
+
+// Left Turn
+$frame left1 left2 left3 left4 left5 left6 left7 left8 left9 left10
+$frame left11 left12 left13 left14 left15 left16 left17 left18
+
+// Pain 1
+$frame paina1 paina2 paina3 paina4 
+
+// Pain 2
+$frame painb5 painb6 painb7 painb8
+
+// Pain 3
+$frame painc9 painc10 painc11 painc12
+
+// Right Turn
+$frame right1 right2 right3 right4 right5 right6 right7 right8 right9 right10
+$frame right11 right12 right13 right14 right15 right16 right17 right18
+
+// Stand
+$frame stand1 stand2 stand3 stand4 stand5 stand6 stand7 stand8 stand9 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51 stand52 stand53 stand54 stand55 stand56 stand57 stand58 stand59 stand60
+
+/*
+==============================================================================
+
+ Boss 2
+
+==============================================================================
+*/
+
+$cd monsters/boss2
+$skinsize 512 256
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+
+// Stand
+$frame stand30 stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+
+// Stand -- Fidget
+$frame stand1 stand2 stand3 stand4 stand5 stand6 stand7 stand8 stand9 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 
+
+// Walk
+$frame walk1 walk2 walk3 walk4 walk5 walk6 walk7 walk8 walk9 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+
+// Attack (Preparing to fire Machinegun)
+$frame attack1 attack2 attack3 attack4 attack5 attack6 attack7 attack8 attack9
+
+// Attack (Firing Machinegun -- LOOP)
+$frame attack10 attack11 attack12 attack13 attack14 attack15
+
+// Attack (Return to baseframe after firing machinegun)
+$frame attack16 attack17 attack18 attack19
+
+// Attack (Rocket Launcher)
+$frame attack20 attack21 attack22 attack23 attack24 attack25 attack26 attack27 attack28 attack29 
+$frame attack30 attack31 attack32 attack33 attack34 attack35 attack36 attack37 attack38 attack39 attack40
+
+// Pain (Heavy)
+$frame pain2 pain3 pain4 pain5 pain6 pain7 pain8 pain9 pain10 pain11 pain12
+$frame pain13 pain14 pain15 pain16 pain17 pain18 pain19
+
+// Pain (Light)
+$frame pain20 pain21 pain22 pain23
+
+// Death
+$frame death2 death3 death4 death5 death6 death7 death8 death9 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19 death20
+$frame death21 death22 death23 death24 death25 death26 death27 death28 death29 death30
+$frame death31 death32 death33 death34 death35 death36 death37 death38 death39 death40
+$frame death41 death42 death43 death44 death45 death46 death47 death48 death49 death50
+
+
+/*
+==============================================================================
+
+ Boss 3
+
+==============================================================================
+*/
+
+// JORG
+
+$cd monsters/boss3/jorg
+$skinsize 512 256
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118
+
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213
+
+$frame death01 death02 death03 death04 death05 death06 death07 death08 death09 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19 death20
+$frame death21 death22 death33 death24 death25 death26 death27 death28 death29 death30
+$frame death31 death32 death33 death34 death35 death36 death37 death38 death39 death40
+$frame death41 death42 death43 death44 death45 death46 death47 death48 death49 death50
+
+$frame pain101 pain102 pain103
+
+$frame pain201 pain202 pain203
+
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312 pain313 pain314 pain315 pain316 pain317 pain318 pain319 pain320
+$frame pain321 pain322 pain323 pain324 pain325
+
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51
+
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24 walk25
+
+
+// MAKRON
+
+$cd monsters/boss3/rider
+$skinsize 512 256
+$origin 0 0 0
+$base base
+$skin skin
+$skin pain
+
+// mounted frames - must exactly match up with Jorg's frames
+
+$frame attak101 attak102 attak103 attak104 attak105 attak106 attak107 attak108 attak109 attak110
+$frame attak111 attak112 attak113 attak114 attak115 attak116 attak117 attak118
+
+$frame attak201 attak202 attak203 attak204 attak205 attak206 attak207 attak208 attak209 attak210
+$frame attak211 attak212 attak213
+
+$frame death01 death02 death03 death04 death05 death06 death07 death08 death09 death10
+$frame death11 death12 death13 death14 death15 death16 death17 death18 death19 death20
+$frame death21 death22 death33 death24 death25 death26 death27 death28 death29 death30
+$frame death31 death32 death33 death34 death35 death36 death37 death38 death39 death40
+$frame death41 death42 death43 death44 death45 death46 death47 death48 death49 death50
+
+$frame pain101 pain102 pain103
+
+$frame pain201 pain202 pain203
+
+$frame pain301 pain302 pain303 pain304 pain305 pain306 pain307 pain308 pain309 pain310
+$frame pain311 pain312 pain313 pain314 pain315 pain316 pain317 pain318 pain319 pain320
+$frame pain321 pain322 pain323 pain324 pain325
+
+$frame stand01 stand02 stand03 stand04 stand05 stand06 stand07 stand08 stand09 stand10
+$frame stand11 stand12 stand13 stand14 stand15 stand16 stand17 stand18 stand19 stand20
+$frame stand21 stand22 stand23 stand24 stand25 stand26 stand27 stand28 stand29 stand30
+$frame stand31 stand32 stand33 stand34 stand35 stand36 stand37 stand38 stand39 stand40
+$frame stand41 stand42 stand43 stand44 stand45 stand46 stand47 stand48 stand49 stand50
+$frame stand51
+
+$frame walk01 walk02 walk03 walk04 walk05 walk06 walk07 walk08 walk09 walk10
+$frame walk11 walk12 walk13 walk14 walk15 walk16 walk17 walk18 walk19 walk20
+$frame walk21 walk22 walk23 walk24 walk25
+
+// solo frames - after Jorg has been killed
+
+$frame active01 active02 active03 active04 active05 active06 active07 active08 active09 active10
+$frame active11 active12 active13
+
+$frame attak301 attak302 attak303 attak304 attak305 attak306 attak307 attak308
+
+$frame attak401 attak402 attak403 attak404 attak405 attak406 attak407 attak408 attak409 attak410
+$frame attak411 attak412 attak413 attak414 attak415 attak416 attak417 attak418 attak419 attak420
+$frame attak421 attak422 attak423 attak424 attak425 attak426
+
+$frame attak501 attak502 attak503 attak504 attak505 attak506 attak507 attak508 attak509 attak510
+$frame attak511 attak512 attak513 attak514 attak515 attak516
+
+$frame death201 death202 death203 death204 death205 death206 death207 death208 death209 death210
+$frame death211 death212 death213 death214 death215 death216 death217 death218 death219 death220
+$frame death221 death222 death223 death224 death225 death226 death227 death228 death229 death230
+$frame death231 death232 death233 death234 death235 death236 death237 death238 death239 death240
+$frame death241 death242 death243 death244 death245 death246 death247 death248 death249 death250
+$frame death251 death252 death253 death254 death255 death256 death257 death258 death259 death260
+$frame death261 death262 death263 death264 death265 death266 death267 death268 death269 death270
+$frame death271 death272 death273 death274 death275 death276 death277 death278 death279 death280
+$frame death281 death282 death283 death284 death285 death286 death287 death288 death289 death290
+$frame death291 death292 death293 death294 death295
+
+$frame death301 death302 death303 death304 death305 death306 death307 death308 death309 death310
+$frame death311 death312 death313 death314 death315 death316 death317 death318 death319 death320
+
+$frame jump01 jump02 jump03 jump04 jump05 jump06 jump07 jump08 jump09 jump10
+$frame jump11 jump12 jump13
+
+$frame pain401 pain402 pain403 pain404
+
+$frame pain501 pain502 pain503 pain504
+
+$frame pain601 pain602 pain603 pain604 pain605 pain606 pain607 pain608 pain609 pain610
+$frame pain611 pain612 pain613 pain614 pain615 pain616 pain617 pain618 pain619 pain620
+$frame pain621 pain622 pain623 pain624 pain625 pain626 pain627
+
+$frame stand201 stand202 stand203 stand204 stand205 stand206 stand207 stand208 stand209 stand210
+$frame stand211 stand212 stand213 stand214 stand215 stand216 stand217 stand218 stand219 stand220
+$frame stand221 stand222 stand223 stand224 stand225 stand226 stand227 stand228 stand229 stand230
+$frame stand231 stand232 stand233 stand234 stand235 stand236 stand237 stand238 stand239 stand240
+$frame stand241 stand242 stand243 stand244 stand245 stand246 stand247 stand248 stand249 stand250
+$frame stand251 stand252 stand253 stand254 stand255 stand256 stand257 stand258 stand259 stand260
+
+$frame walk201 walk202 walk203 walk204 walk205 walk206 walk207 walk208 walk209 walk210
+$frame walk211 walk212 walk213 walk214 walk215 walk216 walk217

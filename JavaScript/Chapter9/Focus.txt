@@ -1,0 +1,5 @@
+- objects in JS
+- use of Date objects.
+- sorting using custom comparisons (as anonymous function declarations)
+- constructing entries out of 'whole cloth'
+- again, integration of CSS into the whole mess

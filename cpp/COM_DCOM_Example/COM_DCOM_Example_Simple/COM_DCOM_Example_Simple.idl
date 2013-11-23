@@ -1,0 +1,35 @@
+// COM_DCOM_Example_Simple.idl : IDL source for COM_DCOM_Example_Simple
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (COM_DCOM_Example_Simple.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(4B670639-D0EB-45BE-AF7A-DF5C4556CDAB),
+	pointer_default(unique)
+]
+interface ISimpleChatServer : IUnknown{
+    [] HRESULT CallMe([in] BSTR name, [out] int *val
+        , [out] BSTR* helloMessage
+        );
+};
+[
+	uuid(18C1C38E-B4F9-41F5-B06D-767E8E0B39CB),
+	version(1.0),
+]
+library COM_DCOM_Example_SimpleLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(AA3BE01D-F633-4FA0-97D0-25732E9074D2)		
+	]
+	coclass SimpleChatServer
+	{
+		[default] interface ISimpleChatServer;
+	};
+};
+

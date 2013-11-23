@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+		<title>Duncan's Just-In-Time Donuts'</title>
+		<link rel="stylesheet" type="text/css" href="donuts.css" />
+		<script type="text/javascript">
+			var 	seats = [false,true,true,true,true,true,true,true,true];
+			var 	currSeat = 0;
+			const 	MAX_SEAT_OFST=8;
+			// using anonymous functions
+
+			// here we create an anonymous function that includes all our wiring logic..
+			window.onload = function()
+			{
+
+				// wire our seat elements with a anonymous function so that we can call our 
+				// seatclick with the proper argument.
+
+				// simply wire initSeats directly to the button's onclick
+				document.getElementById("testInitSeatButton").onclick = initSeats;
+
+				// and finally, do our initialization..
+				initSeats();
+				setTimeout("updateSeatsTimeout();",1000);
+			}
+
+			function initSeats()
+			{
+				for( var currSeat = 0;
+					 currSeat < seats.length;
+					 currSeat++)
+				{
+					if(seats[currSeat])
+					{
+						document.getElementById("seat"+currSeat).src = "seat_avail.png";
+					}
+					else
+					{
+						document.getElementById("seat"+currSeat).src = "seat_select.png";
+					}
+				}
+			}
+			function updateSeatsTimeout()
+			{
+				seats[currSeat] = ! seats[currSeat];
+				currSeat++;
+				if(currSeat > MAX_SEAT_OFST)
+				{
+					currSeat = 0;
+				}
+				seats[currSeat] = ! seats[currSeat];
+				initSeats();
+				setTimeout("updateSeatsTimeout();",1000);
+			}
+			
+		</script>
+	</head>
+	<body>
+		<div style="margin-top:75px; text-align:center">
+			<img id="seat0" src="" alt="" />
+			<img id="seat1" src="" alt="" />
+			<img id="seat2" src="" alt="" />
+			<img id="seat3" src="" alt="" />
+			<img id="seat4" src="" alt="" />
+			<img id="seat5" src="" alt="" />
+			<img id="seat6" src="" alt="" />
+			<img id="seat7" src="" alt="" />
+			<img id="seat8" src="" alt="" />
+		</div>
+		<button type="button" id="testInitSeatButton" >tests initSeats();</button>
+	</body>
+</html>

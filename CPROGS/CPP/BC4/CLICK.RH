@@ -1,0 +1,20 @@
+/****************************************************************************
+
+
+click.rh
+
+produced by Borland Resource Workshop
+
+
+*****************************************************************************/
+
+#define DIALOG_1	1
+#define IDD_USER	1
+#define IDC_NAMETEXT	101
+#define IDC_PHONENUMBER	102
+#define CM_KEY101	101
+#define MENU_1	1
+#define CLICK_MENU	1
+#define CM_ABOUT	103
+#define CM_HELPCONTENTS	102
+#define CM_USER	101
