@@ -10,6 +10,7 @@ namespace TestGitApp
         static void Main(string[] args)
         {
             Console.WriteLine("yo, world!");
+            Console.WriteLine("another Test");
         }
     }
 }
