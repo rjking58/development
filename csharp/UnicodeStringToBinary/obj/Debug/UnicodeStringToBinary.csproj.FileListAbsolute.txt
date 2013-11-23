@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\UnicodeStringToBinary\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\UnicodeStringToBinary\bin\Debug\UnicodeStringToBinary.exe
+C:\Volatile\Source\csharp2\vs2005Projs\UnicodeStringToBinary\bin\Debug\UnicodeStringToBinary.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\UnicodeStringToBinary\obj\Debug\UnicodeStringToBinary.exe
+C:\Volatile\Source\csharp2\vs2005Projs\UnicodeStringToBinary\obj\Debug\UnicodeStringToBinary.pdb

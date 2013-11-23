@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLGKIDSchema" xmlns="http://tempuri.org/XMLSchema1.xsd" xmlns:mstns="http://tempuri.org/XMLSchema1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GenericKeyIDList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="GenericKeyIDPair">
+          <xs:complexType>
+            <xs:sequence>
+            </xs:sequence>
+            <xs:attribute name="PrimaryKeyValue" type="xs:integer" />
+            <xs:attribute name="SecondaryKeyValue" type="xs:integer" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

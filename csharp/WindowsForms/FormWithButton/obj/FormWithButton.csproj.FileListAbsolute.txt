@@ -1,0 +1,5 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WindowsForms\FormWithButton\bin\Debug\FormWithButton.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WindowsForms\FormWithButton\bin\Debug\FormWithButton.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WindowsForms\FormWithButton\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WindowsForms\FormWithButton\obj\Debug\FormWithButton.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WindowsForms\FormWithButton\obj\Debug\FormWithButton.pdb

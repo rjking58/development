@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<GenericKeyIDList
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="XMLGKIDSchema.xsd">
+    <GenericKeyIDPair PrimaryKeyValue="1" SecondaryKeyValue="-1" />
+    <GenericKeyIDPair PrimaryKeyValue="2" SecondaryKeyValue="12" />
+    <GenericKeyIDPair PrimaryKeyValue="3" SecondaryKeyValue="23" />
+</GenericKeyIDList>
+
+

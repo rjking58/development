@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\WcfServiceLibrary1\IService1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\.klocwork\cs.kwlp\ds\c3nphetd.xw3;1;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\WcfServiceLibrary1\Service1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\.klocwork\cs.kwlp\ds\t2mimmhl.koq;3;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\WcfServiceLibrary1\ValToTransferDCSurrogate.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\.klocwork\cs.kwlp\ds\deoq4one.yjw;9;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\HostWcfSvcLib1\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\.klocwork\cs.kwlp\ds\4mwuoswd.eo3;4;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\CallTestService\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\CustomSerializationTest\.klocwork\cs.kwlp\ds\n1tf0hdj.euq;6;0;0

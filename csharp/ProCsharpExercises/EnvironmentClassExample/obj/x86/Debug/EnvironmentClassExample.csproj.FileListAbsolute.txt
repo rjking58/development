@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnvironmentClassExample\bin\Debug\EnvironmentClassExample.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnvironmentClassExample\obj\x86\Debug\EnvironmentClassExample.pdb

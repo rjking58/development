@@ -1,0 +1,5 @@
+bin\Debug\simpleAccessTest.dll
+bin\Debug\simpleAccessTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\simpleAccessTest.dll
+obj\Debug\simpleAccessTest.pdb

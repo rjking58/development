@@ -1,0 +1,6 @@
+bin\Debug\XMLdoc.XML
+bin\Debug\XMLdoc.exe
+bin\Debug\XMLdoc.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XMLdoc.exe
+obj\Debug\XMLdoc.pdb

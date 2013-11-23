@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\Threading1\ThreadComm1\obj\Debug\ThreadComm1.pdb
+C:\Development\SOURCE\csharp\Threading1\ThreadComm1\bin\Debug\ThreadComm1.exe
+C:\Development\SOURCE\csharp\Threading1\ThreadComm1\bin\Debug\ThreadComm1.pdb
+C:\Development\SOURCE\csharp\Threading1\ThreadComm1\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\Threading1\ThreadComm1\obj\Debug\ThreadComm1.exe

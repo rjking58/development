@@ -1,0 +1,1 @@
+C:\Development\SOURCE\csharp\ProWPF\ProWPF\obj\x86\Debug\ResolveAssemblyReference.cache

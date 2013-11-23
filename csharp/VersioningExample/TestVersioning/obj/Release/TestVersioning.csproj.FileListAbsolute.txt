@@ -1,0 +1,7 @@
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\bin\Release\TestVersioning.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\bin\Release\TestVersioning.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\bin\Release\VersioningExample.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\bin\Release\VersioningExample.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\obj\Release\TestVersioning.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\obj\Release\TestVersioning.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\TestVersioning\obj\Release\TestVersioning.pdb

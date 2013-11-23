@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\ParserTest\ParserTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\ParserTest\ParserTest\bin\Debug\ParserTest.exe
+C:\GCS\Source\csharp\ParserTest\ParserTest\bin\Debug\ParserTest.pdb
+C:\GCS\Source\csharp\ParserTest\ParserTest\obj\x86\Debug\ParserTest.exe
+C:\GCS\Source\csharp\ParserTest\ParserTest\obj\x86\Debug\ParserTest.pdb

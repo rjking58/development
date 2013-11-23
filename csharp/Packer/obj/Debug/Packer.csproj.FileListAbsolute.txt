@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\Packer\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\Packer\bin\Debug\Packer.exe
+C:\Volatile\Source\csharp2\vs2005Projs\Packer\bin\Debug\Packer.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\Packer\obj\Debug\Packer.exe
+C:\Volatile\Source\csharp2\vs2005Projs\Packer\obj\Debug\Packer.pdb

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="619ee5ef-5b3a-4f07-8fcf-7ed942482c25" name="Richard@RJKING-PC 2013-08-26 08:49:12" runUser="rjking-PC\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="940c159d-505b-4526-97d2-4856d710da73">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Richard_RJKING-PC 2013-08-26 08_49_12">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\LogicSimulator1\LogicSimulator1\bin\Debug\LogicSimulator1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-26T08:49:12.9863537-07:00" queuing="2013-08-26T08:49:13.6857686-07:00" start="2013-08-26T08:49:13.7169687-07:00" finish="2013-08-26T08:49:32.9674025-07:00" />
+  <ResultSummary outcome="Aborted">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFullAdder" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="b6d29eda-f6bf-4518-691a-18c61c736a2e">
+      <Execution id="bf296b86-456d-4c61-9b50-7f14547d32ca" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFullAdder" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6d29eda-f6bf-4518-691a-18c61c736a2e" executionId="bf296b86-456d-4c61-9b50-7f14547d32ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bf296b86-456d-4c61-9b50-7f14547d32ca" testId="b6d29eda-f6bf-4518-691a-18c61c736a2e" testName="TestFullAdder" computerName="RJKING-PC" duration="00:00:14.0400247" startTime="2013-08-26T08:49:13.7325687-07:00" endTime="2013-08-26T08:49:27.7725934-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf296b86-456d-4c61-9b50-7f14547d32ca">
+      <Output>
+        <ErrorInfo>
+          <Message>User aborted test run.</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

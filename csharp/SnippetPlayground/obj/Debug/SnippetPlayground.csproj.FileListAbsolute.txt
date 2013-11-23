@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\SnippetPlayground\bin\Debug\SnippetPlayground.exe
+C:\Volatile\Source\csharp2\vs2005Projs\SnippetPlayground\bin\Debug\SnippetPlayground.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\SnippetPlayground\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\SnippetPlayground\obj\Debug\SnippetPlayground.exe
+C:\Volatile\Source\csharp2\vs2005Projs\SnippetPlayground\obj\Debug\SnippetPlayground.pdb

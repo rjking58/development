@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="111e5be9-9e96-4dd0-b3ff-63d087dcd386" name="Richard@RJKING-PC 2013-08-26 08:51:47" runUser="rjking-PC\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="940c159d-505b-4526-97d2-4856d710da73">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Richard_RJKING-PC 2013-08-26 08_51_47">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\LogicSimulator1\LogicSimulator1\bin\Debug\LogicSimulator1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-26T08:51:47.9123254-07:00" queuing="2013-08-26T08:51:48.0521308-07:00" start="2013-08-26T08:51:48.0677308-07:00" finish="2013-08-26T08:51:48.2393311-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFullAdder" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="b6d29eda-f6bf-4518-691a-18c61c736a2e">
+      <Execution id="d64beda1-54fd-49dd-bef6-cc61f7f3fff9" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFullAdder" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b6d29eda-f6bf-4518-691a-18c61c736a2e" executionId="d64beda1-54fd-49dd-bef6-cc61f7f3fff9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d64beda1-54fd-49dd-bef6-cc61f7f3fff9" testId="b6d29eda-f6bf-4518-691a-18c61c736a2e" testName="TestFullAdder" computerName="RJKING-PC" duration="00:00:00.0105361" startTime="2013-08-26T08:51:48.0833309-07:00" endTime="2013-08-26T08:51:48.2237311-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d64beda1-54fd-49dd-bef6-cc61f7f3fff9">
+      <Output>
+        <StdOut>x[0] y[0] = Result[FalseFalseFalse]
+x[1] y[0] = Result[FalseFalseTrue]
+x[2] y[0] = Result[FalseTrueFalse]
+x[3] y[0] = Result[FalseTrueTrue]
+x[0] y[1] = Result[FalseFalseTrue]
+x[1] y[1] = Result[FalseFalseFalse]
+x[2] y[1] = Result[FalseTrueTrue]
+x[3] y[1] = Result[FalseTrueFalse]
+x[0] y[2] = Result[FalseTrueFalse]
+x[1] y[2] = Result[FalseTrueTrue]
+x[2] y[2] = Result[FalseFalseFalse]
+x[3] y[2] = Result[FalseFalseTrue]
+x[0] y[3] = Result[FalseTrueTrue]
+x[1] y[3] = Result[FalseTrueFalse]
+x[2] y[3] = Result[FalseFalseTrue]
+x[3] y[3] = Result[FalseFalseFalse]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

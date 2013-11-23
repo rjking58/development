@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\bin\Debug\WPFTest2.exe
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\bin\Debug\WPFTest2.pdb
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\MainWindow.baml
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\MainWindow.g.cs
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\App.g.cs
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\WPFTest2_MarkupCompile.cache
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\WPFTest2.g.resources
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\WPFTest2.Properties.Resources.resources
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\WPFTest2.exe
+C:\Development\SOURCE\csharp\WPFTest2\WPFTest2\obj\x86\Debug\WPFTest2.pdb

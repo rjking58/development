@@ -1,0 +1,5 @@
+bin\Debug\PropertiesTest.exe
+bin\Debug\PropertiesTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PropertiesTest.exe
+obj\Debug\PropertiesTest.pdb

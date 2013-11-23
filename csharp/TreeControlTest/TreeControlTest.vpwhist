@@ -1,0 +1,34 @@
+[Global]
+CurrentProject=TreeControlTest\TreeControlTest.vpj
+[ActiveConfig]
+TreeControlTest\TreeControlTest.vpj=,Debug|x86
+[ProjectDates]
+TreeControlTest\TreeControlTest.csproj=20110805001947215
+[TreeExpansion2]
+- TreeControlTest\TreeControlTest.csproj
+  + Properties
+    - TreeControlTest\Properties\AssemblyInfo.cs
+    - TreeControlTest\Properties\Resources.Designer.cs
+    - TreeControlTest\Properties\Resources.resx
+    - TreeControlTest\Properties\Settings.Designer.cs
+    - TreeControlTest\Properties\Settings.settings
+  - TreeControlTest\Form1.cs
+  - TreeControlTest\Form1.Designer.cs
+  - TreeControlTest\Form1.resx
+  - TreeControlTest\Program.cs
+scroll:0
+[State]
+SCREEN: 1680 1050 1986 101 1187 889 0 0 M 0 0 0 0 1484 587 0
+CWD: \coreplatform\Trunk\SMEvent\android\jni
+FILEHIST: 9
+TreeControlTest\Form1.cs
+\coreplatform\Branches\SODAJsonDBProject\JSONTools\BulkWriteToDB\bin\Debug\samplecommands_v1.txt
+..\..\..\Core1_5\UIFramework\qlm-win7-23hrs-diff.log
+\coreplatform\Tags\SMEvent\2.4.3.34\src\SMEvent\SMEvent.mk
+\coreplatform\Tags\SMEvent\2.4.3.34\android\jni\Android.mk
+\cygwin\home\rking\AndroidWork\SMEventAndroid\SMEventJavaEngineSupport\jni\picolinux\Android.mk
+\coreplatform\Tags\SMEvent\2.4.3.34\ReleaseNotes.txt
+\coreplatform\Trunk\SMEvent\android\jni\Application.mk
+\coreplatform\Trunk\SMEvent\android\jni\Android.mk
+PROJECT_CACHE: 0
+TBCLASS: 0 0

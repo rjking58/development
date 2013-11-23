@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\PointerSemantics\bin\Debug\PointerSemantics.exe
+C:\Volatile\Source\csharp2\vs2005Projs\PointerSemantics\bin\Debug\PointerSemantics.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\PointerSemantics\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\PointerSemantics\obj\Debug\PointerSemantics.exe
+C:\Volatile\Source\csharp2\vs2005Projs\PointerSemantics\obj\Debug\PointerSemantics.pdb

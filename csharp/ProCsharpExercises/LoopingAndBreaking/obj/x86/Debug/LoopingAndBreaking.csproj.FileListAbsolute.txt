@@ -1,0 +1,10 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\LoopingAndBreaking\bin\Debug\LoopingAndBreaking.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\LoopingAndBreaking\bin\Debug\LoopingAndBreaking.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\LoopingAndBreaking\bin\Debug\LoopingAndBreaking.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\LoopingAndBreaking\bin\Debug\LoopingAndBreaking.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\LoopingAndBreaking\obj\x86\Debug\LoopingAndBreaking.pdb

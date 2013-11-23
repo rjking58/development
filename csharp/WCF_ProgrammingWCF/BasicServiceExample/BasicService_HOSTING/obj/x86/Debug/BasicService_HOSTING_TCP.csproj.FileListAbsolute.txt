@@ -1,0 +1,8 @@
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.dll
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.pdb

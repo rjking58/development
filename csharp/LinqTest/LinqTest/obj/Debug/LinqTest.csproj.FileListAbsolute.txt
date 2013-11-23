@@ -1,0 +1,6 @@
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\bin\Debug\LinqTest.exe.config
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\bin\Debug\LinqTest.exe
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\bin\Debug\LinqTest.pdb
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\obj\Debug\LinqTest.exe
+C:\Development\SOURCE\csharp\LinqTest\LinqTest\obj\Debug\LinqTest.pdb

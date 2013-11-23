@@ -1,0 +1,10 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\bin\Debug\CustomSerialization.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\bin\Debug\CustomSerialization.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\bin\Debug\CustomSerialization.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\bin\Debug\CustomSerialization.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\obj\x86\Debug\CustomSerialization.pdb

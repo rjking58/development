@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Program.cs;C:\Volatile\Development\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\ds\5admvklx.his;27;0;0
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\CustomSerialization\Program.cs;C:\Volatile\Development\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\ds\pxcsvajc.r3i;31;0;0
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EncodingUsage\Program.cs;C:\Volatile\Development\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\ds\btoul22e.clm;39;0;0
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\PopulatingStructsCSharp\Class1.cs;C:\Volatile\Development\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\ds\l5myq35q.fe0;45;0;0

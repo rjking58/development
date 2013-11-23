@@ -1,0 +1,253 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class ArchestrAServices.Common.Impersonator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Fields:
+    Int32 LOGON32_LOGON_INTERACTIVE = 2 : Public, Static, Literal, HasDefault
+    Int32 LOGON32_LOGON_SERVICE = 3 : Public, Static, Literal, HasDefault
+    Int32 LOGON32_PROVIDER_DEFAULT = 0 : Public, Static, Literal, HasDefault
+  Methods:
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    LogonUser(String, String, String, Int32, Int32, IntPtr&): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    CloseHandle(IntPtr): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+    GetAdminUserDetails(String&(Out, HasFieldMarshal), String&(Out, HasFieldMarshal), String&(Out, HasFieldMarshal)): PrivateScope, Public, Static, HideBySig, PinvokeImpl
+Class ArchestrAServices.Common.HostNameValidator: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsValidHostAddress(String): PrivateScope, Public, Static, HideBySig
+    IsValidIPAddress(String): PrivateScope, Public, Static, HideBySig
+    IsValidFQDNAddress(String): PrivateScope, Public, Static, HideBySig
+    IsValidNodeName(String): PrivateScope, Public, Static, HideBySig
+    IsEndpointEquals(String, String): PrivateScope, Public, Static, HideBySig
+    IsHostAddressEquals(String, String): PrivateScope, Public, Static, HideBySig
+    GetHostName(String, Boolean): PrivateScope, Public, Static, HideBySig
+    GetHostName(String, Boolean, Int32&(Out)): PrivateScope, Public, Static, HideBySig
+    IsLocalMachine(String): PrivateScope, Public, Static, HideBySig
+    IsLocalIPAddress(String): PrivateScope, Public, Static, HideBySig
+    GetHostAddresses(Uri): PrivateScope, Public, Static, HideBySig
+    GetHostAddresses(String): PrivateScope, Public, Static, HideBySig
+    IsRemoteNodeSameasSRNode(String, String): PrivateScope, Public, Static, HideBySig
+    IsValidateEndpointUri(String): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Common.DPUtility: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Store): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Encrypt(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Decrypt(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    GetOptionalEntropy(): PrivateScope, Public, HideBySig
+Struct ArchestrAServices.Common.DPUtility+Store: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    Store USE_MACHINE_STORE = 1 : Public, Static, Literal, HasDefault
+    Store USE_USER_STORE = 2 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.Common.SvcTrace: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Diagnostics.TraceSource DiagData : Public, Static
+    System.Diagnostics.TraceSource DiagControl : Public, Static
+    System.Diagnostics.TraceSource DiagCommand : Public, Static
+    System.Diagnostics.TraceSource DiagException : Public, Static
+    System.Diagnostics.TraceSource DiagDiagnostics : Public, Static
+    System.Diagnostics.TraceSource DiagCsv : Public, Static
+Class ArchestrAServices.Common.ConfigurationRepository: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    InsertExtractedParameter(XElement, String, String(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ExtractValueFromKey(XElement, String, String): PrivateScope, Public, Static, HideBySig
+    InsertParameter(String, String): PrivateScope, Public, HideBySig
+    GetParameter(String): PrivateScope, Public, HideBySig
+    GetParameter(String, String): PrivateScope, Public, HideBySig
+Struct ArchestrAServices.Common.ASBEndpointDescription: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(System.Uri, System.String, System.ServiceModel.Channels.Binding): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Uri EndpointAddress : Public
+    System.String EndpointInterface : Public
+    System.ServiceModel.Channels.Binding EndpointBinding : Public
+Class ArchestrAServices.Common.SvcUtilities: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    ArchestrAServices.Common.ConfigurationRepository asbCommonConfiguration : Public, Static
+    System.String MetaOuterElement : Public, Static
+    System.String MetaReplicationElement : Public, Static
+    System.String MetaReplicationAttributeName : Public, Static
+    System.String MetaReplicationAttributeValue : Public, Static
+    System.String AsbCoreServiceScope = archestra://coreservices : Public, Static, Literal, HasDefault
+    System.String AsbUserServiceScope = archestra://asb/ : Public, Static, Literal, HasDefault
+    System.String ServiceNameScope = instancename/ : Public, Static, Literal, HasDefault
+    System.String ServiceVersionScope = serviceversion/ : Public, Static, Literal, HasDefault
+    System.String DataTypeScope = datatype/ : Public, Static, Literal, HasDefault
+    System.String SolutionNameScope = asbsolution/ : Public, Static, Literal, HasDefault
+    System.String DomainScope = domainname/ : Public, Static, Literal, HasDefault
+    System.String NamespaceScope = namespace/ : Public, Static, Literal, HasDefault
+  Methods:
+    ParseCommandLine(String[], String): PrivateScope, Public, Static, HideBySig
+    GetBinding(String): PrivateScope, Public, Static, HideBySig
+    GetTcpBinding(): PrivateScope, Public, Static, HideBySig
+    GetHttpBinding(): PrivateScope, Public, Static, HideBySig
+    GetWSHttpBinding(): PrivateScope, Public, Static, HideBySig
+    ParseEndpoints(XElement): PrivateScope, Public, Static, HideBySig
+    GetAddressPrefix(String, Binding&(Out)): PrivateScope, Public, Static, HideBySig
+    GetEndPointAddress(Uri): PrivateScope, Public, Static, HideBySig
+    GetEndPointAddress(Uri, Boolean): PrivateScope, Public, Static, HideBySig
+    GetEndpointUri(Uri, Boolean): PrivateScope, Public, Static, HideBySig
+    GetEndpointListenUri(Uri): PrivateScope, Public, Static, HideBySig
+    FindAvailablePortOnMachine(): PrivateScope, Public, Static, HideBySig
+    GetDiscoveryEndpointMetada(EndpointDiscoveryMetadata): PrivateScope, Public, Static, HideBySig
+    ReadKeyValue(String, String): PrivateScope, Public, Static, HideBySig
+    GetLocalDiscoveryInfoFromWatchdogConfigFile(String, String&(Out)): PrivateScope, Public, Static, HideBySig
+    GetDiscoveryInfoFromWatchdogConfigFile(String, String&(Out), String&(Out)): PrivateScope, Public, Static, HideBySig
+    GetDiscoveryEndpoint(): PrivateScope, Public, Static, HideBySig
+    UpdateWatchDogFile(String, String, String): PrivateScope, Public, Static, HideBySig
+    ReadWatchdogConfigFilePath(): PrivateScope, Public, Static, HideBySig
+    PersistDiscoveryInfo(String, String): PrivateScope, Public, Static, HideBySig
+    WriteKeyValue(String, String, String): PrivateScope, Public, Static, HideBySig
+    IsKeyExist(String, String): PrivateScope, Public, Static, HideBySig
+    CreateKeysIfNotExist(String): PrivateScope, Public, Static, HideBySig
+    CreateRegisterScopes(String, String, String, String, String, XElement, List`1): PrivateScope, Public, Static, HideBySig
+    CreateFindScopes(String, String, String, String, String, List`1): PrivateScope, Public, Static, HideBySig
+    CreateRegisterScopes(String, String, String, XElement, List`1): PrivateScope, Public, Static, HideBySig
+    CreateFindScopes(String, String, String, List`1): PrivateScope, Public, Static, HideBySig
+    IsGRInstalled(String&(Out)): PrivateScope, Public, Static, HideBySig
+    IsAnyPlatformIsDeployed(String&(Out), String&(Out), String&(Out)): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Common.ServiceShutdownControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ShutdownCallback): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    WaitForShutdown(String): PrivateScope, Public, HideBySig
+    SignalShutdown(Process, String): PrivateScope, Public, Static, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Common.ServiceShutdownControl+ShutdownCallback: AutoLayout, AnsiClass, Class, NestedPublic, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Struct ArchestrAServices.Common.RegistryChangeFilter: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Common.RegistryChangeFilter SubKey = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Common.RegistryChangeFilter Attributes = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Common.RegistryChangeFilter Value = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Common.RegistryChangeFilter Security = 8 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.Common.RegistryWatcher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    ArchestrAServices.Common.RegistryChangeFilter RegistryChangeNotifyFilter 'get set' : 
+    Boolean EnableRaisingEvents 'get set' : 
+  Events:
+    System.EventHandler Changed: 
+  Methods:
+    add_Changed(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Changed(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    get_RegistryChangeNotifyFilter(): PrivateScope, Public, HideBySig, SpecialName
+    set_RegistryChangeNotifyFilter(RegistryChangeFilter): PrivateScope, Public, HideBySig, SpecialName
+    get_EnableRaisingEvents(): PrivateScope, Public, HideBySig, SpecialName
+    set_EnableRaisingEvents(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    SetRegistryPath(RegistryHive, String): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Common.ASBConfigurationInformation: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String SolutionName 'get set' : 
+    System.String Generator 'get set' : 
+    System.String Prime 'get set' : 
+    System.String HashAlgorithm 'get set' : 
+    System.String InitializationVector 'get set' : 
+    System.String SaltValue 'get set' : 
+    Int32 PasswordDerivationIterations 'get set' : 
+    Int32 KeySize 'get set' : 
+    System.String EncryptedSharedSecret 'get set' : 
+    System.String EncryptedCertificate 'get set' : 
+    System.String IsDefault 'get set' : 
+    System.String SRNodeName 'get set' : 
+    System.String PrimaryGlobalDiscovery 'get set' : 
+    System.String SecondaryGlobalDiscovery 'get set' : 
+    System.String PrimaryUniversalDiscovery 'get set' : 
+    System.String SecondaryUniversalDiscovery 'get set' : 
+  Methods:
+    get_SolutionName(): PrivateScope, Public, HideBySig, SpecialName
+    set_SolutionName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Generator(): PrivateScope, Public, HideBySig, SpecialName
+    set_Generator(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Prime(): PrivateScope, Public, HideBySig, SpecialName
+    set_Prime(String): PrivateScope, Public, HideBySig, SpecialName
+    get_HashAlgorithm(): PrivateScope, Public, HideBySig, SpecialName
+    set_HashAlgorithm(String): PrivateScope, Public, HideBySig, SpecialName
+    get_InitializationVector(): PrivateScope, Public, HideBySig, SpecialName
+    set_InitializationVector(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SaltValue(): PrivateScope, Public, HideBySig, SpecialName
+    set_SaltValue(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PasswordDerivationIterations(): PrivateScope, Public, HideBySig, SpecialName
+    set_PasswordDerivationIterations(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_KeySize(): PrivateScope, Public, HideBySig, SpecialName
+    set_KeySize(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_EncryptedSharedSecret(): PrivateScope, Public, HideBySig, SpecialName
+    set_EncryptedSharedSecret(String): PrivateScope, Public, HideBySig, SpecialName
+    get_EncryptedCertificate(): PrivateScope, Public, HideBySig, SpecialName
+    set_EncryptedCertificate(String): PrivateScope, Public, HideBySig, SpecialName
+    get_IsDefault(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsDefault(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SRNodeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_SRNodeName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PrimaryGlobalDiscovery(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryGlobalDiscovery(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryGlobalDiscovery(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryGlobalDiscovery(String): PrivateScope, Public, HideBySig, SpecialName
+    get_PrimaryUniversalDiscovery(): PrivateScope, Public, HideBySig, SpecialName
+    set_PrimaryUniversalDiscovery(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SecondaryUniversalDiscovery(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecondaryUniversalDiscovery(String): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.Common.RegistryHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ASBSolutionsSubkey : Public, Static
+    System.String ASBRegistration : Public, Static
+    System.String LDSPort : Public, Static
+    System.String PGDSEndPoint : Public, Static
+    System.String SGDSEndPoint : Public, Static
+    System.String PUDSEndPoint : Public, Static
+    System.String SUDSEndPoint : Public, Static
+    System.String LDSEndPoint : Public, Static
+  Properties:
+    System.String RegistryPath 'get ' : 
+    System.String ASBSolutionPath 'get ' : 
+    System.String ASBNodeRegistraion 'get ' : 
+  Methods:
+    get_RegistryPath(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ASBSolutionPath(): PrivateScope, Public, Static, HideBySig, SpecialName
+    get_ASBNodeRegistraion(): PrivateScope, Public, Static, HideBySig, SpecialName
+    MakeLDSProbeEndpointAddress(String): PrivateScope, Public, Static, HideBySig
+    MakeLDSEndpointAddress(String): PrivateScope, Public, Static, HideBySig
+    DeleteFromRegistry(String): PrivateScope, Public, Static, HideBySig
+    CreateASBConfigInfoStructureInRegistry(ASBConfigurationInformation, String, Boolean): PrivateScope, Public, Static, HideBySig
+    GetSrNode(String&(Out)): PrivateScope, Public, Static, HideBySig
+    GetSrNode(String, String&(Out)): PrivateScope, Public, Static, HideBySig
+    GetDefaultSolutionName(String&(Out)): PrivateScope, Public, Static, HideBySig
+    GetSolutionPassphrase(String, String&(Out)): PrivateScope, Public, Static, HideBySig
+    EnumerateSolutionsAtThisNode(): PrivateScope, Public, Static, HideBySig
+    GenerateXMLExtraInfo(List`1): PrivateScope, Public, Static, HideBySig
+    ParseXMLExtraInfo(String): PrivateScope, Public, Static, HideBySig

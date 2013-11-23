@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\String64ToString\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\String64ToString\bin\Debug\String64ToString.exe
+C:\Volatile\Source\csharp2\vs2005Projs\String64ToString\bin\Debug\String64ToString.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\String64ToString\obj\Debug\String64ToString.exe
+C:\Volatile\Source\csharp2\vs2005Projs\String64ToString\obj\Debug\String64ToString.pdb

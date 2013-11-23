@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errorList xmlns="http://www.klocwork.com/inForce/report/1.0" version="Unknown">
+<problem>
+ <file>C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs</file>
+ <method>Main</method>
+ <line>68</line>
+ <column>13</column>
+ <code>CS.RLK</code>
+ <message>Object referenced by &apos;another_X&apos; is lost, but related resources are not disposed</message>
+ <anchor>0</anchor>
+ <prefix>ther_X=newX(&quot;uncalled_dispose&quot;);</prefix>
+ <postfix>Console.WriteLine(&quot;callingDispos</postfix>
+ <trace>
+  <traceBlock file="C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs" method="Main" id="0">
+   <traceLine line="67" text="Resource-critical object is allocated and referenced by &apos;another_X&apos;" type="E"/>
+   <traceLine line="68" text="&apos;another_X&apos; is modified. Referenced object is lost, but related resources are not disposed" type="E"/>
+  </traceBlock>
+ </trace>
+ <citingStatus>Analyze</citingStatus>
+ <state>New</state>
+</problem>
+</errorList>

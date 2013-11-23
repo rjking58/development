@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0819f1f6-5dd4-4db3-966a-79bbe342ba05" name="Richard.King@RICHARDK01 2012-11-13 16:10:47" runUser="CORP\Richard.King" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="71740025-2c18-4d46-b8c3-d5d14a35a5be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Richard.King_RICHARDK01 2012-11-13 16_10_47">
+      <DeploymentItem filename="C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\bin\Debug\CsharpToCSharpMarshall.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-11-13T16:10:47.2948886-08:00" queuing="2012-11-13T16:10:47.3668958-08:00" start="2012-11-13T16:10:47.3738965-08:00" finish="2012-11-13T16:10:47.7219313-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NullArrayTest" storage="c:\volatile\source\csharp\marshallingbinaryxferexample\csharptocsharpmarshaluts\bin\debug\csharptocsharpmarshaluts.dll" id="bd3836dc-d1b1-1958-00cf-3bb5a42d07cc">
+      <Execution id="287b9ad4-117e-46f0-bc5e-5b870e949f71" />
+      <TestMethod codeBase="C:/Volatile/Source/csharp/MarshallingBinaryXferExample/CSharpToCSharpMarshalUTs/bin/Debug/CSharpToCSharpMarshalUTs.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CSharpToCSharpMarshalUTs.CSharpToCSharpMarshalUTs, CSharpToCSharpMarshalUTs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullArrayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bd3836dc-d1b1-1958-00cf-3bb5a42d07cc" executionId="287b9ad4-117e-46f0-bc5e-5b870e949f71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="287b9ad4-117e-46f0-bc5e-5b870e949f71" testId="bd3836dc-d1b1-1958-00cf-3bb5a42d07cc" testName="NullArrayTest" computerName="RICHARDK01" duration="00:00:00.0400859" startTime="2012-11-13T16:10:47.3818973-08:00" endTime="2012-11-13T16:10:47.7039295-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="287b9ad4-117e-46f0-bc5e-5b870e949f71">
+      <Output>
+        <StdOut>02 00 00 00 01 00 02 00 00 00 00 00 1D 00 00 00 
+                                                
+
+74 65 73 74 69 6E 67 20 63 6F 6E 74 65 78 74 6E 
+t  e  s  t  i  n  g     c  o  n  t  e  x  t  n  
+
+61 6D 65 20 73 74 72 69 6E 67 20 23 34 05 00 00 
+a  m  e     s  t  r  i  n  g        4           
+
+00 00 00 00 00 00 5B 48 D9 A1 13 90 CF 88 01 06 
+                     H  Ù           Ï           
+
+00 07 00 00 00 00 00 00 00 08 00 00 00 00 09 00 
+                                          	     
+
+0A 00 00 00 00 00 00 00 02 00 03 00 00 00 00 00 
+
+                                               
+
+1D 00 00 00 74 65 73 74 69 6E 67 20 63 6F 6E 74 
+            t  e  s  t  i  n  g     c  o  n  t  
+
+65 78 74 6E 61 6D 65 20 73 74 72 69 6E 67 20 23 
+e  x  t  n  a  m  e     s  t  r  i  n  g        
+
+35 06 00 00 00 00 00 00 00 00 5B 48 D9 A1 13 90 
+5                                H  Ù           
+
+CF 88 01 07 00 08 00 00 00 00 00 00 00 09 00 00 
+Ï</StdOut>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;&gt;. </Message>
+          <StackTrace>   at CSharpToCSharpMarshalUTs.CSharpToCSharpMarshalUTs.NullArrayTest() in C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\CSharpToCSharpMarshalUTs.cs:line 234
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

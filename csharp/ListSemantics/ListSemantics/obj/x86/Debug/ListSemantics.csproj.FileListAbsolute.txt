@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\ListSemantics\ListSemantics\bin\Debug\ListSemantics.exe
+C:\Development\SOURCE\csharp\ListSemantics\ListSemantics\bin\Debug\ListSemantics.pdb
+C:\Development\SOURCE\csharp\ListSemantics\ListSemantics\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ListSemantics\ListSemantics\obj\x86\Debug\ListSemantics.exe
+C:\Development\SOURCE\csharp\ListSemantics\ListSemantics\obj\x86\Debug\ListSemantics.pdb

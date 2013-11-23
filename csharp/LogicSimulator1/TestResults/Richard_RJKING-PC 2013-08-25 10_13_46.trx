@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3810c1ce-d690-47c3-96a7-5ebcf4011bd5" name="Richard@RJKING-PC 2013-08-25 10:13:46" runUser="rjking-PC\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="940c159d-505b-4526-97d2-4856d710da73">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Richard_RJKING-PC 2013-08-25 10_13_46">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\LogicSimulator1\LogicSimulator1\bin\Debug\LogicSimulator1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-25T10:13:46.3475144-07:00" queuing="2013-08-25T10:13:46.3985174-07:00" start="2013-08-25T10:13:46.4045177-07:00" finish="2013-08-25T10:13:46.6705329-07:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="33" executed="33" passed="30" error="0" failed="3" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestOrGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="2a1fbb0e-ff5d-6e0f-de7a-4179d3ea21ef">
+      <Execution id="13dfe37f-79b3-40a4-9448-9eab2981f4d9" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestNAndGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="14f21329-3350-7f49-6671-3890159c08f3">
+      <Execution id="56508796-fe4d-4b33-8a6c-6c9b5494a6f0" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNAndGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestAndGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="38e08c4a-06f4-b630-843c-7925a5befcec">
+      <Execution id="ea23e53e-e641-4799-a86f-bfeed911dcb4" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestOrGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="30f181cb-bf1a-83b3-42e9-09f4661caf82">
+      <Execution id="6cec21ac-80b6-4051-857f-931df492b169" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestXNOrGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="71242f6c-eab3-8c91-08ef-eb79bf6dff13">
+      <Execution id="902d4b8a-c365-4f9a-b88a-6bd465512f01" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXNOrGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestNOrGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="e55bcf73-0e13-e791-8984-3921f693fe26">
+      <Execution id="4c6ee4bf-2a4f-484b-882f-cdd9ba8b3b17" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNOrGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestXOrGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="14c5f2e4-a923-aff5-f659-560f172f6c8c">
+      <Execution id="01044c33-466d-4413-9a1e-bf2697e29028" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXOrGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestOrGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="56ee8ac3-6f44-dc82-942d-e365e9e42753">
+      <Execution id="5e7dd1fd-bde4-416f-bb32-04b424d6d43f" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestXOrGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="4e743efb-0cf7-97f0-ccdc-c6a150c66f15">
+      <Execution id="7c52382f-8f0b-4319-80fd-37c04989e068" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXOrGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestNOrGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="50567949-4b62-083c-8f08-50579571fc41">
+      <Execution id="a921823d-2b53-410b-9a09-30cd543271ce" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNOrGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestNOrGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="43e0fd17-8169-0bdc-a973-8b2591cf392a">
+      <Execution id="d6da4fcf-27fe-4dd6-a049-7c223091f4ce" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNOrGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestBuiltUpNAndGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="619bc06d-7c1e-1c65-a4da-5711db5bdef8">
+      <Execution id="da10dab7-9fde-4b5c-ba12-ab267ee5d445" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuiltUpNAndGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestBuiltUpNAndGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="ba9dbdaa-ca26-83a5-1fbb-e1ec094e647d">
+      <Execution id="9868dea2-632f-4425-be0e-2559dafb0715" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuiltUpNAndGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestXNOrGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="53a1c6f2-17d4-54f0-1c50-08e9bb31ae0d">
+      <Execution id="a265aad9-6a45-4522-afd5-4b428f2e0baf" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXNOrGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestAndGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="fb5807f1-0805-bdda-69f2-b72d92489d4b">
+      <Execution id="8b06bf31-fbd0-42eb-a21e-47e17459a978" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestBuiltUpNAndGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="68572fa0-99d0-3a58-165a-5fa1db79e272">
+      <Execution id="a54f1310-2bcd-4e24-936b-4e0c0ddf5f24" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuiltUpNAndGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestNotGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="84f6f2e2-a62a-db86-a3c2-dfa45c2eedc6">
+      <Execution id="792e8a97-802e-4941-9931-bcff6e1e05e3" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNotGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestNOrGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="dba8be23-60de-d8b0-4f8d-264d831808e8">
+      <Execution id="8bba2958-3a0a-4230-b021-4cdcace865f9" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNOrGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestXOrGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="4006e5b3-8571-90d2-86c7-954bca43d150">
+      <Execution id="d26213aa-520c-4d9a-83f1-3a11099c6315" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXOrGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestAndGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="17349c0c-2b4f-df80-a53d-d3826f5da30f">
+      <Execution id="a367173e-6763-4a4f-bf55-72d09b63ff02" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestNotGateNoInput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="6cfa26c1-c57f-472b-54f0-d4f6db03ec89">
+      <Execution id="1c7f7bfe-6364-403b-8ae5-357ad3adb4a3" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNotGateNoInput" />
+    </UnitTest>
+    <UnitTest name="TestOrGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="60e535ce-241e-85aa-41a4-da6c2b175d54">
+      <Execution id="97e816c1-8809-46c6-bbe0-1683ea60a8f5" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestOrGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestNotGateBothConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="2da58501-8091-cf5c-2293-444a62a1155a">
+      <Execution id="1bbf1e76-93d3-4f5e-bf46-311a9918063e" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNotGateBothConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestXNOrGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="a6e9bc45-01d7-edce-9424-21181cb87c7c">
+      <Execution id="6cae8101-427b-497c-8874-bd1df62874d9" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXNOrGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestLatchAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="11e3e182-4492-bb13-512f-feeb8c1e5edb">
+      <Execution id="25db4ed0-923b-40a7-b421-0cbb6600a0a8" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestLatchAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestNAndGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="5004052d-044a-9c85-3dec-b5cdf3da3615">
+      <Execution id="17e813f7-b454-4982-9756-257dd7e4d847" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNAndGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestAndGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="65af5ec3-98f5-6fe0-248f-3dc622930795">
+      <Execution id="778a23da-1c07-4e8a-92eb-8e78eb8e5690" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAndGateAllConnectorsGood" />
+    </UnitTest>
+    <UnitTest name="TestXOrGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="9451fed8-058e-2690-6146-e2545d5be9c3">
+      <Execution id="cd2042cd-0e71-426a-b2ba-9a4e57952c56" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXOrGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestNAndGateNoOutput" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="3db94bd9-6b7a-b5f5-b54f-b64f1d001224">
+      <Execution id="5a9da713-63fc-4045-b79d-9bde8b39f815" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNAndGateNoOutput" />
+    </UnitTest>
+    <UnitTest name="TestXNOrGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="0b857c70-617e-b6ac-74d0-d4873a4b5e81">
+      <Execution id="05dfb58f-a468-4811-8548-4252ed684dc0" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXNOrGateNoInputA" />
+    </UnitTest>
+    <UnitTest name="TestConnector" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="f376a3fb-2337-ebca-50dd-519a0a42ead3">
+      <Execution id="90d3be8f-bc92-4980-8b6e-7602265a7960" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestConnector" />
+    </UnitTest>
+    <UnitTest name="TestNAndGateNoInputB" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="57a74ee9-4089-c06f-e5cc-ae14990cb458">
+      <Execution id="6c893d38-07a8-4559-919f-a5dfa60bf523" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNAndGateNoInputB" />
+    </UnitTest>
+    <UnitTest name="TestBuiltUpNAndGateNoInputA" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="f3fbd3b1-3e82-2a04-afc8-160df4c2c4d9">
+      <Execution id="65f96ca9-18fb-47fd-9ed0-ee1dc3ac6f2e" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestBuiltUpNAndGateNoInputA" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dba8be23-60de-d8b0-4f8d-264d831808e8" executionId="8bba2958-3a0a-4230-b021-4cdcace865f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3db94bd9-6b7a-b5f5-b54f-b64f1d001224" executionId="5a9da713-63fc-4045-b79d-9bde8b39f815" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="619bc06d-7c1e-1c65-a4da-5711db5bdef8" executionId="da10dab7-9fde-4b5c-ba12-ab267ee5d445" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba9dbdaa-ca26-83a5-1fbb-e1ec094e647d" executionId="9868dea2-632f-4425-be0e-2559dafb0715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="57a74ee9-4089-c06f-e5cc-ae14990cb458" executionId="6c893d38-07a8-4559-919f-a5dfa60bf523" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65af5ec3-98f5-6fe0-248f-3dc622930795" executionId="778a23da-1c07-4e8a-92eb-8e78eb8e5690" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68572fa0-99d0-3a58-165a-5fa1db79e272" executionId="a54f1310-2bcd-4e24-936b-4e0c0ddf5f24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f376a3fb-2337-ebca-50dd-519a0a42ead3" executionId="90d3be8f-bc92-4980-8b6e-7602265a7960" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38e08c4a-06f4-b630-843c-7925a5befcec" executionId="ea23e53e-e641-4799-a86f-bfeed911dcb4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cfa26c1-c57f-472b-54f0-d4f6db03ec89" executionId="1c7f7bfe-6364-403b-8ae5-357ad3adb4a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53a1c6f2-17d4-54f0-1c50-08e9bb31ae0d" executionId="a265aad9-6a45-4522-afd5-4b428f2e0baf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14f21329-3350-7f49-6671-3890159c08f3" executionId="56508796-fe4d-4b33-8a6c-6c9b5494a6f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6e9bc45-01d7-edce-9424-21181cb87c7c" executionId="6cae8101-427b-497c-8874-bd1df62874d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3fbd3b1-3e82-2a04-afc8-160df4c2c4d9" executionId="65f96ca9-18fb-47fd-9ed0-ee1dc3ac6f2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b857c70-617e-b6ac-74d0-d4873a4b5e81" executionId="05dfb58f-a468-4811-8548-4252ed684dc0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a1fbb0e-ff5d-6e0f-de7a-4179d3ea21ef" executionId="13dfe37f-79b3-40a4-9448-9eab2981f4d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11e3e182-4492-bb13-512f-feeb8c1e5edb" executionId="25db4ed0-923b-40a7-b421-0cbb6600a0a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb5807f1-0805-bdda-69f2-b72d92489d4b" executionId="8b06bf31-fbd0-42eb-a21e-47e17459a978" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5004052d-044a-9c85-3dec-b5cdf3da3615" executionId="17e813f7-b454-4982-9756-257dd7e4d847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2da58501-8091-cf5c-2293-444a62a1155a" executionId="1bbf1e76-93d3-4f5e-bf46-311a9918063e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9451fed8-058e-2690-6146-e2545d5be9c3" executionId="cd2042cd-0e71-426a-b2ba-9a4e57952c56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e743efb-0cf7-97f0-ccdc-c6a150c66f15" executionId="7c52382f-8f0b-4319-80fd-37c04989e068" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="56ee8ac3-6f44-dc82-942d-e365e9e42753" executionId="5e7dd1fd-bde4-416f-bb32-04b424d6d43f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71242f6c-eab3-8c91-08ef-eb79bf6dff13" executionId="902d4b8a-c365-4f9a-b88a-6bd465512f01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60e535ce-241e-85aa-41a4-da6c2b175d54" executionId="97e816c1-8809-46c6-bbe0-1683ea60a8f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43e0fd17-8169-0bdc-a973-8b2591cf392a" executionId="d6da4fcf-27fe-4dd6-a049-7c223091f4ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e55bcf73-0e13-e791-8984-3921f693fe26" executionId="4c6ee4bf-2a4f-484b-882f-cdd9ba8b3b17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="50567949-4b62-083c-8f08-50579571fc41" executionId="a921823d-2b53-410b-9a09-30cd543271ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17349c0c-2b4f-df80-a53d-d3826f5da30f" executionId="a367173e-6763-4a4f-bf55-72d09b63ff02" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4006e5b3-8571-90d2-86c7-954bca43d150" executionId="d26213aa-520c-4d9a-83f1-3a11099c6315" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30f181cb-bf1a-83b3-42e9-09f4661caf82" executionId="6cec21ac-80b6-4051-857f-931df492b169" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84f6f2e2-a62a-db86-a3c2-dfa45c2eedc6" executionId="792e8a97-802e-4941-9931-bcff6e1e05e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14c5f2e4-a923-aff5-f659-560f172f6c8c" executionId="01044c33-466d-4413-9a1e-bf2697e29028" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8bba2958-3a0a-4230-b021-4cdcace865f9" testId="dba8be23-60de-d8b0-4f8d-264d831808e8" testName="TestNOrGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0112144" startTime="2013-08-25T10:13:46.4065178-07:00" endTime="2013-08-25T10:13:46.5245246-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bba2958-3a0a-4230-b021-4cdcace865f9">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5a9da713-63fc-4045-b79d-9bde8b39f815" testId="3db94bd9-6b7a-b5f5-b54f-b64f1d001224" testName="TestNAndGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0005719" startTime="2013-08-25T10:13:46.5265247-07:00" endTime="2013-08-25T10:13:46.5285248-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a9da713-63fc-4045-b79d-9bde8b39f815">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="da10dab7-9fde-4b5c-ba12-ab267ee5d445" testId="619bc06d-7c1e-1c65-a4da-5711db5bdef8" testName="TestBuiltUpNAndGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0009300" startTime="2013-08-25T10:13:46.5295248-07:00" endTime="2013-08-25T10:13:46.5325250-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da10dab7-9fde-4b5c-ba12-ab267ee5d445">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9868dea2-632f-4425-be0e-2559dafb0715" testId="ba9dbdaa-ca26-83a5-1fbb-e1ec094e647d" testName="TestBuiltUpNAndGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0004647" startTime="2013-08-25T10:13:46.5335251-07:00" endTime="2013-08-25T10:13:46.5355252-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9868dea2-632f-4425-be0e-2559dafb0715">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c893d38-07a8-4559-919f-a5dfa60bf523" testId="57a74ee9-4089-c06f-e5cc-ae14990cb458" testName="TestNAndGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0004015" startTime="2013-08-25T10:13:46.5365252-07:00" endTime="2013-08-25T10:13:46.5385254-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c893d38-07a8-4559-919f-a5dfa60bf523">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="778a23da-1c07-4e8a-92eb-8e78eb8e5690" testId="65af5ec3-98f5-6fe0-248f-3dc622930795" testName="TestAndGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0004311" startTime="2013-08-25T10:13:46.5395254-07:00" endTime="2013-08-25T10:13:46.5405255-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="778a23da-1c07-4e8a-92eb-8e78eb8e5690">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a54f1310-2bcd-4e24-936b-4e0c0ddf5f24" testId="68572fa0-99d0-3a58-165a-5fa1db79e272" testName="TestBuiltUpNAndGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0004030" startTime="2013-08-25T10:13:46.5425256-07:00" endTime="2013-08-25T10:13:46.5435256-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a54f1310-2bcd-4e24-936b-4e0c0ddf5f24">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90d3be8f-bc92-4980-8b6e-7602265a7960" testId="f376a3fb-2337-ebca-50dd-519a0a42ead3" testName="TestConnector" computerName="RJKING-PC" duration="00:00:00.0001177" startTime="2013-08-25T10:13:46.5445257-07:00" endTime="2013-08-25T10:13:46.5465258-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90d3be8f-bc92-4980-8b6e-7602265a7960">
+    </UnitTestResult>
+    <UnitTestResult executionId="ea23e53e-e641-4799-a86f-bfeed911dcb4" testId="38e08c4a-06f4-b630-843c-7925a5befcec" testName="TestAndGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0004141" startTime="2013-08-25T10:13:46.5475259-07:00" endTime="2013-08-25T10:13:46.5495260-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea23e53e-e641-4799-a86f-bfeed911dcb4">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1c7f7bfe-6364-403b-8ae5-357ad3adb4a3" testId="6cfa26c1-c57f-472b-54f0-d4f6db03ec89" testName="TestNotGateNoInput" computerName="RJKING-PC" duration="00:00:00.0002624" startTime="2013-08-25T10:13:46.5505260-07:00" endTime="2013-08-25T10:13:46.5525262-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c7f7bfe-6364-403b-8ae5-357ad3adb4a3">
+    </UnitTestResult>
+    <UnitTestResult executionId="a265aad9-6a45-4522-afd5-4b428f2e0baf" testId="53a1c6f2-17d4-54f0-1c50-08e9bb31ae0d" testName="TestXNOrGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0005135" startTime="2013-08-25T10:13:46.5535262-07:00" endTime="2013-08-25T10:13:46.5555263-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a265aad9-6a45-4522-afd5-4b428f2e0baf">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="56508796-fe4d-4b33-8a6c-6c9b5494a6f0" testId="14f21329-3350-7f49-6671-3890159c08f3" testName="TestNAndGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0004346" startTime="2013-08-25T10:13:46.5565264-07:00" endTime="2013-08-25T10:13:46.5575264-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56508796-fe4d-4b33-8a6c-6c9b5494a6f0">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6cae8101-427b-497c-8874-bd1df62874d9" testId="a6e9bc45-01d7-edce-9424-21181cb87c7c" testName="TestXNOrGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0087230" startTime="2013-08-25T10:13:46.5595266-07:00" endTime="2013-08-25T10:13:46.5695271-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cae8101-427b-497c-8874-bd1df62874d9">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.ComponentTests.TestXNOrGateNoInputB() in C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\ComponentTests.cs:line 1198
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65f96ca9-18fb-47fd-9ed0-ee1dc3ac6f2e" testId="f3fbd3b1-3e82-2a04-afc8-160df4c2c4d9" testName="TestBuiltUpNAndGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0004761" startTime="2013-08-25T10:13:46.5715272-07:00" endTime="2013-08-25T10:13:46.5735274-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65f96ca9-18fb-47fd-9ed0-ee1dc3ac6f2e">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="05dfb58f-a468-4811-8548-4252ed684dc0" testId="0b857c70-617e-b6ac-74d0-d4873a4b5e81" testName="TestXNOrGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0014578" startTime="2013-08-25T10:13:46.5745274-07:00" endTime="2013-08-25T10:13:46.5775276-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05dfb58f-a468-4811-8548-4252ed684dc0">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.ComponentTests.TestXNOrGateNoInputA() in C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\ComponentTests.cs:line 1160
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="13dfe37f-79b3-40a4-9448-9eab2981f4d9" testId="2a1fbb0e-ff5d-6e0f-de7a-4179d3ea21ef" testName="TestOrGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0006175" startTime="2013-08-25T10:13:46.5785276-07:00" endTime="2013-08-25T10:13:46.5805278-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13dfe37f-79b3-40a4-9448-9eab2981f4d9">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25db4ed0-923b-40a7-b421-0cbb6600a0a8" testId="11e3e182-4492-bb13-512f-feeb8c1e5edb" testName="TestLatchAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0006058" startTime="2013-08-25T10:13:46.5815278-07:00" endTime="2013-08-25T10:13:46.5835279-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="25db4ed0-923b-40a7-b421-0cbb6600a0a8">
+      <Output>
+        <StdOut>Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Strobing Reset
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Strobing Set
+Q[False] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Strobing Reset
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Strobing Set
+Q[False] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Strobing Reset
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]
+Strobing Set
+Q[False] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Q[True] NOT_Q[False]
+Strobing Reset
+Q[False] NOT_Q[True]
+Q[False] NOT_Q[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8b06bf31-fbd0-42eb-a21e-47e17459a978" testId="fb5807f1-0805-bdda-69f2-b72d92489d4b" testName="TestAndGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0003782" startTime="2013-08-25T10:13:46.5855280-07:00" endTime="2013-08-25T10:13:46.5865281-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b06bf31-fbd0-42eb-a21e-47e17459a978">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="17e813f7-b454-4982-9756-257dd7e4d847" testId="5004052d-044a-9c85-3dec-b5cdf3da3615" testName="TestNAndGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0004164" startTime="2013-08-25T10:13:46.5885282-07:00" endTime="2013-08-25T10:13:46.5895283-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="17e813f7-b454-4982-9756-257dd7e4d847">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1bbf1e76-93d3-4f5e-bf46-311a9918063e" testId="2da58501-8091-cf5c-2293-444a62a1155a" testName="TestNotGateBothConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0002981" startTime="2013-08-25T10:13:46.5915284-07:00" endTime="2013-08-25T10:13:46.5935285-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1bbf1e76-93d3-4f5e-bf46-311a9918063e">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd2042cd-0e71-426a-b2ba-9a4e57952c56" testId="9451fed8-058e-2690-6146-e2545d5be9c3" testName="TestXOrGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0005655" startTime="2013-08-25T10:13:46.5945286-07:00" endTime="2013-08-25T10:13:46.5965287-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd2042cd-0e71-426a-b2ba-9a4e57952c56">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7c52382f-8f0b-4319-80fd-37c04989e068" testId="4e743efb-0cf7-97f0-ccdc-c6a150c66f15" testName="TestXOrGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0005360" startTime="2013-08-25T10:13:46.5975287-07:00" endTime="2013-08-25T10:13:46.5995288-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c52382f-8f0b-4319-80fd-37c04989e068">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5e7dd1fd-bde4-416f-bb32-04b424d6d43f" testId="56ee8ac3-6f44-dc82-942d-e365e9e42753" testName="TestOrGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0003977" startTime="2013-08-25T10:13:46.6005289-07:00" endTime="2013-08-25T10:13:46.6025290-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5e7dd1fd-bde4-416f-bb32-04b424d6d43f">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="902d4b8a-c365-4f9a-b88a-6bd465512f01" testId="71242f6c-eab3-8c91-08ef-eb79bf6dff13" testName="TestXNOrGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0012325" startTime="2013-08-25T10:13:46.6045291-07:00" endTime="2013-08-25T10:13:46.6065293-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="902d4b8a-c365-4f9a-b88a-6bd465512f01">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]</StdOut>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TestProject1.ComponentTests.TestXNOrGateAllConnectorsGood() in C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\ComponentTests.cs:line 1122
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="97e816c1-8809-46c6-bbe0-1683ea60a8f5" testId="60e535ce-241e-85aa-41a4-da6c2b175d54" testName="TestOrGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0004188" startTime="2013-08-25T10:13:46.6075293-07:00" endTime="2013-08-25T10:13:46.6095294-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97e816c1-8809-46c6-bbe0-1683ea60a8f5">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d6da4fcf-27fe-4dd6-a049-7c223091f4ce" testId="43e0fd17-8169-0bdc-a973-8b2591cf392a" testName="TestNOrGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0004568" startTime="2013-08-25T10:13:46.6105295-07:00" endTime="2013-08-25T10:13:46.6125296-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6da4fcf-27fe-4dd6-a049-7c223091f4ce">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4c6ee4bf-2a4f-484b-882f-cdd9ba8b3b17" testId="e55bcf73-0e13-e791-8984-3921f693fe26" testName="TestNOrGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0004910" startTime="2013-08-25T10:13:46.6145297-07:00" endTime="2013-08-25T10:13:46.6165298-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c6ee4bf-2a4f-484b-882f-cdd9ba8b3b17">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a921823d-2b53-410b-9a09-30cd543271ce" testId="50567949-4b62-083c-8f08-50579571fc41" testName="TestNOrGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0004404" startTime="2013-08-25T10:13:46.6175299-07:00" endTime="2013-08-25T10:13:46.6195300-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a921823d-2b53-410b-9a09-30cd543271ce">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[True]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a367173e-6763-4a4f-bf55-72d09b63ff02" testId="17349c0c-2b4f-df80-a53d-d3826f5da30f" testName="TestAndGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0004036" startTime="2013-08-25T10:13:46.6205301-07:00" endTime="2013-08-25T10:13:46.6225302-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a367173e-6763-4a4f-bf55-72d09b63ff02">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d26213aa-520c-4d9a-83f1-3a11099c6315" testId="4006e5b3-8571-90d2-86c7-954bca43d150" testName="TestXOrGateNoInputB" computerName="RJKING-PC" duration="00:00:00.0005392" startTime="2013-08-25T10:13:46.6235302-07:00" endTime="2013-08-25T10:13:46.6255303-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d26213aa-520c-4d9a-83f1-3a11099c6315">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[False]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6cec21ac-80b6-4051-857f-931df492b169" testId="30f181cb-bf1a-83b3-42e9-09f4661caf82" testName="TestOrGateNoInputA" computerName="RJKING-PC" duration="00:00:00.0004430" startTime="2013-08-25T10:13:46.6265304-07:00" endTime="2013-08-25T10:13:46.6285305-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6cec21ac-80b6-4051-857f-931df492b169">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[False]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[True]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="792e8a97-802e-4941-9931-bcff6e1e05e3" testId="84f6f2e2-a62a-db86-a3c2-dfa45c2eedc6" testName="TestNotGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0003624" startTime="2013-08-25T10:13:46.6525319-07:00" endTime="2013-08-25T10:13:46.6555321-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="792e8a97-802e-4941-9931-bcff6e1e05e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="01044c33-466d-4413-9a1e-bf2697e29028" testId="14c5f2e4-a923-aff5-f659-560f172f6c8c" testName="TestXOrGateNoOutput" computerName="RJKING-PC" duration="00:00:00.0004413" startTime="2013-08-25T10:13:46.6565321-07:00" endTime="2013-08-25T10:13:46.6585322-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01044c33-466d-4413-9a1e-bf2697e29028">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]
+Signal1[True] Signal2[False]
+Signal1[False] Signal2[True]
+Signal1[True] Signal2[True]
+Signal1[False] Signal2[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

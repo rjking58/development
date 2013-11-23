@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp2\vs2005Projs\TestWebsite\TestWebsite\bin\TestWebsite.dll
+C:\Development\SOURCE\csharp2\vs2005Projs\TestWebsite\TestWebsite\bin\TestWebsite.pdb
+C:\Development\SOURCE\csharp2\vs2005Projs\TestWebsite\TestWebsite\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp2\vs2005Projs\TestWebsite\TestWebsite\obj\Debug\TestWebsite.dll
+C:\Development\SOURCE\csharp2\vs2005Projs\TestWebsite\TestWebsite\obj\Debug\TestWebsite.pdb

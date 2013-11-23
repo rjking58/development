@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\bin\Debug\Chapter1SimpleQuery.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\bin\Debug\Chapter1SimpleQuery.pdb
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\obj\Debug\Chapter1SimpleQuery.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\obj\Debug\Chapter1SimpleQuery.pdb
+C:\GCS\Source\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\obj\Debug\Chapter1SimpleQuery.exe
+C:\GCS\Source\csharp\LinqForDummies\Chapter1SimpleQuery\Chapter1SimpleQuery\obj\Debug\Chapter1SimpleQuery.pdb

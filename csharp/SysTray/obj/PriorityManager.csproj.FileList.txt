@@ -1,0 +1,12 @@
+bin\Release\PriorityManager.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\PriorityManager.Disabled.ico
+obj\Release\PriorityManager.Enabled.ico
+obj\Release\PriorityManager.PriorityManager.resources
+obj\Release\PriorityManager.RunningProcessesForm.resources
+obj\Release\PriorityManager.SettingsForm.resources
+obj\Release\PriorityManager.SettingsItemForm.resources
+obj\Release\PriorityManager.ToastForm.resources
+obj\Release\PriorityManager.ROOT.CIMV2.Process.resources
+obj\Release\PriorityManager.csproj.GenerateResource.Cache
+obj\Release\PriorityManager.exe

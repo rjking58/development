@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8ec62560-93ff-40d3-adc9-34076a46ab32" name="Richard@RJKING-PC 2013-08-25 10:08:52" runUser="rjking-PC\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="940c159d-505b-4526-97d2-4856d710da73">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Development\SOURCE\csharp\LogicSimulator1\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Richard_RJKING-PC 2013-08-25 10_08_52">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\LogicSimulator1\LogicSimulator1\bin\Debug\LogicSimulator1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-25T10:08:52.3937012-07:00" queuing="2013-08-25T10:08:52.4437041-07:00" start="2013-08-25T10:08:52.4467043-07:00" finish="2013-08-25T10:08:52.5757116-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestXOrGateAllConnectorsGood" storage="c:\development\source\csharp\logicsimulator1\testproject1\bin\debug\testproject1.dll" id="4e743efb-0cf7-97f0-ccdc-c6a150c66f15">
+      <Execution id="8acd38fc-700c-4c40-a9b8-2ce027776295" />
+      <TestMethod codeBase="C:/Development/SOURCE/csharp/LogicSimulator1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ComponentTests, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestXOrGateAllConnectorsGood" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4e743efb-0cf7-97f0-ccdc-c6a150c66f15" executionId="8acd38fc-700c-4c40-a9b8-2ce027776295" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8acd38fc-700c-4c40-a9b8-2ce027776295" testId="4e743efb-0cf7-97f0-ccdc-c6a150c66f15" testName="TestXOrGateAllConnectorsGood" computerName="RJKING-PC" duration="00:00:00.0103782" startTime="2013-08-25T10:08:52.4487044-07:00" endTime="2013-08-25T10:08:52.5667111-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8acd38fc-700c-4c40-a9b8-2ce027776295">
+      <Output>
+        <StdOut>Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]
+Signal1[True] Signal2[False] = Result[True]
+Signal1[False] Signal2[True] = Result[True]
+Signal1[True] Signal2[True] = Result[False]
+Signal1[False] Signal2[False] = Result[False]</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

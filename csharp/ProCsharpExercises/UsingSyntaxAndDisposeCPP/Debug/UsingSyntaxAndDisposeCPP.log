@@ -1,0 +1,25 @@
+﻿Build started 3/11/2013 1:10:30 PM.
+     1>Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDisposeCPP\UsingSyntaxAndDisposeCPP.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\UsingSyntaxAndDisposeCPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         UsingSyntaxAndDisposeCPP.vcxproj -> C:\Volatile\Development\Source\csharp\ProCsharpExercises\Debug\UsingSyntaxAndDisposeCPP.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\UsingSyntaxAndDisposeCPP.unsuccessfulbuild".
+         Touching "Debug\UsingSyntaxAndDisposeCPP.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDisposeCPP\UsingSyntaxAndDisposeCPP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

@@ -1,0 +1,16 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.exe.config
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.exe
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\bin\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\bin\Release\WcfServiceLibrary1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\obj\x86\Release\HostWcfSvcLib1.exe
+C:\Volatile\Source\csharp\WCFPerformanceTest\HostWcfSvcLib1\obj\x86\Release\HostWcfSvcLib1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.exe.config
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.exe
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\bin\Release\HostWcfSvcLib1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\bin\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\bin\Release\WcfServiceLibrary1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\obj\x86\Release\HostWcfSvcLib1.exe
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\HostWcfSvcLib1\obj\x86\Release\HostWcfSvcLib1.pdb

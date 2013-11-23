@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\bin\Debug\LinqTest1.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\bin\Debug\LinqTest1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\bin\Debug\LinqTest1.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\obj\Debug\LinqTest1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LinqTest1\obj\Debug\LinqTest1.pdb
+C:\Development\SOURCE\csharp\LinqTest1\bin\Debug\LinqTest1.exe.config
+C:\Development\SOURCE\csharp\LinqTest1\obj\Debug\LinqTest1.pdb

@@ -1,0 +1,3 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\WcfServiceLibrary1\Service1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\.klocwork\cs.kwlp\ds\ttt2tpav.s2a;3;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\HostWcfSvcLib1\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\.klocwork\cs.kwlp\ds\jr3sphn0.qlv;4;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\CallTestService\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshal_CPPFeeder\.klocwork\cs.kwlp\ds\gn5xxupc.4ro;6;0;0

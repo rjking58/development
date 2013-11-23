@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\bin\Debug\ReflectionExamples.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\bin\Debug\ReflectionExamples.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\obj\x86\Debug\ReflectionExamples.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\obj\x86\Debug\ReflectionExamples.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ReflectionExamples\bin\Debug\ReflectionExamples.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ReflectionExamples\bin\Debug\ReflectionExamples.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ReflectionExamples\obj\x86\Debug\ReflectionExamples.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ReflectionExamples\obj\x86\Debug\ReflectionExamples.pdb

@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptake_CommonAssembly\TypeAssemblyUptake_CommonAssembly\Class1.cs;;1;0;0
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyV1\Class1.cs;;2;0;0

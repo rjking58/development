@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ProgressUITest.Form1.resources
+obj\Debug\ProgressUITest.Properties.Resources.resources
+obj\Debug\ProgressUITest.csproj.GenerateResource.Cache
+bin\Debug\ProgressUITest.exe
+bin\Debug\ProgressUITest.pdb
+obj\Debug\ProgressUITest.exe
+obj\Debug\ProgressUITest.pdb
+obj\Debug\ProgressUITest.ProgressDialog.resources

@@ -1,0 +1,8 @@
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\bin\Debug\TailSpinWebSite.Tests.dll.config
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\bin\Debug\TailSpinWebSite.Tests.dll
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\bin\Debug\TailSpinWebSite.Tests.pdb
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\bin\Debug\TailSpinWebSite.dll
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\bin\Debug\TailSpinWebSite.pdb
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\obj\Debug\TailSpinWebSite.Tests.dll
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite.Tests\obj\Debug\TailSpinWebSite.Tests.pdb

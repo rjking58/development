@@ -1,0 +1,911 @@
+﻿Build started 11/13/2012 10:35:48 AM.
+Environment at start of build:
+MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+LOCALAPPDATA = C:\Users\richard.king\AppData\Local
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\richard.king\AppData\Roaming
+ATRIA_FORCE_GUI = 1
+BPADir = C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\
+CLASSPATH = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest\cqjni.jar
+CLEARCASE_GROUPS = CORP\sgwwdevccusers
+CLEARCASE_PRIMARY_GROUP = CORP\sgwwdevccusers
+CLEARQUEST_HOME = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest
+CodedUITestCurrentBrowser = IE
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPLUS_LoadFromRemoteSources = 1
+COMPUTERNAME = RICHARDK01
+ComSpec = C:\Windows\system32\cmd.exe
+CQCLI_BIN_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin
+CQCLI_CLASSPATH = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\config;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\lib\cqcli.jar;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqjni.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\stpcmmn.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\stpwvcm.jar;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\stpcq.jar;C:\Program Files (x86)\IBM\RationalSDLC\common\java\icu\icu4j-3_8_1.jar
+CQCLI_CONFIG_DIR = C:\Program Files (x86)\IBM\RationalSDLC\clearquest\cqcli\config
+CQCLI_DOC_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\doc
+CQCLI_ERR_LEVEL = 1
+CQCLI_HOME = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest\cqcli
+CQCLI_LIB_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\lib
+CQCLI_MAN_DIR = C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\doc\man
+CQCLI_PATH = C:\Program Files (x86)\IBM\RationalSDLC\ClearQuest;C:\Program Files (x86)\IBM\RationalSDLC\Common;C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre\bin;C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre\bin\classic;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin
+DEFLOGDIR = C:\ProgramData\McAfee\DesktopProtection
+envsdk_regkey = 9.0;10.0;9.0;10.0
+FP_NO_HOST_CHECK = NO
+HOMEDRIVE = C:
+HOMEPATH = \Users\richard.king
+IBMLDAP_ALTHOME = C:\Program Files (x86)\IBM\RationalSDLC\common\codeset
+include = C:\Program Files (x86)\Microsoft Visual Studio\VC98\atl\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\include;C:\Program Files (x86)\Microsoft Visual Studio\VC98\include
+JRE_HOME = C:\Program Files (x86)\IBM\RationalSDLC\Common\Java5.0\jre
+lib = C:\Program Files (x86)\Microsoft Visual Studio\VC98\mfc\lib;C:\Program Files (x86)\Microsoft Visual Studio\VC98\lib
+LOGONSERVER = \\INVSLKFWDC01
+MSDevDir = C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98
+NUMBER_OF_PROCESSORS = 6
+OS = Windows_NT
+Path = C:\Klocwork\User 9.5\bin;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x86;C:\Program Files\Code Collaborator Client;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files (x86)\Notepad++\plugins\gtagfornplus
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PERL_INLINE_JAVA_JNI = 1
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 44 Stepping 2, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2c02
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+RATIONAL_COMMON = C:\Program Files (x86)\IBM\RationalSDLC\Common
+RATIONAL_COMMON_LIB = C:\Program Files (x86)\IBM\RationalSDLC\Common\lib
+RATIONAL_HOME = C:\Program Files (x86)\IBM\RationalSDLC
+RATIONAL_ICU4J_DIR = C:\Program Files (x86)\IBM\RationalSDLC\common\java\icu
+RATIONAL_ICU4J_VERSION = 3_8_1
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\RICHAR~1.KIN\AppData\Local\Temp
+TFSPowerToolDir = C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\
+TISDIR = C:\Program Files (x86)\IBM\RationalSDLC\common
+TMP = C:\Users\RICHAR~1.KIN\AppData\Local\Temp
+USERDNSDOMAIN = CORP.COM
+USERDOMAIN = CORP
+USERNAME = Richard.King
+USERPROFILE = C:\Users\richard.king
+VisualStudioDir = C:\Users\richard.king\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS90COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\Tools\
+VSEDEFLOGDIR = C:\ProgramData\McAfee\DesktopProtection
+VSSNSESLNASFLDR = 1
+windir = C:\Windows
+_NT_SYMBOL_PATH = C:\windbgSymbols;C:\temp2
+
+10:35:48.780     1>Project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" on node 2 (rebuild target(s)).
+10:35:48.780     1>Building with tools version "4.0".
+10:35:48.780     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\' != '' and !HasTrailingSlash('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+10:35:48.795     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "BinaryXfer.vcxproj".: (TargetId:2)
+10:35:48.795     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:48.795     1>Done building target "_DetermineManagedStateFromCL" in project "BinaryXfer.vcxproj".: (TargetId:3)
+10:35:48.795     1>Target "_PrepareForRebuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:48.795     1>Done building target "_PrepareForRebuild" in project "BinaryXfer.vcxproj".: (TargetId:4)
+10:35:48.795     1>Target "BeforeRebuild: (TargetId:5)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:48.795     1>Done building target "BeforeRebuild" in project "BinaryXfer.vcxproj".: (TargetId:5)
+10:35:48.795     1>Target "_PrepareForClean: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:4)
+                     Deleting file "Debug\BinaryXfer.lastbuildstate". (TaskId:4)
+                   Done executing task "Delete". (TaskId:4)
+10:35:48.811     1>Done building target "_PrepareForClean" in project "BinaryXfer.vcxproj".: (TargetId:6)
+10:35:48.811     1>Target "BeforeClean: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+10:35:48.811     1>Done building target "BeforeClean" in project "BinaryXfer.vcxproj".: (TargetId:7)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'library' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\BinaryXfer.vcxproj.UnmanagedRegistration.cache')).
+10:35:48.811     1>Target "CoreClean: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:5)
+                   Done executing task "Delete". (TaskId:5)
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:6)
+                   Done executing task "ReadLinesFromFile". (TaskId:6)
+                   Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "FindUnderPath" (TaskId:7)
+                     Comparison path is "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\". (TaskId:7)
+                   Done executing task "FindUnderPath". (TaskId:7)
+                   Task "FindUnderPath" (TaskId:8)
+                     Comparison path is "Debug\". (TaskId:8)
+                   Done executing task "FindUnderPath". (TaskId:8)
+                   Task "Delete" (TaskId:9)
+                   Done executing task "Delete". (TaskId:9)
+                   Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RemoveDuplicates" (TaskId:10)
+                   Done executing task "RemoveDuplicates". (TaskId:10)
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+10:35:48.811     1>Done building target "CoreClean" in project "BinaryXfer.vcxproj".: (TargetId:8)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+10:35:48.811     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+10:35:48.811     1>Done building target "_SplitProjectReferencesByFileExistence" in project "BinaryXfer.vcxproj".: (TargetId:9)
+10:35:48.811     1>Target "CleanReferencedProjects: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+10:35:48.811     1>Done building target "CleanReferencedProjects" in project "BinaryXfer.vcxproj".: (TargetId:10)
+10:35:48.811     1>Target "CleanPublishFolder: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\app.publish\'=='C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\app.publish\' and Exists('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\app.publish\')).
+10:35:48.811     1>Done building target "CleanPublishFolder" in project "BinaryXfer.vcxproj".: (TargetId:11)
+10:35:48.811     1>Target "AfterClean: (TargetId:12)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+10:35:48.811     1>Done building target "AfterClean" in project "BinaryXfer.vcxproj".: (TargetId:12)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+10:35:48.811     1>Target "BeforeCppClean: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CppClean" depends on it):
+10:35:48.811     1>Done building target "BeforeCppClean" in project "BinaryXfer.vcxproj".: (TargetId:13)
+10:35:48.811     1>Target "CoreCppClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:13)
+                   Done executing task "MakeDir". (TaskId:13)
+                   Using "CppClean" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CppClean" (TaskId:14)
+                   Done executing task "CppClean". (TaskId:14)
+                   Task "WriteLinesToFile" (TaskId:15)
+                   Done executing task "WriteLinesToFile". (TaskId:15)
+10:35:48.983     1>Done building target "CoreCppClean" in project "BinaryXfer.vcxproj".: (TargetId:14)
+10:35:48.983     1>Target "AfterCppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CppClean" depends on it):
+10:35:48.983     1>Done building target "AfterCppClean" in project "BinaryXfer.vcxproj".: (TargetId:15)
+10:35:48.983     1>Target "PGInstrumentedClean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:16)
+                   Done executing task "Delete". (TaskId:16)
+10:35:48.983     1>Done building target "PGInstrumentedClean" in project "BinaryXfer.vcxproj".: (TargetId:16)
+10:35:48.983     1>Target "CppClean: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Clean" depends on it):
+10:35:48.983     1>Done building target "CppClean" in project "BinaryXfer.vcxproj".: (TargetId:17)
+10:35:48.983     1>Target "Clean: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:48.983     1>Done building target "Clean" in project "BinaryXfer.vcxproj".: (TargetId:18)
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+10:35:48.983     1>Target "_PrepareForBuild: (TargetId:19)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:48.983     1>Done building target "_PrepareForBuild" in project "BinaryXfer.vcxproj".: (TargetId:19)
+10:35:48.983     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:17)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Klocwork\User 9.5\bin;C:\Program Files (x86)\IBM\RationalSDLC\Clearquest\cqcli\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\;C:\Program Files (x86)\Microsoft Team Foundation Server 2010 Power Tools\Best Practices Analyzer\;C:\Program Files (x86)\Code Collaborator Client;C:\Program Files (x86)\IBM\RationalSDLC\ClearCase\bin;C:\Program Files (x86)\IBM\RationalSDLC\common;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.0\Debuggers\x86;C:\Program Files\Code Collaborator Client;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files (x86)\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files (x86)\Microsoft Visual Studio\Common\Tools;C:\Program Files (x86)\Microsoft Visual Studio\VC98\bin;C:\Program Files (x86)\Notepad++\plugins\gtagfornplus; (TaskId:17)
+                   Done executing task "SetEnv". (TaskId:17)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:18)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:18)
+                   Done executing task "SetEnv". (TaskId:18)
+                   Task "SetEnv" (TaskId:19)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" (TaskId:20)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+10:35:48.998     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "BinaryXfer.vcxproj".: (TargetId:20)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:35:48.998     1>Target "BeforeResolveReferences: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveReferences" depends on it):
+10:35:48.998     1>Done building target "BeforeResolveReferences" in project "BinaryXfer.vcxproj".: (TargetId:21)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+10:35:48.998     1>Target "ResolveProjectReferences: (TargetId:22)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+10:35:49.014     1>Done building target "ResolveProjectReferences" in project "BinaryXfer.vcxproj".: (TargetId:22)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+10:35:49.014     1>Target "GetFrameworkPaths: (TargetId:23)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+10:35:49.014     1>Done building target "GetFrameworkPaths" in project "BinaryXfer.vcxproj".: (TargetId:23)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+10:35:49.014     1>Target "GetReferenceAssemblyPaths: (TargetId:24)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+10:35:49.014     1>Done building target "GetReferenceAssemblyPaths" in project "BinaryXfer.vcxproj".: (TargetId:24)
+10:35:49.014     1>Target "PlatformPrepareForBuild: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+10:35:49.014     1>Done building target "PlatformPrepareForBuild" in project "BinaryXfer.vcxproj".: (TargetId:25)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:49.014     1>Target "PrepareForBuild: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:22)
+                   Done executing task "MakeDir". (TaskId:22)
+10:35:49.014     1>Done building target "PrepareForBuild" in project "BinaryXfer.vcxproj".: (TargetId:26)
+10:35:49.014     1>Target "ResolveAssemblyReferences: (TargetId:27)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:23)
+                     TargetFrameworkMoniker: (TaskId:23)
+                         .NETFramework,Version=v4.0 (TaskId:23)
+                     TargetFrameworkMonikerDisplayName: (TaskId:23)
+                         .NET Framework 4 (TaskId:23)
+                     TargetedRuntimeVersion: (TaskId:23)
+                         v4.0.30319 (TaskId:23)
+                     Assemblies: (TaskId:23)
+                         System (TaskId:23)
+                         System.Data (TaskId:23)
+                         System.Xml (TaskId:23)
+                         System.Core (TaskId:23)
+                     AssemblyFiles: (TaskId:23)
+                     CandidateAssemblyFiles: (TaskId:23)
+                     TargetFrameworkDirectories: (TaskId:23)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:23)
+                     InstalledAssemblyTables: (TaskId:23)
+                     IgnoreInstalledAssemblyTable: (TaskId:23)
+                         False (TaskId:23)
+                     SearchPaths: (TaskId:23)
+                         {CandidateAssemblyFiles} (TaskId:23)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:23)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:23)
+                         {HintPathFromItem} (TaskId:23)
+                         {TargetFrameworkDirectory} (TaskId:23)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:23)
+                         {AssemblyFolders} (TaskId:23)
+                         {GAC} (TaskId:23)
+                         {RawFileName} (TaskId:23)
+                         C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\ (TaskId:23)
+                     AllowedAssemblyExtensions: (TaskId:23)
+                         .dll (TaskId:23)
+                         .exe (TaskId:23)
+                     AllowedRelatedFileExtensions: (TaskId:23)
+                         .pdb (TaskId:23)
+                         .xml (TaskId:23)
+                     AppConfigFile: (TaskId:23)
+                          (TaskId:23)
+                     AutoUnify: (TaskId:23)
+                         True (TaskId:23)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:23)
+                         True (TaskId:23)
+                     FindDependencies: (TaskId:23)
+                         True (TaskId:23)
+                     TargetProcessorArchitecture: (TaskId:23)
+                         x86 (TaskId:23)
+                     StateFile: (TaskId:23)
+                         Debug\ResolveAssemblyReference.cache (TaskId:23)
+                     InstalledAssemblySubsetTables: (TaskId:23)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:23)
+                         False (TaskId:23)
+                     TargetFrameworkSubsets: (TaskId:23)
+                     FullTargetFrameworkSubsetNames: (TaskId:23)
+                         Full (TaskId:23)
+                     ProfileName: (TaskId:23)
+                          (TaskId:23)
+                     ProfileFullFrameworkFolders: (TaskId:23)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:23)
+                     LatestTargetFrameworkDirectories: (TaskId:23)
+                     ProfileTablesLocation: (TaskId:23)
+                     Primary reference "System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:23)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll". (TaskId:23)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:23)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.exe", but it didn't exist. (TaskId:23)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:23)
+                     Primary reference "System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:23)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll". (TaskId:23)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Data.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Data.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Data.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Data.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:23)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.exe", but it didn't exist. (TaskId:23)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:23)
+                     Primary reference "System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:23)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll". (TaskId:23)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Xml.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Xml.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Xml.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Xml.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:23)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.exe", but it didn't exist. (TaskId:23)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:23)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:23)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:23)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:23)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:23)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:23)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.exe", but it didn't exist. (TaskId:23)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:23)
+                   Done executing task "ResolveAssemblyReference". (TaskId:23)
+10:35:49.029     1>Done building target "ResolveAssemblyReferences" in project "BinaryXfer.vcxproj".: (TargetId:27)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+10:35:49.029     1>Target "AfterResolveReferences: (TargetId:28)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResolveReferences" depends on it):
+10:35:49.029     1>Done building target "AfterResolveReferences" in project "BinaryXfer.vcxproj".: (TargetId:28)
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+                   Target "MolesGenerateBeforeBuild" skipped, due to false condition; (@(Moles) != '' AND '$(BuildingProject)' == 'true') was evaluated as ( != '' AND 'true' == 'true').
+10:35:49.029     1>Target "ResolveReferences: (TargetId:29)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:49.029     1>Done building target "ResolveReferences" in project "BinaryXfer.vcxproj".: (TargetId:29)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+10:35:49.029     1>Target "InitializeBuildStatus: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:24)
+                   Done executing task "ReadLinesFromFile". (TaskId:24)
+                   Task "WriteLinesToFile" (TaskId:25)
+                   Done executing task "WriteLinesToFile". (TaskId:25)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:26)
+                     Creating "Debug\BinaryXfer.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:26)
+                   Done executing task "Touch". (TaskId:26)
+10:35:49.092     1>Done building target "InitializeBuildStatus" in project "BinaryXfer.vcxproj".: (TargetId:30)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:49.092     1>Target "BuildGenerateSourcesTraverse: (TargetId:31)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+10:35:49.092     1>Done building target "BuildGenerateSourcesTraverse" in project "BinaryXfer.vcxproj".: (TargetId:31)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:49.092     1>Target "BeforeBuildGenerateSources: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "BeforeBuildGenerateSources" in project "BinaryXfer.vcxproj".: (TargetId:32)
+10:35:49.092     1>Target "PreBuildEvent: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:35:49.092     1>Done building target "PreBuildEvent" in project "BinaryXfer.vcxproj".: (TargetId:33)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:35:49.092     1>Target "_GenerateXMLData: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "_GenerateXMLData" in project "BinaryXfer.vcxproj".: (TargetId:34)
+10:35:49.092     1>Target "_GenerateWebServiceProxy: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "_GenerateWebServiceProxy" in project "BinaryXfer.vcxproj".: (TargetId:35)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+10:35:49.092     1>Target "_Xsd: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "_Xsd" in project "BinaryXfer.vcxproj".: (TargetId:36)
+10:35:49.092     1>Target "MakeDirsForMidl: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:27)
+                   Done executing task "Makedir". (TaskId:27)
+10:35:49.092     1>Done building target "MakeDirsForMidl" in project "BinaryXfer.vcxproj".: (TargetId:37)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+10:35:49.092     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Midl" depends on it):
+10:35:49.092     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "BinaryXfer.vcxproj".: (TargetId:38)
+10:35:49.092     1>Target "AfterMidl: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Midl" depends on it):
+10:35:49.092     1>Done building target "AfterMidl" in project "BinaryXfer.vcxproj".: (TargetId:39)
+10:35:49.092     1>Target "_Midl: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "_Midl" in project "BinaryXfer.vcxproj".: (TargetId:40)
+10:35:49.092     1>Target "AfterBuildGenerateSources: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "AfterBuildGenerateSources" in project "BinaryXfer.vcxproj".: (TargetId:41)
+10:35:49.092     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildGenerateSources" depends on it):
+10:35:49.092     1>Done building target "AfterBuildGenerateSourcesEvent" in project "BinaryXfer.vcxproj".: (TargetId:42)
+10:35:49.092     1>Target "BuildGenerateSources: (TargetId:43)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:49.092     1>Done building target "BuildGenerateSources" in project "BinaryXfer.vcxproj".: (TargetId:43)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:49.092     1>Target "BuildCompileTraverse: (TargetId:44)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+10:35:49.092     1>Done building target "BuildCompileTraverse" in project "BinaryXfer.vcxproj".: (TargetId:44)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:49.092     1>Target "BeforeClCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+10:35:49.092     1>Done building target "BeforeClCompile" in project "BinaryXfer.vcxproj".: (TargetId:45)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+10:35:49.092     1>Target "ComputeCLInputPDBName: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+10:35:49.092     1>Done building target "ComputeCLInputPDBName" in project "BinaryXfer.vcxproj".: (TargetId:46)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:49.092     1>Target "ComputeReferenceCLInput: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:28)
+                   Done executing task "WriteLinesToFile". (TaskId:28)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and 'true' != 'false' and 'true' != '').
+10:35:49.107     1>Done building target "ComputeReferenceCLInput" in project "BinaryXfer.vcxproj".: (TargetId:47)
+10:35:49.107     1>Target "MakeDirsForCl: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:29)
+                   Done executing task "MakeDir". (TaskId:29)
+10:35:49.107     1>Done building target "MakeDirsForCl" in project "BinaryXfer.vcxproj".: (TargetId:48)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+10:35:49.107     1>Target "_SelectedFiles: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "SelectClCompile" depends on it):
+10:35:49.107     1>Done building target "_SelectedFiles" in project "BinaryXfer.vcxproj".: (TargetId:49)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+10:35:49.107     1>Target "SelectCustomBuild: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "SelectClCompile" depends on it):
+10:35:49.107     1>Done building target "SelectCustomBuild" in project "BinaryXfer.vcxproj".: (TargetId:50)
+10:35:49.107     1>Target "SelectClCompile: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ClCompile" depends on it):
+10:35:49.107     1>Done building target "SelectClCompile" in project "BinaryXfer.vcxproj".: (TargetId:51)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:49.107     1>Target "GenerateTargetFrameworkMonikerAttribute: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ClCompile" depends on it):
+                   Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+                   Input files: C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Microsoft.BuildSteps.targets
+                   Output files: C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+10:35:49.107     1>Done building target "GenerateTargetFrameworkMonikerAttribute" in project "BinaryXfer.vcxproj".: (TargetId:52)
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:49.107     1>Target "ManagedIncrementalBuildPreProcessDependencyGraph: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ClCompile" depends on it):
+                   Using "MIBPreProcessDependencyGraph" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MIBPreProcessDependencyGraph" (TaskId:30)
+                   Done executing task "MIBPreProcessDependencyGraph". (TaskId:30)
+10:35:49.139     1>Done building target "ManagedIncrementalBuildPreProcessDependencyGraph" in project "BinaryXfer.vcxproj".: (TargetId:53)
+10:35:49.139     1>Target "ClCompile: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" (TaskId:31)
+                     File "Debug\BinaryXfer.pch" doesn't exist. Skipping. (TaskId:31)
+                   Done executing task "Delete". (TaskId:31)
+                   Task "Delete" (TaskId:32)
+                   Done executing task "Delete". (TaskId:32)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('Use' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:33)
+                     Environment Variables passed to tool: (TaskId:33)
+                       VS_UNICODE_OUTPUT=892 (TaskId:33)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BinaryXfer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib  (TaskId:33)
+                     Tracking command: (TaskId:33)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\STDAFX.CPP /b MSBuildConsole_CancelEventc4d462a207ae47efa2a63a376f7124fd  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\BinaryXfer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib  (TaskId:33)
+                     Stdafx.cpp (TaskId:33)
+                   Done executing task "CL". (TaskId:33)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Task "CL" (TaskId:34)
+                     Environment Variables passed to tool: (TaskId:34)
+                       VS_UNICODE_OUTPUT=880 (TaskId:34)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BinaryXfer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp BinaryXfer.cpp /clr:nostdlib  (TaskId:34)
+                     Tracking command: (TaskId:34)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r "C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\ASSEMBLYINFO.CPP|C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\BINARYXFER.CPP" /b MSBuildConsole_CancelEvent36fec45f7f634982a595cd13d5853399  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\BinaryXfer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp BinaryXfer.cpp /clr:nostdlib  (TaskId:34)
+                     AssemblyInfo.cpp (TaskId:34)
+                     BinaryXfer.cpp (TaskId:34)
+                     Generating Code... (TaskId:34)
+                   Done executing task "CL". (TaskId:34)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('Create' != 'Create' and ''!='true').
+                   Task "CL" (TaskId:35)
+                     Environment Variables passed to tool: (TaskId:35)
+                       VS_UNICODE_OUTPUT=896 (TaskId:35)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp" (TaskId:35)
+                     Tracking command: (TaskId:35)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r "C:\USERS\RICHARD.KING\APPDATA\LOCAL\TEMP\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.CPP" /b MSBuildConsole_CancelEvent99f4028a2e2e4b17bc3e2def8aa724eb  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp" (TaskId:35)
+                     .NETFramework,Version=v4.0.AssemblyAttributes.cpp (TaskId:35)
+                   Done executing task "CL". (TaskId:35)
+10:35:52.212     1>Done building target "ClCompile" in project "BinaryXfer.vcxproj".: (TargetId:54)
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+10:35:52.212     1>Target "ManagedIncrementalBuildPostProcessDependencyGraph: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+                   Using "MIBPostProcessDependencyGraph" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MIBPostProcessDependencyGraph" (TaskId:36)
+                   Done executing task "MIBPostProcessDependencyGraph". (TaskId:36)
+10:35:52.321     1>Done building target "ManagedIncrementalBuildPostProcessDependencyGraph" in project "BinaryXfer.vcxproj".: (TargetId:55)
+10:35:52.321     1>Target "AfterClCompile: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ClCompile" depends on it):
+10:35:52.321     1>Done building target "AfterClCompile" in project "BinaryXfer.vcxproj".: (TargetId:56)
+10:35:52.321     1>Target "_ClCompile: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildCompile" depends on it):
+10:35:52.321     1>Done building target "_ClCompile" in project "BinaryXfer.vcxproj".: (TargetId:57)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+10:35:52.321     1>Target "BeforeResourceCompile: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ResourceCompile" depends on it):
+10:35:52.321     1>Done building target "BeforeResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:58)
+10:35:52.321     1>Target "MakeDirsForResourceCompile: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:37)
+                   Done executing task "MakeDir". (TaskId:37)
+10:35:52.321     1>Done building target "MakeDirsForResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:59)
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+                   Target "SelectCustomBuild" skipped. Previously built successfully.
+10:35:52.321     1>Target "SelectResourceCompile: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ResourceCompile" depends on it):
+10:35:52.321     1>Done building target "SelectResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:60)
+10:35:52.321     1>Target "ResourceCompile: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ResourceCompile" depends on it):
+                   Using "RC" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RC" (TaskId:38)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc  (TaskId:38)
+                     Tracking command: (TaskId:38)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\APP.RC /b MSBuildConsole_CancelEvente4a185d1ee0d46bab513b74e1ad8a246  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe"  /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc  (TaskId:38)
+                   Done executing task "RC". (TaskId:38)
+10:35:52.633     1>Done building target "ResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:61)
+10:35:52.633     1>Target "AfterResourceCompile: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_ResourceCompile" depends on it):
+10:35:52.633     1>Done building target "AfterResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:62)
+10:35:52.633     1>Target "_ResourceCompile: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildCompile" depends on it):
+10:35:52.633     1>Done building target "_ResourceCompile" in project "BinaryXfer.vcxproj".: (TargetId:63)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+10:35:52.633     1>Target "AfterBuildCompileEvent: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildCompile" depends on it):
+10:35:52.633     1>Done building target "AfterBuildCompileEvent" in project "BinaryXfer.vcxproj".: (TargetId:64)
+10:35:52.633     1>Target "BuildCompile: (TargetId:65)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:52.633     1>Done building target "BuildCompile" in project "BinaryXfer.vcxproj".: (TargetId:65)
+                   Target "AssignProjectConfiguration" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:52.633     1>Target "BuildLinkTraverse: (TargetId:66)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+10:35:52.633     1>Done building target "BuildLinkTraverse" in project "BinaryXfer.vcxproj".: (TargetId:66)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:52.633     1>Target "BeforeLink: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.633     1>Done building target "BeforeLink" in project "BinaryXfer.vcxproj".: (TargetId:67)
+10:35:52.633     1>Target "ComputeRCOutputs: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+10:35:52.633     1>Done building target "ComputeRCOutputs" in project "BinaryXfer.vcxproj".: (TargetId:68)
+10:35:52.633     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.633     1>Done building target "ComputeRCGeneratedLinkInputs" in project "BinaryXfer.vcxproj".: (TargetId:69)
+10:35:52.633     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.633     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "BinaryXfer.vcxproj".: (TargetId:70)
+10:35:52.633     1>Target "ComputeCustomBuildOutput: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:39)
+                   Done executing task "MakeDir". (TaskId:39)
+10:35:52.649     1>Done building target "ComputeCustomBuildOutput" in project "BinaryXfer.vcxproj".: (TargetId:71)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+10:35:52.649     1>Target "ComputeCLOutputs: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+10:35:52.649     1>Done building target "ComputeCLOutputs" in project "BinaryXfer.vcxproj".: (TargetId:72)
+10:35:52.649     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.649     1>Done building target "ComputeCLGeneratedLinkInputs" in project "BinaryXfer.vcxproj".: (TargetId:73)
+10:35:52.649     1>Target "ComputeLinkInputsFromProject: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.649     1>Done building target "ComputeLinkInputsFromProject" in project "BinaryXfer.vcxproj".: (TargetId:74)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+10:35:52.649     1>Target "ComputeManifestInputsTargets: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.649     1>Done building target "ComputeManifestInputsTargets" in project "BinaryXfer.vcxproj".: (TargetId:75)
+                   Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK') was evaluated as ('MT' == 'LINK').
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+10:35:52.649     1>Target "AssignTargetPaths: (TargetId:76)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:40)
+                   Done executing task "AssignTargetPath". (TaskId:40)
+                   Task "AssignTargetPath" (TaskId:41)
+                   Done executing task "AssignTargetPath". (TaskId:41)
+                   Task "AssignTargetPath" (TaskId:42)
+                   Done executing task "AssignTargetPath". (TaskId:42)
+                   Task "AssignTargetPath" (TaskId:43)
+                   Done executing task "AssignTargetPath". (TaskId:43)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.ico'=='.manifest').
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.txt'=='.manifest').
+10:35:52.649     1>Done building target "AssignTargetPaths" in project "BinaryXfer.vcxproj".: (TargetId:76)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+10:35:52.649     1>Target "SplitResourcesByCulture: (TargetId:77)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:44)
+                   Done executing task "AssignCulture". (TaskId:44)
+10:35:52.649     1>Done building target "SplitResourcesByCulture" in project "BinaryXfer.vcxproj".: (TargetId:77)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+10:35:52.649     1>Target "CreateCustomManifestResourceNames: (TargetId:78)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "PrepareResourceNames" depends on it):
+10:35:52.649     1>Done building target "CreateCustomManifestResourceNames" in project "BinaryXfer.vcxproj".: (TargetId:78)
+10:35:52.649     1>Target "PrepareResourceNames: (TargetId:79)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:52.649     1>Done building target "PrepareResourceNames" in project "BinaryXfer.vcxproj".: (TargetId:79)
+10:35:52.649     1>Target "MakeDirsForLink: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:45)
+                   Done executing task "MakeDir". (TaskId:45)
+10:35:52.649     1>Done building target "MakeDirsForLink" in project "BinaryXfer.vcxproj".: (TargetId:80)
+10:35:52.649     1>Target "DoLinkOutputFilesMatch: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll' != 'C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('.dll' != '.dll').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('BinaryXfer' != 'BinaryXfer').
+10:35:52.649     1>Done building target "DoLinkOutputFilesMatch" in project "BinaryXfer.vcxproj".: (TargetId:81)
+10:35:52.649     1>Target "PreLinkEvent: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+10:35:52.649     1>Done building target "PreLinkEvent" in project "BinaryXfer.vcxproj".: (TargetId:82)
+10:35:52.649     1>Target "Link: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Link" (TaskId:46)
+                     Environment Variables passed to tool: (TaskId:46)
+                       VS_UNICODE_OUTPUT=1004 (TaskId:46)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\BinaryXfer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+                     Debug\AssemblyInfo.obj
+                     Debug\BinaryXfer.obj
+                     Debug\Stdafx.obj
+                     "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj" (TaskId:46)
+                     Tracking command: (TaskId:46)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r "C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\.NETFRAMEWORK,VERSION=V4.0.ASSEMBLYATTRIBUTES.OBJ|C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\APP.RES|C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\ASSEMBLYINFO.OBJ|C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\BINARYXFER.OBJ|C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\STDAFX.OBJ" /b MSBuildConsole_CancelEvent5554b8bd858344829c2460910ecc7df4  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\BinaryXfer.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+                     Debug\AssemblyInfo.obj
+                     Debug\BinaryXfer.obj
+                     Debug\Stdafx.obj
+                     "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj" (TaskId:46)
+                   Done executing task "Link". (TaskId:46)
+                   Task "Message" (TaskId:47)
+                     BinaryXfer.vcxproj -> C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll (TaskId:47)
+                   Done executing task "Message". (TaskId:47)
+10:35:53.616     1>Done building target "Link" in project "BinaryXfer.vcxproj".: (TargetId:83)
+10:35:53.616     1>Target "_DetermineManagedStateForLink: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:53.616     1>Done building target "_DetermineManagedStateForLink" in project "BinaryXfer.vcxproj".: (TargetId:84)
+10:35:53.616     1>Target "ComputeMetaGenInputs: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "MetaGenInputsOutputs" depends on it):
+                   Task "Delete" skipped, due to false condition; ('$(OutputAssemblyMetagenFile)' != '' and '$(ConsumeAnyMetaAssembly)' == 'false' and Exists('$(OutputAssemblyMetagenFile)')) was evaluated as ('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll.metagen' != '' and 'true' == 'false' and Exists('C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll.metagen')).
+10:35:53.616     1>Done building target "ComputeMetaGenInputs" in project "BinaryXfer.vcxproj".: (TargetId:85)
+10:35:53.616     1>Target "MetaGenInputsOutputs: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:53.616     1>Done building target "MetaGenInputsOutputs" in project "BinaryXfer.vcxproj".: (TargetId:86)
+10:35:53.616     1>Target "MetaGen: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MetaGen.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Building target "MetaGen" completely.
+                   Input file "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll" is newer than output file "Debug\\metagen.write.1.tlog".
+                   Using "METAGEN" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "METAGEN" (TaskId:48)
+                   Done executing task "METAGEN". (TaskId:48)
+10:35:53.741     1>Done building target "MetaGen" in project "BinaryXfer.vcxproj".: (TargetId:87)
+10:35:53.741     1>Target "ComputeLinkImportLibraryOutputsForClean: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkImportLibrary)' != '') was evaluated as ('' != '').
+10:35:53.741     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "BinaryXfer.vcxproj".: (TargetId:88)
+10:35:53.741     1>Target "AfterLink: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Link" depends on it):
+10:35:53.741     1>Done building target "AfterLink" in project "BinaryXfer.vcxproj".: (TargetId:89)
+10:35:53.741     1>Target "_Link: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:53.741     1>Done building target "_Link" in project "BinaryXfer.vcxproj".: (TargetId:90)
+10:35:53.741     1>Target "_ALink: (TargetId:91)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:53.741     1>Done building target "_ALink" in project "BinaryXfer.vcxproj".: (TargetId:91)
+                   Target "ComputeManifestInputsTargets" skipped. Previously built successfully.
+10:35:53.741     1>Target "MakeDirsForManifest: (TargetId:92)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Manifest" depends on it):
+                   Task "MakeDir" (TaskId:49)
+                   Done executing task "MakeDir". (TaskId:49)
+10:35:53.741     1>Done building target "MakeDirsForManifest" in project "BinaryXfer.vcxproj".: (TargetId:92)
+10:35:53.741     1>Target "Manifest: (TargetId:93)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_Manifest" depends on it):
+                   Task "Delete" skipped, due to false condition; (('$(BuildType)' != 'Build' or '$(ForceRebuild)' == 'true') and '$(EmbedManifestby)'=='LINK') was evaluated as (('Rebuild' != 'Build' or '' == 'true') and 'MT'=='LINK').
+                   Using "Mt" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Mt" (TaskId:50)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll;#2" /manifest Debug\BinaryXfer.dll.intermediate.manifest (TaskId:50)
+                     Tracking command: (TaskId:50)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Debug /r C:\VOLATILE\SOURCE\CSHARP\MARSHALLINGBINARYXFEREXAMPLE\BINARYXFER\DEBUG\BINARYXFER.DLL.INTERMEDIATE.MANIFEST /b MSBuildConsole_CancelEventc8bda960552b45adb31ff0db994eff26  /c "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe"  /nologo /verbose /outputresource:"C:\Volatile\Source\csharp\MarshallingBinaryXferExample\Debug\BinaryXfer.dll;#2" /manifest Debug\BinaryXfer.dll.intermediate.manifest (TaskId:50)
+                   Done executing task "Mt". (TaskId:50)
+                   Task "RC" skipped, due to false condition; ('$(EmbedManifestby)'=='LINK') was evaluated as ('MT'=='LINK').
+10:35:54.099     1>Done building target "Manifest" in project "BinaryXfer.vcxproj".: (TargetId:93)
+                   Target "ComputeManifestGeneratedLinkerInputs" skipped. Previously built successfully.
+10:35:54.099     1>Target "_Manifest: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "_Manifest" in project "BinaryXfer.vcxproj".: (TargetId:94)
+10:35:54.099     1>Target "RegisterOutput: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('DynamicLibrary'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('DynamicLibrary'=='Application' and 'false'=='true' and 'false'!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('DynamicLibrary'=='Application' and 'false'=='true' and 'false'=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+10:35:54.099     1>Done building target "RegisterOutput" in project "BinaryXfer.vcxproj".: (TargetId:95)
+10:35:54.099     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_XdcMake" depends on it):
+10:35:54.099     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "BinaryXfer.vcxproj".: (TargetId:96)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+10:35:54.099     1>Target "ResolvedXDCMake: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+10:35:54.099     1>Done building target "ResolvedXDCMake" in project "BinaryXfer.vcxproj".: (TargetId:97)
+10:35:54.099     1>Target "MakeDirsForXdcMake: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:51)
+                   Done executing task "MakeDir". (TaskId:51)
+10:35:54.099     1>Done building target "MakeDirsForXdcMake" in project "BinaryXfer.vcxproj".: (TargetId:98)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+10:35:54.099     1>Target "_XdcMake: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "_XdcMake" in project "BinaryXfer.vcxproj".: (TargetId:99)
+10:35:54.099     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:100)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_BscMake" depends on it):
+10:35:54.099     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "BinaryXfer.vcxproj".: (TargetId:100)
+10:35:54.099     1>Target "MakeDirsForBscMake: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:52)
+                   Done executing task "MakeDir". (TaskId:52)
+10:35:54.099     1>Done building target "MakeDirsForBscMake" in project "BinaryXfer.vcxproj".: (TargetId:101)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:35:54.099     1>Target "_BscMake: (TargetId:102)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "_BscMake" in project "BinaryXfer.vcxproj".: (TargetId:102)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+10:35:54.099     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:103)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+10:35:54.099     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "BinaryXfer.vcxproj".: (TargetId:103)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+10:35:54.099     1>Target "CreateSatelliteAssemblies: (TargetId:104)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "CreateSatelliteAssemblies" in project "BinaryXfer.vcxproj".: (TargetId:104)
+10:35:54.099     1>Target "_Appverifier: (TargetId:105)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "_Appverifier" in project "BinaryXfer.vcxproj".: (TargetId:105)
+10:35:54.099     1>Target "_Deploy: (TargetId:106)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+10:35:54.099     1>Done building target "_Deploy" in project "BinaryXfer.vcxproj".: (TargetId:106)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+10:35:54.099     1>Target "GetCopyToOutputDirectoryItems: (TargetId:107)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:53)
+                   Done executing task "AssignTargetPath". (TaskId:53)
+10:35:54.099     1>Done building target "GetCopyToOutputDirectoryItems" in project "BinaryXfer.vcxproj".: (TargetId:107)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+10:35:54.099     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:108)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:35:54.099     1>Done building target "_CopySourceItemsToOutputDirectory" in project "BinaryXfer.vcxproj".: (TargetId:108)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+10:35:54.099     1>Target "_CheckForCompileOutputs: (TargetId:109)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+10:35:54.099     1>Done building target "_CheckForCompileOutputs" in project "BinaryXfer.vcxproj".: (TargetId:109)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+10:35:54.099     1>Target "CopyFilesToOutputDirectory: (TargetId:110)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyBuildProduct)'!='true') was evaluated as ('true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+10:35:54.099     1>Done building target "CopyFilesToOutputDirectory" in project "BinaryXfer.vcxproj".: (TargetId:110)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+10:35:54.099     1>Target "PostBuildEvent: (TargetId:111)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+10:35:54.099     1>Done building target "PostBuildEvent" in project "BinaryXfer.vcxproj".: (TargetId:111)
+10:35:54.099     1>Target "BuildLink: (TargetId:112)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:54.099     1>Done building target "BuildLink" in project "BinaryXfer.vcxproj".: (TargetId:112)
+10:35:54.099     1>Target "AfterBuild: (TargetId:113)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+10:35:54.099     1>Done building target "AfterBuild" in project "BinaryXfer.vcxproj".: (TargetId:113)
+10:35:54.099     1>Target "FinalizeBuildStatus: (TargetId:114)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:54)
+                     Deleting file "Debug\BinaryXfer.unsuccessfulbuild". (TaskId:54)
+                   Done executing task "Delete". (TaskId:54)
+                   Task "Touch" (TaskId:55)
+                     Touching "Debug\BinaryXfer.lastbuildstate". (TaskId:55)
+                   Done executing task "Touch". (TaskId:55)
+10:35:54.099     1>Done building target "FinalizeBuildStatus" in project "BinaryXfer.vcxproj".: (TargetId:114)
+10:35:54.099     1>Target "Build: (TargetId:115)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:54.099     1>Done building target "Build" in project "BinaryXfer.vcxproj".: (TargetId:115)
+10:35:54.099     1>Target "AfterRebuild: (TargetId:116)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (target "Rebuild" depends on it):
+10:35:54.099     1>Done building target "AfterRebuild" in project "BinaryXfer.vcxproj".: (TargetId:116)
+10:35:54.099     1>Target "Rebuild: (TargetId:117)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (entry point):
+10:35:54.099     1>Done building target "Rebuild" in project "BinaryXfer.vcxproj".: (TargetId:117)
+10:35:54.099     1>Done Building Project "C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj" (rebuild target(s)).
+
+Project Performance Summary:
+     5320 ms  C:\Volatile\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.vcxproj   1 calls
+               5320 ms  rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  MetaGenInputsOutputs                       1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  SelectResourceCompile                      1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  CoreClean                                  1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  MakeDirsForLink                            1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  DoLinkOutputFilesMatch                     1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  MakeDirsForManifest                        1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  AfterLink                                  1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  ComputeLinkImportLibraryOutputsForClean    1 calls
+        0 ms  FinalizeBuildStatus                        1 calls
+        0 ms  _DetermineManagedStateForLink              1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ComputeMetaGenInputs                       1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _Link                                      1 calls
+        0 ms  Build                                      1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  SplitResourcesByCulture                    1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  GenerateTargetFrameworkMonikerAttribute    1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+       16 ms  ResolveProjectReferences                   1 calls
+       16 ms  ComputeCustomBuildOutput                   1 calls
+       16 ms  SetBuildDefaultEnvironmentVariables        1 calls
+       16 ms  ResolveAssemblyReferences                  1 calls
+       16 ms  ComputeReferenceCLInput                    1 calls
+       16 ms  _PrepareForClean                           1 calls
+       16 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       31 ms  ManagedIncrementalBuildPreProcessDependencyGraph   1 calls
+       62 ms  InitializeBuildStatus                      1 calls
+      109 ms  ManagedIncrementalBuildPostProcessDependencyGraph   1 calls
+      125 ms  MetaGen                                    1 calls
+      172 ms  CoreCppClean                               1 calls
+      312 ms  ResourceCompile                            1 calls
+      359 ms  Manifest                                   1 calls
+      967 ms  Link                                       1 calls
+     3073 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  FindUnderPath                              2 calls
+        0 ms  Message                                    3 calls
+        0 ms  AssignTargetPath                           5 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  AssignCulture                              1 calls
+       16 ms  SetEnv                                     4 calls
+       16 ms  ResolveAssemblyReference                   1 calls
+       16 ms  WriteLinesToFile                           4 calls
+       16 ms  Delete                                     7 calls
+       16 ms  MakeDir                                   12 calls
+       31 ms  MIBPreProcessDependencyGraph               1 calls
+       47 ms  Touch                                      2 calls
+      109 ms  MIBPostProcessDependencyGraph              1 calls
+      125 ms  METAGEN                                    1 calls
+      125 ms  CppClean                                   1 calls
+      312 ms  RC                                         1 calls
+      343 ms  Mt                                         1 calls
+      967 ms  Link                                       1 calls
+     3026 ms  CL                                         3 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:05.31

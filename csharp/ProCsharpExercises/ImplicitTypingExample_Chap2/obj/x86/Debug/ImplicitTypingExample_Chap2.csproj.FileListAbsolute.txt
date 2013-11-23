@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\bin\Debug\ImplicitTypingExample_Chap2.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\obj\x86\Debug\ImplicitTypingExample_Chap2.pdb

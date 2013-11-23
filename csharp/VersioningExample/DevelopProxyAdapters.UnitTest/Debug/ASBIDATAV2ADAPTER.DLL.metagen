@@ -1,0 +1,170 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ASBIDataV2Adapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesContractIDataV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesContractIAuthenticateASB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesContractIData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommonDataContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct ArchestrAServices.ASBContract.WriteValueV2: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    Boolean HasQT 'get set' : 
+    Boolean HasQTSpecified 'get set' : 
+    ArchestrAServices.ASBIDataContract.Variant Value 'get set' : 
+    ArchestrAServices.ASBContract.ASBStatus Status 'get set' : 
+    System.DateTime Timestamp 'get set' : 
+    Boolean TimestampSpecified 'get set' : 
+    System.String Comment 'get set' : 
+    Int32 ArrayElementIndex 'get set' : 
+    Boolean ArrayElementIndexSpecified 'get set' : 
+  Methods:
+    get_HasQT(): PrivateScope, Public, HideBySig, SpecialName
+    set_HasQT(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_HasQTSpecified(): PrivateScope, Public, HideBySig, SpecialName
+    set_HasQTSpecified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Variant): PrivateScope, Public, HideBySig, SpecialName
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+    set_Status(ASBStatus): PrivateScope, Public, HideBySig, SpecialName
+    get_Timestamp(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timestamp(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_TimestampSpecified(): PrivateScope, Public, HideBySig, SpecialName
+    set_TimestampSpecified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Comment(): PrivateScope, Public, HideBySig, SpecialName
+    set_Comment(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ArrayElementIndex(): PrivateScope, Public, HideBySig, SpecialName
+    set_ArrayElementIndex(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ArrayElementIndexSpecified(): PrivateScope, Public, HideBySig, SpecialName
+    set_ArrayElementIndexSpecified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.ASBIDataV1Shim: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ArchestrAServices.ASBIDataV2Contract.IASBIDataV2
+    ArchestrAServices.ASBContract.IAuthenticateASB
+  Methods:
+    Connect(ConnectRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AuthenticateMe(AuthenticateMe): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Renew(RenewRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    UpdateSystemAuthenticationConfiguration(UpdateSystemAuthenticationConfiguration): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Disconnect(Disconnect): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeepAlive(KeepAlive): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ActivateUser(ActivateUserRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ExchangeCapabilities(ExchangeCapabilitiesRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Read(ReadRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Write(WriteBasicRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteUser(WriteUserRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteVerified(WriteVerifiedRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteSecured(WriteSecuredRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    WriteConfirmed(WriteConfirmedRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ConfirmWrite(ConfirmWriteRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PublishWriteComplete(PublishWriteCompleteRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateSubscription(CreateSubscriptionRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetSubscriptionState(SetSubscriptionStateRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetSubscriptionState(GetSubscriptionStateRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteSubscription(DeleteSubscriptionRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AddMonitoredItems(AddMonitoredItemsRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeleteMonitoredItems(DeleteMonitoredItemsRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetMonitoredItems(GetMonitoredItemsRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Publish(PublishRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RegisterItems(RegisterItemsRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    UnregisterItems(UnregisterItemsRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ForceDisconnect(): PrivateScope, Public, HideBySig
+Class ArchestrAServices.ASBIDataV2Adapter.IDataV1toV2Extensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToV2ItemIdentity(ItemIdentity): PrivateScope, Public, Static, HideBySig
+    ToMirroredV2ItemStatus(ItemStatus): PrivateScope, Public, Static, HideBySig
+    ToV2ItemStatus(ItemStatus): PrivateScope, Public, Static, HideBySig
+    ToV2ItemStatusArray(ItemStatus[]): PrivateScope, Public, Static, HideBySig
+    ToV2ItemRegistration(ItemRegistration): PrivateScope, Public, Static, HideBySig
+    ToV2ItemRegistrationArray(ItemRegistration[]): PrivateScope, Public, Static, HideBySig
+    ToV2Variant(Variant): PrivateScope, Public, Static, HideBySig
+    ToV2MonitoredItem(MonitoredItem): PrivateScope, Public, Static, HideBySig
+    ToV2MonitoredItemArray(MonitoredItem[]): PrivateScope, Public, Static, HideBySig
+    ToV2ASBStatus(ASBStatus): PrivateScope, Public, Static, HideBySig
+    ToV2RuntimeValue(RuntimeValue): PrivateScope, Public, Static, HideBySig
+    ToV2RuntimeValueArray(RuntimeValue[]): PrivateScope, Public, Static, HideBySig
+    ToV2MonitoredItemValue(MonitoredItemValue): PrivateScope, Public, Static, HideBySig
+    ToV2MonitoredItemValueArray(MonitoredItemValue[]): PrivateScope, Public, Static, HideBySig
+    ToV2ItemWriteComplete(ItemWriteComplete): PrivateScope, Public, Static, HideBySig
+    ToV2ItemWriteCompleteArray(ItemWriteComplete[]): PrivateScope, Public, Static, HideBySig
+    ToV2WriteValue(WriteValue): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBIDataV2Adapter.IDataV2toV1Extensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToV1ItemIdentity(ItemIdentity): PrivateScope, Public, Static, HideBySig
+    ToV1ItemIdentityArray(ItemIdentity[]): PrivateScope, Public, Static, HideBySig
+    ToV1Variant(Variant): PrivateScope, Public, Static, HideBySig
+    ToV1MonitoredItem(MonitoredItem): PrivateScope, Public, Static, HideBySig
+    ToV1MonitoredItemArray(MonitoredItem[]): PrivateScope, Public, Static, HideBySig
+    ToV1ASBStatus(ASBStatus): PrivateScope, Public, Static, HideBySig
+    ToV1WriteValue(WriteValueV2): PrivateScope, Public, Static, HideBySig
+    ToV1WriteValue(WriteValue): PrivateScope, Public, Static, HideBySig
+    ToV1WriteValueArray(WriteValue[]): PrivateScope, Public, Static, HideBySig
+    ToV1UserToken(UserToken): PrivateScope, Public, Static, HideBySig
+Struct ArchestrAServices.ASBContract.ItemStatusV2: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    ArchestrAServices.ASBContract.ItemIdentity Item 'get set' : 
+    UInt16 ErrorCode 'get set' : 
+    Boolean ErrorCodeSpecified 'get set' : 
+    ArchestrAServices.ASBContract.ASBStatus Status 'get set' : 
+  Methods:
+    get_Item(): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(ItemIdentity): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorCode(UInt16): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorCodeSpecified(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorCodeSpecified(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+    set_Status(ASBStatus): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBIDataV2Adapter.IDataV2toV2Extensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToTrueV2ItemStatus(ItemStatusV2): PrivateScope, Public, Static, HideBySig
+    ToTrueV2ItemStatusArray(ItemStatusV2[]): PrivateScope, Public, Static, HideBySig
+    ToMirroredV2WriteValue(WriteValue): PrivateScope, Public, Static, HideBySig
+    ToMirroredV2WriteValueArray(WriteValue[]): PrivateScope, Public, Static, HideBySig
+    ToTrueV2WriteValue(WriteValueV2): PrivateScope, Public, Static, HideBySig
+    ToTrueV2WriteValueArray(WriteValueV2[]): PrivateScope, Public, Static, HideBySig
+Interface ArchestrAServices.ASBContract.IDataV2toV1: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    ArchestrAServices.Contract.IAsbInterfaceSettings Settings 'get ' : 
+  Methods:
+    get_Settings(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    KeepAlive(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OnConnect(ConnectionId, UInt64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ActivateUser(ConnectionId, UserToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ExchangeCapabilities(String&(Out), ConnectionId, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Read(ItemStatus[]&(Out), RuntimeValue[]&(Out), ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Write(ItemStatusV2[]&(Out), ConnectionId, ItemIdentity[], WriteValueV2[], UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteUser(ItemStatusV2[]&(Out), ConnectionId, ItemIdentity[], WriteValueV2[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteVerified(ItemStatusV2[]&(Out), ConnectionId, ItemIdentity[], WriteValueV2[], UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteSecured(ItemStatusV2[]&(Out), ConnectionId, ItemIdentity[], WriteValueV2[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteConfirmed(WriteValueV2&(Out), Int64&(Out), ConnectionId, ItemIdentity, WriteValueV2, UserToken, UserToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConfirmWrite(ConnectionId, ItemIdentity, Int64, WriteValueV2, UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PublishWriteComplete(ItemWriteComplete[]&(Out), ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateSubscription(Int64&(Out), ConnectionId, Int64, UInt64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetSubscriptionState(ConnectionId, Int64, Variant, UInt16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetSubscriptionState(Variant&(Out), ConnectionId, Int64, UInt16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteSubscription(ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddMonitoredItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), ConnectionId, Int64, MonitoredItem[], Byte): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteMonitoredItems(ItemStatus[]&(Out), ConnectionId, Int64, MonitoredItem[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetMonitoredItems(MonitoredItem[]&(Out), ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Publish(ItemStatus[]&(Out), MonitoredItemValue[]&(Out), ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RegisterItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), ConnectionId, ItemIdentity[], Byte, Byte): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnregisterItems(ItemStatus[]&(Out), ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OnDisconnect(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract

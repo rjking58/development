@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\bin\Debug\DetectingNumericOverflows.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\obj\x86\Debug\DetectingNumericOverflows.pdb

@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\TimeStats1\bin\Debug\TimeStats1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\TimeStats1\bin\Debug\TimeStats1.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\TimeStats1\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\TimeStats1\obj\Debug\TimeStats1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\TimeStats1\obj\Debug\TimeStats1.pdb

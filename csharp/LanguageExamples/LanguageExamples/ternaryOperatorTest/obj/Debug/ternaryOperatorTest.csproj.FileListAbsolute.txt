@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ternaryOperatorTest\bin\Debug\ternaryOperatorTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ternaryOperatorTest\bin\Debug\ternaryOperatorTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ternaryOperatorTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ternaryOperatorTest\obj\Debug\ternaryOperatorTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ternaryOperatorTest\obj\Debug\ternaryOperatorTest.pdb

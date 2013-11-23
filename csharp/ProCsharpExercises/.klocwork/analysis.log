@@ -1,0 +1,103 @@
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDC23.tmp  set -pd C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpDE65.tmp  run --verbose -F quiet -j auto -pd C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp
+Fri Jun 29 16:25:54 PDT 2012: Running build preparation stage...
+Fri Jun 29 16:25:54 PDT 2012: Build preparation stage completed
+Fri Jun 29 16:25:54 PDT 2012: Running C# compilation stage...
+Loading external assemblies
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Properties\AssemblyInfo.cs
+Fri Jun 29 16:25:57 PDT 2012: C# compilation stage completed
+	C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs
+Analysis is complete.
+Klocwork analysis complete.
+---------------------------
+Analysis finished 2012.06.29 16:25:58.181
+------ Analyze started: ProjectConfiguration: Debug|Mixed Platforms ------
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpC855.tmp  set -pd C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp klocwork.host=Klocwork klocwork.port=80 klocwork.ssl=false license.host=Klocwork license.port=27000
+"C:\Klocwork\User 9.2\bin\kwcheck.exe" -kwpipe \\.\Pipe\kwpD754.tmp  run --verbose -F quiet -j auto -pd C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp
+Thu Jul 19 16:33:30 PDT 2012: Running build preparation stage...
+Thu Jul 19 16:33:30 PDT 2012: Build preparation stage completed
+Warning: incremental C# builds are not supported, the full build will be performed
+Thu Jul 19 16:33:30 PDT 2012: Running C# compilation stage...
+Loading external assemblies
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Properties\AssemblyInfo.cs
+Thu Jul 19 16:33:33 PDT 2012: C# compilation stage completed
+	C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs
+Analysis is complete.
+Klocwork analysis complete.
+---------------------------
+Analysis finished 2012.07.19 16:33:34.159

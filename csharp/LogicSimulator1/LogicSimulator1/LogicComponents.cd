@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="LogicSimulator1.NotGate">
+    <Position X="9" Y="7" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAIAAAAEAAAAAAAAAAQAAAAQAA=</HashCode>
+      <FileName>NotGate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LogicSimulator1.Connector">
+    <Position X="13.25" Y="7" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAIAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Connector.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LogicSimulator1.NAndGate">
+    <Position X="2.5" Y="13" Width="1.5" />
+    <InheritanceLine Type="LogicSimulator1.BinaryGateIO" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="9.844" />
+        <Point X="6.25" Y="11.073" />
+        <Point X="3.25" Y="11.073" />
+        <Point X="3.25" Y="13" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicSimulator1.AndGate">
+    <Position X="3.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicSimulator1.OrGate">
+    <Position X="5.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicSimulator1.BinaryGateIO">
+    <Position X="4.5" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAABQIEAAAEAAAAAAAAAAYAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="LogicSimulator1.NOrGate">
+    <Position X="4.75" Y="13" Width="1.5" />
+    <InheritanceLine Type="LogicSimulator1.BinaryGateIO" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="9.844" />
+        <Point X="6.25" Y="11.05" />
+        <Point X="5.5" Y="11.05" />
+        <Point X="5.5" Y="13" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicSimulator1.XOrGate">
+    <Position X="8" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LogicSimulator1.XNOrGate">
+    <Position X="6.75" Y="13" Width="1.5" />
+    <InheritanceLine Type="LogicSimulator1.BinaryGateIO" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="9.844" />
+        <Point X="6.25" Y="11.05" />
+        <Point X="7.633" Y="11.05" />
+        <Point X="7.633" Y="12.7" />
+        <Point X="7.5" Y="12.7" />
+        <Point X="7.5" Y="13" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>AndGate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="LogicSimulator1.BinaryLogicComponent">
+    <Position X="4.5" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAA=</HashCode>
+      <FileName>LogicComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LogicSimulator1.SimulatedComponent">
+    <Position X="5" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>SimulatedComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LogicSimulator1.UnaryLogicComponent">
+    <Position X="9" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>LogicComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LogicSimulator1.LogicComponent">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogicComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="LogicSimulator1.ConnectorComponent">
+    <Position X="13.25" Y="5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ConnectorComponent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

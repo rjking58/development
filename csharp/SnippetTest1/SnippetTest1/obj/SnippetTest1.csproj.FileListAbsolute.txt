@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\SnippetTest1\SnippetTest1\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\SnippetTest1\SnippetTest1\bin\Debug\SnippetTest1.exe
+C:\GCS\Source\csharp\SnippetTest1\SnippetTest1\bin\Debug\SnippetTest1.pdb
+C:\GCS\Source\csharp\SnippetTest1\SnippetTest1\obj\Debug\SnippetTest1.exe
+C:\GCS\Source\csharp\SnippetTest1\SnippetTest1\obj\Debug\SnippetTest1.pdb

@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\LineCount.exe
+bin\Debug\LineCount.pdb
+obj\Debug\LineCount.exe
+obj\Debug\LineCount.pdb

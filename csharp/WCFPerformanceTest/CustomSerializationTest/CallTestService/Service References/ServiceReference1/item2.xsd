@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:8732/Design_Time_Addresses/WcfServiceLibrary1/Service1/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfvalToTransfer">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="valToTransfer" type="tns:valToTransfer" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfvalToTransfer" nillable="true" type="tns:ArrayOfvalToTransfer" />
+  <xs:complexType name="valToTransfer">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Item" type="tns:struct1" />
+      <xs:element name="UserData" type="tns:struct2" />
+      <xs:element name="Value" type="tns:timedata" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="valToTransfer" nillable="true" type="tns:valToTransfer" />
+  <xs:complexType name="struct1">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:any minOccurs="0" maxOccurs="unbounded" namespace="##local" processContents="skip" />
+    </xs:sequence>
+    <xs:attribute ref="ser:FactoryType" />
+  </xs:complexType>
+  <xs:element name="struct1" nillable="true" type="tns:struct1" />
+  <xs:complexType name="struct2">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="data" nillable="true" type="xs:base64Binary" />
+      <xs:element name="data_len" type="xs:int" />
+      <xs:element name="ushort3" type="xs:unsignedShort" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="struct2" nillable="true" type="tns:struct2" />
+  <xs:complexType name="timedata">
+    <xs:annotation>
+      <xs:appinfo>
+        <IsValueType xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsValueType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Timestamp" type="xs:dateTime" />
+      <xs:element name="Value" type="tns:struct2" />
+      <xs:element name="uint1" type="xs:unsignedInt" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="timedata" nillable="true" type="tns:timedata" />
+</xs:schema>

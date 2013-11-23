@@ -1,0 +1,7 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FormsProperties.Properties.Resources.resources
+obj\Debug\FormsProperties.csproj.GenerateResource.Cache
+bin\Debug\FormsProperties.exe
+bin\Debug\FormsProperties.pdb
+obj\Debug\FormsProperties.exe
+obj\Debug\FormsProperties.pdb

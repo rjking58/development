@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\bin\Debug\Chapter6Operators.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\bin\Debug\Chapter6Operators.pdb
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\obj\Debug\Chapter6Operators.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\obj\Debug\Chapter6Operators.pdb
+C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\obj\Debug\Chapter6Operators.exe
+C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators\obj\Debug\Chapter6Operators.pdb

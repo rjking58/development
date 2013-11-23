@@ -1,0 +1,25 @@
+﻿Build started 3/11/2013 1:10:31 PM.
+     1>Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage_CPP\EnumerableUsage_CPP.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\EnumerableUsage_CPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         EnumerableUsage_CPP.vcxproj -> C:\Volatile\Development\Source\csharp\ProCsharpExercises\Debug\EnumerableUsage_CPP.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\EnumerableUsage_CPP.unsuccessfulbuild".
+         Touching "Debug\EnumerableUsage_CPP.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage_CPP\EnumerableUsage_CPP.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

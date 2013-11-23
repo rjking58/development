@@ -1,0 +1,8 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\bin\Debug\myAlarm.exe.config
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\obj\Debug\myAlarm.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\bin\Debug\myAlarm.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\bin\Debug\myAlarm.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\obj\Debug\myAlarm.Form1.resources
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\obj\Debug\myAlarm.csproj.GenerateResource.Cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\myAlarm\obj\Debug\myAlarm.exe

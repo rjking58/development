@@ -1,0 +1,1 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\comparisonTestCsharp\obj\Debug\ResolveAssemblyReference.cache

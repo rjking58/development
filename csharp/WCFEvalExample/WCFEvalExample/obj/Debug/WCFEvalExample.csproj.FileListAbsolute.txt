@@ -1,0 +1,6 @@
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\bin\Debug\WCFEvalExample.dll.config
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\bin\Debug\WCFEvalExample.dll
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\bin\Debug\WCFEvalExample.pdb
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\obj\Debug\WCFEvalExample.dll
+C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample\obj\Debug\WCFEvalExample.pdb

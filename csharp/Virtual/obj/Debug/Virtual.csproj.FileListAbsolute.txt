@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\Virtual\bin\Debug\Virtual.exe
+C:\Volatile\Source\csharp2\vs2005Projs\Virtual\bin\Debug\Virtual.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\Virtual\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\Virtual\obj\Debug\Virtual.exe
+C:\Volatile\Source\csharp2\vs2005Projs\Virtual\obj\Debug\Virtual.pdb

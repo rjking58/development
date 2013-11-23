@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="PriorityManager">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\PriorityManager.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\PriorityManager.suo">
+</Property><Property Name="Date" Value="Monday, February 26, 2007">
+</Property><Property Name="Time" Value="10:29 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="PriorityManager.sln" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.sln">
+</Event><Event ErrorLevel="0" Project="" Source="PriorityManager.suo" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.suo">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.csproj" Description="Project file successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.csproj">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.csproj.user">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManagerSettings.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManagerSettings.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="RunningProcessesForm.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\RunningProcessesForm.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="SettingsForm.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\SettingsForm.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="SettingsItemForm.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\SettingsItemForm.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="ToastForm.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\ToastForm.cs">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="Win32_Process.CS" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\Win32_Process.CS">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="Disabled.ico" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\Disabled.ico">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="Enabled.ico" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\Enabled.ico">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\PriorityManager.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="RunningProcessesForm.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\RunningProcessesForm.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="SettingsForm.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\SettingsForm.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="SettingsItemForm.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\SettingsItemForm.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="ToastForm.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\ToastForm.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="Win32_Process.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\SysTray\Backup\Win32_Process.resx">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="PriorityManager" Source="PriorityManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="PriorityManager.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="PriorityManager.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="PriorityManager" Source="PriorityManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

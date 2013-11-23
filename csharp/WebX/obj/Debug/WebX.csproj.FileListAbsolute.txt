@@ -1,0 +1,8 @@
+C:\GCS\Source\csharp\WebX\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\WebX\obj\Debug\WebX.Form1.resources
+C:\GCS\Source\csharp\WebX\obj\Debug\WebX.Properties.Resources.resources
+C:\GCS\Source\csharp\WebX\obj\Debug\WebX.csproj.GenerateResource.Cache
+C:\GCS\Source\csharp\WebX\bin\Debug\WebX.exe
+C:\GCS\Source\csharp\WebX\bin\Debug\WebX.pdb
+C:\GCS\Source\csharp\WebX\obj\Debug\WebX.exe
+C:\GCS\Source\csharp\WebX\obj\Debug\WebX.pdb

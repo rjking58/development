@@ -1,0 +1,30 @@
+[Global]
+CurrentProject=TestnUnit\TestnUnit.vpj
+LastItemTemplate=User Templates/Csharp/Class|TestClass
+[ActiveConfig]
+TestnUnit\TestnUnit.vpj=,Debug|AnyCPU
+[ProjectDates]
+TestnUnit\TestnUnit.csproj=20070215144508687
+[TreeExpansion2]
+- TestnUnit\TestnUnit.csproj
+  - Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 110 145 960 685 0 0 M 0 0 0 0 1253 616
+CWD: TestnUnit
+BUFFER: BN="TestnUnit\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=131688 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1185 CL=3 LE=0 CX=2 CY=26 WI=5 BI=15 HT=0 HN=0 HF=0 HC=4
+WINDOW: 88 116 1099 413 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="TestnUnit\Program.cs"
+VIEW: LN=.1185 CL=5 LE=0 CX=4 CY=29 WI=366 BI=15 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\Crystalis\CrystalisPC\Tools\SetOrGetForCodeOrData\SetOrGetForCodeOrData\Form1.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HIDCommTestManifest2005\ManifestFetch.cs
+..\BinarySerializationSample\CS\Serialize2\bin\Debug\serializedSimpleOne
+..\BinarySerializationSample\CS\Serialize2\Program.cs
+TestnUnit\TestClassTemplate.cs
+TestnUnit\myclass1
+TestnUnit\TestClass2.cs
+TestnUnit\MyTestClassXXX
+TestnUnit\Program.cs

@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ternaryOperatorTest.exe
+bin\Debug\ternaryOperatorTest.pdb
+obj\Debug\ternaryOperatorTest.exe
+obj\Debug\ternaryOperatorTest.pdb

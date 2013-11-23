@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="173ed248-f1e0-49f8-92ab-a6d7ddd4da50" name="Richard.King@RICHARDK01 2013-11-18 17:10:17" runUser="CORP\Richard.King" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e100941-804b-47c2-9176-7216adabe55d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Volatile\Development\Source\csharp\VersioningExample\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Richard.King_RICHARDK01 2013-11-18 17_10_17">
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.dll" />
+      <DeploymentItem filename="C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-18T17:10:17.8233484-08:00" queuing="2013-11-18T17:10:17.8857492-08:00" start="2013-11-18T17:10:17.8857492-08:00" finish="2013-11-18T17:10:18.2289536-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestPublishWriteComplete" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="512f994f-ad3e-c014-bcab-2e6084ffe072">
+      <Execution id="22fbaa83-7a5f-4e3a-bc4a-2f28c85e57b4" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.30903, Culture=neutral, PublicKeyToken=null" name="TestPublishWriteComplete" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="512f994f-ad3e-c014-bcab-2e6084ffe072" executionId="22fbaa83-7a5f-4e3a-bc4a-2f28c85e57b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="22fbaa83-7a5f-4e3a-bc4a-2f28c85e57b4" testId="512f994f-ad3e-c014-bcab-2e6084ffe072" testName="TestPublishWriteComplete" computerName="RICHARDK01" duration="00:00:00.0557937" startTime="2013-11-18T17:10:17.8857492-08:00" endTime="2013-11-18T17:10:18.2133534-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22fbaa83-7a5f-4e3a-bc4a-2f28c85e57b4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;1 (System.UInt32)&gt;. Actual:&lt;1 (System.UInt16)&gt;. </Message>
+          <StackTrace>   at DevelopProxyAdaptersUnitTest.V1Adapter.VerifyItemWriteCompletes(ItemWriteComplete[] CompleteWrites) in c:\volatile\development\source\csharp\versioningexample\developproxyadapters.unittest\v1adaptertests.cpp:line 122
+   at DevelopProxyAdaptersUnitTest.V1Adapter.TestPublishWriteComplete() in c:\volatile\development\source\csharp\versioningexample\developproxyadapters.unittest\v1adaptertests.cpp:line 413
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,51 @@
+-----
+Klocwork 9.2.1.7276
+Installation directory: "C:\Klocwork\User 9.2"
+Tables directory: "C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\workingcache\tables"
+Jobs number: 7
+-----
+Fri Jun 29 16:25:54 PDT 2012: Running build preparation stage...
+Fri Jun 29 16:25:54 PDT 2012: Build preparation stage completed
+Fri Jun 29 16:25:54 PDT 2012: Running C# compilation stage...
+working directory: "C:\Klocwork\User 9.2"
+executing: "C:\Klocwork\User 9.2\exec\ix86-pc-win32\kwcs.exe" "--license-host" "Klocwork" "--license-port" "27000" "--build-spec" "C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\workingcache\tables\buildspec.out" "--xml" "C:\Volatile\Source\csharp\ProCsharpExercises\.klocwork\cs.kwlp\workingcache\tables\cs_defects.xml"
+Loading external assemblies
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\CustomSerialization\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\DetectingNumericOverflows\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\EnvironmentClassExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ImplicitTypingExample_Chap2\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\IntrinsicDataTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\ReflectionExamples\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\TypeCheckingConstructs\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\Properties\AssemblyInfo.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Program.cs
+Compiling C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\Properties\AssemblyInfo.cs
+Fri Jun 29 16:25:57 PDT 2012: C# compilation stage completed

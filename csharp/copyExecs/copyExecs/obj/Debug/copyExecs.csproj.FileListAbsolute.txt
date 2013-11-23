@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\copyExecs\copyExecs\bin\Debug\copyExecs.exe
+C:\GCS\Source\csharp\copyExecs\copyExecs\bin\Debug\copyExecs.pdb
+C:\GCS\Source\csharp\copyExecs\copyExecs\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\copyExecs\copyExecs\obj\Debug\copyExecs.exe
+C:\GCS\Source\csharp\copyExecs\copyExecs\obj\Debug\copyExecs.pdb

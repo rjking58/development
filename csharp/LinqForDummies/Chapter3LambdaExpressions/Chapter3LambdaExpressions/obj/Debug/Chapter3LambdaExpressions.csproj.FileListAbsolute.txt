@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions\bin\Debug\Chapter3LambdaExpressions.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions\bin\Debug\Chapter3LambdaExpressions.pdb
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions\obj\Debug\Chapter3LambdaExpressions.exe
+C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions\obj\Debug\Chapter3LambdaExpressions.pdb

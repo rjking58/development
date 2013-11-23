@@ -1,0 +1,6 @@
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\bin\Debug\SByteArrayConversionTest.exe.config
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\bin\Debug\SByteArrayConversionTest.exe
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\bin\Debug\SByteArrayConversionTest.pdb
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\obj\Debug\SByteArrayConversionTest.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\obj\Debug\SByteArrayConversionTest.exe
+C:\Volatile\Development\Source\csharp\SByteArrayConversionTest\SByteArrayConversionTest\obj\Debug\SByteArrayConversionTest.pdb

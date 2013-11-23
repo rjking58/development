@@ -1,0 +1,36 @@
+[Global]
+CurrentProject=multiThread1\delegateThreading.vpj
+[ActiveConfig]
+multiThread1\delegateThreading.vpj=,Debug|AnyCPU
+fullThreading\fullThreading.vpj=,Debug|AnyCPU
+fullThreadingParameterized\fullThreadingParameterized.vpj=,Debug|AnyCPU
+[ProjectDates]
+multiThread1\delegateThreading.csproj=20070212131919544
+fullThreading\fullThreading.csproj=20070213194943218
+fullThreadingParameterized\fullThreadingParameterized.csproj=20070213195859453
+[TreeExpansion2]
++ multiThread1\delegateThreading.csproj
+  + Properties
++ fullThreading\fullThreading.csproj
+- fullThreadingParameterized\fullThreadingParameterized.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 28 18 960 685 0 0 M 0 0 0 0 1253 780
+CWD: multiThread1
+BUFFER: BN="fullThreadingParameterized\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=221 HT=0 HN=0 HF=0 HC=4
+WINDOW: 88 116 1077 548 -1 -1 M  WF=0 WT=1 "Lucida Console,10,0,1"
+BUFFER: BN="fullThreadingParameterized\Program.cs"
+VIEW: LN=.764 CL=59 LE=0 CX=65 CY=38 WI=501 BI=221 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\Program Files\SlickEdit\macros\asciitab
+\src\Libraries\IRDatabase\SLIrDatabaseIO\SLTag.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\NevoFile.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\BrandItem.cs
+\src\Products\NevoWeb\Tools\IRLibCreationFromToolsGrpData\Form1.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\CodeSet.cs
+\IRdb\CodeSets.txt
+fullThreading\Program.cs
+fullThreadingParameterized\Program.cs

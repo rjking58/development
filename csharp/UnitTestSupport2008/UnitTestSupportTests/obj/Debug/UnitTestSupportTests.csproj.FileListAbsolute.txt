@@ -1,0 +1,7 @@
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupportTests.dll
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupportTests.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\obj\Debug\UnitTestSupportTests.dll
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\obj\Debug\UnitTestSupportTests.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupport2008.exe
+C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupport2008.pdb

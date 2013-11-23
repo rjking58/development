@@ -1,0 +1,8 @@
+bin\Debug\myAlarm.exe.config
+bin\Debug\myAlarm.exe
+bin\Debug\myAlarm.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\myAlarm.Form1.resources
+obj\Debug\myAlarm.csproj.GenerateResource.Cache
+obj\Debug\myAlarm.exe
+obj\Debug\myAlarm.pdb

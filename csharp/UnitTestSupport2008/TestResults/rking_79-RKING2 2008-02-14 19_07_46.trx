@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="725032d3-962d-47a0-b64a-7cb608cece81" name="rking@79-RKING2 2008-02-14 19:07:46" runUser="UEIC\rking" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b199a47c-40e7-41a2-a8d5-bf054c354846">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\TestResults\rking_79-RKING2 2008-02-14 19_07_46">
+      <DeploymentItem filename="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\bin\Debug\UnitTestSupport2008.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="2" executed="2" passed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-02-14T19:07:46.5307191-08:00" queuing="2008-02-14T19:07:46.8126711-08:00" start="2008-02-14T19:07:46.8126711-08:00" finish="2008-02-14T19:07:46.9379831-08:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod2" storage="c:\volatile\source\csharp2\vs2005projs\unittestsupport2008\unittestsupporttests\bin\debug\unittestsupporttests.dll" id="e51d3549-7bd9-77ae-ff3b-609d9c3acec1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fc3f5242-c5a7-4f74-b027-e8fe52dc564b" />
+      <TestMethod codeBase="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupportTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestSupportTests.MyClassToTest_Tests, UnitTestSupportTests" name="TestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\volatile\source\csharp2\vs2005projs\unittestsupport2008\unittestsupporttests\bin\debug\unittestsupporttests.dll" id="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2842bf3c-9261-4ba7-8fc5-269f11a599bd" />
+      <TestMethod codeBase="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupportTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestSupportTests.MyClassToTest_Tests, UnitTestSupportTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce" executionId="2842bf3c-9261-4ba7-8fc5-269f11a599bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e51d3549-7bd9-77ae-ff3b-609d9c3acec1" executionId="fc3f5242-c5a7-4f74-b027-e8fe52dc564b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2842bf3c-9261-4ba7-8fc5-269f11a599bd" testId="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce" testName="TestMethod1" computerName="79-RKING2" duration="00:00:00.0159329" startTime="2008-02-14T19:07:46.8126711-08:00" endTime="2008-02-14T19:07:46.9066551-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fc3f5242-c5a7-4f74-b027-e8fe52dc564b" testId="e51d3549-7bd9-77ae-ff3b-609d9c3acec1" testName="TestMethod2" computerName="79-RKING2" duration="00:00:00.0138711" startTime="2008-02-14T19:07:46.9066551-08:00" endTime="2008-02-14T19:07:46.9223191-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;b b&gt;. Actual:&lt;a b&gt;. </Message>
+          <StackTrace>   at UnitTestSupportTests.MyClassToTest_Tests.TestMethod2() in C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\MyClassToTest_Tests.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

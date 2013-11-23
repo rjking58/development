@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest\obj\Debug\MemStreamTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest\obj\Debug\MemStreamTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest\bin\Debug\MemStreamTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest\bin\Debug\MemStreamTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest\obj\Debug\ResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\LineCount\LineCount\obj\Debug\LineCount.pdb
+C:\Volatile\Development\Source\csharp\LineCount\LineCount\bin\Debug\LineCount.exe
+C:\Volatile\Development\Source\csharp\LineCount\LineCount\bin\Debug\LineCount.pdb
+C:\Volatile\Development\Source\csharp\LineCount\LineCount\obj\Debug\LineCount.exe

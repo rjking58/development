@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\SVNFilteredStatus\SVNFilteredStatus\bin\Debug\SVNFilteredStatus.exe
+C:\GCS\Source\csharp\SVNFilteredStatus\SVNFilteredStatus\bin\Debug\SVNFilteredStatus.pdb
+C:\GCS\Source\csharp\SVNFilteredStatus\SVNFilteredStatus\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\SVNFilteredStatus\SVNFilteredStatus\obj\Debug\SVNFilteredStatus.exe
+C:\GCS\Source\csharp\SVNFilteredStatus\SVNFilteredStatus\obj\Debug\SVNFilteredStatus.pdb

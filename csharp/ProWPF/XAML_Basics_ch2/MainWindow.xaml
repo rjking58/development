@@ -1,0 +1,35 @@
+﻿<Window x:Class="XAML_Basics_ch2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Eight Ball Answer" Height="350" Width="525">
+    <Grid x:Name="grid1" VerticalAlignment="Stretch">
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Offset="0.00" Color="red"></GradientStop>
+                    <GradientStop Offset="0.50" Color="Indigo"></GradientStop>
+                    <GradientStop Offset="1.00" Color="Violet"></GradientStop>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Name="txtQuestion"  FontFamily="Verdana" FontSize="24" Foreground="Green"  Grid.Row="0" xml:space="preserve">
+Yer flippin question here. "..."
+            
+      testing.. xx y z
+        </TextBox>
+        <Button Name="cmdAnswer" Grid.Row="1" Margin="5,5,5,5" Width="127" Height="23" HorizontalAlignment="Center">
+            <Button.Foreground>
+                <x:Static Member="SystemColors.WindowTextBrush"></x:Static>
+            </Button.Foreground>
+            &lt;Ask the Eight Ball&gt;
+        </Button>
+        <TextBox Name="txtAnswer"  FontFamily="Verdana" FontSize="24" Foreground="Green" Grid.Row="2">
+            Yer flippin answer here
+        </TextBox>
+    </Grid>
+</Window>

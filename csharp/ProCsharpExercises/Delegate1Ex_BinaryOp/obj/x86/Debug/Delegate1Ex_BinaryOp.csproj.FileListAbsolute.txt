@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCSharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.pdb
+C:\Development\SOURCE\csharp\ProCSharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCSharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\bin\Debug\Delegate1Ex_BinaryOp.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Delegate1Ex_BinaryOp\obj\x86\Debug\Delegate1Ex_BinaryOp.pdb

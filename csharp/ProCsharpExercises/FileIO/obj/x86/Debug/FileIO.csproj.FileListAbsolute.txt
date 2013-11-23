@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\FileIO\bin\Debug\FileIO.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\FileIO\bin\Debug\FileIO.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\FileIO\obj\x86\Debug\FileIO.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\FileIO\obj\x86\Debug\FileIO.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FileIO\bin\Debug\FileIO.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FileIO\bin\Debug\FileIO.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FileIO\obj\x86\Debug\FileIO.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FileIO\obj\x86\Debug\FileIO.pdb

@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCSharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.pdb
+C:\Development\SOURCE\csharp\ProCSharpExercises\EnumerableUsage\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCSharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage\bin\Debug\EnumerableUsage.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumerableUsage\obj\x86\Debug\EnumerableUsage.pdb

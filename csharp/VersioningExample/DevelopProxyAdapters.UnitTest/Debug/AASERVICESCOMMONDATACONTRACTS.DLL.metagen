@@ -1,0 +1,1181 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly aaServicesCommonDataContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.IdentityModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct ArchestrAServices.Contract.DataType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.DataType TypeByte = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeChar = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt16 = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt16 = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt32 = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt32 = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt64 = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt64 = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeFloat = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDouble = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeString = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDateTime = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDuration = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeGuid = 13 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeByteString = 14 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeLocaleID = 15 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeLocalizedText = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeBool = 17 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeSByte = 18 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeErrorStatus = 19 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeEnum = 20 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeByteArray = 40 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeCharArray = 41 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt16Array = 42 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt16Array = 43 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt32Array = 44 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt32Array = 45 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeInt64Array = 46 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUInt64Array = 47 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeFloatArray = 48 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDoubleArray = 49 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeStringArray = 50 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDateTimeArray = 51 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeDurationArray = 52 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeGuidArray = 53 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeByteStringArray = 54 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeLocaleIDArray = 55 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeLocalizedTextArray = 56 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeBoolArray = 57 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeSByteArray = 58 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeEnumArray = 60 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataType TypeUnknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.DataQualityType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.DataQualityType Good = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataQualityType Uncertain = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataQualityType Bad = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.DataQualityType Other = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ItemIdentityType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ItemIdentityType Name = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemIdentityType Id = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemIdentityType NameAndId = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemIdentityType Other = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ItemReferenceType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ItemReferenceType None = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemReferenceType Absolute = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemReferenceType Hierarchical = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemReferenceType Relative = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ItemReferenceType Other = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.SubscriptionStateType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.SubscriptionStateType SubsEnableState = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.SubscriptionStateType SubsSampleInterval = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.SubscriptionStateType SubsMaxQueueSize = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.SubscriptionStateType SubsUnknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.WriteCapabilityType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.WriteCapabilityType WriteUnknown = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.WriteCapabilityType WriteNonsecure = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.WriteCapabilityType WriteUser = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.WriteCapabilityType WriteConfirm = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.WriteCapabilityType WriteVerify = 8 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.OpcQualityMask: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.OpcQualityMask OPC_LIMIT_OK = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_BAD = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_LIMIT_LOW = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_LIMIT_HIGH = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_LIMIT_MASK = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_LIMIT_CONST = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_CONFIG_ERROR = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_NOT_CONNECTED = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_DEVICE_FAILURE = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_SENSOR_FAILURE = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_LAST_KNOWN = 20 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_COMM_FAILURE = 24 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_OUT_OF_SERVICE = 28 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask MAGELLAN_QUALITY_INITIALIZING = 32 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_UNCERTAIN = 64 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_LAST_USABLE = 68 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_SENSOR_CAL = 80 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_EGU_EXCEEDED = 84 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_SUB_NORMAL = 88 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_GOOD = 192 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_MASK = 192 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_QUALITY_LOCAL_OVERRIDE = 216 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.OpcQualityMask OPC_STATUS_MASK = 252 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ASBStatusType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ASBStatusType OPCDAStatus = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType OPCUAStatus = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType OPCUAVendorStatus = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType SCADAStatus = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType MXStatusCategory = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType MxStatusDetail = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType Reserved1Status = 125 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType Reserved2Status = 126 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ASBStatusType Reserved3Status = 127 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ASBStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Byte Count : Public
+    Byte[] Payload : Public
+Struct ArchestrAServices.Contract.RuntimeValue: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.DateTime Timestamp : Public
+    ArchestrAServices.Contract.Variant Value : Public
+    ArchestrAServices.Contract.ASBStatus Status : Public
+Struct ArchestrAServices.Contract.WriteValue: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Byte HasQT : Public
+    ArchestrAServices.Contract.Variant Value : Public
+    ArchestrAServices.Contract.ASBStatus Status : Public
+    System.DateTime Timestamp : Public
+    System.String Comment : Public
+Struct ArchestrAServices.Contract.ItemRegistration: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 WriteCapability : Public
+    UInt64 Id : Public
+Struct ArchestrAServices.Contract.ItemIdentity: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 Type : Public
+    UInt16 ReferenceType : Public
+    System.String Name : Public
+    System.String ContextName : Public
+    UInt64 Id : Public
+Struct ArchestrAServices.Contract.ItemStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.ItemIdentity Item : Public
+    UInt16 ErrorCode : Public
+Struct ArchestrAServices.Contract.ItemWriteComplete: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 WriteHandle : Public
+    ArchestrAServices.Contract.ItemStatus[] Status : Public
+Struct ArchestrAServices.Contract.MonitoredItem: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.ItemIdentity Item : Public
+    UInt64 SampleInterval : Public
+    Byte Active : Public
+    UInt64 TimeDeadband : Public
+    ArchestrAServices.Contract.Variant ValueDeadband : Public
+    ArchestrAServices.Contract.Variant UserData : Public
+Struct ArchestrAServices.Contract.MonitoredItemValue: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.ItemIdentity Item : Public
+    ArchestrAServices.Contract.RuntimeValue Value : Public
+    ArchestrAServices.Contract.Variant UserData : Public
+Struct ArchestrAServices.Contract.CustomEnum: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int16 ordinal : Public
+    System.String OrdinalValue : Public
+Struct ArchestrAServices.Contract.IBrowseStatus: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.IBrowseStatus OK = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus IncorrectClientToken = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus IncorrectConnectionId = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus ClientSessionNotCreated = 32 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus InvalidUsernameOrPassword = 49 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus InvalidUserCert = 50 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus CannotFindGR = 51 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus CatchedException = 52 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus InvalidContinuationPoint = 64 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus CannotGetResult = 65 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.IBrowseStatus UnKnown = 255 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ArchestraRelationshipType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ArchestraRelationshipType Hierarchical = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestraRelationshipType Network = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestraRelationshipType Unknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ArchestraBrowseDirection: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ArchestraBrowseDirection ForwardOrDown = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestraBrowseDirection ReverseOrUp = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestraBrowseDirection Unknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.BrowseNode: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String DisplayName : Public
+    System.String ContainedName : Public
+    System.String HierachicalName : Public
+    UInt64 ID : Public
+Struct ArchestrAServices.Contract.ArchestraRelationship: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 Id : Public
+    ArchestrAServices.Contract.ArchestraRelationshipType Type : Public
+    System.String NamespaceIdentifier : Public
+    System.String Name : Public
+Struct ArchestrAServices.Contract.ArchestraBrowseResult: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 ContinuationPoint : Public
+    ArchestrAServices.Contract.ArchestraNode[] TargetNodes : Public
+Struct ArchestrAServices.Contract.ArchestraNode: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String UniqueName : Public
+    System.String ContainedName : Public
+    ArchestrAServices.Contract.ArchestraBrowseNode Node : Public
+    System.String UserData : Public
+Struct ArchestrAServices.Contract.ArchestraBrowseNode: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 RelationshipId : Public
+    ArchestrAServices.Contract.ArchestraBrowseDirection Direction : Public
+    UInt64 NodeID : Public
+Struct ArchestrAServices.Contract.ArchestrAEntity: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String UniqueName : Public
+    UInt64 ID : Public
+    Byte IsTemplate : Public
+    ArchestrAServices.Contract.ArchestrAContainedName[] ContainedName : Public
+    ArchestrAServices.Contract.ArchestrAProperty[] Properties : Public
+    ArchestrAServices.Contract.ArchestrAFacet[] Facets : Public
+    System.String UserData : Public
+Struct ArchestrAServices.Contract.ArchestrAEntityEx: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String UniqueName : Public
+    UInt64 ID : Public
+    Byte IsTemplate : Public
+    ArchestrAServices.Contract.ArchestrAContainedName[] ContainedName : Public
+    ArchestrAServices.Contract.ArchestrAPropertyEx[] Properties : Public
+    ArchestrAServices.Contract.ArchestrAFacetEx[] Facets : Public
+    System.String UserData : Public
+Struct ArchestrAServices.Contract.ArchestrAContainedName: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    UInt64 RelationshipID : Public
+Struct ArchestrAServices.Contract.ArchestrAFacet: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    UInt64 Id : Public
+    Byte HasNamespace : Public
+    ArchestrAServices.Contract.ArchestrAProperty[] Properties : Public
+    ArchestrAServices.Contract.ArchestrAAttribute[] Attributes : Public
+Struct ArchestrAServices.Contract.ArchestrAFacetEx: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    UInt64 Id : Public
+    Byte HasNamespace : Public
+    ArchestrAServices.Contract.ArchestrAPropertyEx[] Properties : Public
+    ArchestrAServices.Contract.ArchestrAAttributeEx[] Attributes : Public
+Struct ArchestrAServices.Contract.ArchestrAAttribute: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    UInt64 ID : Public
+    ArchestrAServices.Contract.ArchestrAProperty[] Properties : Public
+Struct ArchestrAServices.Contract.ArchestrAAttributeEx: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String Name : Public
+    UInt64 ID : Public
+    ArchestrAServices.Contract.ArchestrAPropertyEx[] Properties : Public
+Struct ArchestrAServices.Contract.ArchestrAProperty: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 ID : Public
+    Byte IsDefault : Public
+    System.String Name : Public
+    System.Object Value : Public
+    System.String Type : Public
+Struct ArchestrAServices.Contract.ArchestrAPropertyEx: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 ID : Public
+    Byte IsDefault : Public
+    System.String Name : Public
+    System.Object Value : Public
+    System.String Type : Public
+Struct ArchestrAServices.Contract.BrowseFilterValue: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.BrowseFilterOperator Operator : Public
+    ArchestrAServices.Contract.Variant[] Value : Public
+Struct ArchestrAServices.Contract.BrowseFilterElement: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.FilterType AppliesTo : Public
+    ArchestrAServices.Contract.ElementType Type : Public
+    System.String Name : Public
+    ArchestrAServices.Contract.BrowseFilterValue[] FilterValue : Public
+Struct ArchestrAServices.Contract.BrowseFilter: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String FilterName : Public
+    ArchestrAServices.Contract.BrowseFilterElement[] Filters : Public
+Struct ArchestrAServices.Contract.BrowseFilterOperator: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.BrowseFilterOperator Equal = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator NotEqual = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator LessThan = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator LessThanOrEqual = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator GreaterThan = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator GreaterThanOrEqual = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator Like = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator NotLike = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator Between = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator NotBetween = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator In = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator NotIn = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.BrowseFilterOperator Match = 13 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.ElementType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ElementType Entity = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ElementType Facet = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ElementType Method = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ElementType Attribute = 4 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.FilterType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.FilterType Entity = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.FilterType Attribute = 2 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.ASBContract.ConnectionId: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.Guid Id : Public
+Struct ArchestrAServices.Contract.Status: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.Status Success = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.Status Failure = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.Status Unknown = 2 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.Contract.ActionResult: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ArchestrAServices.Contract.Status Status 'get set' : 
+    System.String ErrorMessage 'get set' : 
+  Methods:
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+    set_Status(Status): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorMessage(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorMessage(String): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.Contract.ServiceDiagnostic: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String DiagnosticName 'get set' : 
+    System.String DiagnosticValue 'get set' : 
+  Methods:
+    get_DiagnosticName(): PrivateScope, Public, HideBySig, SpecialName
+    set_DiagnosticName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DiagnosticValue(): PrivateScope, Public, HideBySig, SpecialName
+    set_DiagnosticValue(String): PrivateScope, Public, HideBySig, SpecialName
+Interface ArchestrAServices.Contract.IASBCustomSerializableType: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    WriteToStream(BinaryWriter): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InitializeFromStream(BinaryReader): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    InitializeArrayFromStream(BinaryReader, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteArrayToStream(Object, BinaryWriter&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct ArchestrAServices.Contract.TemporaryEndpointStatus: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String EndpointName : Public
+    ArchestrAServices.Contract.TemporaryEndpointState EndpointState : Public
+Struct ASBClientAccessLayer.RegistrationResult: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ASBClientAccessLayer.RegistrationResult Success = 0 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.RegistrationResult NodeInaccessible = 1 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.RegistrationResult RepositoryNotFoundOnTargetNode = 2 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.RegistrationResult IncorrectPassphrase = 3 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.RegistrationResult RepositoryNodeNotConfigured = 4 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.RegistrationResult Unknown = 65535 : Public, Static, Literal, HasDefault
+Struct ASBClientAccessLayer.ASBDiscoveryResult: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ASBClientAccessLayer.ASBDiscoveryResult Success = 0 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult DiscoveryNotAvailable = 1 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult DiscoveryReturnedNoEndpoints = 2 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult DiscoveryBadParameters = 3 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult Unknown = 65535 : Public, Static, Literal, HasDefault
+Interface ASBClientAccessLayer.IASBClient: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Properties:
+    Boolean Connected 'get ' : 
+  Methods:
+    get_Connected(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    Reconnect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Disconnect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenTemporaryRegistrationEndpoint(String, SecureString): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseTemporaryRegistrationEndpoint(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OpenTemporaryPairingEndpoint(String, SecureString): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CloseTemporaryPairingEndpoint(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetRegistrationEndpointStatus(String, List`1&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RegisterWithSR(String, SecureString): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CopySolutionFromSR(String, SecureString, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoveSolutionFromThisNode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPassphraseForSolution(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnregisterWithSR(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PairSRNodes(String, SecureString): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnpairSRNodes(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetChangedASBExtraInfo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetPairedSolutionsInSR(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetSolutionsAtThisNode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetDiscoveryEndpoint(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FindServices(FindCriteria, ASBDiscoveryResult&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    FindServiceEndpoint(Type, Uri[], ASBDiscoveryResult&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface ASBClientAccessLayer.IASBClient1: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    ASBClientAccessLayer.IASBClient
+  Methods:
+    UnPairRemoteSR(String, String&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ASBClientAccessLayer.ASBClient: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ASBClientAccessLayer.IASBClient1
+    ASBClientAccessLayer.IASBClient
+  Properties:
+    Boolean Connected 'get ' : 
+  Methods:
+    get_Connected(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    Reconnect(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Disconnect(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    OpenTemporaryRegistrationEndpoint(String, SecureString): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CloseTemporaryRegistrationEndpoint(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    OpenTemporaryPairingEndpoint(String, SecureString): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CloseTemporaryPairingEndpoint(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetRegistrationEndpointStatus(String, List`1&(Out)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RegisterWithSR(String, SecureString): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CopySolutionFromSR(String, SecureString, String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RemoveSolutionFromThisNode(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetPassphraseForSolution(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    UnregisterWithSR(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    PairSRNodes(String, SecureString): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    UnpairSRNodes(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetChangedASBExtraInfo(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetPairedSolutionsInSR(String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetSolutionsAtThisNode(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetDiscoveryEndpoint(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    FindServices(FindCriteria, ASBDiscoveryResult&(Out)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    FindServiceEndpoint(Type, Uri[], ASBDiscoveryResult&(Out)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    UnPairRemoteSR(String, String&(Out)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ConvertToString(SecureString): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.TokenManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RepackageSamlToken(UserToken, Byte[], Byte[]): PrivateScope, Public, Static, HideBySig
+    ExtractIncomingSamlToken(UserToken, Byte[]): PrivateScope, Public, Static, HideBySig
+    SerializeSamlToken(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+Interface ArchestrAServices.Contract.ISecureSession: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Connect(Connection&(Out), String, String, String, PublicKey): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ActivateSession(ConnectionId, ConnectionAuthenticationData, UInt64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ActivateUser(ConnectionId, UserToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeepAlive(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Disconnect(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ArchestrAServices.Contract.EnumFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IntToDataType(UInt16): PrivateScope, Public, Static, HideBySig
+    DataTypeToInt(DataType): PrivateScope, Public, Static, HideBySig
+    IntToDataQualityType(UInt16): PrivateScope, Public, Static, HideBySig
+    DataQualityTypeToInt(DataQualityType): PrivateScope, Public, Static, HideBySig
+    IntToItemIdentityType(UInt16): PrivateScope, Public, Static, HideBySig
+    ItemIdentityTypeToInt(ItemIdentityType): PrivateScope, Public, Static, HideBySig
+    IntToItemReferenceType(UInt16): PrivateScope, Public, Static, HideBySig
+    ItemReferenceTypeToInt(ItemReferenceType): PrivateScope, Public, Static, HideBySig
+    IntToSubscriptionStateType(UInt16): PrivateScope, Public, Static, HideBySig
+    SubscriptionStateTypeToInt(SubscriptionStateType): PrivateScope, Public, Static, HideBySig
+    IntToWriteCapabilityType(UInt16): PrivateScope, Public, Static, HideBySig
+    WriteCapabilityTypeToInt(WriteCapabilityType): PrivateScope, Public, Static, HideBySig
+    IntToOpcQualityMask(UInt16): PrivateScope, Public, Static, HideBySig
+    OpcQualityMaskToInt(OpcQualityMask): PrivateScope, Public, Static, HideBySig
+    MakeDeleteMonitoredItem(ItemIdentity): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.VariantFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeVariantValue(Boolean): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(SByte): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Byte): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt16): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt32): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt64): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int16): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int32): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int64): PrivateScope, Public, Static, HideBySig
+    MakeVariantValueAsDuration(Int64): PrivateScope, Public, Static, HideBySig
+    MakeVariantValueAsDurationArray(Int64[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Single): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Double): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(String): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(DateTime): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Guid): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int64, Boolean): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(CustomEnum): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int32[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt32[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int64[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt64[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Single[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Double[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Int16[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(UInt16[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Byte[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(SByte[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Boolean[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(DateTime[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Char[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(String[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(Guid[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantValue(CustomEnum[]): PrivateScope, Public, Static, HideBySig
+    MakeVariantArray(Array): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.VariantReader: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(ArchestrAServices.Contract.Variant): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ArchestrAServices.Contract.Variant Value 'get set' : 
+  Methods:
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(Variant): PrivateScope, Public, HideBySig, SpecialName
+    GetVariantType(): PrivateScope, Public, HideBySig
+    GetAsByte(): PrivateScope, Public, HideBySig
+    GetAsInt16(): PrivateScope, Public, HideBySig
+    GetAsUInt16(): PrivateScope, Public, HideBySig
+    GetAsInt32(): PrivateScope, Public, HideBySig
+    GetAsUInt32(): PrivateScope, Public, HideBySig
+    GetAsInt64(): PrivateScope, Public, HideBySig
+    GetAsUInt64(): PrivateScope, Public, HideBySig
+    GetAsFloat(): PrivateScope, Public, HideBySig
+    GetAsDouble(): PrivateScope, Public, HideBySig
+    GetAsString(): PrivateScope, Public, HideBySig
+    GetAsBool(): PrivateScope, Public, HideBySig
+    GetAsSByte(): PrivateScope, Public, HideBySig
+    GetAsDateTime(): PrivateScope, Public, HideBySig
+    GetAsDuration(): PrivateScope, Public, HideBySig
+    GetAsGuid(): PrivateScope, Public, HideBySig
+    GetAsByteString(): PrivateScope, Public, HideBySig
+    GetAsLocalizedText(): PrivateScope, Public, HideBySig
+    GetScalarValue(DataType): PrivateScope, Public, HideBySig
+    GetValueInTargetArrayType(DataType): PrivateScope, Public, HideBySig
+    GetArrayValue(DataType): PrivateScope, Public, HideBySig
+    GetAsEnum(): PrivateScope, Public, HideBySig
+    GetAsGenericArray(): PrivateScope, Public, HideBySig
+    GetAsInt32Array(): PrivateScope, Public, HideBySig
+    GetAsByteArray(): PrivateScope, Public, HideBySig
+    GetAsCharArray(): PrivateScope, Public, HideBySig
+    GetAsInt16Array(): PrivateScope, Public, HideBySig
+    GetAsUInt16Array(): PrivateScope, Public, HideBySig
+    GetAsUInt32Array(): PrivateScope, Public, HideBySig
+    GetAsInt64Array(): PrivateScope, Public, HideBySig
+    GetAsUInt64Array(): PrivateScope, Public, HideBySig
+    GetAsFloatArray(): PrivateScope, Public, HideBySig
+    GetAsDoubleArray(): PrivateScope, Public, HideBySig
+    GetAsStringArray(): PrivateScope, Public, HideBySig
+    GetAsDateTimeArray(): PrivateScope, Public, HideBySig
+    GetAsDurationArray(): PrivateScope, Public, HideBySig
+    GetAsGuidArray(): PrivateScope, Public, HideBySig
+    GetAsBoolArray(): PrivateScope, Public, HideBySig
+    GetAsSByteArray(): PrivateScope, Public, HideBySig
+    GetAsEnumArray(): PrivateScope, Public, HideBySig
+Struct ArchestrAServices.Contract.ASBStatusElement: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+    Void .ctor(ArchestrAServices.Contract.ASBStatus): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.Contract.ASBStatusType statusType : Public
+    UInt16 statusValue : Public
+  Properties:
+    ArchestrAServices.Contract.ASBStatus Status 'get ' : 
+  Methods:
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.Contract.ASBSerializer: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ASBStatusFromArray(ASBStatusElement[]): PrivateScope, Public, Static, HideBySig
+    ASBStatusToArray(ASBStatus): PrivateScope, Public, Static, HideBySig
+Interface ArchestrAServices.Contract.IManageASBSecurity: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Interfaces:
+    ArchestrAServices.Contract.ISecureSession
+  Methods:
+    RegisterSystemAuthenticationConfiguration(ConnectionId, SystemAuthenticationASBConfiguration, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnregisterSystemAuthenticationConfiguration(ConnectionId, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RegisterServiceBusPlatformId(ConnectionId, Guid): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetServiceBusPlatformConfiguration(SystemAuthenticationASBConfiguration&(Out), String&(Out), ConnectionId, Guid, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RegisterServiceBusEnable(ConnectionId, SystemAuthenticationASBConfiguration): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetRegistrationEndpointStatus(StatusTemporaryEndpoint[]&(Out), ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    QueryExtraInfoChanges(String&(Out), ConnectionId, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EnumerateSolutions(String[]&(Out), ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ArchestrAServices.Contract.ServiceInfo: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ServiceInstanceName 'get set' : 
+    System.String ServiceConfig 'get set' : 
+    System.String ServiceHostName 'get set' : 
+    System.String ServiceDllName 'get set' : 
+    System.String ContractTypeName 'get set' : 
+    System.String BaseAddress 'get set' : 
+    System.String MexAddress 'get set' : 
+    System.DateTime ReregistrationTime 'get set' : 
+    Double RegistrationPeriod 'get set' : 
+    System.DateTime PingTime 'get set' : 
+    Double PingPeriod 'get set' : 
+    System.DateTime NextPingTime 'get set' : 
+    System.Diagnostics.Stopwatch PingIntervalTimer 'get set' : 
+    Boolean PublishWcfEndpoints 'get set' : 
+    Boolean IsRunning 'get set' : 
+  Methods:
+    get_ServiceInstanceName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceInstanceName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ServiceConfig(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceConfig(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ServiceHostName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceHostName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ServiceDllName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceDllName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ContractTypeName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ContractTypeName(String): PrivateScope, Public, HideBySig, SpecialName
+    get_BaseAddress(): PrivateScope, Public, HideBySig, SpecialName
+    set_BaseAddress(String): PrivateScope, Public, HideBySig, SpecialName
+    get_MexAddress(): PrivateScope, Public, HideBySig, SpecialName
+    set_MexAddress(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ReregistrationTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_ReregistrationTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_RegistrationPeriod(): PrivateScope, Public, HideBySig, SpecialName
+    set_RegistrationPeriod(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_PingTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_PingTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_PingPeriod(): PrivateScope, Public, HideBySig, SpecialName
+    set_PingPeriod(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_NextPingTime(): PrivateScope, Public, HideBySig, SpecialName
+    set_NextPingTime(DateTime): PrivateScope, Public, HideBySig, SpecialName
+    get_PingIntervalTimer(): PrivateScope, Public, HideBySig, SpecialName
+    set_PingIntervalTimer(Stopwatch): PrivateScope, Public, HideBySig, SpecialName
+    get_PublishWcfEndpoints(): PrivateScope, Public, HideBySig, SpecialName
+    set_PublishWcfEndpoints(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_IsRunning(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsRunning(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    ClearServiceDiagnostic(): PrivateScope, Public, HideBySig
+    FetchDiagnosticList(): PrivateScope, Public, HideBySig
+    AddServiceDiagnostic(ServiceDiagnostic): PrivateScope, Public, HideBySig
+    RemoveServiceDiagnostic(ServiceDiagnostic): PrivateScope, Public, HideBySig
+Struct ArchestrAServices.Contract.SystemAuthenticationASBConfiguration: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String solutionName : Public
+    Byte[] generator : Public
+    Byte[] prime : Public
+    System.String hashAlgorithm : Public
+    Byte[] initializationVector : Public
+    Byte[] saltValue : Public
+    Int32 passwordDerivationIterations : Public
+    Int32 keySize : Public
+    Byte[] EncryptedSharedSecret : Public
+    Byte[] EncryptedCertificate : Public
+    System.String isDefault : Public
+    System.String srNodeName : Public
+Struct ArchestrAServices.Contract.TemporaryEndpointState: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.TemporaryEndpointState EndpointOpen = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.TemporaryEndpointState EndpointClosed = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.TemporaryEndpointState EndpointFaulted = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.TemporaryEndpointState EndpointUnknown = 32767 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.StatusTemporaryEndpoint: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String EndpointName : Public
+    System.String EndpointState : Public
+Struct ArchestrAServices.Contract.ArchestrAError: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.ArchestrAError Success = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError InvalidConnectionId = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ApplicationAuthenticationError = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError UserAuthenticationError = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError UserAuthorizationError = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError NotSupportedOperation = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError MonitoredItemsNotFound = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError InvalidSubscriptionID = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ItemAlreadyRegistered = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ItemAlreadyDeletedOrDoesNotExist = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError InvalidMonitoredItems = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError OperationFailed = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError SpecificError = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError BadNoCommunication = 13 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError Bad_NothingToDo = 14 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError Bad_TooManyOperations = 15 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError Bad_NodeIdInvalid = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError BrowseFailed = 17 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_BadOutOfRange = 18 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_BadTypeMismatch = 19 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_BadDimensionMismatch = 20 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_AccessDenied = 21 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_SecuredWrite = 22 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_VerifiedWrite = 23 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError IndexOutOfRange = 24 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError RequestTimedOut = 25 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError DataTypeConversionNotSupported = 26 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ItemCannotBeRegistered_NoName = 27 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ItemCannotBeRegistered_NoId = 28 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError ItemAlreadyBeingMonitored = 29 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError SubscriptionIDAlreadyExist = 30 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError OperationWouldBlock = 31 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError PublishComplete = 32 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_UserNotHavingAccessRights = 33 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError WriteFailed_VerifierNotHavingVerifyRights = 34 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.ArchestrAError Unknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.CredentialType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.CredentialType UsernamePassword = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialType X509Certificate = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialType SamlToken = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialType Other = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.EncryptionType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.EncryptionType None = 0 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.CredentialValidity: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.Contract.CredentialValidity UserIdentityValid = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialValidity UserIdentityInvalid_BadPassword = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialValidity UserIdentityInvalid_NoUser = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialValidity UserIdentityInvalid_CannotAuthenticate = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.Contract.CredentialValidity UesrIdentityValidityUnknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.Contract.Variant: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 Type : Public
+    Int32 Length : Public
+    Byte[] Payload : Public
+Struct ArchestrAServices.Contract.ArchestrAResult: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 Status : Public
+    UInt32 SpecificErrorCode : Public
+    UInt16 ErrorCode : Public
+Struct ArchestrAServices.Contract.UserToken: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt16 Validity : Public
+    UInt16 IdType : Public
+    UInt16 Encryption : Public
+    System.String LocationID : Public
+    System.String HostName : Public
+    System.String UserName : Public
+    System.String Password : Public
+    Byte[] X509Certificate : Public
+    Byte[] SamlToken : Public
+Struct ArchestrAServices.Contract.Connection: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    ArchestrAServices.Contract.ConnectionId idField : Public
+    ArchestrAServices.Contract.PublicKey serviceKeyField : Public
+    ArchestrAServices.Contract.ConnectionAuthenticationData authenticationDataField : Public
+Struct ArchestrAServices.Contract.ConnectionAuthenticationData: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Byte[] AuthenticationData : Public
+Struct ArchestrAServices.Contract.PublicKey: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String ApplicationName : Public
+    System.String DomainName : Public
+    System.String HostName : Public
+    Byte[] KeyValue : Public
+Struct ArchestrAServices.Contract.ApplicationToken: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String ApplicationName : Public
+    System.String DomainName : Public
+    System.String HostName : Public
+    Byte[] X509Certificate : Public
+Struct ArchestrAServices.Contract.ConnectionId: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.Guid Id : Public
+Interface ArchestrAServices.Contract.IAsbInterfaceSettings: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    GetSetting(String, T): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetSetting(String, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class ArchestrAServices.Contract.AsbBaseSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ArchestrAServices.Contract.IAsbInterfaceSettings
+  Methods:
+    GetSetting(String, T): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SetSetting(String, Object): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.AsbIntouchSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.Contract.AsbBaseSettings
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ArchestrAServices.Contract.AsbMxDataSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.Contract.AsbBaseSettings
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ArchestrAServices.Contract.AsbOpcuaSettings: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.Contract.AsbBaseSettings
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ArchestrAServices.Contract.ServiceDiagnosticList: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ServiceInstance 'get set' : 
+    System.String ServiceType 'get set' : 
+  Methods:
+    get_ServiceInstance(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceInstance(String): PrivateScope, Public, HideBySig, SpecialName
+    get_ServiceType(): PrivateScope, Public, HideBySig, SpecialName
+    set_ServiceType(String): PrivateScope, Public, HideBySig, SpecialName
+    ClearDiagnosticData(): PrivateScope, Public, HideBySig
+    FetchDiagnosticData(): PrivateScope, Public, HideBySig
+    AddServiceDiagnostic(ServiceDiagnostic): PrivateScope, Public, HideBySig
+    RemoveServiceDiagnostic(ServiceDiagnostic): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Contract.Constants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Fields:
+    Int32 DH_KeySize : Public, Static
+    Int32 DH_SecretSize : Public, Static
+    System.String DH_passphrase : Public, Static
+    System.String SaltValue : Public, Static
+    System.String hashAlgorithm : Public, Static
+    Int32 PasswordIterations : Public, Static
+    System.String InitialVector : Public, Static
+    Int32 KeySize : Public, Static
+  Methods:
+    GetDHPassphrase(): PrivateScope, Public, Static, HideBySig
+    GenerateKey(Int32, BigInteger&(Out), BigInteger&(Out)): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.EncryptionBase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String DH_passphrase 'get set' : 
+    System.String hashAlgorithm 'get set' : 
+    Byte[] NegotiatedKey 'get set' : 
+  Methods:
+    get_DH_passphrase(): PrivateScope, Public, HideBySig, SpecialName
+    set_DH_passphrase(String): PrivateScope, Public, HideBySig, SpecialName
+    get_hashAlgorithm(): PrivateScope, Public, HideBySig, SpecialName
+    set_hashAlgorithm(String): PrivateScope, Public, HideBySig, SpecialName
+    get_NegotiatedKey(): PrivateScope, Public, HideBySig, SpecialName
+    Encrypt(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Decrypt(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Encrypt(String, String): PrivateScope, Public, HideBySig
+    Decrypt(Byte[], String): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Contract.MakeCallToServiceConnect: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Connection&(Out), String, String, String, PublicKey): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Connection&(Out), String, String, String, PublicKey, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(Connection&(Out), IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.MakeCallToServiceActivate: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ConnectionId, ConnectionAuthenticationData, UInt64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(ConnectionId, ConnectionAuthenticationData, UInt64, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.MakeCallToServiceDisconnect: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(ConnectionId, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.ClientAuthentication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.Contract.EncryptionBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    UInt64 Timeout 'get set' : 
+    ArchestrAServices.Contract.ConnectionId connectionId 'get set' : 
+    Boolean SecureSessionEstablished 'get set' : 
+    System.String ReasonSecureSessionNotEstablished 'get set' : 
+    System.Numerics.BigInteger ClientPrivateKey 'get set' : 
+    System.Numerics.BigInteger ClientPublicKey 'get set' : 
+    System.Numerics.BigInteger ServicePublicKey 'get set' : 
+  Methods:
+    get_Timeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timeout(UInt64): PrivateScope, Public, HideBySig, SpecialName
+    get_connectionId(): PrivateScope, Public, HideBySig, SpecialName
+    get_SecureSessionEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_ReasonSecureSessionNotEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPrivateKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    EstablishSecureSession(String, String, String, MakeCallToServiceConnect, MakeCallToServiceActivate): PrivateScope, Public, HideBySig
+    AbortSession(): PrivateScope, Public, HideBySig
+    DisconnectSecureSession(MakeCallToServiceDisconnect): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Contract.ServiceAuthentication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.Contract.EncryptionBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    ArchestrAServices.Contract.ConnectionId connectionId 'get set' : 
+    Boolean SecureSessionEstablished 'get set' : 
+    System.String ReasonSecureSessionNotEstablished 'get set' : 
+    System.Numerics.BigInteger ClientPublicKey 'get set' : 
+    System.Numerics.BigInteger ServicePrivateKey 'get set' : 
+    System.Numerics.BigInteger ServicePublicKey 'get set' : 
+  Methods:
+    get_connectionId(): PrivateScope, Public, HideBySig, SpecialName
+    get_SecureSessionEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_ReasonSecureSessionNotEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePrivateKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    ProcessClientConnection(String, String, String, PublicKey, Connection&(Out)): PrivateScope, Public, HideBySig
+    ProcessClientActivate(ConnectionId, ConnectionAuthenticationData, UInt64): PrivateScope, Public, HideBySig
+    ProcessClientDisconnect(ConnectionId): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Contract.AuthenticationCryptography: AutoLayout, AnsiClass, Class, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    DeriveKey(Byte[], Byte[], String, Int32, Int32): PrivateScope, Public, Static, HideBySig
+    Encrypt(Byte[], Byte[], Byte[], String, Int32, Byte[], Int32): PrivateScope, Public, Static, HideBySig
+    Decrypt(Byte[], Byte[], Byte[], String, Int32, Byte[], Int32): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.SamlClaimsCheck: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CheckSamlTokenForAttributeClaim(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+    ExtractAllAttributeClaims(SamlSecurityToken): PrivateScope, Public, Static, HideBySig
+    ExtractAllAttributeClaims(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+    CheckSamlTokenForAuthenticationClaim(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+    CheckSamlTokenForAuthorizationClaim(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+    CheckSamlTokenForSubjectClaim(SamlSecurityToken, String): PrivateScope, Public, Static, HideBySig
+Struct ASBClientAccessLayer.ASBDiscoveryResult1: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ASBClientAccessLayer.ASBDiscoveryResult1 Success = 0 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult1 DiscoveryNotAvailable = 1 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult1 DiscoveryReturnedNoEndpoints = 2 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult1 DiscoveryBadParameters = 3 : Public, Static, Literal, HasDefault
+    ASBClientAccessLayer.ASBDiscoveryResult1 Unknown = 65535 : Public, Static, Literal, HasDefault
+Class ASBClientAccessLayer.ClientAccessUtilities: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    FindServiceEndpoint(Type, Uri[], ASBDiscoveryResult1&(Out)): PrivateScope, Public, HideBySig
+    FindServiceEndpoint(String, Collection`1, ASBDiscoveryResult1&(Out)): PrivateScope, Public, HideBySig
+Class ArchestrAServices.Contract.SystemAuthenticationConstants: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeTemporaryRegistrationEndpointAddress(String): PrivateScope, Public, Static, HideBySig
+    MakeTemporaryPairingEndpointAddress(String): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.ASBSolutionUtilities: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    WriteSecurityInformationInRegistry(SystemAuthenticationASBConfiguration, String): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.ASBCustomSerializer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Runtime.Serialization.XmlObjectSerializer
+    Void .ctor(System.Type, System.Runtime.Serialization.XmlObjectSerializer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    IsStartObject(XmlDictionaryReader): PrivateScope, Public, Virtual, HideBySig
+    ReadObject(XmlDictionaryReader, Boolean): PrivateScope, Public, Virtual, HideBySig
+    WriteEndObject(XmlDictionaryWriter): PrivateScope, Public, Virtual, HideBySig
+    WriteObjectContent(XmlDictionaryWriter, Object): PrivateScope, Public, Virtual, HideBySig
+    WriteStartObject(XmlDictionaryWriter, Object): PrivateScope, Public, Virtual, HideBySig
+Class ArchestrAServices.Proxy.ManageASBSecurityProxy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Properties:
+    Boolean SecureSessionEstablished 'get ' : 
+    System.ServiceModel.CommunicationState State 'get ' : 
+    System.String SRNodeName 'get ' : 
+  Methods:
+    get_SecureSessionEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_State(): PrivateScope, Public, HideBySig, SpecialName
+    get_SRNodeName(): PrivateScope, Public, HideBySig, SpecialName
+    Connect(String, String&(Out)): PrivateScope, Public, HideBySig
+    Connect(String, String, String&(Out)): PrivateScope, Public, HideBySig
+    Disconnect(): PrivateScope, Public, HideBySig
+    EnumerateSolutions(String[]&(Out)): PrivateScope, Public, HideBySig
+    GetRegistrationEndpointStatus(StatusTemporaryEndpoint[]&(Out)): PrivateScope, Public, HideBySig
+    GetServiceBusPlatformConfiguration(SystemAuthenticationASBConfiguration&(Out), String&(Out), Guid, String): PrivateScope, Public, HideBySig
+    QueryExtraInfoChanges(String&(Out), String): PrivateScope, Public, HideBySig
+    RegisterServiceBusEnable(SystemAuthenticationASBConfiguration): PrivateScope, Public, HideBySig
+    RegisterServiceBusPlatformId(Guid): PrivateScope, Public, HideBySig
+    RegisterSystemAuthenticationConfiguration(SystemAuthenticationASBConfiguration, String): PrivateScope, Public, HideBySig
+    UnregisterSystemAuthenticationConfiguration(String): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Proxy.ASBSolutionManager: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ASBSolutionScope : Public, Static
+    System.String CoreServiceSolutionScope : Public, Static
+  Methods:
+    GetASBSolutionPassphrase(EndpointDiscoveryMetadata, String&(Out)): PrivateScope, Public, HideBySig
+    GetASBSolutionName(EndpointDiscoveryMetadata, String&(Out)): PrivateScope, Public, HideBySig
+    GetASBSolutionPassphrase(String, String&(Out)): PrivateScope, Public, HideBySig
+Class ASBClientAccessLayer.ManageSecurityConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    RegisterSecurityConfiguration(SystemAuthenticationASBConfiguration, String, String, Boolean): PrivateScope, Public, HideBySig
+    GetPassphraseForSolution(String): PrivateScope, Public, HideBySig
+    Registration(String, String, String, Boolean): PrivateScope, Public, HideBySig
+    Registration(ManageASBSecurityProxy, String, String, String, Boolean): PrivateScope, Public, HideBySig
+    UnRegistration(String): PrivateScope, Public, HideBySig
+    PairDefaultSRwithRemoteSR(String, String): PrivateScope, Public, HideBySig
+    UnpairDefaultSRfromRemoteSR(String): PrivateScope, Public, HideBySig
+    GetRemoteSolutionName(String, String): PrivateScope, Public, HideBySig
+    GetSolutionsPairedWithSR(String, List`1&(Out)): PrivateScope, Public, HideBySig
+    GetSolutionsPairedWithSR(ManageASBSecurityProxy, String, List`1&(Out)): PrivateScope, Public, HideBySig
+    ValidateSRNode(String): PrivateScope, Public, HideBySig
+    UnPairRemoteSR(String, String&(Out)): PrivateScope, Public, HideBySig
+Class ASBClientAccessLayer.SrConfigurationMonitor: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Events:
+    System.EventHandler PayLoadChanged: 
+  Methods:
+    add_PayLoadChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PayLoadChanged(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    StartMonitoring(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ASBClientAccessLayer.TempRegistryHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    UpdateDiscoveryInfos(Dictionary`2): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.ASBCustomSerializerContractBehavior`1[T]: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Type parameter: T
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ServiceModel.Description.IContractBehavior
+  Methods:
+    AddBindingParameters(ContractDescription, ServiceEndpoint, BindingParameterCollection): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ApplyClientBehavior(ContractDescription, ServiceEndpoint, ClientRuntime): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ApplyDispatchBehavior(ContractDescription, ServiceEndpoint, DispatchRuntime): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Validate(ContractDescription, ServiceEndpoint): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.ASBCustomSerializerContractBehaviorAttribute: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Attribute
+    Void .ctor(System.Type): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.ServiceModel.Description.IContractBehavior
+  Methods:
+    AddBindingParameters(ContractDescription, ServiceEndpoint, BindingParameterCollection): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ApplyClientBehavior(ContractDescription, ServiceEndpoint, ClientRuntime): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ApplyDispatchBehavior(ContractDescription, ServiceEndpoint, DispatchRuntime): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Validate(ContractDescription, ServiceEndpoint): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Contract.EnumASBFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IntToArchestrAError(UInt16): PrivateScope, Public, Static, HideBySig
+    ArchestrAErrorToInt(ArchestrAError): PrivateScope, Public, Static, HideBySig
+    IntToCredentialType(UInt16): PrivateScope, Public, Static, HideBySig
+    CredentialTypeToInt(CredentialType): PrivateScope, Public, Static, HideBySig
+    IntToEncryptionType(UInt16): PrivateScope, Public, Static, HideBySig
+    EncryptionTypeToInt(EncryptionType): PrivateScope, Public, Static, HideBySig
+    IntToCredentialValidity(UInt16): PrivateScope, Public, Static, HideBySig
+    CredentialValidityToInt(CredentialValidity): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.ResultFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeGoodResult(): PrivateScope, Public, Static, HideBySig
+    MakeResult(ArchestrAError, UInt16): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.ConnectionFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeConnection(): PrivateScope, Public, Static, HideBySig
+    MakeInvalidConnection(): PrivateScope, Public, Static, HideBySig
+    IsEqual(ConnectionId, ConnectionId): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.Contract.UserTokenFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeToken(String, String): PrivateScope, Public, Static, HideBySig
+    MakeInvalidToken(): PrivateScope, Public, Static, HideBySig
+Struct ArchestrAServices.ASBContract.DataType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.DataType TypeByte = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeChar = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt16 = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt16 = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt32 = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt32 = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt64 = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt64 = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeFloat = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDouble = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeString = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDateTime = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDuration = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeGuid = 13 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeByteString = 14 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeLocaleID = 15 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeLocalizedText = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeBool = 17 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeSByte = 18 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeErrorStatus = 19 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeEnum = 20 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeByteArray = 40 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeCharArray = 41 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt16Array = 42 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt16Array = 43 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt32Array = 44 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt32Array = 45 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeInt64Array = 46 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUInt64Array = 47 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeFloatArray = 48 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDoubleArray = 49 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeStringArray = 50 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDateTimeArray = 51 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeDurationArray = 52 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeGuidArray = 53 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeByteStringArray = 54 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeLocaleIDArray = 55 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeLocalizedTextArray = 56 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeBoolArray = 57 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeSByteArray = 58 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeEnumArray = 60 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.DataType TypeUnknown = 65535 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.ASBContract.ASBEnumFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IntToDataType(UInt16): PrivateScope, Public, Static, HideBySig
+    DataTypeToInt(DataType): PrivateScope, Public, Static, HideBySig
+Class <PrivateImplementationDetails>{77B9BCC8-CF4C-4037-ABCA-91EAF7DBB80E}: NotPublic
+  Fields:
+    __StaticArrayInitTypeSize=96 $$method0x60001a5-1 : Assembly, Static, HasFieldRVA
+    __StaticArrayInitTypeSize=128 $$method0x60001a5-2 : Assembly, Static, HasFieldRVA
+    __StaticArrayInitTypeSize=192 $$method0x60001a5-3 : Assembly, Static, HasFieldRVA

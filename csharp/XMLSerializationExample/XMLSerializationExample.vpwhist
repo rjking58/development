@@ -1,0 +1,32 @@
+[Global]
+CurrentProject=XMLSerializationExample\XMLSerializationExample.vpj
+[ActiveConfig]
+XMLSerializationExample\XMLSerializationExample.vpj=,Debug|AnyCPU
+[ProjectDates]
+XMLSerializationExample\XMLSerializationExample.csproj=20070216101443031
+[TreeExpansion2]
++ XMLSerializationExample\XMLSerializationExample.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 110 145 960 685 0 0 M 0 0 0 0 1073 612
+CWD: XMLSerializationExample
+BUFFER: BN="XMLSerializationExample\serialization_example.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1080 CL=15 LE=0 CX=14 CY=57 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="XMLSerializationExample\bin\Debug\classToSave"
+BI: MA=1 74 1  TABS=1 9  WWS=1 IWT=1 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=16 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 29 919 409 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="XMLSerializationExample\bin\Debug\classToSave"
+VIEW: LN=.154 CL=45 LE=0 CX=44 CY=2 WI=98 BI=16 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HidIf\HidDAttributes.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HidIf\Utils.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HidIf\CrystallisComm.cs
+\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.xml
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HIDCommTestManifest2005\bin\Debug\D00.bin
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HIDCommTestManifest2005\bin\Debug\D01.bin
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HIDCommTestManifest2005\ManifestFetch.cs
+XMLSerializationExample\serialization_example.cs
+XMLSerializationExample\bin\Debug\classToSave

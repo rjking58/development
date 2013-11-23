@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MutexGrabber.Form1.resources
+obj\Debug\MutexGrabber.Properties.Resources.resources
+obj\Debug\MutexGrabber.csproj.GenerateResource.Cache
+bin\Debug\MutexGrabber.exe
+bin\Debug\MutexGrabber.pdb
+bin\Debug\Manifest.Lib.dll
+bin\Debug\Manifest.Lib.pdb
+obj\Debug\MutexGrabber.exe
+obj\Debug\MutexGrabber.pdb

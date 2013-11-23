@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\bin\Release\ClassLibrary1.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\obj\Release\ClassLibrary1.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\obj\Release\ClassLibrary1.pdb

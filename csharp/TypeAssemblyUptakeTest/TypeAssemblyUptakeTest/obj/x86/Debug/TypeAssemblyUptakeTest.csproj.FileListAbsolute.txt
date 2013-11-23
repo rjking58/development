@@ -1,0 +1,7 @@
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\bin\Debug\TypeAssemblyUptakeTest.exe
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\bin\Debug\TypeAssemblyUptakeTest.pdb
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\obj\x86\Debug\TypeAssemblyUptakeTest.exe
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\obj\x86\Debug\TypeAssemblyUptakeTest.pdb
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\obj\x86\Debug\TypeAssemblyUptakeTest.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\bin\Debug\TypeAssemblyV1.dll
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyUptakeTest\bin\Debug\TypeAssemblyV1.pdb

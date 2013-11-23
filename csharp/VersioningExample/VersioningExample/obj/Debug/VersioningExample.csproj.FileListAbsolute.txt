@@ -1,0 +1,9 @@
+c:\users\richard.king\documents\visual studio 2010\Projects\VersioningExample\VersioningExample\bin\Debug\VersioningExample.dll
+c:\users\richard.king\documents\visual studio 2010\Projects\VersioningExample\VersioningExample\bin\Debug\VersioningExample.pdb
+c:\users\richard.king\documents\visual studio 2010\Projects\VersioningExample\VersioningExample\obj\Debug\VersioningExample.dll
+c:\users\richard.king\documents\visual studio 2010\Projects\VersioningExample\VersioningExample\obj\Debug\VersioningExample.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\VersioningExample\bin\Debug\VersioningExample.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\VersioningExample\bin\Debug\VersioningExample.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\VersioningExample\obj\Debug\VersioningExample.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\VersioningExample\obj\Debug\VersioningExample.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\VersioningExample\obj\Debug\VersioningExample.csprojResolveAssemblyReference.cache

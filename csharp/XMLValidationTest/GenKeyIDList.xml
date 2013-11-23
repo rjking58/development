@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GenericKeyIDDictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GenKeyIDSchema.xsd">
+  <GenericKeyIDList ListName="TV.template">
+    <GenericKeyIDPair PrimaryKeyVal="1" SecondaryKeyVal="2" />
+    <GenericKeyIDPair PrimaryKeyVal="3" SecondaryKeyVal="4" />
+  </GenericKeyIDList>
+  <GenericKeyIDList ListName="Other.template">
+    <GenericKeyIDPair PrimaryKeyVal="11" SecondaryKeyVal="-1" />
+    <GenericKeyIDPair PrimaryKeyVal="330" SecondaryKeyVal="34" />
+  </GenericKeyIDList>
+  <GenericKeyIDList ListName="Another.template">
+    <GenericKeyIDPair PrimaryKeyVal="330" SecondaryKeyVal="-1" />
+    <GenericKeyIDPair PrimaryKeyVal="330" SecondaryKeyVal="-1" />
+  </GenericKeyIDList>
+</GenericKeyIDDictionary>

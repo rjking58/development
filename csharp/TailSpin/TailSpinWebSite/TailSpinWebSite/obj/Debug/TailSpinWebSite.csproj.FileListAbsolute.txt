@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite\bin\TailSpinWebSite.dll
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite\bin\TailSpinWebSite.pdb
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite\obj\Debug\TailSpinWebSite.dll
+C:\Development\SOURCE\csharp\TailSpin\TailSpinWebSite\TailSpinWebSite\obj\Debug\TailSpinWebSite.pdb

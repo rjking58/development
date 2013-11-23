@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="myAlarm">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\myAlarm.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\myAlarm.suo">
+</Property><Property Name="Date" Value="Monday, February 19, 2007">
+</Property><Property Name="Time" Value="12:42 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="myAlarm.sln" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\myAlarm.sln">
+</Event><Event ErrorLevel="0" Project="" Source="myAlarm.suo" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\myAlarm.suo">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="myAlarm.csproj" Description="Project file successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\myAlarm.csproj">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="myAlarm.csproj.user" Description="Project user file successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\myAlarm.csproj.user">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="AssemblyInfo.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="Form1.cs" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="app.config" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="App.ico" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="Form1.resx" Description="File successfully backed up as C:\Documents and Settings\rking\My Documents\Visual Studio 2005\Projects\myAlarm\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="myAlarm.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="myAlarm" Source="myAlarm.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="myAlarm.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="myAlarm.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="myAlarm" Source="myAlarm.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,5 @@
+bin\Debug\multiThread1.exe
+bin\Debug\multiThread1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\multiThread1.exe
+obj\Debug\multiThread1.pdb

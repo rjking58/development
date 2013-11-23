@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\ThreadingTest\ThreadingTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ThreadingTest\ThreadingTest\bin\Debug\ThreadingTest.exe
+C:\Development\SOURCE\csharp\ThreadingTest\ThreadingTest\bin\Debug\ThreadingTest.pdb
+C:\Development\SOURCE\csharp\ThreadingTest\ThreadingTest\obj\x86\Debug\ThreadingTest.exe
+C:\Development\SOURCE\csharp\ThreadingTest\ThreadingTest\obj\x86\Debug\ThreadingTest.pdb
+C:\Volatile\Source\csharp\ThreadingTest\ThreadingTest\obj\x86\Debug\ThreadingTest.exe
+C:\Volatile\Source\csharp\ThreadingTest\ThreadingTest\obj\x86\Debug\ThreadingTest.pdb

@@ -1,0 +1,8 @@
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\bin\Debug\BasicService_HOSTING_NAMEDPIPE.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\bin\Debug\BasicService_HOSTING_NAMEDPIPE.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\bin\Debug\BasicService_HOSTING_NAMEDPIPE.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\bin\Debug\BasicService.dll
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\bin\Debug\BasicService.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\obj\x86\Debug\BasicService_HOSTING_NAMEDPIPE.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING_NAMEDPIPE\obj\x86\Debug\BasicService_HOSTING_NAMEDPIPE.pdb

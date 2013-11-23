@@ -1,0 +1,1 @@
+C:\Volatile\Development\Source\csharp\ProWPF\XAML_Basics_ch2\MainWindow.xaml;C:\Volatile\Development\Source\csharp\ProWPF\.klocwork\cpp.kwlp\ds\1\5pz5n3x5.hzj;1;0;0

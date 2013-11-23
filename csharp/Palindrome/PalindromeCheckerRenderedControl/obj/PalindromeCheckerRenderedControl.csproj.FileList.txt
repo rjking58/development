@@ -1,0 +1,5 @@
+bin\Debug\PalindromeCheckerRenderedControl.dll
+bin\Debug\PalindromeCheckerRenderedControl.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\PalindromeCheckerRenderedControl.dll
+obj\Debug\PalindromeCheckerRenderedControl.pdb

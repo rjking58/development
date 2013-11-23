@@ -1,0 +1,31 @@
+[Global]
+CurrentProject=abstractfactory.vpj
+[ProjectDates]
+abstractfactory.vpj=20061115182755670
+[ActiveConfig]
+abstractfactory.vpj=,Debug
+[TreeExpansion]
+abstractfactory.vpj 0
+[State]
+SCREEN: 1280 1024 220 220 960 710 0 0 M 0 0 0 0 1006 633
+CWD: ..\Chapter4Factory
+BUFFER: BN="abstractfactory.cpp"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=8 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.11983 CL=18 LE=0 CX=17 CY=24 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 316 1006 317 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="abstractfactory.cpp"
+VIEW: LN=.4318 CL=1 LE=0 CX=0 CY=48 WI=126 BI=22 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\STL\Containers\vector_container.cpp
+factory.mak
+factory.cpp
+simplefactory.mak
+simplefactory.cpp
+factorymethod.mak
+factorymethod.cpp
+abstractfactory.mak
+abstractfactory.cpp
+DEBUG: 0 0 0 0 3
+printf
+strcpy
+std::*

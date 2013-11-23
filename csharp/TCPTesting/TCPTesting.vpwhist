@@ -1,0 +1,21 @@
+[Global]
+CurrentProject=TCPTesting\TCPTesting.vpj
+[ActiveConfig]
+TCPTesting\TCPTesting.vpj=
+[ProjectDates]
+TCPTesting\TCPTesting.csproj=20090402211332000
+[TreeExpansion]
+TCPTesting\TCPTesting.csproj 1 1 1 1 1 1
+[State]
+SCREEN: 1680 1050 1690 78 1127 746 0 0 M 0 0 0 0 954 744
+CWD: TCPTesting
+FILEHIST: 9
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMUtilities\SMThreadSafeQueue.h
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\CSMTCPSocketMsgProcessor.h
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManager\CSMTCPSocketMsgProcessor.cpp
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManagerUnitTests\Stdafx.h
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManagerUnitTests\Stdafx.cpp
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManagerUnitTests\ProfileManagerUnitTests.cpp
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMProfileManagerUnitTests\ProfileManagerUnitTests.h
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMManager\SMSocketManager.cpp
+C:\Dev\Mobile\ProfileManagerBranch\Source Code\SMManager\SMSocketManager.h

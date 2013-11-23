@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\PopulatingStructsCSharp\bin\Debug\PopulatingStructsCSharp.dll
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\PopulatingStructsCSharp\bin\Debug\PopulatingStructsCSharp.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\PopulatingStructsCSharp\obj\Debug\PopulatingStructsCSharp.dll
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\PopulatingStructsCSharp\obj\Debug\PopulatingStructsCSharp.pdb

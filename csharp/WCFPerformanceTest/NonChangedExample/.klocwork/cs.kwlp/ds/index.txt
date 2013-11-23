@@ -1,0 +1,4 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\CallTestService\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\.klocwork\cs.kwlp\ds\4zlg1tru.fzm;1;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\HostWcfSvcLib1\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\.klocwork\cs.kwlp\ds\kufzdifa.s2x;2;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\WcfServiceLibrary1\IService1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\.klocwork\cs.kwlp\ds\shxdp2z0.03e;3;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\WcfServiceLibrary1\Service1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\NonChangedExample\.klocwork\cs.kwlp\ds\5mjp510b.tnq;4;0;0

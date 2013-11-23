@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\PropertiesInInterfaces\bin\Debug\PropertiesInInterfaces.dll
+C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\PropertiesInInterfaces\bin\Debug\PropertiesInInterfaces.pdb
+C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\PropertiesInInterfaces\obj\Debug\PropertiesInInterfaces.dll
+C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\PropertiesInInterfaces\obj\Debug\PropertiesInInterfaces.pdb

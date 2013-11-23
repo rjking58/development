@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FormatNumbers\obj\x86\Debug\FormatNumbers.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\FormatNumbers\bin\Debug\FormatNumbers.pdb

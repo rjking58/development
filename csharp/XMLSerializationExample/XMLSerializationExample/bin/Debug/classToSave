@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<classToSave xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <c>
+    <M_i>23</M_i>
+    <ID>contained</ID>
+  </c>
+  <c2>
+    <M_i>33</M_i>
+    <ID>contained</ID>
+  </c2>
+  <m_i>13</m_i>
+  <m_string>one</m_string>
+</classToSave>

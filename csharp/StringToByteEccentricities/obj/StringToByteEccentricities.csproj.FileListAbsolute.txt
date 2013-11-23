@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\StringToByteEccentricities\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\StringToByteEccentricities\bin\Debug\StringToByteEccentricities.exe
+C:\Volatile\Source\csharp2\vs2005Projs\StringToByteEccentricities\bin\Debug\StringToByteEccentricities.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\StringToByteEccentricities\obj\Debug\StringToByteEccentricities.exe
+C:\Volatile\Source\csharp2\vs2005Projs\StringToByteEccentricities\obj\Debug\StringToByteEccentricities.pdb

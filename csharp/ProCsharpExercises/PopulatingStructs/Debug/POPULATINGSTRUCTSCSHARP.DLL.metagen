@@ -1,0 +1,15 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly PopulatingStructsCSharp, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct PopulatingStructsCSharp.S1: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    Int32 pX   'get set' : 
+    Int32 pY   'get set' : 
+  Methods:
+    get_pX(): PrivateScope, Public, HideBySig, SpecialName
+    set_pX(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_pY(): PrivateScope, Public, HideBySig, SpecialName
+    set_pY(Int32): PrivateScope, Public, HideBySig, SpecialName

@@ -1,0 +1,37 @@
+[Global]
+CurrentProject=Threading1\Threading1.vpj
+[ActiveConfig]
+Threading1\Threading1.vpj=,Debug|AnyCPU
+Threading2\Threading2.vpj=,Debug|AnyCPU
+ThreadComm1\ThreadComm1.vpj=,Debug|AnyCPU
+[ProjectDates]
+Threading1\Threading1.csproj=20070216220000000
+Threading2\Threading2.csproj=20070216224200000
+ThreadComm1\ThreadComm1.csproj=20070227141415325
+[TreeExpansion2]
++ ThreadComm1\ThreadComm1.csproj
++ Threading1\Threading1.csproj
++ Threading2\Threading2.csproj
+scroll:0
+[State]
+SCREEN: 1280 1024 110 145 960 685 0 0 M 0 0 0 0 1253 780
+CWD: Threading1
+BUFFER: BN="Threading1\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1637 CL=1 LE=0 CX=0 CY=18 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="ThreadComm1\Class1.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=13 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 306 1253 306 -1 -1 M  WF=0 WT=2 "Lucida Console,10,0,1"
+BUFFER: BN="ThreadComm1\Class1.cs"
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=68 BI=13 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\Libraries\Diagnostics\UeiResult.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\HIDCommTestManifest2005\ManifestFetch.cs
+\src\Libraries\HidIF2005\HidIF2005\Imports.cs
+\src\Libraries\HidIF2005\HidIF2005\remoteMessaging.cs
+\src\Libraries\HidIF2005\HidIF2005\HidDevice.cs
+..\DetectRepeatRun\DetectRepeatRun2\Program.cs
+..\DetectRepeatRun\DetectRepeatRun\Program.cs
+Threading1\Program.cs
+ThreadComm1\Class1.cs

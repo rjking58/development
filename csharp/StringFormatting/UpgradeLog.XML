@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="StringFormatting">
+</Property><Property Name="Solution File" Value="C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\StringFormatting.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\StringFormatting.suo">
+</Property><Property Name="Date" Value="Friday, August 08, 2008">
+</Property><Property Name="Time" Value="14:03 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="StringFormatting.sln" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\Backup\StringFormatting.sln">
+</Event><Event ErrorLevel="0" Project="" Source="StringFormatting.suo" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\Backup\StringFormatting.suo">
+</Event><Event ErrorLevel="0" Project="StringFormatting" Source="StringFormatting.csproj" Description="Project file successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\Backup\StringFormatting.csproj">
+</Event><Event ErrorLevel="0" Project="StringFormatting" Source="Program.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="StringFormatting" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\StringFormatting\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="StringFormatting" Source="StringFormatting.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="StringFormatting" Source="StringFormatting.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="StringFormatting.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="StringFormatting.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="StringFormatting" Source="StringFormatting.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

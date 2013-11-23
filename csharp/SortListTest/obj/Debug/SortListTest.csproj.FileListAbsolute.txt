@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\SortListTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\SortListTest\bin\Debug\SortListTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\SortListTest\bin\Debug\SortListTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\SortListTest\obj\Debug\SortListTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\SortListTest\obj\Debug\SortListTest.pdb

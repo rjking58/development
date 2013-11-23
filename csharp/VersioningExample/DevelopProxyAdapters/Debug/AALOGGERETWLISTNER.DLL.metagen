@@ -1,0 +1,32 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly aaLoggerETWListner, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Class aaLoggerETWListner.aaLoggerListner: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Diagnostics.TraceListener
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Write(String): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String): PrivateScope, Public, Virtual, HideBySig
+    WriteLine(String, String): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String): PrivateScope, Public, Virtual, HideBySig
+    TraceEvent(TraceEventCache, String, TraceEventType, Int32, String, Object[]): PrivateScope, Public, Virtual, HideBySig
+Class aaLoggerETWListner.ConfiguredLogger: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String ComponentName 'get set' : 
+  Methods:
+    get_ComponentName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ComponentName(String): PrivateScope, Public, HideBySig, SpecialName
+    AddCustomTraceSource(String, TraceSource, String, SourceLevels(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ChangeSourceLevel(String, SourceLevels): PrivateScope, Public, HideBySig
+    ReloadConfiguration(): PrivateScope, Public, HideBySig

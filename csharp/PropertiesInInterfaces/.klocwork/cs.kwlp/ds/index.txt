@@ -1,0 +1,1 @@
+C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\PropertiesInInterfaces\Class1.cs;C:\Volatile\Development\Source\csharp\PropertiesInInterfaces\.klocwork\cs.kwlp\ds\1\ttjnh2rn.x2d;1;0;0

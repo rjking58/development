@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\YieldReturnExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\YieldReturnExample\bin\Debug\YieldReturnExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\YieldReturnExample\bin\Debug\YieldReturnExample.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\YieldReturnExample\obj\Debug\YieldReturnExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\YieldReturnExample\obj\Debug\YieldReturnExample.pdb

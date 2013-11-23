@@ -1,0 +1,5 @@
+bin\Debug\fullThreadingParameterized.exe
+bin\Debug\fullThreadingParameterized.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\fullThreadingParameterized.exe
+obj\Debug\fullThreadingParameterized.pdb

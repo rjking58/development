@@ -1,0 +1,5 @@
+[Global]
+Version=8
+[ASSOCIATION]
+workspacefile=Chapter2Observer.sln
+workspacetype=microsoft visual studio

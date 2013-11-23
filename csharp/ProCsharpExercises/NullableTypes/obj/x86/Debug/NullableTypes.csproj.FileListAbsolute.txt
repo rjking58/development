@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCSharpExercises\NullableTypes\bin\Debug\NullableTypes.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\NullableTypes\bin\Debug\NullableTypes.pdb
+C:\Development\SOURCE\csharp\ProCSharpExercises\NullableTypes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCSharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\bin\Debug\NullableTypes.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\bin\Debug\NullableTypes.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\NullableTypes\bin\Debug\NullableTypes.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\NullableTypes\bin\Debug\NullableTypes.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\NullableTypes\obj\x86\Debug\NullableTypes.pdb

@@ -1,0 +1,15 @@
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\bin\Debug\HalfAdder.exe
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\bin\Debug\HalfAdder.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\bin\Debug\LogicSimulator1.dll
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\bin\Debug\LogicSimulator1.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\MainWindow.baml
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\MainWindow.g.cs
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\App.g.cs
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\HalfAdder_MarkupCompile.cache
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\HalfAdder.g.resources
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\HalfAdder.Properties.Resources.resources
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\HalfAdder.exe
+C:\Development\SOURCE\csharp\LogicSimulator1\HalfAdder\obj\x86\Debug\HalfAdder.pdb

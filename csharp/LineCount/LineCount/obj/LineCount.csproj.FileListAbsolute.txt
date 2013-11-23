@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LineCount\LineCount\obj\Debug\LineCount.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LineCount\LineCount\obj\Debug\LineCount.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LineCount\LineCount\bin\Debug\LineCount.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LineCount\LineCount\bin\Debug\LineCount.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LineCount\LineCount\obj\Debug\ResolveAssemblyReference.cache

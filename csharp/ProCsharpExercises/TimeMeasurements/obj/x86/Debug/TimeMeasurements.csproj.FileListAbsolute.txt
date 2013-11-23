@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\bin\Debug\TimeMeasurements.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\bin\Debug\TimeMeasurements.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\obj\x86\Debug\TimeMeasurements.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\TimeMeasurements\obj\x86\Debug\TimeMeasurements.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\TimeMeasurements\bin\Debug\TimeMeasurements.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\TimeMeasurements\bin\Debug\TimeMeasurements.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\TimeMeasurements\obj\x86\Debug\TimeMeasurements.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\TimeMeasurements\obj\x86\Debug\TimeMeasurements.pdb

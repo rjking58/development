@@ -1,0 +1,12 @@
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.dll.config
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.dll
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\BasicService.dll
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\BasicService.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.dll.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.dll
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\bin\Debug\BasicService.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\BasicService.dll
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService\obj\Debug\BasicService.pdb

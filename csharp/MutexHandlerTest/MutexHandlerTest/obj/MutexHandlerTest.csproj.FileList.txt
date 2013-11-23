@@ -1,0 +1,7 @@
+bin\Debug\MutexHandlerTest.exe
+bin\Debug\MutexHandlerTest.pdb
+bin\Debug\Manifest.Lib.dll
+bin\Debug\Manifest.Lib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MutexHandlerTest.exe
+obj\Debug\MutexHandlerTest.pdb

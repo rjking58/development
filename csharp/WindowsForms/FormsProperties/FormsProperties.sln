@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsProperties", "FormsProperties\FormsProperties.csproj", "{F05EDEDD-1BEC-484E-ABC9-B55129B9513C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormWithButton", "..\FormWithButton\FormWithButton.csproj", "{6DE2434C-E0FE-4C8E-BB38-09E51FFBA164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05EDEDD-1BEC-484E-ABC9-B55129B9513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05EDEDD-1BEC-484E-ABC9-B55129B9513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05EDEDD-1BEC-484E-ABC9-B55129B9513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05EDEDD-1BEC-484E-ABC9-B55129B9513C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE2434C-E0FE-4C8E-BB38-09E51FFBA164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE2434C-E0FE-4C8E-BB38-09E51FFBA164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE2434C-E0FE-4C8E-BB38-09E51FFBA164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE2434C-E0FE-4C8E-BB38-09E51FFBA164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

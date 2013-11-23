@@ -1,0 +1,8 @@
+C:\Users\richard.king\Documents\Visual Studio 2010\Projects\VersioningExample\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\richard.king\Documents\Visual Studio 2010\Projects\VersioningExample\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\richard.king\Documents\Visual Studio 2010\Projects\VersioningExample\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\richard.king\Documents\Visual Studio 2010\Projects\VersioningExample\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Volatile\Development\Source\csharp\VersioningExample\ClassLibrary1\obj\Debug\ClassLibrary1.dll

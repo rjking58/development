@@ -1,0 +1,250 @@
+﻿Build started 11/21/2013 9:46:18 AM.
+     1>Project "C:\Volatile\Development\Source\csharp\VersioningExample\DevelopProxyAdapters\DevelopProxyAdapters.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DevelopProxyAdapters.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\DevelopProxyAdapters.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\DevelopProxyAdapters.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp /clr:nostdlib 
+         Stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\DevelopProxyAdapters.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.dll" /FU"E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CIDataVersionAdapterV1.cpp CIDataVersionAdapterV2.cpp DevelopProxyAdapters.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         CIDataVersionAdapterV1.cpp
+     1>c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(10): warning C4570: 'CIDataVersionAdapter' : is not explicitly declared as abstract but has abstract functions
+                 'bool CIDataVersionAdapter::Connect(System::String ^%)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(14) : see declaration of 'CIDataVersionAdapter::Connect'
+                 'void CIDataVersionAdapter::Abort(void)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(16) : see declaration of 'CIDataVersionAdapter::Abort'
+                 'void CIDataVersionAdapter::Disconnect(void)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(18) : see declaration of 'CIDataVersionAdapter::Disconnect'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::KeepAlive(ArchestrAServices::ASBContract::ConnectionId)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(35) : see declaration of 'CIDataVersionAdapter::KeepAlive'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Read(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::RuntimeValue> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(38) : see declaration of 'CIDataVersionAdapter::Read'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Write(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(49) : see declaration of 'CIDataVersionAdapter::Write'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteUser(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(55) : see declaration of 'CIDataVersionAdapter::WriteUser'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteVerified(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(62) : see declaration of 'CIDataVersionAdapter::WriteVerified'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteSecured(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(71) : see declaration of 'CIDataVersionAdapter::WriteSecured'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteConfirmed(ArchestrAServices::ASBIDataV2Contract::WriteValue %,__int64 %,ArchestrAServices::ASBContract::ConnectionId,ArchestrAServices::ASBIDataV2Contract::ItemIdentity,ArchestrAServices::ASBIDataV2Contract::WriteValue,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(78) : see declaration of 'CIDataVersionAdapter::WriteConfirmed'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::ConfirmWrite(ArchestrAServices::ASBContract::ConnectionId,ArchestrAServices::ASBIDataV2Contract::ItemIdentity,__int64,ArchestrAServices::ASBIDataV2Contract::WriteValue,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(86) : see declaration of 'CIDataVersionAdapter::ConfirmWrite'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::PublishWriteComplete(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemWriteComplete
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(94) : see declaration of 'CIDataVersionAdapter::PublishWriteComplete'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::CreateSubscription(__int64 %,ArchestrAServices::ASBContract::ConnectionId,__int64,unsigned __int64)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(98) : see declaration of 'CIDataVersionAdapter::CreateSubscription'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::SetSubscriptionState(ArchestrAServices::ASBContract::ConnectionId,__int64,ArchestrAServices::ASBIDataContract::V2::Variant,unsigned short)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(103) : see declaration of 'CIDataVersionAdapter::SetSubscriptionState'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::GetSubscriptionState(ArchestrAServices::ASBIDataContract::V2::Variant %,ArchestrAServices::ASBContract::ConnectionId,__int64,unsigned short)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(108) : see declaration of 'CIDataVersionAdapter::GetSubscriptionState'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::DeleteSubscription(ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(113) : see declaration of 'CIDataVersionAdapter::DeleteSubscription'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::AddMonitoredItems(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemRegistration> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItem> ^,unsigned char)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(116) : see declaration of 'CIDataVersionAdapter::AddMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::DeleteMonitoredItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItem> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(123) : see declaration of 'CIDataVersionAdapter::DeleteMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::GetMonitoredItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::MonitoredItem
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(128) : see declaration of 'CIDataVersionAdapter::GetMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Publish(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItemValue> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(132) : see declaration of 'CIDataVersionAdapter::Publish'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::RegisterItems(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemRegistration> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,unsigned char,unsigned char)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(137) : see declaration of 'CIDataVersionAdapter::RegisterItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::UnregisterItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(144) : see declaration of 'CIDataVersionAdapter::UnregisterItems'
+         CIDataVersionAdapterV2.cpp
+     1>c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(10): warning C4570: 'CIDataVersionAdapter' : is not explicitly declared as abstract but has abstract functions
+                 'bool CIDataVersionAdapter::Connect(System::String ^%)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(14) : see declaration of 'CIDataVersionAdapter::Connect'
+                 'void CIDataVersionAdapter::Abort(void)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(16) : see declaration of 'CIDataVersionAdapter::Abort'
+                 'void CIDataVersionAdapter::Disconnect(void)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(18) : see declaration of 'CIDataVersionAdapter::Disconnect'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::KeepAlive(ArchestrAServices::ASBContract::ConnectionId)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(35) : see declaration of 'CIDataVersionAdapter::KeepAlive'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Read(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::RuntimeValue> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(38) : see declaration of 'CIDataVersionAdapter::Read'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Write(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(49) : see declaration of 'CIDataVersionAdapter::Write'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteUser(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(55) : see declaration of 'CIDataVersionAdapter::WriteUser'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteVerified(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(62) : see declaration of 'CIDataVersionAdapter::WriteVerified'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteSecured(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,cli::array<ArchestrAServices::ASBIDataV2Contract::WriteValue> ^,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(71) : see declaration of 'CIDataVersionAdapter::WriteSecured'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::WriteConfirmed(ArchestrAServices::ASBIDataV2Contract::WriteValue %,__int64 %,ArchestrAServices::ASBContract::ConnectionId,ArchestrAServices::ASBIDataV2Contract::ItemIdentity,ArchestrAServices::ASBIDataV2Contract::WriteValue,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(78) : see declaration of 'CIDataVersionAdapter::WriteConfirmed'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::ConfirmWrite(ArchestrAServices::ASBContract::ConnectionId,ArchestrAServices::ASBIDataV2Contract::ItemIdentity,__int64,ArchestrAServices::ASBIDataV2Contract::WriteValue,ArchestrAServices::ASBIDataV2Contract::UserToken,ArchestrAServices::ASBIDataV2Contract::UserToken,unsigned int)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(86) : see declaration of 'CIDataVersionAdapter::ConfirmWrite'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::PublishWriteComplete(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemWriteComplete
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(94) : see declaration of 'CIDataVersionAdapter::PublishWriteComplete'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::CreateSubscription(__int64 %,ArchestrAServices::ASBContract::ConnectionId,__int64,unsigned __int64)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(98) : see declaration of 'CIDataVersionAdapter::CreateSubscription'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::SetSubscriptionState(ArchestrAServices::ASBContract::ConnectionId,__int64,ArchestrAServices::ASBIDataContract::V2::Variant,unsigned short)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(103) : see declaration of 'CIDataVersionAdapter::SetSubscriptionState'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::GetSubscriptionState(ArchestrAServices::ASBIDataContract::V2::Variant %,ArchestrAServices::ASBContract::ConnectionId,__int64,unsigned short)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(108) : see declaration of 'CIDataVersionAdapter::GetSubscriptionState'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::DeleteSubscription(ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(113) : see declaration of 'CIDataVersionAdapter::DeleteSubscription'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::AddMonitoredItems(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemRegistration> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItem> ^,unsigned char)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(116) : see declaration of 'CIDataVersionAdapter::AddMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::DeleteMonitoredItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItem> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(123) : see declaration of 'CIDataVersionAdapter::DeleteMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::GetMonitoredItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::MonitoredItem
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(128) : see declaration of 'CIDataVersionAdapter::GetMonitoredItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::Publish(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::MonitoredItemValue> ^%,ArchestrAServices::ASBContract::ConnectionId,__int64)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(132) : see declaration of 'CIDataVersionAdapter::Publish'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::RegisterItems(cli::array<Type> ^%,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemRegistration> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^,unsigned char,unsigned char)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(137) : see declaration of 'CIDataVersionAdapter::RegisterItems'
+                 'ArchestrAServices::ASBContract::ArchestrAResult CIDataVersionAdapter::UnregisterItems(cli::array<Type> ^%,ArchestrAServices::ASBContract::ConnectionId,cli::array<ArchestrAServices::ASBIDataV2Contract::ItemIdentity> ^)' : is abstract
+                 with
+                 [
+                     Type=ArchestrAServices::ASBIDataV2Contract::ItemStatus
+                 ]
+                 c:\volatile\development\source\csharp\versioningexample\developproxyadapters\CIDataVersionAdapter.h(144) : see declaration of 'CIDataVersionAdapter::UnregisterItems'
+         DevelopProxyAdapters.cpp
+         Generating Code...
+     1>c:\volatile\development\source\csharp\versioningexample\developproxyadapters\cidataversionadapterv2.cpp(47): warning C4715: 'CIDataVersionAdapterV2::KeepAlive' : not all control paths return a value
+     1>c:\volatile\development\source\csharp\versioningexample\developproxyadapters\cidataversionadapterv1.cpp(47): warning C4715: 'CIDataVersionAdapterV1::KeepAlive' : not all control paths return a value
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\richard.king\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.dll" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\DevelopProxyAdapters.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\CIDataVersionAdapterV1.obj
+         Debug\CIDataVersionAdapterV2.obj
+         Debug\DevelopProxyAdapters.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         DevelopProxyAdapters.vcxproj -> C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.dll
+       MetaGen:
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Could not load file or assembly 'DevelopProxyAdapters, Version=1.0.5073.17590, Culture=neutral, PublicKeyToken=null' or one of its dependencies. The system cannot find the file specified.
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.dll;#2" /manifest Debug\DevelopProxyAdapters.dll.intermediate.manifest
+       _CopyFilesMarkedCopyLocal:
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaLoggerETWListner.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesCommon.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesCommonDataContracts.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIAuthenticateASB.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIData.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIDataV2.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesProxyIData.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesProxyIDataV2.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.dll" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\ASBIDataV2Adapter.dll".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaLoggerETWListner.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesCommon.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesCommonDataContracts.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIAuthenticateASB.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIData.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesContractIDataV2.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesProxyIData.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\aaServicesProxyIDataV2.pdb".
+         Copying file from "E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.pdb" to "C:\Volatile\Development\Source\csharp\VersioningExample\Debug\ASBIDataV2Adapter.pdb".
+       FinalizeBuildStatus:
+         Deleting file "Debug\DevelopProxyAdapters.unsuccessfulbuild".
+         Touching "Debug\DevelopProxyAdapters.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\csharp\VersioningExample\DevelopProxyAdapters\DevelopProxyAdapters.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.58

@@ -1,0 +1,8 @@
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\SVNFilterStatusG.Form1.resources
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\SVNFilterStatusG.Properties.Resources.resources
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\SVNFilterStatusG.csproj.GenerateResource.Cache
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\bin\Debug\SVNFilterStatusG.exe
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\bin\Debug\SVNFilterStatusG.pdb
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\SVNFilterStatusG.exe
+C:\GCS\Source\csharp\SVNFilterStatusG\SVNFilterStatusG\obj\Debug\SVNFilterStatusG.pdb

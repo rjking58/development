@@ -1,0 +1,25 @@
+﻿Build started 3/11/2013 1:10:30 PM.
+     1>Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\TrackingReferenceTest\TrackingReferenceTest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TrackingReferenceTest_CPP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TrackingReferenceTest.vcxproj -> C:\Volatile\Development\Source\csharp\ProCsharpExercises\Debug\TrackingReferenceTest_CPP.exe
+       MetaGen:
+       Skipping target "MetaGen" because all output files are up-to-date with respect to the input files.
+       FinalizeBuildStatus:
+         Deleting file "Debug\TrackingReferenceTest_CPP.unsuccessfulbuild".
+         Touching "Debug\TrackingReferenceTest_CPP.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\csharp\ProCsharpExercises\TrackingReferenceTest\TrackingReferenceTest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.15

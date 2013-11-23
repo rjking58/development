@@ -1,0 +1,99 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly aaServicesProxyIDataV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesContractIDataV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaLoggerETWListner, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommonDataContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.ServiceModel.Discovery, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly aaServicesContractIAuthenticateASB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ArchestrAServices.Proxy.ASBDataV2Proxy: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, ArchestrAServices.Contract.IAsbInterfaceSettings): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    ArchestrAServices.ASBIDataV2Contract.IDataV2
+    System.IDisposable
+  Fields:
+    System.Guid m_ConnectionId : Public
+    System.Diagnostics.TraceSource ASBDataProxyCustom : Public, Static
+  Properties:
+    System.Guid ConnectionIdProp 'get ' : 
+    Boolean Connected 'get ' : 
+    System.ServiceModel.CommunicationState ChannelState 'get ' : 
+    ArchestrAServices.Contract.IAsbInterfaceSettings Settings 'get set' : 
+  Methods:
+    get_ConnectionIdProp(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Connected(): PrivateScope, Public, HideBySig, SpecialName
+    get_ChannelState(): PrivateScope, Public, HideBySig, SpecialName
+    Connect(String&(Out)): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SelectEndpointToConnectTo(FindResponse, Boolean&): PrivateScope, Public, HideBySig
+    Connect(EndpointDiscoveryMetadata, String&(Out)): PrivateScope, Public, HideBySig
+    Disconnect(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Abort(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    get_Settings(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    KeepAlive(ConnectionId): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    KeepAlive(): PrivateScope, Public, HideBySig
+    ActivateUser(ConnectionId, UserToken): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ActivateUser(UserToken): PrivateScope, Public, HideBySig
+    ExchangeCapabilities(String&(Out), ConnectionId, String): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ExchangeCapabilities(String&(Out), String): PrivateScope, Public, HideBySig
+    Read(ItemStatus[]&(Out), RuntimeValue[]&(Out), ConnectionId, ItemIdentity[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Read(ItemStatus[]&(Out), RuntimeValue[]&(Out), ItemIdentity[]): PrivateScope, Public, HideBySig
+    Write(ItemStatus[]&(Out), ConnectionId, ItemIdentity[], WriteValue[], UInt32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Write(ItemStatus[]&(Out), ItemIdentity[], WriteValue[], UInt32): PrivateScope, Public, HideBySig
+    WriteUser(ItemStatus[]&(Out), ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    WriteUser(ItemStatus[]&(Out), ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, HideBySig
+    WriteVerified(ItemStatus[]&(Out), ConnectionId, ItemIdentity[], WriteValue[], UserToken, UserToken, UInt32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    WriteVerified(ItemStatus[]&(Out), ItemIdentity[], WriteValue[], UserToken, UserToken, UInt32): PrivateScope, Public, HideBySig
+    WriteSecured(ItemStatus[]&(Out), ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    WriteSecured(ItemStatus[]&(Out), ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, HideBySig
+    WriteConfirmed(WriteValue&(Out), Int64&(Out), ConnectionId, ItemIdentity, WriteValue, UserToken, UserToken): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    WriteConfirmed(WriteValue&(Out), Int64&(Out), ItemIdentity, WriteValue, UserToken, UserToken): PrivateScope, Public, HideBySig
+    ConfirmWrite(ConnectionId, ItemIdentity, Int64, WriteValue, UserToken, UserToken, UInt32): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    ConfirmWrite(ItemIdentity, Int64, WriteValue, UserToken, UserToken, UInt32): PrivateScope, Public, HideBySig
+    PublishWriteComplete(ItemWriteComplete[]&(Out), ConnectionId): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    PublishWriteComplete(ItemWriteComplete[]&(Out)): PrivateScope, Public, HideBySig
+    CreateSubscription(Int64&(Out), ConnectionId, Int64, UInt64): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    CreateSubscription(Int64&(Out), Int64, UInt64): PrivateScope, Public, HideBySig
+    SetSubscriptionState(ConnectionId, Int64, Variant, UInt16): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    SetSubscriptionState(Int64, Variant, UInt16): PrivateScope, Public, HideBySig
+    GetSubscriptionState(Variant&(Out), ConnectionId, Int64, UInt16): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetSubscriptionState(Variant&(Out), Int64, UInt16): PrivateScope, Public, HideBySig
+    DeleteSubscription(ConnectionId, Int64): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DeleteSubscription(Int64): PrivateScope, Public, HideBySig
+    AddMonitoredItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), ConnectionId, Int64, MonitoredItem[], Byte): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    AddMonitoredItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), Int64, MonitoredItem[], Byte): PrivateScope, Public, HideBySig
+    AddMonitoredItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), Int64, Boolean, MonitoredItem[]): PrivateScope, Public, HideBySig
+    DeleteMonitoredItems(ItemStatus[]&(Out), ConnectionId, Int64, MonitoredItem[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    DeleteMonitoredItems(ItemStatus[]&(Out), Int64, MonitoredItem[]): PrivateScope, Public, HideBySig
+    GetMonitoredItems(MonitoredItem[]&(Out), ConnectionId, Int64): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    GetMonitoredItems(MonitoredItem[]&(Out), Int64): PrivateScope, Public, HideBySig
+    Publish(ItemStatus[]&(Out), MonitoredItemValue[]&(Out), ConnectionId, Int64): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Publish(ItemStatus[]&(Out), MonitoredItemValue[]&(Out), Int64): PrivateScope, Public, HideBySig
+    RegisterItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), ConnectionId, ItemIdentity[], Byte, Byte): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    RegisterItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), ItemIdentity[], Byte, Byte): PrivateScope, Public, HideBySig
+    RegisterItems(ItemStatus[]&(Out), ItemRegistration[]&(Out), Boolean, Boolean, ItemIdentity[]): PrivateScope, Public, HideBySig
+    UnregisterItems(ItemStatus[]&(Out), ConnectionId, ItemIdentity[]): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    UnregisterItems(ItemStatus[]&(Out), ItemIdentity[]): PrivateScope, Public, HideBySig
+    OnConnect(ConnectionId, UInt64): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    OnDisconnect(ConnectionId): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.Proxy.ASBDataV2Proxy+ConnectionDelegate: AutoLayout, AnsiClass, Class, NestedPublic, BeforeFieldInit
+    Void .ctor(ArchestrAServices.ASBIDataV2Contract.IASBIDataV2): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    CallConnect(ConnectRequest): PrivateScope, Public, HideBySig
+    CallAuthenticateMe(AuthenticateMe): PrivateScope, Public, HideBySig
+    CallDisconnect(Disconnect): PrivateScope, Public, HideBySig

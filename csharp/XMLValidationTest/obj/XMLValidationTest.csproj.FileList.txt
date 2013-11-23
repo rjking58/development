@@ -1,0 +1,5 @@
+bin\Debug\XMLValidationTest.exe
+bin\Debug\XMLValidationTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\XMLValidationTest.exe
+obj\Debug\XMLValidationTest.pdb

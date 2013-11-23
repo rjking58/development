@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ReferenceComparisons\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\ReferenceComparisons\bin\Debug\ReferenceComparisons.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ReferenceComparisons\bin\Debug\ReferenceComparisons.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ReferenceComparisons\obj\Debug\ReferenceComparisons.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ReferenceComparisons\obj\Debug\ReferenceComparisons.pdb

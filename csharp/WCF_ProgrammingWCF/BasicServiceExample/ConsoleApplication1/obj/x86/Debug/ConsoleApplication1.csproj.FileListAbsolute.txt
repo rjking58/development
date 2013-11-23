@@ -1,0 +1,12 @@
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumTypes\bin\Debug\EnumTypes.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EnumTypes\obj\x86\Debug\EnumTypes.pdb

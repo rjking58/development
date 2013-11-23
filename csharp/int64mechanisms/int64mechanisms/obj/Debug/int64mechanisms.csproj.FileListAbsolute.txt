@@ -1,0 +1,6 @@
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\bin\Debug\int64mechanisms.exe.config
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\bin\Debug\int64mechanisms.exe
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\bin\Debug\int64mechanisms.pdb
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\obj\Debug\int64mechanisms.exe
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\obj\Debug\int64mechanisms.pdb
+C:\Volatile\Development\Source\csharp\int64mechanisms\int64mechanisms\obj\Debug\int64mechanisms.csprojResolveAssemblyReference.cache

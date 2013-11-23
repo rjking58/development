@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\sieveOfEratosthenes\sieveOfEratosthenes\bin\Debug\sieveOfEratosthenes.exe
+C:\GCS\Source\csharp\sieveOfEratosthenes\sieveOfEratosthenes\bin\Debug\sieveOfEratosthenes.pdb
+C:\GCS\Source\csharp\sieveOfEratosthenes\sieveOfEratosthenes\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\sieveOfEratosthenes\sieveOfEratosthenes\obj\Debug\sieveOfEratosthenes.exe
+C:\GCS\Source\csharp\sieveOfEratosthenes\sieveOfEratosthenes\obj\Debug\sieveOfEratosthenes.pdb

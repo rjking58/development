@@ -1,0 +1,15 @@
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\bin\Debug\SimpleLatchTester2.exe
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\bin\Debug\SimpleLatchTester2.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\bin\Debug\LogicSimulator1.dll
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\bin\Debug\LogicSimulator1.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\MainWindow.baml
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\MainWindow.g.cs
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\App.g.cs
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\SimpleLatchTester2_MarkupCompile.cache
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\SimpleLatchTester2.g.resources
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\SimpleLatchTester2.Properties.Resources.resources
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\SimpleLatchTester2.exe
+C:\Development\SOURCE\csharp\LogicSimulator1\SimpleLatchTester2\obj\x86\Debug\SimpleLatchTester2.pdb

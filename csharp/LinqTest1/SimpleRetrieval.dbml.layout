@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SimpleRetrieval">
+  <DataContextMoniker Name="/SimpleRetrievalDataContext" />
+  <nestedChildShapes>
+    <classShape Id="6b74fe51-5d2a-4bc4-aaec-c9c3d13c63ed" absoluteBounds="1.125, 0.5, 2, 1.5891951497395829">
+      <DataClassMoniker Name="/SimpleRetrievalDataContext/RemoteKeyMap" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d203ae82-4a62-417b-a9b5-8001bb28b215" absoluteBounds="1.1399999999999997, 0.96, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

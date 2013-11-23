@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\EncodingUsage\bin\Debug\EncodingUsage.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EncodingUsage\bin\Debug\EncodingUsage.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\EncodingUsage\obj\x86\Debug\EncodingUsage.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\EncodingUsage\obj\x86\Debug\EncodingUsage.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EncodingUsage\bin\Debug\EncodingUsage.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EncodingUsage\bin\Debug\EncodingUsage.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EncodingUsage\obj\x86\Debug\EncodingUsage.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\EncodingUsage\obj\x86\Debug\EncodingUsage.pdb

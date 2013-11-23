@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\bin\Debug\TestProject1.dll
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\bin\Debug\TestProject1.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\bin\Debug\LogicSimulator1.dll
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\bin\Debug\LogicSimulator1.pdb
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\obj\Debug\TestProject1.dll
+C:\Development\SOURCE\csharp\LogicSimulator1\TestProject1\obj\Debug\TestProject1.pdb

@@ -1,0 +1,35 @@
+[Global]
+CurrentProject=FormsProperties\FormsProperties.vpj
+[ActiveConfig]
+FormsProperties\FormsProperties.vpj=,Debug|AnyCPU
+..\FormWithButton\FormWithButton.vpj=,Debug|AnyCPU
+[ProjectDates]
+FormsProperties\FormsProperties.csproj=20070214200443953
+..\FormWithButton\FormWithButton.csproj=20070214203635078
+[TreeExpansion2]
+- FormsProperties\FormsProperties.csproj
+  + Properties
+- ..\FormWithButton\FormWithButton.csproj
+scroll:0
+[State]
+SCREEN: 1280 768 88 132 960 523 0 0 M 0 0 0 0 974 414
+CWD: ..\FormWithButton
+BUFFER: BN="FormsProperties\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.612 CL=13 LE=0 CX=12 CY=28 WI=5 BI=24 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="..\FormWithButton\FormWithButton.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=25 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 624 158 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="..\FormWithButton\FormWithButton.cs"
+VIEW: LN=.1281 CL=9 LE=0 CX=8 CY=7 WI=165 BI=25 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\..\..\HTML\chap3_hf_segway1.html
+..\..\..\HTML\chap3_hf_crackchallenge.html
+\Program Files\SlickEdit\alias.slk
+\Program Files\SlickEdit\project.slk
+\Program Files\SlickEdit\win\vslick.ini
+FormsProperties\Form1.cs
+FormsProperties\Form1.Designer.cs
+FormsProperties\Program.cs
+..\FormWithButton\FormWithButton.cs

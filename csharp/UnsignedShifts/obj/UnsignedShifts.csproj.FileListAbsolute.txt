@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\UnsignedShifts\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\UnsignedShifts\bin\Debug\UnsignedShifts.exe
+C:\GCS\Source\csharp\UnsignedShifts\bin\Debug\UnsignedShifts.pdb
+C:\GCS\Source\csharp\UnsignedShifts\obj\Debug\UnsignedShifts.exe
+C:\GCS\Source\csharp\UnsignedShifts\obj\Debug\UnsignedShifts.pdb

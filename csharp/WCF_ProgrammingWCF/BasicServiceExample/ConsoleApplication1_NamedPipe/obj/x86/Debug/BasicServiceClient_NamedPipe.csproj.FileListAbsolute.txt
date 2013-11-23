@@ -1,0 +1,6 @@
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\bin\Debug\ConsoleApplication1_NamedPipe.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\bin\Debug\ConsoleApplication1_NamedPipe.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\bin\Debug\ConsoleApplication1_NamedPipe.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\obj\x86\Debug\ConsoleApplication1_NamedPipe.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\ConsoleApplication1_NamedPipe\obj\x86\Debug\ConsoleApplication1_NamedPipe.pdb

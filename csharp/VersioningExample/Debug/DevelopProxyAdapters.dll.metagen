@@ -1,0 +1,344 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly DevelopProxyAdapters, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaLoggerETWListner, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesCommonDataContracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesContractIAuthenticateASB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesContractIData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesContractIDataV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesProxyIData, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly aaServicesProxyIDataV2, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly ASBIDataV2Adapter, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Class CIDataVersionAdapter: AutoLayout, AnsiClass, Class, Public, Abstract, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Guid ConnectionIdProp 'get ' : 
+  Methods:
+    Connect(String&): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Abort(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Disconnect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_ConnectionIdProp(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    KeepAlive(ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Read(ItemStatus[]&, RuntimeValue[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Write(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteUser(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteVerified(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteSecured(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    WriteConfirmed(WriteValue&, Int64&, ConnectionId, ItemIdentity, WriteValue, UserToken, UserToken): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ConfirmWrite(ConnectionId, ItemIdentity, Int64, WriteValue, UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PublishWriteComplete(ItemWriteComplete[]&, ConnectionId): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateSubscription(Int64&, ConnectionId, Int64, UInt64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetSubscriptionState(ConnectionId, Int64, Variant, UInt16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetSubscriptionState(Variant&, ConnectionId, Int64, UInt16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteSubscription(ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AddMonitoredItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, Int64, MonitoredItem[], Byte): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DeleteMonitoredItems(ItemStatus[]&, ConnectionId, Int64, MonitoredItem[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetMonitoredItems(MonitoredItem[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Publish(ItemStatus[]&, MonitoredItemValue[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RegisterItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, ItemIdentity[], Byte, Byte): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnregisterItems(ItemStatus[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class CIDataVersionAdapterV1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CIDataVersionAdapter
+    Void .ctor(ArchestrAServices.ASBContract.IData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Guid ConnectionIdProp 'get ' : 
+  Methods:
+    Connect(String&): PrivateScope, Public, Virtual, HideBySig
+    Abort(): PrivateScope, Public, Virtual, HideBySig
+    Disconnect(): PrivateScope, Public, Virtual, HideBySig
+    get_ConnectionIdProp(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    KeepAlive(ConnectionId): PrivateScope, Public, Virtual, HideBySig
+    Read(ItemStatus[]&, RuntimeValue[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig
+    Write(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteUser(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteVerified(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteSecured(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteConfirmed(WriteValue&, Int64&, ConnectionId, ItemIdentity, WriteValue, UserToken, UserToken): PrivateScope, Public, Virtual, HideBySig
+    ConfirmWrite(ConnectionId, ItemIdentity, Int64, WriteValue, UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    PublishWriteComplete(ItemWriteComplete[]&, ConnectionId): PrivateScope, Public, Virtual, HideBySig
+    CreateSubscription(Int64&, ConnectionId, Int64, UInt64): PrivateScope, Public, Virtual, HideBySig
+    SetSubscriptionState(ConnectionId, Int64, Variant, UInt16): PrivateScope, Public, Virtual, HideBySig
+    GetSubscriptionState(Variant&, ConnectionId, Int64, UInt16): PrivateScope, Public, Virtual, HideBySig
+    DeleteSubscription(ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    AddMonitoredItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, Int64, MonitoredItem[], Byte): PrivateScope, Public, Virtual, HideBySig
+    DeleteMonitoredItems(ItemStatus[]&, ConnectionId, Int64, MonitoredItem[]): PrivateScope, Public, Virtual, HideBySig
+    GetMonitoredItems(MonitoredItem[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    Publish(ItemStatus[]&, MonitoredItemValue[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    RegisterItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, ItemIdentity[], Byte, Byte): PrivateScope, Public, Virtual, HideBySig
+    UnregisterItems(ItemStatus[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig
+Class StatusCodes: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32 Good IsConst : Public, Static, HasDefault
+    UInt32 Uncertain IsConst : Public, Static, HasDefault
+    UInt32 Bad IsConst : Public, Static, HasDefault
+    UInt32 BadUnexpectedError IsConst : Public, Static, HasDefault
+    UInt32 BadInternalError IsConst : Public, Static, HasDefault
+    UInt32 BadOutOfMemory IsConst : Public, Static, HasDefault
+    UInt32 BadResourceUnavailable IsConst : Public, Static, HasDefault
+    UInt32 BadCommunicationError IsConst : Public, Static, HasDefault
+    UInt32 BadEncodingError IsConst : Public, Static, HasDefault
+    UInt32 BadDecodingError IsConst : Public, Static, HasDefault
+    UInt32 BadEncodingLimitsExceeded IsConst : Public, Static, HasDefault
+    UInt32 BadRequestTooLarge IsConst : Public, Static, HasDefault
+    UInt32 BadResponseTooLarge IsConst : Public, Static, HasDefault
+    UInt32 BadUnknownResponse IsConst : Public, Static, HasDefault
+    UInt32 BadTimeout IsConst : Public, Static, HasDefault
+    UInt32 BadServiceUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadShutdown IsConst : Public, Static, HasDefault
+    UInt32 BadServerNotConnected IsConst : Public, Static, HasDefault
+    UInt32 BadServerHalted IsConst : Public, Static, HasDefault
+    UInt32 BadNothingToDo IsConst : Public, Static, HasDefault
+    UInt32 BadTooManyOperations IsConst : Public, Static, HasDefault
+    UInt32 BadDataTypeIdUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadSecurityChecksFailed IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateTimeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateIssuerTimeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateHostNameInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateUriInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateUseNotAllowed IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateIssuerUseNotAllowed IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateUntrusted IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateRevocationUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateIssuerRevocationUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateRevoked IsConst : Public, Static, HasDefault
+    UInt32 BadCertificateIssuerRevoked IsConst : Public, Static, HasDefault
+    UInt32 BadUserAccessDenied IsConst : Public, Static, HasDefault
+    UInt32 BadIdentityTokenInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadIdentityTokenRejected IsConst : Public, Static, HasDefault
+    UInt32 BadSecureChannelIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadInvalidTimestamp IsConst : Public, Static, HasDefault
+    UInt32 BadNonceInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadSessionIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadSessionClosed IsConst : Public, Static, HasDefault
+    UInt32 BadSessionNotActivated IsConst : Public, Static, HasDefault
+    UInt32 BadSubscriptionIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadRequestHeaderInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadTimestampsToReturnInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadRequestCanceledByClient IsConst : Public, Static, HasDefault
+    UInt32 GoodSubscriptionTransferred IsConst : Public, Static, HasDefault
+    UInt32 GoodCompletesAsynchronously IsConst : Public, Static, HasDefault
+    UInt32 GoodOverload IsConst : Public, Static, HasDefault
+    UInt32 GoodClamped IsConst : Public, Static, HasDefault
+    UInt32 BadNoCommunication IsConst : Public, Static, HasDefault
+    UInt32 BadWaitingForInitialData IsConst : Public, Static, HasDefault
+    UInt32 BadNodeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadNodeIdUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadAttributeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadIndexRangeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadIndexRangeNoData IsConst : Public, Static, HasDefault
+    UInt32 BadDataEncodingInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadDataEncodingUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadNotReadable IsConst : Public, Static, HasDefault
+    UInt32 BadNotWritable IsConst : Public, Static, HasDefault
+    UInt32 BadOutOfRange IsConst : Public, Static, HasDefault
+    UInt32 BadNotSupported IsConst : Public, Static, HasDefault
+    UInt32 BadNotFound IsConst : Public, Static, HasDefault
+    UInt32 BadObjectDeleted IsConst : Public, Static, HasDefault
+    UInt32 BadNotImplemented IsConst : Public, Static, HasDefault
+    UInt32 BadMonitoringModeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadMonitoredItemIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadMonitoredItemFilterInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadMonitoredItemFilterUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadFilterNotAllowed IsConst : Public, Static, HasDefault
+    UInt32 BadStructureMissing IsConst : Public, Static, HasDefault
+    UInt32 BadEventFilterInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadContentFilterInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadFilterOperatorInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadFilterOperatorUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadFilterOperandCountMismatch IsConst : Public, Static, HasDefault
+    UInt32 BadFilterOperandInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadFilterElementInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadFilterLiteralInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadContinuationPointInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadNoContinuationPoints IsConst : Public, Static, HasDefault
+    UInt32 BadReferenceTypeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadBrowseDirectionInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadNodeNotInView IsConst : Public, Static, HasDefault
+    UInt32 BadServerUriInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadServerNameMissing IsConst : Public, Static, HasDefault
+    UInt32 BadDiscoveryUrlMissing IsConst : Public, Static, HasDefault
+    UInt32 BadSemaphoreFileMissing IsConst : Public, Static, HasDefault
+    UInt32 BadRequestTypeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadSecurityModeRejected IsConst : Public, Static, HasDefault
+    UInt32 BadSecurityPolicyRejected IsConst : Public, Static, HasDefault
+    UInt32 BadTooManySessions IsConst : Public, Static, HasDefault
+    UInt32 BadUserSignatureInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadApplicationSignatureInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadNoValidCertificates IsConst : Public, Static, HasDefault
+    UInt32 BadIdentityChangeNotSupported IsConst : Public, Static, HasDefault
+    UInt32 BadRequestCanceledByRequest IsConst : Public, Static, HasDefault
+    UInt32 BadParentNodeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadReferenceNotAllowed IsConst : Public, Static, HasDefault
+    UInt32 BadNodeIdRejected IsConst : Public, Static, HasDefault
+    UInt32 BadNodeIdExists IsConst : Public, Static, HasDefault
+    UInt32 BadNodeClassInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadBrowseNameInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadBrowseNameDuplicated IsConst : Public, Static, HasDefault
+    UInt32 BadNodeAttributesInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadTypeDefinitionInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadSourceNodeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadTargetNodeIdInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadDuplicateReferenceNotAllowed IsConst : Public, Static, HasDefault
+    UInt32 BadInvalidSelfReference IsConst : Public, Static, HasDefault
+    UInt32 BadReferenceLocalOnly IsConst : Public, Static, HasDefault
+    UInt32 BadNoDeleteRights IsConst : Public, Static, HasDefault
+    UInt32 UncertainReferenceNotDeleted IsConst : Public, Static, HasDefault
+    UInt32 BadServerIndexInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadViewIdUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadViewTimestampInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadViewParameterMismatch IsConst : Public, Static, HasDefault
+    UInt32 BadViewVersionInvalid IsConst : Public, Static, HasDefault
+    UInt32 UncertainNotAllNodesAvailable IsConst : Public, Static, HasDefault
+    UInt32 GoodResultsMayBeIncomplete IsConst : Public, Static, HasDefault
+    UInt32 BadNotTypeDefinition IsConst : Public, Static, HasDefault
+    UInt32 UncertainReferenceOutOfServer IsConst : Public, Static, HasDefault
+    UInt32 BadTooManyMatches IsConst : Public, Static, HasDefault
+    UInt32 BadQueryTooComplex IsConst : Public, Static, HasDefault
+    UInt32 BadNoMatch IsConst : Public, Static, HasDefault
+    UInt32 BadMaxAgeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadHistoryOperationInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadHistoryOperationUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadInvalidTimestampArgument IsConst : Public, Static, HasDefault
+    UInt32 BadWriteNotSupported IsConst : Public, Static, HasDefault
+    UInt32 BadTypeMismatch IsConst : Public, Static, HasDefault
+    UInt32 BadMethodInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadArgumentsMissing IsConst : Public, Static, HasDefault
+    UInt32 BadTooManySubscriptions IsConst : Public, Static, HasDefault
+    UInt32 BadTooManyPublishRequests IsConst : Public, Static, HasDefault
+    UInt32 BadNoSubscription IsConst : Public, Static, HasDefault
+    UInt32 BadSequenceNumberUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadMessageNotAvailable IsConst : Public, Static, HasDefault
+    UInt32 BadInsufficientClientProfile IsConst : Public, Static, HasDefault
+    UInt32 BadStateNotActive IsConst : Public, Static, HasDefault
+    UInt32 BadTcpServerTooBusy IsConst : Public, Static, HasDefault
+    UInt32 BadTcpMessageTypeInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadTcpSecureChannelUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadTcpMessageTooLarge IsConst : Public, Static, HasDefault
+    UInt32 BadTcpNotEnoughResources IsConst : Public, Static, HasDefault
+    UInt32 BadTcpInternalError IsConst : Public, Static, HasDefault
+    UInt32 BadTcpEndpointUrlInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadRequestInterrupted IsConst : Public, Static, HasDefault
+    UInt32 BadRequestTimeout IsConst : Public, Static, HasDefault
+    UInt32 BadSecureChannelClosed IsConst : Public, Static, HasDefault
+    UInt32 BadSecureChannelTokenUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadSequenceNumberInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadProtocolVersionUnsupported IsConst : Public, Static, HasDefault
+    UInt32 BadConfigurationError IsConst : Public, Static, HasDefault
+    UInt32 BadNotConnected IsConst : Public, Static, HasDefault
+    UInt32 BadDeviceFailure IsConst : Public, Static, HasDefault
+    UInt32 BadSensorFailure IsConst : Public, Static, HasDefault
+    UInt32 BadOutOfService IsConst : Public, Static, HasDefault
+    UInt32 BadDeadbandFilterInvalid IsConst : Public, Static, HasDefault
+    UInt32 UncertainNoCommunicationLastUsableValue IsConst : Public, Static, HasDefault
+    UInt32 UncertainLastUsableValue IsConst : Public, Static, HasDefault
+    UInt32 UncertainSubstituteValue IsConst : Public, Static, HasDefault
+    UInt32 UncertainInitialValue IsConst : Public, Static, HasDefault
+    UInt32 UncertainSensorNotAccurate IsConst : Public, Static, HasDefault
+    UInt32 UncertainEngineeringUnitsExceeded IsConst : Public, Static, HasDefault
+    UInt32 UncertainSubNormal IsConst : Public, Static, HasDefault
+    UInt32 GoodLocalOverride IsConst : Public, Static, HasDefault
+    UInt32 BadRefreshInProgress IsConst : Public, Static, HasDefault
+    UInt32 BadConditionAlreadyDisabled IsConst : Public, Static, HasDefault
+    UInt32 BadConditionAlreadyEnabled IsConst : Public, Static, HasDefault
+    UInt32 BadConditionDisabled IsConst : Public, Static, HasDefault
+    UInt32 BadEventIdUnknown IsConst : Public, Static, HasDefault
+    UInt32 BadEventNotAcknowledgeable IsConst : Public, Static, HasDefault
+    UInt32 BadDialogNotActive IsConst : Public, Static, HasDefault
+    UInt32 BadDialogResponseInvalid IsConst : Public, Static, HasDefault
+    UInt32 BadConditionBranchAlreadyAcked IsConst : Public, Static, HasDefault
+    UInt32 BadConditionBranchAlreadyConfirmed IsConst : Public, Static, HasDefault
+    UInt32 BadConditionAlreadyShelved IsConst : Public, Static, HasDefault
+    UInt32 BadConditionNotShelved IsConst : Public, Static, HasDefault
+    UInt32 BadShelvingTimeoutOfRange IsConst : Public, Static, HasDefault
+    UInt32 BadNoData IsConst : Public, Static, HasDefault
+    UInt32 BadBoundNotFound IsConst : Public, Static, HasDefault
+    UInt32 BadBoundNotSupported IsConst : Public, Static, HasDefault
+    UInt32 BadDataLost IsConst : Public, Static, HasDefault
+    UInt32 BadDataUnavailable IsConst : Public, Static, HasDefault
+    UInt32 BadEntryExists IsConst : Public, Static, HasDefault
+    UInt32 BadNoEntryExists IsConst : Public, Static, HasDefault
+    UInt32 BadTimestampNotSupported IsConst : Public, Static, HasDefault
+    UInt32 GoodEntryInserted IsConst : Public, Static, HasDefault
+    UInt32 GoodEntryReplaced IsConst : Public, Static, HasDefault
+    UInt32 UncertainDataSubNormal IsConst : Public, Static, HasDefault
+    UInt32 GoodNoData IsConst : Public, Static, HasDefault
+    UInt32 GoodMoreData IsConst : Public, Static, HasDefault
+    UInt32 BadAggregateListMismatch IsConst : Public, Static, HasDefault
+    UInt32 BadAggregateNotSupported IsConst : Public, Static, HasDefault
+    UInt32 BadAggregateInvalidInputs IsConst : Public, Static, HasDefault
+    UInt32 GoodCommunicationEvent IsConst : Public, Static, HasDefault
+    UInt32 GoodShutdownEvent IsConst : Public, Static, HasDefault
+    UInt32 GoodCallAgain IsConst : Public, Static, HasDefault
+    UInt32 GoodNonCriticalTimeout IsConst : Public, Static, HasDefault
+    UInt32 BadInvalidArgument IsConst : Public, Static, HasDefault
+    UInt32 BadConnectionRejected IsConst : Public, Static, HasDefault
+    UInt32 BadDisconnect IsConst : Public, Static, HasDefault
+    UInt32 BadConnectionClosed IsConst : Public, Static, HasDefault
+    UInt32 BadInvalidState IsConst : Public, Static, HasDefault
+    UInt32 BadEndOfStream IsConst : Public, Static, HasDefault
+    UInt32 BadNoDataAvailable IsConst : Public, Static, HasDefault
+    UInt32 BadWaitingForResponse IsConst : Public, Static, HasDefault
+    UInt32 BadOperationAbandoned IsConst : Public, Static, HasDefault
+    UInt32 BadExpectedStreamToBlock IsConst : Public, Static, HasDefault
+    UInt32 BadWouldBlock IsConst : Public, Static, HasDefault
+    UInt32 BadSyntaxError IsConst : Public, Static, HasDefault
+    UInt32 BadMaxConnectionsReached IsConst : Public, Static, HasDefault
+Class CIDataVersionAdapterV2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :CIDataVersionAdapter
+    Void .ctor(ArchestrAServices.ASBIDataV2Contract.IDataV2): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Guid ConnectionIdProp 'get ' : 
+  Methods:
+    Connect(String&): PrivateScope, Public, Virtual, HideBySig
+    Abort(): PrivateScope, Public, Virtual, HideBySig
+    Disconnect(): PrivateScope, Public, Virtual, HideBySig
+    get_ConnectionIdProp(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    KeepAlive(ConnectionId): PrivateScope, Public, Virtual, HideBySig
+    Read(ItemStatus[]&, RuntimeValue[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig
+    Write(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteUser(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteVerified(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteSecured(ItemStatus[]&, ConnectionId, ItemIdentity[], WriteValue[], UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    WriteConfirmed(WriteValue&, Int64&, ConnectionId, ItemIdentity, WriteValue, UserToken, UserToken): PrivateScope, Public, Virtual, HideBySig
+    ConfirmWrite(ConnectionId, ItemIdentity, Int64, WriteValue, UserToken, UserToken, UInt32): PrivateScope, Public, Virtual, HideBySig
+    PublishWriteComplete(ItemWriteComplete[]&, ConnectionId): PrivateScope, Public, Virtual, HideBySig
+    CreateSubscription(Int64&, ConnectionId, Int64, UInt64): PrivateScope, Public, Virtual, HideBySig
+    SetSubscriptionState(ConnectionId, Int64, Variant, UInt16): PrivateScope, Public, Virtual, HideBySig
+    GetSubscriptionState(Variant&, ConnectionId, Int64, UInt16): PrivateScope, Public, Virtual, HideBySig
+    DeleteSubscription(ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    AddMonitoredItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, Int64, MonitoredItem[], Byte): PrivateScope, Public, Virtual, HideBySig
+    DeleteMonitoredItems(ItemStatus[]&, ConnectionId, Int64, MonitoredItem[]): PrivateScope, Public, Virtual, HideBySig
+    GetMonitoredItems(MonitoredItem[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    Publish(ItemStatus[]&, MonitoredItemValue[]&, ConnectionId, Int64): PrivateScope, Public, Virtual, HideBySig
+    RegisterItems(ItemStatus[]&, ItemRegistration[]&, ConnectionId, ItemIdentity[], Byte, Byte): PrivateScope, Public, Virtual, HideBySig
+    UnregisterItems(ItemStatus[]&, ConnectionId, ItemIdentity[]): PrivateScope, Public, Virtual, HideBySig
+Class DevelopProxyAdapters.Class1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

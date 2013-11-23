@@ -1,0 +1,5 @@
+bin\Debug\Whassup.exe
+bin\Debug\Whassup.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Whassup.exe
+obj\Debug\Whassup.pdb

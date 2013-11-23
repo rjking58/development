@@ -1,0 +1,4 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\HostWcfSvcLib1\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\.klocwork\cs.kwlp\ds\czmoazaa.twm;1;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\WcfServiceLibrary1\IService1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\.klocwork\cs.kwlp\ds\vr5k3igg.nmb;2;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\CallTestService\Program.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\.klocwork\cs.kwlp\ds\q5nx1fof.bqh;3;0;0
+C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\WcfServiceLibrary1\Service1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\AsByteArraysWithMarshalStructureToPtr\.klocwork\cs.kwlp\ds\oghq14vm.1ju;4;0;0

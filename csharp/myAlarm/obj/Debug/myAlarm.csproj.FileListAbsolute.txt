@@ -1,0 +1,11 @@
+C:\Development\SOURCE\csharp\myAlarm\bin\Debug\myAlarm.exe
+C:\Development\SOURCE\csharp\myAlarm\bin\Debug\myAlarm.pdb
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\myAlarm.Form1.resources
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\myAlarm.exe
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\myAlarm.pdb
+C:\Development\SOURCE\csharp\myAlarm\bin\Debug\myAlarm.exe.config
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\GenerateResource.read.1.tlog
+C:\Development\SOURCE\csharp\myAlarm\obj\Debug\GenerateResource.write.1.tlog

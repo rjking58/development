@@ -1,0 +1,8 @@
+<publishData>
+  <publishTarget publishUrl="C:\Inetpub\wwwroot\">
+    <file relUrl="bin/TestWebsite.dll" publishTime="04/25/2010 20:17:41" />
+    <file relUrl="bin/TestWebsite.pdb" publishTime="04/25/2010 20:17:41" />
+    <file relUrl="Default.aspx" publishTime="04/25/2010 20:17:38" />
+    <file relUrl="Web.config" publishTime="04/25/2010 20:16:38" />
+  </publishTarget>
+</publishData>

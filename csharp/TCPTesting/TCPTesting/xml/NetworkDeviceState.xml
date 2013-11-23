@@ -1,0 +1,118 @@
+﻿<SMApplicationMessage TypeId="NetworkDeviceStateNotification" ClientID="7592OLEKSIYZHUCK-PC" Timestamp="2007-12-04T17:02:45.177-08:00">
+  <result code="0">OK</result>
+  <wwandevicestate>
+    <state>6</state>
+    <statedesc>STATE_CONNECTED</statedesc>
+    <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+    <ip></ip>
+    <ipv6></ipv6>
+    <dns1></dns1>
+    <dns2></dns2>
+    <metric>1</metric>
+    <vpn>false</vpn>
+    <domain>Quick 2 Net (14.4kbps)</domain>
+    <gateway></gateway>
+    <macaddress></macaddress>
+    <alias>Quick 2 Net (14.4kbps)</alias>
+    <dhcp>false</dhcp>
+    <profile id="NationalAccess - BroadbandAccess" alias="NationalAccess - BroadbandAccess" type="" status="Disconnected" preconfigured="true" global="true"></profile>
+    <profile id="Quick 2 Net (14.4kbps)" alias="Quick 2 Net (14.4kbps)" type="" status="Disconnected" preconfigured="true" global="true"></profile>
+    <signallevel>0</signallevel>
+    <activated>true</activated>
+    <roaming>false</roaming>
+    <newtextsms>false</newtextsms>
+    <doze>false</doze>
+    <carrier>Verizon Wireless</carrier>
+    <carrierurl></carrierurl>
+    <protocol></protocol>
+    <mbps>0.000000</mbps>
+    <sprovider></sprovider>
+  </wwandevicestate>
+  <wlandevicestate>
+    <state>4</state>
+    <statedesc>STATE_IDLE</statedesc>
+    <devicename>Intel(R) PRO/Wireless 3945ABG Network Connection</devicename>
+    <ip></ip>
+    <ipv6></ipv6>
+    <dns1></dns1>
+    <dns2></dns2>
+    <metric>9999</metric>
+    <vpn>false</vpn>
+    <domain></domain>
+    <gateway></gateway>
+    <macaddress></macaddress>
+    <alias></alias>
+    <dhcp>false</dhcp>
+    <signallevel>101</signallevel>
+    <mbps>0.000000</mbps>
+    <ssid></ssid>
+    <bssid></bssid>
+    <encryption></encryption>
+    <channel>0</channel>
+    <clientmac></clientmac>
+    <radiostreams></radiostreams>
+  </wlandevicestate>
+  <wandevicestate>
+    <state>4</state>
+    <statedesc>STATE_IDLE</statedesc>
+    <devicename>Conexant HDA D330 MDC V.92 Modem</devicename>
+    <ip></ip>
+    <ipv6></ipv6>
+    <dns1></dns1>
+    <dns2></dns2>
+    <metric>9999</metric>
+    <vpn>false</vpn>
+    <domain></domain>
+    <gateway></gateway>
+    <macaddress></macaddress>
+    <alias>work.socalfree.net</alias>
+    <dhcp>false</dhcp>
+    <kbps>0.000000</kbps>
+    <phonenum></phonenum>
+  </wandevicestate>
+  <landevicestate>
+    <state>6</state>
+    <statedesc>STATE_CONNECTED</statedesc>
+    <devicename>Broadcom 440x 10/100 Integrated Controller</devicename>
+    <ip>223.13.13.207</ip>
+    <ipv6></ipv6>
+    <dns1>223.13.13.20</dns1>
+    <dns2>223.13.13.21</dns2>
+    <metric>10</metric>
+    <vpn>false</vpn>
+    <domain>smsi.com</domain>
+    <gateway>223.13.13.110</gateway>
+    <macaddress>00:1c:23:b3:0d:28</macaddress>
+    <alias></alias>
+    <dhcp>true</dhcp>
+    <mbps>100.000000</mbps>
+    <lobtained>2007-11-30T14:03:47.02-08:00</lobtained>
+    <lexpires>2007-11-30T14:03:47.02-08:00</lexpires>
+  </landevicestate>
+  <gpsdevicestate>
+    <state>11</state>
+    <statedesc>STATE_CONNECTED</statedesc>
+    <devicename>Dell Wireless 5720 VZW Mobile Broadband (EVDO Rev-A) Minicard</devicename>
+    <ip></ip>
+    <ipv6></ipv6>
+    <dns1></dns1>
+    <dns2></dns2>
+    <metric>9999</metric>
+    <vpn>true</vpn>
+    <domain></domain>
+    <gateway></gateway>
+    <macaddress></macaddress>
+    <alias>gps_ucm</alias>
+    <dhcp>true</dhcp>
+    <profile id="gps_ucm" alias="gps_ucm" type="" status="Disconnected" preconfigured="true" global="true"></profile>
+    <latitude>0.000000</latitude>
+    <longitute>0.000000</longitute>
+    <comport>0</comport>
+    <satellites>5</satellites>
+    <mode></mode>
+    <altitude>0.000000</altitude>
+    <horzvelocity>0.000000</horzvelocity>
+    <vertvelocity>0.000000</vertvelocity>
+    <lastfixtime>0.000000</lastfixtime>
+  </gpsdevicestate>
+</SMApplicationMessage>

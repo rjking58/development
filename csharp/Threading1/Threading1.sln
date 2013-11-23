@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading1", "Threading1\Threading1.csproj", "{89CF3D6C-35D5-4361-93D1-D8D9866F9CB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Threading2", "Threading2\Threading2.csproj", "{1B0C4880-D3CC-4E62-8D08-92AE765430A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadComm1", "ThreadComm1\ThreadComm1.csproj", "{6A39522D-76A1-4A7F-A0D0-C04D16D8E228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CF3D6C-35D5-4361-93D1-D8D9866F9CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CF3D6C-35D5-4361-93D1-D8D9866F9CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CF3D6C-35D5-4361-93D1-D8D9866F9CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CF3D6C-35D5-4361-93D1-D8D9866F9CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B0C4880-D3CC-4E62-8D08-92AE765430A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0C4880-D3CC-4E62-8D08-92AE765430A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0C4880-D3CC-4E62-8D08-92AE765430A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0C4880-D3CC-4E62-8D08-92AE765430A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A39522D-76A1-4A7F-A0D0-C04D16D8E228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A39522D-76A1-4A7F-A0D0-C04D16D8E228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A39522D-76A1-4A7F-A0D0-C04D16D8E228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A39522D-76A1-4A7F-A0D0-C04D16D8E228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

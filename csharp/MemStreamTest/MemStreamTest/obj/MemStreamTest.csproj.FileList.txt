@@ -1,0 +1,5 @@
+bin\Debug\MemStreamTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MemStreamTest.pdb
+bin\Debug\MemStreamTest.exe
+obj\Debug\MemStreamTest.exe

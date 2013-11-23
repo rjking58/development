@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ProcessCheck.exe
+bin\Debug\ProcessCheck.pdb
+obj\Debug\ProcessCheck.exe
+obj\Debug\ProcessCheck.pdb

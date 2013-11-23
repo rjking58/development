@@ -1,0 +1,16 @@
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.dll
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.exe
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.pdb
+C:\Users\richard.king\Documents\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe.config
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\BasicService_HOSTING.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.exe
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService_HOSTING.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.dll
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\bin\Debug\BasicService.pdb
+C:\Development\SOURCE\csharp\WCF_ProgrammingWCF\BasicServiceExample\BasicService_HOSTING\obj\x86\Debug\ResolveAssemblyReference.cache

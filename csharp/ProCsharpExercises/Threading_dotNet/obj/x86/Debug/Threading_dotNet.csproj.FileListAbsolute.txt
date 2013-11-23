@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\bin\Debug\Threading_dotNet.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\bin\Debug\Threading_dotNet.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\obj\x86\Debug\Threading_dotNet.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Threading_dotNet\obj\x86\Debug\Threading_dotNet.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Threading_dotNet\bin\Debug\Threading_dotNet.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Threading_dotNet\bin\Debug\Threading_dotNet.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Threading_dotNet\obj\x86\Debug\Threading_dotNet.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Threading_dotNet\obj\x86\Debug\Threading_dotNet.pdb

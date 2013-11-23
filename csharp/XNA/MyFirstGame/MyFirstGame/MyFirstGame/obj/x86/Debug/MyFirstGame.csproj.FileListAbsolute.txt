@@ -1,0 +1,11 @@
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\bin\x86\Debug\Content\GreyMarble50x50.xnb
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\bin\x86\Debug\MyFirstGame.exe
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\bin\x86\Debug\MyFirstGame.pdb
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\MyFirstGame.exe
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\MyFirstGame.pdb
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\bin\x86\Debug\MyFirstGame.exe.manifest
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\bin\x86\Debug\MyFirstGame.application
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\MyFirstGame.exe.manifest
+C:\Development\SOURCE\csharp\XNA\MyFirstGame\MyFirstGame\MyFirstGame\obj\x86\Debug\MyFirstGame.application

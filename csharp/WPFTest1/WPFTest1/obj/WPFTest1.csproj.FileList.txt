@@ -1,0 +1,16 @@
+.\bin\Debug\WPFTest1.exe
+.\bin\Debug\WPFTest1.pdb
+.\bin\Debug\PresentationDesignDeveloper.DLL
+.\bin\Debug\PresentationDesignFramework.dll
+.\bin\Debug\PresentationDesignCore.dll
+.\bin\Debug\Draft.PresentationDesignMarkup.dll
+obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WPFTest1\WPFTest1\obj\Debug\Window1.baml
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WPFTest1\WPFTest1\obj\Debug\Window1.g.cs
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WPFTest1\WPFTest1\obj\Debug\App.g.cs
+C:\Volatile\SOURCE\csharp2\vs2005Projs\WPFTest1\WPFTest1\obj\Debug\WPFTest1_MarkupCompile.cache
+obj\Debug\WPFTest1.g.resources
+obj\Debug\WPFTest1.Properties.Resources.resources
+obj\Debug\WPFTest1.csproj.GenerateResource.Cache
+obj\Debug\WPFTest1.exe
+obj\Debug\WPFTest1.pdb

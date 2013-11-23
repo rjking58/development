@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\NetworkConfigExample\NetworkConfigExample\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\NetworkConfigExample\NetworkConfigExample\bin\Debug\NetworkConfigExample.exe
+C:\GCS\Source\csharp\NetworkConfigExample\NetworkConfigExample\bin\Debug\NetworkConfigExample.pdb
+C:\GCS\Source\csharp\NetworkConfigExample\NetworkConfigExample\obj\Debug\NetworkConfigExample.exe
+C:\GCS\Source\csharp\NetworkConfigExample\NetworkConfigExample\obj\Debug\NetworkConfigExample.pdb

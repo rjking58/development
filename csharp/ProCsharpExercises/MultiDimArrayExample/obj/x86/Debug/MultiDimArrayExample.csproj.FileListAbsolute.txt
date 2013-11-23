@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\MultiDimArrayExample\bin\Debug\MultiDimArrayExample.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\MultiDimArrayExample\obj\x86\Debug\MultiDimArrayExample.pdb

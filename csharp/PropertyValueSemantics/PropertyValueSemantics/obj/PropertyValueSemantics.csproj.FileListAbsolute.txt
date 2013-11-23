@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\PropertyValueSemantics\PropertyValueSemantics\bin\Debug\PropertyValueSemantics.exe
+C:\Volatile\Source\csharp2\vs2005Projs\PropertyValueSemantics\PropertyValueSemantics\bin\Debug\PropertyValueSemantics.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\PropertyValueSemantics\PropertyValueSemantics\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\PropertyValueSemantics\PropertyValueSemantics\obj\Debug\PropertyValueSemantics.exe
+C:\Volatile\Source\csharp2\vs2005Projs\PropertyValueSemantics\PropertyValueSemantics\obj\Debug\PropertyValueSemantics.pdb

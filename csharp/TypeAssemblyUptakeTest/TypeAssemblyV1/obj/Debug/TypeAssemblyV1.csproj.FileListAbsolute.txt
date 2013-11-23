@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyV1\bin\Debug\TypeAssemblyV1.dll
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyV1\bin\Debug\TypeAssemblyV1.pdb
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyV1\obj\Debug\TypeAssemblyV1.dll
+C:\Volatile\Development\Source\csharp\TypeAssemblyUptakeTest\TypeAssemblyV1\obj\Debug\TypeAssemblyV1.pdb

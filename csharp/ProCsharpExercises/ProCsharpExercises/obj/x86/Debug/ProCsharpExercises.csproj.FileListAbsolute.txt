@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.pdb
+C:\Development\SOURCE\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.exe
+C:\Development\SOURCE\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ProCsharpExercises\bin\Debug\ProCsharpExercises.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\ProCsharpExercises\obj\x86\Debug\ProCsharpExercises.pdb

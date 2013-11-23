@@ -1,0 +1,5 @@
+bin\Debug\TimedRun.exe
+bin\Debug\TimedRun.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\TimedRun.exe
+obj\Debug\TimedRun.pdb

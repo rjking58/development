@@ -1,0 +1,50 @@
+[CONFIGURATIONS]
+config=,Debug
+config=,Release
+[GLOBAL]
+packtype=gnuc
+DebugCallbackName=gdb
+workingdir=.
+version=7.0
+packname=GNU g++ Wizard
+buildsystem=vsbuild
+MACRO=\n
+[COMPILER.Debug]
+compile=copts: concur|capture|dialog:_gnuc_options_form:Compile|savecurrent|menu: Compile:&Compilecmd: g++ -c %xup -g -o "%bd%n%oe" %i "%f"otheropts: outputext: .o
+link=copts: concur|capture|dialog:_gnuc_options_form:Link|savecurrent|nevershow|menu: Link:&Linkcmd: g++ %xup -g -o "%bd%o" %f %libsotheropts: 
+make=copts: concur|capture|dialog:_gnuc_options_form:Compile|saveworkspacefiles|menu: Build:&Buildcmd: "%(VSLICKBIN1)vsbuild" make "%w" "%r" -cppmakeotheropts: 
+rebuild=copts: concur|capture|dialog:_gnuc_options_form:Compile|saveworkspacefiles|menu: Rebuild:&Rebuildcmd: "%(VSLICKBIN1)vsbuild" rebuild "%w" "%r" -cpprebuildotheropts: 
+debug=copts: concur|capture|dialog:_gnuc_options_form:Run/Debug|buildfirst|menu: Debug:&Debugcmd: vsdebugio -prog %bd%ootheropts: 
+execute=copts: concur|capture|dialog:_gnuc_options_form:Run/Debug|buildfirst|saveworkspacefiles|menu: Execute:E&xecutecmd: %bd%ootheropts: 
+usertool_dash=copts: |savenone|menu: dash:-cmd: otheropts: 
+usertool_gnu_c_options=copts: |readonly|disablecapoutput|savenone|hide|nochangedir|menu: GNU C Options:GNU C &Options...cmd: gnucoptionsotheropts: 
+includedirs=
+sysincludedirs=
+reffile=
+libs=
+outputfile=abstractfactory.exe
+prebuildcmds=
+postbuildcmds=
+stoponprebuilderrors=0
+stoponpostbuilderrors=0
+[COMPILER.Release]
+compile=copts: concur|capture|dialog:_gnuc_options_form:Compile|savecurrent|menu: Compile:&Compilecmd: g++ -c %xup -o "%bd%n%oe" %i "%f"otheropts: outputext: .o
+link=copts: concur|capture|dialog:_gnuc_options_form:Link|savecurrent|nevershow|menu: Link:&Linkcmd: g++ %xup -o "%bd%o" %f %libsotheropts: 
+make=copts: concur|capture|dialog:_gnuc_options_form:Compile|saveworkspacefiles|menu: Build:&Buildcmd: "%(VSLICKBIN1)vsbuild" make "%w" "%r" -cppmakeotheropts: 
+rebuild=copts: concur|capture|dialog:_gnuc_options_form:Compile|saveworkspacefiles|menu: Rebuild:&Rebuildcmd: "%(VSLICKBIN1)vsbuild" rebuild "%w" "%r" -cpprebuildotheropts: 
+debug=copts: concur|capture|dialog:_gnuc_options_form:Run/Debug|buildfirst|menu: Debug:&Debugcmd: vsdebugio -prog %bd%ootheropts: 
+execute=copts: concur|capture|dialog:_gnuc_options_form:Run/Debug|buildfirst|saveworkspacefiles|menu: Execute:E&xecutecmd: %bd%ootheropts: 
+usertool_dash=copts: |savenone|menu: dash:-cmd: otheropts: 
+usertool_gnu_c_options=copts: |readonly|disablecapoutput|savenone|hide|nochangedir|menu: GNU C Options:GNU C &Options...cmd: gnucoptionsotheropts: 
+includedirs=
+sysincludedirs=
+reffile=
+libs=
+outputfile=abstractfactory.exe
+prebuildcmds=
+postbuildcmds=
+stoponprebuilderrors=0
+stoponpostbuilderrors=0
+[FILES]
+abstractfactory.cpp
+[ASSOCIATION]

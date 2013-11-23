@@ -1,0 +1,18 @@
+    [TestFixture]
+    public class myclass1
+    {
+
+        [SetUp]
+        public void Init()
+        {
+        }
+        [TearDown]
+        public void Dispose()
+        {
+        }
+        [Test]
+        public void myclass1_Test()
+        {
+        }
+    }
+

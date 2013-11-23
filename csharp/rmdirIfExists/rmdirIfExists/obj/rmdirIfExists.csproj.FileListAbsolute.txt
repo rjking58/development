@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\rmdirIfExists\rmdirIfExists\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\rmdirIfExists\rmdirIfExists\bin\Debug\rmdirIfExists.exe
+C:\GCS\Source\csharp\rmdirIfExists\rmdirIfExists\bin\Debug\rmdirIfExists.pdb
+C:\GCS\Source\csharp\rmdirIfExists\rmdirIfExists\obj\Debug\rmdirIfExists.exe
+C:\GCS\Source\csharp\rmdirIfExists\rmdirIfExists\obj\Debug\rmdirIfExists.pdb

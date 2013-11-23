@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCSharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.pdb
+C:\Development\SOURCE\csharp\ProCSharpExercises\UnmanagedDataConversion\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCSharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\bin\Debug\UnmanagedDataConversion.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UnmanagedDataConversion\obj\x86\Debug\UnmanagedDataConversion.pdb

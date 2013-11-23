@@ -1,0 +1,7 @@
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\bin\Debug\CSharpToCSharpMarshalUTs.dll
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\bin\Debug\CSharpToCSharpMarshalUTs.pdb
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\obj\Debug\CSharpToCSharpMarshalUTs.dll
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\obj\Debug\CSharpToCSharpMarshalUTs.pdb
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\bin\Debug\CsharpToCSharpMarshall.exe
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\bin\Debug\CsharpToCSharpMarshall.pdb

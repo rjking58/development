@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8514d349-e01a-4b03-bd87-d7d39ecbae1c" name="rking@79-RKING2 2008-02-14 19:07:17" runUser="UEIC\rking" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="b199a47c-40e7-41a2-a8d5-bf054c354846">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\TestResults\rking_79-RKING2 2008-02-14 19_07_17">
+      <DeploymentItem filename="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\bin\Debug\UnitTestSupport2008.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-02-14T19:07:17.0040791-08:00" queuing="2008-02-14T19:07:17.2390391-08:00" start="2008-02-14T19:07:17.2547031-08:00" finish="2008-02-14T19:07:17.3643511-08:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\volatile\source\csharp2\vs2005projs\unittestsupport2008\unittestsupporttests\bin\debug\unittestsupporttests.dll" id="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4a348abd-e34f-4c6b-84fe-e0226c8435e9" />
+      <TestMethod codeBase="C:\Volatile\Source\csharp2\vs2005Projs\UnitTestSupport2008\UnitTestSupportTests\bin\Debug\UnitTestSupportTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UnitTestSupportTests.MyClassToTest_Tests, UnitTestSupportTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce" executionId="4a348abd-e34f-4c6b-84fe-e0226c8435e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4a348abd-e34f-4c6b-84fe-e0226c8435e9" testId="4b444cc3-20d4-f742-3a6b-dc7834b6a5ce" testName="TestMethod1" computerName="79-RKING2" duration="00:00:00.0038086" startTime="2008-02-14T19:07:17.2547031-08:00" endTime="2008-02-14T19:07:17.3330231-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

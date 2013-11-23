@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\bin\Debug\CsharpToCSharpMarshall.exe
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\bin\Debug\CsharpToCSharpMarshall.pdb
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\obj\x86\Debug\CsharpToCSharpMarshall.exe
+C:\Volatile\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\obj\x86\Debug\CsharpToCSharpMarshall.pdb

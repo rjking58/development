@@ -1,0 +1,8 @@
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\Chapter1UIArchitecture.Properties.Resources.resources
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\Chapter1UIArchitecture.csproj.GenerateResource.Cache
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\bin\Debug\Chapter1UIArchitecture.exe
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\bin\Debug\Chapter1UIArchitecture.pdb
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\Chapter1UIArchitecture.exe
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\Chapter1UIArchitecture.pdb
+C:\Development\SOURCE\csharp2\vs2005Projs\WinFormsWithCustomControls_CSharp\Chapter1UIArchitecture\obj\Debug\Chapter1UIArchitecture.Form1.resources

@@ -1,0 +1,514 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly aaServicesContractIAuthenticateASB, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly aaServicesCommon, Version=1.0.0.0, Culture=neutral, PublicKeyToken=23106a86e706d0ae: 
+	hash=None, flags=None
+Class ArchestrAServices.ASBContract.ServiceMessage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ArchestrAServices.ASBContract.ConnectedRequest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ServiceMessage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.ConnectionValidator ConnectionValidator : Public
+Class ArchestrAServices.ASBContract.ConnectedResponse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.ArchestrAResult): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.ArchestrAResult Result : Public
+Class ArchestrAServices.ASBContract.ConnectResponse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedResponse
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.PublicKey, ArchestrAServices.ASBContract.AuthenticationData, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.PublicKey ServicePublicKey : Public
+    ArchestrAServices.ASBContract.AuthenticationData ServiceAuthenticationData : Public
+    System.String ConnectionLifetime : Public
+Struct ArchestrAServices.ASBContract.ArchestrAResult: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, Serializable, BeforeFieldInit
+  :System.ValueType
+  Properties:
+    Boolean Success 'get set' : 
+    Int32 ResultCode 'get set' : 
+    Int32 ErrorCode 'get set' : 
+    UInt32 SpecificErrorCode 'get set' : 
+    UInt32 Status 'get set' : 
+    System.String Location 'get set' : 
+    System.String[] SuccessMessages 'get set' : 
+    System.String[] InformationMessages 'get set' : 
+    System.String[] ErrorMessages 'get set' : 
+    ArchestrAServices.ASBContract.NamedValue[] Extensions 'get set' : 
+  Methods:
+    get_Success(): PrivateScope, Public, HideBySig, SpecialName
+    set_Success(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ResultCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_ResultCode(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorCode(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SpecificErrorCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_SpecificErrorCode(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_Status(): PrivateScope, Public, HideBySig, SpecialName
+    set_Status(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SuccessMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_SuccessMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_InformationMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_InformationMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Extensions(): PrivateScope, Public, HideBySig, SpecialName
+    set_Extensions(NamedValue[]): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.PublicKey: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Byte[] Data 'get set' : 
+  Methods:
+    get_Data(): PrivateScope, Public, HideBySig, SpecialName
+    set_Data(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.AuthenticationDataExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    AreEqual(AuthenticationData, AuthenticationData): PrivateScope, Public, Static, HideBySig
+    AreEqual(AuthenticationData, Byte[]): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.UpdateSystemAuthenticationConfiguration: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Byte[]): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String EncryptedConfigurationData : Public
+    Byte[] InitializationVector : Public
+Class ArchestrAServices.ASBContract.NamedValue: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String Name 'get set' : 
+    ArchestrAServices.ASBContract.ResultVariant Value 'get set' : 
+  Methods:
+    get_Name(): PrivateScope, Public, HideBySig, SpecialName
+    set_Name(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Value(): PrivateScope, Public, HideBySig, SpecialName
+    set_Value(ResultVariant): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.AuthenticateMe: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.AuthenticationData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.AuthenticationData ConsumerAuthenticationData : Public
+Class ArchestrAServices.ASBContract.ResultVariant: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Object Item 'get set' : 
+    ArchestrAServices.ASBContract.ItemChoiceType ItemElementName 'get set' : 
+  Methods:
+    get_Item(): PrivateScope, Public, HideBySig, SpecialName
+    set_Item(Object): PrivateScope, Public, HideBySig, SpecialName
+    get_ItemElementName(): PrivateScope, Public, HideBySig, SpecialName
+    set_ItemElementName(ItemChoiceType): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.EnumASBFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    IntToArchestrAError(UInt16): PrivateScope, Public, Static, HideBySig
+    ArchestrAErrorToInt(ArchestrAError): PrivateScope, Public, Static, HideBySig
+    IntToCredentialType(UInt16): PrivateScope, Public, Static, HideBySig
+    CredentialTypeToInt(CredentialType): PrivateScope, Public, Static, HideBySig
+    IntToEncryptionType(UInt16): PrivateScope, Public, Static, HideBySig
+    EncryptionTypeToInt(EncryptionType): PrivateScope, Public, Static, HideBySig
+    IntToCredentialValidity(UInt16): PrivateScope, Public, Static, HideBySig
+    CredentialValidityToInt(CredentialValidity): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.ResultFactory: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    MakeGoodResult(): PrivateScope, Public, Static, HideBySig
+    MakeResult(ArchestrAError, UInt16): PrivateScope, Public, Static, HideBySig
+    MakeResult(ArchestrAError, UInt16, UInt32): PrivateScope, Public, Static, HideBySig
+    AddExtension(ArchestrAResult, String, Object, ItemChoiceType): PrivateScope, Public, Static, HideBySig
+    MakeResult(Int32): PrivateScope, Public, Static, HideBySig
+    MakeResult(Int32, String): PrivateScope, Public, Static, HideBySig
+Interface ArchestrAServices.ASBContract.IAuthenticateASB: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+  Methods:
+    Connect(ConnectRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Renew(RenewRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    AuthenticateMe(AuthenticateMe): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UpdateSystemAuthenticationConfiguration(UpdateSystemAuthenticationConfiguration): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Disconnect(Disconnect): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    KeepAlive(KeepAlive): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct ArchestrAServices.ASBContract.ArchestrAError: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.ArchestrAError Success = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError InvalidConnectionId = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ApplicationAuthenticationError = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError UserAuthenticationError = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError UserAuthorizationError = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError NotSupportedOperation = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError MonitoredItemsNotFound = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError InvalidSubscriptionID = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ItemAlreadyRegistered = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ItemAlreadyDeletedOrDoesNotExist = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError InvalidMonitoredItems = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError OperationFailed = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError SpecificError = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError BadNoCommunication = 13 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError Bad_NothingToDo = 14 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError Bad_TooManyOperations = 15 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError Bad_NodeIdInvalid = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError BrowseFailed = 17 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_BadOutOfRange = 18 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_BadTypeMismatch = 19 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_BadDimensionMismatch = 20 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_AccessDenied = 21 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_SecuredWrite = 22 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_VerifiedWrite = 23 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError IndexOutOfRange = 24 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError RequestTimedOut = 25 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError DataTypeConversionNotSupported = 26 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ItemCannotBeRegistered_NoName = 27 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ItemCannotBeRegistered_NoId = 28 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError ItemAlreadyBeingMonitored = 29 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError SubscriptionIDAlreadyExist = 30 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError OperationWouldBlock = 31 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError PublishComplete = 32 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_UserNotHavingAccessRights = 33 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError WriteFailed_VerifierNotHavingVerifyRights = 34 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ArchestrAError Unknown = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.ASBContract.CredentialType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.CredentialType UsernamePassword = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialType X509Certificate = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialType SamlToken = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialType Other = 65535 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.ASBContract.EncryptionType: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.EncryptionType None = 0 : Public, Static, Literal, HasDefault
+Struct ArchestrAServices.ASBContract.CredentialValidity: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    UInt16 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.CredentialValidity UserIdentityValid = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialValidity UserIdentityInvalid_BadPassword = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialValidity UserIdentityInvalid_NoUser = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialValidity UserIdentityInvalid_CannotAuthenticate = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.CredentialValidity UesrIdentityValidityUnknown = 65535 : Public, Static, Literal, HasDefault
+Class Invensys.Compression.AADeflateStream: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.IO.Stream
+    Void .ctor(System.IO.Stream, System.IO.Compression.CompressionMode): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.IO.Stream, System.IO.Compression.CompressionMode, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.IO.Stream BaseStream 'get ' : 
+    Boolean CanRead 'get ' : 
+    Boolean CanWrite 'get ' : 
+    Boolean CanSeek 'get ' : 
+    Int64 Length 'get ' : 
+    Int64 Position 'get set' : 
+  Methods:
+    get_BaseStream(): PrivateScope, Public, HideBySig, SpecialName
+    get_CanRead(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanWrite(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_CanSeek(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Length(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    get_Position(): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    set_Position(Int64): PrivateScope, Public, Virtual, HideBySig, SpecialName
+    Flush(): PrivateScope, Public, Virtual, HideBySig
+    Seek(Int64, SeekOrigin): PrivateScope, Public, Virtual, HideBySig
+    SetLength(Int64): PrivateScope, Public, Virtual, HideBySig
+    Read(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    BeginRead(Byte[], Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, HasSecurity
+    EndRead(IAsyncResult): PrivateScope, Public, Virtual, HideBySig
+    Write(Byte[], Int32, Int32): PrivateScope, Public, Virtual, HideBySig
+    BeginWrite(Byte[], Int32, Int32, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, HasSecurity
+    EndWrite(IAsyncResult): PrivateScope, Public, Virtual, HideBySig
+Class ArchestrAServices.ASBContract.Disconnect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.AuthenticationData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.AuthenticationData ConsumerAuthenticationData : Public
+Class ArchestrAServices.ASBContract.SerializationExtensions: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    GetTypeSerializer(Type): PrivateScope, Public, Static, HideBySig
+    ToXml(Object): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.AuthenticationData: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Byte[] Data 'get set' : 
+    Byte[] InitializationVector 'get set' : 
+  Methods:
+    get_Data(): PrivateScope, Public, HideBySig, SpecialName
+    set_Data(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_InitializationVector(): PrivateScope, Public, HideBySig, SpecialName
+    set_InitializationVector(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.SysAuthParameters: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ASBSolutionName : Public
+    Boolean ASBSolutionValid : Public
+    Int32 DH_KeySize : Public
+    Int32 DH_SecretSize : Public
+    System.Numerics.BigInteger DH_p : Public
+    System.Numerics.BigInteger DH_g : Public
+    UInt32 ConnectionLifetime : Public
+    System.String SaltValue : Public
+    System.String hashAlgorithm : Public
+    Int32 PasswordIterations : Public
+    System.String InitialVector : Public
+    Int32 KeySize : Public
+    Int32 DH_KeySize_Dft : Public, Static
+    Int32 DH_SecretSize_Dft : Public, Static
+    System.String DH_passphrase_Dft : Public, Static
+    UInt32 ConnectionLifetime_Dft : Public, Static
+    System.String SaltValue_Dft : Public, Static
+    System.String hashAlgorithm_Dft : Public, Static
+    Int32 PasswordIterations_Dft : Public, Static
+    System.String InitialVector_Dft : Public, Static
+    Int32 KeySize_Dft : Public, Static
+  Properties:
+    System.String DH_passphrase 'get set' : 
+    Byte[] DH_certificate 'get ' : 
+  Methods:
+    get_DH_passphrase(): PrivateScope, Public, HideBySig, SpecialName
+    set_DH_passphrase(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DH_certificate(): PrivateScope, Public, HideBySig, SpecialName
+    ResetToDefaults(): PrivateScope, Public, HideBySig
+Struct ArchestrAServices.ASBContract.SigningMethod: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.SigningMethod Baktun = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.SigningMethod Apollo = 1 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.ASBContract.SysAuthConnectionBase: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Guid connectionID : Public
+  Properties:
+    ArchestrAServices.ASBContract.ConnectionValidator m_ConnectionValidator 'get set' : 
+    Boolean SecureSessionEstablished 'get set' : 
+    System.String ReasonSecureSessionNotEstablished 'get set' : 
+    System.String DH_passphrase 'get set' : 
+    System.String DH_hashAlgorithm 'get ' : 
+    System.String DH_asbSolutionName 'get ' : 
+    ArchestrAServices.ASBContract.SigningMethod SignatureMethod 'get set' : 
+  Methods:
+    get_m_ConnectionValidator(): PrivateScope, Public, HideBySig, SpecialName
+    get_SecureSessionEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_ReasonSecureSessionNotEstablished(): PrivateScope, Public, HideBySig, SpecialName
+    get_DH_passphrase(): PrivateScope, Public, HideBySig, SpecialName
+    set_DH_passphrase(String): PrivateScope, Public, HideBySig, SpecialName
+    get_DH_hashAlgorithm(): PrivateScope, Public, HideBySig, SpecialName
+    get_DH_asbSolutionName(): PrivateScope, Public, HideBySig, SpecialName
+    get_SignatureMethod(): PrivateScope, Public, HideBySig, SpecialName
+    set_SignatureMethod(SigningMethod): PrivateScope, Public, HideBySig, SpecialName
+    ValidRequest(ConnectedRequest, Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    ValidResponse(ConnectedResponse, Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    MakeConnectionValidator(): PrivateScope, Public, HideBySig
+    Sign(ConnectedRequest, Boolean(Optional, HasDefault)): PrivateScope, Public, HideBySig
+    EncypherBaktun(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    EncypherBaktun(Byte[], Byte[]&(Out)): PrivateScope, Public, HideBySig
+    EncypherBaktun(String, Byte[]&(Out)): PrivateScope, Public, HideBySig
+    ReEncypherBaktun(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    ReEncypherBaktun(String, Byte[]): PrivateScope, Public, HideBySig
+    DecypherBaktun(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    DecypherBaktun(String, Byte[]): PrivateScope, Public, HideBySig
+    EncypherApollo(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    EncypherApollo(Byte[], Byte[]&(Out)): PrivateScope, Public, HideBySig
+    EncypherApollo(String, Byte[]&(Out)): PrivateScope, Public, HideBySig
+    ReEncypherApollo(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    ReEncypherApollo(String, Byte[]): PrivateScope, Public, HideBySig
+    DecypherApollo(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    DecypherApollo(String, Byte[]): PrivateScope, Public, HideBySig
+    Encypher(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Encypher(Byte[], Byte[]&(Out)): PrivateScope, Public, HideBySig
+    Encypher(String, Byte[]&(Out)): PrivateScope, Public, HideBySig
+    ReEncypher(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    ReEncypher(String, Byte[]): PrivateScope, Public, HideBySig
+    Decypher(Byte[], Byte[]): PrivateScope, Public, HideBySig
+    Decypher(String, Byte[]): PrivateScope, Public, HideBySig
+Class ArchestrAServices.ASBContract.SysAuthenticatorClientCache: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.Generic.SynchronizedKeyedCollection`2[System.Guid,ArchestrAServices.ASBContract.SysAuthClientAuthentication]
+  Methods:
+    GetAllClientAuthenticators(): PrivateScope, Public, Static, HideBySig
+    AddClientAuthenticator(SysAuthClientAuthentication): PrivateScope, Public, Static, HideBySig
+    GetClientAuthenticator(Guid): PrivateScope, Public, Static, HideBySig
+    RemoveClientAuthenticator(Guid): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.SysAuthenticatorServiceCache: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Collections.Generic.SynchronizedKeyedCollection`2[System.Guid,ArchestrAServices.ASBContract.SysAuthServiceAuthentication]
+  Methods:
+    GetAllServiceAuthenticators(): PrivateScope, Public, Static, HideBySig
+    AddServiceAuthenticator(SysAuthServiceAuthentication): PrivateScope, Public, Static, HideBySig
+    GetServiceAuthenticator(Guid): PrivateScope, Public, Static, HideBySig
+    RemoveServiceAuthenticator(Guid): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.MakeCallToAuthenticationConnect: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(ConnectRequest): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(ConnectRequest, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.ASBContract.MakeCalltoAuthenticateMe: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(AuthenticateMe): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(AuthenticateMe, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.ASBContract.MakeCallToServiceDisconnect: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Disconnect): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Disconnect, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class ArchestrAServices.ASBContract.SysAuthClientAuthentication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.SysAuthConnectionBase
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    UInt32 Timeout 'get set' : 
+    System.Numerics.BigInteger ClientPrivateKey 'get set' : 
+    System.Numerics.BigInteger ClientPublicKey 'get set' : 
+    System.Numerics.BigInteger ServicePublicKey 'get set' : 
+  Methods:
+    get_Timeout(): PrivateScope, Public, HideBySig, SpecialName
+    set_Timeout(UInt32): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPrivateKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ClientPublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    EstablishSecureSession(String, String, String, String, MakeCallToAuthenticationConnect, MakeCalltoAuthenticateMe, Guid&(Out)): PrivateScope, Public, Static, HideBySig
+    EstablishSecureSession(String, String, String, String, MakeCallToAuthenticationConnect, MakeCalltoAuthenticateMe, Guid&(Out), String&(Out)): PrivateScope, Public, Static, HideBySig
+    AbortSession(): PrivateScope, Public, HideBySig
+    DisconnectSecureSession(Guid, MakeCallToServiceDisconnect): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.SysAuthServiceAuthentication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.SysAuthConnectionBase
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Numerics.BigInteger ClientPublicKey 'get set' : 
+    System.Numerics.BigInteger ServicePrivateKey 'get set' : 
+    System.Numerics.BigInteger ServicePublicKey 'get set' : 
+    UInt64 Lifetime 'get set' : 
+  Methods:
+    get_ClientPublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePrivateKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_ServicePublicKey(): PrivateScope, Public, HideBySig, SpecialName
+    get_Lifetime(): PrivateScope, Public, HideBySig, SpecialName
+    ProcessClientConnection(ConnectRequest): PrivateScope, Public, Static, HideBySig
+    ProcessClientAuthenticateMe(AuthenticateMe): PrivateScope, Public, HideBySig
+    ProcessClientRenew(RenewRequest): PrivateScope, Public, Static, HideBySig
+    ProcessClientUpdateSystemAuthenticationConfiguration(UpdateSystemAuthenticationConfiguration): PrivateScope, Public, Static, HideBySig
+    ProcessClientDisconnect(Disconnect): PrivateScope, Public, HideBySig
+Class ArchestrAServices.ASBContract.RenewRequest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.AuthenticationData, System.Guid, ArchestrAServices.ASBContract.PublicKey): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.AuthenticationData ConsumerAuthenticationData : Public
+    System.Guid NewConnectionId : Public
+    ArchestrAServices.ASBContract.PublicKey NewConsumerPublicKey : Public
+Class ArchestrAServices.ASBContract.DataConversionUtilities: AutoLayout, AnsiClass, Class, Public, Abstract, Sealed, BeforeFieldInit
+  Methods:
+    ToBase64(String): PrivateScope, Public, Static, HideBySig
+    FromBase64(String): PrivateScope, Public, Static, HideBySig
+    ToBase64(Byte[]): PrivateScope, Public, Static, HideBySig
+    ToHex(Byte[]): PrivateScope, Public, Static, HideBySig
+    FromBase64ToByteArray(String): PrivateScope, Public, Static, HideBySig
+    FromHexToByteArray(String): PrivateScope, Public, Static, HideBySig
+Class ArchestrAServices.ASBContract.KeepAlive: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedRequest
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(ArchestrAServices.ASBContract.AuthenticationData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ArchestrAServices.ASBContract.AuthenticationData ConsumerAuthenticationData : Public
+Class ArchestrAServices.ASBContract.RenewResponse: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ConnectedResponse
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Guid, System.String, ArchestrAServices.ASBContract.PublicKey, ArchestrAServices.ASBContract.AuthenticationData): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Guid NewConnectionId : Public
+    System.String NewConnectionLifetime : Public
+    ArchestrAServices.ASBContract.PublicKey NewServicePublicKey : Public
+    ArchestrAServices.ASBContract.AuthenticationData NewServiceAuthenticationData : Public
+Class ArchestrAServices.ASBContract.ConnectionValidator: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Guid ConnectionId 'get set' : 
+    UInt64 MessageNumber 'get set' : 
+    Byte[] MessageAuthenticationCode 'get set' : 
+    Byte[] SignatureInitializationVector 'get set' : 
+  Methods:
+    get_ConnectionId(): PrivateScope, Public, HideBySig, SpecialName
+    set_ConnectionId(Guid): PrivateScope, Public, HideBySig, SpecialName
+    get_MessageNumber(): PrivateScope, Public, HideBySig, SpecialName
+    set_MessageNumber(UInt64): PrivateScope, Public, HideBySig, SpecialName
+    get_MessageAuthenticationCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_MessageAuthenticationCode(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+    get_SignatureInitializationVector(): PrivateScope, Public, HideBySig, SpecialName
+    set_SignatureInitializationVector(Byte[]): PrivateScope, Public, HideBySig, SpecialName
+Class ArchestrAServices.ASBContract.ASBArchestrAResult: AutoLayout, AnsiClass, Class, Public, Serializable, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Boolean Success 'get set' : 
+    Int32 ResultCode 'get set' : 
+    System.String Location 'get set' : 
+    System.String[] SuccessMessages 'get set' : 
+    System.String[] InformationMessages 'get set' : 
+    System.String[] ErrorMessages 'get set' : 
+    ArchestrAServices.ASBContract.NamedValue[] Extensions 'get set' : 
+  Methods:
+    get_Success(): PrivateScope, Public, HideBySig, SpecialName
+    set_Success(Boolean): PrivateScope, Public, HideBySig, SpecialName
+    get_ResultCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_ResultCode(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Location(): PrivateScope, Public, HideBySig, SpecialName
+    set_Location(String): PrivateScope, Public, HideBySig, SpecialName
+    get_SuccessMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_SuccessMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_InformationMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_InformationMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_ErrorMessages(): PrivateScope, Public, HideBySig, SpecialName
+    set_ErrorMessages(String[]): PrivateScope, Public, HideBySig, SpecialName
+    get_Extensions(): PrivateScope, Public, HideBySig, SpecialName
+    set_Extensions(NamedValue[]): PrivateScope, Public, HideBySig, SpecialName
+Struct ArchestrAServices.ASBContract.ItemChoiceType: AutoLayout, AnsiClass, Class, Public, Sealed, Serializable
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    ArchestrAServices.ASBContract.ItemChoiceType Blob = 0 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Boolean = 1 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Byte = 2 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Date = 3 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType DateTime = 4 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Decimal = 5 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Double = 6 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Duration = 7 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Float = 8 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Guid = 9 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Hex = 10 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Int = 11 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Integer = 12 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Long = 13 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Short = 14 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType String = 15 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType Time = 16 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType UnsignedByte = 17 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType UnsignedInt = 18 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType UnsignedLong = 19 : Public, Static, Literal, HasDefault
+    ArchestrAServices.ASBContract.ItemChoiceType UnsignedShort = 20 : Public, Static, Literal, HasDefault
+Class ArchestrAServices.ASBContract.ConnectRequest: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :ArchestrAServices.ASBContract.ServiceMessage
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.Guid, ArchestrAServices.ASBContract.PublicKey): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Guid ConnectionId : Public
+    ArchestrAServices.ASBContract.PublicKey ConsumerPublicKey : Public

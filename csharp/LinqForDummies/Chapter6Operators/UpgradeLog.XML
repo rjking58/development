@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Chapter6Operators">
+</Property><Property Name="Solution File" Value="C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators.sln">
+</Property><Property Name="User Options File" Value="C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Chapter6Operators.suo">
+</Property><Property Name="Date" Value="Thursday, February 23, 2012">
+</Property><Property Name="Time" Value="7:28 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Chapter6Operators.sln" Description="File successfully backed up as C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Backup\Chapter6Operators.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Chapter6Operators.suo" Description="File successfully backed up as C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Backup\Chapter6Operators.suo">
+</Event><Event ErrorLevel="0" Project="Chapter6Operators" Source="Chapter6Operators\Chapter6Operators.csproj" Description="Project file successfully backed up as C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Backup\Chapter6Operators\Chapter6Operators.csproj">
+</Event><Event ErrorLevel="0" Project="Chapter6Operators" Source="Chapter6Operators\Program.cs" Description="File successfully backed up as C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Backup\Chapter6Operators\Program.cs">
+</Event><Event ErrorLevel="0" Project="Chapter6Operators" Source="Chapter6Operators\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\GCS\Source\csharp\LinqForDummies\Chapter6Operators\Backup\Chapter6Operators\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Chapter6Operators" Source="Chapter6Operators\Chapter6Operators.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Chapter6Operators" Source="Chapter6Operators\Chapter6Operators.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Chapter6Operators.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Chapter6Operators.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Chapter6Operators" Source="Chapter6Operators\Chapter6Operators.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

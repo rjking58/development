@@ -1,0 +1,5 @@
+bin\Debug\FormWithButton.exe
+bin\Debug\FormWithButton.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FormWithButton.exe
+obj\Debug\FormWithButton.pdb

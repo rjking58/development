@@ -1,0 +1,5 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\TCPTesting\TCPTesting\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\TCPTesting\TCPTesting\bin\Debug\TCPTesting.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\TCPTesting\TCPTesting\bin\Debug\TCPTesting.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\TCPTesting\TCPTesting\obj\Debug\TCPTesting.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\TCPTesting\TCPTesting\obj\Debug\TCPTesting.pdb

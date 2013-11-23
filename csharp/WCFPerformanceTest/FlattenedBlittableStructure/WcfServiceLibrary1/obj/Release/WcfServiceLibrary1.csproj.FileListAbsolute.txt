@@ -1,0 +1,12 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.dll.config
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\obj\Release\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\obj\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\WcfServiceLibrary1\obj\Release\WcfServiceLibrary1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.dll.config
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\bin\Release\WcfServiceLibrary1.pdb
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\obj\Release\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\obj\Release\WcfServiceLibrary1.dll
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\obj\Release\WcfServiceLibrary1.pdb

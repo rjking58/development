@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Chapter3LambdaExpressions">
+</Property><Property Name="Solution File" Value="C:\Development\SOURCE\csharp\LinqForDummies\Chapter3LambdaExpressions\Chapter3LambdaExpressions.sln">
+</Property><Property Name="Date" Value="Saturday, April 28, 2012">
+</Property><Property Name="Time" Value="10:04 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Chapter3LambdaExpressions" Source="Chapter3LambdaExpressions\Chapter3LambdaExpressions.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Chapter3LambdaExpressions" Source="Chapter3LambdaExpressions\Chapter3LambdaExpressions.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Chapter3LambdaExpressions.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Chapter3LambdaExpressions.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Chapter3LambdaExpressions" Source="Chapter3LambdaExpressions\Chapter3LambdaExpressions.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

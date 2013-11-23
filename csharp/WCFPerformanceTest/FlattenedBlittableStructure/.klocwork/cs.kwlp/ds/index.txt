@@ -1,0 +1,1 @@
+C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\WcfServiceLibrary1\Service1.cs;C:\Volatile\Source\csharp\WCFPerformanceTest\FlattenedBlittableStructure\.klocwork\cs.kwlp\ds\go1ddxqv.qwx;3;0;0

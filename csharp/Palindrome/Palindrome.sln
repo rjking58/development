@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://192.168.0.199/ASPNetStepByStep/Chap4/Palindrome/", "http://192.168.0.199/ASPNetStepByStep/Chap4/Palindrome", "{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{9FA8D60D-C26B-491D-982E-5E6A0C21565C}|PalindromeCheckerRenderedControl.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Palindrome"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap4\Palindrome\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Palindrome\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Palindrome"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap4\Palindrome\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Palindrome\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap4\Palindrome\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlsLib", "PalindromeCheckerRenderedControl\CustomControlsLib.csproj", "{9FA8D60D-C26B-491D-982E-5E6A0C21565C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Debug|.NET.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Debug|.NET.Build.0 = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Release|.NET.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Release|.NET.Build.0 = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{B2DE85CA-FA2E-4C4F-B230-74D40DB90517}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{9FA8D60D-C26B-491D-982E-5E6A0C21565C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MemStreamTest">
+</Property><Property Name="Solution File" Value="C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\MemStreamTest.suo">
+</Property><Property Name="Date" Value="Monday, March 31, 2008">
+</Property><Property Name="Time" Value="17:17 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="MemStreamTest.sln" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\Backup\MemStreamTest.sln">
+</Event><Event ErrorLevel="0" Project="" Source="MemStreamTest.suo" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\Backup\MemStreamTest.suo">
+</Event><Event ErrorLevel="0" Project="MemStreamTest" Source="MemStreamTest\MemStreamTest.csproj" Description="Project file successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\Backup\MemStreamTest\MemStreamTest.csproj">
+</Event><Event ErrorLevel="0" Project="MemStreamTest" Source="MemStreamTest\Class1.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\Backup\MemStreamTest\Class1.cs">
+</Event><Event ErrorLevel="0" Project="MemStreamTest" Source="MemStreamTest\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\MemStreamTest\Backup\MemStreamTest\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="MemStreamTest" Source="MemStreamTest\MemStreamTest.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="MemStreamTest" Source="MemStreamTest\MemStreamTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="MemStreamTest.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="MemStreamTest.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="MemStreamTest" Source="MemStreamTest\MemStreamTest.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

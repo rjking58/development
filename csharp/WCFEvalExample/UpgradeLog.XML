@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WCFEvalExample">
+</Property><Property Name="Solution File" Value="C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample.sln">
+</Property><Property Name="User Options File" Value="C:\Development\SOURCE\csharp\WCFEvalExample\WCFEvalExample.suo">
+</Property><Property Name="Date" Value="Wednesday, May 02, 2012">
+</Property><Property Name="Time" Value="22:39 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WCFEvalExample.sln" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WCFEvalExample.suo" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample.suo">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\WCFEvalExample.csproj" Description="Project file successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\WCFEvalExample.csproj">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\Eval.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\Eval.cs">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\EvalService.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\EvalService.cs">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\IEvalService.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\IEvalService.cs">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\App.config" Description="File successfully backed up as C:\Development\SOURCE\csharp\WCFEvalExample\Backup\WCFEvalExample\App.config">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\WCFEvalExample.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WCFEvalExample" Source="WCFEvalExample\WCFEvalExample.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WCFEvalExample.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WCFEvalExample.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WCFEvalExample" Source="WCFEvalExample\WCFEvalExample.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

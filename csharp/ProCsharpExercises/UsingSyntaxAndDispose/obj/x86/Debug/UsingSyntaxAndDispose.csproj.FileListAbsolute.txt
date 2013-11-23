@@ -1,0 +1,13 @@
+C:\Development\SOURCE\csharp\ProCSharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ProCSharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.pdb
+C:\Development\SOURCE\csharp\ProCSharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.exe
+C:\Development\SOURCE\csharp\ProCSharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\bin\Debug\UsingSyntaxAndDispose.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\UsingSyntaxAndDispose\obj\x86\Debug\UsingSyntaxAndDispose.pdb

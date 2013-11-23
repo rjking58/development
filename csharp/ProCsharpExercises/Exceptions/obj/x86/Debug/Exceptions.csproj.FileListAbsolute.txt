@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\bin\Debug\Exceptions.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\bin\Debug\Exceptions.pdb
+C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\obj\x86\Debug\Exceptions.exe
+C:\Volatile\Source\csharp\ProCsharpExercises\Exceptions\obj\x86\Debug\Exceptions.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Exceptions\bin\Debug\Exceptions.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Exceptions\bin\Debug\Exceptions.pdb
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Exceptions\obj\x86\Debug\Exceptions.exe
+C:\Volatile\Development\Source\csharp\ProCsharpExercises\Exceptions\obj\x86\Debug\Exceptions.pdb

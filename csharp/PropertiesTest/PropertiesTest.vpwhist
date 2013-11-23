@@ -1,0 +1,29 @@
+[Global]
+CurrentProject=PropertiesTest\PropertiesTest.vpj
+[ActiveConfig]
+PropertiesTest\PropertiesTest.vpj=,Debug|AnyCPU
+[ProjectDates]
+PropertiesTest\PropertiesTest.csproj=20070219134856802
+[TreeExpansion2]
+- PropertiesTest\PropertiesTest.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 110 145 960 685 0 0 M 0 0 0 0 960 612
+CWD: PropertiesTest
+BUFFER: BN="PropertiesTest\PropTester.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=131689 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 29 806 409 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="PropertiesTest\PropTester.cs"
+VIEW: LN=.170 CL=16 LE=0 CX=15 CY=10 WI=103 BI=14 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\DeviceTemplate.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\KeyEntry.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\RemoteRegistry.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\SoftKeyEntry.cs
+..\commentTemplate.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\SoftKeyTable.cs
+..\TestnUnit\TestnUnit\Program.cs
+..\overloadTest\overloadTest\Program.cs
+PropertiesTest\PropTester.cs

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="CodeCrossRef" Class="CodeRefDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=THEDEN2\SQLEXPRESS;Initial Catalog=CodeCrossRef;Integrated Security=True" SettingsObjectName="LinqTest.Properties.Settings" SettingsPropertyName="CodeCrossRefConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CodeCrossRef" Member="CodeCrossRefs">
+    <Type Name="CodeCrossRef">
+      <Column Name="CodeExample" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="LanguageID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CodeExampleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CodeExampleName" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

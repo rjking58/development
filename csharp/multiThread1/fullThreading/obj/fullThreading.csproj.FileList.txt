@@ -1,0 +1,5 @@
+bin\Debug\fullThreading.exe
+bin\Debug\fullThreading.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\fullThreading.exe
+obj\Debug\fullThreading.pdb

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b13a110b-2a4f-4dd0-a0f3-6bcc0c465a88" name="Richard.King@RICHARDK01 2013-11-18 17:26:42" runUser="CORP\Richard.King" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="1e100941-804b-47c2-9176-7216adabe55d">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Richard.King_RICHARDK01 2013-11-18 17_26_42">
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommon.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\Runtime\Interfaces\ASBIDataV2\ASBIDataV2Adapter\bin\Debug\ASBIDataV2Adapter.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIData.dll" />
+      <DeploymentItem filename="C:\Volatile\Development\Source\csharp\VersioningExample\Debug\DevelopProxyAdapters.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIAuthenticateASB.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIData.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaLoggerETWListner.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesContractIDataV2.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesCommonDataContracts.dll" />
+      <DeploymentItem filename="E:\TFSSourceFolders\ASBFramework\Features\DART-Dev\Source\SubsystemTest\Prototypes\Id\bin\Debug\aaServicesProxyIDataV2.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-18T17:26:42.8043762-08:00" queuing="2013-11-18T17:26:42.9291778-08:00" start="2013-11-18T17:26:42.9291778-08:00" finish="2013-11-18T17:26:43.3191828-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestDisconnect" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="649bd7c3-0089-d39e-3d71-e1c8964fc631">
+      <Execution id="cc121c91-5ea6-4605-99dc-0a9cba83a22c" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestDisconnect" />
+    </UnitTest>
+    <UnitTest name="TestWriteSecured" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="bf0477be-87f8-4746-944b-531a6b8d91ab">
+      <Execution id="7eb2374a-ab99-47cc-9479-9c48ef5e8fe9" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestWriteSecured" />
+    </UnitTest>
+    <UnitTest name="TestRead" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="0fd3a879-d9ab-53b6-3bcf-df687a8c0193">
+      <Execution id="2fe7c22d-ae13-4e7f-88f4-aceca3d72ed6" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestRead" />
+    </UnitTest>
+    <UnitTest name="TestWrite" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="a249d033-0eb9-63c2-4fb3-f7f8ed5633df">
+      <Execution id="9604f13a-e9de-4c1d-88a4-ca11c9e794c2" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestWrite" />
+    </UnitTest>
+    <UnitTest name="TestDeleteSubscription" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="350b531b-49e0-1c7d-6d83-8e173c2a485a">
+      <Execution id="6c6d8d1d-1616-4abd-b9de-a4dae39c10dd" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestDeleteSubscription" />
+    </UnitTest>
+    <UnitTest name="TestPublishWriteComplete" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="512f994f-ad3e-c014-bcab-2e6084ffe072">
+      <Execution id="bdd9dc25-ae44-4254-85b0-0f23e7aa413f" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestPublishWriteComplete" />
+    </UnitTest>
+    <UnitTest name="TestWriteUser" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="ca3d68ad-9594-7ce3-98a8-461a9bc46061">
+      <Execution id="e1fc3e63-4b6e-4acc-89b6-b050b05b0e67" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestWriteUser" />
+    </UnitTest>
+    <UnitTest name="TestWriteVerified" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="9f49bf39-cc98-bd0c-f540-b0e13216a352">
+      <Execution id="f84040ca-6ee7-47cb-ba58-9773d8d4f194" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestWriteVerified" />
+    </UnitTest>
+    <UnitTest name="TestCreateSubscription" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="64276f35-ab44-8962-19e9-bc85e785a854">
+      <Execution id="f84c5a06-63b9-444c-959f-a6a10353499e" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestCreateSubscription" />
+    </UnitTest>
+    <UnitTest name="TestAbort" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="9de2549c-fcd4-5b67-bcfd-0ee0d9617dd1">
+      <Execution id="1654eef7-87ee-4fa2-8200-6a44fbe1ebbf" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestAbort" />
+    </UnitTest>
+    <UnitTest name="TestConnect" storage="c:\volatile\development\source\csharp\versioningexample\debug\defaulttest.dll" id="ae42e6ae-39bc-a0eb-957d-6c3af36a7825">
+      <Execution id="f37fce25-e55f-4cb7-bf92-c5d1c2495847" />
+      <TestMethod codeBase="C:/Volatile/Development/Source/csharp/VersioningExample/Debug/DefaultTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DevelopProxyAdaptersUnitTest.V1Adapter, DefaultTest, Version=1.0.5070.31395, Culture=neutral, PublicKeyToken=null" name="TestConnect" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="ae42e6ae-39bc-a0eb-957d-6c3af36a7825" executionId="f37fce25-e55f-4cb7-bf92-c5d1c2495847" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9de2549c-fcd4-5b67-bcfd-0ee0d9617dd1" executionId="1654eef7-87ee-4fa2-8200-6a44fbe1ebbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="649bd7c3-0089-d39e-3d71-e1c8964fc631" executionId="cc121c91-5ea6-4605-99dc-0a9cba83a22c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fd3a879-d9ab-53b6-3bcf-df687a8c0193" executionId="2fe7c22d-ae13-4e7f-88f4-aceca3d72ed6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a249d033-0eb9-63c2-4fb3-f7f8ed5633df" executionId="9604f13a-e9de-4c1d-88a4-ca11c9e794c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca3d68ad-9594-7ce3-98a8-461a9bc46061" executionId="e1fc3e63-4b6e-4acc-89b6-b050b05b0e67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9f49bf39-cc98-bd0c-f540-b0e13216a352" executionId="f84040ca-6ee7-47cb-ba58-9773d8d4f194" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf0477be-87f8-4746-944b-531a6b8d91ab" executionId="7eb2374a-ab99-47cc-9479-9c48ef5e8fe9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="512f994f-ad3e-c014-bcab-2e6084ffe072" executionId="bdd9dc25-ae44-4254-85b0-0f23e7aa413f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64276f35-ab44-8962-19e9-bc85e785a854" executionId="f84c5a06-63b9-444c-959f-a6a10353499e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="350b531b-49e0-1c7d-6d83-8e173c2a485a" executionId="6c6d8d1d-1616-4abd-b9de-a4dae39c10dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f37fce25-e55f-4cb7-bf92-c5d1c2495847" testId="ae42e6ae-39bc-a0eb-957d-6c3af36a7825" testName="TestConnect" computerName="RICHARDK01" duration="00:00:00.0316097" startTime="2013-11-18T17:26:42.9291778-08:00" endTime="2013-11-18T17:26:43.2255816-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f37fce25-e55f-4cb7-bf92-c5d1c2495847">
+    </UnitTestResult>
+    <UnitTestResult executionId="1654eef7-87ee-4fa2-8200-6a44fbe1ebbf" testId="9de2549c-fcd4-5b67-bcfd-0ee0d9617dd1" testName="TestAbort" computerName="RICHARDK01" duration="00:00:00.0005375" startTime="2013-11-18T17:26:43.2255816-08:00" endTime="2013-11-18T17:26:43.2411818-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1654eef7-87ee-4fa2-8200-6a44fbe1ebbf">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc121c91-5ea6-4605-99dc-0a9cba83a22c" testId="649bd7c3-0089-d39e-3d71-e1c8964fc631" testName="TestDisconnect" computerName="RICHARDK01" duration="00:00:00.0004931" startTime="2013-11-18T17:26:43.2411818-08:00" endTime="2013-11-18T17:26:43.2411818-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc121c91-5ea6-4605-99dc-0a9cba83a22c">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fe7c22d-ae13-4e7f-88f4-aceca3d72ed6" testId="0fd3a879-d9ab-53b6-3bcf-df687a8c0193" testName="TestRead" computerName="RICHARDK01" duration="00:00:00.0162848" startTime="2013-11-18T17:26:43.2411818-08:00" endTime="2013-11-18T17:26:43.2567820-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fe7c22d-ae13-4e7f-88f4-aceca3d72ed6">
+    </UnitTestResult>
+    <UnitTestResult executionId="9604f13a-e9de-4c1d-88a4-ca11c9e794c2" testId="a249d033-0eb9-63c2-4fb3-f7f8ed5633df" testName="TestWrite" computerName="RICHARDK01" duration="00:00:00.0060264" startTime="2013-11-18T17:26:43.2567820-08:00" endTime="2013-11-18T17:26:43.2723822-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9604f13a-e9de-4c1d-88a4-ca11c9e794c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1fc3e63-4b6e-4acc-89b6-b050b05b0e67" testId="ca3d68ad-9594-7ce3-98a8-461a9bc46061" testName="TestWriteUser" computerName="RICHARDK01" duration="00:00:00.0046575" startTime="2013-11-18T17:26:43.2723822-08:00" endTime="2013-11-18T17:26:43.2723822-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1fc3e63-4b6e-4acc-89b6-b050b05b0e67">
+    </UnitTestResult>
+    <UnitTestResult executionId="f84040ca-6ee7-47cb-ba58-9773d8d4f194" testId="9f49bf39-cc98-bd0c-f540-b0e13216a352" testName="TestWriteVerified" computerName="RICHARDK01" duration="00:00:00.0018274" startTime="2013-11-18T17:26:43.2723822-08:00" endTime="2013-11-18T17:26:43.2723822-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f84040ca-6ee7-47cb-ba58-9773d8d4f194">
+    </UnitTestResult>
+    <UnitTestResult executionId="7eb2374a-ab99-47cc-9479-9c48ef5e8fe9" testId="bf0477be-87f8-4746-944b-531a6b8d91ab" testName="TestWriteSecured" computerName="RICHARDK01" duration="00:00:00.0012377" startTime="2013-11-18T17:26:43.2723822-08:00" endTime="2013-11-18T17:26:43.2879824-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7eb2374a-ab99-47cc-9479-9c48ef5e8fe9">
+    </UnitTestResult>
+    <UnitTestResult executionId="bdd9dc25-ae44-4254-85b0-0f23e7aa413f" testId="512f994f-ad3e-c014-bcab-2e6084ffe072" testName="TestPublishWriteComplete" computerName="RICHARDK01" duration="00:00:00.0034633" startTime="2013-11-18T17:26:43.2879824-08:00" endTime="2013-11-18T17:26:43.2879824-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdd9dc25-ae44-4254-85b0-0f23e7aa413f">
+    </UnitTestResult>
+    <UnitTestResult executionId="f84c5a06-63b9-444c-959f-a6a10353499e" testId="64276f35-ab44-8962-19e9-bc85e785a854" testName="TestCreateSubscription" computerName="RICHARDK01" duration="00:00:00.0008627" startTime="2013-11-18T17:26:43.2879824-08:00" endTime="2013-11-18T17:26:43.2879824-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f84c5a06-63b9-444c-959f-a6a10353499e">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c6d8d1d-1616-4abd-b9de-a4dae39c10dd" testId="350b531b-49e0-1c7d-6d83-8e173c2a485a" testName="TestDeleteSubscription" computerName="RICHARDK01" duration="00:00:00.0007843" startTime="2013-11-18T17:26:43.2879824-08:00" endTime="2013-11-18T17:26:43.3035826-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6c6d8d1d-1616-4abd-b9de-a4dae39c10dd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

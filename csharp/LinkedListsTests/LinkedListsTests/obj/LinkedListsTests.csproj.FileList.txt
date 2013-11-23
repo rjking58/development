@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\LinkedListsTests.exe
+bin\Debug\LinkedListsTests.pdb
+obj\Debug\LinkedListsTests.exe
+obj\Debug\LinkedListsTests.pdb

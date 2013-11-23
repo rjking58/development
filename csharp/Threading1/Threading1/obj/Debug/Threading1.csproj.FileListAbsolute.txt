@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\Threading1\Threading1\bin\Debug\Threading1.exe
+C:\Development\SOURCE\csharp\Threading1\Threading1\bin\Debug\Threading1.pdb
+C:\Development\SOURCE\csharp\Threading1\Threading1\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\Threading1\Threading1\obj\Debug\Threading1.exe
+C:\Development\SOURCE\csharp\Threading1\Threading1\obj\Debug\Threading1.pdb

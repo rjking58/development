@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\bin\Debug\WebServiceWCFExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\bin\Debug\WebServiceWCFExample.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\obj\Debug\WebServiceWCFExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\obj\Debug\WebServiceWCFExample.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\WebServiceWCFExample\bin\Debug\WebServiceWCFExample.exe.config
+C:\Development\SOURCE\csharp\WebServiceWCFExample\bin\Debug\WebServiceWCFExample.exe.config
+C:\Development\SOURCE\csharp\WebServiceWCFExample\obj\Debug\WebServiceWCFExample.pdb
