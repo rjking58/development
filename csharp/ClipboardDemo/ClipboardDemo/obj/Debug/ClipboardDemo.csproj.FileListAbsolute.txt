@@ -1,0 +1,16 @@
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\bin\Debug\ClipboardDemo.exe
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\bin\Debug\ClipboardDemo.pdb
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.Form1.resources
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.Properties.Resources.resources
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.csproj.GenerateResource.Cache
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.exe
+C:\Development\SOURCE\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.pdb
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.exe
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.pdb
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\bin\Debug\ClipboardDemo.exe
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\bin\Debug\ClipboardDemo.pdb
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.Form1.resources
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.Properties.Resources.resources
+C:\GCS\Source\csharp\ClipboardDemo\ClipboardDemo\obj\Debug\ClipboardDemo.csproj.GenerateResource.Cache

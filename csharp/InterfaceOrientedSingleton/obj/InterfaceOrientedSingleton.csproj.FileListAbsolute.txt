@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\InterfaceOrientedSingleton\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\InterfaceOrientedSingleton\bin\Debug\InterfaceOrientedSingleton.exe
+C:\Volatile\Source\csharp2\vs2005Projs\InterfaceOrientedSingleton\bin\Debug\InterfaceOrientedSingleton.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\InterfaceOrientedSingleton\obj\Debug\InterfaceOrientedSingleton.exe
+C:\Volatile\Source\csharp2\vs2005Projs\InterfaceOrientedSingleton\obj\Debug\InterfaceOrientedSingleton.pdb

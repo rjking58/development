@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Attribute1\bin\Debug\Attribute1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Attribute1\bin\Debug\Attribute1.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Attribute1\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Attribute1\obj\Debug\Attribute1.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Attribute1\obj\Debug\Attribute1.pdb

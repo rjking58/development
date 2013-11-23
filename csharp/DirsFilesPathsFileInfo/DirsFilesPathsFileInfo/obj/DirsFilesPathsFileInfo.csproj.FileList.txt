@@ -1,0 +1,5 @@
+bin\Debug\DirsFilesPathsFileInfo.exe
+bin\Debug\DirsFilesPathsFileInfo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DirsFilesPathsFileInfo.exe
+obj\Debug\DirsFilesPathsFileInfo.pdb

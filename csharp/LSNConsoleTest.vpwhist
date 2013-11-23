@@ -1,0 +1,27 @@
+[Global]
+CurrentProject=LSNConsoleTest.vpj
+[ProjectDates]
+LSNConsoleTest.vpj=20040417010220000
+[ActiveConfig]
+LSNConsoleTest.vpj=,Release
+[TreeExpansion]
+LSNConsoleTest.vpj 0
+[State]
+SCREEN: 1152 864 1 0 798 570 0 0 M 0 0 0 0 1148 590
+CWD: Diablo2ReSkller
+BUFFER: BN="Diablo2ReSkller\Form1.cs"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 29 1016 416 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="Diablo2ReSkller\Form1.cs"
+VIEW: LN=.81893 CL=1 LE=0 CX=0 CY=24 WI=67 BI=14 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+..\CPROGS\CPP\VCPP\GameSDKStuff\WindowsGurus\Diablo2Hackit\Diablo2Hackit.cpp
+Diablo2ReSkller\Diablo2ReSkller.sln
+Diablo2ReSkller\Diablo2ReSkller.suo
+Diablo2ReSkller\Form1.resx
+Diablo2ReSkller\AssemblyInfo.cs
+myAlarm\Form1.cs
+..\..\My Documents\CurrentTopUSMovies.txt
+..\..\My Documents\CPIupdate.txt
+Diablo2ReSkller\Form1.cs

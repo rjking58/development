@@ -1,0 +1,2 @@
+obj\Debug\ClassTest1.exe
+obj\Debug\ClassTest1.pdb

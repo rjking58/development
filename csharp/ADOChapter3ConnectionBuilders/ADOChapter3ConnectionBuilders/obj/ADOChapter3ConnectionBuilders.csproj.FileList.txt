@@ -1,0 +1,5 @@
+bin\Debug\ADOChapter3ConnectionBuilders.exe
+bin\Debug\ADOChapter3ConnectionBuilders.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ADOChapter3ConnectionBuilders.exe
+obj\Debug\ADOChapter3ConnectionBuilders.pdb

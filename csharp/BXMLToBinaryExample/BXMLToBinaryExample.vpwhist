@@ -1,0 +1,23 @@
+[Global]
+CurrentProject=BXMLToBinaryExample.vpj
+[ActiveConfig]
+BXMLToBinaryExample.vpj=,Debug|AnyCPU
+[ProjectDates]
+BXMLToBinaryExample.csproj=20080411142230010
+[TreeExpansion2]
+- BXMLToBinaryExample.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 1332 78 960 685 0 0 M 0 0 0 0 1253 669
+CWD: ..\BXMLToBinaryExample
+FILEHIST: 9
+bin\Debug\test1
+Program.cs
+devices.xcf
+main.xcf
+bin\Debug\main.bin
+activities.xcf
+profiles.xcf
+snstest.xcf
+BasicStructureTest.xml

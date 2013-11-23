@@ -1,0 +1,21 @@
+
+	<activity>first activity
+		<iconref>aa</iconref>
+		<macro>
+			<macropair>0130</macropair>
+			<macropair>0132</macropair>
+			<macropair>0345</macropair>
+		</macro>
+		<punchthrumap>
+			<punchthruspec>010510
+                <name8>yikes</name8>
+                <iconref>91</iconref>
+            </punchthruspec>
+            <punchthruspec>020611
+                <name8>kazowie</name8>
+                <iconref>88</iconref>
+            </punchthruspec>
+		</punchthrumap>
+	</activity>
+ 
+

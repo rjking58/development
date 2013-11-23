@@ -1,0 +1,10 @@
+C:\Volatile\Source\csharp2\vs2005Projs\BinarySerializationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\BinarySerializationTests\bin\Debug\BinarySerializationTests.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BinarySerializationTests\bin\Debug\BinarySerializationTests.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BinarySerializationTests\obj\Debug\BinarySerializationTests.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BinarySerializationTests\obj\Debug\BinarySerializationTests.pdb
+C:\Development\SOURCE\csharp\BinarySerializationTests\obj\Debug\BinarySerializationTests.pdb
+C:\Development\SOURCE\csharp\BinarySerializationTests\bin\Debug\BinarySerializationTests.exe
+C:\Development\SOURCE\csharp\BinarySerializationTests\bin\Debug\BinarySerializationTests.pdb
+C:\Development\SOURCE\csharp\BinarySerializationTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\BinarySerializationTests\obj\Debug\BinarySerializationTests.exe

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="fc9c08ad-bddc-4bdb-bf94-1a52b74b8d6c" name="Richard@THEDEN2 2011-05-18 00:05:01" runUser="THEDEN2\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="975379cc-42c1-46e9-8b10-48716e98a363">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Development\SOURCE\csharp\FullAdder\FullAdder\TestResults\Richard_THEDEN2 2011-05-18 00_05_01">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\FullAdder\LogicTester\bin\Debug\WindowsFormsApplication1.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-05-18T00:05:01.3281250-07:00" queuing="2011-05-18T00:05:01.5156250-07:00" start="2011-05-18T00:05:01.5312500-07:00" finish="2011-05-18T00:05:01.7968750-07:00" />
+  <TestDefinitions>
+    <UnitTest name="FullAdderTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="6c9c601d-b41d-44b3-1e9b-555a73cb47fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4db46b71-ac44-4045-af01-eec2226545ec" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="FullAdderTest" />
+    </UnitTest>
+    <UnitTest name="NandGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="c031c565-6302-0be6-9149-6bfe1f7bb02a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ee946629-2ad4-4d0c-96ca-4e306642f0df" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="NandGateTest" />
+    </UnitTest>
+    <UnitTest name="XNorGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="efad0dfd-cb53-2114-2d16-bd49f479f5c6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4df8681e-fe6b-4eb4-bc24-5f136ca34ae2" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="XNorGateTest" />
+    </UnitTest>
+    <UnitTest name="NorGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="7c71e9f6-5570-b8df-2108-bae1915e7253">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d0f63735-1695-4d99-bc48-309f5199ad8a" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="NorGateTest" />
+    </UnitTest>
+    <UnitTest name="HalfAdderTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="072bf740-371e-c164-b73a-fdc0a7e2da2c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ceebfa89-8856-414a-b9b1-437d506cc20c" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="HalfAdderTest" />
+    </UnitTest>
+    <UnitTest name="AndGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="af0870e0-0ae8-f415-0418-26a7a37b8c0a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3154f9a0-5358-4782-93ad-df6e3470ca39" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="AndGateTest" />
+    </UnitTest>
+    <UnitTest name="OrGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="52f554cd-a462-eefe-ed35-c68aceab2883">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6014dd11-c07d-41f3-8f0b-af312dac6501" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="OrGateTest" />
+    </UnitTest>
+    <UnitTest name="XorGateTest" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="718b49a0-52da-c1c1-8133-46f89a1eb2f7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3f8352c2-e110-49b7-9111-198b10bf501e" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="XorGateTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="072bf740-371e-c164-b73a-fdc0a7e2da2c" executionId="ceebfa89-8856-414a-b9b1-437d506cc20c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52f554cd-a462-eefe-ed35-c68aceab2883" executionId="6014dd11-c07d-41f3-8f0b-af312dac6501" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c9c601d-b41d-44b3-1e9b-555a73cb47fe" executionId="4db46b71-ac44-4045-af01-eec2226545ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="718b49a0-52da-c1c1-8133-46f89a1eb2f7" executionId="3f8352c2-e110-49b7-9111-198b10bf501e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c71e9f6-5570-b8df-2108-bae1915e7253" executionId="d0f63735-1695-4d99-bc48-309f5199ad8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af0870e0-0ae8-f415-0418-26a7a37b8c0a" executionId="3154f9a0-5358-4782-93ad-df6e3470ca39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c031c565-6302-0be6-9149-6bfe1f7bb02a" executionId="ee946629-2ad4-4d0c-96ca-4e306642f0df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efad0dfd-cb53-2114-2d16-bd49f479f5c6" executionId="4df8681e-fe6b-4eb4-bc24-5f136ca34ae2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ceebfa89-8856-414a-b9b1-437d506cc20c" testId="072bf740-371e-c164-b73a-fdc0a7e2da2c" testName="HalfAdderTest" computerName="THEDEN2" duration="00:00:00.0105556" startTime="2011-05-18T00:05:01.5312500-07:00" endTime="2011-05-18T00:05:01.7656250-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6014dd11-c07d-41f3-8f0b-af312dac6501" testId="52f554cd-a462-eefe-ed35-c68aceab2883" testName="OrGateTest" computerName="THEDEN2" duration="00:00:00.0019143" startTime="2011-05-18T00:05:01.7812500-07:00" endTime="2011-05-18T00:05:01.7812500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4db46b71-ac44-4045-af01-eec2226545ec" testId="6c9c601d-b41d-44b3-1e9b-555a73cb47fe" testName="FullAdderTest" computerName="THEDEN2" duration="00:00:00.0013727" startTime="2011-05-18T00:05:01.7812500-07:00" endTime="2011-05-18T00:05:01.7812500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3f8352c2-e110-49b7-9111-198b10bf501e" testId="718b49a0-52da-c1c1-8133-46f89a1eb2f7" testName="XorGateTest" computerName="THEDEN2" duration="00:00:00.0010315" startTime="2011-05-18T00:05:01.7812500-07:00" endTime="2011-05-18T00:05:01.7812500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d0f63735-1695-4d99-bc48-309f5199ad8a" testId="7c71e9f6-5570-b8df-2108-bae1915e7253" testName="NorGateTest" computerName="THEDEN2" duration="00:00:00.0010666" startTime="2011-05-18T00:05:01.7812500-07:00" endTime="2011-05-18T00:05:01.7812500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3154f9a0-5358-4782-93ad-df6e3470ca39" testId="af0870e0-0ae8-f415-0418-26a7a37b8c0a" testName="AndGateTest" computerName="THEDEN2" duration="00:00:00.0010251" startTime="2011-05-18T00:05:01.7812500-07:00" endTime="2011-05-18T00:05:01.7968750-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ee946629-2ad4-4d0c-96ca-4e306642f0df" testId="c031c565-6302-0be6-9149-6bfe1f7bb02a" testName="NandGateTest" computerName="THEDEN2" duration="00:00:00.0010591" startTime="2011-05-18T00:05:01.7968750-07:00" endTime="2011-05-18T00:05:01.7968750-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4df8681e-fe6b-4eb4-bc24-5f136ca34ae2" testId="efad0dfd-cb53-2114-2d16-bd49f479f5c6" testName="XNorGateTest" computerName="THEDEN2" duration="00:00:00.0010106" startTime="2011-05-18T00:05:01.7968750-07:00" endTime="2011-05-18T00:05:01.7968750-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

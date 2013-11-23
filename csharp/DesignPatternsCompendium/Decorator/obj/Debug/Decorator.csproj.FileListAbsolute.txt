@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\Decorator\bin\Debug\Decorator.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Decorator\bin\Debug\Decorator.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\Decorator\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\Decorator\obj\Debug\Decorator.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Decorator\obj\Debug\Decorator.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Decorator\bin\Debug\Decorator.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Decorator\bin\Debug\Decorator.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Decorator\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Decorator\obj\Debug\Decorator.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Decorator\obj\Debug\Decorator.pdb

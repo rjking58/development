@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Remote_x0020_Configurations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Remote_x0020_Configurations" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Configurations">
+          <xs:complexType>
+            <xs:attribute name="UserID" type="xs:unsignedLong" use="required" />
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="ConfigName" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Devices">
+          <xs:complexType>
+            <xs:attribute name="UserID" type="xs:unsignedLong" use="required" />
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceName" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Configurations" />
+      <xs:field xpath="@UserID" />
+      <xs:field xpath="@ConfigID" />
+    </xs:unique>
+    <xs:unique name="Devices_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Devices" />
+      <xs:field xpath="@UserID" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+    </xs:unique>
+    <xs:keyref name="DevicesToConfigurations" refer="Constraint1">
+      <xs:selector xpath=".//Devices" />
+      <xs:field xpath="@UserID" />
+      <xs:field xpath="@ConfigID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

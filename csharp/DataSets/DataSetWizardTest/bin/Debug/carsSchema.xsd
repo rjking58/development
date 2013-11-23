@@ -1,0 +1,120 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="test_oneWZDataSet" targetNamespace="http://tempuri.org/test_oneWZDataSet.xsd" xmlns:mstns="http://tempuri.org/test_oneWZDataSet.xsd" xmlns="http://tempuri.org/test_oneWZDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="test_oneWZDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Configurations">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" type="xs:decimal" />
+              <xs:element name="ConfigID" type="xs:decimal" />
+              <xs:element name="ConfigurationName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="deviceKeys">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" type="xs:decimal" />
+              <xs:element name="ConfigID" type="xs:decimal" />
+              <xs:element name="DeviceID" type="xs:decimal" />
+              <xs:element name="KeyID" type="xs:decimal" />
+              <xs:element name="KeyName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LearnedID" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Devices">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" type="xs:decimal" />
+              <xs:element name="ConfigID" type="xs:decimal" />
+              <xs:element name="DeviceID" type="xs:decimal" />
+              <xs:element name="DeviceName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LearnedKeys">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" type="xs:decimal" />
+              <xs:element name="ConfigID" type="xs:decimal" />
+              <xs:element name="DeviceID" type="xs:decimal" />
+              <xs:element name="LearnedID" type="xs:decimal" />
+              <xs:element name="LearnedData" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Users">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:decimal" />
+              <xs:element name="UserName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Configurations" />
+      <xs:field xpath="mstns:UserID" />
+      <xs:field xpath="mstns:ConfigID" />
+    </xs:unique>
+    <xs:unique name="deviceKeys_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:deviceKeys" />
+      <xs:field xpath="mstns:UserID" />
+      <xs:field xpath="mstns:ConfigID" />
+      <xs:field xpath="mstns:DeviceID" />
+      <xs:field xpath="mstns:KeyID" />
+    </xs:unique>
+    <xs:unique name="Devices_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Devices" />
+      <xs:field xpath="mstns:UserID" />
+      <xs:field xpath="mstns:ConfigID" />
+      <xs:field xpath="mstns:DeviceID" />
+    </xs:unique>
+    <xs:unique name="LearnedKeys_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:LearnedKeys" />
+      <xs:field xpath="mstns:UserID" />
+      <xs:field xpath="mstns:ConfigID" />
+      <xs:field xpath="mstns:DeviceID" />
+      <xs:field xpath="mstns:LearnedID" />
+    </xs:unique>
+    <xs:unique name="Users_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Users" />
+      <xs:field xpath="mstns:UserName" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FK_deviceKeys_Devices" msdata:parent="Devices" msdata:child="deviceKeys" msdata:parentkey="UserID ConfigID DeviceID" msdata:childkey="UserID ConfigID DeviceID" />
+      <msdata:Relationship name="FK_deviceKeys_LearnedKeys" msdata:parent="LearnedKeys" msdata:child="deviceKeys" msdata:parentkey="UserID ConfigID DeviceID LearnedID" msdata:childkey="UserID ConfigID DeviceID LearnedID" />
+      <msdata:Relationship name="FK_Devices_Configurations" msdata:parent="Configurations" msdata:child="Devices" msdata:parentkey="UserID ConfigID" msdata:childkey="UserID ConfigID" />
+      <msdata:Relationship name="FK_LearnedKeys_Devices" msdata:parent="Devices" msdata:child="LearnedKeys" msdata:parentkey="UserID ConfigID DeviceID" msdata:childkey="UserID ConfigID DeviceID" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

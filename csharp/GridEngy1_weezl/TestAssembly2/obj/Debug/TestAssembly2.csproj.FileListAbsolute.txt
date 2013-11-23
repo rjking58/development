@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\GridEngy1_weezl\TestAssembly2\bin\Debug\TestAssembly2.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\TestAssembly2\bin\Debug\TestAssembly2.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\TestAssembly2\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\GridEngy1_weezl\TestAssembly2\obj\Debug\TestAssembly2.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\TestAssembly2\obj\Debug\TestAssembly2.pdb

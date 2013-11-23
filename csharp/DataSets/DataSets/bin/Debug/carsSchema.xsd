@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Car_x0020_Inventory" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="Car_x0020_Inventory" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:TimeStamp="07/11/2007 17:59:14" msprop:Company="UEI training">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Inventory">
+          <xs:complexType>
+            <xs:attribute name="CarID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:Caption="Car ID" type="xs:int" use="required" />
+            <xs:attribute name="Make" type="xs:string" />
+            <xs:attribute name="Color" type="xs:string" />
+            <xs:attribute name="PetName" msdata:Caption="Pet Name" type="xs:string" />
+            <xs:attribute name="Length" type="xs:int" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//Inventory" />
+      <xs:field xpath="@CarID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

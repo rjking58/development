@@ -1,0 +1,7 @@
+c:\users\richard.king\documents\visual studio 2010\Projects\ArrayInitTest\ArrayInitTest\bin\Debug\ArrayInitTest.exe
+c:\users\richard.king\documents\visual studio 2010\Projects\ArrayInitTest\ArrayInitTest\bin\Debug\ArrayInitTest.pdb
+c:\users\richard.king\documents\visual studio 2010\Projects\ArrayInitTest\ArrayInitTest\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\richard.king\documents\visual studio 2010\Projects\ArrayInitTest\ArrayInitTest\obj\x86\Debug\ArrayInitTest.exe
+c:\users\richard.king\documents\visual studio 2010\Projects\ArrayInitTest\ArrayInitTest\obj\x86\Debug\ArrayInitTest.pdb
+c:\Users\richard.king\Documents\Visual Studio 2010\Projects\ArrayInitTest\ArrayInitTest\bin\Debug\ArrayInitTest.exe.CodeAnalysisLog.xml
+c:\Users\richard.king\Documents\Visual Studio 2010\Projects\ArrayInitTest\ArrayInitTest\bin\Debug\ArrayInitTest.exe.lastcodeanalysissucceeded

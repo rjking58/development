@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSingleFlashCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SingleFlashCard>
+    <First>first</First>
+    <Second>a one ah</Second>
+  </SingleFlashCard>
+  <SingleFlashCard>
+    <First>second</First>
+    <Second>a two ah</Second>
+  </SingleFlashCard>
+  <SingleFlashCard>
+    <First>third</First>
+    <Second>a three ah</Second>
+  </SingleFlashCard>
+</ArrayOfSingleFlashCard>

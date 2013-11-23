@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimpleWebRequestor">
+</Property><Property Name="Solution File" Value="C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\SimpleWebRequestor.sln">
+</Property><Property Name="Date" Value="Monday, May 23, 2011">
+</Property><Property Name="Time" Value="23:21">
+</Property></Properties><Event ErrorLevel="0" Project="SimpleWebRequestor" Source="SimpleWebRequestor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SimpleWebRequestor" Source="SimpleWebRequestor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimpleWebRequestor.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SimpleWebRequestor.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SimpleWebRequestor" Source="SimpleWebRequestor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

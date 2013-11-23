@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\bin\Debug\GridEngy1_weezl.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\bin\Debug\GridEngy1_weezl.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\bin\Debug\TestAssembly2.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\bin\Debug\TestAssembly2.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\obj\Debug\GridEngy1_weezl.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezl\obj\Debug\GridEngy1_weezl.pdb

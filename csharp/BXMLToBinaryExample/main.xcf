@@ -1,0 +1,9 @@
+<root>
+    <home>
+		<devices>devices.xcf</devices>
+		<activities>activites.xcf</activities>
+	</home>
+	<profiles>profiles.xcf</profiles>
+	<snstest>snstest.xcf</snstest>
+</root>
+

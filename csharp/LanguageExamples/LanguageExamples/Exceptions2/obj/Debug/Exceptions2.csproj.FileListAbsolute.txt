@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Exceptions2\bin\Debug\Exceptions2.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Exceptions2\bin\Debug\Exceptions2.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Exceptions2\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Exceptions2\obj\Debug\Exceptions2.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Exceptions2\obj\Debug\Exceptions2.pdb

@@ -1,0 +1,10 @@
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\ActiveXTst\bin\Debug\ActiveXTst.dll
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\ActiveXTst\bin\Debug\ActiveXTst.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\ActiveXTst\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\ActiveXTst\obj\Debug\ActiveXTst.dll
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\ActiveXTst\obj\Debug\ActiveXTst.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ActiveXTst\bin\Debug\ActiveXTst.dll
+C:\Volatile\Source\csharp2\vs2005Projs\ActiveXTst\bin\Debug\ActiveXTst.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ActiveXTst\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\ActiveXTst\obj\Debug\ActiveXTst.dll
+C:\Volatile\Source\csharp2\vs2005Projs\ActiveXTst\obj\Debug\ActiveXTst.pdb

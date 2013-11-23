@@ -1,0 +1,56 @@
+[Global]
+CurrentProject=CardsDeck\CardsDeck.vpj
+[ActiveConfig]
+CardsDeck\CardsDeck.vpj=,Debug|AnyCPU
+[ProjectDates]
+CardsDeck\CardsDeck.csproj=20090626173223153
+[TreeExpansion2]
+- CardsDeck\CardsDeck.csproj
+  + Properties
+    - CardsDeck\Properties\AssemblyInfo.cs
+    - CardsDeck\Properties\Resources.Designer.cs
+    - CardsDeck\Properties\Resources.resx
+    - CardsDeck\Properties\Settings.Designer.cs
+    - CardsDeck\Properties\Settings.settings
+  + Resources
+    - CardsDeck\Resources\Cards.jpg
+    - CardsDeck\Resources\Club.jpg
+    - CardsDeck\Resources\diamond.jpg
+    - CardsDeck\Resources\Heart.jpg
+    - CardsDeck\Resources\spade.jpg
+  - CardsDeck\Cards.cs
+  - CardsDeck\Club.cs
+  - CardsDeck\Diamond.cs
+  - CardsDeck\Form1.cs
+  - CardsDeck\Form1.Designer.cs
+  - CardsDeck\Form1.resx
+  - CardsDeck\Heart.cs
+  - CardsDeck\ICards.cs
+  - CardsDeck\Program.cs
+  - CardsDeck\RandomGen.cs
+  - CardsDeck\Spade.cs
+scroll:0
+[State]
+SCREEN: 1680 1050 29 0 1555 1020 0 0 N 0 0 0 0 1512 452 0
+CWD: CardsDeck
+BUFFER: BN="CardsDeck\Cards.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=6 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.516 CL=79 LE=0 CX=78 CY=18 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="CardsDeck\ICards.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=6 CAPS=0 E=0 ESBU2=-1 CL="" SC="" SCE= SCU=
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=20 HT=0 HN=0 HF=0 HC=4
+WINDOW: 20 25 1171 316 -1 -1 M  WF=0 WT=2 ",,,"
+BUFFER: BN="CardsDeck\ICards.cs"
+VIEW: LN=.142 CL=41 LE=0 CX=48 CY=7 WI=110 BI=20 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\cygwin\home\rking\AndroidWork\SMEventAndroid\SMEventJavaEngineSupport\jni\Inc\nano\unit.h
+\coreplatform\Trunk\SMEvent\src\SMEvent\CSEventManager.cpp
+\cygwin\home\rking\AndroidWork\SMEventAndroid\SMEventJavaEngineSupport\jni\SMEventUnitTests\SMEventUnitTests.cpp
+\coreplatform\Trunk\SMEvent\bin\Win32\Release\tests.out
+\JSONParserTesting\Trunk\SMEvent\bin\Win32\Debug\CSEventUnitTestTrace.txt
+CardsDeck.sln
+CardsDeck\Cards.cs
+CardsDeck\ICards.cs
+\coreplatform\Tags\SMCoreCommon\1.0.7.35\src\SMCoreCommon\CommLogger.cpp
+PROJECT_CACHE: 0
+TBCLASS: 0 0

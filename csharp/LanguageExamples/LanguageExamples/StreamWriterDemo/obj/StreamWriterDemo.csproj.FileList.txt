@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\StreamWriterDemo.exe
+bin\Debug\StreamWriterDemo.pdb
+obj\Debug\StreamWriterDemo.exe
+obj\Debug\StreamWriterDemo.pdb

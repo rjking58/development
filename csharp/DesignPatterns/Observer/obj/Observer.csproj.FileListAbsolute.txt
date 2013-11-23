@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\Observer\bin\Debug\Observer.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\Observer\bin\Debug\Observer.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\Observer\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\Observer\obj\Debug\Observer.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DesignPatterns\Observer\obj\Debug\Observer.pdb

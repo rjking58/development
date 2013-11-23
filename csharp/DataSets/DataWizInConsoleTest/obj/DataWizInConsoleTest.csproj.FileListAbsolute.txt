@@ -1,0 +1,3 @@
+C:\Volatile\Source\csharp2\vs2005Projs\DataSets\DataWizInConsoleTest\bin\Debug\DataWizInConsoleTest.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\DataSets\DataWizInConsoleTest\obj\Debug\DataWizInConsoleTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DataSets\DataWizInConsoleTest\obj\Debug\DataWizInConsoleTest.pdb

@@ -1,0 +1,9 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\AbFactory1_VB.Resources.resources
+obj\Debug\AbFactory1_VB.vbproj.GenerateResource.Cache
+bin\Debug\AbFactory1_VB.exe
+bin\Debug\AbFactory1_VB.pdb
+bin\Debug\AbFactory1_VB.xml
+obj\Debug\AbFactory1_VB.exe
+obj\Debug\AbFactory1_VB.xml
+obj\Debug\AbFactory1_VB.pdb

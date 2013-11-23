@@ -1,0 +1,29 @@
+[Global]
+CurrentProject=ADOSQLNotification.vpj
+[ActiveConfig]
+ADOSQLNotification.vpj=,Debug|AnyCPU
+[ProjectDates]
+ADOSQLNotification.csproj=20071011175108925
+[TreeExpansion2]
+- ADOSQLNotification.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 1449 81 960 685 0 0 M 0 0 0 0 1253 540
+CWD: ..\ADOSQLNotification
+BUFFER: BN="Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1737 CL=1 LE=0 CX=0 CY=26 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 29 1121 366 -1 -1 M  WF=0 WT=1 "Lucida Console,10,0,1"
+BUFFER: BN="Program.cs"
+VIEW: LN=.1737 CL=1 LE=0 CX=7 CY=26 WI=119 BI=19 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\TestData\DeviceImagesDS2.xml
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\DeviceTemplate.cs
+\src\Products\NevoWeb\Libraries\Business\DownloadManager.cs
+\src\Products\NevoWeb\Libraries\Data\DownloadManager.cs
+\src\Products\NevoWeb\Libraries\WebDeviceDownloadBiz\AdvancedKeyMap.cs
+\src\Products\NevoWeb\Libraries\WebDeviceDownloadBiz\do_not_edit\DataManager.cs
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\DeviceImagesDS.xsd
+..\..\..\..\DBConfig\NotificationServices.xml
+Program.cs

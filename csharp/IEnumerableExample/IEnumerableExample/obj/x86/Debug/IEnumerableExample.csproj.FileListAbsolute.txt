@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\IEnumerableExample\IEnumerableExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\IEnumerableExample\IEnumerableExample\bin\Debug\IEnumerableExample.exe
+C:\GCS\Source\csharp\IEnumerableExample\IEnumerableExample\bin\Debug\IEnumerableExample.pdb
+C:\GCS\Source\csharp\IEnumerableExample\IEnumerableExample\obj\x86\Debug\IEnumerableExample.exe
+C:\GCS\Source\csharp\IEnumerableExample\IEnumerableExample\obj\x86\Debug\IEnumerableExample.pdb

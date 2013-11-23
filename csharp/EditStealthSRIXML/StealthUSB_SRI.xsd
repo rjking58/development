@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="StealthUSB_SRI" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+    <xs:annotation>
+      <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+        <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+          <Connections>
+          </Connections>
+          <Tables>
+          </Tables>
+          <Sources>
+          </Sources>
+        </DataSource>
+      </xs:appinfo>
+    </xs:annotation>
+  <xs:element name="StealthUSB_SRI" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="StealthUSB_SRI" msprop:Generator_DataSetName="StealthUSB_SRI">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ValidKeyNames" msprop:Generator_UserTableName="ValidKeyNames" msprop:Generator_RowDeletedName="ValidKeyNamesRowDeleted" msprop:Generator_RowChangedName="ValidKeyNamesRowChanged" msprop:Generator_RowClassName="ValidKeyNamesRow" msprop:Generator_RowChangingName="ValidKeyNamesRowChanging" msprop:Generator_RowEvArgName="ValidKeyNamesRowChangeEvent" msprop:Generator_RowEvHandlerName="ValidKeyNamesRowChangeEventHandler" msprop:Generator_TableClassName="ValidKeyNamesDataTable" msprop:Generator_TableVarName="tableValidKeyNames" msprop:Generator_RowDeletingName="ValidKeyNamesRowDeleting" msprop:Generator_TablePropName="ValidKeyNames">
+          <xs:complexType>
+            <xs:attribute name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KeyMap" msprop:Generator_UserTableName="KeyMap" msprop:Generator_RowDeletedName="KeyMapRowDeleted" msprop:Generator_RowChangedName="KeyMapRowChanged" msprop:Generator_RowClassName="KeyMapRow" msprop:Generator_RowChangingName="KeyMapRowChanging" msprop:Generator_RowEvArgName="KeyMapRowChangeEvent" msprop:Generator_RowEvHandlerName="KeyMapRowChangeEventHandler" msprop:Generator_TableClassName="KeyMapDataTable" msprop:Generator_TableVarName="tableKeyMap" msprop:Generator_RowDeletingName="KeyMapRowDeleting" msprop:Generator_TablePropName="KeyMap">
+          <xs:complexType>
+            <xs:attribute name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="KeyLabel" msprop:Generator_UserColumnName="KeyLabel" msprop:Generator_ColumnVarNameInTable="columnKeyLabel" msprop:Generator_ColumnPropNameInRow="KeyLabel" msprop:Generator_ColumnPropNameInTable="KeyLabelColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="KeyScanCode" msprop:Generator_UserColumnName="KeyScanCode" msprop:Generator_ColumnPropNameInRow="KeyScanCode" msprop:Generator_ColumnVarNameInTable="columnKeyScanCode" msprop:Generator_ColumnPropNameInTable="KeyScanCodeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="IRKey" msprop:Generator_UserColumnName="IRKey" msprop:Generator_ColumnPropNameInRow="IRKey" msprop:Generator_ColumnVarNameInTable="columnIRKey" msprop:Generator_ColumnPropNameInTable="IRKeyColumn" type="xs:boolean" msdata:DefaultValue="true" use="required" />
+            <xs:attribute name="ValidMacroTarget" msprop:Generator_UserColumnName="ValidMacroTarget" msprop:Generator_ColumnPropNameInRow="ValidMacroTarget" msprop:Generator_ColumnVarNameInTable="columnValidMacroTarget" msprop:Generator_ColumnPropNameInTable="ValidMacroTargetColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="ValidMoverTarget" msprop:Generator_UserColumnName="ValidMoverTarget" msprop:Generator_ColumnPropNameInRow="ValidMoverTarget" msprop:Generator_ColumnVarNameInTable="columnValidMoverTarget" msprop:Generator_ColumnPropNameInTable="ValidMoverTargetColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="ValidLearningTarget" msprop:Generator_UserColumnName="ValidLearningTarget" msprop:Generator_ColumnPropNameInRow="ValidLearningTarget" msprop:Generator_ColumnVarNameInTable="columnValidLearningTarget" msprop:Generator_ColumnPropNameInTable="ValidLearningTargetColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsConfiguredKey" msprop:Generator_UserColumnName="IsConfiguredKey" msprop:Generator_ColumnPropNameInRow="IsConfiguredKey" msprop:Generator_ColumnVarNameInTable="columnIsConfiguredKey" msprop:Generator_ColumnPropNameInTable="IsConfiguredKeyColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsSoftKey" msprop:Generator_UserColumnName="IsSoftKey" msprop:Generator_ColumnPropNameInRow="IsSoftKey" msprop:Generator_ColumnVarNameInTable="columnIsSoftKey" msprop:Generator_ColumnPropNameInTable="IsSoftKeyColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsChannel" msprop:Generator_UserColumnName="IsChannel" msprop:Generator_ColumnPropNameInRow="IsChannel" msprop:Generator_ColumnVarNameInTable="columnIsChannel" msprop:Generator_ColumnPropNameInTable="IsChannelColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsDigit" msprop:Generator_UserColumnName="IsDigit" msprop:Generator_ColumnPropNameInRow="IsDigit" msprop:Generator_ColumnVarNameInTable="columnIsDigit" msprop:Generator_ColumnPropNameInTable="IsDigitColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsVolume" msprop:Generator_UserColumnName="IsVolume" msprop:Generator_ColumnPropNameInRow="IsVolume" msprop:Generator_ColumnVarNameInTable="columnIsVolume" msprop:Generator_ColumnPropNameInTable="IsVolumeColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsTransport" msprop:Generator_UserColumnName="IsTransport" msprop:Generator_ColumnPropNameInRow="IsTransport" msprop:Generator_ColumnVarNameInTable="columnIsTransport" msprop:Generator_ColumnPropNameInTable="IsTransportColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsActivity" msprop:Generator_UserColumnName="IsActivity" msprop:Generator_ColumnPropNameInRow="IsActivity" msprop:Generator_ColumnVarNameInTable="columnIsActivity" msprop:Generator_ColumnPropNameInTable="IsActivityColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsSNS" msprop:Generator_UserColumnName="IsSNS" msprop:Generator_ColumnPropNameInRow="IsSNS" msprop:Generator_ColumnVarNameInTable="columnIsSNS" msprop:Generator_ColumnPropNameInTable="IsSNSColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="IsMode" msprop:Generator_UserColumnName="IsMode" msprop:Generator_ColumnPropNameInRow="IsMode" msprop:Generator_ColumnVarNameInTable="columnIsMode" msprop:Generator_ColumnPropNameInTable="IsModeColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ModeGrouping" msprop:Generator_UserTableName="ModeGrouping" msprop:Generator_RowDeletedName="ModeGroupingRowDeleted" msprop:Generator_RowChangedName="ModeGroupingRowChanged" msprop:Generator_RowClassName="ModeGroupingRow" msprop:Generator_RowChangingName="ModeGroupingRowChanging" msprop:Generator_RowEvArgName="ModeGroupingRowChangeEvent" msprop:Generator_RowEvHandlerName="ModeGroupingRowChangeEventHandler" msprop:Generator_TableClassName="ModeGroupingDataTable" msprop:Generator_TableVarName="tableModeGrouping" msprop:Generator_RowDeletingName="ModeGroupingRowDeleting" msprop:Generator_TablePropName="ModeGrouping">
+          <xs:complexType>
+            <xs:attribute name="ModeName" msprop:Generator_UserColumnName="ModeName" msprop:Generator_ColumnVarNameInTable="columnModeName" msprop:Generator_ColumnPropNameInRow="ModeName" msprop:Generator_ColumnPropNameInTable="ModeNameColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="ModeNumber" msprop:Generator_UserColumnName="ModeNumber" msprop:Generator_ColumnPropNameInRow="ModeNumber" msprop:Generator_ColumnVarNameInTable="columnModeNumber" msprop:Generator_ColumnPropNameInTable="ModeNumberColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="GeneralInformation" msprop:Generator_UserTableName="GeneralInformation" msprop:Generator_RowDeletedName="GeneralInformationRowDeleted" msprop:Generator_RowChangedName="GeneralInformationRowChanged" msprop:Generator_RowClassName="GeneralInformationRow" msprop:Generator_RowChangingName="GeneralInformationRowChanging" msprop:Generator_RowEvArgName="GeneralInformationRowChangeEvent" msprop:Generator_RowEvHandlerName="GeneralInformationRowChangeEventHandler" msprop:Generator_TableClassName="GeneralInformationDataTable" msprop:Generator_TableVarName="tableGeneralInformation" msprop:Generator_RowDeletingName="GeneralInformationRowDeleting" msprop:Generator_TablePropName="GeneralInformation">
+          <xs:complexType>
+            <xs:attribute name="ProductID" msprop:Generator_UserColumnName="ProductID" msprop:Generator_ColumnVarNameInTable="columnProductID" msprop:Generator_ColumnPropNameInRow="ProductID" msprop:Generator_ColumnPropNameInTable="ProductIDColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="SWVersion" msprop:Generator_UserColumnName="SWVersion" msprop:Generator_ColumnVarNameInTable="columnSWVersion" msprop:Generator_ColumnPropNameInRow="SWVersion" msprop:Generator_ColumnPropNameInTable="SWVersionColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="MemoryAddressing" msprop:Generator_UserColumnName="MemoryAddressing" msprop:Generator_ColumnPropNameInRow="MemoryAddressing" msprop:Generator_ColumnVarNameInTable="columnMemoryAddressing" msprop:Generator_ColumnPropNameInTable="MemoryAddressingColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="DataSectorSize" msprop:Generator_UserColumnName="DataSectorSize" msprop:Generator_ColumnPropNameInRow="DataSectorSize" msprop:Generator_ColumnVarNameInTable="columnDataSectorSize" msprop:Generator_ColumnPropNameInTable="DataSectorSizeColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="UserSetupBeg" msprop:Generator_UserColumnName="UserSetupBeg" msprop:Generator_ColumnPropNameInRow="UserSetupBeg" msprop:Generator_ColumnVarNameInTable="columnUserSetupBeg" msprop:Generator_ColumnPropNameInTable="UserSetupBegColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="UserSetupEnd" msprop:Generator_UserColumnName="UserSetupEnd" msprop:Generator_ColumnPropNameInRow="UserSetupEnd" msprop:Generator_ColumnVarNameInTable="columnUserSetupEnd" msprop:Generator_ColumnPropNameInTable="UserSetupEndColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="TempBufferBeg" msprop:Generator_UserColumnName="TempBufferBeg" msprop:Generator_ColumnPropNameInRow="TempBufferBeg" msprop:Generator_ColumnVarNameInTable="columnTempBufferBeg" msprop:Generator_ColumnPropNameInTable="TempBufferBegColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="TempBufferEnd" msprop:Generator_UserColumnName="TempBufferEnd" msprop:Generator_ColumnPropNameInRow="TempBufferEnd" msprop:Generator_ColumnVarNameInTable="columnTempBufferEnd" msprop:Generator_ColumnPropNameInTable="TempBufferEndColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeviceGrouping" msprop:Generator_UserTableName="DeviceGrouping" msprop:Generator_RowDeletedName="DeviceGroupingRowDeleted" msprop:Generator_RowChangedName="DeviceGroupingRowChanged" msprop:Generator_RowClassName="DeviceGroupingRow" msprop:Generator_RowChangingName="DeviceGroupingRowChanging" msprop:Generator_RowEvArgName="DeviceGroupingRowChangeEvent" msprop:Generator_RowEvHandlerName="DeviceGroupingRowChangeEventHandler" msprop:Generator_TableClassName="DeviceGroupingDataTable" msprop:Generator_TableVarName="tableDeviceGrouping" msprop:Generator_RowDeletingName="DeviceGroupingRowDeleting" msprop:Generator_TablePropName="DeviceGrouping">
+          <xs:complexType>
+            <xs:attribute name="DeviceDescription" msprop:Generator_UserColumnName="DeviceDescription" msprop:Generator_ColumnVarNameInTable="columnDeviceDescription" msprop:Generator_ColumnPropNameInRow="DeviceDescription" msprop:Generator_ColumnPropNameInTable="DeviceDescriptionColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="DeviceAsciiCode" msprop:Generator_UserColumnName="DeviceAsciiCode" msprop:Generator_ColumnVarNameInTable="columnDeviceAsciiCode" msprop:Generator_ColumnPropNameInRow="DeviceAsciiCode" msprop:Generator_ColumnPropNameInTable="DeviceAsciiCodeColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="DeviceTypeIDNum" msprop:Generator_UserColumnName="DeviceTypeIDNum" msprop:Generator_ColumnPropNameInRow="DeviceTypeIDNum" msprop:Generator_ColumnVarNameInTable="columnDeviceTypeIDNum" msprop:Generator_ColumnPropNameInTable="DeviceTypeIDNumColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FeatureSettings_Numeric" msprop:Generator_UserTableName="DeviceGrouping" msprop:Generator_RowDeletedName="DeviceGroupingRowDeleted" msprop:Generator_RowChangedName="DeviceGroupingRowChanged" msprop:Generator_RowClassName="DeviceGroupingRow" msprop:Generator_RowChangingName="DeviceGroupingRowChanging" msprop:Generator_RowEvArgName="DeviceGroupingRowChangeEvent" msprop:Generator_RowEvHandlerName="DeviceGroupingRowChangeEventHandler" msprop:Generator_TableClassName="DeviceGroupingDataTable" msprop:Generator_TableVarName="tableDeviceGrouping" msprop:Generator_RowDeletingName="DeviceGroupingRowDeleting" msprop:Generator_TablePropName="DeviceGrouping">
+          <xs:complexType>
+            <xs:attribute name="RecordType" msprop:Generator_UserColumnName="RecordType" msprop:Generator_ColumnVarNameInTable="columnRecordType" msprop:Generator_ColumnPropNameInRow="RecordType" msprop:Generator_ColumnPropNameInTable="RecordTypeColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="Parameter" msprop:Generator_UserColumnName="Parameter" msprop:Generator_ColumnVarNameInTable="columnParameter" msprop:Generator_ColumnPropNameInRow="Parameter" msprop:Generator_ColumnPropNameInTable="ParameterColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="Value" msprop:Generator_UserColumnName="ValueNum" msprop:Generator_ColumnPropNameInRow="ValueNum" msprop:Generator_ColumnVarNameInTable="columnValueNum" msprop:Generator_ColumnPropNameInTable="ValueNumColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="RecordTypesSupported" msprop:Generator_UserTableName="DeviceGrouping" msprop:Generator_RowDeletedName="DeviceGroupingRowDeleted" msprop:Generator_RowChangedName="DeviceGroupingRowChanged" msprop:Generator_RowClassName="DeviceGroupingRow" msprop:Generator_RowChangingName="DeviceGroupingRowChanging" msprop:Generator_RowEvArgName="DeviceGroupingRowChangeEvent" msprop:Generator_RowEvHandlerName="DeviceGroupingRowChangeEventHandler" msprop:Generator_TableClassName="DeviceGroupingDataTable" msprop:Generator_TableVarName="tableDeviceGrouping" msprop:Generator_RowDeletingName="DeviceGroupingRowDeleting" msprop:Generator_TablePropName="DeviceGrouping">
+          <xs:complexType>
+            <xs:attribute name="RecordType" msprop:Generator_UserColumnName="RecordType" msprop:Generator_ColumnVarNameInTable="columnRecordType" msprop:Generator_ColumnPropNameInRow="RecordType" msprop:Generator_ColumnPropNameInTable="RecordTypeColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="StealthPickMap" msprop:Generator_UserTableName="StealthPickMap" msprop:Generator_RowDeletedName="StealthPickMapRowDeleted" msprop:Generator_RowChangedName="StealthPickMapRowChanged" msprop:Generator_RowClassName="StealthPickMapRow" msprop:Generator_RowChangingName="StealthPickMapRowChanging" msprop:Generator_RowEvArgName="StealthPickMapRowChangeEvent" msprop:Generator_RowEvHandlerName="StealthPickMapRowChangeEventHandler" msprop:Generator_TableClassName="StealthPickMapDataTable" msprop:Generator_TableVarName="tableStealthPickMap" msprop:Generator_RowDeletingName="StealthPickMapRowDeleting" msprop:Generator_TablePropName="StealthPickMap">
+          <xs:complexType>
+            <xs:attribute name="KeyName" msprop:Generator_UserColumnName="KeyName" msprop:Generator_ColumnVarNameInTable="columnKeyName" msprop:Generator_ColumnPropNameInRow="KeyName" msprop:Generator_ColumnPropNameInTable="KeyNameColumn" type="xs:string" msdata:DefaultValue="nothing" use="required" />
+            <xs:attribute name="DeviceTypeIDNum" msprop:Generator_UserColumnName="DeviceTypeIDNum" msprop:Generator_ColumnPropNameInRow="DeviceTypeIDNum" msprop:Generator_ColumnVarNameInTable="columnDeviceTypeIDNum" msprop:Generator_ColumnPropNameInTable="DeviceTypeIDNumColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="ValidKeyNames_PK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ValidKeyNames" />
+      <xs:field xpath="@KeyName" />
+    </xs:unique>
+    <xs:unique name="KeyMap_PK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//KeyMap" />
+      <xs:field xpath="@KeyName" />
+    </xs:unique>
+    <xs:unique name="ModeGrouping_PK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//ModeGrouping" />
+      <xs:field xpath="@ModeName" />
+    </xs:unique>
+    <xs:unique name="DeviceGrouping_PK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//DeviceGrouping" />
+      <xs:field xpath="@DeviceAsciiCode" />
+    </xs:unique>
+    <xs:unique name="DeviceGrouping_UK2">
+      <xs:selector xpath=".//DeviceGrouping" />
+      <xs:field xpath="@DeviceTypeIDNum" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="ValidKeyNames_KeyMap" msdata:parent="ValidKeyNames" msdata:child="KeyMap" msdata:parentkey="KeyName" msdata:childkey="KeyName" msprop:Generator_UserRelationName="ValidKeyNames_KeyMap" msprop:Generator_RelationVarName="relationValidKeyNames_KeyMap" msprop:Generator_UserChildTable="KeyMap" msprop:Generator_UserParentTable="ValidKeyNames" msprop:Generator_ParentPropName="ValidKeyNamesRow" msprop:Generator_ChildPropName="GetKeyMapRows" />
+      <msdata:Relationship name="ValidKeyNames_ModeGrouping" msdata:parent="ValidKeyNames" msdata:child="ModeGrouping" msdata:parentkey="KeyName" msdata:childkey="KeyName" msprop:Generator_UserRelationName="ValidKeyNames_ModeGrouping" msprop:Generator_RelationVarName="relationValidKeyNames_ModeGrouping" msprop:Generator_UserChildTable="ModeGrouping" msprop:Generator_UserParentTable="ValidKeyNames" msprop:Generator_ParentPropName="ValidKeyNamesRow" msprop:Generator_ChildPropName="GetModeGroupingRows" />
+      <msdata:Relationship name="ValidKeyNames_StealthPickMap" msdata:parent="ValidKeyNames" msdata:child="StealthPickMap" msdata:parentkey="KeyName" msdata:childkey="KeyName" msprop:Generator_UserRelationName="ValidKeyNames_StealthPickMap" msprop:Generator_RelationVarName="relationValidKeyNames_StealthPickMap" msprop:Generator_UserChildTable="StealthPickMap" msprop:Generator_UserParentTable="ValidKeyNames" msprop:Generator_ParentPropName="ValidKeyNamesRow" msprop:Generator_ChildPropName="GetStealthPickMapRows" />
+      <msdata:Relationship name="DeviceGrouping_StealthPickMap" msdata:parent="DeviceGrouping" msdata:child="StealthPickMap" msdata:parentkey="DeviceTypeIDNum" msdata:childkey="DeviceTypeIDNum" msprop:Generator_UserRelationName="DeviceGrouping_StealthPickMap" msprop:Generator_RelationVarName="relationDeviceGrouping_StealthPickMap" msprop:Generator_UserChildTable="StealthPickMap" msprop:Generator_UserParentTable="DeviceGrouping" msprop:Generator_ParentPropName="DeviceGroupingRow" msprop:Generator_ChildPropName="GetStealthPickMapRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

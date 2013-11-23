@@ -1,0 +1,6 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\bin\Debug\ADOSQLNotification.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\bin\Debug\ADOSQLNotification.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\bin\Debug\ADOSQLNotification.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\obj\Debug\ADOSQLNotification.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ADOSQLNotification\obj\Debug\ADOSQLNotification.pdb

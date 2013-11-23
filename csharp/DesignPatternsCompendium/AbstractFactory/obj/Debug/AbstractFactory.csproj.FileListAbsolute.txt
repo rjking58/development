@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\AbstractFactory.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\AbstractFactory\obj\Debug\AbstractFactory.pdb

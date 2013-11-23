@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\BigEndianExample\bin\Debug\BigEndianExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BigEndianExample\bin\Debug\BigEndianExample.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BigEndianExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\BigEndianExample\obj\Debug\BigEndianExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BigEndianExample\obj\Debug\BigEndianExample.pdb

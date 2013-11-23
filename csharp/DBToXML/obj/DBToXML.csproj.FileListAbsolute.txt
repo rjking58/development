@@ -1,0 +1,6 @@
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\bin\Debug\DBToXML.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\bin\Debug\DBToXML.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\bin\Debug\DBToXML.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\obj\Debug\DBToXML.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DBToXML\obj\Debug\DBToXML.pdb

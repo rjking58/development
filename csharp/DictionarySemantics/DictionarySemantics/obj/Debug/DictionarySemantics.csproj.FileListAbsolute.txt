@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\DictionarySemantics\DictionarySemantics\bin\Debug\DictionarySemantics.exe
+C:\GCS\Source\csharp\DictionarySemantics\DictionarySemantics\bin\Debug\DictionarySemantics.pdb
+C:\GCS\Source\csharp\DictionarySemantics\DictionarySemantics\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DictionarySemantics\DictionarySemantics\obj\Debug\DictionarySemantics.exe
+C:\GCS\Source\csharp\DictionarySemantics\DictionarySemantics\obj\Debug\DictionarySemantics.pdb

@@ -1,0 +1,8 @@
+bin\Debug\DeviceImagesEditTest.exe
+bin\Debug\DeviceImagesEditTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DeviceImagesEditTest.Form1.resources
+obj\Debug\DeviceImagesEditTest.Properties.Resources.resources
+obj\Debug\DeviceImagesEditTest.csproj.GenerateResource.Cache
+obj\Debug\DeviceImagesEditTest.exe
+obj\Debug\DeviceImagesEditTest.pdb

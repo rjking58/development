@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\obj\Debug\FullAdder.exe
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\obj\Debug\FullAdder.pdb
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\bin\Debug\FullAdder.exe
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\bin\Debug\FullAdder.pdb
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\obj\Debug\ResolveAssemblyReference.cache

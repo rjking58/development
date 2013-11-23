@@ -1,0 +1,5 @@
+Number of command line parameters = 2
+Arg[0] = [-i]
+Arg[1] = [c:\volatile\source\csharp2\vs2005projs\bxmltobinaryexample\main.xcf]
+input[c:\volatile\source\csharp2\vs2005projs\bxmltobinaryexample\main.xcf] output[]
+must provide output filename!

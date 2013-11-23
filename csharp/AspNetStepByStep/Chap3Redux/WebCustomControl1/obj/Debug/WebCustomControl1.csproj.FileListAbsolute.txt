@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\AspNetStepByStep\Chap3Redux\WebCustomControl1\bin\Debug\WebCustomControl1.dll
+C:\Development\SOURCE\csharp\AspNetStepByStep\Chap3Redux\WebCustomControl1\bin\Debug\WebCustomControl1.pdb
+C:\Development\SOURCE\csharp\AspNetStepByStep\Chap3Redux\WebCustomControl1\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\AspNetStepByStep\Chap3Redux\WebCustomControl1\obj\Debug\WebCustomControl1.dll
+C:\Development\SOURCE\csharp\AspNetStepByStep\Chap3Redux\WebCustomControl1\obj\Debug\WebCustomControl1.pdb

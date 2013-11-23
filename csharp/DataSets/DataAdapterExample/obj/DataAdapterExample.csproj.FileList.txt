@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\DataAdapterExample.exe
+bin\Debug\DataAdapterExample.pdb
+obj\Debug\DataAdapterExample.exe
+obj\Debug\DataAdapterExample.pdb
+bin\Debug\DataAdapterExample.exe.config

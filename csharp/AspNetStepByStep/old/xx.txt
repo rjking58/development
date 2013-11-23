@@ -1,0 +1,31 @@
+page detected a PalindromeFound event
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Palindrome Checker
+</title></head>
+<body>
+    <form name="form1" method="post" action="UsePalindromeCheckerControls.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTYyMjg2MTQzNg9kFgICAw9kFgICAQ8PFgQeBFRleHQFBzEyMzQzMjEeC3BhbGluZHJvbWVzMu4DAAEAAAD/////AQAAAAAAAAAEAQAAAH9TeXN0ZW0uQ29sbGVjdGlvbnMuR2VuZXJpYy5MaXN0YDFbW1N5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTIuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24GAAAICAkCAAAAEAAAABAAAAARAgAAABAAAAAGAwAAAB9hIG1hbiwgYSBwbGFuLCBhIGNhbmFsLCBwYW5hbWEhBgQAAAAfYSBtYW4sIGEgcGxhbiwgYSBjYW5hbCwgcGFuYW1hIQYFAAAAH2EgbWFuLCBhIHBsYW4sIGEgY2FuYWwsIHBhbmFtYSEGBgAAABFkbyBnZWVzZSBzZWUgZ29kPwYHAAAABzEyMzQzMjEGCAAAAAcxMjM0MzIxBgkAAAAHMTIzNDMyMQYKAAAABzEyMzQzMjEGCwAAAAcxMjM0MzIxBgwAAAAHMTIzNDMyMQYNAAAABzEyMzQzMjEGDgAAAAcxMjM0MzIxBg8AAAAHMTIzNDMyMQYQAAAABzEyMzQzMjEGEQAAAAcxMjM0MzIxBhIAAAAHMTIzNDMyMQtkZGR/E0hjDOh21ZEoGXQby9oVaa/IVw==" />
+</div>
+
+    <div>
+    
+      <span id="PalindromeCheckerRenderedControl1">This is REALLY a palindrome: <br><font><b style="color:blue;font-size:20;">1234321</b></font></span>
+    
+    </div>
+    <input name="TextBox1" type="text" value="1234321" id="TextBox1" style="width:400px;" />
+    <p>
+      <input type="submit" name="Button1" value="Check Palindrome" id="Button1" />
+    </p>
+    
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKmhfKPDQLs0bLrBgKM54rGBinIj8k21dbgJEF5IVxfm2UqRXHA" />
+</div></form>
+</body>
+</html>
+

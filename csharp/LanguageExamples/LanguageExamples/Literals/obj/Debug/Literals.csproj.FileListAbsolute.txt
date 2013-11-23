@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Literals\bin\Debug\Literals.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Literals\bin\Debug\Literals.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Literals\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Literals\obj\Debug\Literals.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Literals\obj\Debug\Literals.pdb

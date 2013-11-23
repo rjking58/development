@@ -1,0 +1,5 @@
+bin\Debug\ReadXMLSchemaAndDataTest.exe
+bin\Debug\ReadXMLSchemaAndDataTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ReadXMLSchemaAndDataTest.exe
+obj\Debug\ReadXMLSchemaAndDataTest.pdb

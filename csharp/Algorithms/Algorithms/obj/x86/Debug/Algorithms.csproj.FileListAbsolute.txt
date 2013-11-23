@@ -1,0 +1,5 @@
+C:\GCS\Source\csharp\Algorithms\Algorithms\bin\Debug\Algorithms.exe
+C:\GCS\Source\csharp\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\GCS\Source\csharp\Algorithms\Algorithms\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\Algorithms\Algorithms\obj\x86\Debug\Algorithms.exe
+C:\GCS\Source\csharp\Algorithms\Algorithms\obj\x86\Debug\Algorithms.pdb

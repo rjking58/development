@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<RemoteConfiguration>
+  <Configurations ConfigID="1" ConfigName="Config 1" />
+  <Configurations ConfigID="2" ConfigName="Config 2" />
+  <Devices ConfigID="2" DeviceID="1" DeviceName="Config 2/Dev 1" />
+  <Devices ConfigID="1" DeviceID="1" DeviceName="Config 1/Dev 1" />
+  <DeviceKeys ConfigID="1" DeviceID="1" KeyID="33" KeyName="Config 1/Dev 1/Key33/no learned" />
+  <LearnedKeys ConfigID="1" DeviceID="1" LearnedKey="2">
+    <LearnedData>AQIDBAUGBwgJCgsMDQ4PEBESExQ=</LearnedData>
+  </LearnedKeys>
+</RemoteConfiguration>

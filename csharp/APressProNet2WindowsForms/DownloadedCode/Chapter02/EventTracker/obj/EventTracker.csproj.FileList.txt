@@ -1,0 +1,8 @@
+bin\Debug\EventTracker.exe
+bin\Debug\EventTracker.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EventTracker.Form1.resources
+obj\Debug\EventTracker.Properties.Resources.resources
+obj\Debug\EventTracker.csproj.GenerateResource.Cache
+obj\Debug\EventTracker.exe
+obj\Debug\EventTracker.pdb

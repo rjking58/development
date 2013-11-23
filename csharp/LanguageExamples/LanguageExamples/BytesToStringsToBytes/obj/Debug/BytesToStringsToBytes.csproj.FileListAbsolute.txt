@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\BytesToStringsToBytes\bin\Debug\BytesToStringsToBytes.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\BytesToStringsToBytes\bin\Debug\BytesToStringsToBytes.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\BytesToStringsToBytes\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\BytesToStringsToBytes\obj\Debug\BytesToStringsToBytes.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\BytesToStringsToBytes\obj\Debug\BytesToStringsToBytes.pdb

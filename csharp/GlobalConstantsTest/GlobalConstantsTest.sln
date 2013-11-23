@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalConstantsTest", "GlobalConstantsTest\GlobalConstantsTest.csproj", "{869F5EB1-44F0-4351-BF1A-9E448865D371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{869F5EB1-44F0-4351-BF1A-9E448865D371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869F5EB1-44F0-4351-BF1A-9E448865D371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869F5EB1-44F0-4351-BF1A-9E448865D371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869F5EB1-44F0-4351-BF1A-9E448865D371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

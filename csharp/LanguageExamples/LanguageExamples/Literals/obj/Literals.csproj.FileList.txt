@@ -1,0 +1,5 @@
+bin\Debug\Literals.exe
+bin\Debug\Literals.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Literals.exe
+obj\Debug\Literals.pdb

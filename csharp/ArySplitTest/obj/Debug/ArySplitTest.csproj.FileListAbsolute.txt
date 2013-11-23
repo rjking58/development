@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ArySplitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\ArySplitTest\bin\Debug\ArySplitTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ArySplitTest\bin\Debug\ArySplitTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ArySplitTest\obj\Debug\ArySplitTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ArySplitTest\obj\Debug\ArySplitTest.pdb

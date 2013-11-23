@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Arrays\bin\Debug\Arrays.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Arrays\bin\Debug\Arrays.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Arrays\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Arrays\obj\Debug\Arrays.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\Arrays\obj\Debug\Arrays.pdb

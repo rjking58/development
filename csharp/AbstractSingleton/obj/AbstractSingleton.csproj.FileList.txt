@@ -1,0 +1,2 @@
+obj\Debug\AbstractSingleton.exe
+obj\Debug\AbstractSingleton.pdb

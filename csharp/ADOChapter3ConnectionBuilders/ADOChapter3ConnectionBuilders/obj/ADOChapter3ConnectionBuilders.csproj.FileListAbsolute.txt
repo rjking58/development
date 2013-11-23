@@ -1,0 +1,3 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter3ConnectionBuilders\ADOChapter3ConnectionBuilders\bin\Debug\ADOChapter3ConnectionBuilders.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter3ConnectionBuilders\ADOChapter3ConnectionBuilders\obj\Debug\ADOChapter3ConnectionBuilders.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter3ConnectionBuilders\ADOChapter3ConnectionBuilders\obj\Debug\ADOChapter3ConnectionBuilders.pdb

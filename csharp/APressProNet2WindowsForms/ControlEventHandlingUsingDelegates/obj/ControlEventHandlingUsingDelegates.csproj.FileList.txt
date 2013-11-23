@@ -1,0 +1,8 @@
+bin\Debug\ControlEventHandlingUsingDelegates.exe
+bin\Debug\ControlEventHandlingUsingDelegates.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ControlEventHandlingUsingDelegates.Properties.Resources.resources
+obj\Debug\ControlEventHandlingUsingDelegates.csproj.GenerateResource.Cache
+obj\Debug\ControlEventHandlingUsingDelegates.exe
+obj\Debug\ControlEventHandlingUsingDelegates.pdb
+obj\Debug\ControlEventHandlingUsingDelegates.Form1.resources

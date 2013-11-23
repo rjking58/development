@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="FullAdder">
+</Property><Property Name="Solution File" Value="C:\Development\SOURCE\csharp\FullAdder\FullAdder\FullAdder.sln">
+</Property><Property Name="User Options File" Value="C:\Development\SOURCE\csharp\FullAdder\FullAdder\FullAdder.suo">
+</Property><Property Name="Date" Value="Tuesday, May 17, 2011">
+</Property><Property Name="Time" Value="20:23">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="FullAdder.sln" Description="File successfully backed up as C:\Development\SOURCE\csharp\FullAdder\FullAdder\Backup\FullAdder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="FullAdder.suo" Description="File successfully backed up as C:\Development\SOURCE\csharp\FullAdder\FullAdder\Backup\FullAdder.suo">
+</Event><Event ErrorLevel="0" Project="FullAdder" Source="FullAdder.csproj" Description="Project file successfully backed up as C:\Development\SOURCE\csharp\FullAdder\FullAdder\Backup\FullAdder.csproj">
+</Event><Event ErrorLevel="0" Project="FullAdder" Source="Program.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\FullAdder\FullAdder\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="FullAdder" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Development\SOURCE\csharp\FullAdder\FullAdder\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FullAdder" Source="FullAdder.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FullAdder" Source="FullAdder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="FullAdder.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="FullAdder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FullAdder" Source="FullAdder.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

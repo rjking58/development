@@ -1,0 +1,5 @@
+obj\Debug\OperatorSemantics.exe
+obj\Debug\OperatorSemantics.pdb
+bin\Debug\OperatorSemantics.exe
+bin\Debug\OperatorSemantics.pdb
+obj\Debug\ResolveAssemblyReference.cache

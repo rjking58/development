@@ -1,0 +1,5 @@
+bin\Debug\InputAndOutput.exe
+bin\Debug\InputAndOutput.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InputAndOutput.exe
+obj\Debug\InputAndOutput.pdb

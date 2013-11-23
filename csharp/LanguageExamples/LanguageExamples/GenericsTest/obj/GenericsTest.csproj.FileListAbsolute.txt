@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\GenericsTest\obj\Debug\GenericsTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\GenericsTest\obj\Debug\GenericsTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\GenericsTest\bin\Debug\GenericsTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\GenericsTest\bin\Debug\GenericsTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\GenericsTest\obj\Debug\ResolveAssemblyReference.cache

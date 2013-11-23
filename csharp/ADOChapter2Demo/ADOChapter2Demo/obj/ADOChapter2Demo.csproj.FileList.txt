@@ -1,0 +1,9 @@
+bin\Debug\ADOChapter2Demo.exe.config
+bin\Debug\ADOChapter2Demo.exe
+bin\Debug\ADOChapter2Demo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ADOChapter2Demo.Form1.resources
+obj\Debug\ADOChapter2Demo.Properties.Resources.resources
+obj\Debug\ADOChapter2Demo.csproj.GenerateResource.Cache
+obj\Debug\ADOChapter2Demo.exe
+obj\Debug\ADOChapter2Demo.pdb

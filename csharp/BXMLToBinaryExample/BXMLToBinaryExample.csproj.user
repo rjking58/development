@@ -1,0 +1,5 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>-i c:\volatile\source\csharp2\vs2005projs\bxmltobinaryexample\BasicStructureTest.xml -o test1</StartArguments>
+  </PropertyGroup>
+</Project>

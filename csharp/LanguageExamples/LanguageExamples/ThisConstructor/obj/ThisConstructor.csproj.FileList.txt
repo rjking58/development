@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ThisConstructor.exe
+bin\Debug\ThisConstructor.pdb
+obj\Debug\ThisConstructor.exe
+obj\Debug\ThisConstructor.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{21378C48-630C-4726-A0E4-5399B02E1687}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{F820DB9D-3F49-4D5A-A9FA-E88C8617894C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21378C48-630C-4726-A0E4-5399B02E1687}.Debug|x86.ActiveCfg = Debug|x86
+		{21378C48-630C-4726-A0E4-5399B02E1687}.Debug|x86.Build.0 = Debug|x86
+		{21378C48-630C-4726-A0E4-5399B02E1687}.Release|x86.ActiveCfg = Release|x86
+		{21378C48-630C-4726-A0E4-5399B02E1687}.Release|x86.Build.0 = Release|x86
+		{F820DB9D-3F49-4D5A-A9FA-E88C8617894C}.Debug|x86.ActiveCfg = Debug|x86
+		{F820DB9D-3F49-4D5A-A9FA-E88C8617894C}.Debug|x86.Build.0 = Debug|x86
+		{F820DB9D-3F49-4D5A-A9FA-E88C8617894C}.Release|x86.ActiveCfg = Release|x86
+		{F820DB9D-3F49-4D5A-A9FA-E88C8617894C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

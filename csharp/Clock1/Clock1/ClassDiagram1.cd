@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="9.75" />
+  <Class Name="Clock1.simpleClock">
+    <Position X="1.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>simpleClock.cs</FileName>
+      <HashCode>ABQAAAAAAgAAAAAAAAAAAAAIQAABAAAAAEAAQAQAQAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Clock1.simpleClock.ClockEventDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>simpleClock.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Clock1.simpleClock.alarmTime" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>simpleClock.cs</NewMemberFileName>
+        </TypeIdentifier>
+        <Lollipop Position="0.2" />
+      </Class>
+    </NestedTypes>
+  </Class>
+</ClassDiagram>

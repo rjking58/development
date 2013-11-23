@@ -1,0 +1,5 @@
+bin\Debug\Arrays.exe
+bin\Debug\Arrays.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Arrays.exe
+obj\Debug\Arrays.pdb

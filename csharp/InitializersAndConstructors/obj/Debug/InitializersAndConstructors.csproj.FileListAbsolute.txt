@@ -1,0 +1,10 @@
+C:\Volatile\Source\csharp2\vs2005Projs\InitializersAndConstructors\bin\Debug\InitializersAndConstructors.exe
+C:\Volatile\Source\csharp2\vs2005Projs\InitializersAndConstructors\bin\Debug\InitializersAndConstructors.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\InitializersAndConstructors\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\InitializersAndConstructors\obj\Debug\InitializersAndConstructors.exe
+C:\Volatile\Source\csharp2\vs2005Projs\InitializersAndConstructors\obj\Debug\InitializersAndConstructors.pdb
+C:\Development\SOURCE\csharp\InitializersAndConstructors\obj\Debug\InitializersAndConstructors.pdb
+C:\Development\SOURCE\csharp\InitializersAndConstructors\bin\Debug\InitializersAndConstructors.exe
+C:\Development\SOURCE\csharp\InitializersAndConstructors\bin\Debug\InitializersAndConstructors.pdb
+C:\Development\SOURCE\csharp\InitializersAndConstructors\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\InitializersAndConstructors\obj\Debug\InitializersAndConstructors.exe

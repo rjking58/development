@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezlUT.nunit" total="1" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2010-12-16" time="00:20:52">
+  <environment nunit-version="2.5.3.9345" clr-version="2.0.50727.3615" os-version="Microsoft Windows NT 5.1.2600 Service Pack 3" platform="Win32NT" cwd="C:\Development\SOURCE\csharp\GridEngy1_weezl" machine-name="THEDEN2" user="Richard" user-domain="THEDEN2" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite name="C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weezlUT.nunit" executed="True" success="True" time="0.031" asserts="0">
+    <results>
+      <test-suite name="C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\GridEngy1_weelzUT.dll" executed="True" success="True" time="0.016" asserts="0">
+        <results>
+          <test-suite name="GridEngy1_weelzUT" executed="True" success="True" time="0.016" asserts="0">
+            <results>
+              <test-suite name="GridEngyTests" executed="True" success="True" time="0.016" asserts="0">
+                <results>
+                  <test-case name="GridEngy1_weelzUT.GridEngyTests.SimpleTest" executed="True" success="True" time="0.016" asserts="1" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

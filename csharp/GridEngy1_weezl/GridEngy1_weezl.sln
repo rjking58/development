@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridEngy1_weezl", "GridEngy1_weezl\GridEngy1_weezl.csproj", "{57CF9013-8B8D-4669-BF12-D3BBA3FBF0D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAssembly2", "TestAssembly2\TestAssembly2.csproj", "{E9C4BA64-12FC-4E6C-866C-511C2159C3B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridEngy1_weelzUT", "GridEngy1_weelzUT\GridEngy1_weelzUT.csproj", "{BA3C7915-0BD3-486C-B2AB-892FE61F3B2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57CF9013-8B8D-4669-BF12-D3BBA3FBF0D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CF9013-8B8D-4669-BF12-D3BBA3FBF0D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CF9013-8B8D-4669-BF12-D3BBA3FBF0D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CF9013-8B8D-4669-BF12-D3BBA3FBF0D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9C4BA64-12FC-4E6C-866C-511C2159C3B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9C4BA64-12FC-4E6C-866C-511C2159C3B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9C4BA64-12FC-4E6C-866C-511C2159C3B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9C4BA64-12FC-4E6C-866C-511C2159C3B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA3C7915-0BD3-486C-B2AB-892FE61F3B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3C7915-0BD3-486C-B2AB-892FE61F3B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3C7915-0BD3-486C-B2AB-892FE61F3B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3C7915-0BD3-486C-B2AB-892FE61F3B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

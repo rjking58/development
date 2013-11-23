@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\GlobalConstantsTest.exe
+bin\Debug\GlobalConstantsTest.pdb
+obj\Debug\GlobalConstantsTest.exe
+obj\Debug\GlobalConstantsTest.pdb

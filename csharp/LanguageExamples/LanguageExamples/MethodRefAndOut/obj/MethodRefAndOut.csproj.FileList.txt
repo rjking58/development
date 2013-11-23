@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\MethodRefAndOut.exe
+bin\Debug\MethodRefAndOut.pdb
+obj\Debug\MethodRefAndOut.exe
+obj\Debug\MethodRefAndOut.pdb

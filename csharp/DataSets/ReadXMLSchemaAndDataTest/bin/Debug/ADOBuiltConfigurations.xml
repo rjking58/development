@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<Remote_x0020_Configurations>
+  <Configurations UserID="1" ConfigID="1" ConfigName="Dvc 1 of Config 1" />
+  <Configurations UserID="1" ConfigID="2" ConfigName="Dvc 2 of Config 1" />
+  <Devices UserID="1" ConfigID="1" DeviceID="1" DeviceName="Device 1 for User 1 Config 1" />
+  <Devices UserID="1" ConfigID="1" DeviceID="2" DeviceName="Device 2 for User 1 Config 1" />
+</Remote_x0020_Configurations>

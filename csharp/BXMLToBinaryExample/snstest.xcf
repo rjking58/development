@@ -1,0 +1,51 @@
+<moredevices_totest></moredevices_totest>
+<newdevice>03</newdevice>
+<device>device#2
+	<volumemaster></volumemaster>
+	<volumelock></volumelock>
+	<userlock></userlock>
+	<oemlock></oemlock>
+	<deviceID>77</deviceID>
+	<brand>  Toshiba  </brand>
+	<model>DVD Y</model>
+	<iconref>11</iconref>
+	<codeset>V0050
+		<executor>42FF
+			<objcode>0102030405060708090a0b0c0d0E0F101112131415161718191a1b1c1d1e1f2021222324252627282930</objcode>
+		</executor>
+		<prefix>3390FF3b</prefix>
+		<keymap>77
+            <keyid>ffee</keyid>
+            <keyflags>7988</keyflags>
+            <keyircodes>667788</keyircodes>
+            <name8>goober</name8>
+            <iconref>33</iconref>
+        </keymap>
+		<keymap>88
+            <keyid>ddcc</keyid>
+            <keyflags>97a6</keyflags>
+            <keyircodes>99aabb</keyircodes>
+            <name8>sneeze</name8>
+            <iconref>DD</iconref>
+        </keymap>
+		<keymap>aa
+            <keyid>bbaa</keyid>
+            <keyflags>b5c4ccddaa</keyflags>
+            <keyircodes>112234</keyircodes>
+        </keymap>
+	</codeset>
+	<favorites>
+		<favorite>fave#2
+			<profileindex>80</profileindex>
+            <iconref>FF</iconref>
+            <channelnumber>efeeedecebea</channelnumber>
+        </favorite>
+	</favorites>
+	<learnedkey>ed
+		<objcode>4445464748494a4b4c4d4e4fff</objcode>
+	</learnedkey>
+	<synthesizerkey>21
+		<synthesizercode>ffbbddaa</synthesizercode>
+	</synthesizerkey >
+</device>
+

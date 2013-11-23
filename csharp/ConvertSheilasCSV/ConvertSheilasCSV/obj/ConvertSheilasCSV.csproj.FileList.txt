@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ConvertSheilasCSV.exe
+bin\Debug\ConvertSheilasCSV.pdb
+obj\Debug\ConvertSheilasCSV.exe
+obj\Debug\ConvertSheilasCSV.pdb

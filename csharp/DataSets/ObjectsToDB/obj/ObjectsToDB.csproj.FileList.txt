@@ -1,0 +1,5 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\ObjectsToDB.exe
+bin\Debug\ObjectsToDB.pdb
+obj\Debug\ObjectsToDB.exe
+obj\Debug\ObjectsToDB.pdb

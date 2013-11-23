@@ -1,0 +1,15 @@
+<devices>
+	<trigger/>
+    <device>TV
+    	<iconref>1</iconref>
+        <name8>Sony TV 1</name8>
+        <brand>Sony</brand>
+		<model>KGX1032B</model>
+    </device>
+    <device>DVD
+        <iconref>3</iconref>
+        <name16>My foreign DVD</name16>
+        <brand>Sony</brand>
+		<model>KTX1000V</model>
+    </device>
+</devices>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1005]C:\Volatile\SOURCE\csharp2\vs2005Projs\FlashCard\FlashCardTests\bin\Debug\FlashCardTests.dll</TopNode>
+  <SelectedNode>[0-1000]FlashCardTests.FlashCard_Tests</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1005]C:\Volatile\SOURCE\csharp2\vs2005Projs\FlashCard\FlashCardTests\bin\Debug\FlashCardTests.dll" Expanded="true" />
+    <Node UniqueName="[0-1006]FlashCardTests" Expanded="true" />
+    <Node UniqueName="[0-1000]FlashCardTests.FlashCard_Tests" Expanded="true" />
+  </Nodes>
+</VisualState>

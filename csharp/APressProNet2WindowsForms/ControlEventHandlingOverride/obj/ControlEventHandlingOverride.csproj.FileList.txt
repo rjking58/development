@@ -1,0 +1,8 @@
+bin\Debug\ControlEventHandlingOverride.exe
+bin\Debug\ControlEventHandlingOverride.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ControlEventHandlingOverride.Properties.Resources.resources
+obj\Debug\ControlEventHandlingOverride.csproj.GenerateResource.Cache
+obj\Debug\ControlEventHandlingOverride.exe
+obj\Debug\ControlEventHandlingOverride.pdb
+obj\Debug\ControlEventHandlingOverride.Form1.resources

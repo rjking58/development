@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\Singleton\bin\Debug\Singleton.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Singleton\bin\Debug\Singleton.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\Singleton\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\Singleton\obj\Debug\Singleton.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Singleton\obj\Debug\Singleton.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Singleton\bin\Debug\Singleton.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Singleton\bin\Debug\Singleton.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Singleton\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Singleton\obj\Debug\Singleton.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Singleton\obj\Debug\Singleton.pdb

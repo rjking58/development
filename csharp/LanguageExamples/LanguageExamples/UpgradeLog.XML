@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LanguageExamples">
+</Property><Property Name="Solution File" Value="C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\LanguageExamples.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\LanguageExamples.suo">
+</Property><Property Name="Date" Value="Thursday, November 23, 2006">
+</Property><Property Name="Time" Value="1:10 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="LanguageExamples.sln" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\LanguageExamples.sln">
+</Event><Event ErrorLevel="0" Project="" Source="LanguageExamples.suo" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\LanguageExamples.suo">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\Literals.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Literals\Literals.csproj">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\Literals.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Literals\Literals.csproj.user">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Literals\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\Literals.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Literals\Literals.cs">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Literals\App.ico">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\Literals.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Literals" Source="Literals\Literals.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\FormattedOutput\FormattedOutput.csproj">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\FormattedOutput\FormattedOutput.csproj.user">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\FormattedOutput\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\FormattedOutput\FormattedOutput.cs">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\FormattedOutput\App.ico">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\ParameterSemantics\ParameterSemantics.csproj">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\ParameterSemantics\ParameterSemantics.csproj.user">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\ParameterSemantics\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\ParameterSemantics\ParameterSemantics.cs">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\ParameterSemantics\App.ico">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\DestructorDemo\DestructorDemo.csproj">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\DestructorDemo\DestructorDemo.csproj.user">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\DestructorDemo\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\DestructorDemo\DestructorDemo.cs">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\DestructorDemo\App.ico">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\Arrays.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Arrays\Arrays.csproj">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\Arrays.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Arrays\Arrays.csproj.user">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\Arrays.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Arrays\Arrays.cs">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Arrays\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\Arrays\App.ico">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\Arrays.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Arrays" Source="Arrays\Arrays.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.csproj" Description="Project file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\OperatorSemantics\OperatorSemantics.csproj">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.csproj.user" Description="Project user file successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\OperatorSemantics\OperatorSemantics.csproj.user">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\OperatorSemantics\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.cs" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\OperatorSemantics\OperatorSemantics.cs">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\App.ico" Description="File successfully backed up as C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\Backup\OperatorSemantics\App.ico">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LanguageExamples.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="LanguageExamples.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Literals" Source="Literals\Literals.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FormattedOutput" Source="FormattedOutput\FormattedOutput.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ParameterSemantics" Source="ParameterSemantics\ParameterSemantics.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DestructorDemo" Source="DestructorDemo\DestructorDemo.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Arrays" Source="Arrays\Arrays.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="OperatorSemantics" Source="OperatorSemantics\OperatorSemantics.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

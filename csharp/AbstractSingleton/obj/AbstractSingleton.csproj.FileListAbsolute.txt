@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\AbstractSingleton\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\AbstractSingleton\bin\Debug\AbstractSingleton.exe
+C:\Volatile\Source\csharp2\vs2005Projs\AbstractSingleton\bin\Debug\AbstractSingleton.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\AbstractSingleton\obj\Debug\AbstractSingleton.exe
+C:\Volatile\Source\csharp2\vs2005Projs\AbstractSingleton\obj\Debug\AbstractSingleton.pdb

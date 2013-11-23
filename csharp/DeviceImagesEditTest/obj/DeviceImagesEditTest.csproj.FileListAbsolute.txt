@@ -1,0 +1,2 @@
+C:\Volatile\Source\csharp2\vs2005Projs\DeviceImagesEditTest\obj\Debug\DeviceImagesEditTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\DeviceImagesEditTest\obj\Debug\DeviceImagesEditTest.pdb

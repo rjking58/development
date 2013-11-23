@@ -1,0 +1,29 @@
+[Global]
+CurrentProject=EditStealthImageXML.vpj
+[ActiveConfig]
+EditStealthImageXML.vpj=,Debug|AnyCPU
+[ProjectDates]
+EditStealthImageXML.csproj=20070816190211665
+[TreeExpansion2]
+- EditStealthImageXML.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 1309 20 1099 685 0 0 M 0 0 0 0 1253 860
+CWD: ..\EditStealthImageXML
+BUFFER: BN="Form1.Designer.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 66 87 1055 599 -1 -1 M  WF=0 WT=1 "Lucida Console,10,0,1"
+BUFFER: BN="Form1.Designer.cs"
+VIEW: LN=.1811 CL=38 LE=0 CX=44 CY=40 WI=192 BI=14 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\EzWeb\Libraries\EZDvcEditCore\ModeSlot.cs
+\src\Products\EzWeb\Libraries\EZDvcEditCore\RemoteConfiguration.cs
+\src\Products\EzWeb\Libraries\EZDvcEditCore\DeviceFile.cs
+\src\Products\EzWeb\Libraries\EZDvcEditCoreTests\TestData\DeviceImagesDS2.xml
+\src\Products\EzWeb\Libraries\EZDvcEditCoreTests\BasicKeyEntry_Tests.cs
+\src\Products\EzWeb\Libraries\EZDvcEditCore\BasicKeyEntry.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\RomUpdate\ROMUpdateHandler.cs
+\src\Products\EzWeb\Libraries\EZDvcEditCore\DeviceImagesDS.xsd
+Form1.Designer.cs

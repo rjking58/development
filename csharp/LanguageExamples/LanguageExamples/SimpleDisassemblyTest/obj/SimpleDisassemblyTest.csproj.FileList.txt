@@ -1,0 +1,5 @@
+bin\Debug\SimpleDisassemblyTest.exe
+bin\Debug\SimpleDisassemblyTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SimpleDisassemblyTest.exe
+obj\Debug\SimpleDisassemblyTest.pdb

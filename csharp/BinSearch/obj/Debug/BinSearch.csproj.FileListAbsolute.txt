@@ -1,0 +1,10 @@
+C:\Documents and Settings\rking\My Documents\Visual Studio 2008\Projects\BinSearch\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\rking\My Documents\Visual Studio 2008\Projects\BinSearch\bin\Debug\BinSearch.exe
+C:\Documents and Settings\rking\My Documents\Visual Studio 2008\Projects\BinSearch\bin\Debug\BinSearch.pdb
+C:\Documents and Settings\rking\My Documents\Visual Studio 2008\Projects\BinSearch\obj\Debug\BinSearch.exe
+C:\Documents and Settings\rking\My Documents\Visual Studio 2008\Projects\BinSearch\obj\Debug\BinSearch.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BinSearch\obj\Debug\BinSearch.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BinSearch\obj\Debug\BinSearch.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BinSearch\bin\Debug\BinSearch.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BinSearch\bin\Debug\BinSearch.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BinSearch\obj\Debug\ResolveAssemblyReference.cache

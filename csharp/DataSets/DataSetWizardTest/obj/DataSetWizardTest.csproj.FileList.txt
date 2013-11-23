@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\DataSetWizardTest.exe.config
+bin\Debug\DataSetWizardTest.exe
+bin\Debug\DataSetWizardTest.pdb
+obj\Debug\DataSetWizardTest.exe
+obj\Debug\DataSetWizardTest.pdb

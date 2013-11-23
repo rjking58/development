@@ -1,0 +1,136 @@
+<root>
+	<home>
+		<activities>
+			<activity>Watch TV
+				<macro>1</macro>
+				<keymap>xyz</keymap>
+				<devices>dev.bin</devices>
+			</activity>
+			<activity>Watch DVD</activity>
+		</activities>
+	</home>
+<!--
+	<icondef>1
+		<width>64</width>
+		<height>48</height>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	</icondef>
+	<icondef>
+	    <iconID>2</iconID>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	    <rgb565>104566227722a978a9c922c7c6c8a9</rgb565>
+	</icondef>
+-->
+	<!--OPTION 1:-->
+	
+	<devices>
+	    <device>TV1
+	    	<iconref>1</iconref>
+	        <name8>My Sony TV</name8>
+	        <brand>Sony</brand>
+			<model>KGX1032B</model>
+	        <codeset>
+	            <name8>T001</name8>
+	            <prefix>0000000000</prefix>
+	            <executor>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	            </executor>
+	            <functions>
+	                <keymap>id,data,data,data...</keymap>
+	            </functions>
+	        </codeset>
+	    </device>
+	    <device>DVD
+	        <iconref>3</iconref>
+	        <name16>My foreign DVD</name16>
+	        <brand>Sony</brand>
+			<model>KTX1000V</model>
+	        <codeset>
+	            <name8>T005</name8>
+	            <prefix>0000000000</prefix>
+	            <executor>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	            </executor>
+	            <functions>
+	                <keymap>Pwr,5</keymap>
+	            </functions>
+	        </codeset>
+	    </device>
+	    <device>TV2
+	        <iconref>2</iconref>
+	        <name8>My other Sony TV</name8>
+	        <brand>Sony</brand>
+	        <codeset>
+	            <name8>T001</name8>
+	            <prefix>0000000000</prefix>
+	            <executor>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	            </executor>
+	            <functions>
+	                <keymap>id,data,data,data...</keymap>
+	            </functions>
+	        </codeset>
+	    </device>
+	    <device>TV3
+	        <iconref>2</iconref>
+	        <name16>My Japanese Sony TV</name16>
+	        <brand>Sony</brand>
+	        <codeset>
+	            <name8>T002</name8>
+	            <prefix>0000000000</prefix>
+	            <executor>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	                <data>104566227722a978a9c922c7c6c8a9</data>
+	            </executor>
+	            <functions>
+	                <keymap>id,data,data,data...</keymap>
+	            </functions>
+	        </codeset>
+	    </device>
+	</devices>
+	
+	<devices>
+	    <device>TV
+	        <name8>My Sony TV</name8>
+	        <brand>Sony</brand>
+	        <codeset>T001</codeset>
+	    </device>
+	    <device>DVD
+	        <name16>My foreign DVD</name16>
+	        <brand>Sony</brand>
+	        <codeset>T001</codeset>
+	    </device>
+	</devices>
+	
+	
+	<!-- All tags are 7 bit indexes with bit 7 reserved for open/close identification. -->
+	<!-- All tags are followed by a 1 byte data field length. -->
+	
+	<!-- TagID(8), data length(8), {data(8)}, {...}, {TagID(8)}, {...}
+	    
+	    example:  0x04 0x05 0x83 0x6f 0x6e 0x79 0x00 0x83   <brand>Sony</brand>
+	    
+	-->
+	
+	<!-- This is also a valid comment -->
+
+	<devices>
+	    <device>SUPERTV
+	        <name8>My Sony Super TV<!-- this is valid without data following --></name8>
+	        <brand>Sony</brand>
+	        <codeset>T001</codeset>
+	    </device>
+	    <device>SUPERDVD
+	        <name16>My foreign Super DVD</name16>
+	        <brand>Sony</brand>
+	        <codeset>T002</codeset>
+	    </device>
+	</devices>
+</root>
+

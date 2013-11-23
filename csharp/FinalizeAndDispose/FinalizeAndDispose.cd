@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="MyClass.Cleanup...&#xD;&#xA;&#xD;&#xA;        private void Cleanup(bool disposing)&#xD;&#xA;        {&#xD;&#xA;            if(!this.disposed)&#xD;&#xA;            {&#xD;&#xA;                if(disposing)&#xD;&#xA;                {&#xD;&#xA;                    // call dispose on all contained objects, since we are manually &#xD;&#xA;                    // disposing&#xD;&#xA;                    Console.WriteLine(&quot;Via disposal&quot;);&#xD;&#xA;                    m_mcc.Dispose();&#xD;&#xA;                    m_mcc2.Dispose();&#xD;&#xA;                }&#xD;&#xA;                else&#xD;&#xA;                {&#xD;&#xA;                    Console.WriteLine(&quot;Via finalizer&quot;);&#xD;&#xA;                }&#xD;&#xA;                // cleanup unmanaged resources&#xD;&#xA;                Console.WriteLine(&quot;MyClass[&quot; + obj_id + &quot;]&quot;);&#xD;&#xA;            }&#xD;&#xA;            disposed = true;&#xD;&#xA;        }&#xD;&#xA;">
+    <Position X="5.156" Y="3.312" Height="3.385" Width="4.481" />
+  </Comment>
+  <Comment CommentText="MyClass.Finalizer and MyClass.Dispose..&#xD;&#xA;&#xD;&#xA;        ~MyClass()&#xD;&#xA;        {&#xD;&#xA;            Cleanup(false);&#xD;&#xA;            GC.SuppressFinalize(this);&#xD;&#xA;        }&#xD;&#xA;        public void Dispose()&#xD;&#xA;        {&#xD;&#xA;            Cleanup(true);&#xD;&#xA;        }&#xD;&#xA;">
+    <Position X="0.583" Y="3.292" Height="1.854" Width="2.606" />
+  </Comment>
+  <Class Name="FinalizeAndDispose.MyContainedClass" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAIAAAAAACAAAAAAMIAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="FinalizeAndDispose.MyClass" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAIAAAAAACAAAAAAMAAAAAAAAAAAAAAAAAEAAEAAAAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="m_mcc" />
+      <Field Name="m_mcc2" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+</ClassDiagram>

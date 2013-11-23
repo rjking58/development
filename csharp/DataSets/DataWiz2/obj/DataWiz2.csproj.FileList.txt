@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\DataWiz2.exe.config
+bin\Debug\DataWiz2.exe
+bin\Debug\DataWiz2.pdb
+obj\Debug\DataWiz2.exe
+obj\Debug\DataWiz2.pdb

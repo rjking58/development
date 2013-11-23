@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp2\vs2005Projs\AspNetStepByStep\Chap3\CustomControlLib\bin\Debug\CustomControlLib.dll
+C:\Development\SOURCE\csharp2\vs2005Projs\AspNetStepByStep\Chap3\CustomControlLib\bin\Debug\CustomControlLib.pdb
+C:\Development\SOURCE\csharp2\vs2005Projs\AspNetStepByStep\Chap3\CustomControlLib\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp2\vs2005Projs\AspNetStepByStep\Chap3\CustomControlLib\obj\Debug\CustomControlLib.dll
+C:\Development\SOURCE\csharp2\vs2005Projs\AspNetStepByStep\Chap3\CustomControlLib\obj\Debug\CustomControlLib.pdb

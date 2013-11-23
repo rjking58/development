@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\CompressionTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\CompressionTest\bin\Debug\CompressionTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\CompressionTest\bin\Debug\CompressionTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\CompressionTest\obj\Debug\CompressionTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\CompressionTest\obj\Debug\CompressionTest.pdb

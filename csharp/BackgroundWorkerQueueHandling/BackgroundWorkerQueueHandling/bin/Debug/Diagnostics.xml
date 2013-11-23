@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Diagnostics</name>
+    </assembly>
+    <members>
+        <member name="M:UEI.UeiResultUtil.ToCrypticString(UEI.UeiResult)">
+            <summary>
+            Returns a cryptic representation of the specified ueiResult.
+            </summary>
+            <param name="ueiResult">Uei result.</param>
+            <returns></returns>
+        </member>
+        <member name="T:UEI.UeiResult">
+            <summary>
+            TODODOC : Summary description for UeiResult.
+            </summary>
+        </member>
+        <member name="F:UEI.UeiResult.Success">
+            <summary>Success</summary>
+        </member>
+        <member name="F:UEI.UeiResult.True">
+            <summary>True</summary>
+        </member>
+        <member name="F:UEI.UeiResult.False">
+            <summary>False</summary>
+        </member>
+        <member name="F:UEI.UeiResult.EOF">
+            <summary>EOF</summary>
+        </member>
+        <member name="F:UEI.UeiResult.Failure">
+            <summary>Failure</summary>
+        </member>
+        <member name="F:UEI.UeiResult.AlreadyExists">
+            <summary>AlreadyExists</summary>
+        </member>
+        <member name="F:UEI.UeiResult.ArgumentIsNull">
+            <summary>ArgumentIsNull</summary>
+        </member>
+        <member name="F:UEI.UeiResult.Disposed">
+            <summary>Disposed</summary>
+        </member>
+        <member name="F:UEI.UeiResult.DoesNotExist">
+            <summary>DoesNotExist</summary>
+        </member>
+        <member name="F:UEI.UeiResult.IllegalOperation">
+            <summary>IllegalOperation</summary>
+        </member>
+        <member name="F:UEI.UeiResult.Incompatible">
+            <summary>Incompatible</summary>
+        </member>
+        <member name="F:UEI.UeiResult.Inconsistent">
+            <summary>Inconsistent</summary>
+        </member>
+        <member name="F:UEI.UeiResult.InvalidConfiguration">
+            <summary>InvalidConfiguration</summary>
+        </member>
+        <member name="F:UEI.UeiResult.NoOperation">
+            <summary>NoOperation</summary>
+        </member>
+        <member name="F:UEI.UeiResult.NotFound">
+            <summary>NotFound</summary>
+        </member>
+        <member name="F:UEI.UeiResult.NotImplemented">
+            <summary>NotImplemented</summary>
+        </member>
+        <member name="F:UEI.UeiResult.ObjectIsNotValid">
+            <summary>ObjectIsNotValid</summary>
+        </member>
+        <member name="F:UEI.UeiResult.OutOfRange">
+            <summary>OutOfRange</summary>
+        </member>
+        <member name="F:UEI.UeiResult.RequirementsNotSatisfied">
+            <summary>RequirementsNotSatisfied</summary>
+        </member>
+        <member name="F:UEI.UeiResult.UnmatchedSwitchCase">
+            <summary>UnmatchedSwitchCase</summary>
+        </member>
+        <member name="F:UEI.UeiResult.PathTooLong">
+            <summary>PathTooLong</summary>
+        </member>
+        <member name="F:UEI.UeiResult.FileCannotBeOpened">
+            <summary>FileCannotBeOpened</summary>
+        </member>
+        <member name="F:UEI.UeiResult.CrcCheckFailed">
+            <summary>CrcCheckFailed</summary>
+        </member>
+        <member name="F:UEI.UeiResult.Timeout">
+            <summary>Timeout</summary>
+        </member>
+        <member name="F:UEI.UeiResult.InvalidFormat">
+            <summary>InvalidFormat</summary>
+        </member>
+        <member name="F:UEI.UeiResult.DeviceIsNotInExpectedState">
+            <summary>DeviceIsNotInExpectedState</summary>
+        </member>
+        <member name="F:UEI.UeiResult.CabOperationFailed">
+            <summary>CabOperationFailed</summary>
+        </member>
+        <member name="F:UEI.UeiResult.OutOfMemory">
+            <summary>OutOfMemory</summary>
+        </member>
+        <member name="F:UEI.UeiResult.ProjectFileTooLarge">
+            <summary>
+            Project file too large to fit in the NevoSL romdisk
+            </summary>
+        </member>
+        <member name="T:UEI.Diagnostics.Debug">
+            <summary>
+            Summary description for Debug.
+            </summary>
+        </member>
+        <member name="F:UEI.Diagnostics.Debug.DefaultFlushInterval">
+            <summary>
+            DefaultFlushInterval
+            </summary>
+        </member>
+        <member name="F:UEI.Diagnostics.Debug.DefaultLogFileDirectory">
+            <summary>
+            DefaultLogFileDirectory
+            </summary>
+        </member>
+        <member name="F:UEI.Diagnostics.Debug.DefaultLogFileName">
+            <summary>
+            DefaultLogFileName
+            </summary>
+        </member>
+        <member name="F:UEI.Diagnostics.Debug.DefaultMaximumFileSize">
+            <summary>
+            DefaultMaximumFileSize
+            </summary>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.Close">
+            <summary>
+            Closes this instance.
+            </summary>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.SetFlushInterval(System.Int32)">
+            <summary>
+            Sets the flush interval.
+            </summary>
+            <param name="flushInterval">Flush interval.</param>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.SetLogFilePath(System.String)">
+            <summary>
+            Sets the log file path.  Starting with the next Write statements, the output will go into
+            the new file.
+            </summary>
+            <param name="path">Path.</param>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.Write(System.String)">
+            <summary>
+            Writes the message.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.WriteLine(System.String)">
+            <summary>
+            Writes the line.
+            </summary>
+            <param name="message">Message.</param>
+        </member>
+        <member name="M:UEI.Diagnostics.Debug.WriteLine(System.Object,System.String)">
+            <summary>
+            Writes the line.
+            </summary>
+            <param name="context">Context.</param>
+            <param name="message">Message.</param>
+        </member>
+        <member name="T:UEI.Diagnostics.TraceSwitch">
+            <summary>
+            Summary description for TraceSwitch.
+            </summary>
+        </member>
+        <member name="M:UEI.Diagnostics.TraceSwitch.#ctor(System.String,System.String)">
+            <summary>
+            Creates a new <see cref="T:UEI.Diagnostics.TraceSwitch"/> instance.
+            </summary>
+            <param name="displayName">Name of the display.</param>
+            <param name="description">Description.</param>
+        </member>
+        <member name="P:UEI.Diagnostics.TraceSwitch.Level">
+            <summary>
+            Gets the level.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:UEI.Diagnostics.TraceSwitch.TraceError">
+            <summary>
+            Gets a value indicating whether [trace error].
+            </summary>
+            <value>
+            	<c>true</c> if [trace error]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:UEI.Diagnostics.TraceSwitch.TraceInfo">
+            <summary>
+            Gets a value indicating whether [trace info].
+            </summary>
+            <value>
+            	<c>true</c> if [trace info]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:UEI.Diagnostics.TraceSwitch.TraceVerbose">
+            <summary>
+            Gets a value indicating whether [trace verbose].
+            </summary>
+            <value>
+            	<c>true</c> if [trace verbose]; otherwise, <c>false</c>.
+            </value>
+        </member>
+        <member name="P:UEI.Diagnostics.TraceSwitch.TraceWarning">
+            <summary>
+            Gets a value indicating whether [trace warning].
+            </summary>
+            <value>
+            	<c>true</c> if [trace warning]; otherwise, <c>false</c>.
+            </value>
+        </member>
+    </members>
+</doc>

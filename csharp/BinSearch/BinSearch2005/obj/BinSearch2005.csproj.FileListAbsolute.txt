@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp2\vs2005Projs\BinSearch\BinSearch2005\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp2\vs2005Projs\BinSearch\BinSearch2005\bin\Debug\BinSearch2005.exe
+C:\Development\SOURCE\csharp2\vs2005Projs\BinSearch\BinSearch2005\bin\Debug\BinSearch2005.pdb
+C:\Development\SOURCE\csharp2\vs2005Projs\BinSearch\BinSearch2005\obj\Debug\BinSearch2005.exe
+C:\Development\SOURCE\csharp2\vs2005Projs\BinSearch\BinSearch2005\obj\Debug\BinSearch2005.pdb

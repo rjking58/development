@@ -1,0 +1,5 @@
+bin\Debug\CustomControlLib.dll
+bin\Debug\CustomControlLib.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CustomControlLib.dll
+obj\Debug\CustomControlLib.pdb

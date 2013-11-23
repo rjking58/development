@@ -1,0 +1,76 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="RemoteConfiguration" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:element name="RemoteConfiguration" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:TimeStamp="07/13/2007 13:40:19" msprop:Company="UEI training">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Configurations">
+          <xs:complexType>
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="ConfigName" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Devices">
+          <xs:complexType>
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceName" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DeviceKeys">
+          <xs:complexType>
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="KeyID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="KeyName" type="xs:string" use="required" />
+            <xs:attribute name="LearnedKey" type="xs:unsignedShort" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LearnedKeys">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LearnedData" type="xs:base64Binary" msdata:Ordinal="3" />
+            </xs:sequence>
+            <xs:attribute name="ConfigID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="DeviceID" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="LearnedKey" type="xs:unsignedShort" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Configurations" />
+      <xs:field xpath="@ConfigID" />
+    </xs:unique>
+    <xs:unique name="Devices_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Devices" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+    </xs:unique>
+    <xs:unique name="DeviceKeys_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//DeviceKeys" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+      <xs:field xpath="@KeyID" />
+    </xs:unique>
+    <xs:unique name="LearnedKeys_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//LearnedKeys" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+      <xs:field xpath="@LearnedKey" />
+    </xs:unique>
+    <xs:keyref name="LearnedKeysToDevices" refer="Devices_Constraint1">
+      <xs:selector xpath=".//LearnedKeys" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+    </xs:keyref>
+    <xs:keyref name="DevicesKeysToDevices" refer="Devices_Constraint1">
+      <xs:selector xpath=".//DeviceKeys" />
+      <xs:field xpath="@ConfigID" />
+      <xs:field xpath="@DeviceID" />
+    </xs:keyref>
+    <xs:keyref name="DevicesToConfigurations" refer="Constraint1">
+      <xs:selector xpath=".//Devices" />
+      <xs:field xpath="@ConfigID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

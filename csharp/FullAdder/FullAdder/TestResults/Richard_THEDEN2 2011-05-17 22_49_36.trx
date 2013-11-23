@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f2407155-c818-4a82-825e-0c895611a500" name="Richard@THEDEN2 2011-05-17 22:49:36" runUser="THEDEN2\Richard" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="975379cc-42c1-46e9-8b10-48716e98a363">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Development\SOURCE\csharp\FullAdder\FullAdder\TestResults\Richard_THEDEN2 2011-05-17 22_49_36">
+      <DeploymentItem filename="C:\Development\SOURCE\csharp\FullAdder\LogicTester\bin\Debug\WindowsFormsApplication1.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-05-17T22:49:36.2187500-07:00" queuing="2011-05-17T22:49:37.1406250-07:00" start="2011-05-17T22:49:37.2656250-07:00" finish="2011-05-17T22:49:37.7500000-07:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\development\source\csharp\fulladder\fulladder\logictestertests\bin\debug\logictestertests.dll" id="4defbf50-845e-258b-3e92-ccd18448b180">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9e04245f-731b-4937-beaa-07eb84fdfd58" />
+      <TestMethod codeBase="C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="LogicTesterTests.UnitTest1, LogicTesterTests" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4defbf50-845e-258b-3e92-ccd18448b180" executionId="9e04245f-731b-4937-beaa-07eb84fdfd58" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e04245f-731b-4937-beaa-07eb84fdfd58" testId="4defbf50-845e-258b-3e92-ccd18448b180" testName="TestMethod1" computerName="THEDEN2" duration="00:00:00.0281369" startTime="2011-05-17T22:49:37.3125000-07:00" endTime="2011-05-17T22:49:37.7187500-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

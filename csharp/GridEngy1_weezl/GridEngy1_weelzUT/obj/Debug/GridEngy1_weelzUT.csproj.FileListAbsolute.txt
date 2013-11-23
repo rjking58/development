@@ -1,0 +1,11 @@
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\GridEngy1_weelzUT.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\GridEngy1_weelzUT.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\GridEngy1_weezl.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\nunit.framework.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\TestAssembly2.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\TestAssembly2.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\nunit.framework.xml
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\bin\Debug\GridEngy1_weezl.pdb
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\obj\Debug\GridEngy1_weelzUT.dll
+C:\Development\SOURCE\csharp\GridEngy1_weezl\GridEngy1_weelzUT\obj\Debug\GridEngy1_weelzUT.pdb

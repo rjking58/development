@@ -1,0 +1,7 @@
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.dll
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\LogicTesterTests.pdb
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\WindowsFormsApplication1.exe
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\bin\Debug\WindowsFormsApplication1.pdb
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\obj\Debug\LogicTesterTests.dll
+C:\Development\SOURCE\csharp\FullAdder\FullAdder\LogicTesterTests\obj\Debug\LogicTesterTests.pdb

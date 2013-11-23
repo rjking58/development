@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DeviceImagesDS" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DeviceImagesDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DeviceImagesDS" msprop:Generator_DataSetName="DeviceImagesDS" msprop:Company="UEI" msprop:TimeStamp="08/15/2007 11:13:04">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Keys" msprop:Generator_UserTableName="Keys" msprop:Generator_RowDeletedName="KeysRowDeleted" msprop:Generator_RowChangedName="KeysRowChanged" msprop:Generator_RowClassName="KeysRow" msprop:Generator_RowChangingName="KeysRowChanging" msprop:Generator_RowEvArgName="KeysRowChangeEvent" msprop:Generator_RowEvHandlerName="KeysRowChangeEventHandler" msprop:Generator_TableClassName="KeysDataTable" msprop:Generator_TableVarName="tableKeys" msprop:Generator_RowDeletingName="KeysRowDeleting" msprop:Generator_TablePropName="Keys">
+          <xs:complexType>
+            <xs:attribute name="DBDevType" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="DBDevID" msprop:Generator_UserColumnName="DBDevID" msprop:Generator_ColumnVarNameInTable="columnDBDevID" msprop:Generator_ColumnPropNameInRow="DBDevID" msprop:Generator_ColumnPropNameInTable="DBDevIDColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="Mode" msprop:Generator_UserColumnName="Mode" msprop:Generator_ColumnVarNameInTable="columnMode" msprop:Generator_ColumnPropNameInRow="Mode" msprop:Generator_ColumnPropNameInTable="ModeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="KeyCd" msprop:Generator_UserColumnName="KeyCd" msprop:Generator_ColumnVarNameInTable="columnKeyCd" msprop:Generator_ColumnPropNameInRow="KeyCd" msprop:Generator_ColumnPropNameInTable="KeyCdColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="OutRon" msprop:Generator_UserColumnName="OutRon" msprop:Generator_ColumnVarNameInTable="columnOutRon" msprop:Generator_ColumnPropNameInRow="OutRon" msprop:Generator_ColumnPropNameInTable="OutRonColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="Key_fk" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="Key_fk" msprop:Generator_ColumnVarNameInTable="columnKey_fk" msprop:Generator_ColumnPropNameInRow="Key_fk" msprop:Generator_ColumnPropNameInTable="Key_fkColumn" type="xs:int" use="required" />
+            <xs:attribute name="Active" msprop:Generator_UserColumnName="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="UserLocked" msprop:Generator_UserColumnName="UserLocked" msprop:Generator_ColumnVarNameInTable="columnUserLocked" msprop:Generator_ColumnPropNameInRow="UserLocked" msprop:Generator_ColumnPropNameInTable="UserLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="ServiceLocked" msprop:Generator_UserColumnName="ServiceLocked" msprop:Generator_ColumnVarNameInTable="columnServiceLocked" msprop:Generator_ColumnPropNameInRow="ServiceLocked" msprop:Generator_ColumnPropNameInTable="ServiceLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Devices" msprop:Generator_UserTableName="Devices" msprop:Generator_RowDeletedName="DevicesRowDeleted" msprop:Generator_RowChangedName="DevicesRowChanged" msprop:Generator_RowClassName="DevicesRow" msprop:Generator_RowChangingName="DevicesRowChanging" msprop:Generator_RowEvArgName="DevicesRowChangeEvent" msprop:Generator_RowEvHandlerName="DevicesRowChangeEventHandler" msprop:Generator_TableClassName="DevicesDataTable" msprop:Generator_TableVarName="tableDevices" msprop:Generator_RowDeletingName="DevicesRowDeleting" msprop:Generator_TablePropName="Devices">
+          <xs:complexType>
+            <xs:attribute name="DBDevType" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="DBDevID" msprop:Generator_UserColumnName="DBDevID" msprop:Generator_ColumnVarNameInTable="columnDBDevID" msprop:Generator_ColumnPropNameInRow="DBDevID" msprop:Generator_ColumnPropNameInTable="DBDevIDColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="ModeNumber" msprop:Generator_UserColumnName="ModeNumber" msprop:Generator_ColumnVarNameInTable="columnModeNumber" msprop:Generator_ColumnPropNameInRow="ModeNumber" msprop:Generator_ColumnPropNameInTable="ModeNumberColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="ExecutorNumber" msprop:Generator_UserColumnName="ExecutorNumber" msprop:Generator_ColumnVarNameInTable="columnExecutorNumber" msprop:Generator_ColumnPropNameInRow="ExecutorNumber" msprop:Generator_ColumnPropNameInTable="ExecutorNumberColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="Executor_fk" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="Executor_fk" msprop:Generator_ColumnVarNameInTable="columnExecutor_fk" msprop:Generator_ColumnPropNameInRow="Executor_fk" msprop:Generator_ColumnPropNameInTable="Executor_fkColumn" type="xs:int" use="required" />
+            <xs:attribute name="Active" msprop:Generator_UserColumnName="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="UserLocked" msprop:Generator_UserColumnName="UserLocked" msprop:Generator_ColumnVarNameInTable="columnUserLocked" msprop:Generator_ColumnPropNameInRow="UserLocked" msprop:Generator_ColumnPropNameInTable="UserLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="ServiceLocked" msprop:Generator_UserColumnName="ServiceLocked" msprop:Generator_ColumnVarNameInTable="columnServiceLocked" msprop:Generator_ColumnPropNameInRow="ServiceLocked" msprop:Generator_ColumnPropNameInTable="ServiceLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Executors" msprop:Generator_UserTableName="Executors" msprop:Generator_RowDeletedName="ExecutorsRowDeleted" msprop:Generator_RowChangedName="ExecutorsRowChanged" msprop:Generator_RowClassName="ExecutorsRow" msprop:Generator_RowChangingName="ExecutorsRowChanging" msprop:Generator_RowEvArgName="ExecutorsRowChangeEvent" msprop:Generator_RowEvHandlerName="ExecutorsRowChangeEventHandler" msprop:Generator_TableClassName="ExecutorsDataTable" msprop:Generator_TableVarName="tableExecutors" msprop:Generator_RowDeletingName="ExecutorsRowDeleting" msprop:Generator_TablePropName="Executors">
+          <xs:complexType>
+            <xs:attribute name="ExecutorCode" msprop:Generator_UserColumnName="ExecutorCode" msprop:Generator_ColumnVarNameInTable="columnExecutorCode" msprop:Generator_ColumnPropNameInRow="ExecutorCode" msprop:Generator_ColumnPropNameInTable="ExecutorCodeColumn" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="Executor_fk" msprop:Generator_UserColumnName="Executor_fk" msprop:Generator_ColumnVarNameInTable="columnExecutor_fk" msprop:Generator_ColumnPropNameInRow="Executor_fk" msprop:Generator_ColumnPropNameInTable="Executor_fkColumn" type="xs:int" use="required" />
+            <xs:attribute name="CodeOrder" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="CodeOrder" msprop:Generator_ColumnVarNameInTable="columnCodeOrder" msprop:Generator_ColumnPropNameInRow="CodeOrder" msprop:Generator_ColumnPropNameInTable="CodeOrderColumn" type="xs:int" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KeyIRs" msprop:Generator_UserTableName="KeyIRs" msprop:Generator_RowDeletedName="KeyIRsRowDeleted" msprop:Generator_RowChangedName="KeyIRsRowChanged" msprop:Generator_RowClassName="KeyIRsRow" msprop:Generator_RowChangingName="KeyIRsRowChanging" msprop:Generator_RowEvArgName="KeyIRsRowChangeEvent" msprop:Generator_RowEvHandlerName="KeyIRsRowChangeEventHandler" msprop:Generator_TableClassName="KeyIRsDataTable" msprop:Generator_TableVarName="tableKeyIRs" msprop:Generator_RowDeletingName="KeyIRsRowDeleting" msprop:Generator_TablePropName="KeyIRs">
+          <xs:complexType>
+            <xs:attribute name="KeyIRCode" msprop:Generator_UserColumnName="KeyIRCode" msprop:Generator_ColumnVarNameInTable="columnKeyIRCode" msprop:Generator_ColumnPropNameInRow="KeyIRCode" msprop:Generator_ColumnPropNameInTable="KeyIRCodeColumn" type="xs:unsignedShort" use="required" />
+            <xs:attribute name="Key_fk" msprop:Generator_UserColumnName="Key_fk" msprop:Generator_ColumnVarNameInTable="columnKey_fk" msprop:Generator_ColumnPropNameInRow="Key_fk" msprop:Generator_ColumnPropNameInTable="Key_fkColumn" type="xs:int" use="required" />
+            <xs:attribute name="CodeOrder" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" msprop:Generator_UserColumnName="CodeOrder" msprop:Generator_ColumnVarNameInTable="columnCodeOrder" msprop:Generator_ColumnPropNameInRow="CodeOrder" msprop:Generator_ColumnPropNameInTable="CodeOrderColumn" type="xs:int" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Modes" msprop:Generator_UserTableName="Modes" msprop:Generator_RowDeletedName="ModesRowDeleted" msprop:Generator_TableClassName="ModesDataTable" msprop:Generator_RowChangedName="ModesRowChanged" msprop:Generator_RowClassName="ModesRow" msprop:Generator_RowChangingName="ModesRowChanging" msprop:Generator_RowEvArgName="ModesRowChangeEvent" msprop:Generator_RowEvHandlerName="ModesRowChangeEventHandler" msprop:Generator_TablePropName="Modes" msprop:Generator_TableVarName="tableModes" msprop:Generator_RowDeletingName="ModesRowDeleting">
+          <xs:complexType>
+            <xs:attribute name="DBDevType" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="DBDevID" msprop:Generator_UserColumnName="DBDevID" msprop:Generator_ColumnVarNameInTable="columnDBDevID" msprop:Generator_ColumnPropNameInRow="DBDevID" msprop:Generator_ColumnPropNameInTable="DBDevIDColumn" type="xs:unsignedShort" msdata:DefaultValue="0" use="required" />
+
+            <xs:attribute name="ModeNumber" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="KeyCd" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="Active" msprop:Generator_UserColumnName="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="UserLocked" msprop:Generator_UserColumnName="UserLocked" msprop:Generator_ColumnVarNameInTable="columnUserLocked" msprop:Generator_ColumnPropNameInRow="UserLocked" msprop:Generator_ColumnPropNameInTable="UserLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="ServiceLocked" msprop:Generator_UserColumnName="ServiceLocked" msprop:Generator_ColumnVarNameInTable="columnServiceLocked" msprop:Generator_ColumnPropNameInRow="ServiceLocked" msprop:Generator_ColumnPropNameInTable="ServiceLockedColumn" type="xs:boolean" msdata:DefaultValue="false" use="required" />
+            <xs:attribute name="AudioSource" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="VideoSource" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="ChannelSource" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="0" use="required" />
+            <xs:attribute name="ModeFlag" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="255" use="required" />
+            <xs:attribute name="Font" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="255" use="required" />
+            <xs:attribute name="Length" msprop:Generator_UserColumnName="DBDevType" msprop:Generator_ColumnVarNameInTable="columnDBDevType" msprop:Generator_ColumnPropNameInRow="DBDevType" msprop:Generator_ColumnPropNameInTable="DBDevTypeColumn" type="xs:unsignedByte" msdata:DefaultValue="255" use="required" />
+            <xs:attribute name="Label" msprop:Generator_UserColumnName="Label" msprop:Generator_ColumnPropNameInRow="Label" msprop:Generator_ColumnVarNameInTable="columnLabel" msprop:Generator_ColumnPropNameInTable="LabelColumn" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Keys" />
+      <xs:field xpath="@DBDevType" />
+      <xs:field xpath="@DBDevID" />
+      <xs:field xpath="@KeyCd" />
+    </xs:unique>
+    <xs:unique name="Devices_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//Devices" />
+      <xs:field xpath="@DBDevType" />
+      <xs:field xpath="@DBDevID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="KeysToKeysIR" msdata:parent="Keys" msdata:child="KeyIRs" msdata:parentkey="Key_fk" msdata:childkey="Key_fk" msprop:Generator_UserRelationName="KeysToKeysIR" msprop:Generator_RelationVarName="relationKeysToKeysIR" msprop:Generator_UserChildTable="KeyIRs" msprop:Generator_UserParentTable="Keys" msprop:Generator_ParentPropName="KeysRow" msprop:Generator_ChildPropName="GetKeyIRsRows" />
+      <msdata:Relationship name="DevicesToExecutors" msdata:parent="Devices" msdata:child="Executors" msdata:parentkey="Executor_fk" msdata:childkey="Executor_fk" msprop:Generator_UserRelationName="DevicesToExecutors" msprop:Generator_RelationVarName="relationDevicesToExecutors" msprop:Generator_UserChildTable="Executors" msprop:Generator_UserParentTable="Devices" msprop:Generator_ParentPropName="DevicesRow" msprop:Generator_ChildPropName="GetExecutorsRows" />
+      <msdata:Relationship name="Devices_Keys" msdata:parent="Devices" msdata:child="Keys" msdata:parentkey="DBDevType DBDevID" msdata:childkey="DBDevType DBDevID" msprop:Generator_UserRelationName="Devices_Keys" msprop:Generator_RelationVarName="relationDevices_Keys" msprop:Generator_UserChildTable="Keys" msprop:Generator_UserParentTable="Devices" msprop:Generator_ParentPropName="DevicesRowParent" msprop:Generator_ChildPropName="GetKeysRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

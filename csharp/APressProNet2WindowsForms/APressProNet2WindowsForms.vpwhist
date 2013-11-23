@@ -1,0 +1,35 @@
+[Global]
+CurrentProject=ControlEventHandlingOverride\ControlEventHandlingOverride.vpj
+[ActiveConfig]
+ControlEventHandlingOverride\ControlEventHandlingOverride.vpj=,Debug|AnyCPU
+ControlEventHandlingUsingDelegates\ControlEventHandlingUsingDelegates.vpj=,Debug|AnyCPU
+MultiControlEventHandler\MultiControlEventHandler.vpj=,Debug|AnyCPU
+ColorFunWithEnumerations\ColorFunWithEnumerations.vpj=,Debug|AnyCPU
+FontViewer\FontViewer.vpj=,Debug|AnyCPU
+[ProjectDates]
+ControlEventHandlingOverride\ControlEventHandlingOverride.csproj=20070224114445718
+ControlEventHandlingUsingDelegates\ControlEventHandlingUsingDelegates.csproj=20070224122756093
+MultiControlEventHandler\MultiControlEventHandler.csproj=20070224124729812
+ColorFunWithEnumerations\ColorFunWithEnumerations.csproj=20070224134337718
+FontViewer\FontViewer.csproj=20070224141617156
+[TreeExpansion2]
++ ColorFunWithEnumerations\ColorFunWithEnumerations.csproj
++ ControlEventHandlingOverride\ControlEventHandlingOverride.csproj
++ ControlEventHandlingUsingDelegates\ControlEventHandlingUsingDelegates.csproj
+- FontViewer\FontViewer.csproj
+  + Properties
++ MultiControlEventHandler\MultiControlEventHandler.csproj
+scroll:0
+[State]
+SCREEN: 1680 1050 44 66 1260 739 0 0 M 0 0 0 0 1374 696
+CWD: \Program Files\SlickEdit
+FILEHIST: 9
+..\myAlarm\Form1.cs
+..\LanguageExamples\LanguageExamples\Arrays\Arrays.cs
+FontViewer\Form1.cs
+\Program Files\SlickEdit\macros\prg.e
+FontViewer\Program.cs
+\Program Files\SlickEdit\backup\cs.als
+\Program Files\SlickEdit\sysconfig\aliases\$7cs.als
+\Program Files\SlickEdit\sysconfig\aliases\$2cs.als
+\Program Files\SlickEdit\sysconfig\aliases\$1cs.als

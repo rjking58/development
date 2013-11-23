@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BXMLToBinaryExample.GeneralParsingException">
+    <Position X="43.25" Y="1" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.MissingParameter">
+    <Position X="41.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.Program">
+    <Position X="39" Y="1" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BXMLToBinaryExample.Program.CommandLineStates" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagNames">
+    <Position X="20.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAAABgFCQABAgIAEAAcAAQATBAkAEpEIABQwAAIIRBA=</HashCode>
+      <FileName>TagNames.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingDirector">
+    <Position X="43.25" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CgEAAAAAAAAAAAQAAAAAAMgggBAABAAAggAAAgAACAA=</HashCode>
+      <FileName>TagParsingDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext">
+    <Position X="36.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAAIDIACEAIBPEGAAKAAQGIALAIBFAAAAEIAAAAA=</HashCode>
+      <FileName>TagParsingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_ACTIVITIES" Collapsed="true">
+    <Position X="30.25" Y="13" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_ACTIVITES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_ACTIVITY" Collapsed="true">
+    <Position X="43.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_ACTIVITY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_BRAND" Collapsed="true">
+    <Position X="31.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_BRAND.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_CHANNELNUMBER" Collapsed="true">
+    <Position X="37.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_CHANNELNUMBER.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_DEVICES" Collapsed="true">
+    <Position X="23" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_DEVICES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_DEVICE" Collapsed="true">
+    <Position X="43.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_DEVICE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_VOLUMEMASTER" Collapsed="true">
+    <Position X="34" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_VOLUMEMASTER.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_VOLUMELOCK" Collapsed="true">
+    <Position X="33.5" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_VOLUMELOCK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_USERLOCK" Collapsed="true">
+    <Position X="45.75" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_USERLOCK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_OEMLOCK" Collapsed="true">
+    <Position X="46.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_OEMLOCK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_DEVICEID" Collapsed="true">
+    <Position X="24.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_DEVICEID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_MODEL" Collapsed="true">
+    <Position X="25.75" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_MODEL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_FAVORITEWIDTH" Collapsed="true">
+    <Position X="40" Y="8" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_FAVORITEWIDTH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_CODESET" Collapsed="true">
+    <Position X="48.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_CODESET.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_EXECUTOR" Collapsed="true">
+    <Position X="38" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_EXECUTOR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_OBJCODE" Collapsed="true">
+    <Position X="43.25" Y="13" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_OBJCODE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PREFIX" Collapsed="true">
+    <Position X="26.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_PREFIX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_KEYMAP" Collapsed="true">
+    <Position X="26.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_KEYMAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_KEYID" Collapsed="true">
+    <Position X="28.25" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_KEYID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_KEYFLAGS" Collapsed="true">
+    <Position X="42.75" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_KEYFLAGS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_KEYIRCODES" Collapsed="true">
+    <Position X="28.75" Y="11" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_KEYIRCODES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_NAME8" Collapsed="true">
+    <Position X="37.75" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_NAME8.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_FAVORITES" Collapsed="true">
+    <Position X="40.5" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_FAVORITES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_FAVORITE" Collapsed="true">
+    <Position X="29.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_FAVORITE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PROFILEINDEX" Collapsed="true">
+    <Position X="21" Y="9.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_PROFILEINDEX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_LEARNEDKEY" Collapsed="true">
+    <Position X="31" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_LEARNEDKEY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_SYNTHESIZERKEY" Collapsed="true">
+    <Position X="23.25" Y="11" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_SYNTHESIZERKEY.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_SYNTHESIZERCODE" Collapsed="true">
+    <Position X="23.5" Y="13" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_SYNTHESIZERCODE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_MACRO" Collapsed="true">
+    <Position X="46.25" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_MACRO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_MACROPAIR">
+    <Position X="39.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAIACMAAAAEAACAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_MACROPAIR.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PUNCHTHRUMAP">
+    <Position X="31" Y="1.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_PUNCHTHRUMAP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PUNCHTHRUSPEC" Collapsed="true">
+    <Position X="40.75" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQIACMAAAAEAACAAAACIAIAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>TagParsingContext_PUNCHTHRUSPEC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PROFILES" Collapsed="true">
+    <Position X="34.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_PROFILES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_PROFILE" Collapsed="true">
+    <Position X="31.5" Y="11" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_PROFILE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_SNSTEST" Collapsed="true">
+    <Position X="27.25" Y="13" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_SNSTEST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_MOREDEVICES_TOTEST" Collapsed="true">
+    <Position X="40.25" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_MOREDEVICES_TOTEST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_NEWDEVICE" Collapsed="true">
+    <Position X="45.5" Y="8" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACMAAAAEAAAAAAAiIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_NEWDEVICE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_ROOT" Collapsed="true">
+    <Position X="33.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_ROOT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BXMLToBinaryExample.TagParsingContext_HOME" Collapsed="true">
+    <Position X="37.75" Y="8" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACEAAAAEAAAAAAACIAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TagParsingContext_HOME.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

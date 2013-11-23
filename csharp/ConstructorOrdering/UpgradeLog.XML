@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ConstructorOrdering">
+</Property><Property Name="Solution File" Value="C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\ConstructorOrdering.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\ConstructorOrdering.suo">
+</Property><Property Name="Date" Value="Friday, May 16, 2008">
+</Property><Property Name="Time" Value="16:57 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ConstructorOrdering.sln" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\Backup\ConstructorOrdering.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ConstructorOrdering.suo" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\Backup\ConstructorOrdering.suo">
+</Event><Event ErrorLevel="0" Project="ConstructorOrdering" Source="ConstructorOrdering.csproj" Description="Project file successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\Backup\ConstructorOrdering.csproj">
+</Event><Event ErrorLevel="0" Project="ConstructorOrdering" Source="Program.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="ConstructorOrdering" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ConstructorOrdering" Source="ConstructorOrdering.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ConstructorOrdering" Source="ConstructorOrdering.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ConstructorOrdering.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ConstructorOrdering.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ConstructorOrdering" Source="ConstructorOrdering.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

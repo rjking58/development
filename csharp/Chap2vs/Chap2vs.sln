@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://192.168.0.199/ASPNetStepByStep/Chap2vs/", "http://192.168.0.199/ASPNetStepByStep/Chap2vs", "{3AC8CB99-E141-4060-A32E-1BB1FFB5737E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/Chap2vs"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap2vs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Chap2vs\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Chap2vs"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap2vs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Chap2vs\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap2vs\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC8CB99-E141-4060-A32E-1BB1FFB5737E}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3AC8CB99-E141-4060-A32E-1BB1FFB5737E}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

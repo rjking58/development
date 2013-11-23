@@ -1,0 +1,8 @@
+bin\Debug\ConfigurationsDSWithVSTools.exe
+bin\Debug\ConfigurationsDSWithVSTools.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ConfigurationsDSWithVSTools.Form1.resources
+obj\Debug\ConfigurationsDSWithVSTools.Properties.Resources.resources
+obj\Debug\ConfigurationsDSWithVSTools.csproj.GenerateResource.Cache
+obj\Debug\ConfigurationsDSWithVSTools.exe
+obj\Debug\ConfigurationsDSWithVSTools.pdb

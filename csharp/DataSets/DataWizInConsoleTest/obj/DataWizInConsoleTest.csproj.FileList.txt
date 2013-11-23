@@ -1,0 +1,6 @@
+bin\Debug\DataWizInConsoleTest.exe.config
+bin\Debug\DataWizInConsoleTest.exe
+bin\Debug\DataWizInConsoleTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataWizInConsoleTest.exe
+obj\Debug\DataWizInConsoleTest.pdb

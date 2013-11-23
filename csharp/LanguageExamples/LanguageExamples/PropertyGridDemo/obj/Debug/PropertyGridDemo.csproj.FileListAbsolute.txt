@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\bin\Debug\PropertyGridDemo.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\bin\Debug\PropertyGridDemo.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\PropertyGridDemo.Form1.resources
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\PropertyGridDemo.Properties.Resources.resources
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\PropertyGridDemo.csproj.GenerateResource.Cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\PropertyGridDemo.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\PropertyGridDemo\obj\Debug\PropertyGridDemo.pdb

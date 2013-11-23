@@ -1,0 +1,7 @@
+<?xml version="1.0" standalone="yes"?>
+<Car_x0020_Inventory>
+  <Inventory CarID="0" Make="BMW" Color="Black" PetName="Hamlet" Length="4400" />
+  <Inventory CarID="1" Make="BMW" Color="Blue" PetName="BluePiglet" Length="4400" />
+  <Inventory CarID="2" Make="SAAB" Color="Red" PetName="Sea Breeze" Length="4400" />
+  <Inventory CarID="3" Make="SAAB" Color="Orange" PetName="Sea Citrus" Length="5500" />
+</Car_x0020_Inventory>

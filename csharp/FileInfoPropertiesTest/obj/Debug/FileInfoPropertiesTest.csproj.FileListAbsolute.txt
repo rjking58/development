@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\bin\Debug\FileInfoPropertiesTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\bin\Debug\FileInfoPropertiesTest.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\FileInfoPropertiesTest.Form1.resources
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\FileInfoPropertiesTest.Properties.Resources.resources
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\FileInfoPropertiesTest.csproj.GenerateResource.Cache
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\FileInfoPropertiesTest.exe
+C:\Volatile\Source\csharp2\vs2005Projs\FileInfoPropertiesTest\obj\Debug\FileInfoPropertiesTest.pdb

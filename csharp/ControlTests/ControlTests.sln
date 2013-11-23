@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://192.168.0.199/ASPNetStepByStep/ControlTests/", "http://192.168.0.199/ASPNetStepByStep/ControlTests", "{B42DDA25-F2FA-44D9-B147-8CBB3B68B753}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/ControlTests"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\ControlTests\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ControlTests\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ControlTests"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\ControlTests\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ControlTests\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\ControlTests\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B42DDA25-F2FA-44D9-B147-8CBB3B68B753}.Debug|.NET.ActiveCfg = Debug|.NET
+		{B42DDA25-F2FA-44D9-B147-8CBB3B68B753}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCard", "FlashCard\FlashCard.csproj", "{FF6BE320-E8D3-46D4-A7E5-FAEE575DB6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardTests", "FlashCardTests\FlashCardTests.csproj", "{BDD1A11E-0D8F-4DD3-A9A8-F56AFFDB17D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF6BE320-E8D3-46D4-A7E5-FAEE575DB6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6BE320-E8D3-46D4-A7E5-FAEE575DB6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6BE320-E8D3-46D4-A7E5-FAEE575DB6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6BE320-E8D3-46D4-A7E5-FAEE575DB6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD1A11E-0D8F-4DD3-A9A8-F56AFFDB17D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD1A11E-0D8F-4DD3-A9A8-F56AFFDB17D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD1A11E-0D8F-4DD3-A9A8-F56AFFDB17D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD1A11E-0D8F-4DD3-A9A8-F56AFFDB17D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,42 @@
+[Global]
+CurrentProject=FlashCard\FlashCard.vpj
+[ActiveConfig]
+FlashCard\FlashCard.vpj=,Debug|AnyCPU
+FlashCardTests\FlashCardTests.vpj=,Debug|AnyCPU
+[ProjectDates]
+FlashCard\FlashCard.csproj=20070408122535015
+FlashCardTests\FlashCardTests.csproj=20070408123912750
+[TreeExpansion2]
+- FlashCard\FlashCard.csproj
+  + Properties
+- FlashCardTests\FlashCardTests.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1680 1050 44 66 1260 739 0 0 M 0 0 0 0 1653 613
+CWD: ..\ADOChapter2Demo
+BUFFER: BN="FlashCard\FlashCard.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=8 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.664 CL=58 LE=0 CX=57 CY=31 WI=5 BI=16 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="FlashCard\FlashCardClasses.cd"
+BI: MA=1 74 1  TABS=1 4  WWS=1 IWT=0 ST=0 IN=1 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=Fundamental	HM=0 MF=8 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=71 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=1 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="FlashCardTests\FlashCard_Tests.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=8 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.2578 CL=35 LE=0 CX=34 CY=60 WI=5 BI=18 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="FlashCard\CardDeck.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.0 CL=1 LE=0 CX=0 CY=0 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+WINDOW: 44 66 1521 415 -1 -1 M  WF=0 WT=2 "Lucida Console,12,0,1"
+BUFFER: BN="FlashCard\CardDeck.cs"
+VIEW: LN=.2675 CL=1 LE=0 CX=0 CY=18 WI=104 BI=19 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\SoftKeyPage.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\DeviceFile.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCoreTests\DeviceFile_Tests.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\ByteArrayAsString.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\DeviceMacro.cs
+FlashCard\FlashCard.cs
+FlashCard\FlashCardClasses.cd
+FlashCardTests\FlashCard_Tests.cs
+FlashCard\CardDeck.cs

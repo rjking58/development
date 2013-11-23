@@ -1,0 +1,5 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\CopyExecutables\bin\Debug\CopyExecutables.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\CopyExecutables\bin\Debug\CopyExecutables.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\CopyExecutables\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\CopyExecutables\obj\Debug\CopyExecutables.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\CopyExecutables\obj\Debug\CopyExecutables.pdb

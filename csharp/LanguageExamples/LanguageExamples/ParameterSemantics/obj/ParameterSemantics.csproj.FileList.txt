@@ -1,0 +1,5 @@
+bin\Debug\ParameterSemantics.exe
+bin\Debug\ParameterSemantics.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ParameterSemantics.exe
+obj\Debug\ParameterSemantics.pdb

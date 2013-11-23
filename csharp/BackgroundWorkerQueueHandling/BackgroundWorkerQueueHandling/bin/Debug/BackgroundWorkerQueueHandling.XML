@@ -1,0 +1,409 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackgroundWorkerQueueHandling</name>
+    </assembly>
+    <members>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDAsynchCommand">
+             <summary>
+             abstract form of an asynchonous command.  
+             
+             Usage Notes:
+               each subclass will typically set up a delegate and an event used to
+               notify the caller when the command is complete, and to receive any return
+               values from the call.  A working example of a command class with these events included
+               looks like:
+             
+             <pre><code>
+            
+            class GetFirmwareVersion : CrystalisHIDAsynchCommand
+            {
+                public delegate void GetFirmwareVersionResult_delegate(UEI.HidIf.CommandType    retVal,
+                                                                       string                   version);
+                public event GetFirmwareVersionResult_delegate GetFirmwareVersionResult_Event = null;
+            
+            
+                public override UEI.HidIf.CommandType DoCommand(CrystalisHIDDevice crys_comm)
+                {
+            
+                    string version = "";
+                    UEI.HidIf.CommandType retVal = UEI.HidIf.CommandType.ResponseSuccess;
+                    if(crys_comm.trace_switch.Level >= System.Diagnostics.TraceLevel.Info)
+                    {
+                        UEI.Diagnostics.Debug.WriteLine(String.Format("({0})GetFirmwareVersion.. executing",
+                                                                      Thread.CurrentThread.GetHashCode()));
+                    }
+            
+            
+                    retVal = crys_comm.GetFirmwareVersion(ref version);
+            
+                    if (GetFirmwareVersionResult_Event != null)
+                    {
+                        GetFirmwareVersionResult_Event(retVal,version);
+                    }
+            
+                    return retVal;
+                }
+            }
+            
+             </code></pre>
+             
+             A typical message submission from the UI assembly would look like:
+             
+             <pre><code>
+                   private CrystalisHIDQueueHandler background_q = null;
+                         ...
+                         ...
+                   background_q = CrystalisHIDQueueHandler.GetInstance();
+                   // hook up the events for detecting when the remote id connected/disconnected..
+                   background_q.RemoteCommEstablished_event += GainedRemoteCommsEventHandler;
+                   background_q.RemoteCommLost_event += LostRemoteCommsEventHandler;
+                         ...
+                         ...
+                   // send our FirmwareVersion request..
+                   GetFirmwareVersion my_msg = new GetFirmwareVersion();
+                   my_msg.GetFirmwareVersionResult_Event += this.FirmwareVersionResult;
+                   background_q.SubmitMessage(my_msg);
+             </code></pre>
+             With FirmwareVersionResult looking like:
+             <pre><code>
+            private void FirmwareVersionResult(UEI.HidIf.CommandType retVal,
+                                               string                version)
+            {
+                if(this.InvokeRequired)
+                {
+                    this.Invoke(new GetFirmwareVersion.GetFirmwareVersionResult_delegate(FirmwareVersionResult),
+                                new object[] {retVal,version});
+                }
+                else
+                {
+                    lbl_FirmwareVersion.Text = version;
+                    lbl_RetVal.Text = String.Format("{0}", retVal);
+                }
+            }
+             </code></pre>
+             the method 'DoCommand' is actually run on the worker thread.. when finished, it calls back the Event
+             handler, which then tries to determine if the thread that called it is a UI thread.. if not, it
+             performs an Invoke to make sure that the UI thread is the only thread which can change UI components.
+             
+             Which brings us to the final assumption.. the above event handler assumes that the object which contains
+             it derives from System.Windows.Forms.Control (notice the call to:  this.InvokeRequired)  This is because of 
+             .NET restrictions on which threads can actually change control states (only the thread that owns 
+             the UI components can change them).  Stated more directly, .NET windows controls are not thread safe, 
+             which requires these types of mechanism to make sure non-UI threads do not modify UI state.
+             </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDAsynchCommand.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            Do a command asynchronously
+            </summary>
+            <param name="dev">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetFirmwareVersion">
+            <summary>
+            get firmware version from the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.GetFirmwareVersion.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            get firmware version from the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="E:BackgroundWorkerQueueHandling.GetFirmwareVersion.GetFirmwareVersionResult_Event">
+            <summary>
+            event fired by this object when the command has returned and is 
+            ready to return data to the caller.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetFirmwareVersion.GetFirmwareVersionResult_delegate">
+            <summary>
+            form of an event fired by this object when the command has returned and is 
+            ready to return data to the caller.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetSerialNumber">
+            <summary>
+            get serial number from the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.GetSerialNumber.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            get serial number from the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="E:BackgroundWorkerQueueHandling.GetSerialNumber.GetSerialNumberResult_Event">
+            <summary>
+            event fired by this object when the command has returned and is 
+            ready to return data to the caller.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetSerialNumber.GetSerialNumberResult_delegate">
+            <summary>
+            form of an event fired by this object when the command has returned and is 
+            ready to return data to the caller.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetFileManifest">
+            <summary>
+            get file manifest from the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.GetFileManifest.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            get file manifest from the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.RemoveFile">
+            <summary>
+            remove file on the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.RemoveFile.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            remove file on the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.SendFile">
+            <summary>
+            send file to the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.SendFile.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            send file to the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.GetFile">
+            <summary>
+            GetFile to the remote.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.GetFile.DoCommand(UEI.HidIf.CrystalisHIDDevice)">
+            <summary>
+            GetFile to the remote.
+            </summary>
+            <param name="crys_comm">Crystalis device used to communicate with a remote</param>
+            <returns>UEI.HidIf.CommandType</returns>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:BackgroundWorkerQueueHandling.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:BackgroundWorkerQueueHandling.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler">
+            <summary>
+            Multithreaded wrapper for <seealso cref="T:UEI.HidIf.CrystalisHIDDevice"/>
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_state">
+            <summary>
+            current multi-threading state.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_messages">
+            <summary>
+            queue of abstract messages of type <seealso cref="T:BackgroundWorkerQueueHandling.CrystalisHIDAsynchCommand"/>
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_crys_comm">
+            <summary>
+            instance of the CrystalisHIDDevice we use to communicate with the Remote.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_runningThread">
+            <summary>
+            single worker we allow.  There should NEVER be one of these, since the remote can 
+            deal with serial messages ONLY (i.e. we can't expect it will react well if we send
+            two requests then expect two responses asynchronously)
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_quitNow">
+            <summary>
+            quit message.. this control main while loop in the <seealso cref="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.MainQueueHandling"/> routine
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_remoteConnected">
+            <summary>
+            whether remote seems connected or not.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_remoteConnectedPrev">
+            <summary>
+            previous state for whether remote was connected or not.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.m_instance">
+            <summary>
+            singleton implementation.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.GetInstance">
+            <summary>
+            Singleton get instance method.
+            </summary>
+            <returns>CrystalisHIDQueueHandler</returns>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.#ctor">
+            <summary>
+            private constructor.. required by singleton pattern
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QuitNow">
+            <summary>
+            quit signal.  All the caller can do is tell us to go away.. 
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.ThreadingStateHandler">
+            <summary>
+            deal with all the potential thread states (performed during message submission).
+            if this thread is in any funny state at all, try to abort then restart
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.SubmitMessage(BackgroundWorkerQueueHandling.CrystalisHIDAsynchCommand)">
+            <summary>
+            submit a message for processing.  Will autostart queue or autorestart if necessary.
+            it is NOT RECOMMENDED to depend on this behavior for first start, since the remote connected/disconnected
+            events are only fired when we are multiprocessing.  Use <seealso cref="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.Start"/> to initially start the queue.
+            </summary>
+            <param name="qe">the command to be executed</param>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.Start">
+            <summary>
+            start message processing (and our one worker thread)
+            </summary>
+            <returns> StartErr </returns>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.MainQueueHandling">
+            <summary>
+            main processing loop.  This is where all messages get processed.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.HandleRemoteConnected">
+            <summary>
+            fire the remote connected/disconnected events if needed.
+            </summary>
+        </member>
+        <member name="E:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.RemoteCommEstablished_event">
+            <summary>
+             event fired when we have gotten a good ping acknowledge from the remote. 
+             or a reasonable response for other commands
+            </summary>
+        </member>
+        <member name="E:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.RemoteCommLost_event">
+            <summary>
+             event fired when we have gotten a bad ping acknowledge from the remote. 
+            </summary>
+        </member>
+        <member name="P:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.State">
+            <summary>
+            accessor for state of queue..
+            </summary>
+        </member>
+        <member name="P:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.IsQuitting">
+            <summary>
+            are we quitting?  Used by CrystalisHIDDevice to detect situations where we
+            are going away.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.RemoteCommEstablished_delegate">
+            <summary>
+             form of event fired when we have gotten a good ping acknowledge from the remote. 
+             or a reasonable response for other commands
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.RemoteCommLost_delegate">
+            <summary>
+             form of event fired when we have gotten a bad ping acknowledge from the remote. 
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.StartErr">
+            <summary>
+             error code returned by <seealso cref="M:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.Start"/>
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.StartErr.SUCCESS">
+            <summary>
+            start successful
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.StartErr.ALREADY_STARTED">
+            <summary>
+            already started.. quit first then try again.
+            </summary>
+        </member>
+        <member name="T:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState">
+            <summary>
+             enumeration of all multi-threading states of CrystalisHIDQueueHandler
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState.NOT_STARTED">
+            <summary>
+            threading not started.. use 'Start()' to get things going.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState.STARTING">
+            <summary>
+            threading still coming up.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState.RUNNING_IDLE">
+            <summary>
+            thread is now waiting for queued msgs.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState.RUNNING_BUSY">
+            <summary>
+            thread is now servicing a msg.
+            </summary>
+        </member>
+        <member name="F:BackgroundWorkerQueueHandling.CrystalisHIDQueueHandler.QH_ThreadState.ENDED">
+            <summary>
+            we are finished.
+            </summary>
+        </member>
+        <member name="M:BackgroundWorkerQueueHandling.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+    </members>
+</doc>

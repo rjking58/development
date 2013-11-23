@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\TemplateMethod\bin\Debug\TemplateMethod.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\TemplateMethod\bin\Debug\TemplateMethod.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\TemplateMethod.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\TemplateMethod.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\TemplateMethod\bin\Debug\TemplateMethod.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\TemplateMethod\bin\Debug\TemplateMethod.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\TemplateMethod.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\TemplateMethod\obj\Debug\TemplateMethod.pdb

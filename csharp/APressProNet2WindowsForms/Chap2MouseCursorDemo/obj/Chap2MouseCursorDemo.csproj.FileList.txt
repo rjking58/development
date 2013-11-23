@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Chap2MouseCursorDemo.Form1.resources
+obj\Debug\Chap2MouseCursorDemo.Properties.Resources.resources
+obj\Debug\Chap2MouseCursorDemo.csproj.GenerateResource.Cache
+bin\Debug\Chap2MouseCursorDemo.exe
+bin\Debug\Chap2MouseCursorDemo.pdb
+obj\Debug\Chap2MouseCursorDemo.exe
+obj\Debug\Chap2MouseCursorDemo.pdb

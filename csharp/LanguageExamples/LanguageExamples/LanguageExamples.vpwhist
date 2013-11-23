@@ -1,0 +1,120 @@
+[Global]
+CurrentProject=Literals\Literals.vpj
+[ActiveConfig]
+Literals\Literals.vpj=,Debug|AnyCPU
+FormattedOutput\FormattedOutput.vpj=,Debug|AnyCPU
+ParameterSemantics\ParameterSemantics.vpj=,Debug|AnyCPU
+DestructorDemo\DestructorDemo.vpj=,Debug|AnyCPU
+Arrays\Arrays.vpj=,Debug|AnyCPU
+OperatorSemantics\OperatorSemantics.vpj=,Debug|AnyCPU
+MethodRefAndOut\MethodRefAndOut.vpj=,Debug|AnyCPU
+ThisConstructor\ThisConstructor.vpj=,Debug|AnyCPU
+IndexersAndProperties\IndexersAndProperties.vpj=,Debug|AnyCPU
+Interfaces\Interfaces.vpj=,Debug|AnyCPU
+exceptions\exceptions.vpj=,Debug|AnyCPU
+Exceptions2\Exceptions2.vpj=,Debug|AnyCPU
+InputAndOutput\InputAndOutput.vpj=,Debug|AnyCPU
+fileio\fileio.vpj=,Debug|AnyCPU
+DateTime\DateTime.vpj=,Debug|AnyCPU
+StreamWriterDemo\StreamWriterDemo.vpj=,Debug|AnyCPU
+delegateTest\delegateTest.vpj=,Debug|AnyCPU
+multicastingDelegate\multicastingDelegate.vpj=,Debug|AnyCPU
+ConvertingNumbersToStrings\ConvertingNumbersToStrings.vpj=,Debug|AnyCPU
+SimpleDisassemblyTest\SimpleDisassemblyTest.vpj=,Debug|AnyCPU
+BytesToStringsToBytes\BytesToStringsToBytes.vpj=,Debug|AnyCPU
+bitwise\bitwise.vpj=,Debug|AnyCPU
+SizeOfTest\SizeOfTest.vpj=,Debug|AnyCPU
+Exceptions_UserDefined\Exceptions_UserDefined.vpj=,Debug|AnyCPU
+GenericsTest\GenericsTest.vpj=,Debug|AnyCPU
+PropertyGridDemo\PropertyGridDemo.vpj=,Debug|AnyCPU
+Attribute1\Attribute1.vpj=,Debug|AnyCPU
+ternaryOperatorTest\ternaryOperatorTest.vpj=,Debug|AnyCPU
+ObjectToTypedArrayCast\ObjectToTypedArrayCast.vpj=,Debug|AnyCPU
+[ProjectDates]
+Literals\Literals.csproj=20080116141952405
+FormattedOutput\FormattedOutput.csproj=20080116141957548
+ParameterSemantics\ParameterSemantics.csproj=20080116141957797
+DestructorDemo\DestructorDemo.csproj=20080116141958327
+Arrays\Arrays.csproj=20080116141959029
+OperatorSemantics\OperatorSemantics.csproj=20080116141959309
+MethodRefAndOut\MethodRefAndOut.csproj=20080116142000291
+ThisConstructor\ThisConstructor.csproj=20080116142000681
+IndexersAndProperties\IndexersAndProperties.csproj=20080116142001257
+Interfaces\Interfaces.csproj=20080116142002021
+exceptions\exceptions.csproj=20080116142002255
+Exceptions2\Exceptions2.csproj=20080116142003143
+InputAndOutput\InputAndOutput.csproj=20080116142003517
+fileio\fileio.csproj=20080116142004016
+DateTime\DateTime.csproj=20080116142004842
+StreamWriterDemo\StreamWriterDemo.csproj=20080116142005076
+delegateTest\delegateTest.csproj=20080116142006073
+multicastingDelegate\multicastingDelegate.csproj=20080116142006354
+ConvertingNumbersToStrings\ConvertingNumbersToStrings.csproj=20080116142007305
+SimpleDisassemblyTest\SimpleDisassemblyTest.csproj=20080116142007648
+BytesToStringsToBytes\BytesToStringsToBytes.csproj=20080116142008131
+bitwise\bitwise.csproj=20080116142009081
+SizeOfTest\SizeOfTest.csproj=20080116142009346
+Exceptions_UserDefined\Exceptions_UserDefined.csproj=20080116142010266
+GenericsTest\GenericsTest.csproj=20080116142010734
+PropertyGridDemo\PropertyGridDemo.csproj=20080116142013399
+Attribute1\Attribute1.csproj=20080116142014864
+ternaryOperatorTest\ternaryOperatorTest.csproj=20080116142015659
+ObjectToTypedArrayCast\ObjectToTypedArrayCast.csproj=20080116142338275
+[TreeExpansion2]
++ Arrays\Arrays.csproj
++ Attribute1\Attribute1.csproj
++ bitwise\bitwise.csproj
+- BytesToStringsToBytes\BytesToStringsToBytes.csproj
+  + Properties
++ ConvertingNumbersToStrings\ConvertingNumbersToStrings.csproj
++ DateTime\DateTime.csproj
++ delegateTest\delegateTest.csproj
++ DestructorDemo\DestructorDemo.csproj
++ exceptions\exceptions.csproj
++ Exceptions2\Exceptions2.csproj
++ Exceptions_UserDefined\Exceptions_UserDefined.csproj
++ fileio\fileio.csproj
++ FormattedOutput\FormattedOutput.csproj
+- GenericsTest\GenericsTest.csproj
+  + Properties
++ IndexersAndProperties\IndexersAndProperties.csproj
++ InputAndOutput\InputAndOutput.csproj
++ Interfaces\Interfaces.csproj
++ Literals\Literals.csproj
++ MethodRefAndOut\MethodRefAndOut.csproj
++ multicastingDelegate\multicastingDelegate.csproj
++ ObjectToTypedArrayCast\ObjectToTypedArrayCast.csproj
++ OperatorSemantics\OperatorSemantics.csproj
++ ParameterSemantics\ParameterSemantics.csproj
++ PropertyGridDemo\PropertyGridDemo.csproj
++ SimpleDisassemblyTest\SimpleDisassemblyTest.csproj
++ SizeOfTest\SizeOfTest.csproj
++ StreamWriterDemo\StreamWriterDemo.csproj
++ ternaryOperatorTest\ternaryOperatorTest.csproj
++ ThisConstructor\ThisConstructor.csproj
+scroll:0
+[State]
+SCREEN: 1280 1024 1332 78 960 685 0 0 M 0 0 0 0 1253 614
+CWD: ..\..\..\..\IL\ILAsmChapter1
+BUFFER: BN="BytesToStringsToBytes\Class1.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.346 CL=72 LE=0 CX=71 CY=19 WI=5 BI=16 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="ConvertingNumbersToStrings\ConvertingNumbersToStrings.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.70 CL=1 LE=0 CX=0 CY=3 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="GenericsTest\Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.129 CL=62 LE=0 CX=61 CY=8 WI=5 BI=18 HT=0 HN=0 HF=0 HC=4
+WINDOW: 44 58 1077 548 -1 -1 M  WF=0 WT=1 "Lucida Console,10,0,1"
+BUFFER: BN="GenericsTest\Program.cs"
+VIEW: LN=.129 CL=62 LE=0 CX=68 CY=8 WI=93 BI=18 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\products\crystalis\crystalispc\crystalispc\dvceditcorePhase2\dvceditcorePhase2\HashValue.cs
+\src\products\crystalis\crystalispc\crystalispc\dvceditcorePhase2\dvceditcorePhase2\ROM.cs
+\src\products\crystalis\crystalispc\crystalispc\dvceditcorePhase2\dvceditcorePhase2\ROMUpdateHandler.cs
+\src\Libraries\HidIF2005Phase2\HidIF2005Phase2\CrystalisHIDDevice.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCorePhase2\DvcEditCorePhase2\HardKeyToGenericLookup.cs
+BytesToStringsToBytes\Class1.cs
+ConvertingNumbersToStrings\ConvertingNumbersToStrings.cs
+GenericsTest\Program.cs
+..\..\..\..\IL\ILAsmChapter1\simplesample2.il

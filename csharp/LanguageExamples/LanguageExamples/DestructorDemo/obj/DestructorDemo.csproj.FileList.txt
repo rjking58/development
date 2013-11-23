@@ -1,0 +1,5 @@
+bin\Debug\DestructorDemo.exe
+bin\Debug\DestructorDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DestructorDemo.exe
+obj\Debug\DestructorDemo.pdb

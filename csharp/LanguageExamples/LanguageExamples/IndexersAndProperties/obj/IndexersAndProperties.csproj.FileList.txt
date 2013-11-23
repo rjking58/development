@@ -1,0 +1,5 @@
+bin\Debug\IndexersAndProperties.exe
+bin\Debug\IndexersAndProperties.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\IndexersAndProperties.exe
+obj\Debug\IndexersAndProperties.pdb

@@ -1,0 +1,28 @@
+[Global]
+CurrentProject=ArrayManip1\ArrayManip1.vpj
+[ActiveConfig]
+ArrayManip1\ArrayManip1.vpj=,Debug|AnyCPU
+[ProjectDates]
+ArrayManip1\ArrayManip1.csproj=20070216114014484
+[TreeExpansion2]
++ ArrayManip1\ArrayManip1.csproj
+scroll:0
+[State]
+SCREEN: 1280 1024 110 145 960 685 0 0 M 0 0 0 0 899 612
+CWD: ArrayManip1
+BUFFER: BN="ArrayManip1\ArrayManip1.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=131688 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.1108 CL=66 LE=0 CX=65 CY=12 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 44 58 745 409 -1 -1 M  WF=0 WT=1 "Default Fixed Font,10,0,1"
+BUFFER: BN="ArrayManip1\ArrayManip1.cs"
+VIEW: LN=.72 CL=1 LE=0 CX=1 CY=4 WI=130 BI=14 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Libraries\IRDatabase\SLIrDatabaseIO\NevoFile.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\BrandItem.cs
+\src\Products\NevoWeb\Tools\IRLibCreationFromToolsGrpData\Form1.cs
+..\XMLDocExample\bin\Debug\XMLdoc.XML
+..\XMLDocExample\bin\Debug\Documentation.xsl
+\src\Libraries\IRDatabase\SLIrDatabaseIO\CodeSetData.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\CodeSetDataItem.cs
+\src\Libraries\IRDatabase\SLIrDatabaseIO\CodeSet.cs
+ArrayManip1\ArrayManip1.cs

@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EditStealthImageXML.Form1.resources
+obj\Debug\EditStealthImageXML.Properties.Resources.resources
+obj\Debug\EditStealthImageXML.csproj.GenerateResource.Cache
+bin\Debug\EditStealthImageXML.exe
+bin\Debug\EditStealthImageXML.pdb
+obj\Debug\EditStealthImageXML.exe
+obj\Debug\EditStealthImageXML.pdb

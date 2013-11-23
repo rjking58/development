@@ -1,0 +1,5 @@
+bin\Debug\virtualDemo.exe
+bin\Debug\virtualDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\virtualDemo.exe
+obj\Debug\virtualDemo.pdb

@@ -1,0 +1,42 @@
+[Global]
+CurrentProject=BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling.vpj
+[ActiveConfig]
+BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling.vpj=,Debug|AnyCPU
+\src\Libraries\HidIF2005Phase2\HidIF2005Phase2\HidIF2005Phase2.vpj=,Debug|AnyCPU
+\src\Libraries\Diagnostics\Diagnostics2005.vpj=,Debug|AnyCPU
+[ProjectDates]
+BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling.csproj=20070522144202624
+\src\Libraries\HidIF2005Phase2\HidIF2005Phase2\HidIF2005Phase2.csproj=20070525133413071
+\src\Libraries\Diagnostics\Diagnostics2005.csproj=20070516121458908
+[TreeExpansion2]
+- BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling.csproj
+  + Properties
++ \src\Libraries\Diagnostics\Diagnostics2005.csproj
+- \src\Libraries\HidIF2005Phase2\HidIF2005Phase2\HidIF2005Phase2.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 28 18 960 685 0 0 M 0 0 0 0 1253 549
+CWD: BackgroundWorkerQueueHandling
+BUFFER: BN="\src\Libraries\HidIF2005Phase2\HidIF2005Phase2\CrystalisHIDDevice.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=1 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.112568 CL=9 LE=0 CX=8 CY=29 WI=5 BI=19 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="BackgroundWorkerQueueHandling\CrystalisHIDAsynchCommand.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=0 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.14931 CL=74 LE=0 CX=73 CY=34 WI=5 BI=33 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="BackgroundWorkerQueueHandling\Form1.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=608 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=0 ESBU2=-1
+VIEW: LN=.4488 CL=106 LE=0 CX=105 CY=75 WI=5 BI=34 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 626 780 -1 -1 M  WF=0 WT=2 "Lucida Console,10,0,1"
+BUFFER: BN="BackgroundWorkerQueueHandling\Form1.cs"
+VIEW: LN=.967 CL=1 LE=0 CX=7 CY=24 WI=127 BI=34 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Libraries\Manifest\Resources\RC7000CI\msc.xml
+\src\Libraries\Manifest\Manifest.Lib\Algorithms\INode.cs
+\src\Libraries\Manifest\Manifest.Lib\Algorithms\AdjacencyMatrix.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\DvcEditCore\DvcEditCore\BasicKeyEntry.cs
+BackgroundWorkerQueueHandling\CrystalisHIDQueueHandler.cs
+\src\Products\Crystalis\CrystalisPC\CrystalisPC\CrystalisRemoteEditor\APIWrappers\DeviceAPI.cs
+\src\Libraries\HidIF2005Phase2\HidIF2005Phase2\CrystalisHIDDevice.cs
+BackgroundWorkerQueueHandling\CrystalisHIDAsynchCommand.cs
+BackgroundWorkerQueueHandling\Form1.cs

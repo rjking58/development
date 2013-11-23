@@ -1,0 +1,8 @@
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\Clock1.Form1.resources
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\Clock1.Properties.Resources.resources
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\Clock1.csproj.GenerateResource.Cache
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\bin\Debug\Clock1.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\bin\Debug\Clock1.pdb
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\Clock1.exe
+C:\Volatile\SOURCE\csharp2\vs2005Projs\Clock1\Clock1\obj\Debug\Clock1.pdb

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="9.75" />
+  <Class Name="FlashCard.SingleFlashCard">
+    <Position X="5.75" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>FlashCard.cs</FileName>
+      <HashCode>AAAAAAAEAAAAAQAEAAAAAgIAAAAgAAAAAAAAAAAAABI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlashCard.CardDeck">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CardDeck.cs</FileName>
+      <HashCode>AEAAIAQAAAAgAAIAAAQAAAAAABAAAAAAAAAAAAAAEAA=</HashCode>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="m_shuffledCards" />
+      <Field Name="m_cards" />
+    </ShowAsCollectionAssociation>
+  </Class>
+</ClassDiagram>

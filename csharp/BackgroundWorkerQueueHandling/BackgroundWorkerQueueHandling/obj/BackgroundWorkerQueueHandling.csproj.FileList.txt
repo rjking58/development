@@ -1,0 +1,13 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BackgroundWorkerQueueHandling.Form1.resources
+obj\Debug\BackgroundWorkerQueueHandling.Properties.Resources.resources
+obj\Debug\BackgroundWorkerQueueHandling.csproj.GenerateResource.Cache
+bin\Debug\BackgroundWorkerQueueHandling.exe
+bin\Debug\BackgroundWorkerQueueHandling.pdb
+bin\Debug\HidIF2005Phase2.dll
+bin\Debug\Diagnostics.dll
+bin\Debug\Diagnostics.pdb
+bin\Debug\Diagnostics.xml
+bin\Debug\HidIF2005Phase2.pdb
+obj\Debug\BackgroundWorkerQueueHandling.exe
+obj\Debug\BackgroundWorkerQueueHandling.pdb

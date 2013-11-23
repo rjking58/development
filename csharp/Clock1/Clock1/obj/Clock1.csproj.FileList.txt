@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Clock1.Properties.Resources.resources
+obj\Debug\Clock1.csproj.GenerateResource.Cache
+bin\Debug\Clock1.exe
+bin\Debug\Clock1.pdb
+obj\Debug\Clock1.exe
+obj\Debug\Clock1.pdb
+obj\Debug\Clock1.Form1.resources

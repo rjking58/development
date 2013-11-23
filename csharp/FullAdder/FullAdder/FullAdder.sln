@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullAdder", "FullAdder.csproj", "{A928DA2D-4FCA-4474-AF10-69985D58C06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicTester", "..\LogicTester\LogicTester.csproj", "{85B4CFEB-C0E2-48CE-B91B-82B4C805012F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicTesterTests", "LogicTesterTests\LogicTesterTests.csproj", "{8BD54FD4-5063-4013-B9D0-76C1F6CCED6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5CB98CD-9146-4E02-A9D8-3F429407859C}"
+	ProjectSection(SolutionItems) = preProject
+		FullAdder.vsmdi = FullAdder.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FullAdder.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A928DA2D-4FCA-4474-AF10-69985D58C06B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A928DA2D-4FCA-4474-AF10-69985D58C06B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A928DA2D-4FCA-4474-AF10-69985D58C06B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A928DA2D-4FCA-4474-AF10-69985D58C06B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B4CFEB-C0E2-48CE-B91B-82B4C805012F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B4CFEB-C0E2-48CE-B91B-82B4C805012F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B4CFEB-C0E2-48CE-B91B-82B4C805012F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B4CFEB-C0E2-48CE-B91B-82B4C805012F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD54FD4-5063-4013-B9D0-76C1F6CCED6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD54FD4-5063-4013-B9D0-76C1F6CCED6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD54FD4-5063-4013-B9D0-76C1F6CCED6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD54FD4-5063-4013-B9D0-76C1F6CCED6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

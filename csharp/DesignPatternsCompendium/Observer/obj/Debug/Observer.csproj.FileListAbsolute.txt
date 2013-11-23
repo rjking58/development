@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\Observer\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\Observer\bin\Debug\Observer.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Observer\bin\Debug\Observer.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\Observer\obj\Debug\Observer.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\Observer\obj\Debug\Observer.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Observer\bin\Debug\Observer.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Observer\bin\Debug\Observer.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Observer\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Observer\obj\Debug\Observer.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\Observer\obj\Debug\Observer.pdb

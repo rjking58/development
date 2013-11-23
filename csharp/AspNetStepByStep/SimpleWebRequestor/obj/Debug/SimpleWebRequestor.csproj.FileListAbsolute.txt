@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\obj\Debug\SimpleWebRequestor.exe
+C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\obj\Debug\SimpleWebRequestor.pdb
+C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\bin\Debug\SimpleWebRequestor.exe
+C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\bin\Debug\SimpleWebRequestor.pdb
+C:\Development\SOURCE\csharp\AspNetStepByStep\SimpleWebRequestor\obj\Debug\ResolveAssemblyReference.cache

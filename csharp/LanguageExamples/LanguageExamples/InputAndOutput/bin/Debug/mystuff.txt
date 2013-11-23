@@ -1,0 +1,2 @@
+System.DivideByZeroException: Attempted to divide by zero.
+   at InputAndOutput.KbIn.Main() in C:\Volatile\SOURCE\Csharp\LanguageExamples\LanguageExamples\InputAndOutput\Program.cs:line 31

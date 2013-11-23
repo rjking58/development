@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\BXMLToBinaryExample\bin\Debug\BXMLToBinaryExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BXMLToBinaryExample\bin\Debug\BXMLToBinaryExample.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\BXMLToBinaryExample\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\BXMLToBinaryExample\obj\Debug\BXMLToBinaryExample.exe
+C:\Volatile\Source\csharp2\vs2005Projs\BXMLToBinaryExample\obj\Debug\BXMLToBinaryExample.pdb

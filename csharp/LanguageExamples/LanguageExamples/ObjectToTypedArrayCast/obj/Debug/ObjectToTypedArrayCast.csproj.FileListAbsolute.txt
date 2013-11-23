@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ObjectToTypedArrayCast\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ObjectToTypedArrayCast\bin\Debug\ObjectToTypedArrayCast.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ObjectToTypedArrayCast\bin\Debug\ObjectToTypedArrayCast.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ObjectToTypedArrayCast\obj\Debug\ObjectToTypedArrayCast.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\ObjectToTypedArrayCast\obj\Debug\ObjectToTypedArrayCast.pdb

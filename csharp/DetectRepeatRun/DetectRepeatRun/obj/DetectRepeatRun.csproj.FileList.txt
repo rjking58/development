@@ -1,0 +1,5 @@
+bin\Debug\DetectRepeatRun.exe
+bin\Debug\DetectRepeatRun.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DetectRepeatRun.exe
+obj\Debug\DetectRepeatRun.pdb

@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="RemoteKeysDBToXMLDS" targetNamespace="http://tempuri.org/RemoteKeysDBToXMLDS.xsd" xmlns:mstns="http://tempuri.org/RemoteKeysDBToXMLDS.xsd" xmlns="http://tempuri.org/RemoteKeysDBToXMLDS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:element name="RemoteKeysDBToXMLDS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="RemoteKeys">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KeyName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Description">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KeyScanCode" type="xs:int" />
+              <xs:element name="IRKey" type="xs:short" />
+              <xs:element name="ValidMacroTarget" type="xs:short" />
+              <xs:element name="RemoteTypeID" type="xs:int" />
+              <xs:element name="ValidMoverTarget" type="xs:short" />
+              <xs:element name="ValidLearningTarget" type="xs:short" />
+              <xs:element name="IsConfiguredKey" type="xs:short" />
+              <xs:element name="IsSoftKey" type="xs:short" />
+              <xs:element name="IsChannel" type="xs:short" />
+              <xs:element name="IsDigit" type="xs:short" />
+              <xs:element name="IsVolume" type="xs:short" />
+              <xs:element name="IsTransport" type="xs:short" />
+              <xs:element name="IsActivity" type="xs:short" />
+              <xs:element name="IsSNS" type="xs:short" />
+              <xs:element name="IsMode" type="xs:short" />
+              <xs:element name="KeyFlags" type="xs:base64Binary" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:RemoteKeys" />
+      <xs:field xpath="mstns:KeyName" />
+      <xs:field xpath="mstns:RemoteTypeID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

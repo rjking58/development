@@ -1,0 +1,58 @@
+[Global]
+CurrentProject=DataSets\DataSets.vpj
+[ActiveConfig]
+DataSets\DataSets.vpj=,Debug|AnyCPU
+DataSetScaleDeleteTest1\DataSetScaleDeleteTest1.vpj=,Debug|AnyCPU
+SQLServerDataConnect\SQLServerDataConnect.vpj=,Debug|AnyCPU
+DataAdapterExample\DataAdapterExample.vpj=,Debug|AnyCPU
+DataSetWizardTest\DataSetWizardTest.vpj=,Debug|AnyCPU
+ReadXMLSchemaAndDataTest\ReadXMLSchemaAndDataTest.vpj=,Debug|AnyCPU
+DataWiz2\DataWiz2.vpj=,Debug|AnyCPU
+HandBuiltConstraints\HandBuiltConstraints.vpj=,Debug|AnyCPU
+ConfigurationsDSWithVSTools\ConfigurationsDSWithVSTools.vpj=,Debug|AnyCPU
+ObjectsToDB\ObjectsToDB.vpj=,Debug|AnyCPU
+DataWizInConsoleTest\DataWizInConsoleTest.vpj=,Debug|AnyCPU
+DataWizInConsoleReadTest\DataWizInConsoleReadTest.vpj=,Debug|AnyCPU
+[ProjectDates]
+DataSets\DataSets.csproj=20070705155608611
+DataSetScaleDeleteTest1\DataSetScaleDeleteTest1.csproj=20070705163054504
+SQLServerDataConnect\SQLServerDataConnect.csproj=20070711175912340
+DataAdapterExample\DataAdapterExample.csproj=20070711191216122
+DataSetWizardTest\DataSetWizardTest.csproj=20070711193950054
+ReadXMLSchemaAndDataTest\ReadXMLSchemaAndDataTest.csproj=20070712110343015
+DataWiz2\DataWiz2.csproj=20070712112549283
+HandBuiltConstraints\HandBuiltConstraints.csproj=20070712144243168
+ConfigurationsDSWithVSTools\ConfigurationsDSWithVSTools.csproj=20070712152508025
+ObjectsToDB\ObjectsToDB.csproj=20070713133523336
+DataWizInConsoleTest\DataWizInConsoleTest.csproj=20070713162115168
+[TreeExpansion2]
+- ConfigurationsDSWithVSTools\ConfigurationsDSWithVSTools.csproj
+  + Properties
++ DataAdapterExample\DataAdapterExample.csproj
++ DataSets\DataSets.csproj
++ DataSetScaleDeleteTest1\DataSetScaleDeleteTest1.csproj
+- DataSetWizardTest\DataSetWizardTest.csproj
+  + Properties
+- DataWiz2\DataWiz2.csproj
+  + Properties
++ DataWizInConsoleTest\DataWizInConsoleTest.csproj
+- HandBuiltConstraints\HandBuiltConstraints.csproj
+  + Properties
++ ObjectsToDB\ObjectsToDB.csproj
+- ReadXMLSchemaAndDataTest\ReadXMLSchemaAndDataTest.csproj
+  + Properties
++ SQLServerDataConnect\SQLServerDataConnect.csproj
+scroll:0
+[State]
+SCREEN: 1280 1024 132 174 960 685 0 0 M 0 0 0 0 1253 499
+CWD: \src\Products\EzWeb\Libraries\EZDvcEditCore
+FILEHIST: 9
+\src\Products\EzWeb\Libraries\EZDvcEditCoreTests\TestData\DeviceImagesDS.xml
+\src\Products\EzWeb\Libraries\EZDvcEditCoreTests\TestData\keys_and_devices1.xsd
+\src\Products\EzWeb\Libraries\EZDvcEditCoreTests\TestData\DeviceImagesXXX.xml
+..\..\..\tst.html
+..\DeviceImagesEditTest\DeviceImagesDS.xsd
+..\DeviceImagesEditTest\Program.cs
+..\DeviceImagesEditTest\Form1.cs
+..\EditStealthImageXML\DeviceImagesDS.xsd
+\src\Products\EzWeb\Libraries\EZDvcEditCore\DeviceImagesDS.xsd

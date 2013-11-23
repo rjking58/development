@@ -1,0 +1,2 @@
+E:\Development\SOURCE\csharp2\vs2005Projs\BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling\bin\Debug\BackgroundWorkerQueueHandling.XML
+E:\Development\SOURCE\csharp2\vs2005Projs\BackgroundWorkerQueueHandling\BackgroundWorkerQueueHandling\obj\Debug\BackgroundWorkerQueueHandling.pdb

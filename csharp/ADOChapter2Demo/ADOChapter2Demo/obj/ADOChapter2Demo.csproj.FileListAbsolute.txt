@@ -1,0 +1,3 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter2Demo\ADOChapter2Demo\bin\Debug\ADOChapter2Demo.exe.config
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter2Demo\ADOChapter2Demo\obj\Debug\ADOChapter2Demo.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ADOChapter2Demo\ADOChapter2Demo\obj\Debug\ADOChapter2Demo.pdb

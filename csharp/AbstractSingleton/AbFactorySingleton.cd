@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Abstract Factory with Singleton interface..&#xD;&#xA;&#xD;&#xA;Call SetupFactory to set up the instance fetch methods.. instance fetches throw exceptions if this has not been done..&#xD;&#xA;&#xD;&#xA;Factory concrete classes hard nested and private within the factory to prevent them being instantiated external to this class">
+    <Position X="9.326" Y="0.885" Height="1.646" Width="2.835" />
+  </Comment>
+  <Class Name="AbstractSingleton.RemoteCapabilities">
+    <Position X="0.5" Y="2.5" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAQAAAAEAAAAAAAAAAAAABAAAAAEAABAggA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractSingleton.RemoteMemory">
+    <Position X="0.5" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAABBBACAAAAAQAEQAAAAABAAAAIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractSingleton.RemoteAbstractFactory">
+    <Position X="4.5" Y="0.5" Width="4.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAACQEAAAAAAAAAABAAAAAgKAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.StealthUSBFactory">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.Future1Factory">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.StealthUSBRemoteCapabilities">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.Future1RemoteCapabilities">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.StealthUSBRemoteMemory">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AbstractSingleton.RemoteAbstractFactory.Future1RemoteMemory">
+        <TypeIdentifier>
+          <NewMemberFileName>Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+  </Class>
+  <Enum Name="AbstractSingleton.RemoteType">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Program.cs</FileName>
+      <HashCode>AAAAAAAAAAAAEAAgAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>

@@ -1,0 +1,69 @@
+<?xml version="1.0" standalone="yes"?>
+<test_oneDataSet xmlns="http://tempuri.org/test_oneDataSet.xsd">
+  <Configurations>
+    <UserID>1</UserID>
+    <ConfigID>1</ConfigID>
+    <ConfigurationName>FirstConfig</ConfigurationName>
+  </Configurations>
+  <Configurations>
+    <UserID>1</UserID>
+    <ConfigID>2</ConfigID>
+    <ConfigurationName>SecondConfig</ConfigurationName>
+  </Configurations>
+  <Configurations>
+    <UserID>2</UserID>
+    <ConfigID>1</ConfigID>
+    <ConfigurationName>FirstVConfig</ConfigurationName>
+  </Configurations>
+  <Configurations>
+    <UserID>2</UserID>
+    <ConfigID>2</ConfigID>
+    <ConfigurationName>SecondVConfig</ConfigurationName>
+  </Configurations>
+  <deviceKeys>
+    <UserID>1</UserID>
+    <ConfigID>1</ConfigID>
+    <DeviceID>1</DeviceID>
+    <KeyID>2</KeyID>
+    <KeyName>powerON</KeyName>
+  </deviceKeys>
+  <deviceKeys>
+    <UserID>1</UserID>
+    <ConfigID>1</ConfigID>
+    <DeviceID>1</DeviceID>
+    <KeyID>3</KeyID>
+    <KeyName>powerOFF</KeyName>
+  </deviceKeys>
+  <Devices>
+    <UserID>1</UserID>
+    <ConfigID>1</ConfigID>
+    <DeviceID>1</DeviceID>
+    <DeviceName>Sony TV</DeviceName>
+  </Devices>
+  <Devices>
+    <UserID>1</UserID>
+    <ConfigID>1</ConfigID>
+    <DeviceID>2</DeviceID>
+    <DeviceName>Sony VCR</DeviceName>
+  </Devices>
+  <Devices>
+    <UserID>1</UserID>
+    <ConfigID>2</ConfigID>
+    <DeviceID>1</DeviceID>
+    <DeviceName>Hitachi TV</DeviceName>
+  </Devices>
+  <Devices>
+    <UserID>1</UserID>
+    <ConfigID>2</ConfigID>
+    <DeviceID>2</DeviceID>
+    <DeviceName>Sony DTU</DeviceName>
+  </Devices>
+  <Users>
+    <UserID>1</UserID>
+    <UserName>rking</UserName>
+  </Users>
+  <Users>
+    <UserID>2</UserID>
+    <UserName>vkanchrakuntla</UserName>
+  </Users>
+</test_oneDataSet>

@@ -1,0 +1,8 @@
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\LogicTester.csproj.GenerateResource.Cache
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\LogicTester.Form1.resources
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\LogicTester.Properties.Resources.resources
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\bin\Debug\WindowsFormsApplication1.exe
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\bin\Debug\WindowsFormsApplication1.pdb
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\WindowsFormsApplication1.exe
+C:\Development\SOURCE\csharp\FullAdder\LogicTester\obj\Debug\WindowsFormsApplication1.pdb

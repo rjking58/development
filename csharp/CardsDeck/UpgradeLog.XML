@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CardsDeck">
+</Property><Property Name="Solution File" Value="C:\GCS\Source\csharp\CardsDeck\CardsDeck.sln">
+</Property><Property Name="User Options File" Value="C:\GCS\Source\csharp\CardsDeck\CardsDeck.suo">
+</Property><Property Name="Date" Value="Friday, June 26, 2009">
+</Property><Property Name="Time" Value="10:32 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CardsDeck.sln" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CardsDeck.suo" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck.suo">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\CardsDeck.csproj" Description="Project file successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\CardsDeck.csproj">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Cards.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Cards.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Club.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Club.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Diamond.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Diamond.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Form1.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Form1.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Form1.Designer.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Heart.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Heart.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\ICards.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\ICards.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Program.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Program.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\RandomGen.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\RandomGen.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Spade.cs" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Spade.cs">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Properties\Settings.settings" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Resources\spade.jpg" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Resources\spade.jpg">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Resources\diamond.jpg" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Resources\diamond.jpg">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Resources\Heart.jpg" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Resources\Heart.jpg">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Resources\Club.jpg" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Resources\Club.jpg">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Resources\Cards.jpg" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Resources\Cards.jpg">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Form1.resx" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Form1.resx">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\Properties\Resources.resx" Description="File successfully backed up as C:\GCS\Source\csharp\CardsDeck\Backup\CardsDeck\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\CardsDeck.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="CardsDeck" Source="CardsDeck\CardsDeck.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CardsDeck.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="CardsDeck.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CardsDeck" Source="CardsDeck\CardsDeck.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,8 @@
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\bin\Debug\CardsDeck.exe
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\bin\Debug\CardsDeck.pdb
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\CardsDeck.Form1.resources
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\CardsDeck.Properties.Resources.resources
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\CardsDeck.csproj.GenerateResource.Cache
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\CardsDeck.exe
+C:\GCS\Source\csharp\CardsDeck\CardsDeck\obj\Debug\CardsDeck.pdb

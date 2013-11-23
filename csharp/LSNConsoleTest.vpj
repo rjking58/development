@@ -1,0 +1,23 @@
+[GLOBAL]
+workingdir=.
+version=7.0
+packname=Microsoft Visual Studio  >= 7.0 C#
+MACRO=\n
+[CONFIGURATIONS]
+config=,Release
+[COMPILER.Release]
+make=copts: concur|capture|saveworkspacefiles|menu: Build:&Buildcmd: devenv "%w" /build "%b" /project "%rm"otheropts: 
+rebuild=copts: concur|capture|saveworkspacefiles|menu: Rebuild:&Rebuildcmd: devenv "%rm" /rebuild "%b"otheropts: 
+debug=copts: |menu: Debug:&Debugcmd: devenv "%w"otheropts: 
+execute=copts: |menu: Execute:E&xecutecmd: "%boLSNConsoleTest.exe"otheropts: 
+usertool_resource_editor=copts: |saveworkspacefiles|hide|menu: Resource Editor:Resource Editorcmd: devenvotheropts: 
+usertool_build_solution=copts: concur|capture|saveworkspacefiles|hide|menu: Build Soluttion:Build Solutioncmd: devenv "%w" /build "%b"otheropts: 
+includedirs=%(INCLUDE)
+sysincludedirs=
+reffile=
+libs=
+outputfile=
+prebuildcmds=
+postbuildcmds=
+stoponprebuilderrors=0
+stoponpostbuilderrors=0

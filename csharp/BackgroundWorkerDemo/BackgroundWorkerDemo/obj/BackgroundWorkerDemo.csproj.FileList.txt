@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BackgroundWorkerDemo.Properties.Resources.resources
+obj\Debug\BackgroundWorkerDemo.csproj.GenerateResource.Cache
+bin\Debug\BackgroundWorkerDemo.exe
+bin\Debug\BackgroundWorkerDemo.pdb
+obj\Debug\BackgroundWorkerDemo.exe
+obj\Debug\BackgroundWorkerDemo.pdb
+obj\Debug\BackgroundWorkerDemo.FibonacciForm.resources

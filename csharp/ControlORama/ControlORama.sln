@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "http://192.168.0.199/ASPNetStepByStep/Chap3/ControlORama/", "http://192.168.0.199/ASPNetStepByStep/Chap3/ControlORama", "{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{3BF885AD-5069-46EF-91FC-81641FBF97B4}|CustomControlLib.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ControlORama"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap3\ControlORama\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ControlORama\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ControlORama"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap3\ControlORama\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ControlORama\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\..\..\Volatile\SOURCE\ASP\stepByStep\Chap3\ControlORama\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControlLib", "CustomControlLib\CustomControlLib.csproj", "{3BF885AD-5069-46EF-91FC-81641FBF97B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Debug|.NET.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Debug|.NET.Build.0 = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Release|.NET.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Release|.NET.Build.0 = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{080BD871-A9E9-4E2F-8EA7-90FB36BEBC20}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Release|.NET.ActiveCfg = Release|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3BF885AD-5069-46EF-91FC-81641FBF97B4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

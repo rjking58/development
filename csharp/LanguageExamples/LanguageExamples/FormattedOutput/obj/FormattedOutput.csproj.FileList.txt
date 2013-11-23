@@ -1,0 +1,5 @@
+bin\Debug\FormattedOutput.exe
+bin\Debug\FormattedOutput.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FormattedOutput.exe
+obj\Debug\FormattedOutput.pdb

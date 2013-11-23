@@ -1,0 +1,5 @@
+bin\Debug\SQLServerDataConnect.exe
+bin\Debug\SQLServerDataConnect.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\SQLServerDataConnect.exe
+obj\Debug\SQLServerDataConnect.pdb

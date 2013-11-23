@@ -1,0 +1,5 @@
+C:\Development\SOURCE\csharp\IEnumerableTest\IEnumerableTestProg\IEnumerableTestProg\bin\Debug\IEnumerableTestProg.exe
+C:\Development\SOURCE\csharp\IEnumerableTest\IEnumerableTestProg\IEnumerableTestProg\bin\Debug\IEnumerableTestProg.pdb
+C:\Development\SOURCE\csharp\IEnumerableTest\IEnumerableTestProg\IEnumerableTestProg\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\IEnumerableTest\IEnumerableTestProg\IEnumerableTestProg\obj\Debug\IEnumerableTestProg.exe
+C:\Development\SOURCE\csharp\IEnumerableTest\IEnumerableTestProg\IEnumerableTestProg\obj\Debug\IEnumerableTestProg.pdb

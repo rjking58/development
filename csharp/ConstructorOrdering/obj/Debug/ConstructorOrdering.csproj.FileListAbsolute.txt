@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\obj\Debug\ConstructorOrdering.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\bin\Debug\ConstructorOrdering.exe
+C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\bin\Debug\ConstructorOrdering.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\ConstructorOrdering\obj\Debug\ConstructorOrdering.exe

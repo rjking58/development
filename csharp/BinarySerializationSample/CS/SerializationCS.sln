@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationCS", "Serialization\SerializationCS.csproj", "{68CC60F9-5F6C-4819-BD32-BCA206070FA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C73D6386-735A-45A7-B387-6260FBD08F2C}"
+	ProjectSection(SolutionItems) = preProject
+		..\Readme.htm = ..\Readme.htm
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialize2", "Serialize2\Serialize2.csproj", "{60A7462F-1646-4F65-B32B-3535AD3785E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68CC60F9-5F6C-4819-BD32-BCA206070FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CC60F9-5F6C-4819-BD32-BCA206070FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CC60F9-5F6C-4819-BD32-BCA206070FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CC60F9-5F6C-4819-BD32-BCA206070FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60A7462F-1646-4F65-B32B-3535AD3785E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60A7462F-1646-4F65-B32B-3535AD3785E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60A7462F-1646-4F65-B32B-3535AD3785E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60A7462F-1646-4F65-B32B-3535AD3785E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

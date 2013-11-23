@@ -1,0 +1,8 @@
+20070208094710 Current: Exec_Main Ret Code: 0 Next: Exec_OSRequirement
+20070208094710 Current: Exec_OSRequirement Ret Code: 0 Next: Exec_Qualifier
+20070208094711 Current: Exec_Qualifier Ret Code: 0 Next: Exec_ExtractSource
+20070208094829 Current: Exec_ExtractSource Ret Code: 3 Next: Exec_CheckCancelFlag
+20070208094829 Current: Exec_CheckCancelFlag Ret Code: 0 Next: Exec_Installer
+20070208094831 Current: Exec_Installer Ret Code: 0 Next: Exec_Status
+20070208094835 Current: Exec_Status Ret Code: 0 Next: Exec_Pkg_Cleanup
+20070208094836 Current: Exec_Pkg_Cleanup Ret Code: 0 Next: EOF

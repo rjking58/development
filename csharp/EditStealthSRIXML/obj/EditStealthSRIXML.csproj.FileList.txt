@@ -1,0 +1,8 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\EditStealthSRIXML.Form1.resources
+obj\Debug\EditStealthSRIXML.Properties.Resources.resources
+obj\Debug\EditStealthSRIXML.csproj.GenerateResource.Cache
+bin\Debug\EditStealthSRIXML.exe
+bin\Debug\EditStealthSRIXML.pdb
+obj\Debug\EditStealthSRIXML.exe
+obj\Debug\EditStealthSRIXML.pdb

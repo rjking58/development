@@ -1,0 +1,29 @@
+[Global]
+CurrentProject=BinSearch.vpj
+[ActiveConfig]
+BinSearch.vpj=,Debug|AnyCPU
+[ProjectDates]
+BinSearch.csproj=20080128173025519
+[TreeExpansion2]
+- BinSearch.csproj
+  + Properties
+scroll:0
+[State]
+SCREEN: 1280 1024 1332 78 960 685 0 0 M 0 0 0 0 1253 702
+CWD: ..\BinSearch
+BUFFER: BN="Program.cs"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C#	HM=0 MF=131688 TL=0 MLL=0 ASE=0 LNL=6 LCF=2 CAPS=0 E=71 ESBU2=-1
+VIEW: LN=.2984 CL=1 LE=0 CX=0 CY=30 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 29 1077 470 -1 -1 M  WF=0 WT=1 "Default Unicode Font,10,0,1"
+BUFFER: BN="Program.cs"
+VIEW: LN=.2984 CL=1 LE=0 CX=7 CY=30 WI=107 BI=17 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\XMLTestReader_Tests.cs
+\WINDOWS\system32\drivers\etc\hosts
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\TestData\TextResults\DuplicateDeviceAddTest.txt
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\TestData\BlessedDuplicateDeviceAddTest.txt
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\TestData\TextResults\DeleteDuplicateDevicesTest.txt
+\src\Products\EzWebApp\EzWebApp\xx
+\src\Products\EzWebApp\Libraries\EzDvcEditCore\UnitTests\TestData\yy
+\Documents and Settings\rking\My Documents\weee.rpt
+Program.cs

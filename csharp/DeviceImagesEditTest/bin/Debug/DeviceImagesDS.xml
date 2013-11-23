@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<DeviceImagesDS>
+  <Keys DBDevType="1" DBDevID="1" Mode="1" KeyCd="12" OutRon="14" Key_fk="1" Label="1-1-key1" Active="true" UserLocked="false" ServiceLocked="false" />
+  <Keys DBDevType="1" DBDevID="1" Mode="1" KeyCd="15" OutRon="17" Key_fk="2" Label="1-1-key2" Active="true" UserLocked="false" ServiceLocked="false" />
+  <Keys DBDevType="1" DBDevID="1" Mode="1" KeyCd="30" OutRon="32" Key_fk="3" Label="1-1-key3" Active="true" UserLocked="false" ServiceLocked="false" />
+  <Keys DBDevType="1" DBDevID="2" Mode="2" KeyCd="40" OutRon="42" Key_fk="4" Label="1-2-key1" Active="true" UserLocked="true" ServiceLocked="false" />
+  <Keys DBDevType="1" DBDevID="2" Mode="2" KeyCd="51" OutRon="53" Key_fk="5" Label="1-2-key2" Active="true" UserLocked="true" ServiceLocked="false" />
+  <Keys DBDevType="1" DBDevID="2" Mode="2" KeyCd="65" OutRon="67" Key_fk="6" Label="1-2-key3" Active="true" UserLocked="true" ServiceLocked="false" />
+  <Devices DBDevType="1" DBDevID="1" ModeNumber="1" ExecutorNumber="1" Executor_fk="1" label="first" Active="true" UserLocked="false" ServiceLocked="false" />
+  <Devices DBDevType="1" DBDevID="2" ModeNumber="1" ExecutorNumber="2" Executor_fk="2" label="second" Active="true" UserLocked="false" ServiceLocked="false" />
+  <Executors ExecutorCode="1" Executor_fk="1" CodeOrder="1" />
+  <Executors ExecutorCode="2" Executor_fk="1" CodeOrder="2" />
+  <Executors ExecutorCode="3" Executor_fk="1" CodeOrder="3" />
+  <Executors ExecutorCode="4" Executor_fk="1" CodeOrder="4" />
+  <Executors ExecutorCode="5" Executor_fk="1" CodeOrder="5" />
+  <Executors ExecutorCode="6" Executor_fk="1" CodeOrder="6" />
+  <Executors ExecutorCode="7" Executor_fk="1" CodeOrder="7" />
+  <Executors ExecutorCode="8" Executor_fk="1" CodeOrder="8" />
+  <Executors ExecutorCode="9" Executor_fk="1" CodeOrder="9" />
+  <Executors ExecutorCode="10" Executor_fk="1" CodeOrder="10" />
+  <Executors ExecutorCode="20" Executor_fk="2" CodeOrder="11" />
+  <Executors ExecutorCode="22" Executor_fk="2" CodeOrder="12" />
+  <Executors ExecutorCode="24" Executor_fk="2" CodeOrder="13" />
+  <Executors ExecutorCode="26" Executor_fk="2" CodeOrder="14" />
+  <Executors ExecutorCode="28" Executor_fk="2" CodeOrder="15" />
+  <Executors ExecutorCode="30" Executor_fk="2" CodeOrder="16" />
+  <KeyIRs KeyIRCode="11" Key_fk="1" CodeOrder="1" />
+  <KeyIRs KeyIRCode="12" Key_fk="1" CodeOrder="2" />
+  <KeyIRs KeyIRCode="13" Key_fk="1" CodeOrder="3" />
+  <KeyIRs KeyIRCode="14" Key_fk="1" CodeOrder="4" />
+  <KeyIRs KeyIRCode="15" Key_fk="1" CodeOrder="5" />
+  <KeyIRs KeyIRCode="30" Key_fk="2" CodeOrder="6" />
+  <KeyIRs KeyIRCode="31" Key_fk="2" CodeOrder="7" />
+  <KeyIRs KeyIRCode="32" Key_fk="2" CodeOrder="8" />
+  <KeyIRs KeyIRCode="33" Key_fk="2" CodeOrder="9" />
+  <KeyIRs KeyIRCode="34" Key_fk="2" CodeOrder="10" />
+  <KeyIRs KeyIRCode="40" Key_fk="3" CodeOrder="11" />
+  <KeyIRs KeyIRCode="41" Key_fk="3" CodeOrder="12" />
+  <KeyIRs KeyIRCode="42" Key_fk="3" CodeOrder="13" />
+  <KeyIRs KeyIRCode="43" Key_fk="3" CodeOrder="14" />
+  <KeyIRs KeyIRCode="44" Key_fk="3" CodeOrder="15" />
+  <KeyIRs KeyIRCode="45" Key_fk="3" CodeOrder="16" />
+  <KeyIRs KeyIRCode="11" Key_fk="4" CodeOrder="17" />
+  <KeyIRs KeyIRCode="12" Key_fk="4" CodeOrder="18" />
+  <KeyIRs KeyIRCode="13" Key_fk="4" CodeOrder="19" />
+  <KeyIRs KeyIRCode="14" Key_fk="4" CodeOrder="20" />
+  <KeyIRs KeyIRCode="15" Key_fk="4" CodeOrder="21" />
+  <KeyIRs KeyIRCode="30" Key_fk="5" CodeOrder="22" />
+  <KeyIRs KeyIRCode="31" Key_fk="5" CodeOrder="23" />
+  <KeyIRs KeyIRCode="32" Key_fk="5" CodeOrder="24" />
+  <KeyIRs KeyIRCode="33" Key_fk="5" CodeOrder="25" />
+  <KeyIRs KeyIRCode="34" Key_fk="5" CodeOrder="26" />
+  <KeyIRs KeyIRCode="40" Key_fk="6" CodeOrder="27" />
+  <KeyIRs KeyIRCode="41" Key_fk="6" CodeOrder="28" />
+  <KeyIRs KeyIRCode="42" Key_fk="6" CodeOrder="29" />
+  <KeyIRs KeyIRCode="43" Key_fk="6" CodeOrder="30" />
+  <KeyIRs KeyIRCode="44" Key_fk="6" CodeOrder="31" />
+  <KeyIRs KeyIRCode="45" Key_fk="6" CodeOrder="32" />
+</DeviceImagesDS>

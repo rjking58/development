@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D6C01C63-085F-4961-B00F-3812FFDC4F80}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BXMLToBinaryExample</RootNamespace>
+    <AssemblyName>BXMLToBinaryExample</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BinaryFileContext.cs" />
+    <Compile Include="IDAndName.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TagNames.cs" />
+    <Compile Include="TagParsingContext.cs" />
+    <Compile Include="TagParsingContext_ACTIVITES.cs" />
+    <Compile Include="TagParsingContext_ACTIVITY.cs" />
+    <Compile Include="TagParsingContext_BRAND.cs" />
+    <Compile Include="TagParsingContext_CHANNELNUMBER.cs" />
+    <Compile Include="TagParsingContext_CODESET.cs" />
+    <Compile Include="TagParsingContext_DEVICE.cs" />
+    <Compile Include="TagParsingContext_DEVICEID.cs" />
+    <Compile Include="TagParsingContext_DEVICES.cs" />
+    <Compile Include="TagParsingContext_ENTERKEY.cs" />
+    <Compile Include="TagParsingContext_EXECUTOR.cs" />
+    <Compile Include="TagParsingContext_FAVORITE.cs" />
+    <Compile Include="TagParsingContext_FAVORITES.cs" />
+    <Compile Include="TagParsingContext_FAVORITEWIDTH.cs" />
+    <Compile Include="TagParsingContext_HOME.cs" />
+    <Compile Include="TagParsingContext_ICONREF.cs" />
+    <Compile Include="TagParsingContext_KEYFLAGS.cs" />
+    <Compile Include="TagParsingContext_KEYID.cs" />
+    <Compile Include="TagParsingContext_KEYIRCODES.cs" />
+    <Compile Include="TagParsingContext_KEYMAP.cs" />
+    <Compile Include="TagParsingContext_LEARNEDKEY.cs" />
+    <Compile Include="TagParsingContext_MACRO.cs" />
+    <Compile Include="TagParsingContext_MACROPAIR.cs" />
+    <Compile Include="TagParsingContext_MODEL.cs" />
+    <Compile Include="TagParsingContext_MOREDEVICES_TOTEST.cs" />
+    <Compile Include="TagParsingContext_NAME8.cs" />
+    <Compile Include="TagParsingContext_NEWDEVICE.cs" />
+    <Compile Include="TagParsingContext_OBJCODE.cs" />
+    <Compile Include="TagParsingContext_OEMLOCK.cs" />
+    <Compile Include="TagParsingContext_PREFIX.cs" />
+    <Compile Include="TagParsingContext_PROFILE.cs" />
+    <Compile Include="TagParsingContext_PROFILEINDEX.cs" />
+    <Compile Include="TagParsingContext_PROFILES.cs" />
+    <Compile Include="TagParsingContext_PUNCHTHRUMAP.cs" />
+    <Compile Include="TagParsingContext_PUNCHTHRUSPEC.cs" />
+    <Compile Include="TagParsingContext_ROOT.cs" />
+    <Compile Include="TagParsingContext_SNSTEST.cs" />
+    <Compile Include="TagParsingContext_SYNTHESIZERCODE.cs" />
+    <Compile Include="TagParsingContext_SYNTHESIZERKEY.cs" />
+    <Compile Include="TagParsingContext_USERLOCK.cs" />
+    <Compile Include="TagParsingContext_VOLUMELOCK.cs" />
+    <Compile Include="TagParsingContext_VOLUMEMASTER.cs" />
+    <Compile Include="TagParsingDirector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="overallStructure.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

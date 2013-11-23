@@ -1,0 +1,5 @@
+bin\Debug\DataSetScaleDeleteTest1.exe
+bin\Debug\DataSetScaleDeleteTest1.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DataSetScaleDeleteTest1.exe
+obj\Debug\DataSetScaleDeleteTest1.pdb

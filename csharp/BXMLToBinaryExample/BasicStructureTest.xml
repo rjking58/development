@@ -1,0 +1,175 @@
+<root>
+    <home>
+        <devices>devices.xcf
+            <device>01device#1
+                <volumemaster></volumemaster>
+                <volumelock></volumelock>
+                <userlock></userlock>
+                <oemlock></oemlock>
+                <deviceID>23</deviceID>
+                <brand>Sony</brand>
+                <model>TV x </model>
+                <iconref>12</iconref>
+                <enterkey>44</enterkey>
+                <favoritewidth>04</favoritewidth>
+                <codeset>T0004
+                    <executor>007e
+                        <objcode>04ff</objcode>
+                    </executor>
+                    <prefix>99000130</prefix>
+                    <keymap>44
+                        <keyid>2233</keyid>
+                        <keyflags>1F2E</keyflags>
+                        <keyircodes>12345678</keyircodes>
+                        <name8>wee</name8>
+                        <iconref>04</iconref>
+                    </keymap>
+                    <keymap>55
+                        <keyid>4455</keyid>
+                        <keyflags>3D4C</keyflags>
+                        <keyircodes>9abcdef0</keyircodes>
+                        <name8>woohoo</name8>
+                        <iconref>72</iconref>
+                    </keymap>
+                    <keymap>66
+                        <keyid>6677</keyid>
+                        <keyflags>5B6A</keyflags>
+                        <keyircodes>ffeeccdd</keyircodes>
+                    </keymap>
+                </codeset>
+                <learnedkey>f4
+                    <objcode>202122232425262728</objcode>
+                </learnedkey>
+                <synthesizerkey>12
+                    <synthesizercode>22446688</synthesizercode>
+                </synthesizerkey >
+            </device>
+        </devices>
+
+        <favorites>favorites.xcf
+            <favorite>01fave#1
+                <deviceID>01</deviceID>
+                <deviceID>02</deviceID>
+                <profileindex>10</profileindex>
+                <iconref>BB</iconref>
+                <channelnumber>fffefdfcfbfa</channelnumber>
+            </favorite>
+            <favorite>02fave#2
+                <deviceID>01</deviceID>
+                <deviceID>03</deviceID>
+                <profileindex>11</profileindex>
+                <iconref>CC</iconref>
+                <channelnumber>efeeedecebea</channelnumber>
+            </favorite>
+        </favorites>
+
+        <activities>activities.xcf
+            <activity>01first activity
+                <iconref>aa</iconref>
+                <macro>
+                    <macropair>0130</macropair>
+                    <macropair>0132</macropair>
+                    <macropair>0345</macropair>
+                </macro>
+                <punchthrumap>
+                    <punchthruspec>010510
+                        <name8>yikes</name8>
+                        <iconref>91</iconref>
+                    </punchthruspec>
+                    <punchthruspec>020611
+                        <name8>kazowie</name8>
+                        <iconref>88</iconref>
+                    </punchthruspec>
+                </punchthrumap>
+            </activity>
+        </activities>
+ 
+        <profiles>profiles.xcf
+            <profile>01mom
+                <punchthrumap>
+                    <punchthruspec>010510
+                        <name8>yikes</name8>
+                        <iconref>91</iconref>
+                    </punchthruspec>
+                    <punchthruspec>020611
+                        <name8>kazowie</name8>
+                        <iconref>88</iconref>
+                    </punchthruspec>
+                </punchthrumap>
+            </profile>
+            <profile>02dad
+                <punchthrumap>
+                    <punchthruspec>010510
+                        <name8>yikes</name8>
+                        <iconref>91</iconref>
+                    </punchthruspec>
+                    <punchthruspec>020611
+                        <name8>kazowie</name8>
+                        <iconref>88</iconref>
+                    </punchthruspec>
+                </punchthrumap>
+            </profile>
+            <profile>03dog
+                <punchthrumap>
+                    <punchthruspec>010510
+                        <name8>yikes</name8>
+                        <iconref>91</iconref>
+                    </punchthruspec>
+                    <punchthruspec>020611
+                        <name8>kazowie</name8>
+                        <iconref>88</iconref>
+                    </punchthruspec>
+                </punchthrumap>
+            </profile>
+        </profiles>
+    </home>
+
+<snstest>snstest.xcf
+	<moredevices_totest></moredevices_totest>
+	<newdevice>03</newdevice>
+    <device>01device#2
+		<volumemaster></volumemaster>
+		<volumelock></volumelock>
+		<userlock></userlock>
+		<oemlock></oemlock>
+		<deviceID>77</deviceID>
+		<brand>  Toshiba  </brand>
+		<model>DVD Y</model>
+		<iconref>11</iconref>
+		<codeset>V0050
+			<executor>42FF
+				<objcode>0102030405060708090a0b0c0d0E0F101112131415161718191a1b1c1d1e1f2021222324252627282930</objcode>
+			</executor>
+			<prefix>3390FF3b</prefix>
+			<keymap>77
+                <keyid>ffee</keyid>
+                <keyflags>7988</keyflags>
+                <keyircodes>667788</keyircodes>
+                <name8>goober</name8>
+                <iconref>33</iconref>
+            </keymap>
+			<keymap>88
+                <keyid>ddcc</keyid>
+                <keyflags>97a6</keyflags>
+                <keyircodes>99aabb</keyircodes>
+                <name8>sneeze</name8>
+                <iconref>DD</iconref>
+            </keymap>
+			<keymap>aa
+                <keyid>bbaa</keyid>
+                <keyflags>b5c4ccddaa</keyflags>
+                <keyircodes>112234</keyircodes>
+            </keymap>
+		</codeset>
+		<learnedkey>ed
+			<objcode>4445464748494a4b4c4d4e4fff</objcode>
+		</learnedkey>
+		<synthesizerkey>21
+			<synthesizercode>ffbbddaa</synthesizercode>
+		</synthesizerkey >
+
+    </device>
+</snstest>
+
+</root>
+

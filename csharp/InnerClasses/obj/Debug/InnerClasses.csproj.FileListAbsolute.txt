@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\InnerClasses\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\InnerClasses\bin\Debug\InnerClasses.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\InnerClasses\obj\Debug\InnerClasses.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\InnerClasses\bin\Debug\InnerClasses.exe
+C:\Volatile\Source\csharp2\vs2005Projs\InnerClasses\obj\Debug\InnerClasses.exe

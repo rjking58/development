@@ -1,0 +1,8 @@
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\EditStealthImageXML.exe
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\EditStealthImageXML.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\bin\Debug\EditStealthImageXML.exe
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\bin\Debug\EditStealthImageXML.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\EditStealthImageXML.Form1.resources
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\EditStealthImageXML.Properties.Resources.resources
+C:\Volatile\Source\csharp2\vs2005Projs\EditStealthImageXML\obj\Debug\EditStealthImageXML.csproj.GenerateResource.Cache

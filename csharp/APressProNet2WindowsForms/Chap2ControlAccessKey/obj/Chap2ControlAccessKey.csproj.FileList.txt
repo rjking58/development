@@ -1,0 +1,8 @@
+bin\Debug\Chap2ControlAccessKey.exe
+bin\Debug\Chap2ControlAccessKey.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Chap2ControlAccessKey.Form1.resources
+obj\Debug\Chap2ControlAccessKey.Properties.Resources.resources
+obj\Debug\Chap2ControlAccessKey.csproj.GenerateResource.Cache
+obj\Debug\Chap2ControlAccessKey.exe
+obj\Debug\Chap2ControlAccessKey.pdb

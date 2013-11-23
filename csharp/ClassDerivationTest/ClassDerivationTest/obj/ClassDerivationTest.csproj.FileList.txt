@@ -1,0 +1,5 @@
+bin\Debug\ClassDerivationTest.exe
+bin\Debug\ClassDerivationTest.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ClassDerivationTest.exe
+obj\Debug\ClassDerivationTest.pdb

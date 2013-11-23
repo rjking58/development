@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\StreamWriterDemo\obj\Debug\StreamWriterDemo.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\StreamWriterDemo\obj\Debug\StreamWriterDemo.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\StreamWriterDemo\bin\Debug\StreamWriterDemo.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\StreamWriterDemo\bin\Debug\StreamWriterDemo.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\StreamWriterDemo\obj\Debug\ResolveAssemblyReference.cache

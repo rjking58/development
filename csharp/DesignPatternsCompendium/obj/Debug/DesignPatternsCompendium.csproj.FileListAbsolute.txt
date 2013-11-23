@@ -1,0 +1,10 @@
+C:\GCS\Source\csharp\DesignPatternsCompendium\bin\Debug\DesignPatternsCompendium.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\bin\Debug\DesignPatternsCompendium.pdb
+C:\GCS\Source\csharp\DesignPatternsCompendium\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\DesignPatternsCompendium\obj\Debug\DesignPatternsCompendium.exe
+C:\GCS\Source\csharp\DesignPatternsCompendium\obj\Debug\DesignPatternsCompendium.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\bin\Debug\DesignPatternsCompendium.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\bin\Debug\DesignPatternsCompendium.pdb
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\obj\Debug\DesignPatternsCompendium.exe
+C:\Development\SOURCE\csharp\DesignPatternsCompendium\obj\Debug\DesignPatternsCompendium.pdb

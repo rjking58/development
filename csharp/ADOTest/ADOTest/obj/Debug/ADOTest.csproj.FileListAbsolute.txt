@@ -1,0 +1,6 @@
+C:\GCS\Source\csharp\ADOTest\ADOTest\bin\Debug\ADOTest.exe.config
+C:\GCS\Source\csharp\ADOTest\ADOTest\bin\Debug\ADOTest.exe
+C:\GCS\Source\csharp\ADOTest\ADOTest\bin\Debug\ADOTest.pdb
+C:\GCS\Source\csharp\ADOTest\ADOTest\obj\Debug\ResolveAssemblyReference.cache
+C:\GCS\Source\csharp\ADOTest\ADOTest\obj\Debug\ADOTest.exe
+C:\GCS\Source\csharp\ADOTest\ADOTest\obj\Debug\ADOTest.pdb

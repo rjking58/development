@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\FinalizeAndDispose\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\FinalizeAndDispose\bin\Debug\FinalizeAndDispose.exe
+C:\Volatile\Source\csharp2\vs2005Projs\FinalizeAndDispose\bin\Debug\FinalizeAndDispose.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\FinalizeAndDispose\obj\Debug\FinalizeAndDispose.exe
+C:\Volatile\Source\csharp2\vs2005Projs\FinalizeAndDispose\obj\Debug\FinalizeAndDispose.pdb

@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\MethodRefAndOut\bin\Debug\MethodRefAndOut.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\MethodRefAndOut\bin\Debug\MethodRefAndOut.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\MethodRefAndOut\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\MethodRefAndOut\obj\Debug\MethodRefAndOut.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\MethodRefAndOut\obj\Debug\MethodRefAndOut.pdb

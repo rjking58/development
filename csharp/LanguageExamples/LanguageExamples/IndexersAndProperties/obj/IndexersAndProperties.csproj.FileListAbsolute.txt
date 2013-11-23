@@ -1,0 +1,5 @@
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\IndexersAndProperties\bin\Debug\IndexersAndProperties.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\IndexersAndProperties\bin\Debug\IndexersAndProperties.pdb
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\IndexersAndProperties\obj\Debug\ResolveAssemblyReference.cache
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\IndexersAndProperties\obj\Debug\IndexersAndProperties.exe
+C:\Volatile\Source\csharp2\vs2005Projs\LanguageExamples\LanguageExamples\IndexersAndProperties\obj\Debug\IndexersAndProperties.pdb
