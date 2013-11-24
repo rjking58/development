@@ -1,0 +1,5 @@
+C:\Development\localGit\csharp\WinDBGTestPrograms\WinDBGTestPrograms\bin\Debug\WinDBGTestPrograms.exe
+C:\Development\localGit\csharp\WinDBGTestPrograms\WinDBGTestPrograms\bin\Debug\WinDBGTestPrograms.pdb
+C:\Development\localGit\csharp\WinDBGTestPrograms\WinDBGTestPrograms\obj\x86\Debug\WinDBGTestPrograms.csprojResolveAssemblyReference.cache
+C:\Development\localGit\csharp\WinDBGTestPrograms\WinDBGTestPrograms\obj\x86\Debug\WinDBGTestPrograms.exe
+C:\Development\localGit\csharp\WinDBGTestPrograms\WinDBGTestPrograms\obj\x86\Debug\WinDBGTestPrograms.pdb
