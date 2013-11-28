@@ -1,0 +1,4 @@
+C:\Development\localGit\csharp\ReflectionLearn\ReflectionLearn\bin\Debug\ReflectionLearn.exe
+C:\Development\localGit\csharp\ReflectionLearn\ReflectionLearn\bin\Debug\ReflectionLearn.pdb
+C:\Development\localGit\csharp\ReflectionLearn\ReflectionLearn\obj\x86\Debug\ReflectionLearn.exe
+C:\Development\localGit\csharp\ReflectionLearn\ReflectionLearn\obj\x86\Debug\ReflectionLearn.pdb
