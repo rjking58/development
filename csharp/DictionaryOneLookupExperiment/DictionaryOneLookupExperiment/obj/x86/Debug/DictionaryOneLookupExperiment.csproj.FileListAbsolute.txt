@@ -1,0 +1,4 @@
+C:\Development\localGit\csharp\DictionaryOneLookupExperiment\DictionaryOneLookupExperiment\bin\Debug\DictionaryOneLookupExperiment.exe
+C:\Development\localGit\csharp\DictionaryOneLookupExperiment\DictionaryOneLookupExperiment\bin\Debug\DictionaryOneLookupExperiment.pdb
+C:\Development\localGit\csharp\DictionaryOneLookupExperiment\DictionaryOneLookupExperiment\obj\x86\Debug\DictionaryOneLookupExperiment.exe
+C:\Development\localGit\csharp\DictionaryOneLookupExperiment\DictionaryOneLookupExperiment\obj\x86\Debug\DictionaryOneLookupExperiment.pdb
