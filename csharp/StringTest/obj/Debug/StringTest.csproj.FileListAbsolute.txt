@@ -1,0 +1,5 @@
+C:\Volatile\Development\Source\csharp\StringTest\obj\Debug\StringTest.pdb
+C:\Volatile\Development\Source\csharp\StringTest\bin\Debug\StringTest.exe
+C:\Volatile\Development\Source\csharp\StringTest\bin\Debug\StringTest.pdb
+C:\Volatile\Development\Source\csharp\StringTest\obj\Debug\StringTest.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\StringTest\obj\Debug\StringTest.exe

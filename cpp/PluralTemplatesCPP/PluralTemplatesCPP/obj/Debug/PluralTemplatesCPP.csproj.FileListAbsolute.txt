@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\cpp\PluralTemplatesCPP\PluralTemplatesCPP\bin\Debug\PluralTemplatesCPP.exe.config
+C:\Volatile\Development\Source\cpp\PluralTemplatesCPP\PluralTemplatesCPP\obj\Debug\PluralTemplatesCPP.csprojResolveAssemblyReference.cache

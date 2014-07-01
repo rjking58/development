@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseInPlace", "ReverseInPlace.vcproj", "{6D5688C5-15EF-4167-A84D-F008B2B66097}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6D5688C5-15EF-4167-A84D-F008B2B66097}.Debug.ActiveCfg = Debug|Win32
+		{6D5688C5-15EF-4167-A84D-F008B2B66097}.Debug.Build.0 = Debug|Win32
+		{6D5688C5-15EF-4167-A84D-F008B2B66097}.Release.ActiveCfg = Release|Win32
+		{6D5688C5-15EF-4167-A84D-F008B2B66097}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

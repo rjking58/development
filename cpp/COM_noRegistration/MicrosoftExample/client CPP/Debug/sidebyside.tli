@@ -1,0 +1,19 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.51106.1 (d4ba7547).
+//
+// c:\volatile\development\source\cpp\com_noregistration\microsoftexample\client cpp\debug\sidebyside.tli
+//
+// Wrapper implementations for Win32 type library ..\deployed\SideBySide.dll
+// compiler-generated file created 06/25/14 at 13:00:36 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface ISideBySideClass wrapper method implementations
+//
+
+inline _bstr_t ISideBySideClass::Version ( ) {
+    BSTR _result = 0;
+    HRESULT _hr = raw_Version(&_result);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _bstr_t(_result, false);
+}

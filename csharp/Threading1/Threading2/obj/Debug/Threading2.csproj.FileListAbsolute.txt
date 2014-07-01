@@ -3,3 +3,5 @@ C:\Development\SOURCE\csharp\Threading1\Threading2\bin\Debug\Threading2.exe
 C:\Development\SOURCE\csharp\Threading1\Threading2\bin\Debug\Threading2.pdb
 C:\Development\SOURCE\csharp\Threading1\Threading2\obj\Debug\ResolveAssemblyReference.cache
 C:\Development\SOURCE\csharp\Threading1\Threading2\obj\Debug\Threading2.exe
+C:\Volatile\Development\Source\csharp\Threading1\Threading2\obj\Debug\Threading2.exe
+C:\Volatile\Development\Source\csharp\Threading1\Threading2\obj\Debug\Threading2.pdb

@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\directUseDLL\bin\Debug\directUseDLL.dll
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\directUseDLL\bin\Debug\directUseDLL.pdb
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\directUseDLL\obj\Debug\directUseDLL.dll
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\directUseDLL\obj\Debug\directUseDLL.pdb

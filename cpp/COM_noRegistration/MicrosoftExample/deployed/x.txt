@@ -1,0 +1,46 @@
+﻿=================
+Begin Activation Context Generation.
+Input Parameter:
+	Flags = 0
+	ProcessorArchitecture = Wow32
+	CultureFallBacks = en-US;en
+	ManifestPath = C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\client.exe.Manifest
+	AssemblyDirectory = C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\
+	Application Config File = 
+-----------------
+INFO: Parsing Manifest File C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\client.exe.Manifest.
+	INFO: Manifest Definition Identity is client,type="win32",version="1.0.0.0".
+	INFO: Reference: SideBySide.X,type="win32",version="1.0.0.0"
+INFO: Resolving reference SideBySide.X,type="win32",version="1.0.0.0".
+	INFO: Resolving reference for ProcessorArchitecture SideBySide.X,type="win32",version="1.0.0.0".
+		INFO: Resolving reference for culture Neutral.
+			INFO: Applying Binding Policy.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Attempt to probe manifest at C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\SideBySide.X.DLL.
+				INFO: Attempt to probe manifest at C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\SideBySide.X.MANIFEST.
+				INFO: Manifest found at C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\SideBySide.X.MANIFEST.
+			INFO: End assembly probing.
+INFO: Resolving reference SideBySide.X.mui,language="&#x2a;",type="win32",version="1.0.0.0".
+	INFO: Resolving reference for ProcessorArchitecture SideBySide.X.mui,language="&#x2a;",type="win32",version="1.0.0.0".
+		INFO: Resolving reference for culture en-US.
+			INFO: Applying Binding Policy.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Did not find manifest for culture en-US.
+			INFO: End assembly probing.
+		INFO: Resolving reference for culture en.
+			INFO: Applying Binding Policy.
+				INFO: No binding policy redirect found.
+			INFO: Begin assembly probing.
+				INFO: Did not find the assembly in WinSxS.
+				INFO: Did not find manifest for culture en.
+			INFO: End assembly probing.
+INFO: Parsing Manifest File C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\deployed\SideBySide.X.MANIFEST.
+	INFO: Manifest Definition Identity is SideBySide.X,type="win32",version="1.0.0.0".
+	ERROR: Line 2: The requestedPrivileges element is not allowed in the component manifest.
+ERROR: Activation Context generation failed.
+End Activation Context Generation.
+

@@ -1,0 +1,6 @@
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\bin\Debug\IntegerToShortConversion.exe.config
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\bin\Debug\IntegerToShortConversion.exe
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\bin\Debug\IntegerToShortConversion.pdb
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\obj\Debug\IntegerToShortConversion.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\obj\Debug\IntegerToShortConversion.exe
+C:\Volatile\Development\Source\csharp\IntegerToShortConversion\IntegerToShortConversion\obj\Debug\IntegerToShortConversion.pdb

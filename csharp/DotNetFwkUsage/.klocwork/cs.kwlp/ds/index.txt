@@ -1,0 +1,3 @@
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\Program.cs;C:\Volatile\Development\Source\csharp\DotNetFwkUsage\.klocwork\cs.kwlp\ds\1\mtf13sh2.fmh;1;0;0
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\App.config;;2;0;0
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\directUseDLL\Class1.cs;C:\Volatile\Development\Source\csharp\DotNetFwkUsage\.klocwork\cs.kwlp\ds\4\41mpqyme.m5t;3;0;0

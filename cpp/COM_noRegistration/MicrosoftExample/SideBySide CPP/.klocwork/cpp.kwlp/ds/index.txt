@@ -1,0 +1,15 @@
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.cpp;;7;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\dlldatax.c;;6;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySideClass.cpp;C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\.klocwork\cpp.kwlp\ds\8\m1mlvs1p.2yc;8;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\stdafx.cpp;;9;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.idl;;10;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.def;;11;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySideClass.h;;4;0;0
+c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h;;12;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\stdafx.h;C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\.klocwork\cpp.kwlp\ds\5\afemt0fv.iqo;5;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\Resource.h;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\dlldatax.h;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.X.manifest;C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\.klocwork\cpp.kwlp\ds\3\f3v4l4zs.ect;13;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.manifest;C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\.klocwork\cpp.kwlp\ds\4\40cxydwu.nki;14;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\Read.Me;;15;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\ReadMe.txt;C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\.klocwork\cpp.kwlp\ds\6\lrzx2wv2.kbd;16;0;0

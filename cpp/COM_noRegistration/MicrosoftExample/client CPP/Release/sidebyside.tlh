@@ -1,0 +1,60 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 11.00.51106.1 (48324f17).
+//
+// c:\volatile\development\source\cpp\com_noregistration\microsoftexample\client cpp\release\sidebyside.tlh
+//
+// C++ source equivalent of Win32 type library ..\deployed\SideBySide.dll
+// compiler-generated file created 06/25/14 at 14:56:29 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("e6a9cd40-8559-4e17-a0d9-c68b038b4fa0"))
+/* LIBID */ __SideBySideLib;
+struct /* coclass */ SideBySideClass;
+struct __declspec(uuid("cba85b94-9c11-43aa-84f6-30b90145fd3e"))
+/* dual interface */ ISideBySideClass;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(ISideBySideClass, __uuidof(ISideBySideClass));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("4b72fc46-c543-4101-80db-7777848d1357"))
+SideBySideClass;
+    // [ default ] interface ISideBySideClass
+
+struct __declspec(uuid("cba85b94-9c11-43aa-84f6-30b90145fd3e"))
+ISideBySideClass : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t Version ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_Version (
+        /*[out,retval]*/ BSTR * pVer ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\volatile\development\source\cpp\com_noregistration\microsoftexample\client cpp\release\sidebyside.tli"
+
+#pragma pack(pop)

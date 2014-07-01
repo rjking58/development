@@ -52,7 +52,30 @@ namespace StringTest
                 System.Console.WriteLine(offsets[curr_offset]);
             }
 
+            // strng compares..
 
+            string s1 = "aaa";
+            string s2 = "AAA";
+
+            if(String.Compare(s1,s2,true) == 0)
+            {
+                Console.WriteLine(s1 + "==" + s2 + " case insensitive");
+            }
+            else
+            {
+                Console.WriteLine("oops.. doesn't work as I expect");
+            }
+            if (String.Compare(s1, s2, false) != 0)
+            {
+                Console.WriteLine(s1 + "!=" + s2 + " case sensitive");
+            }
+            else
+            {
+                Console.WriteLine("oops.. doesn't work as I expect");
+            }
+
+            string s3 = String.Compare(s1,s2,true) == 0 ? "they are equal as case insensitive" : "they AREN'T equal as case insensitive";
+            Console.WriteLine(s3);
     		//
 			// TODO: Add code to start application here
 			//

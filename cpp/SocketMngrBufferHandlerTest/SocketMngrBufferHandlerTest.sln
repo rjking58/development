@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SocketMngrBufferHandlerTest", "SocketMngrBufferHandlerTest\SocketMngrBufferHandlerTest.vcproj", "{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300} = {8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SMUtilities", "..\..\..\..\Dev\Mobile\Orbiter_1.3\Source Code\SMUtilities\SMUtilities.vcproj", "{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://avctfs01:8080/
+		SccProjectUniqueName0 = ..\\..\\..\\..\\Dev\\Mobile\\Orbiter_1.3\\Source\u0020Code\\SMUtilities\\SMUtilities.vcproj
+		SccProjectName0 = $/orbiter/Branches/Releases/DCP-CM\u00201.3_2233p/Source\u0020Code/SMUtilities
+		SccAuxPath0 = http://avctfs01:8080
+		SccLocalPath0 = ..\\..\\..\\..\\Dev\\Mobile\\Orbiter_1.3\\Source\u0020Code\\SMUtilities
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug DLL|Win32 = Debug DLL|Win32
+		Debug|Win32 = Debug|Win32
+		Release DLL|Win32 = Release DLL|Win32
+		Release UCM Plugin|Win32 = Release UCM Plugin|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Debug DLL|Win32.ActiveCfg = Debug|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Debug DLL|Win32.Build.0 = Debug|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Debug|Win32.Build.0 = Debug|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release DLL|Win32.ActiveCfg = Release|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release DLL|Win32.Build.0 = Release|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release UCM Plugin|Win32.ActiveCfg = Release|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release UCM Plugin|Win32.Build.0 = Release|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release|Win32.ActiveCfg = Release|Win32
+		{82C31F8F-1295-4599-9E35-EAEB4A10EFA6}.Release|Win32.Build.0 = Release|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Debug DLL|Win32.ActiveCfg = Debug DLL|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Debug DLL|Win32.Build.0 = Debug DLL|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Debug|Win32.Build.0 = Debug|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release DLL|Win32.ActiveCfg = Release DLL|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release DLL|Win32.Build.0 = Release DLL|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release UCM Plugin|Win32.ActiveCfg = Release UCM Plugin|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release UCM Plugin|Win32.Build.0 = Release UCM Plugin|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release|Win32.ActiveCfg = Release|Win32
+		{8E7AB9E5-5AD9-4DBD-AF1D-74D814628300}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

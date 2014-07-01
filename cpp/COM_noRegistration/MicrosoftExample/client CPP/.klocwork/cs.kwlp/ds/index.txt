@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\client CPP\client.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\client CPP\stdafx.cpp;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\client CPP\stdafx.h;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\client CPP\client.manifest;;4;0;0

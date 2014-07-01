@@ -1,0 +1,15 @@
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\dlldatax.c;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySideClass.cpp;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\stdafx.cpp;;4;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.idl;;5;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.def;;6;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySideClass.h;;7;0;0
+c:\program files (x86)\microsoft visual studio 11.0\vc\atlmfc\include\atlwinverapi.h;;8;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\stdafx.h;;9;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\Resource.h;;10;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\dlldatax.h;;11;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.X.manifest;;12;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\SideBySide.manifest;;13;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\Read.Me;;14;0;0
+C:\Volatile\Development\Source\cpp\COM_noRegistration\MicrosoftExample\SideBySide CPP\ReadMe.txt;;15;0;0

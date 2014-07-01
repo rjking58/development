@@ -1,0 +1,1 @@
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\Program.cs;C:\Volatile\Development\Source\csharp\URITextReplaceTest\.klocwork\cs.kwlp\ds\1\uxr3tmwr.bmq;1;0;0

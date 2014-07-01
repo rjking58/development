@@ -1,33 +1,9 @@
-﻿Build started 5/17/2013 10:53:39 AM.
-     1>Project "C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\COMStringTest.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D CODE_ANALYSIS /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D _ATL_STATIC_REGISTRY /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\COMStringTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze /errorReport:prompt COMStringTest.cpp
-         COMStringTest.cpp
-     1>c:\volatile\development\source\cpp\comstringtest\comstringtest\aacombstr.h(588): warning C6387: 'argument 1' might be '0': this does not adhere to the specification for the function 'ISequentialStream::Write': Lines: 579, 583, 584, 585, 586, 588
-       ManifestResourceCompile:
-         All outputs are up-to-date.
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\COMStringTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.lib" /MACHINE:X86 Debug\COMStringTest.exe.embed.manifest.res
-         Debug\COMStringTest.obj
-         Debug\stdafx.obj
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\COMStringTest.exe.embed.manifest" /manifest Debug\COMStringTest.exe.intermediate.manifest
-         All outputs are up-to-date.
-       LinkEmbedManifest:
-         All outputs are up-to-date.
-         COMStringTest.vcxproj -> C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.exe
-       RunCodeAnalysis:
-         Running Code Analysis...
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe  /outputCulture:1033 /out:"C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.exe.CodeAnalysisLog.xml" /file:"C:\Volatile\Development\Source\cpp\COMStringTest\Debug\COMStringTest.exe" /reference:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /directory:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /ruleSet:"=AllRules.ruleset" /rulesetdirectory:"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets" /rule:"-C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules" /searchgac /ignoreinvalidtargets /forceoutput /successfile /saveMessagesToReport:Active /timeout:120 
-         Code Analysis Complete -- 0 error(s), 0 warning(s)
-       FinalizeBuildStatus:
-         Deleting file "Debug\COMStringTest.unsuccessfulbuild".
-         Touching "Debug\COMStringTest.lastbuildstate".
-     1>Done Building Project "C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.vcxproj" (build target(s)).
+﻿Build started 2/7/2014 11:02:44 AM.
+     1>Project "C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.vcxproj" on node 2 (Clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\COMStringTest.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\cpp\COMStringTest\COMStringTest\COMStringTest.vcxproj" (Clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:08.16
+Time Elapsed 00:00:00.04

@@ -1,0 +1,7 @@
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\Program.cs;;7;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\BinaryXfer.cpp;;5;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\Program.cs;;8;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\CSharpToCSharpMarshalUTs\CSharpToCSharpMarshalUTs.cs;;9;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\AssemblyInfo.cpp;;4;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\BinaryXfer\Stdafx.cpp;;6;0;0
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\CsharpToCSharpMarshall\MonitoredItemConverter.cs;;10;0;0

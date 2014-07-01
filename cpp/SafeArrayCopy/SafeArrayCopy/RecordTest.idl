@@ -1,0 +1,29 @@
+import "oaidl.idl";
+import "ocidl.idl";
+
+
+[
+    uuid(9806B26D-C0CE-442B-8ED5-6F1542B8D643),
+    version(1.0),
+    helpstring("MxDataProvider 1.0 Type Library")
+]
+
+library RecordTestLib
+{
+    typedef 
+    [ 
+        uuid(9646AAA6-DD95-408B-B427-532C31914A29),
+        version(1.0),
+        helpstring("RecordTest structure")
+    ]
+    struct RecordTest
+    {
+        [helpstring("Item Handle")]     ULONGLONG       itemId;
+        [helpstring("Item Quality")]    LONG            quality;
+        [helpstring("Item MxQuality")]  LONG            mxQuality;
+    } RecordTest;
+
+    importlib("stdole32.tlb");
+    importlib("stdole2.tlb");
+
+};

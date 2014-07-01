@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diagnostics2005", "..\..\..\..\..\..\src\Libraries\Diagnostics\Diagnostics2005.csproj", "{6AA052B6-7782-4BF9-8E6F-1B416438C0E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyAndValueCollections2005", "..\..\..\..\..\..\src\Libraries\KeyAndValueCollections\KeyAndValueCollections2005.csproj", "{657877FB-108D-4ED2-AE9B-86AE8C432A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uei2005", "..\..\..\..\..\..\src\Libraries\Uei\Uei2005.csproj", "{2ADFEA68-EE78-41D4-B629-7A1E680BA369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SLIrDatabaseIO2005", "..\..\..\..\..\..\src\Libraries\IRDatabase\SLIrDatabaseIO\SLIrDatabaseIO2005.csproj", "{1A579E89-526A-4311-B9A9-5F52E345D74F}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 4
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\Diagnostics\\Diagnostics2005.csproj
+		SccProjectName0 = $/Libraries/Diagnostics
+		SccLocalPath0 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\Diagnostics
+		SccProvider0 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\KeyAndValueCollections\\KeyAndValueCollections2005.csproj
+		SccProjectName1 = $/Libraries/KeyAndValueCollections
+		SccLocalPath1 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\KeyAndValueCollections
+		SccProvider1 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\Uei\\Uei2005.csproj
+		SccProjectName2 = $/Libraries/Uei
+		SccLocalPath2 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\Uei
+		SccProvider2 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+		SccProjectUniqueName3 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\IRDatabase\\SLIrDatabaseIO\\SLIrDatabaseIO2005.csproj
+		SccProjectName3 = $/Libraries/IRDatabase/SLIrDatabaseIO
+		SccLocalPath3 = ..\\..\\..\\..\\..\\..\\src\\Libraries\\IRDatabase\\SLIrDatabaseIO
+		SccProvider3 = MSSCCI:SourceGear\u0020Vault\u0020Client
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AA052B6-7782-4BF9-8E6F-1B416438C0E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA052B6-7782-4BF9-8E6F-1B416438C0E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA052B6-7782-4BF9-8E6F-1B416438C0E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA052B6-7782-4BF9-8E6F-1B416438C0E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{657877FB-108D-4ED2-AE9B-86AE8C432A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{657877FB-108D-4ED2-AE9B-86AE8C432A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{657877FB-108D-4ED2-AE9B-86AE8C432A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{657877FB-108D-4ED2-AE9B-86AE8C432A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADFEA68-EE78-41D4-B629-7A1E680BA369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADFEA68-EE78-41D4-B629-7A1E680BA369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADFEA68-EE78-41D4-B629-7A1E680BA369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADFEA68-EE78-41D4-B629-7A1E680BA369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A579E89-526A-4311-B9A9-5F52E345D74F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A579E89-526A-4311-B9A9-5F52E345D74F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A579E89-526A-4311-B9A9-5F52E345D74F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A579E89-526A-4311-B9A9-5F52E345D74F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

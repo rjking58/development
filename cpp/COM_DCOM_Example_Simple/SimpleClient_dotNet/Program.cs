@@ -15,6 +15,7 @@ namespace SimpleClient_dotNet
         // this does the trick for COM.. otherwise it defaults to MTA, and
         // manual marshalling is in effect.
         [STAThread]
+        //[MTAThread]
         static void Main(string[] args)
         {
 #if false

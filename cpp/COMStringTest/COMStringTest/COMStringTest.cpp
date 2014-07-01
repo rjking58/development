@@ -69,15 +69,17 @@ void CopyLeakTest()
     ::Sleep(30000);
     for(int x = 1; x < 1000000; x++)
     {
+        int *z = new int[4];
+
         BSTR myBstr = SysAllocString(L"weeeeeee  wooho yo yo yo");
 
         // copy sematics, AAComBSTR
-        AAComBSTR selfDeleting = myBstr;
+        //AAComBSTR selfDeleting = myBstr;
         // copy semantics _bstr_t
-        _bstr_t selfDeleting2;
-        selfDeleting2.Assign(myBstr);
+        //_bstr_t selfDeleting2;
+        //selfDeleting2.Assign(myBstr);
 
-        SysFreeString(myBstr);
+        //SysFreeString(myBstr);
     }
     std::cout << " after test " << std::endl;
     ::Sleep(30000);

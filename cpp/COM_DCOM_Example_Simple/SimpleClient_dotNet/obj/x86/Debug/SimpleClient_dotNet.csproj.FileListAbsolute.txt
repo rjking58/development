@@ -8,5 +8,8 @@ C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\bin\Debug\Sim
 C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
 C:\Volatile\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.exe
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\bin\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.csprojResolveAssemblyReference.cache
 C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
 C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb

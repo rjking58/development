@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include\atlbase.h;;1;0;0
+C:\Volatile\Development\Source\cpp\SafeArrayCopy\SafeArrayCopy\theMainLoop.cpp;;2;0;0
+C:\Volatile\Development\Source\cpp\SafeArrayCopy\SafeArrayCopy\RecordTest.idl;;3;0;0
+C:\Volatile\Development\Source\cpp\SafeArrayCopy\SafeArrayCopy\stdafx.cpp;;4;0;0

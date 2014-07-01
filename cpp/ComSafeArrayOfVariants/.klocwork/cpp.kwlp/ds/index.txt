@@ -1,0 +1,1 @@
+C:\Volatile\Development\Source\cpp\ComSafeArrayOfVariants\ComSafeArrayOfVariants\ComSafeArrayOfVariants.cpp;C:\Volatile\Development\Source\cpp\ComSafeArrayOfVariants\.klocwork\cpp.kwlp\ds\4\5iexgqut.kim;4;0;0

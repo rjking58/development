@@ -1,0 +1,5 @@
+C:\Volatile\Development\Source\csharp\TimePassed\TimePassed\bin\Debug\TimePassed.exe.config
+C:\Volatile\Development\Source\csharp\TimePassed\TimePassed\bin\Debug\TimePassed.exe
+C:\Volatile\Development\Source\csharp\TimePassed\TimePassed\bin\Debug\TimePassed.pdb
+C:\Volatile\Development\Source\csharp\TimePassed\TimePassed\obj\Debug\TimePassed.exe
+C:\Volatile\Development\Source\csharp\TimePassed\TimePassed\obj\Debug\TimePassed.pdb

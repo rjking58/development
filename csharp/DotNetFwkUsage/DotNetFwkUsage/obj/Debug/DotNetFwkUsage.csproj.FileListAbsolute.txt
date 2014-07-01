@@ -1,0 +1,8 @@
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\bin\Debug\DotNetFwkUsage.exe.config
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\bin\Debug\DotNetFwkUsage.exe
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\bin\Debug\DotNetFwkUsage.pdb
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\bin\Debug\directUseDLL.dll
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\bin\Debug\directUseDLL.pdb
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\obj\Debug\DotNetFwkUsage.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\obj\Debug\DotNetFwkUsage.exe
+C:\Volatile\Development\Source\csharp\DotNetFwkUsage\DotNetFwkUsage\obj\Debug\DotNetFwkUsage.pdb

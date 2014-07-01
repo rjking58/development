@@ -1,0 +1,108 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: FileSystem, Configuration: Debug|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>This edition of Visual C++ does not support the optimizing compiler.
+Creating temporary file "c:\Volatile\Source\Cprogs\Cpp\Vcpp\ParaSoftTest\FileSystem\Debug\RSP00000A.rsp" with contents
+[
+/D "WIN32" /D "_DEBUG" /D "_MBCS" /FD /EHsc /MTd /GS /Fo"Debug/" /Fd"Debug/vc70.pdb" /W3 /c /Zi /TP
+.\FileSystem.cpp
+]
+Creating command line "cl.exe @c:\Volatile\Source\Cprogs\Cpp\Vcpp\ParaSoftTest\FileSystem\Debug\RSP00000A.rsp /nologo"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+FileSystem.cpp
+FileSystem.cpp(6) : error C2146: syntax error : missing ')' before identifier 'FullPathName'
+FileSystem.cpp(6) : error C2146: syntax error : missing ';' before identifier 'FullPathName'
+FileSystem.cpp(6) : error C2460: 'FSystemEntry::CString' : uses 'FSystemEntry', which is being defined
+        FileSystem.cpp(4) : see declaration of 'FSystemEntry'
+FileSystem.cpp(6) : error C2501: 'FSystemEntry::FullPathName' : missing storage-class or type specifiers
+FileSystem.cpp(6) : error C2143: syntax error : missing ';' before '*'
+FileSystem.cpp(6) : error C2461: 'FSystemEntry' : constructor syntax missing formal parameters
+FileSystem.cpp(6) : error C2059: syntax error : ')'
+FileSystem.cpp(6) : error C2501: 'FSystemEntry::ParentEntry' : missing storage-class or type specifiers
+FileSystem.cpp(10) : error C2146: syntax error : missing ';' before identifier 'GetFUllPathName'
+FileSystem.cpp(10) : error C2501: 'FSystemEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(10) : warning C4183: 'GetFUllPathName': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(14) : error C2146: syntax error : missing ';' before identifier 'GetName'
+FileSystem.cpp(14) : error C2433: 'FSystemEntry::CString' : 'virtual' not permitted on data declarations
+FileSystem.cpp(14) : error C2501: 'FSystemEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(14) : warning C4183: 'GetName': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(15) : error C2146: syntax error : missing ';' before identifier 'GetBooleanAttribute'
+FileSystem.cpp(15) : error C2433: 'FSystemEntry::boolean' : 'virtual' not permitted on data declarations
+FileSystem.cpp(15) : error C2501: 'FSystemEntry::boolean' : missing storage-class or type specifiers
+FileSystem.cpp(15) : warning C4183: 'GetBooleanAttribute': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(21) : error C2146: syntax error : missing ';' before identifier 'mFullPathName'
+FileSystem.cpp(21) : error C2501: 'FSystemEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(21) : error C2501: 'FSystemEntry::mFullPathName' : missing storage-class or type specifiers
+FileSystem.cpp(14) : error C2253: 'FSystemEntry::GetName' : pure specifier only applies to virtual function - specifier ignored
+FileSystem.cpp(15) : error C2253: 'FSystemEntry::GetBooleanAttribute' : pure specifier only applies to virtual function - specifier ignored
+FileSystem.cpp(27) : error C2146: syntax error : missing ')' before identifier 'FileName'
+FileSystem.cpp(27) : error C2146: syntax error : missing ';' before identifier 'FileName'
+FileSystem.cpp(27) : error C2460: 'FileEntry::CString' : uses 'FileEntry', which is being defined
+        FileSystem.cpp(24) : see declaration of 'FileEntry'
+FileSystem.cpp(27) : error C2501: 'FileEntry::FileName' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2146: syntax error : missing ';' before identifier 'FullPathName'
+FileSystem.cpp(27) : error C2501: 'FileEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2501: 'FileEntry::FullPathName' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2146: syntax error : missing ';' before identifier 'FileData'
+FileSystem.cpp(27) : error C2501: 'FileEntry::WIN32_FIND_DATA' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2501: 'FileEntry::FileData' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2143: syntax error : missing ';' before '*'
+FileSystem.cpp(27) : error C2501: 'FileEntry::FSystemEntry' : missing storage-class or type specifiers
+FileSystem.cpp(27) : error C2059: syntax error : ')'
+FileSystem.cpp(27) : error C2864: 'ParentEntry' : only const static integral data members can be initialized inside a class or struct
+FileSystem.cpp(27) : error C2501: 'FileEntry::ParentEntry' : missing storage-class or type specifiers
+FileSystem.cpp(32) : error C2146: syntax error : missing ';' before identifier 'GetName'
+FileSystem.cpp(32) : error C2501: 'FileEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(32) : warning C4183: 'GetName': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(33) : error C2146: syntax error : missing ';' before identifier 'GetTreeItem'
+FileSystem.cpp(33) : error C2501: 'FileEntry::HTREEITEM' : missing storage-class or type specifiers
+FileSystem.cpp(33) : warning C4183: 'GetTreeItem': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(39) : error C2146: syntax error : missing ';' before identifier 'mFileName'
+FileSystem.cpp(39) : error C2501: 'FileEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(39) : error C2501: 'FileEntry::mFileName' : missing storage-class or type specifiers
+FileSystem.cpp(45) : error C2146: syntax error : missing ')' before identifier 'DirName'
+FileSystem.cpp(45) : error C2146: syntax error : missing ';' before identifier 'DirName'
+FileSystem.cpp(45) : error C2460: 'DirEntry::CString' : uses 'DirEntry', which is being defined
+        FileSystem.cpp(42) : see declaration of 'DirEntry'
+FileSystem.cpp(45) : error C2501: 'DirEntry::DirName' : missing storage-class or type specifiers
+FileSystem.cpp(45) : error C2146: syntax error : missing ';' before identifier 'FullPathName'
+FileSystem.cpp(45) : error C2501: 'DirEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(45) : error C2501: 'DirEntry::FullPathName' : missing storage-class or type specifiers
+FileSystem.cpp(45) : error C2143: syntax error : missing ';' before '*'
+FileSystem.cpp(45) : error C2501: 'DirEntry::FSystemEntry' : missing storage-class or type specifiers
+FileSystem.cpp(45) : error C2059: syntax error : ')'
+FileSystem.cpp(45) : error C2864: 'ParentEntry' : only const static integral data members can be initialized inside a class or struct
+FileSystem.cpp(45) : error C2501: 'DirEntry::ParentEntry' : missing storage-class or type specifiers
+FileSystem.cpp(52) : error C2146: syntax error : missing ';' before identifier 'GetName'
+FileSystem.cpp(52) : error C2501: 'DirEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(52) : warning C4183: 'GetName': missing return type; assumed to be a member function returning 'int'
+FileSystem.cpp(56) : error C2143: syntax error : missing ';' before '<'
+FileSystem.cpp(56) : error C2501: 'DirEntry::CTypedPtrArray' : missing storage-class or type specifiers
+FileSystem.cpp(56) : error C2238: unexpected token(s) preceding ';'
+FileSystem.cpp(57) : error C2146: syntax error : missing ';' before identifier 'mDirName'
+FileSystem.cpp(57) : error C2501: 'DirEntry::CString' : missing storage-class or type specifiers
+FileSystem.cpp(57) : error C2501: 'DirEntry::mDirName' : missing storage-class or type specifiers
+FileSystem.cpp(58) : error C2146: syntax error : missing ';' before identifier 'mTreeStruct'
+FileSystem.cpp(58) : error C2501: 'DirEntry::TV_INSERTSTRUCT' : missing storage-class or type specifiers
+FileSystem.cpp(58) : error C2501: 'DirEntry::mTreeStruct' : missing storage-class or type specifiers
+FileSystem.cpp(59) : error C2146: syntax error : missing ';' before identifier 'mTreeItemHandle'
+FileSystem.cpp(59) : error C2501: 'DirEntry::HTREEITEM' : missing storage-class or type specifiers
+FileSystem.cpp(59) : error C2501: 'DirEntry::mTreeItemHandle' : missing storage-class or type specifiers
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://c:\Volatile\Source\Cprogs\Cpp\Vcpp\ParaSoftTest\FileSystem\Debug\BuildLog.htm"
+FileSystem - 69 error(s), 6 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

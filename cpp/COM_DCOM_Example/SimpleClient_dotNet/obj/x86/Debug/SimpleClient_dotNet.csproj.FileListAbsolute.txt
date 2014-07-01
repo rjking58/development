@@ -10,3 +10,5 @@ C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\bin\Debug\SimpleC
 C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
 C:\Development\SOURCE\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.exe
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\SimpleClient_dotNet\obj\x86\Debug\SimpleClient_dotNet.pdb

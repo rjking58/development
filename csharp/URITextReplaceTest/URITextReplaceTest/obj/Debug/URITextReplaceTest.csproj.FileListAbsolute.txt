@@ -1,0 +1,6 @@
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\bin\Debug\URITextReplaceTest.exe.config
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\bin\Debug\URITextReplaceTest.exe
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\bin\Debug\URITextReplaceTest.pdb
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\obj\Debug\URITextReplaceTest.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\obj\Debug\URITextReplaceTest.exe
+C:\Volatile\Development\Source\csharp\URITextReplaceTest\URITextReplaceTest\obj\Debug\URITextReplaceTest.pdb

@@ -1,0 +1,2 @@
+C:\Volatile\Development\Source\cpp\lambdas\lambdas\lambdas.cpp;;1;0;0
+c:\program files (x86)\microsoft visual studio 11.0\vc\include\algorithm;;2;0;0

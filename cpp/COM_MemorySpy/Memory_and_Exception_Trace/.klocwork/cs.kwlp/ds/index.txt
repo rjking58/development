@@ -1,0 +1,3 @@
+C:\Volatile\Development\Source\cpp\COM_MemorySpy\Memory_and_Exception_Trace\main.cpp;;1;0;0
+C:\Volatile\Development\Source\cpp\COM_MemorySpy\Memory_and_Exception_Trace\Stackwalker.h;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_MemorySpy\Memory_and_Exception_Trace\Stackwalker.cpp;;3;0;0

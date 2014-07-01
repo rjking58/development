@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFwkUsage", "DotNetFwkUsage\DotNetFwkUsage.csproj", "{1F3CADB8-11D7-4D84-8D00-A78EED09F472}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA1DA206-664A-4D35-A214-3354DE73D4EF} = {FA1DA206-664A-4D35-A214-3354DE73D4EF}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "directUseDLL", "directUseDLL\directUseDLL.csproj", "{FA1DA206-664A-4D35-A214-3354DE73D4EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3CADB8-11D7-4D84-8D00-A78EED09F472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3CADB8-11D7-4D84-8D00-A78EED09F472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3CADB8-11D7-4D84-8D00-A78EED09F472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3CADB8-11D7-4D84-8D00-A78EED09F472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA1DA206-664A-4D35-A214-3354DE73D4EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1DA206-664A-4D35-A214-3354DE73D4EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1DA206-664A-4D35-A214-3354DE73D4EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1DA206-664A-4D35-A214-3354DE73D4EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

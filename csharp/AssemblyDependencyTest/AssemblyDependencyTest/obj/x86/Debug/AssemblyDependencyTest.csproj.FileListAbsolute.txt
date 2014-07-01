@@ -1,0 +1,7 @@
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\bin\Debug\AssemblyDependencyTest.exe
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\bin\Debug\AssemblyDependencyTest.pdb
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\obj\x86\Debug\AssemblyDependencyTest.exe
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\obj\x86\Debug\AssemblyDependencyTest.pdb
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\bin\Debug\MyAssembly.dll
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\bin\Debug\MyAssembly.pdb
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\AssemblyDependencyTest\obj\x86\Debug\AssemblyDependencyTest.csprojResolveAssemblyReference.cache

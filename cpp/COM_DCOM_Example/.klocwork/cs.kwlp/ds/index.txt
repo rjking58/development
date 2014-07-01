@@ -1,0 +1,10 @@
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\SimpleClient_dotNet\Program.cs;;1;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\SimpleChatServer.cpp;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\SimpleClient\SimpleClient.cpp;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.cpp;;4;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\dllmain.cpp;;5;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\stdafx.cpp;;6;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\stdafx.h;;7;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.idl;;8;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.def;;9;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example\COM_DCOM_Example_Simple\SimpleChatServer.h;;10;0;0

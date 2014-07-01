@@ -4,6 +4,8 @@
 #include "resource.h"
 #include "COM_DCOM_Example_Simple_i.h"
 #include "dllmain.h"
+// I *think* MTA..
+//#define _ATL_APARTMENT_THREADED
 
 CCOM_DCOM_Example_SimpleModule _AtlModule;
 

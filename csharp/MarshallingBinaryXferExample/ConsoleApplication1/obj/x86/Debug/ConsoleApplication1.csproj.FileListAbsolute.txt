@@ -12,3 +12,10 @@ C:\Volatile\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\bin\D
 C:\Volatile\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Volatile\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
 C:\Volatile\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\bin\Debug\BinaryXfer.dll
+C:\Volatile\Development\Source\csharp\MarshallingBinaryXferExample\ConsoleApplication1\bin\Debug\BinaryXfer.pdb

@@ -1,10 +1,22 @@
-c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcom.h;;3;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\SimpleChatServer.cpp;;4;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\SimpleClient.cpp;;5;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.cpp;;6;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.def;;7;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.h;;8;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\targetver.h;;9;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.cpp;;10;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.idl;;11;0;0
-C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\Program.cs;;1;0;0
+c:\program files (x86)\microsoft visual studio 10.0\vc\atlmfc\include\atlcom.h;;1;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\SimpleChatServer.cpp;;2;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\SimpleClient.cpp;;3;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.cpp;;4;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.def;;5;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.h;;6;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\targetver.h;;7;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient\stdafx.cpp;;8;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple.idl;;9;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\SimpleClient_dotNet\Program.cs;C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\.klocwork\cs.kwlp\ds\0\khsxmbfs.dfs;10;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\dllmain.cpp;;12;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\stdafx.cpp;;13;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\ReadMe.txt;;14;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\dllmain.h;;15;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\Resource.h;;16;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\SimpleChatServer.h;;17;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple_i.h;;18;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simpleps.def;;19;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\dlldata.c;;20;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple_p.c;;21;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\stdafx.h;;22;0;0
+C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\makeinteropassembly\prepforinterop.txt;;23;0;0

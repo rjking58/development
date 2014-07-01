@@ -1,1 +1,35 @@
-﻿COM_DCOM_Example_Simple_i.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+﻿Build started 4/17/2014 5:55:29 PM.
+     1>Project "C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_SimplePS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\COM_DCOM_Example_SimplePS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         Description: Checking for required files
+         if exist dlldata.c goto :END
+         echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+         Exit 1
+         :END
+         
+         :VCEnd
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D REGISTER_PROXY_DLL /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt COM_DCOM_Example_Simple_i.c
+         COM_DCOM_Example_Simple_i.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.dll" /NOLOGO kernel32.lib rpcns4.lib rpcrt4.lib oleaut32.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"COM_DCOM_Example_SimplePS.def" /MANIFEST /ManifestFile:"Debug\COM_DCOM_Example_SimplePS.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.lib" /MACHINE:X86 /DLL Debug\COM_DCOM_Example_Simple_i.obj
+         Debug\COM_DCOM_Example_Simple_p.obj
+         Debug\dlldata.obj
+     1>COM_DCOM_Example_Simple_i.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+            Creating library C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.lib and object C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.exp
+         COM_DCOM_Example_SimplePS.vcxproj -> C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.dll;#2" /manifest Debug\COM_DCOM_Example_SimplePS.dll.intermediate.manifest
+       RegisterOutput:
+         regsvr32 /s "C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\Debug\COM_DCOM_Example_SimplePS.dll"
+       FinalizeBuildStatus:
+         Deleting file "Debug\COM_DCOM_Example_SimplePS.unsuccessfulbuild".
+         Touching "Debug\COM_DCOM_Example_SimplePS.lastbuildstate".
+     1>Done Building Project "C:\Volatile\Development\Source\cpp\COM_DCOM_Example_Simple\COM_DCOM_Example_Simple\COM_DCOM_Example_SimplePS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.28

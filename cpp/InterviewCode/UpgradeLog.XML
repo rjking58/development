@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="InterviewCode">
+</Property><Property Name="Solution File" Value="C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode.sln">
+</Property><Property Name="User Options File" Value="C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode.suo">
+</Property><Property Name="Date" Value="Thursday, January 23, 2014">
+</Property><Property Name="Time" Value="16:05 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="InterviewCode.sln" Description="File successfully backed up as C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="InterviewCode.suo" Description="File successfully backed up as C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode.suo.old">
+</Event><Event ErrorLevel="0" Project="InterviewCode" Source="InterviewCode\InterviewCode.vcproj" Description="Converting project file 'C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode\InterviewCode.vcproj'.">
+</Event><Event ErrorLevel="1" Project="InterviewCode" Source="InterviewCode\InterviewCode.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="InterviewCode" Source="InterviewCode\InterviewCode.vcproj" Description="Done converting to new project file 'C:\Volatile\Development\Source\cpp\InterviewCode\InterviewCode\InterviewCode.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="InterviewCode" Source="InterviewCode\InterviewCode.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Interview2WithPointer" Source="Interview2WithPointer\Interview2WithPointer.vcproj" Description="Converting project file 'C:\Volatile\Development\Source\cpp\InterviewCode\Interview2WithPointer\Interview2WithPointer.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Interview2WithPointer" Source="Interview2WithPointer\Interview2WithPointer.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="Interview2WithPointer" Source="Interview2WithPointer\Interview2WithPointer.vcproj" Description="Done converting to new project file 'C:\Volatile\Development\Source\cpp\InterviewCode\Interview2WithPointer\Interview2WithPointer.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Interview2WithPointer" Source="Interview2WithPointer\Interview2WithPointer.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="InterviewCode.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="InterviewCode.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,4 @@
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\MyAssemblyV2\bin\Debug\MyAssembly.dll
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\MyAssemblyV2\bin\Debug\MyAssembly.pdb
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\MyAssemblyV2\obj\Debug\MyAssembly.dll
+C:\Volatile\Development\Source\csharp\AssemblyDependencyTest\MyAssemblyV2\obj\Debug\MyAssembly.pdb
