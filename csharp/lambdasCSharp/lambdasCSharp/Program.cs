@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// https://msdn.microsoft.com/en-us/library/bb397687.aspx
+
 namespace lambdasCSharp
 {
     class Program
@@ -12,11 +14,41 @@ namespace lambdasCSharp
         delegate int simpleLambdaDel(int x);
         delegate void printingLambdaDel(int x);
 
+        delegate bool D();
+        delegate bool D2(int i);
+
+        D del;
+        D2 del2;
+
+        public void TestMethod(int input)
+        {
+            int j = 0;
+            // Initialize the delegates with lambda expressions.
+            // Note access to 2 outer variables.
+            // del will be invoked within this method.
+            del = () => { j = 10; return j > input; };
+
+            // del2 will be invoked after TestMethod goes out of scope.
+            del2 = (x) => { return x == j; };
+
+            // Demonstrate value of j:
+            // Output: j = 0 
+            // The delegate has not been invoked yet.
+            Console.WriteLine("j = {0}", j);        // Invoke the delegate.
+            bool boolResult = del();
+
+            // Output: j = 10 b = True
+            Console.WriteLine("j = {0}. b = {1}", j, boolResult);
+        }
+
+
+
         struct s1
         {
             public string s1_str;
             public int s1_int;
         }
+
 
         static void Main(string[] args)
         {
@@ -45,7 +77,7 @@ namespace lambdasCSharp
                                     "strawberry" };
 
             // Where in this case is declared as:
-            //    WHere<string>( Func<string, bool> predicate)
+            //    Where<string>( Func<string, bool> predicate)
             //                        ^param  ^retval
             IEnumerable<string> query = fruits.Where(fruit => fruit.Length < 6);
 
@@ -72,6 +104,21 @@ namespace lambdasCSharp
             {
                 Console.WriteLine(s1Inst.s1_str);
             }
+
+            // example of outer variable capture for lambda..   
+            Program prgrm = new Program();
+            prgrm.TestMethod(5);
+
+            // Prove that del2 still has a copy of
+            // local variable j from TestMethod.
+            bool bool_result = prgrm.del2(10);
+
+            // Output: True
+            Console.WriteLine(bool_result);
+
+            Console.ReadKey();
+
+
         }
     }
 }
