@@ -4,6 +4,7 @@ using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SimpleTrace;
 using System.Diagnostics;
+using System.IO;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace TestTracer
         [TestMethod]
         public void SimpleTrace_BasicFunctionality()
         {
-            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\trace1.txt");
+            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\q\\r\\s\\trace1.txt");
             st.WriteLine("a");
             st.WriteLine("b");
             st.WriteLine("c");
@@ -41,7 +42,7 @@ namespace TestTracer
         public void SimpleTrace_ParallelTaskTest()
         {
 
-            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\parallel.txt");
+            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\x\\y\\z\\parallel.txt");
 
             Action printVals = () =>
                 {
@@ -64,5 +65,6 @@ namespace TestTracer
             st.closeTrace();
 
         }
+
     }
 }

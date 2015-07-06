@@ -20,7 +20,20 @@ namespace SimpleTrace
             {
                 if (!s_initialized)
                 {
+                    FileInfo fi = new FileInfo(filename);
+
+                    string fDir = fi.DirectoryName;
+                    if(fDir.Length > 0)
+                    {
+                        DirectoryInfo di = new DirectoryInfo(fDir);
+                        if( ! di.Exists)
+                        {
+                            Directory.CreateDirectory(fDir);
+                        }
+                    }
                     s_sw = new StreamWriter(filename, true);
+
+                    
                     s_initialized = true;
                 }
             }
