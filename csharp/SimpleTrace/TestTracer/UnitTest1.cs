@@ -26,14 +26,14 @@ namespace TestTracer
         [TestMethod]
         public void SimpleTrace_BasicFunctionality()
         {
-            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\q\\r\\s\\trace1.txt");
+            RjkSimpleTrace st = new RjkSimpleTrace("c:\\temp\\q\\r\\s\\trace1.txt");
             st.WriteLine("a");
             st.WriteLine("b");
             st.WriteLine("c");
             st.WriteLine("d");
             st.WriteLine("e");
 
-            st.closeTrace();
+            st.FlushCache();
         }
 
 
@@ -42,12 +42,12 @@ namespace TestTracer
         public void SimpleTrace_ParallelTaskTest()
         {
 
-            RJKSimpleTrace st = new RJKSimpleTrace("c:\\temp\\x\\y\\z\\parallel.txt");
+            RjkSimpleTrace st = new RjkSimpleTrace("c:\\temp\\x\\y\\z\\parallel.txt");
 
             Action printVals = () =>
                 {
                     int id = GetNextID();
-                    RJKSimpleTrace stx = new RJKSimpleTrace();
+                    RjkSimpleTrace stx = new RjkSimpleTrace();
                     for (int val = 0; val < 1000; val++)
                         stx.WriteLine(string.Format("[{0}]:{1}", id, val));
                 };
@@ -62,7 +62,7 @@ namespace TestTracer
             tA.Wait();
             tB.Wait();
             tC.Wait();
-            st.closeTrace();
+            st.FlushCache();
 
         }
 
