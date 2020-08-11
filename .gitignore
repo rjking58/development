@@ -10,3 +10,7 @@
 *.pch
 *.usr
 *.ipch
+obj/
+x86/
+debug/
+release/

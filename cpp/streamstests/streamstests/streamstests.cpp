@@ -18,6 +18,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		std::cout << x << "<<" << std::endl;
 	}
 
+    // write a stream first, then write the stream to a file..
+
 
 
 	return 0;

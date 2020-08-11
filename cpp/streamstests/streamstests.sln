@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamstests", "streamstests\streamstests.vcproj", "{1DC6D0E0-13CF-4502-B8B8-9D6D7CDCB760}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "streamstests", "streamstests\streamstests.vcxproj", "{1DC6D0E0-13CF-4502-B8B8-9D6D7CDCB760}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
